@@ -1,0 +1,60 @@
+# CaseAlerta
+> Bilingual (English/Spanish) USCIS case status alerts and plain-language explanations. By VARGER Group LLC. No ads, no data sales. Not legal advice.
+
+## USCIS statuses explained (English)
+- [Case Was Received](https://casealerta.com/status/case-was-received/): USCIS got your application and opened your case. This is the normal first step.
+- [Case Was Received and A Receipt Notice Was Sent](https://casealerta.com/status/case-was-received-and-a-receipt-notice-was-sent/): USCIS accepted your case and mailed you a receipt notice with your case number.
+- [Fingerprint Fee Was Received](https://casealerta.com/status/fingerprint-fee-was-received/): USCIS received the fee for your fingerprints and photo (biometrics).
+- [Fingerprint Review Was Completed](https://casealerta.com/status/fingerprint-review-was-completed/): Your fingerprints and background check were processed. Your case moves on to review.
+- [Case Is Being Actively Reviewed By USCIS](https://casealerta.com/status/case-is-being-actively-reviewed-by-uscis/): An officer is reviewing your file. This status can stay for a long time, and that is normal.
+- [Case Is Ready To Be Scheduled For An Interview](https://casealerta.com/status/case-is-ready-to-be-scheduled-for-an-interview/): Your case is ready for an interview. USCIS will send you a letter with the date.
+- [Interview Was Scheduled](https://casealerta.com/status/interview-was-scheduled/): USCIS set a date for your interview. The notice says the place, day and time.
+- [Interview Was Completed And My Case Must Be Reviewed](https://casealerta.com/status/interview-was-completed-and-my-case-must-be-reviewed/): Your interview is done. The officer still needs to finish the review before deciding.
+- [Request for Additional Evidence Was Sent](https://casealerta.com/status/request-for-additional-evidence-was-sent/): It is not a denial. USCIS needs more documents and will mail you a letter (RFE) with the exact list.
+- [Request For Initial Evidence Was Sent](https://casealerta.com/status/request-for-initial-evidence-was-sent/): Something required was missing when you filed. USCIS will mail a letter saying what to send.
+- [Response To USCIS' Request For Evidence Was Received](https://casealerta.com/status/response-to-uscis-request-for-evidence-was-received/): USCIS got the documents you sent. Your case goes back to review.
+- [Case Was Transferred And A New Office Has Jurisdiction](https://casealerta.com/status/case-was-transferred-and-a-new-office-has-jurisdiction/): Your case moved to another USCIS office to balance the workload. It is routine.
+- [Case Was Approved](https://casealerta.com/status/case-was-approved/): Good news: USCIS approved your case. You will receive an approval notice by mail.
+- [New Card Is Being Produced](https://casealerta.com/status/new-card-is-being-produced/): Your card is being printed. It usually comes after an approval.
+- [Card Was Mailed To Me](https://casealerta.com/status/card-was-mailed-to-me/): USCIS mailed your card. The notice may include a USPS tracking number.
+- [Card Was Picked Up By The United States Postal Service](https://casealerta.com/status/card-was-picked-up-by-the-united-states-postal-service/): The Post Office has your card and is delivering it.
+- [Card Was Delivered To Me By The Post Office](https://casealerta.com/status/card-was-delivered-to-me-by-the-post-office/): USPS says your card was delivered. If you do not have it, act fast.
+- [Document Was Mailed To Me](https://casealerta.com/status/document-was-mailed-to-me/): USCIS mailed you a document, such as a permit or a notice.
+- [Notice Explaining USCIS Actions Was Mailed](https://casealerta.com/status/notice-explaining-uscis-actions-was-mailed/): USCIS mailed a letter explaining something about your case. Read it as soon as it arrives.
+- [Case Was Denied](https://casealerta.com/status/case-was-denied/): USCIS denied the case. The denial letter explains why and what options you may have.
+- [Case Was Reopened](https://casealerta.com/status/case-was-reopened/): USCIS reopened your case for review.
+- [Case Rejected Because I Sent An Incorrect Fee](https://casealerta.com/status/case-rejected-because-i-sent-an-incorrect-fee/): USCIS returned the application because the fee was wrong. It was not reviewed.
+- [Expedite Request Received](https://casealerta.com/status/expedite-request-received/): USCIS received your request to speed up the case. They will decide if it qualifies.
+- [Withdrawal Acknowledgement Notice Was Sent](https://casealerta.com/status/withdrawal-acknowledgement-notice-was-sent/): USCIS confirmed that the case was withdrawn.
+- [Name Was Updated](https://casealerta.com/status/name-was-updated/): USCIS updated the name on your case.
+
+## Estatus de USCIS explicados (español)
+- [Caso Recibido](https://casealerta.com/estatus/caso-recibido/): USCIS recibió tu solicitud y abrió tu caso. Es el primer paso normal.
+- [Caso Recibido y Se Envió un Aviso de Recibo](https://casealerta.com/estatus/caso-recibido-y-se-envio-un-aviso-de-recibo/): USCIS aceptó tu caso y te envió por correo un aviso de recibo con tu número de caso.
+- [Se Recibió el Pago de Huellas](https://casealerta.com/estatus/se-recibio-el-pago-de-huellas/): USCIS recibió el pago de tus huellas y foto (biométricos).
+- [Se Completó la Revisión de Huellas](https://casealerta.com/estatus/se-completo-la-revision-de-huellas/): Tus huellas y la revisión de antecedentes ya se procesaron. Tu caso pasa a revisión.
+- [USCIS Está Revisando Activamente el Caso](https://casealerta.com/estatus/uscis-esta-revisando-activamente-el-caso/): Un oficial está revisando tu expediente. Este estatus puede durar mucho tiempo y es normal.
+- [Caso Listo Para Programar Entrevista](https://casealerta.com/estatus/caso-listo-para-programar-entrevista/): Tu caso está listo para una entrevista. USCIS te enviará una carta con la fecha.
+- [Se Programó la Entrevista](https://casealerta.com/estatus/se-programo-la-entrevista/): USCIS fijó la fecha de tu entrevista. El aviso dice lugar, día y hora.
+- [Se Completó la Entrevista y el Caso Debe Revisarse](https://casealerta.com/estatus/se-completo-la-entrevista-y-el-caso-debe-revisarse/): Tu entrevista ya pasó. El oficial todavía debe terminar la revisión antes de decidir.
+- [Se Envió una Solicitud de Evidencia Adicional](https://casealerta.com/estatus/se-envio-una-solicitud-de-evidencia-adicional/): No es una negación. USCIS necesita más documentos y te enviará una carta (RFE) con la lista exacta.
+- [Se Envió una Solicitud de Evidencia Inicial](https://casealerta.com/estatus/se-envio-una-solicitud-de-evidencia-inicial/): Faltó algo obligatorio cuando enviaste tu caso. USCIS te mandará una carta diciendo qué enviar.
+- [Se Recibió la Respuesta a la Solicitud de Evidencia](https://casealerta.com/estatus/se-recibio-la-respuesta-a-la-solicitud-de-evidencia/): USCIS recibió los documentos que enviaste. Tu caso regresa a revisión.
+- [El Caso Fue Transferido a Otra Oficina](https://casealerta.com/estatus/el-caso-fue-transferido-a-otra-oficina/): Tu caso pasó a otra oficina de USCIS para repartir el trabajo. Es algo de rutina.
+- [Caso Aprobado](https://casealerta.com/estatus/caso-aprobado/): Buenas noticias: USCIS aprobó tu caso. Recibirás un aviso de aprobación por correo.
+- [Se Está Produciendo la Nueva Tarjeta](https://casealerta.com/estatus/se-esta-produciendo-la-nueva-tarjeta/): Tu tarjeta se está imprimiendo. Normalmente llega después de una aprobación.
+- [La Tarjeta Fue Enviada por Correo](https://casealerta.com/estatus/la-tarjeta-fue-enviada-por-correo/): USCIS envió tu tarjeta por correo. El aviso puede traer un número de rastreo de USPS.
+- [El Servicio Postal Recogió la Tarjeta](https://casealerta.com/estatus/el-servicio-postal-recogio-la-tarjeta/): El correo (USPS) ya tiene tu tarjeta y la está entregando.
+- [El Correo Entregó la Tarjeta](https://casealerta.com/estatus/el-correo-entrego-la-tarjeta/): USPS dice que tu tarjeta ya se entregó. Si no la tienes, actúa rápido.
+- [Se Envió un Documento por Correo](https://casealerta.com/estatus/se-envio-un-documento-por-correo/): USCIS te envió un documento por correo, como un permiso o un aviso.
+- [Se Envió un Aviso Explicando la Acción de USCIS](https://casealerta.com/estatus/se-envio-un-aviso-explicando-la-accion-de-uscis/): USCIS te envió una carta que explica algo de tu caso. Léela en cuanto llegue.
+- [Caso Negado](https://casealerta.com/estatus/caso-negado/): USCIS negó el caso. La carta de negación explica por qué y qué opciones podrías tener.
+- [El Caso Fue Reabierto](https://casealerta.com/estatus/el-caso-fue-reabierto/): USCIS volvió a abrir tu caso para revisarlo.
+- [Caso Rechazado por Pago Incorrecto](https://casealerta.com/estatus/caso-rechazado-por-pago-incorrecto/): USCIS regresó la solicitud porque el pago estaba mal. No se revisó.
+- [Se Recibió la Solicitud de Acelerar](https://casealerta.com/estatus/se-recibio-la-solicitud-de-acelerar/): USCIS recibió tu petición para acelerar el caso. Decidirán si califica.
+- [Se Envió Confirmación de Retiro](https://casealerta.com/estatus/se-envio-confirmacion-de-retiro/): USCIS confirmó que el caso fue retirado.
+- [Se Actualizó el Nombre](https://casealerta.com/estatus/se-actualizo-el-nombre/): USCIS actualizó el nombre en tu caso.
+
+## Policies
+- [Privacy](https://casealerta.com/privacy/)
+- [Terms](https://casealerta.com/terms/)
