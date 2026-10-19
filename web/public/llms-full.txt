@@ -1,0 +1,226 @@
+# CaseAlerta — full reference
+
+## My USCIS case is not moving: is that normal? How to check processing times
+Date: 2026-10-19 · URL: https://casealerta.com/en/news/my-uscis-case-is-not-moving-is-that-normal/
+
+It is common for a case to go weeks or months without a status change. No movement does not mean there is a problem.
+## How to know if you are on time
+- Open the official USCIS processing times page.
+- Choose your form (for example I-485 or I-765) and the office on your receipt notice.
+- USCIS shows a range. If your case is past that range, you can submit an outside-normal-processing-time inquiry.
+## What to do while you wait
+- Keep your address updated with USCIS (Form AR-11 online).
+- Answer any letter or RFE quickly.
+- Turn on CaseAlerta alerts so you do not have to check every day: we tell you the moment it changes.
+
+Sources: https://egov.uscis.gov/processing-times/; https://www.uscis.gov/addresschange
+
+## USCIS receipt number: what the 3 letters mean (IOE, EAC, WAC, LIN, SRC, MSC)
+Date: 2026-10-19 · URL: https://casealerta.com/en/news/uscis-receipt-number-prefixes-explained/
+
+Your receipt number is on the I-797 notice USCIS sends when it receives your application. It has 13 characters: 3 letters and 10 digits.
+## What the letters mean
+- IOE: filed or processed online (USCIS electronic system).
+- EAC: Vermont Service Center.
+- WAC: California Service Center.
+- LIN: Nebraska Service Center.
+- SRC: Texas Service Center.
+- MSC or NBC: National Benefits Center.
+- YSC: Potomac Service Center.
+## Tips
+- Type it without dashes or spaces, for example IOE0912345678.
+- If your case is transferred, the receipt number does NOT change.
+- Keep the I-797 notice: it proves USCIS received your case.
+
+Sources: https://egov.uscis.gov/; https://www.uscis.gov/forms/filing-guidance/form-i-797-types-and-functions
+
+## I got an RFE from USCIS: what it is and what to do, step by step
+Date: 2026-10-19 · URL: https://casealerta.com/en/news/got-an-rfe-from-uscis-what-to-do/
+
+If your status says "Request for Additional Evidence Was Sent", USCIS will mail you a letter called an RFE. It is not a denial: they need more proof to decide.
+## Step by step
+- Wait for the paper letter and read it fully. It lists exactly what they need and the deadline.
+- List each item and gather one document for each.
+- Put the RFE page on top of your package, as the letter asks.
+- Send EVERYTHING in one package, before the deadline, to the address in the letter.
+- Keep copies of everything and a tracked mailing receipt.
+## After you send it
+- When USCIS receives it, your status will change to "Response To USCIS' Request For Evidence Was Received".
+- If the RFE is complex, talk to an immigration attorney before answering.
+
+Sources: https://www.uscis.gov/policy-manual/volume-1-part-e-chapter-6
+
+## USCIS finalizes the end of the 540-day automatic EAD extension
+Date: 2026-10-14 · URL: https://casealerta.com/en/news/ead-automatic-extension-ends/
+
+On October 14, 2026 the Federal Register published a final rule adopting, without changes, the interim rule on employment authorization documents (EAD, Form I-766). It took effect the same day.
+## What changed
+- The up-to-540-day automatic extension only applies to renewals filed BEFORE October 30, 2025.
+- If you filed your renewal on or after October 30, 2025, your EAD expires on the printed date unless a law, regulation or Federal Register notice says otherwise.
+- Extensions tied to TPS (Temporary Protected Status) and others provided by law or notice are not affected.
+## What to do
+- Check the expiration date on your EAD card today.
+- File your renewal as early as possible: USCIS allows filing up to 180 days before expiration.
+- Track your renewal case so you know the moment it is approved. CaseAlerta alerts you by push and email.
+- If your job depends on your EAD, talk to your employer and, if in doubt, an immigration attorney.
+
+Sources: https://www.federalregister.gov/d/2026-20955; https://www.uscis.gov/i-765
+
+## USCIS proposes ending deference to prior approvals for work visa extensions
+Date: 2026-10-14 · URL: https://casealerta.com/en/news/uscis-proposes-ending-deference-extensions/
+
+On October 14, 2026 USCIS published a proposed rule that would remove 8 CFR 214.1(c)(5). Today that policy lets officers give weight to a prior approval when the facts have not changed.
+## What it would mean
+- Every extension of a work petition or stay (for example H-1B or L-1) would be reviewed as if it were new.
+- The petitioner or applicant must prove eligibility again in full.
+- It is a proposal: it is not in effect yet.
+## What to do
+- Employers: prepare complete extension packages, as if filing for the first time.
+- Anyone can comment at regulations.gov until November 13, 2026.
+- If your extension is pending, track it with CaseAlerta so you can answer fast if USCIS sends a Request for Evidence (RFE).
+
+Sources: https://www.federalregister.gov/d/2026-20941; https://www.regulations.gov/
+
+## October 2026 Visa Bulletin: EB-2 moves forward strongly for Rest of World
+Date: 2026-09-29 · URL: https://casealerta.com/en/news/visa-bulletin-october-2026/
+
+The October 2026 Visa Bulletin opens fiscal year 2027. USCIS stated that employment-based cases use the Dates for Filing chart.
+## Dates for Filing, employment (Rest of World, includes Mexico)
+- EB-1: current.
+- EB-2: March 15, 2026.
+- EB-3 professionals and skilled workers: August 1, 2024.
+- EB-3 other workers: June 1, 2022.
+- EB-4: January 1, 2025.
+- EB-5 unreserved: current.
+## What to do
+- Compare your priority date (on your I-140 or I-130 I-797 notice) with the chart.
+- If your date is earlier than the bulletin date, you may prepare your adjustment of status (I-485) with your attorney.
+- Always confirm dates in the official State Department bulletin: they change every month.
+
+Sources: https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html; https://www.uscis.gov/green-card/green-card-processes-and-procedures/visa-availability-priority-dates/adjustment-of-status-filing-charts-from-the-visa-bulletin; https://www.envoyglobal.com/news-alert/october-2026-visa-bulletin/
+
+## USCIS status: Case Was Received
+USCIS got your application and opened your case. This is the normal first step.
+Next steps: Keep your receipt notice (Form I-797C) safe Watch for a biometrics appointment letter No action needed right now
+URL: https://casealerta.com/status/case-was-received/
+
+## USCIS status: Case Was Received and A Receipt Notice Was Sent
+USCIS accepted your case and mailed you a receipt notice with your case number.
+Next steps: Check your mail for the receipt notice Confirm your name and address are correct Save the receipt number in CaseAlerta
+URL: https://casealerta.com/status/case-was-received-and-a-receipt-notice-was-sent/
+
+## USCIS status: Fingerprint Fee Was Received
+USCIS received the fee for your fingerprints and photo (biometrics).
+Next steps: Wait for your biometrics appointment notice Bring the notice and a photo ID to the appointment
+URL: https://casealerta.com/status/fingerprint-fee-was-received/
+
+## USCIS status: Fingerprint Review Was Completed
+Your fingerprints and background check were processed. Your case moves on to review.
+Next steps: No action needed Next you may get an interview or a decision
+URL: https://casealerta.com/status/fingerprint-review-was-completed/
+
+## USCIS status: Case Is Being Actively Reviewed By USCIS
+An officer is reviewing your file. This status can stay for a long time, and that is normal.
+Next steps: No action needed Answer quickly if USCIS asks for anything Keep your address updated with USCIS
+URL: https://casealerta.com/status/case-is-being-actively-reviewed-by-uscis/
+
+## USCIS status: Case Is Ready To Be Scheduled For An Interview
+Your case is ready for an interview. USCIS will send you a letter with the date.
+Next steps: Watch your mail for the interview notice Start gathering original documents Prepare copies of everything you filed
+URL: https://casealerta.com/status/case-is-ready-to-be-scheduled-for-an-interview/
+
+## USCIS status: Interview Was Scheduled
+USCIS set a date for your interview. The notice says the place, day and time.
+Next steps: Read the interview notice carefully Bring every document the notice lists Arrive early with a photo ID
+URL: https://casealerta.com/status/interview-was-scheduled/
+
+## USCIS status: Interview Was Completed And My Case Must Be Reviewed
+Your interview is done. The officer still needs to finish the review before deciding.
+Next steps: Send anything the officer asked for right away Wait for the decision
+URL: https://casealerta.com/status/interview-was-completed-and-my-case-must-be-reviewed/
+
+## USCIS status: Request for Additional Evidence Was Sent
+It is not a denial. USCIS needs more documents and will mail you a letter (RFE) with the exact list.
+Next steps: Wait for the RFE letter by mail Gather everything it asks for in one package Send it before the deadline on the letter
+URL: https://casealerta.com/status/request-for-additional-evidence-was-sent/
+
+## USCIS status: Request For Initial Evidence Was Sent
+Something required was missing when you filed. USCIS will mail a letter saying what to send.
+Next steps: Wait for the letter Send exactly what it asks for Respect the deadline
+URL: https://casealerta.com/status/request-for-initial-evidence-was-sent/
+
+## USCIS status: Response To USCIS' Request For Evidence Was Received
+USCIS got the documents you sent. Your case goes back to review.
+Next steps: No action needed Keep your mailing receipt
+URL: https://casealerta.com/status/response-to-uscis-request-for-evidence-was-received/
+
+## USCIS status: Case Was Transferred And A New Office Has Jurisdiction
+Your case moved to another USCIS office to balance the workload. It is routine.
+Next steps: No action needed Your receipt number stays the same
+URL: https://casealerta.com/status/case-was-transferred-and-a-new-office-has-jurisdiction/
+
+## USCIS status: Case Was Approved
+Good news: USCIS approved your case. You will receive an approval notice by mail.
+Next steps: Watch for the approval notice If a card applies, it will be produced and mailed Check that your address is correct
+URL: https://casealerta.com/status/case-was-approved/
+
+## USCIS status: New Card Is Being Produced
+Your card is being printed. It usually comes after an approval.
+Next steps: No action needed Make sure USCIS has your current address
+URL: https://casealerta.com/status/new-card-is-being-produced/
+
+## USCIS status: Card Was Mailed To Me
+USCIS mailed your card. The notice may include a USPS tracking number.
+Next steps: Track the envelope with USPS if you have the number Check your mailbox daily
+URL: https://casealerta.com/status/card-was-mailed-to-me/
+
+## USCIS status: Card Was Picked Up By The United States Postal Service
+The Post Office has your card and is delivering it.
+Next steps: Track it with USPS Watch your mailbox
+URL: https://casealerta.com/status/card-was-picked-up-by-the-united-states-postal-service/
+
+## USCIS status: Card Was Delivered To Me By The Post Office
+USPS says your card was delivered. If you do not have it, act fast.
+Next steps: Check your mailbox and with neighbors If it is missing, contact USPS and USCIS
+URL: https://casealerta.com/status/card-was-delivered-to-me-by-the-post-office/
+
+## USCIS status: Document Was Mailed To Me
+USCIS mailed you a document, such as a permit or a notice.
+Next steps: Check your mailbox Read it carefully when it arrives
+URL: https://casealerta.com/status/document-was-mailed-to-me/
+
+## USCIS status: Notice Explaining USCIS Actions Was Mailed
+USCIS mailed a letter explaining something about your case. Read it as soon as it arrives.
+Next steps: Wait for the letter Follow its instructions Consider talking to an attorney if it is unclear
+URL: https://casealerta.com/status/notice-explaining-uscis-actions-was-mailed/
+
+## USCIS status: Case Was Denied
+USCIS denied the case. The denial letter explains why and what options you may have.
+Next steps: Read the denial letter carefully Check deadlines for appeal or motion Talk to an immigration attorney
+URL: https://casealerta.com/status/case-was-denied/
+
+## USCIS status: Case Was Reopened
+USCIS reopened your case for review.
+Next steps: Watch for letters from USCIS Answer any request quickly
+URL: https://casealerta.com/status/case-was-reopened/
+
+## USCIS status: Case Rejected Because I Sent An Incorrect Fee
+USCIS returned the application because the fee was wrong. It was not reviewed.
+Next steps: Check the current fee on uscis.gov File again with the correct fee
+URL: https://casealerta.com/status/case-rejected-because-i-sent-an-incorrect-fee/
+
+## USCIS status: Expedite Request Received
+USCIS received your request to speed up the case. They will decide if it qualifies.
+Next steps: No action needed Keep proof of the urgent reason
+URL: https://casealerta.com/status/expedite-request-received/
+
+## USCIS status: Withdrawal Acknowledgement Notice Was Sent
+USCIS confirmed that the case was withdrawn.
+Next steps: Read the notice If this was a mistake, talk to an attorney
+URL: https://casealerta.com/status/withdrawal-acknowledgement-notice-was-sent/
+
+## USCIS status: Name Was Updated
+USCIS updated the name on your case.
+Next steps: Check that the new name is correct
+URL: https://casealerta.com/status/name-was-updated/
+

@@ -7,7 +7,8 @@ OUT = os.path.join(BASE, "..", "public")
 SITE = "https://casealerta.com"
 FN_URL = "https://uloquxlrghnvbrinfacw.supabase.co/functions/v1/casealerta-uscis-status"
 ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVsb3F1eGxyZ2hudmJyaW5mYWN3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTA5OTYzODYsImV4cCI6MjEwNjU3MjM4Nn0.bFu3nGfCDyGjhvfsTcjJnHYgNoq3h8D8Spo5C7DdvMs"
-TODAY = datetime.date(2026, 10, 19).isoformat()
+TODAY = datetime.date.today().isoformat()
+INDEXNOW_KEY = "c4a5e1a7f0b84d2c9e3a6b1d8f2e7c41"
 E = html.escape
 
 def slugify(s):
@@ -23,10 +24,10 @@ for code, tes, men, mes, sen, ses, kind in rows:
 T = {
  "es": dict(lang="es", tag="ALERTAS DE TU CASO USCIS Y CORTE", other="en", other_label="EN",
             home="/", status_base="/estatus/", privacy="/privacidad/", terms="/terminos/",
-            nav_status="Estatus explicados", cta="Avísame cuando cambie"),
+            nav_status="Estatus explicados", cta="Avísame cuando cambie", news="/noticias/", nav_news="Noticias y guías"),
  "en": dict(lang="en", tag="USCIS & COURT CASE ALERTS", other="es", other_label="ES",
             home="/en/", status_base="/status/", privacy="/privacy/", terms="/terms/",
-            nav_status="Status explained", cta="Alert me when it changes"),
+            nav_status="Status explained", cta="Alert me when it changes", news="/en/news/", nav_news="News & guides"),
 }
 
 ICON = {
@@ -97,6 +98,10 @@ a{color:var(--blue)}a:hover{color:var(--red)}
 .legal{max-width:820px}.legal h1{font-size:32px}.legal h2{font-size:20px;margin-top:28px}.legal p,.legal li{font-size:16px}
 .ftr{background:#fff;margin-top:40px;padding:24px 0;font-size:13px;color:var(--muted);text-align:center}
 .ftr a{margin:0 6px}
+.news{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.ncard{display:flex;gap:14px;align-items:flex-start;background:#fff;border-radius:20px;padding:18px;text-decoration:none;color:var(--navy);box-shadow:0 2px 10px rgba(15,42,92,.08)}
+.ncard>span:last-child{display:flex;flex-direction:column;gap:4px}.ncard small{color:var(--muted);font-weight:700;font-size:12px}.ncard b{font-size:16px;line-height:1.3}.ncard span span{color:var(--muted);font-size:14px}
+.art ul{padding-left:20px}.art li{margin:0 0 8px;font-size:16px}.art .src li{font-size:14px}
 .crumb{font-size:13px;color:#D6E0F2;margin-bottom:14px}.crumb a{color:#D6E0F2;text-decoration:none}
 @media(max-width:640px){.nav a.hide-sm{display:none}}
 """
@@ -107,7 +112,7 @@ def lockup(lang):
             f'<span class="medal"><img src="/sello.png" alt="" width="48" height="48"></span>'
             f'<span class="lock"><span class="word">CASEALERTA</span><span class="rib"></span><span class="tag">{words}</span></span></a>')
 
-def page(lang, title, desc, path, body, alt_path=None, jsonld=None):
+def page(lang, title, desc, path, body, alt_path=None, jsonld=None, og_type="website"):
     t = T[lang]
     alt = alt_path or T[t["other"]]["home"]
     hreflang = ""
@@ -121,17 +126,17 @@ def page(lang, title, desc, path, body, alt_path=None, jsonld=None):
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{E(title)}</title><meta name="description" content="{E(desc)}">
 <link rel="canonical" href="{SITE}{path}">{hreflang}
-<meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(desc)}"><meta property="og:image" content="{SITE}/sello.png"><meta property="og:url" content="{SITE}{path}">
+<meta property="og:type" content="{og_type}"><meta property="og:site_name" content="CaseAlerta"><meta property="og:locale" content="{'es_US' if lang=='es' else 'en_US'}"><meta name="twitter:card" content="summary"><meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(desc)}"><meta property="og:image" content="{SITE}/sello.png"><meta property="og:url" content="{SITE}{path}">
 <link rel="icon" href="/sello.png"><meta name="theme-color" content="#1F4FA0">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700;800&family=Cinzel:wght@700&display=swap">
-<link rel="stylesheet" href="/s.css">{ld}</head><body>
+<link rel="stylesheet" href="/s.css"><link rel="alternate" type="application/rss+xml" title="CaseAlerta" href="{t['news']}rss.xml">{ld}</head><body>
 <header class="hdr"><div class="wrap">{lockup(lang)}
-<nav class="nav" aria-label="{'Principal' if lang=='es' else 'Main'}"><a class="hide-sm" href="{t['status_base']}">{E(t['nav_status'])}</a>
+<nav class="nav" aria-label="{'Principal' if lang=='es' else 'Main'}"><a class="hide-sm" href="{t['status_base']}">{E(t['nav_status'])}</a><a class="hide-sm" href="{t['news']}">{E(t['nav_news'])}</a>
 <a href="{alt}" hreflang="{t['other']}">{ICON['globe']}{t['other_label']}</a><a class="cta" href="{t['home']}#consulta">{ICON['search']}{'Consultar' if lang=='es' else 'Check'}</a></nav></div></header>
 {body}
 <footer class="ftr"><div class="wrap">CaseAlerta · VARGER Group LLC · Conroe, Texas · {'No somos USCIS ni un despacho de abogados. Explicaciones con IA, no es asesoría legal.' if lang=='es' else 'We are not USCIS or a law firm. AI-assisted explanations, not legal advice.'}<br>
-<a href="{t['privacy']}">{'Privacidad' if lang=='es' else 'Privacy'}</a>·<a href="{t['terms']}">{'Términos' if lang=='es' else 'Terms'}</a>·<a href="{t['status_base']}">{E(t['nav_status'])}</a>·<a href="/llms.txt">llms.txt</a></div></footer>
+<a href="{t['privacy']}">{'Privacidad' if lang=='es' else 'Privacy'}</a>·<a href="{t['terms']}">{'Términos' if lang=='es' else 'Terms'}</a>·<a href="{t['status_base']}">{E(t['nav_status'])}</a>·<a href="{t['news']}">{E(t['nav_news'])}</a>·<a href="{t['news']}rss.xml">RSS</a>·<a href="/llms.txt">llms.txt</a></div></footer>
 <script>window.CA={{fn:"{FN_URL}",k:"{ANON}",lang:"{lang}"}};</script><script src="/a.js" defer></script>
 </body></html>"""
 
@@ -155,6 +160,89 @@ def write(path, content):
     os.makedirs(os.path.dirname(full), exist_ok=True)
     open(full, "w", encoding="utf-8").write(content)
 
+def crumbs(lang, items):
+    return {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": n, "item": SITE + u} for i, (n, u) in enumerate(items)]}
+
+NEWS = []
+for fn in sorted(os.listdir(os.path.join(BASE, "news"))):
+    if fn.endswith(".json"):
+        NEWS.append(json.load(open(os.path.join(BASE, "news", fn), encoding="utf-8")))
+NEWS.sort(key=lambda a: (a["date"], a["type"] == "news"), reverse=True)
+MONTHS_ES = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"]
+
+def fdate(lang, d):
+    y, m, dd = map(int, d.split("-"))
+    return f"{dd} de {MONTHS_ES[m-1]} de {y}" if lang == "es" else datetime.date(y, m, dd).strftime("%B %-d, %Y")
+
+def news_path(lang, a):
+    return f'{T[lang]["news"]}{a["slug_" + lang]}/'
+
+def news_cards(lang, items):
+    es = lang == "es"; out = []
+    for a in items:
+        lbl = ("Noticia" if es else "News") if a["type"] == "news" else ("Guía" if es else "Guide")
+        ic = "bell" if a["type"] == "news" else "spark"
+        bg, fg = ("#FCE8EB", "#C8102E") if a["type"] == "news" else ("#FFF4DB", "#9A6400")
+        out.append(f'<a class="ncard" href="{news_path(lang, a)}"><span class="ic" style="background:{bg};color:{fg};width:44px;height:44px;min-width:44px">{ICON[ic]}</span>'
+                   f'<span><small>{lbl} · {fdate(lang, a["date"])}</small><b>{E(a["title_" + lang])}</b><span>{E(a["desc_" + lang])}</span></span></a>')
+    return "".join(out)
+
+def md(lines):
+    h, ul = [], False
+    for ln in lines:
+        if ln.startswith("- "):
+            if not ul: h.append("<ul>"); ul = True
+            h.append(f"<li>{E(ln[2:])}</li>"); continue
+        if ul: h.append("</ul>"); ul = False
+        h.append(f"<h2>{E(ln[3:])}</h2>" if ln.startswith("## ") else f"<p>{E(ln)}</p>")
+    if ul: h.append("</ul>")
+    return "".join(h)
+
+def news_index(lang):
+    es = lang == "es"; t = T[lang]
+    body = f"""<section class="hero" style="padding-bottom:70px"><div class="wrap"><h1>{E(t['nav_news'])}</h1>
+<p class="lead">{'Lo nuevo de USCIS y guías prácticas, explicado en lenguaje claro. Con fuentes oficiales.' if es else 'What is new at USCIS and practical guides, in plain language. With official sources.'}</p></div></section>
+<main class="wrap main-pull"><div class="news">{news_cards(lang, NEWS)}</div></main>"""
+    ld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": t["nav_news"], "url": SITE + t["news"], "inLanguage": lang,
+          "hasPart": [{"@type": "NewsArticle" if a["type"] == "news" else "Article", "headline": a["title_" + lang], "url": SITE + news_path(lang, a), "datePublished": a["date"]} for a in NEWS]}
+    write(t["news"], page(lang, f'{t["nav_news"]} · CaseAlerta', ('Noticias de USCIS y guías de inmigración en español, con fuentes oficiales.' if es else 'USCIS news and immigration guides in plain English, with official sources.'),
+          t["news"], body, alt_path=T[t["other"]]["news"], jsonld=ld))
+
+def news_page(lang, a):
+    es = lang == "es"; t = T[lang]; o = t["other"]
+    path = news_path(lang, a); opath = news_path(o, a)
+    src = "".join(f'<li><a href="{E(x["u"])}" rel="noopener" target="_blank">{E(x["t"])}</a></li>' for x in a["sources"])
+    lbl = ("Noticia" if es else "News") if a["type"] == "news" else ("Guía" if es else "Guide")
+    body = f"""<section class="hero" style="padding-bottom:70px"><div class="wrap">
+<nav class="crumb" aria-label="{'Ruta' if es else 'Breadcrumb'}"><a href="{t['home']}">{'Inicio' if es else 'Home'}</a> › <a href="{t['news']}">{E(t['nav_news'])}</a></nav>
+<span class="badge" style="background:#fff;color:var(--navy)">{lbl} · <time datetime="{a['date']}">{fdate(lang, a['date'])}</time></span>
+<h1 style="margin-top:14px">{E(a['title_' + lang])}</h1><p class="lead">{E(a['desc_' + lang])}</p></div></section>
+<main class="wrap main-pull"><article class="card legal art">{md(a['body_' + lang])}
+<h2>{'Fuentes' if es else 'Sources'}</h2><ul class="src">{src}</ul>
+<p style="font-size:13px;color:var(--muted)">{'Resumen informativo preparado por CaseAlerta con apoyo de IA a partir de fuentes oficiales. No es asesoría legal.' if es else 'Informational summary prepared by CaseAlerta with AI assistance from official sources. Not legal advice.'}</p></article>
+<section class="sec"><div class="card" style="background:var(--navy);color:#fff;display:flex;gap:18px;align-items:center;flex-wrap:wrap">
+<span class="ic" style="background:var(--gold);color:var(--navy)">{ICON['bell']}</span><div style="flex:1 1 260px"><b style="font-size:20px">{'¿Tienes un caso en trámite?' if es else 'Have a pending case?'}</b><br><span style="color:#D6E0F2">{'Revísalo gratis y te avisamos cuando cambie.' if es else 'Check it for free and we will alert you when it changes.'}</span></div>
+<a class="btn red" href="{t['home']}#consulta">{E(t['cta'])}</a></div></section>
+<section class="sec"><h2>{'Más para leer' if es else 'Read more'}</h2><div class="news">{news_cards(lang, [x for x in NEWS if x is not a][:3])}</div></section></main>"""
+    art = {"@type": "NewsArticle" if a["type"] == "news" else "Article", "headline": a["title_" + lang], "description": a["desc_" + lang],
+           "datePublished": a["date"], "dateModified": a.get("updated", a["date"]), "inLanguage": lang, "mainEntityOfPage": SITE + path,
+           "image": f"{SITE}/sello.png", "author": {"@type": "Organization", "name": "CaseAlerta", "url": SITE},
+           "publisher": {"@type": "Organization", "name": "VARGER Group LLC", "logo": {"@type": "ImageObject", "url": f"{SITE}/sello.png"}},
+           "citation": [x["u"] for x in a["sources"]]}
+    bc = crumbs(lang, [(("Inicio" if es else "Home"), t["home"]), (t["nav_news"], t["news"]), (a["title_" + lang], path)])
+    write(path, page(lang, f'{a["title_" + lang]} · CaseAlerta', a["desc_" + lang], path, body, alt_path=opath,
+          jsonld={"@context": "https://schema.org", "@graph": [art, bc]}, og_type="article"))
+    return path
+
+def rss(lang):
+    t = T[lang]
+    items = "".join(f"<item><title>{E(a['title_' + lang])}</title><link>{SITE}{news_path(lang, a)}</link><guid>{SITE}{news_path(lang, a)}</guid>"
+                    f"<pubDate>{datetime.datetime.strptime(a['date'], '%Y-%m-%d').strftime('%a, %d %b %Y 12:00:00 +0000')}</pubDate><description>{E(a['desc_' + lang])}</description></item>" for a in NEWS[:30])
+    full = os.path.join(OUT, t["news"].lstrip("/"), "rss.xml")
+    os.makedirs(os.path.dirname(full), exist_ok=True)
+    open(full, "w", encoding="utf-8").write(f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>CaseAlerta · {E(t["nav_news"])}</title>'
+        f'<link>{SITE}{t["news"]}</link><description>CaseAlerta</description><language>{"es-us" if lang == "es" else "en-us"}</language>{items}</channel></rss>')
+
 def home(lang):
     es = lang == "es"; t = T[lang]
     links = "".join(f'<a href="{t["status_base"]}{c["slug_es" if es else "slug_en"]}/">{kind_icon(c["kind"],40)}{E(c["title_es"] if es else c["code"])}</a>' for c in CAT[:12])
@@ -169,7 +257,8 @@ def home(lang):
 </div><div class="side">{lookup_card(lang)}</div></div></section>
 <main class="wrap main-pull"><div class="tiles">{tiles_html}</div>
 <section class="sec"><h2>{'Estatus más buscados' if es else 'Most searched statuses'}</h2><div class="list">{links}</div>
-<p><a href="{t['status_base']}">{'Ver todos los estatus →' if es else 'See all statuses →'}</a></p></section></main>"""
+<p><a href="{t['status_base']}">{'Ver todos los estatus →' if es else 'See all statuses →'}</a></p></section>
+<section class="sec"><h2>{E(t['nav_news'])}</h2><div class="news">{news_cards(lang, NEWS[:3])}</div><p><a href="{t['news']}">{'Ver todas las noticias y guías →' if es else 'See all news and guides →'}</a></p></section></main>"""
     title = "CaseAlerta — Alertas y explicación de tu caso USCIS" if es else "CaseAlerta — USCIS case status alerts, explained"
     desc = ("Consulta gratis el estatus de tu caso USCIS y recibe avisos cuando cambie, con explicación en español. Sin anuncios." if es
             else "Check your USCIS case status for free and get alerts when it changes, explained in plain English and Spanish. No ads.")
@@ -214,7 +303,8 @@ def status_page(lang, c):
          "acceptedAnswer": {"@type": "Answer", "text": " ".join(steps)}}]}
     title = (f'"{c["code"]}" — qué significa en USCIS ({c["title_es"]}) · CaseAlerta' if es
              else f'"{c["code"]}" — what it means on USCIS · CaseAlerta')
-    write(path, page(lang, title, meaning, path, body, alt_path=opath, jsonld=faq))
+    bc = crumbs(lang, [(('Inicio' if es else 'Home'), t['home']), (t['nav_status'], t['status_base']), (title_h, path)])
+    write(path, page(lang, title, meaning, path, body, alt_path=opath, jsonld={"@context": "https://schema.org", "@graph": [faq, bc]}))
     return path
 
 LEGAL = {
@@ -303,13 +393,27 @@ def main():
     for lang in ("es", "en"):
         home(lang); status_index(lang); urls += [T[lang]["home"], T[lang]["status_base"]]
         for c in CAT: urls.append(status_page(lang, c))
+    for lang in ("es", "en"):
+        news_index(lang); rss(lang); urls.append(T[lang]["news"])
+        for a in NEWS: urls.append(news_page(lang, a))
     for k in LEGAL: legal(k); urls.append(f"/{k}/")
     sm = "".join(f"<url><loc>{SITE}{u}</loc><lastmod>{TODAY}</lastmod></url>" for u in urls)
     open(os.path.join(OUT, "sitemap.xml"), "w").write(f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>')
-    open(os.path.join(OUT, "robots.txt"), "w").write(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
+    bots = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot", "Claude-User", "PerplexityBot", "Perplexity-User", "Google-Extended", "Applebot-Extended", "Bingbot", "Googlebot"]
+    open(os.path.join(OUT, "robots.txt"), "w").write("".join(f"User-agent: {b}\nAllow: /\n\n" for b in bots) + f"User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n")
+    open(os.path.join(OUT, f"{INDEXNOW_KEY}.txt"), "w").write(INDEXNOW_KEY)
+    open(os.path.join(OUT, "urls.txt"), "w").write("\n".join(SITE + u for u in urls) + "\n")
     llms = ["# CaseAlerta", "> Bilingual (English/Spanish) USCIS case status alerts and plain-language explanations. By VARGER Group LLC. No ads, no data sales. Not legal advice.", "",
             "## USCIS statuses explained (English)"] + [f"- [{c['code']}]({SITE}/status/{c['slug_en']}/): {c['men']}" for c in CAT] + ["", "## Estatus de USCIS explicados (español)"] + \
-           [f"- [{c['title_es']}]({SITE}/estatus/{c['slug_es']}/): {c['mes']}" for c in CAT] + ["", "## Policies", f"- [Privacy]({SITE}/privacy/)", f"- [Terms]({SITE}/terms/)"]
+           [f"- [{c['title_es']}]({SITE}/estatus/{c['slug_es']}/): {c['mes']}" for c in CAT] + ["", "## News and guides / Noticias y guías"] + \
+           [f"- [{a['title_en']}]({SITE}{news_path('en', a)}) / [{a['title_es']}]({SITE}{news_path('es', a)}) ({a['date']})" for a in NEWS] + \
+           ["", "## Policies", f"- [Privacy]({SITE}/privacy/)", f"- [Terms]({SITE}/terms/)", "", f"Full text for AI: {SITE}/llms-full.txt"]
+    full = ["# CaseAlerta — full reference", ""]
+    for a in NEWS:
+        full += [f"## {a['title_en']}", f"Date: {a['date']} · URL: {SITE}{news_path('en', a)}", ""] + a["body_en"] + ["", "Sources: " + "; ".join(x["u"] for x in a["sources"]), ""]
+    for c in CAT:
+        full += [f"## USCIS status: {c['code']}", c["men"], "Next steps: " + " ".join(c["sen"]), f"URL: {SITE}/status/{c['slug_en']}/", ""]
+    open(os.path.join(OUT, "llms-full.txt"), "w").write("\n".join(full) + "\n")
     open(os.path.join(OUT, "llms.txt"), "w").write("\n".join(llms) + "\n")
     json.dump({"cleanUrls": True, "trailingSlash": True, "headers": [{"source": "/(.*)", "headers": [
         {"key": "X-Content-Type-Options", "value": "nosniff"}, {"key": "Referrer-Policy", "value": "strict-origin-when-cross-origin"},

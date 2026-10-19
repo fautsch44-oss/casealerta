@@ -55,6 +55,16 @@
 - [Se Envió Confirmación de Retiro](https://casealerta.com/estatus/se-envio-confirmacion-de-retiro/): USCIS confirmó que el caso fue retirado.
 - [Se Actualizó el Nombre](https://casealerta.com/estatus/se-actualizo-el-nombre/): USCIS actualizó el nombre en tu caso.
 
+## News and guides / Noticias y guías
+- [My USCIS case is not moving: is that normal? How to check processing times](https://casealerta.com/en/news/my-uscis-case-is-not-moving-is-that-normal/) / [Mi caso de USCIS no se mueve: ¿es normal? Cómo revisar los tiempos](https://casealerta.com/noticias/mi-caso-de-uscis-no-se-mueve-es-normal/) (2026-10-19)
+- [USCIS receipt number: what the 3 letters mean (IOE, EAC, WAC, LIN, SRC, MSC)](https://casealerta.com/en/news/uscis-receipt-number-prefixes-explained/) / [Número de recibo de USCIS: qué significan las 3 letras (IOE, EAC, WAC, LIN, SRC, MSC)](https://casealerta.com/noticias/que-significan-las-letras-del-numero-de-recibo-uscis/) (2026-10-19)
+- [I got an RFE from USCIS: what it is and what to do, step by step](https://casealerta.com/en/news/got-an-rfe-from-uscis-what-to-do/) / [Me llegó una RFE de USCIS: qué es y qué hago paso a paso](https://casealerta.com/noticias/recibi-una-rfe-de-uscis-que-hago/) (2026-10-19)
+- [USCIS finalizes the end of the 540-day automatic EAD extension](https://casealerta.com/en/news/ead-automatic-extension-ends/) / [USCIS confirma el fin de la extensión automática de 540 días del permiso de trabajo (EAD)](https://casealerta.com/noticias/fin-extension-automatica-permiso-de-trabajo-ead/) (2026-10-14)
+- [USCIS proposes ending deference to prior approvals for work visa extensions](https://casealerta.com/en/news/uscis-proposes-ending-deference-extensions/) / [USCIS propone dejar de dar deferencia a aprobaciones previas en extensiones de visas de trabajo](https://casealerta.com/noticias/uscis-propone-quitar-deferencia-en-extensiones/) (2026-10-14)
+- [October 2026 Visa Bulletin: EB-2 moves forward strongly for Rest of World](https://casealerta.com/en/news/visa-bulletin-october-2026/) / [Boletín de Visas de octubre 2026: EB-2 avanza fuerte para el resto del mundo](https://casealerta.com/noticias/boletin-de-visas-octubre-2026/) (2026-09-29)
+
 ## Policies
 - [Privacy](https://casealerta.com/privacy/)
 - [Terms](https://casealerta.com/terms/)
+
+Full text for AI: https://casealerta.com/llms-full.txt
