@@ -9,7 +9,7 @@ import { HuespedSheet } from '../../../components/Huesped';
 import { Button, Card, Label, ReceiptBadge } from '../../../components/ui';
 import { useT } from '../../../i18n';
 import { addCase, getCase, getExplanation, listEvents, lookupReceipt, type CaseEvent, type CaseRow, type Explanation } from '../../../lib/api';
-import { bucketFor, daysSince, uscisUrl } from '../../../lib/receipt';
+import { bucketFor, checkedLabel, daysSince, uscisUrl } from '../../../lib/receipt';
 import { supabase } from '../../../lib/supabase';
 import { colors, fonts, radius, semaphore, space, touch } from '../../../theme/tokens';
 
@@ -89,6 +89,10 @@ export default function CaseDetail() {
               <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
                 <View style={{ width: 14, height: 14, borderRadius: 7, backgroundColor: sem.fg }} />
                 <Text style={{ fontFamily: fonts.black, fontSize: 20, color: sem.fg, flex: 1 }}>{ex?.status_title ?? row.last_status_text ?? t.statusBucket.neutral}</Text>
+              </View>
+              <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6, backgroundColor: daysSince(row.last_checked_at) <= 1 ? colors.greenSoft : colors.bg, borderRadius: 10, paddingVertical: 6, paddingHorizontal: 10 }}>
+                <View style={{ width: 8, height: 8, borderRadius: 4, backgroundColor: daysSince(row.last_checked_at) <= 1 ? colors.green : colors.line }} />
+                <Text style={{ fontFamily: fonts.bold, fontSize: 12, color: daysSince(row.last_checked_at) <= 1 ? colors.green : colors.muted, flex: 1 }}>{checkedLabel(row.last_checked_at, lang)}</Text>
               </View>
               <Label>{t.a2_official}{row.last_status_date ? ` · ${row.last_status_date}` : ''}</Label>
               <Text style={{ fontFamily: fonts.semibold, fontSize: 13, color: colors.ink }}>{row.last_status_text ?? '—'}</Text>

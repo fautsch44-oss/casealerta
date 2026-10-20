@@ -7,7 +7,7 @@ import { HuespedBubble, HuespedSheet } from '../../components/Huesped';
 import { Button, FlagBar, Seal, Wordmark } from '../../components/ui';
 import { useT } from '../../i18n';
 import { listCases, type CaseRow } from '../../lib/api';
-import { bucketFor, daysSince } from '../../lib/receipt';
+import { bucketFor, checkedLabel, daysSince } from '../../lib/receipt';
 import { colors, fonts, radius, semaphore, shadow, space, touch } from '../../theme/tokens';
 
 export default function CasesScreen() {
@@ -45,6 +45,10 @@ export default function CasesScreen() {
           <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
             <Text style={[styles.pill, { color: s.fg, backgroundColor: s.bg }]}>{t.statusBucket[b]}</Text>
             <Text style={{ fontFamily: fonts.regular, fontSize: 11, color: colors.muted }}>{t.a1_lastChange(daysSince(item.last_changed_at ?? item.created_at))}</Text>
+          </View>
+          <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6 }}>
+            <View style={{ width: 8, height: 8, borderRadius: 4, backgroundColor: daysSince(item.last_checked_at) <= 1 ? colors.green : colors.line }} />
+            <Text style={{ fontFamily: fonts.semibold, fontSize: 11, color: daysSince(item.last_checked_at) <= 1 ? colors.green : colors.muted }}>{checkedLabel(item.last_checked_at, lang)}</Text>
           </View>
         </View>
       </Pressable>

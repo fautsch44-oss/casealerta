@@ -44,6 +44,18 @@ export function daysSince(iso: string | null | undefined) {
   return Math.max(0, Math.floor(ms / 86400000));
 }
 
+// "Revisado hoy 8:25 am" / "Revisado ayer" / "Revisado hace N días" — la prueba diaria de que vigilamos.
+export function checkedLabel(iso: string | null | undefined, lang: 'es' | 'en') {
+  if (!iso) return lang === 'es' ? 'Aún no revisado' : 'Not checked yet';
+  const d = daysSince(iso);
+  if (d === 0) {
+    const time = new Date(iso).toLocaleTimeString(lang === 'es' ? 'es-MX' : 'en-US', { hour: 'numeric', minute: '2-digit' });
+    return lang === 'es' ? `Revisado hoy ${time} · sin cambios · todo en orden` : `Checked today ${time} · no changes · all in order`;
+  }
+  if (d === 1) return lang === 'es' ? 'Revisado ayer · sin cambios' : 'Checked yesterday · no changes';
+  return lang === 'es' ? `Revisado hace ${d} días` : `Checked ${d} days ago`;
+}
+
 export function uscisUrl() {
   return 'https://egov.uscis.gov/casestatus/landing.do';
 }
