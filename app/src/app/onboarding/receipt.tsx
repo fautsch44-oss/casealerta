@@ -16,22 +16,37 @@ export default function ReceiptScreen() {
   const [label, setLabel] = useState('');
   const [busy, setBusy] = useState(false);
   const [err, setErr] = useState<string | null>(null);
+  const [canSaveAnyway, setCanSaveAnyway] = useState(false);
   const receipt = normalizeReceipt(raw);
   const valid = isValidReceipt(receipt);
   const center = useMemo(() => centerFor(receipt, lang), [receipt, lang]);
   const fromTabs = params.from === 'tabs';
 
+  const next = (id: string) => {
+    if (fromTabs) router.replace({ pathname: '/case/[id]', params: { id } });
+    else router.push({ pathname: '/onboarding/alerts', params: { id } });
+  };
+
   const go = async () => {
-    setBusy(true); setErr(null);
+    setBusy(true); setErr(null); setCanSaveAnyway(false);
     try {
       const status = await lookupReceipt(receipt);
       const row = await addCase(status, label.trim() || null);
-      if (fromTabs) router.replace({ pathname: '/case/[id]', params: { id: row.id } });
-      else router.push({ pathname: '/onboarding/alerts', params: { id: row.id } });
+      next(row.id);
     } catch (e: any) {
       if (e instanceof ApiError && (e.status === 404 || e.code === 'invalid_receipt')) setErr(t.o2_notFound);
-      else setErr(t.o2_error);
+      else { setErr(t.o2_error); setCanSaveAnyway(true); }
     } finally { setBusy(false); }
+  };
+
+  // USCIS no respondió: guardamos el recibo sin estatus y el cron lo consulta después. Nadie se queda atorado aquí.
+  const saveAnyway = async () => {
+    setBusy(true); setErr(null);
+    try {
+      const row = await addCase({ receipt_number: receipt, form_type: null, status_en: null, status_es: null, desc_en: null, desc_es: null, submitted: null, modified: null, history: [] }, label.trim() || null);
+      next(row.id);
+    } catch { setErr(t.o2_error); }
+    finally { setBusy(false); }
   };
 
   return (
@@ -85,6 +100,11 @@ export default function ReceiptScreen() {
           <View style={{ flex: 1 }} />
           <View style={{ gap: 12 }}>
             <Button title={busy ? t.o2_checking : t.o2_cta} onPress={go} loading={busy} disabled={!valid} />
+            {canSaveAnyway && valid && (
+              <Pressable accessibilityRole="button" onPress={saveAnyway} disabled={busy} style={{ padding: 8, alignItems: 'center' }}>
+                <Text style={{ fontFamily: fonts.bold, fontSize: 14, color: colors.blue }}>{t.o2_saveAnyway}</Text>
+              </Pressable>
+            )}
             <Text style={styles.note}>{t.o2_note}</Text>
             {!fromTabs && <Dots n={3} active={1} />}
           </View>

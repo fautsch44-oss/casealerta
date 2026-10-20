@@ -10,6 +10,7 @@ import { listCases } from '../lib/api';
 import { colors, fonts } from '../theme/tokens';
 
 export const ONBOARDED_KEY = 'casealerta.onboarded';
+export const PAYWALL_SEEN_KEY = 'casealerta.paywallSeen';
 const { width: W, height: H } = Dimensions.get('window');
 
 function Waves() {
@@ -44,10 +45,15 @@ export default function Splash() {
       const started = Date.now();
       let target = '/onboarding/language';
       try {
-        const onboarded = await AsyncStorage.getItem(ONBOARDED_KEY);
+        const [onboarded, paywallSeen] = await Promise.all([AsyncStorage.getItem(ONBOARDED_KEY), AsyncStorage.getItem(PAYWALL_SEEN_KEY)]);
         if (onboarded) {
-          const cases = await listCases().catch(() => []);
-          target = cases.length ? '/(tabs)/cases' : '/onboarding/receipt';
+          // Cerró la app en el paywall: se lo volvemos a mostrar una vez, nadie se escapa sin verlo.
+          if (!paywallSeen) target = '/paywall/example';
+          else {
+            // Sin red (null) no lo regresamos al onboarding: a sus casos.
+            const cases = await listCases().catch(() => null);
+            target = cases === null || cases.length ? '/(tabs)/cases' : '/onboarding/receipt';
+          }
         }
       } catch { /* sin red: onboarding */ }
       const wait = Math.max(0, 900 - (Date.now() - started));

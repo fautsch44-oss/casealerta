@@ -29,6 +29,7 @@ const es = {
   o2_checking: 'Consultando a USCIS…',
   o2_notFound: 'USCIS no encontró ese recibo. Revisa las letras y números.',
   o2_error: 'USCIS no respondió ahora. Inténtalo en un momento.',
+  o2_saveAnyway: 'Guardar mi recibo y consultarlo después',
   // O3
   o3_today: 'TU CASO HOY',
   o3_title: '¿Cómo quieres que te avisemos?',
@@ -189,6 +190,7 @@ const en: typeof es = {
   o2_checking: 'Checking with USCIS…',
   o2_notFound: 'USCIS could not find that receipt. Check the letters and digits.',
   o2_error: 'USCIS did not respond. Try again in a moment.',
+  o2_saveAnyway: 'Save my receipt and check it later',
   o3_today: 'YOUR CASE TODAY',
   o3_title: 'How should we alert you?',
   o3_sub: 'We check your case every day. The moment it changes, we tell you. Only your case, never ads.',
