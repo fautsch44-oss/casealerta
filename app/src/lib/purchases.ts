@@ -4,7 +4,7 @@ import Purchases, { LOG_LEVEL, type PurchasesPackage } from 'react-native-purcha
 import { ensureSession } from './supabase';
 
 const IOS_KEY = process.env.EXPO_PUBLIC_RC_IOS_KEY ?? '';
-const ANDROID_KEY = process.env.EXPO_PUBLIC_RC_ANDROID_KEY ?? '';
+const ANDROID_KEY = process.env.EXPO_PUBLIC_RC_ANDROID_KEY ?? 'goog_lLEnFJNWFbqamziRrgWqQlBlTle';
 export const ENTITLEMENT = 'pro';
 
 let configured = false;
