@@ -7,7 +7,7 @@
   },
   "submit": {
     "production": {
-      "ios": { "appleTeamId": "T8LHUXT5MR" },
+      "ios": { "appleTeamId": "T8LHUXT5MR", "ascAppId": "6825014731" },
       "android": { "track": "internal" }
     }
   }
