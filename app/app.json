@@ -10,10 +10,11 @@
     "owner": "vargers-team",
     "ios": {
       "bundleIdentifier": "com.vargergroup.casealerta",
-      "supportsTablet": false,
+      "supportsTablet": true,
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
-      }
+      },
+      "requireFullScreen": true
     },
     "android": {
       "package": "com.vargergroup.casealerta",
