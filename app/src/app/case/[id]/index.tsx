@@ -6,7 +6,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import Svg, { Path } from 'react-native-svg';
 import { Celebration } from '../../../components/Celebration';
 import { HuespedSheet } from '../../../components/Huesped';
-import { CaseDates } from '../../../components/CaseDates';
+import { CaseDates, fmtDate } from '../../../components/CaseDates';
 import { NvcCard } from '../../../components/NvcCard';
 import { Button, Card, Label, ReceiptBadge } from '../../../components/ui';
 import { useT } from '../../../i18n';
@@ -138,7 +138,7 @@ export default function CaseDetail() {
                 <View key={e.id} style={{ flexDirection: 'row', gap: 10, alignItems: 'center' }}>
                   <View style={{ width: 10, height: 10, borderRadius: 5, backgroundColor: semaphore[bucketFor(e.status_text)].fg }} />
                   <Text style={{ fontFamily: fonts.bold, fontSize: 13, color: colors.ink, flex: 1 }}>{e.status_text?.startsWith('NVC: ') ? `NVC · ${t.nvc_status[e.status_text.slice(5)] ?? e.status_text.slice(5)}` : e.status_text}</Text>
-                  <Text style={{ fontFamily: fonts.regular, fontSize: 12, color: colors.muted }}>{(e.status_date ?? e.detected_at).slice(0, 10)}</Text>
+                  <Text style={{ fontFamily: fonts.regular, fontSize: 12, color: colors.muted }}>{fmtDate(e.status_date ?? e.detected_at, lang)}</Text>
                 </View>
               ))}
             </Card>

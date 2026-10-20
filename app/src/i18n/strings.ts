@@ -191,7 +191,7 @@ const es = {
   v1_save: 'Guardar',
   v1_noData: 'Aún no tenemos el boletín de este mes. Lo cargamos en cuanto lo publica el Departamento de Estado.',
   // Festejo
-  c_title: (label: string) => `¡Tu ${label} fue aprobado!`,
+  c_title: (label: string) => `¡Aprobado! ${label}`,
   c_sub: (d: number) => `Esperaste ${d} días. Lo lograste.`,
   c_next: 'Ver qué sigue',
   c_rate: '¿Te ayudó CaseAlerta? Califícanos',
@@ -396,7 +396,7 @@ const en: typeof es = {
   v1_chart: 'Chart: Dates for Filing',
   v1_save: 'Save',
   v1_noData: 'We do not have this month\'s bulletin yet. We load it as soon as the State Department publishes it.',
-  c_title: (label) => `Your ${label} was approved!`,
+  c_title: (label) => `Approved! ${label}`,
   c_sub: (d) => `You waited ${d} days. You made it.`,
   c_next: 'See what comes next',
   c_rate: 'Did CaseAlerta help? Rate us',
