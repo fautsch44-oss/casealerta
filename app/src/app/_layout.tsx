@@ -26,7 +26,8 @@ export default function RootLayout() {
           <Stack.Screen name="paywall/example" options={{ presentation: 'modal' }} />
           <Stack.Screen name="paywall/plans" />
           <Stack.Screen name="(tabs)" />
-          <Stack.Screen name="case/[id]" />
+          <Stack.Screen name="case/[id]/index" />
+          <Stack.Screen name="case/[id]/bulletin" />
         </Stack>
       </LangProvider>
     </GestureHandlerRootView>

@@ -4,13 +4,13 @@ import React, { useCallback, useEffect, useState } from 'react';
 import { Linking, Pressable, ScrollView, Share, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import Svg, { Path } from 'react-native-svg';
-import { Celebration } from '../../components/Celebration';
-import { Button, Card, Label, ReceiptBadge } from '../../components/ui';
-import { useT } from '../../i18n';
-import { addCase, getCase, getExplanation, listEvents, lookupReceipt, type CaseEvent, type CaseRow, type Explanation } from '../../lib/api';
-import { bucketFor, daysSince, uscisUrl } from '../../lib/receipt';
-import { supabase } from '../../lib/supabase';
-import { colors, fonts, radius, semaphore, space, touch } from '../../theme/tokens';
+import { Celebration } from '../../../components/Celebration';
+import { Button, Card, Label, ReceiptBadge } from '../../../components/ui';
+import { useT } from '../../../i18n';
+import { addCase, getCase, getExplanation, listEvents, lookupReceipt, type CaseEvent, type CaseRow, type Explanation } from '../../../lib/api';
+import { bucketFor, daysSince, uscisUrl } from '../../../lib/receipt';
+import { supabase } from '../../../lib/supabase';
+import { colors, fonts, radius, semaphore, space, touch } from '../../../theme/tokens';
 
 const CELEBRATED = (id: string, status: string) => `casealerta.celebrated.${id}.${status}`;
 
@@ -130,6 +130,11 @@ export default function CaseDetail() {
                 </View>
               ))}
             </Card>
+
+            <Pressable accessibilityRole="button" onPress={() => router.push({ pathname: '/case/[id]/bulletin', params: { id: row.id } })} style={[styles.lawyer, { borderColor: colors.gold, flexDirection: 'row', gap: 10, justifyContent: 'center' }]}>
+              <Svg width={20} height={20} viewBox="0 0 24 24" fill="none" stroke={colors.amber} strokeWidth={2.2} strokeLinecap="round" strokeLinejoin="round"><Path d="M4 5h16v14H4z" /><Path d="M4 10h16M9 5v14" /></Svg>
+              <Text style={{ fontFamily: fonts.bold, fontSize: 14, color: colors.ink }}>{t.a2_bulletin}</Text>
+            </Pressable>
 
             <Pressable accessibilityRole="button" onPress={() => Linking.openURL('https://casealerta.com/abogados')} style={styles.lawyer}>
               <Text style={{ fontFamily: fonts.bold, fontSize: 14, color: colors.blue }}>{t.a2_lawyer}</Text>
