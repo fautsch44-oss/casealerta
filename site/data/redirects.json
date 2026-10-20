@@ -1,0 +1,102 @@
+[
+ {
+  "source": "/estatus/caso-recibido-y-se-envio-un-aviso-de-recibo/",
+  "destination": "/estatus/caso-recibido-y-aviso-de-recibo-enviado/",
+  "permanent": true
+ },
+ {
+  "source": "/estatus/se-recibio-el-pago-de-huellas/",
+  "destination": "/estatus/pago-de-huellas-recibido/",
+  "permanent": true
+ },
+ {
+  "source": "/estatus/se-completo-la-revision-de-huellas/",
+  "destination": "/estatus/revision-de-huellas-completada/",
+  "permanent": true
+ },
+ {
+  "source": "/estatus/uscis-esta-revisando-activamente-el-caso/",
+  "destination": "/estatus/caso-en-revision-activa-por-uscis/",
+  "permanent": true
+ },
+ {
+  "source": "/estatus/se-programo-la-entrevista/",
+  "destination": "/estatus/entrevista-programada/",
+  "permanent": true
+ },
+ {
+  "source": "/estatus/se-completo-la-entrevista-y-el-caso-debe-revisarse/",
+  "destination": "/estatus/entrevista-completada-caso-en-revision/",
+  "permanent": true
+ },
+ {
+  "source": "/estatus/se-envio-una-solicitud-de-evidencia-adicional/",
+  "destination": "/estatus/solicitud-de-evidencia-adicional-enviada-rfe/",
+  "permanent": true
+ },
+ {
+  "source": "/estatus/se-envio-una-solicitud-de-evidencia-inicial/",
+  "destination": "/estatus/solicitud-de-evidencia-inicial-enviada/",
+  "permanent": true
+ },
+ {
+  "source": "/estatus/se-recibio-la-respuesta-a-la-solicitud-de-evidencia/",
+  "destination": "/estatus/respuesta-a-la-solicitud-de-evidencia-recibida/",
+  "permanent": true
+ },
+ {
+  "source": "/estatus/el-caso-fue-transferido-a-otra-oficina/",
+  "destination": "/estatus/caso-transferido-a-una-nueva-oficina/",
+  "permanent": true
+ },
+ {
+  "source": "/estatus/se-esta-produciendo-la-nueva-tarjeta/",
+  "destination": "/estatus/nueva-tarjeta-en-produccion/",
+  "permanent": true
+ },
+ {
+  "source": "/estatus/la-tarjeta-fue-enviada-por-correo/",
+  "destination": "/estatus/tarjeta-enviada-por-correo/",
+  "permanent": true
+ },
+ {
+  "source": "/estatus/el-servicio-postal-recogio-la-tarjeta/",
+  "destination": "/estatus/tarjeta-recogida-por-el-servicio-postal/",
+  "permanent": true
+ },
+ {
+  "source": "/estatus/el-correo-entrego-la-tarjeta/",
+  "destination": "/estatus/tarjeta-entregada-por-el-correo/",
+  "permanent": true
+ },
+ {
+  "source": "/estatus/se-envio-un-documento-por-correo/",
+  "destination": "/estatus/documento-enviado-por-correo/",
+  "permanent": true
+ },
+ {
+  "source": "/estatus/se-envio-un-aviso-explicando-la-accion-de-uscis/",
+  "destination": "/estatus/aviso-que-explica-acciones-de-uscis-enviado/",
+  "permanent": true
+ },
+ {
+  "source": "/estatus/el-caso-fue-reabierto/",
+  "destination": "/estatus/caso-reabierto/",
+  "permanent": true
+ },
+ {
+  "source": "/estatus/se-recibio-la-solicitud-de-acelerar/",
+  "destination": "/estatus/solicitud-para-acelerar-el-caso-recibida/",
+  "permanent": true
+ },
+ {
+  "source": "/estatus/se-envio-confirmacion-de-retiro/",
+  "destination": "/estatus/aviso-de-retiro-de-solicitud-enviado/",
+  "permanent": true
+ },
+ {
+  "source": "/estatus/se-actualizo-el-nombre/",
+  "destination": "/estatus/nombre-actualizado/",
+  "permanent": true
+ }
+]

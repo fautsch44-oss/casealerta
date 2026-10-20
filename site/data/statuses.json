@@ -1,0 +1,3390 @@
+[
+  {
+    "code": "Case Was Received",
+    "slug_en": "case-was-received",
+    "title_es": "Caso recibido",
+    "slug_es": "caso-recibido",
+    "kind": "ok",
+    "stage": "intake",
+    "meaning_en": "USCIS received your application or petition and gave it a receipt number. This is the first status almost everyone sees. It does not mean anyone has reviewed your case yet. It is normal for the status to stay here for weeks or months.",
+    "meaning_es": "USCIS recibió tu solicitud o petición y le asignó un número de recibo. Es el primer estatus que ve casi todo el mundo. No significa que alguien ya haya revisado tu caso. Es normal que el estatus se quede así durante semanas o meses.",
+    "next_en": [
+      "Save your receipt notice (Form I-797C) in a safe place.",
+      "Check that your name, birth date and address on the notice are correct.",
+      "Look up current processing times for your form and office.",
+      "Keep your mailing address up to date with USCIS."
+    ],
+    "next_es": [
+      "Guarda tu aviso de recibo (Formulario I-797C) en un lugar seguro.",
+      "Revisa que tu nombre, fecha de nacimiento y dirección estén correctos en el aviso.",
+      "Consulta los tiempos de procesamiento actuales de tu formulario y oficina.",
+      "Mantén tu dirección actualizada con USCIS."
+    ],
+    "mistakes_en": [
+      "Thinking the case is stuck because the status does not change for weeks.",
+      "Moving without filing a change of address (Form AR-11).",
+      "Losing the receipt notice and the receipt number."
+    ],
+    "mistakes_es": [
+      "Pensar que el caso está atorado porque el estatus no cambia en semanas.",
+      "Mudarse sin presentar el cambio de dirección (Formulario AR-11).",
+      "Perder el aviso de recibo y el número de recibo."
+    ],
+    "wait_en": "This status can last from a few weeks to many months, depending on the form and office.",
+    "wait_es": "Este estatus puede durar desde unas semanas hasta muchos meses, según el formulario y la oficina.",
+    "faq_en": [
+      {
+        "q": "Does 'Case Was Received' mean my case is approved?",
+        "a": "No. It only means USCIS has your application and opened a file for it."
+      },
+      {
+        "q": "Why has my status said 'Case Was Received' for months?",
+        "a": "Many cases sit in a queue before an officer reviews them. Compare your wait with the published processing times before worrying."
+      },
+      {
+        "q": "What is the receipt number?",
+        "a": "It is a 13-character code, like IOE1234567890, printed on your receipt notice. You use it to check your status online."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿'Case Was Received' significa que mi caso está aprobado?",
+        "a": "No. Solo significa que USCIS tiene tu solicitud y abrió un expediente."
+      },
+      {
+        "q": "¿Por qué mi estatus dice 'Case Was Received' desde hace meses?",
+        "a": "Muchos casos esperan en fila antes de que un oficial los revise. Compara tu espera con los tiempos de procesamiento publicados antes de preocuparte."
+      },
+      {
+        "q": "¿Qué es el número de recibo?",
+        "a": "Es un código de 13 caracteres, como IOE1234567890, impreso en tu aviso de recibo. Lo usas para revisar tu estatus en línea."
+      }
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Case Was Received and A Receipt Notice Was Sent",
+    "slug_en": "case-was-received-and-a-receipt-notice-was-sent",
+    "title_es": "Caso recibido y aviso de recibo enviado",
+    "slug_es": "caso-recibido-y-aviso-de-recibo-enviado",
+    "kind": "ok",
+    "stage": "intake",
+    "meaning_en": "USCIS accepted your filing and mailed you a receipt notice (Form I-797C). The notice proves you filed and shows your receipt number. Your case now waits in line for the next step. Nothing is expected from you right now.",
+    "meaning_es": "USCIS aceptó tu trámite y te envió por correo un aviso de recibo (Formulario I-797C). El aviso prueba que presentaste tu solicitud y muestra tu número de recibo. Tu caso ahora espera turno para el siguiente paso. Por ahora no tienes que hacer nada.",
+    "next_en": [
+      "Watch your mailbox for the paper receipt notice.",
+      "Check every detail on the notice for typos.",
+      "Keep a copy of the notice with your important papers.",
+      "Create a USCIS online account and link your receipt number."
+    ],
+    "next_es": [
+      "Revisa tu buzón para recibir el aviso de recibo en papel.",
+      "Revisa cada dato del aviso por si hay errores.",
+      "Guarda una copia del aviso con tus papeles importantes.",
+      "Crea una cuenta en línea de USCIS y agrega tu número de recibo."
+    ],
+    "mistakes_en": [
+      "Ignoring a typo on the notice instead of asking USCIS to fix it.",
+      "Assuming the notice will arrive even after moving without updating the address."
+    ],
+    "mistakes_es": [
+      "Ignorar un error en el aviso en lugar de pedir a USCIS que lo corrija.",
+      "Suponer que el aviso llegará aunque te mudaste sin actualizar tu dirección."
+    ],
+    "wait_en": "The paper notice usually arrives within a few weeks; the status itself can stay the same for months.",
+    "wait_es": "El aviso en papel suele llegar en unas semanas; el estatus en sí puede quedarse igual por meses.",
+    "faq_en": [
+      {
+        "q": "How long does the receipt notice take to arrive by mail?",
+        "a": "It usually arrives within a few weeks. If it has not arrived after about a month, contact USCIS."
+      },
+      {
+        "q": "Can I use the receipt notice as proof of status?",
+        "a": "For some forms, like I-751 or certain renewals, the receipt notice extends your status or work permit. Read the notice carefully to see if yours does."
+      },
+      {
+        "q": "What if my name is misspelled on the notice?",
+        "a": "Contact USCIS to request a correction of a typographic error. Do it early so the mistake does not carry over to your card or document."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuánto tarda en llegar el aviso de recibo por correo?",
+        "a": "Suele llegar en unas semanas. Si no ha llegado después de un mes, comunícate con USCIS."
+      },
+      {
+        "q": "¿Puedo usar el aviso de recibo como prueba de estatus?",
+        "a": "En algunos formularios, como el I-751 o ciertas renovaciones, el aviso de recibo extiende tu estatus o permiso de trabajo. Lee bien el aviso para saber si el tuyo lo hace."
+      },
+      {
+        "q": "¿Qué hago si mi nombre está mal escrito en el aviso?",
+        "a": "Comunícate con USCIS para pedir la corrección de un error tipográfico. Hazlo pronto para que el error no pase a tu tarjeta o documento."
+      }
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Fingerprint Fee Was Received",
+    "slug_en": "fingerprint-fee-was-received",
+    "title_es": "Pago de huellas recibido",
+    "slug_es": "pago-de-huellas-recibido",
+    "kind": "ok",
+    "stage": "biometrics",
+    "meaning_en": "USCIS received the biometrics (fingerprint) fee for your case. It confirms your payment was applied. The next usual step is a biometrics appointment notice. You do not need to pay again.",
+    "meaning_es": "USCIS recibió el pago de biometría (huellas) de tu caso. Confirma que tu pago se aplicó. El siguiente paso habitual es un aviso de cita de biometría. No necesitas pagar otra vez.",
+    "next_en": [
+      "Wait for the biometrics appointment notice by mail.",
+      "Keep your payment receipt or bank record.",
+      "Make sure USCIS has your current address."
+    ],
+    "next_es": [
+      "Espera por correo el aviso de cita de biometría.",
+      "Guarda tu comprobante de pago o el registro de tu banco.",
+      "Asegúrate de que USCIS tenga tu dirección actual."
+    ],
+    "mistakes_en": [
+      "Sending a second payment because the status looks unusual.",
+      "Going to a biometrics center without an appointment notice."
+    ],
+    "mistakes_es": [
+      "Enviar un segundo pago porque el estatus parece raro.",
+      "Ir a un centro de biometría sin aviso de cita."
+    ],
+    "wait_en": "This usually lasts a few weeks until the appointment notice is sent, but it varies.",
+    "wait_es": "Normalmente dura unas semanas hasta que envían el aviso de cita, pero varía.",
+    "faq_en": [
+      {
+        "q": "Do I need to do anything after 'Fingerprint Fee Was Received'?",
+        "a": "No action is needed. Wait for your biometrics appointment notice."
+      },
+      {
+        "q": "Is this status bad news?",
+        "a": "No. It is a routine payment confirmation."
+      },
+      {
+        "q": "What if I never get a biometrics appointment?",
+        "a": "Some cases reuse fingerprints from earlier filings. If a long time passes with no notice, contact USCIS."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Tengo que hacer algo después de 'Fingerprint Fee Was Received'?",
+        "a": "No. Espera tu aviso de cita de biometría."
+      },
+      {
+        "q": "¿Este estatus es una mala noticia?",
+        "a": "No. Es una confirmación de pago de rutina."
+      },
+      {
+        "q": "¿Qué pasa si nunca me dan cita de biometría?",
+        "a": "En algunos casos USCIS reutiliza huellas de trámites anteriores. Si pasa mucho tiempo sin aviso, comunícate con USCIS."
+      }
+    ],
+    "applies_to": [
+      "family",
+      "employment",
+      "humanitarian",
+      "naturalization",
+      "travel_work",
+      "card",
+      "investor",
+      "waiver_appeal"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Fingerprint Review Was Completed",
+    "slug_en": "fingerprint-review-was-completed",
+    "title_es": "Revisión de huellas completada",
+    "slug_es": "revision-de-huellas-completada",
+    "kind": "ok",
+    "stage": "biometrics",
+    "meaning_en": "USCIS finished reviewing the results of your fingerprints. The FBI background check linked to your biometrics came back. This is a normal step, not a decision. Your case moves on to the next review stage.",
+    "meaning_es": "USCIS terminó de revisar los resultados de tus huellas. Ya regresó la revisión de antecedentes del FBI ligada a tu biometría. Es un paso normal, no una decisión. Tu caso pasa a la siguiente etapa de revisión.",
+    "next_en": [
+      "Keep checking your status for the next update.",
+      "Watch your mail for any interview or evidence request.",
+      "Keep your documents ready in case USCIS asks for more."
+    ],
+    "next_es": [
+      "Sigue revisando tu estatus para ver la siguiente actualización.",
+      "Revisa tu correo por si llega una cita de entrevista o una solicitud de evidencia.",
+      "Ten tus documentos listos por si USCIS pide más."
+    ],
+    "mistakes_en": [
+      "Assuming this means approval is close.",
+      "Calling USCIS repeatedly when the case is still within normal processing time."
+    ],
+    "mistakes_es": [
+      "Suponer que esto significa que la aprobación está cerca.",
+      "Llamar a USCIS una y otra vez cuando el caso sigue dentro del tiempo normal."
+    ],
+    "wait_en": "The next update can come in weeks or months; it varies by form and office.",
+    "wait_es": "La siguiente actualización puede llegar en semanas o meses; varía según el formulario y la oficina.",
+    "faq_en": [
+      {
+        "q": "Does 'Fingerprint Review Was Completed' mean my background check is clear?",
+        "a": "It means the fingerprint results were reviewed. It does not tell you the outcome of the whole case."
+      },
+      {
+        "q": "What comes after fingerprint review?",
+        "a": "Usually more review, an interview, or a decision, depending on your form."
+      },
+      {
+        "q": "Can I travel now?",
+        "a": "This status does not change your travel permission. Check your form's rules before leaving the country."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿'Fingerprint Review Was Completed' significa que mis antecedentes salieron limpios?",
+        "a": "Significa que revisaron los resultados de tus huellas. No te dice el resultado de todo el caso."
+      },
+      {
+        "q": "¿Qué sigue después de la revisión de huellas?",
+        "a": "Normalmente más revisión, una entrevista o una decisión, según tu formulario."
+      },
+      {
+        "q": "¿Ya puedo viajar?",
+        "a": "Este estatus no cambia tu permiso para viajar. Revisa las reglas de tu formulario antes de salir del país."
+      }
+    ],
+    "applies_to": [
+      "family",
+      "employment",
+      "humanitarian",
+      "naturalization",
+      "travel_work",
+      "card",
+      "investor",
+      "waiver_appeal"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Case Is Being Actively Reviewed By USCIS",
+    "slug_en": "case-is-being-actively-reviewed-by-uscis",
+    "title_es": "Caso en revisión activa por USCIS",
+    "slug_es": "caso-en-revision-activa-por-uscis",
+    "kind": "ok",
+    "stage": "review",
+    "meaning_en": "An officer or system is working on your case. USCIS uses this status for many steps, so it can appear more than once. It does not mean a decision is coming soon. Many cases stay here for a long time.",
+    "meaning_es": "Un oficial o sistema está trabajando en tu caso. USCIS usa este estatus para muchos pasos, así que puede aparecer más de una vez. No significa que la decisión llegue pronto. Muchos casos se quedan así por mucho tiempo.",
+    "next_en": [
+      "Keep checking your mail and online account.",
+      "Answer any request from USCIS before its deadline.",
+      "Compare your wait with posted processing times.",
+      "Ask for a case inquiry only if you are outside normal processing time."
+    ],
+    "next_es": [
+      "Sigue revisando tu correo y tu cuenta en línea.",
+      "Responde cualquier solicitud de USCIS antes de su fecha límite.",
+      "Compara tu espera con los tiempos de procesamiento publicados.",
+      "Pide una consulta del caso solo si ya pasaste el tiempo normal."
+    ],
+    "mistakes_en": [
+      "Reading this status as a sign that approval is days away.",
+      "Filing duplicate applications because nothing seems to happen."
+    ],
+    "mistakes_es": [
+      "Leer este estatus como señal de que la aprobación llegará en días.",
+      "Presentar solicitudes duplicadas porque parece que no pasa nada."
+    ],
+    "wait_en": "This status can last from weeks to many months; it varies widely.",
+    "wait_es": "Este estatus puede durar desde semanas hasta muchos meses; varía mucho.",
+    "faq_en": [
+      {
+        "q": "Why did my status go back to 'Actively Reviewed'?",
+        "a": "USCIS reuses this message for many internal steps. A repeat does not mean something went wrong."
+      },
+      {
+        "q": "Does 'Actively Reviewed' mean an officer is looking at my file today?",
+        "a": "Not always. It often reflects a system update, not daily work on your file."
+      },
+      {
+        "q": "Should I contact USCIS?",
+        "a": "Only if your case is outside the normal processing time for your form and office."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Por qué mi estatus volvió a 'Actively Reviewed'?",
+        "a": "USCIS reutiliza este mensaje para muchos pasos internos. Que se repita no significa que algo salió mal."
+      },
+      {
+        "q": "¿'Actively Reviewed' significa que un oficial ve mi expediente hoy?",
+        "a": "No siempre. Muchas veces refleja una actualización del sistema, no trabajo diario en tu expediente."
+      },
+      {
+        "q": "¿Debo comunicarme con USCIS?",
+        "a": "Solo si tu caso ya pasó el tiempo normal de procesamiento de tu formulario y oficina."
+      }
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Case Is Ready To Be Scheduled For An Interview",
+    "slug_en": "case-is-ready-to-be-scheduled-for-an-interview",
+    "title_es": "Caso listo para programar entrevista",
+    "slug_es": "caso-listo-para-programar-entrevista",
+    "kind": "ok",
+    "stage": "interview",
+    "meaning_en": "USCIS decided your case needs an interview and placed it in line to be scheduled. You do not have a date yet. The wait depends on how busy your local field office is. This is a normal step for many green card and citizenship cases.",
+    "meaning_es": "USCIS decidió que tu caso necesita entrevista y lo puso en fila para programarla. Todavía no tienes fecha. La espera depende de qué tan ocupada esté tu oficina local. Es un paso normal en muchos casos de green card y ciudadanía.",
+    "next_en": [
+      "Gather original documents you may need to bring.",
+      "Review your application so you remember your answers.",
+      "Keep your address current so the notice reaches you.",
+      "If you need an interpreter, plan for it now when allowed."
+    ],
+    "next_es": [
+      "Reúne los documentos originales que podrías necesitar llevar.",
+      "Repasa tu solicitud para recordar tus respuestas.",
+      "Mantén tu dirección al día para que el aviso te llegue.",
+      "Si necesitas intérprete, planéalo desde ahora cuando esté permitido."
+    ],
+    "mistakes_en": [
+      "Traveling far away without a way to receive mail.",
+      "Waiting for the notice to start preparing."
+    ],
+    "mistakes_es": [
+      "Viajar lejos sin forma de recibir correo.",
+      "Esperar a que llegue el aviso para empezar a prepararte."
+    ],
+    "wait_en": "Waits range from a few weeks to many months, depending on the field office.",
+    "wait_es": "La espera va desde unas semanas hasta muchos meses, según la oficina local.",
+    "faq_en": [
+      {
+        "q": "When will my interview be scheduled?",
+        "a": "There is no set date. It depends on your field office's workload."
+      },
+      {
+        "q": "What should I bring to the interview?",
+        "a": "Your appointment notice will list it. Usually your ID, originals of documents you filed, and any new evidence."
+      },
+      {
+        "q": "Can I ask for an earlier interview?",
+        "a": "Only in limited cases through an expedite request, which USCIS grants at its discretion."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuándo me van a programar la entrevista?",
+        "a": "No hay fecha fija. Depende de la carga de trabajo de tu oficina local."
+      },
+      {
+        "q": "¿Qué debo llevar a la entrevista?",
+        "a": "Tu aviso de cita lo indicará. Normalmente tu identificación, los originales de lo que presentaste y cualquier evidencia nueva."
+      },
+      {
+        "q": "¿Puedo pedir una entrevista más pronto?",
+        "a": "Solo en casos limitados con una solicitud para acelerar el caso, que USCIS concede a su criterio."
+      }
+    ],
+    "applies_to": [
+      "family",
+      "employment",
+      "humanitarian",
+      "naturalization",
+      "investor"
+    ],
+    "card_only": false,
+    "interview_only": true
+  },
+  {
+    "code": "Interview Was Scheduled",
+    "slug_en": "interview-was-scheduled",
+    "title_es": "Entrevista programada",
+    "slug_es": "entrevista-programada",
+    "kind": "act",
+    "stage": "interview",
+    "meaning_en": "USCIS set a date, time and place for your interview. The appointment notice is in the mail or in your online account. Going to this interview is required. Missing it can lead to denial of your case.",
+    "meaning_es": "USCIS fijó fecha, hora y lugar para tu entrevista. El aviso de cita está en camino por correo o en tu cuenta en línea. Asistir a la entrevista es obligatorio. Faltar puede hacer que nieguen tu caso.",
+    "next_en": [
+      "Read the appointment notice and write down the date, time and address.",
+      "Prepare originals and copies of every document listed.",
+      "Plan to arrive early with a government photo ID.",
+      "If you truly cannot attend, ask to reschedule before the date.",
+      "Consider talking to an attorney or accredited representative if your case has complications."
+    ],
+    "next_es": [
+      "Lee el aviso de cita y anota la fecha, hora y dirección.",
+      "Prepara originales y copias de cada documento que piden.",
+      "Planea llegar temprano con una identificación oficial con foto.",
+      "Si de verdad no puedes ir, pide reprogramar antes de la fecha.",
+      "Piensa en hablar con un abogado o representante acreditado si tu caso tiene complicaciones."
+    ],
+    "mistakes_en": [
+      "Not showing up and not asking to reschedule.",
+      "Bringing copies but no originals.",
+      "Giving answers that differ from the application without explaining why."
+    ],
+    "mistakes_es": [
+      "No presentarse y no pedir reprogramación.",
+      "Llevar copias pero no los originales.",
+      "Dar respuestas distintas a la solicitud sin explicar por qué."
+    ],
+    "wait_en": "The interview date is on your notice; this status stays until the interview happens.",
+    "wait_es": "La fecha de la entrevista está en tu aviso; este estatus se queda hasta que ocurra la entrevista.",
+    "faq_en": [
+      {
+        "q": "Where can I see my interview date?",
+        "a": "On the appointment notice mailed to you, and often in your USCIS online account."
+      },
+      {
+        "q": "Can I bring a lawyer to my interview?",
+        "a": "Yes. You may bring an attorney or accredited representative who has filed a Form G-28."
+      },
+      {
+        "q": "What happens if I miss the interview?",
+        "a": "USCIS may consider the case abandoned and deny it. Contact USCIS right away if you missed it."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde veo la fecha de mi entrevista?",
+        "a": "En el aviso de cita que te mandan por correo, y muchas veces en tu cuenta en línea de USCIS."
+      },
+      {
+        "q": "¿Puedo llevar a un abogado a mi entrevista?",
+        "a": "Sí. Puedes ir con un abogado o representante acreditado que haya presentado el Formulario G-28."
+      },
+      {
+        "q": "¿Qué pasa si falto a la entrevista?",
+        "a": "USCIS puede considerar el caso abandonado y negarlo. Comunícate con USCIS de inmediato si faltaste."
+      }
+    ],
+    "applies_to": [
+      "family",
+      "employment",
+      "humanitarian",
+      "naturalization",
+      "investor"
+    ],
+    "card_only": false,
+    "interview_only": true
+  },
+  {
+    "code": "Interview Was Completed And My Case Must Be Reviewed",
+    "slug_en": "interview-was-completed-and-my-case-must-be-reviewed",
+    "title_es": "Entrevista completada, caso en revisión",
+    "slug_es": "entrevista-completada-caso-en-revision",
+    "kind": "ok",
+    "stage": "interview",
+    "meaning_en": "You had your interview and the officer did not make a final decision that day. Your file needs more review, a supervisor check, or a pending background step. This is common and is not a denial. Some cases are decided within days, others take months.",
+    "meaning_es": "Ya tuviste tu entrevista y el oficial no tomó la decisión final ese día. Tu expediente necesita más revisión, una revisión de un supervisor o un paso de antecedentes pendiente. Es común y no es una negación. Algunos casos se deciden en días y otros tardan meses.",
+    "next_en": [
+      "Keep any paper the officer gave you at the interview.",
+      "Send any requested documents before the deadline.",
+      "Watch your mail for a request for evidence or a decision.",
+      "Wait at least the normal processing time before asking about the case."
+    ],
+    "next_es": [
+      "Guarda cualquier papel que te dio el oficial en la entrevista.",
+      "Envía los documentos que te pidieron antes de la fecha límite.",
+      "Revisa tu correo por si llega una solicitud de evidencia o una decisión.",
+      "Espera al menos el tiempo normal antes de preguntar por el caso."
+    ],
+    "mistakes_en": [
+      "Panicking because no decision was given at the interview.",
+      "Forgetting to send documents the officer asked for."
+    ],
+    "mistakes_es": [
+      "Entrar en pánico porque no te dieron la decisión en la entrevista.",
+      "Olvidar enviar los documentos que pidió el oficial."
+    ],
+    "wait_en": "This can last from a few days to several months; it varies.",
+    "wait_es": "Puede durar desde unos días hasta varios meses; varía.",
+    "faq_en": [
+      {
+        "q": "Is 'Interview Was Completed And My Case Must Be Reviewed' a bad sign?",
+        "a": "No. It is very common and only means the decision was not made on the spot."
+      },
+      {
+        "q": "What is Form N-652 or the paper I got at the interview?",
+        "a": "It is a results sheet. It may say a decision cannot yet be made or list documents to send."
+      },
+      {
+        "q": "How long after the interview will I get a decision?",
+        "a": "It varies by office and case. There is no fixed timeline."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿'Interview Was Completed And My Case Must Be Reviewed' es mala señal?",
+        "a": "No. Es muy común y solo significa que no decidieron en ese momento."
+      },
+      {
+        "q": "¿Qué es el Formulario N-652 o el papel que me dieron en la entrevista?",
+        "a": "Es una hoja de resultados. Puede decir que aún no se puede decidir o listar documentos que debes enviar."
+      },
+      {
+        "q": "¿Cuánto tarda la decisión después de la entrevista?",
+        "a": "Depende de la oficina y del caso. No hay un plazo fijo."
+      }
+    ],
+    "applies_to": [
+      "family",
+      "employment",
+      "humanitarian",
+      "naturalization",
+      "investor"
+    ],
+    "card_only": false,
+    "interview_only": true
+  },
+  {
+    "code": "Request for Additional Evidence Was Sent",
+    "slug_en": "request-for-additional-evidence-was-sent",
+    "title_es": "Solicitud de evidencia adicional enviada (RFE)",
+    "slug_es": "solicitud-de-evidencia-adicional-enviada-rfe",
+    "kind": "act",
+    "stage": "evidence",
+    "meaning_en": "USCIS mailed you a Request for Evidence (RFE). The officer needs more documents or information before deciding. The notice lists exactly what is missing and the deadline to respond. An RFE is common and can be answered.",
+    "meaning_es": "USCIS te envió por correo una Solicitud de Evidencia (RFE). El oficial necesita más documentos o información antes de decidir. El aviso dice exactamente qué falta y la fecha límite para responder. Un RFE es común y se puede contestar.",
+    "next_en": [
+      "Read the whole RFE and note the deadline printed on it.",
+      "Gather every item it asks for, in the order listed.",
+      "Put the RFE notice on top of your response packet.",
+      "Mail it with tracking well before the deadline.",
+      "On complex cases, talk to an immigration attorney or accredited representative."
+    ],
+    "next_es": [
+      "Lee todo el RFE y anota la fecha límite que trae.",
+      "Reúne cada cosa que pide, en el orden en que la lista.",
+      "Pon el aviso del RFE encima de tu paquete de respuesta.",
+      "Envíalo con número de rastreo mucho antes de la fecha límite.",
+      "En casos complejos, habla con un abogado de inmigración o un representante acreditado."
+    ],
+    "mistakes_en": [
+      "Missing the deadline, which usually leads to denial.",
+      "Sending only part of what was asked.",
+      "Not including the RFE cover page."
+    ],
+    "mistakes_es": [
+      "Pasarse de la fecha límite, lo que suele llevar a la negación.",
+      "Enviar solo parte de lo que pidieron.",
+      "No incluir la hoja del RFE al frente."
+    ],
+    "wait_en": "You stay here until USCIS receives your response; the deadline is on your notice.",
+    "wait_es": "Te quedas en este estatus hasta que USCIS reciba tu respuesta; la fecha límite está en tu aviso.",
+    "faq_en": [
+      {
+        "q": "What is an RFE?",
+        "a": "A Request for Evidence. USCIS asks for more proof before making a decision."
+      },
+      {
+        "q": "How long do I have to answer an RFE?",
+        "a": "The deadline is printed on the notice. Do not rely on a general rule; check your own notice."
+      },
+      {
+        "q": "Does an RFE mean my case will be denied?",
+        "a": "No. Many cases with an RFE are later approved when the response is complete."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es un RFE?",
+        "a": "Una Solicitud de Evidencia. USCIS pide más pruebas antes de tomar una decisión."
+      },
+      {
+        "q": "¿Cuánto tiempo tengo para responder un RFE?",
+        "a": "La fecha límite está impresa en el aviso. No te guíes por una regla general; revisa tu propio aviso."
+      },
+      {
+        "q": "¿Un RFE significa que van a negar mi caso?",
+        "a": "No. Muchos casos con RFE se aprueban después cuando la respuesta está completa."
+      }
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Request For Initial Evidence Was Sent",
+    "slug_en": "request-for-initial-evidence-was-sent",
+    "title_es": "Solicitud de evidencia inicial enviada",
+    "slug_es": "solicitud-de-evidencia-inicial-enviada",
+    "kind": "act",
+    "stage": "evidence",
+    "meaning_en": "USCIS mailed a notice asking for evidence that should have come with your filing. Something required was missing from the start, such as a document, photo or signature. The notice says what to send and the deadline. Answering on time keeps your case moving.",
+    "meaning_es": "USCIS te envió un aviso pidiendo evidencia que debía venir con tu solicitud. Faltaba algo obligatorio desde el inicio, como un documento, una foto o una firma. El aviso dice qué enviar y la fecha límite. Responder a tiempo mantiene tu caso en marcha.",
+    "next_en": [
+      "Read the notice and mark the deadline.",
+      "Send exactly what it lists, with the notice on top.",
+      "Keep copies of everything you send.",
+      "Use mail with tracking.",
+      "Ask an attorney or accredited representative if you do not understand what is missing."
+    ],
+    "next_es": [
+      "Lee el aviso y marca la fecha límite.",
+      "Envía exactamente lo que pide, con el aviso encima.",
+      "Guarda copias de todo lo que envíes.",
+      "Usa correo con número de rastreo.",
+      "Pregunta a un abogado o representante acreditado si no entiendes qué falta."
+    ],
+    "mistakes_en": [
+      "Ignoring the notice because it looks like a form letter.",
+      "Sending new originals you may need later instead of copies, when copies are allowed."
+    ],
+    "mistakes_es": [
+      "Ignorar el aviso porque parece una carta automática.",
+      "Enviar originales que vas a necesitar después cuando se permiten copias."
+    ],
+    "wait_en": "You stay here until USCIS gets your response; the deadline is on the notice.",
+    "wait_es": "Te quedas en este estatus hasta que USCIS reciba tu respuesta; la fecha límite está en el aviso.",
+    "faq_en": [
+      {
+        "q": "What is the difference between initial evidence and an RFE?",
+        "a": "Initial evidence is something required with the original filing. An RFE asks for extra proof the officer needs."
+      },
+      {
+        "q": "What if I cannot get the document in time?",
+        "a": "Send what you have with an explanation and proof you tried to get the rest."
+      },
+      {
+        "q": "Will my case be denied if I do not respond?",
+        "a": "Usually yes. Not responding by the deadline often leads to denial."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuál es la diferencia entre evidencia inicial y un RFE?",
+        "a": "La evidencia inicial es algo obligatorio que debía ir con la solicitud. Un RFE pide pruebas extra que el oficial necesita."
+      },
+      {
+        "q": "¿Qué hago si no consigo el documento a tiempo?",
+        "a": "Envía lo que tengas con una explicación y pruebas de que intentaste conseguir lo demás."
+      },
+      {
+        "q": "¿Me niegan el caso si no respondo?",
+        "a": "Normalmente sí. No responder antes de la fecha límite suele llevar a la negación."
+      }
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Response To USCIS' Request For Evidence Was Received",
+    "slug_en": "response-to-uscis-request-for-evidence-was-received",
+    "title_es": "Respuesta a la solicitud de evidencia recibida",
+    "slug_es": "respuesta-a-la-solicitud-de-evidencia-recibida",
+    "kind": "ok",
+    "stage": "evidence",
+    "meaning_en": "USCIS received the documents you sent in response to its request. Your case goes back to the officer for review. This status confirms delivery, not approval. The officer may decide, ask for more, or schedule another step.",
+    "meaning_es": "USCIS recibió los documentos que enviaste en respuesta a su solicitud. Tu caso regresa al oficial para revisión. Este estatus confirma la entrega, no la aprobación. El oficial puede decidir, pedir más o programar otro paso.",
+    "next_en": [
+      "Keep your mailing receipt and copies of your response.",
+      "Watch for the next status update.",
+      "Wait for the normal review time before asking about it."
+    ],
+    "next_es": [
+      "Guarda tu comprobante de envío y las copias de tu respuesta.",
+      "Espera la siguiente actualización del estatus.",
+      "Espera el tiempo normal de revisión antes de preguntar."
+    ],
+    "mistakes_en": [
+      "Sending extra documents again without being asked.",
+      "Assuming approval will follow automatically."
+    ],
+    "mistakes_es": [
+      "Enviar más documentos sin que te los pidan.",
+      "Suponer que la aprobación llegará automáticamente."
+    ],
+    "wait_en": "A decision or next step often comes within weeks to a few months, but it varies.",
+    "wait_es": "La decisión o el siguiente paso suele llegar en semanas o unos meses, pero varía.",
+    "faq_en": [
+      {
+        "q": "How long after my RFE response will USCIS decide?",
+        "a": "It varies. Many cases see an update within a few months."
+      },
+      {
+        "q": "Can I add documents after my response was received?",
+        "a": "Generally USCIS decides on what it has. Send more only if USCIS asks."
+      },
+      {
+        "q": "Is this status good news?",
+        "a": "It is neutral. It confirms your response arrived on time."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuánto tarda USCIS en decidir después de mi respuesta al RFE?",
+        "a": "Varía. Muchos casos ven una actualización en unos meses."
+      },
+      {
+        "q": "¿Puedo agregar documentos después de que recibieron mi respuesta?",
+        "a": "En general USCIS decide con lo que tiene. Envía más solo si USCIS lo pide."
+      },
+      {
+        "q": "¿Este estatus es buena noticia?",
+        "a": "Es neutral. Confirma que tu respuesta llegó a tiempo."
+      }
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Case Was Transferred And A New Office Has Jurisdiction",
+    "slug_en": "case-was-transferred-and-a-new-office-has-jurisdiction",
+    "title_es": "Caso transferido a una nueva oficina",
+    "slug_es": "caso-transferido-a-una-nueva-oficina",
+    "kind": "ok",
+    "stage": "admin",
+    "meaning_en": "USCIS moved your case to a different office. This often happens to balance workloads or to send the case to an office near you for an interview. The new office now handles your case. A transfer is routine and is not a decision.",
+    "meaning_es": "USCIS movió tu caso a otra oficina. Esto pasa seguido para repartir la carga de trabajo o para mandar el caso a una oficina cerca de ti para la entrevista. La nueva oficina ahora maneja tu caso. Una transferencia es de rutina y no es una decisión.",
+    "next_en": [
+      "Watch for a transfer notice by mail.",
+      "Check processing times for the new office.",
+      "Keep your address current with USCIS."
+    ],
+    "next_es": [
+      "Espera un aviso de transferencia por correo.",
+      "Consulta los tiempos de procesamiento de la nueva oficina.",
+      "Mantén tu dirección actualizada con USCIS."
+    ],
+    "mistakes_en": [
+      "Comparing your wait with the old office's processing times.",
+      "Thinking a transfer means a problem with the case."
+    ],
+    "mistakes_es": [
+      "Comparar tu espera con los tiempos de la oficina anterior.",
+      "Pensar que una transferencia significa un problema con el caso."
+    ],
+    "wait_en": "The next update after a transfer can take weeks to months, depending on the new office.",
+    "wait_es": "La siguiente actualización después de una transferencia puede tardar semanas o meses, según la nueva oficina.",
+    "faq_en": [
+      {
+        "q": "Why was my case transferred?",
+        "a": "Usually to balance workloads or move it to an office that can interview you."
+      },
+      {
+        "q": "Will a transfer slow down my case?",
+        "a": "It can change your timeline, since each office has its own processing times."
+      },
+      {
+        "q": "Which office has my case now?",
+        "a": "The transfer notice and your online account usually name the new office."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Por qué transfirieron mi caso?",
+        "a": "Normalmente para repartir la carga de trabajo o mandarlo a una oficina que pueda entrevistarte."
+      },
+      {
+        "q": "¿La transferencia retrasa mi caso?",
+        "a": "Puede cambiar tus tiempos, porque cada oficina tiene sus propios tiempos de procesamiento."
+      },
+      {
+        "q": "¿Qué oficina tiene mi caso ahora?",
+        "a": "El aviso de transferencia y tu cuenta en línea suelen indicar la nueva oficina."
+      }
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Case Was Approved",
+    "slug_en": "case-was-approved",
+    "title_es": "Caso aprobado",
+    "slug_es": "caso-aprobado",
+    "kind": "good",
+    "stage": "decision",
+    "meaning_en": "USCIS approved your application or petition. An approval notice is being mailed to you. What happens next depends on your form: a card may be produced, the case may go to the Department of State, or you may get a document. Keep the approval notice safe.",
+    "meaning_es": "USCIS aprobó tu solicitud o petición. Te están enviando por correo un aviso de aprobación. Lo que sigue depende de tu formulario: pueden producir una tarjeta, mandar el caso al Departamento de Estado o enviarte un documento. Guarda bien el aviso de aprobación.",
+    "next_en": [
+      "Watch for the approval notice (Form I-797) by mail.",
+      "Check that all details on the notice are correct.",
+      "Learn the next step for your specific form.",
+      "Keep your address current so cards or documents reach you."
+    ],
+    "next_es": [
+      "Espera por correo el aviso de aprobación (Formulario I-797).",
+      "Revisa que todos los datos del aviso estén correctos.",
+      "Infórmate sobre el siguiente paso de tu formulario.",
+      "Mantén tu dirección al día para que te lleguen tarjetas o documentos."
+    ],
+    "mistakes_en": [
+      "Thinking a petition approval (like I-130) is the same as a green card.",
+      "Moving before the card or document arrives without updating the address."
+    ],
+    "mistakes_es": [
+      "Pensar que aprobar una petición (como el I-130) es lo mismo que tener green card.",
+      "Mudarse antes de que llegue la tarjeta o el documento sin actualizar la dirección."
+    ],
+    "wait_en": "The approval notice usually arrives within a few weeks; the next step's timing depends on your form.",
+    "wait_es": "El aviso de aprobación suele llegar en unas semanas; el tiempo del siguiente paso depende de tu formulario.",
+    "faq_en": [
+      {
+        "q": "My case was approved. When will I get my card?",
+        "a": "If your form produces a card, the status usually changes to 'New Card Is Being Produced' and then to mailed."
+      },
+      {
+        "q": "Does an approved I-130 mean I have a green card?",
+        "a": "No. It approves the family relationship. The beneficiary still needs to adjust status or get an immigrant visa."
+      },
+      {
+        "q": "What if the approval notice has a mistake?",
+        "a": "Contact USCIS to request a correction as soon as possible."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "Aprobaron mi caso. ¿Cuándo me llega la tarjeta?",
+        "a": "Si tu formulario produce tarjeta, el estatus suele cambiar a 'New Card Is Being Produced' y luego a enviada."
+      },
+      {
+        "q": "¿Un I-130 aprobado significa que ya tengo green card?",
+        "a": "No. Aprueba la relación familiar. El beneficiario aún debe ajustar su estatus o conseguir una visa de inmigrante."
+      },
+      {
+        "q": "¿Qué hago si el aviso de aprobación tiene un error?",
+        "a": "Comunícate con USCIS para pedir la corrección lo antes posible."
+      }
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "New Card Is Being Produced",
+    "slug_en": "new-card-is-being-produced",
+    "title_es": "Nueva tarjeta en producción",
+    "slug_es": "nueva-tarjeta-en-produccion",
+    "kind": "good",
+    "stage": "card",
+    "meaning_en": "USCIS ordered your card to be printed. This happens after approval for green cards, work permits and similar cards. The card will be mailed once it is made. Your case decision is already done.",
+    "meaning_es": "USCIS mandó a imprimir tu tarjeta. Esto pasa después de la aprobación de green cards, permisos de trabajo y tarjetas similares. La tarjeta se enviará por correo cuando esté lista. La decisión de tu caso ya está tomada.",
+    "next_en": [
+      "Confirm USCIS has your current mailing address.",
+      "Make sure your name appears on your mailbox.",
+      "Wait for the 'Card Was Mailed' update with tracking."
+    ],
+    "next_es": [
+      "Confirma que USCIS tenga tu dirección postal actual.",
+      "Asegúrate de que tu nombre aparezca en tu buzón.",
+      "Espera la actualización 'Card Was Mailed' con número de rastreo."
+    ],
+    "mistakes_en": [
+      "Changing address now without telling USCIS.",
+      "Assuming the card will be forwarded by the post office; cards are often not forwarded."
+    ],
+    "mistakes_es": [
+      "Cambiar de dirección ahora sin avisar a USCIS.",
+      "Suponer que el correo reenviará la tarjeta; muchas veces no se reenvía."
+    ],
+    "wait_en": "Card production usually takes from a few days to a few weeks.",
+    "wait_es": "La producción de la tarjeta suele tardar de unos días a unas semanas.",
+    "faq_en": [
+      {
+        "q": "Is my case approved if the card is being produced?",
+        "a": "Yes. A card is produced only after approval."
+      },
+      {
+        "q": "How long until the card is mailed?",
+        "a": "Usually days to a few weeks."
+      },
+      {
+        "q": "What if I moved?",
+        "a": "Update your address with USCIS right away, because the post office may not forward the card."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Mi caso está aprobado si están produciendo la tarjeta?",
+        "a": "Sí. Solo se produce la tarjeta después de la aprobación."
+      },
+      {
+        "q": "¿Cuánto falta para que envíen la tarjeta?",
+        "a": "Normalmente días o unas semanas."
+      },
+      {
+        "q": "¿Qué hago si me mudé?",
+        "a": "Actualiza tu dirección con USCIS de inmediato, porque el correo puede no reenviar la tarjeta."
+      }
+    ],
+    "applies_to": [
+      "family",
+      "employment",
+      "humanitarian",
+      "travel_work",
+      "card",
+      "investor"
+    ],
+    "card_only": true,
+    "interview_only": false
+  },
+  {
+    "code": "Card Was Mailed To Me",
+    "slug_en": "card-was-mailed-to-me",
+    "title_es": "Tarjeta enviada por correo",
+    "slug_es": "tarjeta-enviada-por-correo",
+    "kind": "good",
+    "stage": "card",
+    "meaning_en": "USCIS mailed your card to the address on file. The status often includes a USPS tracking number. Delivery usually takes a few days. Watch your mailbox.",
+    "meaning_es": "USCIS envió tu tarjeta por correo a la dirección registrada. El estatus muchas veces trae un número de rastreo de USPS. La entrega suele tardar unos días. Revisa tu buzón.",
+    "next_en": [
+      "Copy the USPS tracking number from the status.",
+      "Track the package on the USPS website.",
+      "Check your card details as soon as it arrives."
+    ],
+    "next_es": [
+      "Copia el número de rastreo de USPS del estatus.",
+      "Rastrea el paquete en la página de USPS.",
+      "Revisa los datos de tu tarjeta en cuanto llegue."
+    ],
+    "mistakes_en": [
+      "Waiting too long to report a card that never arrived.",
+      "Not checking the card for errors right away."
+    ],
+    "mistakes_es": [
+      "Esperar demasiado para reportar una tarjeta que nunca llegó.",
+      "No revisar si la tarjeta tiene errores en cuanto llega."
+    ],
+    "wait_en": "Delivery usually takes a few business days after mailing.",
+    "wait_es": "La entrega suele tardar unos días hábiles después del envío.",
+    "faq_en": [
+      {
+        "q": "Where is my tracking number?",
+        "a": "It is often shown in the status message or your USCIS online account."
+      },
+      {
+        "q": "What if my card does not arrive?",
+        "a": "Check USPS tracking, then contact USCIS if it has not arrived within the expected time."
+      },
+      {
+        "q": "What if my card has a mistake?",
+        "a": "Contact USCIS to request a corrected card. If USCIS made the error, there is usually no fee."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está mi número de rastreo?",
+        "a": "Muchas veces aparece en el mensaje del estatus o en tu cuenta en línea de USCIS."
+      },
+      {
+        "q": "¿Qué hago si no me llega la tarjeta?",
+        "a": "Revisa el rastreo de USPS y, si no llega en el tiempo esperado, comunícate con USCIS."
+      },
+      {
+        "q": "¿Qué hago si mi tarjeta tiene un error?",
+        "a": "Comunícate con USCIS para pedir una tarjeta corregida. Si el error fue de USCIS, normalmente no hay costo."
+      }
+    ],
+    "applies_to": [
+      "family",
+      "employment",
+      "humanitarian",
+      "travel_work",
+      "card",
+      "investor"
+    ],
+    "card_only": true,
+    "interview_only": false
+  },
+  {
+    "code": "Card Was Picked Up By The United States Postal Service",
+    "slug_en": "card-was-picked-up-by-the-united-states-postal-service",
+    "title_es": "Tarjeta recogida por el Servicio Postal",
+    "slug_es": "tarjeta-recogida-por-el-servicio-postal",
+    "kind": "good",
+    "stage": "card",
+    "meaning_en": "The Postal Service picked up your card from USCIS and it is on its way. USPS tracking should show its progress. Delivery normally takes a few days. Nothing else is needed from you.",
+    "meaning_es": "El Servicio Postal recogió tu tarjeta en USCIS y ya va en camino. El rastreo de USPS debe mostrar su avance. La entrega normalmente tarda unos días. No necesitas hacer nada más.",
+    "next_en": [
+      "Track the delivery with the USPS tracking number.",
+      "Make sure someone can receive mail at your address.",
+      "Sign up for USPS Informed Delivery to see mail before it arrives."
+    ],
+    "next_es": [
+      "Rastrea la entrega con el número de USPS.",
+      "Asegúrate de que alguien pueda recibir correo en tu dirección.",
+      "Inscríbete en Informed Delivery de USPS para ver tu correo antes de que llegue."
+    ],
+    "mistakes_en": [
+      "Ignoring a USPS notice that a signature is needed.",
+      "Not checking the mailbox for days."
+    ],
+    "mistakes_es": [
+      "Ignorar un aviso de USPS que pide firma.",
+      "No revisar el buzón por días."
+    ],
+    "wait_en": "Delivery usually happens within a few business days.",
+    "wait_es": "La entrega suele ocurrir en unos días hábiles.",
+    "faq_en": [
+      {
+        "q": "How long after USPS picks up the card will it arrive?",
+        "a": "Usually a few business days."
+      },
+      {
+        "q": "Can I pick up the card at the post office?",
+        "a": "If USPS leaves a notice, follow its instructions to arrange pickup or redelivery."
+      },
+      {
+        "q": "Tracking stopped updating. What do I do?",
+        "a": "Wait a few days, then contact USPS and USCIS if it still does not move."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cuánto tarda en llegar la tarjeta después de que USPS la recoge?",
+        "a": "Normalmente unos días hábiles."
+      },
+      {
+        "q": "¿Puedo recoger la tarjeta en la oficina de correos?",
+        "a": "Si USPS deja un aviso, sigue sus instrucciones para recogerla o pedir otra entrega."
+      },
+      {
+        "q": "El rastreo dejó de actualizarse. ¿Qué hago?",
+        "a": "Espera unos días y, si sigue sin moverse, comunícate con USPS y con USCIS."
+      }
+    ],
+    "applies_to": [
+      "family",
+      "employment",
+      "humanitarian",
+      "travel_work",
+      "card",
+      "investor"
+    ],
+    "card_only": true,
+    "interview_only": false
+  },
+  {
+    "code": "Card Was Delivered To Me By The Post Office",
+    "slug_en": "card-was-delivered-to-me-by-the-post-office",
+    "title_es": "Tarjeta entregada por el correo",
+    "slug_es": "tarjeta-entregada-por-el-correo",
+    "kind": "good",
+    "stage": "card",
+    "meaning_en": "USPS reports that your card was delivered to your address. Check your mailbox and the area around it. Review the card right away for any mistakes. Keep it in a safe place.",
+    "meaning_es": "USPS reporta que tu tarjeta se entregó en tu dirección. Revisa tu buzón y alrededor. Revisa la tarjeta de inmediato por si tiene errores. Guárdala en un lugar seguro.",
+    "next_en": [
+      "Find the card and check your name, birth date and dates on it.",
+      "Make a copy and keep the original safe.",
+      "Report any error to USCIS quickly.",
+      "If you did not receive it, contact USPS and USCIS."
+    ],
+    "next_es": [
+      "Busca la tarjeta y revisa tu nombre, fecha de nacimiento y fechas.",
+      "Saca una copia y guarda el original en un lugar seguro.",
+      "Reporta cualquier error a USCIS pronto.",
+      "Si no la recibiste, comunícate con USPS y con USCIS."
+    ],
+    "mistakes_en": [
+      "Waiting weeks before reporting a missing card.",
+      "Carrying an expired card instead of the new one."
+    ],
+    "mistakes_es": [
+      "Esperar semanas antes de reportar una tarjeta que no llegó.",
+      "Andar con la tarjeta vencida en lugar de la nueva."
+    ],
+    "wait_en": "This is a final card status; it does not change unless there is a problem.",
+    "wait_es": "Es un estatus final de la tarjeta; no cambia a menos que haya un problema.",
+    "faq_en": [
+      {
+        "q": "The status says delivered but I do not have my card. What now?",
+        "a": "Check with neighbors and USPS first, then contact USCIS. You may need to request a replacement."
+      },
+      {
+        "q": "Is my case finished?",
+        "a": "For card cases, yes, once you have the card in hand."
+      },
+      {
+        "q": "What if the card has wrong information?",
+        "a": "Ask USCIS for a corrected card. Keep the incorrect card until USCIS tells you what to do."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "El estatus dice entregada pero no tengo mi tarjeta. ¿Qué hago?",
+        "a": "Pregunta a tus vecinos y a USPS primero, luego comunícate con USCIS. Quizás tengas que pedir un reemplazo."
+      },
+      {
+        "q": "¿Mi caso ya terminó?",
+        "a": "En casos de tarjeta, sí, cuando ya la tienes en la mano."
+      },
+      {
+        "q": "¿Qué hago si la tarjeta tiene datos incorrectos?",
+        "a": "Pide a USCIS una tarjeta corregida. Guarda la tarjeta con error hasta que USCIS te diga qué hacer."
+      }
+    ],
+    "applies_to": [
+      "family",
+      "employment",
+      "humanitarian",
+      "travel_work",
+      "card",
+      "investor"
+    ],
+    "card_only": true,
+    "interview_only": false
+  },
+  {
+    "code": "Document Was Mailed To Me",
+    "slug_en": "document-was-mailed-to-me",
+    "title_es": "Documento enviado por correo",
+    "slug_es": "documento-enviado-por-correo",
+    "kind": "good",
+    "stage": "decision",
+    "meaning_en": "USCIS mailed you a document, such as a travel document, certificate or similar paper. This usually follows an approval. The document should arrive in a few days. Check it for errors when it arrives.",
+    "meaning_es": "USCIS te envió un documento por correo, como un documento de viaje, un certificado o algo parecido. Normalmente esto viene después de una aprobación. El documento debe llegar en unos días. Revísalo por si tiene errores cuando llegue.",
+    "next_en": [
+      "Watch your mailbox and any tracking information.",
+      "Check every detail on the document.",
+      "Store the original safely and make a copy."
+    ],
+    "next_es": [
+      "Revisa tu buzón y cualquier número de rastreo.",
+      "Revisa cada dato del documento.",
+      "Guarda el original en un lugar seguro y saca una copia."
+    ],
+    "mistakes_en": [
+      "Not updating your address before the document is mailed.",
+      "Laminating or altering official documents."
+    ],
+    "mistakes_es": [
+      "No actualizar tu dirección antes de que envíen el documento.",
+      "Enmicar o alterar documentos oficiales."
+    ],
+    "wait_en": "Delivery usually takes a few business days.",
+    "wait_es": "La entrega suele tardar unos días hábiles.",
+    "faq_en": [
+      {
+        "q": "What document was mailed to me?",
+        "a": "It depends on your form. It may be a travel document, certificate or approval-related document."
+      },
+      {
+        "q": "What if the document never arrives?",
+        "a": "Contact USCIS if it has not arrived within a reasonable time after mailing."
+      },
+      {
+        "q": "Is my case approved?",
+        "a": "Usually a mailed document follows an approval, but read the document to be sure."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué documento me enviaron?",
+        "a": "Depende de tu formulario. Puede ser un documento de viaje, un certificado u otro documento ligado a la aprobación."
+      },
+      {
+        "q": "¿Qué hago si el documento nunca llega?",
+        "a": "Comunícate con USCIS si no ha llegado en un tiempo razonable después del envío."
+      },
+      {
+        "q": "¿Mi caso está aprobado?",
+        "a": "Normalmente el envío de un documento viene después de una aprobación, pero lee el documento para estar seguro."
+      }
+    ],
+    "applies_to": [
+      "naturalization",
+      "travel_work",
+      "humanitarian",
+      "waiver_appeal",
+      "other"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Notice Explaining USCIS Actions Was Mailed",
+    "slug_en": "notice-explaining-uscis-actions-was-mailed",
+    "title_es": "Aviso que explica acciones de USCIS enviado",
+    "slug_es": "aviso-que-explica-acciones-de-uscis-enviado",
+    "kind": "act",
+    "stage": "admin",
+    "meaning_en": "USCIS mailed you a letter that explains something it did or needs on your case. It can be many things: a request, a transfer, a notice of intent, or another update. The status alone does not say which. Read the letter carefully as soon as it arrives.",
+    "meaning_es": "USCIS te envió una carta que explica algo que hizo o necesita en tu caso. Puede ser muchas cosas: una solicitud, una transferencia, un aviso de intención u otra actualización. El estatus solo no dice cuál. Lee la carta con cuidado en cuanto llegue.",
+    "next_en": [
+      "Watch your mail closely for the letter.",
+      "Check your USCIS online account for a digital copy.",
+      "Note any deadline in the letter.",
+      "If it is a notice of intent to deny or revoke, talk to an attorney or accredited representative."
+    ],
+    "next_es": [
+      "Revisa tu correo con atención para recibir la carta.",
+      "Busca una copia digital en tu cuenta en línea de USCIS.",
+      "Anota cualquier fecha límite que traiga la carta.",
+      "Si es un aviso de intención de negar o revocar, habla con un abogado o representante acreditado."
+    ],
+    "mistakes_en": [
+      "Guessing what the letter says instead of waiting to read it.",
+      "Missing a deadline because the letter went to an old address."
+    ],
+    "mistakes_es": [
+      "Adivinar qué dice la carta en lugar de esperar a leerla.",
+      "Perder una fecha límite porque la carta llegó a una dirección vieja."
+    ],
+    "wait_en": "The letter usually arrives within a few weeks; any deadline is on the letter.",
+    "wait_es": "La carta suele llegar en unas semanas; cualquier fecha límite viene en la carta.",
+    "faq_en": [
+      {
+        "q": "What does 'Notice Explaining USCIS Actions Was Mailed' mean?",
+        "a": "USCIS sent you a letter about your case. You need to read it to know what it is about."
+      },
+      {
+        "q": "Is this status bad news?",
+        "a": "Not always. It can be routine or it can need a response. The letter tells you."
+      },
+      {
+        "q": "What if the letter never arrives?",
+        "a": "Check your online account and contact USCIS to ask for a copy."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué significa 'Notice Explaining USCIS Actions Was Mailed'?",
+        "a": "USCIS te mandó una carta sobre tu caso. Necesitas leerla para saber de qué trata."
+      },
+      {
+        "q": "¿Este estatus es mala noticia?",
+        "a": "No siempre. Puede ser de rutina o pedirte una respuesta. La carta te lo dirá."
+      },
+      {
+        "q": "¿Qué hago si la carta nunca llega?",
+        "a": "Revisa tu cuenta en línea y comunícate con USCIS para pedir una copia."
+      }
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Case Was Denied",
+    "slug_en": "case-was-denied",
+    "title_es": "Caso negado",
+    "slug_es": "caso-negado",
+    "kind": "bad",
+    "stage": "decision",
+    "meaning_en": "USCIS denied your application or petition. A decision letter explains the reasons and any options. Some denials can be appealed or reopened, and some can be filed again. Deadlines for these options are short.",
+    "meaning_es": "USCIS negó tu solicitud o petición. Una carta de decisión explica las razones y las opciones que hay. Algunas negaciones se pueden apelar o reabrir, y en otros casos se puede volver a presentar. Los plazos para estas opciones son cortos.",
+    "next_en": [
+      "Read the denial letter and note every deadline.",
+      "Talk to an immigration attorney or accredited representative as soon as possible.",
+      "Ask whether an appeal, motion to reopen or new filing fits your case.",
+      "Check how the denial affects your current status or work permit."
+    ],
+    "next_es": [
+      "Lee la carta de negación y anota cada fecha límite.",
+      "Habla con un abogado de inmigración o representante acreditado lo antes posible.",
+      "Pregunta si te conviene una apelación, una moción para reabrir o una nueva solicitud.",
+      "Revisa cómo afecta la negación tu estatus actual o tu permiso de trabajo."
+    ],
+    "mistakes_en": [
+      "Waiting too long and missing the appeal or motion deadline.",
+      "Refiling the same application without fixing the reason for denial.",
+      "Ignoring the effect on your legal status."
+    ],
+    "mistakes_es": [
+      "Esperar demasiado y perder el plazo de apelación o moción.",
+      "Volver a presentar la misma solicitud sin corregir la razón de la negación.",
+      "Ignorar el efecto en tu estatus legal."
+    ],
+    "wait_en": "This is a decision status; any deadline to respond is in the denial letter, often about 30 days.",
+    "wait_es": "Es un estatus de decisión; cualquier plazo para responder está en la carta, muchas veces de unos 30 días.",
+    "faq_en": [
+      {
+        "q": "Can I appeal a USCIS denial?",
+        "a": "Some denials can be appealed or challenged by motion. The letter tells you which options apply."
+      },
+      {
+        "q": "Can I apply again after a denial?",
+        "a": "Often yes, but you should fix the reason for the denial first."
+      },
+      {
+        "q": "Will a denial affect my legal status?",
+        "a": "It can. Talk to an attorney or accredited representative quickly about your situation."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Puedo apelar una negación de USCIS?",
+        "a": "Algunas negaciones se pueden apelar o impugnar con una moción. La carta dice qué opciones aplican."
+      },
+      {
+        "q": "¿Puedo volver a solicitar después de una negación?",
+        "a": "Muchas veces sí, pero primero debes corregir la razón de la negación."
+      },
+      {
+        "q": "¿Una negación afecta mi estatus legal?",
+        "a": "Puede afectarlo. Habla pronto con un abogado o representante acreditado sobre tu situación."
+      }
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Case Was Reopened",
+    "slug_en": "case-was-reopened",
+    "title_es": "Caso reabierto",
+    "slug_es": "caso-reabierto",
+    "kind": "ok",
+    "stage": "review",
+    "meaning_en": "USCIS reopened your case after it had been closed or decided. This can happen after a motion, on USCIS's own initiative, or to fix an error. The case is active again and will get a new decision. Read any notice that explains why.",
+    "meaning_es": "USCIS reabrió tu caso después de que estaba cerrado o decidido. Puede pasar por una moción, por decisión propia de USCIS o para corregir un error. El caso vuelve a estar activo y recibirá una nueva decisión. Lee cualquier aviso que explique por qué.",
+    "next_en": [
+      "Read the reopening notice carefully.",
+      "Respond to any request it includes before the deadline.",
+      "Keep checking your status for the next step."
+    ],
+    "next_es": [
+      "Lee con cuidado el aviso de reapertura.",
+      "Responde cualquier solicitud que incluya antes de la fecha límite.",
+      "Sigue revisando tu estatus para ver el siguiente paso."
+    ],
+    "mistakes_en": [
+      "Assuming the earlier decision still stands.",
+      "Missing a request that came with the reopening notice."
+    ],
+    "mistakes_es": [
+      "Suponer que la decisión anterior sigue vigente.",
+      "No ver una solicitud que venía con el aviso de reapertura."
+    ],
+    "wait_en": "The new decision can take weeks to months; it varies.",
+    "wait_es": "La nueva decisión puede tardar semanas o meses; varía.",
+    "faq_en": [
+      {
+        "q": "Why was my case reopened?",
+        "a": "Common reasons are a motion you filed, a USCIS error, or new information. The notice should explain."
+      },
+      {
+        "q": "Is a reopened case good news?",
+        "a": "It gives the case another review. The outcome is not decided yet."
+      },
+      {
+        "q": "Do I need to send anything?",
+        "a": "Only if the notice asks for something."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Por qué reabrieron mi caso?",
+        "a": "Razones comunes son una moción que presentaste, un error de USCIS o información nueva. El aviso debe explicarlo."
+      },
+      {
+        "q": "¿Que reabran el caso es buena noticia?",
+        "a": "Le da al caso otra revisión. El resultado aún no está decidido."
+      },
+      {
+        "q": "¿Tengo que enviar algo?",
+        "a": "Solo si el aviso lo pide."
+      }
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Case Rejected Because I Sent An Incorrect Fee",
+    "slug_en": "case-rejected-because-i-sent-an-incorrect-fee",
+    "title_es": "Caso rechazado por pago incorrecto",
+    "slug_es": "caso-rechazado-por-pago-incorrecto",
+    "kind": "bad",
+    "stage": "intake",
+    "meaning_en": "USCIS rejected your filing because the fee was wrong, missing or the payment failed. A rejected case is not reviewed and gets no filing date. USCIS usually returns the package with a notice. You can file again with the correct fee.",
+    "meaning_es": "USCIS rechazó tu solicitud porque el pago estaba mal, faltaba o no pasó. Un caso rechazado no se revisa y no obtiene fecha de presentación. USCIS normalmente regresa el paquete con un aviso. Puedes volver a presentar con el pago correcto.",
+    "next_en": [
+      "Read the rejection notice to see what was wrong with the fee.",
+      "Check the current fee on the USCIS fee page for your form.",
+      "Refile the full package with the correct payment.",
+      "Check deadlines, since your filing date is lost."
+    ],
+    "next_es": [
+      "Lee el aviso de rechazo para ver qué estaba mal con el pago.",
+      "Revisa el costo actual de tu formulario en la página de tarifas de USCIS.",
+      "Vuelve a enviar el paquete completo con el pago correcto.",
+      "Revisa fechas límite, porque perdiste tu fecha de presentación."
+    ],
+    "mistakes_en": [
+      "Using an old fee amount from an outdated form or website.",
+      "Paying with a card that has a low limit or a check without funds.",
+      "Waiting too long to refile when status deadlines apply."
+    ],
+    "mistakes_es": [
+      "Usar una tarifa vieja de un formulario o página desactualizada.",
+      "Pagar con una tarjeta con límite bajo o un cheque sin fondos.",
+      "Tardar demasiado en volver a presentar cuando hay plazos de estatus."
+    ],
+    "wait_en": "The rejected case stays closed; refile as soon as you can.",
+    "wait_es": "El caso rechazado queda cerrado; vuelve a presentar lo antes posible.",
+    "faq_en": [
+      {
+        "q": "Can I just send the missing fee?",
+        "a": "No. You usually must refile the whole package with the correct fee."
+      },
+      {
+        "q": "Is a rejection the same as a denial?",
+        "a": "No. A rejection means the case was never accepted for review."
+      },
+      {
+        "q": "Where do I find the correct fee?",
+        "a": "On the USCIS website fee page or the form's own page."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Puedo solo mandar el pago que faltó?",
+        "a": "No. Normalmente debes volver a enviar el paquete completo con el pago correcto."
+      },
+      {
+        "q": "¿Un rechazo es lo mismo que una negación?",
+        "a": "No. Un rechazo significa que el caso nunca se aceptó para revisión."
+      },
+      {
+        "q": "¿Dónde encuentro el costo correcto?",
+        "a": "En la página de tarifas de USCIS o en la página del formulario."
+      }
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Expedite Request Received",
+    "slug_en": "expedite-request-received",
+    "title_es": "Solicitud para acelerar el caso recibida",
+    "slug_es": "solicitud-para-acelerar-el-caso-recibida",
+    "kind": "ok",
+    "stage": "admin",
+    "meaning_en": "USCIS received your request to speed up your case. Someone will review whether it meets the expedite criteria. Receiving the request is not the same as approving it. USCIS decides expedites at its discretion.",
+    "meaning_es": "USCIS recibió tu petición para acelerar tu caso. Alguien revisará si cumple con los criterios para acelerarlo. Recibir la petición no es lo mismo que aprobarla. USCIS decide estas peticiones a su criterio.",
+    "next_en": [
+      "Keep copies of the proof you sent with the request.",
+      "Answer quickly if USCIS asks for more proof.",
+      "Keep checking your status for a response."
+    ],
+    "next_es": [
+      "Guarda copias de las pruebas que enviaste con la petición.",
+      "Responde rápido si USCIS pide más pruebas.",
+      "Sigue revisando tu estatus para ver la respuesta."
+    ],
+    "mistakes_en": [
+      "Sending many duplicate expedite requests.",
+      "Asking to expedite without evidence of the urgent reason."
+    ],
+    "mistakes_es": [
+      "Enviar muchas peticiones duplicadas para acelerar.",
+      "Pedir que aceleren sin pruebas del motivo urgente."
+    ],
+    "wait_en": "A response on the expedite request often comes in days to a few weeks, but it varies.",
+    "wait_es": "La respuesta a la petición suele llegar en días o unas semanas, pero varía.",
+    "faq_en": [
+      {
+        "q": "Does 'Expedite Request Received' mean my case will be faster?",
+        "a": "Not yet. It only means USCIS has the request."
+      },
+      {
+        "q": "What reasons qualify for an expedite?",
+        "a": "USCIS lists criteria such as severe financial loss, urgent humanitarian reasons, or government interest."
+      },
+      {
+        "q": "What if my expedite is denied?",
+        "a": "Your case continues in normal order. You may ask again if your situation changes."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿'Expedite Request Received' significa que mi caso irá más rápido?",
+        "a": "Todavía no. Solo significa que USCIS tiene la petición."
+      },
+      {
+        "q": "¿Qué motivos califican para acelerar un caso?",
+        "a": "USCIS publica criterios como pérdida económica grave, razones humanitarias urgentes o interés del gobierno."
+      },
+      {
+        "q": "¿Qué pasa si niegan la petición para acelerar?",
+        "a": "Tu caso sigue en el orden normal. Puedes volver a pedirlo si tu situación cambia."
+      }
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Withdrawal Acknowledgement Notice Was Sent",
+    "slug_en": "withdrawal-acknowledgement-notice-was-sent",
+    "title_es": "Aviso de retiro de solicitud enviado",
+    "slug_es": "aviso-de-retiro-de-solicitud-enviado",
+    "kind": "ok",
+    "stage": "closed",
+    "meaning_en": "USCIS confirmed that your application or petition was withdrawn. This usually happens after you or the petitioner asked to withdraw it. The case is now closed. Fees are generally not refunded.",
+    "meaning_es": "USCIS confirmó que tu solicitud o petición fue retirada. Normalmente pasa después de que tú o el peticionario pidieron retirarla. El caso ahora está cerrado. En general los pagos no se reembolsan.",
+    "next_en": [
+      "Read the acknowledgement notice.",
+      "Check how the withdrawal affects your status or other pending cases.",
+      "Talk to an attorney or accredited representative if you did not ask for the withdrawal."
+    ],
+    "next_es": [
+      "Lee el aviso de confirmación.",
+      "Revisa cómo afecta el retiro tu estatus u otros casos pendientes.",
+      "Habla con un abogado o representante acreditado si tú no pediste el retiro."
+    ],
+    "mistakes_en": [
+      "Not realizing a petitioner can withdraw a petition filed for you.",
+      "Expecting the fee back."
+    ],
+    "mistakes_es": [
+      "No saber que un peticionario puede retirar una petición hecha para ti.",
+      "Esperar que te devuelvan el pago."
+    ],
+    "wait_en": "This is a closed status; it does not usually change.",
+    "wait_es": "Es un estatus de cierre; normalmente no cambia.",
+    "faq_en": [
+      {
+        "q": "Can I undo a withdrawal?",
+        "a": "Generally no. You would usually need to file again."
+      },
+      {
+        "q": "Who can withdraw a case?",
+        "a": "The person who filed it. For a petition, that is the petitioner, not the beneficiary."
+      },
+      {
+        "q": "Will I get my fee back?",
+        "a": "USCIS generally does not refund fees after a withdrawal."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Puedo deshacer un retiro?",
+        "a": "En general no. Normalmente tendrías que volver a presentar."
+      },
+      {
+        "q": "¿Quién puede retirar un caso?",
+        "a": "La persona que lo presentó. En una petición, es el peticionario, no el beneficiario."
+      },
+      {
+        "q": "¿Me devuelven el pago?",
+        "a": "En general USCIS no reembolsa pagos después de un retiro."
+      }
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Name Was Updated",
+    "slug_en": "name-was-updated",
+    "title_es": "Nombre actualizado",
+    "slug_es": "nombre-actualizado",
+    "kind": "ok",
+    "stage": "admin",
+    "meaning_en": "USCIS updated the name on your case record. This often follows a correction request or new documents like a marriage certificate. Your case keeps moving with the new name. Any card or notice should now show it.",
+    "meaning_es": "USCIS actualizó el nombre en el registro de tu caso. Esto suele pasar después de una solicitud de corrección o de documentos nuevos como un acta de matrimonio. Tu caso sigue avanzando con el nuevo nombre. Cualquier tarjeta o aviso debe mostrarlo ahora.",
+    "next_en": [
+      "Check the new name is spelled exactly right.",
+      "Use the same name on future forms.",
+      "Keep the document that supports the name change."
+    ],
+    "next_es": [
+      "Revisa que el nuevo nombre esté escrito exactamente bien.",
+      "Usa el mismo nombre en futuros formularios.",
+      "Guarda el documento que respalda el cambio de nombre."
+    ],
+    "mistakes_en": [
+      "Using different name spellings across forms.",
+      "Not checking the final card for the right name."
+    ],
+    "mistakes_es": [
+      "Usar distintas formas de escribir tu nombre en los formularios.",
+      "No revisar que la tarjeta final tenga el nombre correcto."
+    ],
+    "wait_en": "This is a quick update; the case usually moves on to its next step.",
+    "wait_es": "Es una actualización rápida; el caso normalmente pasa a su siguiente paso.",
+    "faq_en": [
+      {
+        "q": "Why does my status say 'Name Was Updated'?",
+        "a": "USCIS changed the name on your record, usually because of a correction or new document."
+      },
+      {
+        "q": "Will this delay my case?",
+        "a": "Usually not much. The case continues with the updated name."
+      },
+      {
+        "q": "What if the new name is still wrong?",
+        "a": "Contact USCIS again with proof of the correct name."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Por qué mi estatus dice 'Name Was Updated'?",
+        "a": "USCIS cambió el nombre en tu registro, normalmente por una corrección o un documento nuevo."
+      },
+      {
+        "q": "¿Esto retrasa mi caso?",
+        "a": "Normalmente no mucho. El caso sigue con el nombre actualizado."
+      },
+      {
+        "q": "¿Qué hago si el nuevo nombre sigue mal?",
+        "a": "Comunícate otra vez con USCIS con pruebas del nombre correcto."
+      }
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Case Was Received and A Receipt Notice Was Emailed",
+    "slug_en": "case-was-received-and-a-receipt-notice-was-emailed",
+    "title_es": "Caso recibido y aviso de recibo enviado por correo electrónico",
+    "slug_es": "caso-recibido-y-aviso-de-recibo-enviado-por-correo-electronico",
+    "kind": "ok",
+    "stage": "intake",
+    "meaning_en": "USCIS received your case and emailed you the receipt notice. This often happens with online filings. The notice proves you filed and shows your receipt number. Your case now waits in line for review.",
+    "meaning_es": "USCIS recibió tu caso y te envió el aviso de recibo por correo electrónico. Esto pasa seguido con los trámites en línea. El aviso prueba que presentaste y muestra tu número de recibo. Tu caso ahora espera turno para revisión.",
+    "next_en": [
+      "Download and save the receipt notice from your email or online account.",
+      "Check every detail on it.",
+      "Keep your email and mailing address current."
+    ],
+    "next_es": [
+      "Descarga y guarda el aviso de recibo de tu correo o cuenta en línea.",
+      "Revisa cada dato del aviso.",
+      "Mantén tu correo electrónico y dirección al día."
+    ],
+    "mistakes_en": [
+      "Missing the email because it went to spam.",
+      "Not saving a copy of the notice."
+    ],
+    "mistakes_es": [
+      "No ver el correo porque se fue a spam.",
+      "No guardar una copia del aviso."
+    ],
+    "wait_en": "The status can stay the same for weeks or months while the case waits for review.",
+    "wait_es": "El estatus puede quedarse igual semanas o meses mientras el caso espera revisión.",
+    "faq_en": [
+      {
+        "q": "I did not get the email. Where is my notice?",
+        "a": "Check spam and your USCIS online account, where notices are usually posted."
+      },
+      {
+        "q": "Will I also get a paper notice?",
+        "a": "Often yes, but it depends on how you filed. Your online account always has the notice."
+      },
+      {
+        "q": "Is this different from 'Receipt Notice Was Sent'?",
+        "a": "Only in how it was delivered. Both confirm USCIS received your case."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "No me llegó el correo. ¿Dónde está mi aviso?",
+        "a": "Revisa spam y tu cuenta en línea de USCIS, donde normalmente publican los avisos."
+      },
+      {
+        "q": "¿También me llegará un aviso en papel?",
+        "a": "Muchas veces sí, pero depende de cómo presentaste. Tu cuenta en línea siempre tiene el aviso."
+      },
+      {
+        "q": "¿Es diferente de 'Receipt Notice Was Sent'?",
+        "a": "Solo en la forma de entrega. Ambos confirman que USCIS recibió tu caso."
+      }
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Case Accepted By The USCIS Lockbox",
+    "slug_en": "case-accepted-by-the-uscis-lockbox",
+    "title_es": "Caso aceptado por el Lockbox de USCIS",
+    "slug_es": "caso-aceptado-por-el-lockbox-de-uscis",
+    "kind": "ok",
+    "stage": "intake",
+    "meaning_en": "The USCIS Lockbox, the facility that receives mailed filings and payments, accepted your package. Your fee was processed and the case is being entered into the system. A receipt notice usually follows. This is the very first intake step.",
+    "meaning_es": "El Lockbox de USCIS, la instalación que recibe los paquetes y pagos por correo, aceptó tu paquete. Se procesó tu pago y el caso se está registrando en el sistema. Normalmente después llega un aviso de recibo. Es el primer paso de entrada.",
+    "next_en": [
+      "Wait for the receipt notice by mail.",
+      "Check that the payment cleared your bank.",
+      "Keep your mailing receipt and a copy of your filing."
+    ],
+    "next_es": [
+      "Espera el aviso de recibo por correo.",
+      "Revisa que el pago se haya cobrado en tu banco.",
+      "Guarda tu comprobante de envío y una copia de tu solicitud."
+    ],
+    "mistakes_en": [
+      "Sending a second package because the receipt has not arrived yet.",
+      "Canceling the payment."
+    ],
+    "mistakes_es": [
+      "Enviar un segundo paquete porque aún no llega el recibo.",
+      "Cancelar el pago."
+    ],
+    "wait_en": "This usually lasts days to a few weeks until the case is fully received.",
+    "wait_es": "Normalmente dura días o unas semanas hasta que el caso queda recibido por completo.",
+    "faq_en": [
+      {
+        "q": "What is the USCIS Lockbox?",
+        "a": "It is the facility that opens mailed filings, takes payments and sends cases into the system."
+      },
+      {
+        "q": "Does acceptance mean approval?",
+        "a": "No. It only means your package passed the first intake check."
+      },
+      {
+        "q": "When will I get a receipt notice?",
+        "a": "Usually within a few weeks after the Lockbox accepts the case."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es el Lockbox de USCIS?",
+        "a": "Es la instalación que abre los paquetes enviados por correo, cobra los pagos y registra los casos en el sistema."
+      },
+      {
+        "q": "¿Que lo acepten significa que está aprobado?",
+        "a": "No. Solo significa que tu paquete pasó la primera revisión de entrada."
+      },
+      {
+        "q": "¿Cuándo me llega el aviso de recibo?",
+        "a": "Normalmente en unas semanas después de que el Lockbox acepta el caso."
+      }
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Fees Were Waived",
+    "slug_en": "fees-were-waived",
+    "title_es": "Exención de pago aprobada",
+    "slug_es": "exencion-de-pago-aprobada",
+    "kind": "good",
+    "stage": "intake",
+    "meaning_en": "USCIS approved your request to waive the filing fee. You do not have to pay the fee for this case. Your case now moves on like any other filing. The fee waiver does not decide the case itself.",
+    "meaning_es": "USCIS aprobó tu solicitud para no pagar la tarifa. No tienes que pagar la tarifa de este caso. Tu caso ahora sigue como cualquier otro trámite. La exención de pago no decide el caso en sí.",
+    "next_en": [
+      "Keep the notice that shows the fee was waived.",
+      "Wait for the receipt notice and next steps.",
+      "Keep your address current."
+    ],
+    "next_es": [
+      "Guarda el aviso que muestra que no pagaste la tarifa.",
+      "Espera el aviso de recibo y los siguientes pasos.",
+      "Mantén tu dirección al día."
+    ],
+    "mistakes_en": [
+      "Thinking the fee waiver means the case is approved.",
+      "Sending a payment anyway."
+    ],
+    "mistakes_es": [
+      "Pensar que la exención de pago significa que el caso está aprobado.",
+      "Enviar un pago de todos modos."
+    ],
+    "wait_en": "The next update usually comes within weeks to months, depending on the form.",
+    "wait_es": "La siguiente actualización suele llegar en semanas o meses, según el formulario.",
+    "faq_en": [
+      {
+        "q": "Does 'Fees Were Waived' mean my case is approved?",
+        "a": "No. It only means you do not have to pay the fee."
+      },
+      {
+        "q": "Who can get a fee waiver?",
+        "a": "Eligibility depends on the form and on income or hardship rules set by USCIS."
+      },
+      {
+        "q": "Do I need to do anything now?",
+        "a": "No. Wait for the next update on your case."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿'Fees Were Waived' significa que aprobaron mi caso?",
+        "a": "No. Solo significa que no tienes que pagar la tarifa."
+      },
+      {
+        "q": "¿Quién puede obtener una exención de pago?",
+        "a": "Depende del formulario y de las reglas de ingresos o dificultad económica de USCIS."
+      },
+      {
+        "q": "¿Tengo que hacer algo ahora?",
+        "a": "No. Espera la siguiente actualización de tu caso."
+      }
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Case Was Rejected Because It Was Improperly Filed",
+    "slug_en": "case-was-rejected-because-it-was-improperly-filed",
+    "title_es": "Caso rechazado por presentación incorrecta",
+    "slug_es": "caso-rechazado-por-presentacion-incorrecta",
+    "kind": "bad",
+    "stage": "intake",
+    "meaning_en": "USCIS rejected your filing because something basic was wrong, like a missing signature, wrong form edition or wrong address. A rejected case is not reviewed and has no filing date. USCIS usually returns the package with a notice. You can fix the problem and file again.",
+    "meaning_es": "USCIS rechazó tu solicitud porque algo básico estaba mal, como una firma faltante, una edición vieja del formulario o una dirección equivocada. Un caso rechazado no se revisa y no tiene fecha de presentación. USCIS normalmente regresa el paquete con un aviso. Puedes corregir el problema y volver a presentar.",
+    "next_en": [
+      "Read the rejection notice to find the exact problem.",
+      "Download the current form edition from uscis.gov.",
+      "Sign every place that needs a signature.",
+      "Refile at the correct address for your form.",
+      "Check if any deadline makes refiling urgent."
+    ],
+    "next_es": [
+      "Lee el aviso de rechazo para encontrar el problema exacto.",
+      "Descarga la edición actual del formulario en uscis.gov.",
+      "Firma en cada lugar donde se necesita.",
+      "Vuelve a enviar a la dirección correcta para tu formulario.",
+      "Revisa si algún plazo hace urgente volver a presentar."
+    ],
+    "mistakes_en": [
+      "Using an old form edition.",
+      "Forgetting to sign.",
+      "Mailing to the wrong address."
+    ],
+    "mistakes_es": [
+      "Usar una edición vieja del formulario.",
+      "Olvidar firmar.",
+      "Enviar a la dirección equivocada."
+    ],
+    "wait_en": "The rejected case stays closed; refile as soon as you fix the problem.",
+    "wait_es": "El caso rechazado queda cerrado; vuelve a presentar en cuanto corrijas el problema.",
+    "faq_en": [
+      {
+        "q": "Is a rejection the same as a denial?",
+        "a": "No. A rejection means USCIS never accepted the case for review."
+      },
+      {
+        "q": "Do I get my fee back?",
+        "a": "A rejected package is usually returned with the payment, or the payment is not cashed."
+      },
+      {
+        "q": "Can I refile right away?",
+        "a": "Yes, once you fix the problem the notice describes."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Un rechazo es lo mismo que una negación?",
+        "a": "No. Un rechazo significa que USCIS nunca aceptó el caso para revisión."
+      },
+      {
+        "q": "¿Me devuelven el pago?",
+        "a": "Normalmente el paquete rechazado se regresa con el pago, o el pago no se cobra."
+      },
+      {
+        "q": "¿Puedo volver a presentar de inmediato?",
+        "a": "Sí, en cuanto corrijas el problema que describe el aviso."
+      }
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Biometrics Appointment Was Scheduled",
+    "slug_en": "biometrics-appointment-was-scheduled",
+    "title_es": "Cita de biometría programada",
+    "slug_es": "cita-de-biometria-programada",
+    "kind": "act",
+    "stage": "biometrics",
+    "meaning_en": "USCIS scheduled you for a biometrics appointment. At this visit they take your fingerprints, photo and signature. The appointment notice lists the date, time and Application Support Center. Going to this appointment is required.",
+    "meaning_es": "USCIS te programó una cita de biometría. En esta cita te toman huellas, foto y firma. El aviso de cita indica fecha, hora y el Centro de Apoyo de Solicitudes. Asistir a esta cita es obligatorio.",
+    "next_en": [
+      "Read the appointment notice and write down the date and place.",
+      "Bring the notice and a valid photo ID.",
+      "Arrive on time.",
+      "If you cannot go, ask to reschedule before the date."
+    ],
+    "next_es": [
+      "Lee el aviso de cita y anota la fecha y el lugar.",
+      "Lleva el aviso y una identificación válida con foto.",
+      "Llega a tiempo.",
+      "Si no puedes ir, pide reprogramar antes de la fecha."
+    ],
+    "mistakes_en": [
+      "Forgetting the appointment notice at home.",
+      "Missing the appointment without rescheduling.",
+      "Going to the wrong center."
+    ],
+    "mistakes_es": [
+      "Olvidar el aviso de cita en casa.",
+      "Faltar a la cita sin reprogramar.",
+      "Ir al centro equivocado."
+    ],
+    "wait_en": "The appointment date is on your notice; the status usually changes after you attend.",
+    "wait_es": "La fecha de la cita está en tu aviso; el estatus suele cambiar después de que asistes.",
+    "faq_en": [
+      {
+        "q": "What do I bring to a biometrics appointment?",
+        "a": "Your appointment notice and a valid government photo ID."
+      },
+      {
+        "q": "Can I go on a different day?",
+        "a": "Some centers allow walk-ins, but it is not guaranteed. Ask to reschedule through USCIS to be safe."
+      },
+      {
+        "q": "What happens if I miss biometrics?",
+        "a": "USCIS may consider your case abandoned. Reschedule or contact USCIS right away."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué llevo a la cita de biometría?",
+        "a": "Tu aviso de cita y una identificación oficial válida con foto."
+      },
+      {
+        "q": "¿Puedo ir otro día?",
+        "a": "Algunos centros aceptan visitas sin cita, pero no es seguro. Lo más seguro es pedir reprogramar con USCIS."
+      },
+      {
+        "q": "¿Qué pasa si falto a la biometría?",
+        "a": "USCIS puede considerar tu caso abandonado. Reprograma o comunícate con USCIS de inmediato."
+      }
+    ],
+    "applies_to": [
+      "family",
+      "employment",
+      "humanitarian",
+      "naturalization",
+      "travel_work",
+      "card",
+      "investor",
+      "waiver_appeal"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Case Was Updated To Show Fingerprints Were Taken",
+    "slug_en": "case-was-updated-to-show-fingerprints-were-taken",
+    "title_es": "Caso actualizado: huellas tomadas",
+    "slug_es": "caso-actualizado-huellas-tomadas",
+    "kind": "ok",
+    "stage": "biometrics",
+    "meaning_en": "USCIS recorded that your fingerprints and photo were taken at your biometrics appointment. Your background checks can now run. This is a normal step, not a decision. The case moves on to review.",
+    "meaning_es": "USCIS registró que te tomaron huellas y foto en tu cita de biometría. Ya pueden correr las revisiones de antecedentes. Es un paso normal, no una decisión. El caso pasa a revisión.",
+    "next_en": [
+      "Keep the stamped appointment notice from your visit.",
+      "Keep checking your status for the next update.",
+      "Watch your mail for an interview or evidence request."
+    ],
+    "next_es": [
+      "Guarda el aviso de cita sellado de tu visita.",
+      "Sigue revisando tu estatus para ver la siguiente actualización.",
+      "Revisa tu correo por si llega una entrevista o solicitud de evidencia."
+    ],
+    "mistakes_en": [
+      "Expecting a decision within days.",
+      "Throwing away the stamped biometrics notice."
+    ],
+    "mistakes_es": [
+      "Esperar una decisión en pocos días.",
+      "Tirar el aviso de biometría sellado."
+    ],
+    "wait_en": "The next update can take weeks to months; it varies by form.",
+    "wait_es": "La siguiente actualización puede tardar semanas o meses; varía según el formulario.",
+    "faq_en": [
+      {
+        "q": "What does 'Fingerprints Were Taken' mean?",
+        "a": "USCIS confirmed you completed biometrics. Your background check can proceed."
+      },
+      {
+        "q": "How long after fingerprints is a decision made?",
+        "a": "It varies widely by form and office."
+      },
+      {
+        "q": "Why does this update appear days after my appointment?",
+        "a": "USCIS systems often update a few days after the visit."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué significa 'Fingerprints Were Taken'?",
+        "a": "USCIS confirmó que completaste la biometría. Tu revisión de antecedentes puede avanzar."
+      },
+      {
+        "q": "¿Cuánto tarda la decisión después de las huellas?",
+        "a": "Varía mucho según el formulario y la oficina."
+      },
+      {
+        "q": "¿Por qué esta actualización aparece días después de mi cita?",
+        "a": "Los sistemas de USCIS muchas veces se actualizan unos días después de la visita."
+      }
+    ],
+    "applies_to": [
+      "family",
+      "employment",
+      "humanitarian",
+      "naturalization",
+      "travel_work",
+      "card",
+      "investor",
+      "waiver_appeal"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Interview Was Rescheduled",
+    "slug_en": "interview-was-rescheduled",
+    "title_es": "Entrevista reprogramada",
+    "slug_es": "entrevista-reprogramada",
+    "kind": "act",
+    "stage": "interview",
+    "meaning_en": "USCIS changed the date or time of your interview. This can happen because you asked, or because the office needed to move it. A new appointment notice is sent. You must go on the new date.",
+    "meaning_es": "USCIS cambió la fecha u hora de tu entrevista. Puede pasar porque tú lo pediste o porque la oficina necesitó moverla. Te envían un nuevo aviso de cita. Debes ir en la nueva fecha.",
+    "next_en": [
+      "Read the new notice and write down the new date and time.",
+      "Throw away or mark the old notice so you do not confuse them.",
+      "Prepare the same documents as before, plus anything new.",
+      "If you cannot attend, ask to reschedule again before the date."
+    ],
+    "next_es": [
+      "Lee el nuevo aviso y anota la nueva fecha y hora.",
+      "Marca o descarta el aviso anterior para no confundirte.",
+      "Prepara los mismos documentos de antes, más cualquier cosa nueva.",
+      "Si no puedes asistir, pide reprogramar otra vez antes de la fecha."
+    ],
+    "mistakes_en": [
+      "Going on the old date.",
+      "Rescheduling many times, which can delay or hurt the case."
+    ],
+    "mistakes_es": [
+      "Ir en la fecha anterior.",
+      "Reprogramar muchas veces, lo que puede retrasar o perjudicar el caso."
+    ],
+    "wait_en": "The new date is on your notice; the status stays until the interview happens.",
+    "wait_es": "La nueva fecha está en tu aviso; el estatus se queda hasta que ocurra la entrevista.",
+    "faq_en": [
+      {
+        "q": "Why was my interview rescheduled?",
+        "a": "Either you requested it or the office had to change its schedule."
+      },
+      {
+        "q": "Will rescheduling hurt my case?",
+        "a": "One reschedule with a good reason is usually fine. Repeated requests may cause delays."
+      },
+      {
+        "q": "Where is my new interview date?",
+        "a": "On the new appointment notice and often in your online account."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Por qué reprogramaron mi entrevista?",
+        "a": "O tú lo pediste o la oficina tuvo que cambiar su agenda."
+      },
+      {
+        "q": "¿Reprogramar perjudica mi caso?",
+        "a": "Una vez con buena razón normalmente está bien. Pedirlo muchas veces puede causar retrasos."
+      },
+      {
+        "q": "¿Dónde veo la nueva fecha?",
+        "a": "En el nuevo aviso de cita y muchas veces en tu cuenta en línea."
+      }
+    ],
+    "applies_to": [
+      "family",
+      "employment",
+      "humanitarian",
+      "naturalization",
+      "investor"
+    ],
+    "card_only": false,
+    "interview_only": true
+  },
+  {
+    "code": "Case Was Updated To Show That No One Appeared for In-Person Processing",
+    "slug_en": "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing",
+    "title_es": "Caso actualizado: no se presentó a la cita",
+    "slug_es": "caso-actualizado-no-se-presento-a-la-cita",
+    "kind": "act",
+    "stage": "interview",
+    "meaning_en": "USCIS recorded that you did not attend a scheduled in-person appointment, such as an interview or biometrics. Missing a required appointment can lead to denial for abandonment. If you had a good reason or never got the notice, act quickly. The deadline to respond can be short.",
+    "meaning_es": "USCIS registró que no asististe a una cita presencial programada, como una entrevista o biometría. Faltar a una cita obligatoria puede llevar a la negación por abandono. Si tuviste una buena razón o nunca te llegó el aviso, actúa rápido. El plazo para responder puede ser corto.",
+    "next_en": [
+      "Contact USCIS right away to explain and ask for a new appointment.",
+      "Gather proof of why you missed it, such as medical records or mail problems.",
+      "Update your address if the notice went to an old one.",
+      "Talk to an immigration attorney or accredited representative, since the case may be denied."
+    ],
+    "next_es": [
+      "Comunícate con USCIS de inmediato para explicar y pedir una nueva cita.",
+      "Reúne pruebas de por qué faltaste, como constancias médicas o problemas con el correo.",
+      "Actualiza tu dirección si el aviso llegó a una dirección vieja.",
+      "Habla con un abogado de inmigración o representante acreditado, porque el caso podría negarse."
+    ],
+    "mistakes_en": [
+      "Waiting to see what happens instead of acting.",
+      "Not keeping proof of the reason for missing the appointment."
+    ],
+    "mistakes_es": [
+      "Esperar a ver qué pasa en lugar de actuar.",
+      "No guardar pruebas de la razón por la que faltaste."
+    ],
+    "wait_en": "This varies; USCIS may reschedule or decide the case, so act right away.",
+    "wait_es": "Varía; USCIS puede reprogramar o decidir el caso, así que actúa de inmediato.",
+    "faq_en": [
+      {
+        "q": "I missed my appointment. Is my case denied?",
+        "a": "Not automatically, but it can be denied as abandoned. Contact USCIS quickly."
+      },
+      {
+        "q": "I never received the appointment notice. What do I do?",
+        "a": "Tell USCIS, update your address, and ask for a new appointment."
+      },
+      {
+        "q": "Can I get a new appointment?",
+        "a": "Often yes, if you act quickly and have a good reason."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "Falté a mi cita. ¿Ya negaron mi caso?",
+        "a": "No automáticamente, pero lo pueden negar por abandono. Comunícate rápido con USCIS."
+      },
+      {
+        "q": "Nunca recibí el aviso de cita. ¿Qué hago?",
+        "a": "Avísale a USCIS, actualiza tu dirección y pide una nueva cita."
+      },
+      {
+        "q": "¿Me pueden dar otra cita?",
+        "a": "Muchas veces sí, si actúas rápido y tienes una buena razón."
+      }
+    ],
+    "applies_to": [
+      "family",
+      "employment",
+      "humanitarian",
+      "naturalization",
+      "travel_work",
+      "card",
+      "investor",
+      "waiver_appeal"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Oath Ceremony Will Be Scheduled",
+    "slug_en": "oath-ceremony-will-be-scheduled",
+    "title_es": "Ceremonia de juramento por programarse",
+    "slug_es": "ceremonia-de-juramento-por-programarse",
+    "kind": "good",
+    "stage": "decision",
+    "meaning_en": "Your naturalization case is moving to the oath stage. USCIS will schedule you for an oath ceremony. You are not a citizen until you take the Oath of Allegiance. The ceremony notice will come by mail.",
+    "meaning_es": "Tu caso de naturalización está pasando a la etapa del juramento. USCIS te programará para una ceremonia de juramento. No eres ciudadano hasta que hagas el Juramento de Lealtad. El aviso de la ceremonia llegará por correo.",
+    "next_en": [
+      "Watch your mail for the oath ceremony notice (Form N-445).",
+      "Keep your green card; you will turn it in at the ceremony.",
+      "Avoid long trips that could make you miss the notice.",
+      "Tell USCIS about any arrest or major change before the oath."
+    ],
+    "next_es": [
+      "Revisa tu correo para recibir el aviso de ceremonia (Formulario N-445).",
+      "Guarda tu green card; la entregarás en la ceremonia.",
+      "Evita viajes largos que te hagan perder el aviso.",
+      "Informa a USCIS de cualquier arresto o cambio importante antes del juramento."
+    ],
+    "mistakes_en": [
+      "Thinking you are already a citizen.",
+      "Applying for a U.S. passport before taking the oath."
+    ],
+    "mistakes_es": [
+      "Pensar que ya eres ciudadano.",
+      "Solicitar el pasaporte estadounidense antes del juramento."
+    ],
+    "wait_en": "The ceremony is often scheduled within weeks to a few months; it varies by office.",
+    "wait_es": "La ceremonia muchas veces se programa en semanas o unos meses; varía según la oficina.",
+    "faq_en": [
+      {
+        "q": "Am I a U.S. citizen now?",
+        "a": "Not yet. You become a citizen when you take the Oath of Allegiance at the ceremony."
+      },
+      {
+        "q": "When will my oath ceremony be?",
+        "a": "It depends on your office or court. The notice will give the date."
+      },
+      {
+        "q": "What should I bring to the oath ceremony?",
+        "a": "Your ceremony notice, your green card and any items the notice lists."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Ya soy ciudadano estadounidense?",
+        "a": "Todavía no. Te vuelves ciudadano cuando haces el Juramento de Lealtad en la ceremonia."
+      },
+      {
+        "q": "¿Cuándo será mi ceremonia de juramento?",
+        "a": "Depende de tu oficina o corte. El aviso dará la fecha."
+      },
+      {
+        "q": "¿Qué llevo a la ceremonia de juramento?",
+        "a": "Tu aviso de ceremonia, tu green card y lo que indique el aviso."
+      }
+    ],
+    "applies_to": [
+      "naturalization"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Oath Ceremony Notice Was Mailed",
+    "slug_en": "oath-ceremony-notice-was-mailed",
+    "title_es": "Aviso de ceremonia de juramento enviado",
+    "slug_es": "aviso-de-ceremonia-de-juramento-enviado",
+    "kind": "act",
+    "stage": "decision",
+    "meaning_en": "USCIS mailed you the notice with the date, time and place of your oath ceremony. This is the last step to become a U.S. citizen. You must attend and take the Oath of Allegiance. Bring the documents listed on the notice.",
+    "meaning_es": "USCIS te envió por correo el aviso con la fecha, hora y lugar de tu ceremonia de juramento. Es el último paso para hacerte ciudadano estadounidense. Debes asistir y hacer el Juramento de Lealtad. Lleva los documentos que indica el aviso.",
+    "next_en": [
+      "Read the notice and write down the date, time and place.",
+      "Answer the questions on the back of the notice truthfully.",
+      "Bring your green card and the notice.",
+      "If you cannot attend, ask to reschedule before the date."
+    ],
+    "next_es": [
+      "Lee el aviso y anota la fecha, hora y lugar.",
+      "Contesta con la verdad las preguntas al reverso del aviso.",
+      "Lleva tu green card y el aviso.",
+      "Si no puedes asistir, pide reprogramar antes de la fecha."
+    ],
+    "mistakes_en": [
+      "Forgetting the green card at home.",
+      "Not reporting events since the interview, such as an arrest or trip.",
+      "Missing the ceremony without notice."
+    ],
+    "mistakes_es": [
+      "Olvidar la green card en casa.",
+      "No reportar hechos desde la entrevista, como un arresto o un viaje.",
+      "Faltar a la ceremonia sin avisar."
+    ],
+    "wait_en": "The ceremony date is on your notice; the status changes after you take the oath.",
+    "wait_es": "La fecha de la ceremonia está en tu aviso; el estatus cambia después del juramento.",
+    "faq_en": [
+      {
+        "q": "What happens at the oath ceremony?",
+        "a": "You turn in your green card, take the Oath of Allegiance and receive your Certificate of Naturalization."
+      },
+      {
+        "q": "Can I bring family to the ceremony?",
+        "a": "Usually yes, but space can be limited. Check your notice or local office."
+      },
+      {
+        "q": "What if I cannot attend the ceremony?",
+        "a": "Return the notice with a letter asking to reschedule, as the notice explains."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué pasa en la ceremonia de juramento?",
+        "a": "Entregas tu green card, haces el Juramento de Lealtad y recibes tu Certificado de Naturalización."
+      },
+      {
+        "q": "¿Puedo llevar a mi familia a la ceremonia?",
+        "a": "Normalmente sí, pero el espacio puede ser limitado. Revisa tu aviso o pregunta en tu oficina local."
+      },
+      {
+        "q": "¿Qué hago si no puedo asistir a la ceremonia?",
+        "a": "Regresa el aviso con una carta pidiendo reprogramar, como indica el aviso."
+      }
+    ],
+    "applies_to": [
+      "naturalization"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Case Was Approved And My Decision Was Emailed",
+    "slug_en": "case-was-approved-and-my-decision-was-emailed",
+    "title_es": "Caso aprobado y decisión enviada por correo electrónico",
+    "slug_es": "caso-aprobado-y-decision-enviada-por-correo-electronico",
+    "kind": "good",
+    "stage": "decision",
+    "meaning_en": "USCIS approved your case and sent the decision notice by email. This usually happens when you filed online or have a USCIS online account. The notice is also in your account. What comes next depends on your form.",
+    "meaning_es": "USCIS aprobó tu caso y envió el aviso de decisión por correo electrónico. Esto suele pasar cuando presentaste en línea o tienes cuenta en línea de USCIS. El aviso también está en tu cuenta. Lo que sigue depende de tu formulario.",
+    "next_en": [
+      "Download and save the approval notice.",
+      "Check that all details are correct.",
+      "Learn the next step for your form, like card production.",
+      "Keep your mailing address current for cards or documents."
+    ],
+    "next_es": [
+      "Descarga y guarda el aviso de aprobación.",
+      "Revisa que todos los datos estén correctos.",
+      "Infórmate del siguiente paso de tu formulario, como la producción de la tarjeta.",
+      "Mantén tu dirección al día para recibir tarjetas o documentos."
+    ],
+    "mistakes_en": [
+      "Missing the email in spam.",
+      "Not saving the notice outside the online account."
+    ],
+    "mistakes_es": [
+      "No ver el correo porque se fue a spam.",
+      "No guardar el aviso fuera de la cuenta en línea."
+    ],
+    "wait_en": "The next step after approval depends on your form; card production often follows within weeks.",
+    "wait_es": "El siguiente paso después de la aprobación depende de tu formulario; la producción de tarjeta suele seguir en semanas.",
+    "faq_en": [
+      {
+        "q": "Where is my approval notice?",
+        "a": "In your email and your USCIS online account."
+      },
+      {
+        "q": "Will I also get a paper notice?",
+        "a": "Sometimes. The online copy is valid for your records."
+      },
+      {
+        "q": "When will I get my card?",
+        "a": "If your form produces a card, watch for 'New Card Is Being Produced' and then a mailing update."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Dónde está mi aviso de aprobación?",
+        "a": "En tu correo electrónico y en tu cuenta en línea de USCIS."
+      },
+      {
+        "q": "¿También me llegará un aviso en papel?",
+        "a": "A veces. La copia en línea sirve para tus registros."
+      },
+      {
+        "q": "¿Cuándo me llega la tarjeta?",
+        "a": "Si tu formulario produce tarjeta, espera 'New Card Is Being Produced' y luego la actualización de envío."
+      }
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Case Approval Was Certified By USCIS",
+    "slug_en": "case-approval-was-certified-by-uscis",
+    "title_es": "Aprobación del caso certificada por USCIS",
+    "slug_es": "aprobacion-del-caso-certificada-por-uscis",
+    "kind": "good",
+    "stage": "decision",
+    "meaning_en": "USCIS certified that your case approval is valid. This often happens when another agency, like the Department of State, needs official confirmation of the approval. It is a positive administrative step. Your case moves on to the next stage for your form.",
+    "meaning_es": "USCIS certificó que la aprobación de tu caso es válida. Esto pasa seguido cuando otra agencia, como el Departamento de Estado, necesita confirmación oficial de la aprobación. Es un paso administrativo positivo. Tu caso pasa a la siguiente etapa de tu formulario.",
+    "next_en": [
+      "Keep your approval notice safe.",
+      "Follow instructions from the next agency, such as the National Visa Center.",
+      "Keep checking your status for updates."
+    ],
+    "next_es": [
+      "Guarda bien tu aviso de aprobación.",
+      "Sigue las instrucciones de la siguiente agencia, como el Centro Nacional de Visas.",
+      "Sigue revisando tu estatus para ver actualizaciones."
+    ],
+    "mistakes_en": [
+      "Thinking this is a new, separate approval.",
+      "Not following up with the next agency."
+    ],
+    "mistakes_es": [
+      "Pensar que es una aprobación nueva y separada.",
+      "No dar seguimiento con la siguiente agencia."
+    ],
+    "wait_en": "This is usually a short step; the next stage's timing depends on your form.",
+    "wait_es": "Normalmente es un paso corto; el tiempo de la siguiente etapa depende de tu formulario.",
+    "faq_en": [
+      {
+        "q": "What does it mean that my approval was certified?",
+        "a": "USCIS officially confirmed the approval, often for another agency."
+      },
+      {
+        "q": "Do I need to do anything?",
+        "a": "Usually not with USCIS. Follow any instructions from the next agency."
+      },
+      {
+        "q": "Is this the same as 'Case Was Approved'?",
+        "a": "It is related. It confirms an approval that already happened."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué significa que certificaron mi aprobación?",
+        "a": "USCIS confirmó oficialmente la aprobación, muchas veces para otra agencia."
+      },
+      {
+        "q": "¿Tengo que hacer algo?",
+        "a": "Normalmente no con USCIS. Sigue las instrucciones de la siguiente agencia."
+      },
+      {
+        "q": "¿Es lo mismo que 'Case Was Approved'?",
+        "a": "Está relacionado. Confirma una aprobación que ya ocurrió."
+      }
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Case Was Sent To The Department of State",
+    "slug_en": "case-was-sent-to-the-department-of-state",
+    "title_es": "Caso enviado al Departamento de Estado",
+    "slug_es": "caso-enviado-al-departamento-de-estado",
+    "kind": "good",
+    "stage": "decision",
+    "meaning_en": "USCIS approved the petition and sent it to the Department of State. The National Visa Center (NVC) will handle the next steps for a visa abroad. The person sponsored will process the visa through a U.S. embassy or consulate. USCIS's part of the case is done.",
+    "meaning_es": "USCIS aprobó la petición y la envió al Departamento de Estado. El Centro Nacional de Visas (NVC) se encargará de los siguientes pasos para la visa en el extranjero. La persona patrocinada tramitará la visa en una embajada o consulado de EE. UU. La parte de USCIS ya terminó.",
+    "next_en": [
+      "Wait for a welcome letter or email from the National Visa Center.",
+      "Get your NVC case number and invoice ID when they arrive.",
+      "Prepare civil documents and the Affidavit of Support if required.",
+      "Check the visa bulletin if your category has a waiting line."
+    ],
+    "next_es": [
+      "Espera una carta o correo de bienvenida del Centro Nacional de Visas.",
+      "Obtén tu número de caso del NVC y tu ID de factura cuando lleguen.",
+      "Prepara documentos civiles y la Declaración Jurada de Patrocinio si se requiere.",
+      "Revisa el boletín de visas si tu categoría tiene fila de espera."
+    ],
+    "mistakes_en": [
+      "Checking the USCIS website for updates; the next updates come from NVC.",
+      "Thinking the beneficiary already has a visa."
+    ],
+    "mistakes_es": [
+      "Buscar actualizaciones en la página de USCIS; las siguientes vienen del NVC.",
+      "Pensar que el beneficiario ya tiene visa."
+    ],
+    "wait_en": "The transfer to NVC often takes a few weeks; later steps vary by category.",
+    "wait_es": "El envío al NVC suele tardar unas semanas; los pasos siguientes varían según la categoría.",
+    "faq_en": [
+      {
+        "q": "What is the National Visa Center?",
+        "a": "It is part of the Department of State. It collects fees and documents before a visa interview abroad."
+      },
+      {
+        "q": "How long until NVC contacts me?",
+        "a": "Often a few weeks after USCIS sends the case, but it varies."
+      },
+      {
+        "q": "Can I still check my case on the USCIS website?",
+        "a": "The USCIS status stays here. Track the next steps on the Department of State's CEAC site."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es el Centro Nacional de Visas?",
+        "a": "Es parte del Departamento de Estado. Recibe pagos y documentos antes de la entrevista de visa en el extranjero."
+      },
+      {
+        "q": "¿Cuánto tarda el NVC en contactarme?",
+        "a": "Muchas veces unas semanas después de que USCIS envía el caso, pero varía."
+      },
+      {
+        "q": "¿Puedo seguir revisando mi caso en la página de USCIS?",
+        "a": "El estatus de USCIS se queda así. Sigue los siguientes pasos en el sitio CEAC del Departamento de Estado."
+      }
+    ],
+    "applies_to": [
+      "family",
+      "employment",
+      "investor",
+      "other"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Response To USCIS' Notice of Intent Was Received",
+    "slug_en": "response-to-uscis-notice-of-intent-was-received",
+    "title_es": "Respuesta al aviso de intención recibida",
+    "slug_es": "respuesta-al-aviso-de-intencion-recibida",
+    "kind": "ok",
+    "stage": "evidence",
+    "meaning_en": "USCIS received your response to a Notice of Intent, such as a Notice of Intent to Deny or to Revoke. The officer will review your response before making a final decision. This status confirms delivery, not the outcome. The decision can go either way.",
+    "meaning_es": "USCIS recibió tu respuesta a un Aviso de Intención, como un Aviso de Intención de Negar o de Revocar. El oficial revisará tu respuesta antes de tomar la decisión final. Este estatus confirma la entrega, no el resultado. La decisión puede ser a favor o en contra.",
+    "next_en": [
+      "Keep a full copy of your response and the mailing receipt.",
+      "Watch for the decision notice.",
+      "Stay in touch with your attorney or accredited representative.",
+      "Plan your options in case the decision is not favorable."
+    ],
+    "next_es": [
+      "Guarda una copia completa de tu respuesta y el comprobante de envío.",
+      "Espera el aviso de decisión.",
+      "Mantente en contacto con tu abogado o representante acreditado.",
+      "Planea tus opciones por si la decisión no es favorable."
+    ],
+    "mistakes_en": [
+      "Sending new evidence again without being asked.",
+      "Assuming the response guarantees approval."
+    ],
+    "mistakes_es": [
+      "Enviar evidencia nueva sin que te la pidan.",
+      "Suponer que la respuesta garantiza la aprobación."
+    ],
+    "wait_en": "A decision often comes within weeks to a few months, but it varies.",
+    "wait_es": "La decisión suele llegar en semanas o unos meses, pero varía.",
+    "faq_en": [
+      {
+        "q": "What is a Notice of Intent to Deny (NOID)?",
+        "a": "It is a letter saying USCIS plans to deny the case and giving you a chance to respond first."
+      },
+      {
+        "q": "What happens after my NOID response is received?",
+        "a": "The officer reviews it and decides to approve, deny or ask for more."
+      },
+      {
+        "q": "Should I have a lawyer for a NOID?",
+        "a": "Yes, it is a good idea. The stakes are high and the response matters a lot."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es un Aviso de Intención de Negar (NOID)?",
+        "a": "Es una carta que dice que USCIS planea negar el caso y te da la oportunidad de responder antes."
+      },
+      {
+        "q": "¿Qué pasa después de que reciben mi respuesta al NOID?",
+        "a": "El oficial la revisa y decide aprobar, negar o pedir más."
+      },
+      {
+        "q": "¿Debo tener abogado para un NOID?",
+        "a": "Sí, es buena idea. Hay mucho en juego y la respuesta importa mucho."
+      }
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Case Is Pending at a Local Office",
+    "slug_en": "case-is-pending-at-a-local-office",
+    "title_es": "Caso pendiente en una oficina local",
+    "slug_es": "caso-pendiente-en-una-oficina-local",
+    "kind": "ok",
+    "stage": "review",
+    "meaning_en": "Your case is at a USCIS field office near you. Field offices handle interviews and some final reviews. The case is waiting there for the next step. The wait depends on that office's workload.",
+    "meaning_es": "Tu caso está en una oficina local de USCIS cerca de ti. Las oficinas locales hacen entrevistas y algunas revisiones finales. El caso está esperando ahí el siguiente paso. La espera depende de la carga de trabajo de esa oficina.",
+    "next_en": [
+      "Check processing times for your field office.",
+      "Keep your address current for interview notices.",
+      "Start getting your interview documents ready."
+    ],
+    "next_es": [
+      "Consulta los tiempos de procesamiento de tu oficina local.",
+      "Mantén tu dirección al día para recibir avisos de entrevista.",
+      "Empieza a preparar tus documentos para la entrevista."
+    ],
+    "mistakes_en": [
+      "Going to the field office without an appointment.",
+      "Comparing your wait with a different office."
+    ],
+    "mistakes_es": [
+      "Ir a la oficina local sin cita.",
+      "Comparar tu espera con otra oficina."
+    ],
+    "wait_en": "Waits at local offices range from weeks to many months.",
+    "wait_es": "La espera en oficinas locales va desde semanas hasta muchos meses.",
+    "faq_en": [
+      {
+        "q": "Which local office has my case?",
+        "a": "Your online account or the transfer notice usually shows it."
+      },
+      {
+        "q": "Will I get an interview?",
+        "a": "Many cases at a local office are waiting for one, but not all need it."
+      },
+      {
+        "q": "Can I visit the office to ask?",
+        "a": "Only with an appointment made through USCIS."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué oficina local tiene mi caso?",
+        "a": "Tu cuenta en línea o el aviso de transferencia normalmente lo indican."
+      },
+      {
+        "q": "¿Me van a dar entrevista?",
+        "a": "Muchos casos en una oficina local esperan una, pero no todos la necesitan."
+      },
+      {
+        "q": "¿Puedo ir a la oficina a preguntar?",
+        "a": "Solo con una cita hecha a través de USCIS."
+      }
+    ],
+    "applies_to": [
+      "family",
+      "employment",
+      "humanitarian",
+      "naturalization",
+      "investor"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Duplicate Notice Was Mailed",
+    "slug_en": "duplicate-notice-was-mailed",
+    "title_es": "Aviso duplicado enviado",
+    "slug_es": "aviso-duplicado-enviado",
+    "kind": "ok",
+    "stage": "admin",
+    "meaning_en": "USCIS mailed a copy of a notice on your case. This often happens after you ask for a duplicate or when the first notice was returned. It does not change your case. Read it to confirm which notice it is.",
+    "meaning_es": "USCIS envió por correo una copia de un aviso de tu caso. Esto pasa seguido cuando pides un duplicado o cuando el primer aviso fue devuelto. No cambia tu caso. Léelo para confirmar de qué aviso se trata.",
+    "next_en": [
+      "Watch your mail for the duplicate notice.",
+      "Read it to see which original notice it replaces.",
+      "Keep it with your case papers."
+    ],
+    "next_es": [
+      "Revisa tu correo para recibir el aviso duplicado.",
+      "Léelo para ver qué aviso original reemplaza.",
+      "Guárdalo con los papeles de tu caso."
+    ],
+    "mistakes_en": [
+      "Thinking it is a new decision.",
+      "Ignoring a deadline that the duplicate notice repeats."
+    ],
+    "mistakes_es": [
+      "Pensar que es una nueva decisión.",
+      "Ignorar una fecha límite que el aviso duplicado repite."
+    ],
+    "wait_en": "The duplicate notice usually arrives within a few weeks.",
+    "wait_es": "El aviso duplicado suele llegar en unas semanas.",
+    "faq_en": [
+      {
+        "q": "Why did USCIS send a duplicate notice?",
+        "a": "Usually because you asked for one or the original could not be delivered."
+      },
+      {
+        "q": "Does this change my case?",
+        "a": "No. It is a copy of an existing notice."
+      },
+      {
+        "q": "Does a deadline on the duplicate restart?",
+        "a": "Not always. Read the notice and, if unsure, ask an attorney or accredited representative."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Por qué USCIS me mandó un aviso duplicado?",
+        "a": "Normalmente porque lo pediste o porque el original no se pudo entregar."
+      },
+      {
+        "q": "¿Esto cambia mi caso?",
+        "a": "No. Es una copia de un aviso que ya existe."
+      },
+      {
+        "q": "¿La fecha límite se reinicia con el duplicado?",
+        "a": "No siempre. Lee el aviso y, si tienes dudas, pregunta a un abogado o representante acreditado."
+      }
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Card Is Being Returned to USCIS by Post Office",
+    "slug_en": "card-is-being-returned-to-uscis-by-post-office",
+    "title_es": "Tarjeta en devolución a USCIS por el correo",
+    "slug_es": "tarjeta-en-devolucion-a-uscis-por-el-correo",
+    "kind": "act",
+    "stage": "card",
+    "meaning_en": "The Postal Service could not deliver your card and is sending it back to USCIS. This often happens because of a wrong or old address or a missing name on the mailbox. Your approval is still valid. You need to act so USCIS can send the card again.",
+    "meaning_es": "El Servicio Postal no pudo entregar tu tarjeta y la está regresando a USCIS. Esto suele pasar por una dirección equivocada o vieja, o porque tu nombre no está en el buzón. Tu aprobación sigue siendo válida. Necesitas actuar para que USCIS te vuelva a enviar la tarjeta.",
+    "next_en": [
+      "Update your address with USCIS right away.",
+      "Contact USCIS to ask that the card be re-mailed.",
+      "Make sure your name is on your mailbox.",
+      "Keep your approval notice as proof while you wait."
+    ],
+    "next_es": [
+      "Actualiza tu dirección con USCIS de inmediato.",
+      "Comunícate con USCIS para pedir que te reenvíen la tarjeta.",
+      "Asegúrate de que tu nombre esté en el buzón.",
+      "Guarda tu aviso de aprobación como prueba mientras esperas."
+    ],
+    "mistakes_en": [
+      "Waiting too long; USCIS may destroy undeliverable cards after a period of time.",
+      "Only updating the address with USPS and not with USCIS."
+    ],
+    "mistakes_es": [
+      "Esperar demasiado; USCIS puede destruir tarjetas no entregadas después de un tiempo.",
+      "Actualizar la dirección solo con USPS y no con USCIS."
+    ],
+    "wait_en": "The card usually reaches USCIS within a few weeks; act now to get it re-sent.",
+    "wait_es": "La tarjeta suele llegar de regreso a USCIS en unas semanas; actúa ya para que la reenvíen.",
+    "faq_en": [
+      {
+        "q": "Why is my card being returned to USCIS?",
+        "a": "Usually because USPS could not deliver it at the address on file."
+      },
+      {
+        "q": "Will USCIS send it again?",
+        "a": "Often yes, once you update your address and request it."
+      },
+      {
+        "q": "Do I need to file a new application?",
+        "a": "Not usually if you act quickly. If the card is destroyed, you may need to request a replacement."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Por qué regresan mi tarjeta a USCIS?",
+        "a": "Normalmente porque USPS no pudo entregarla en la dirección registrada."
+      },
+      {
+        "q": "¿USCIS la va a volver a enviar?",
+        "a": "Muchas veces sí, en cuanto actualices tu dirección y lo pidas."
+      },
+      {
+        "q": "¿Tengo que presentar una nueva solicitud?",
+        "a": "Normalmente no si actúas rápido. Si la tarjeta se destruye, quizá tengas que pedir un reemplazo."
+      }
+    ],
+    "applies_to": [
+      "family",
+      "employment",
+      "humanitarian",
+      "travel_work",
+      "card",
+      "investor"
+    ],
+    "card_only": true,
+    "interview_only": false
+  },
+  {
+    "code": "Card Was Returned To USCIS",
+    "slug_en": "card-was-returned-to-uscis",
+    "title_es": "Tarjeta devuelta a USCIS",
+    "slug_es": "tarjeta-devuelta-a-uscis",
+    "kind": "act",
+    "stage": "card",
+    "meaning_en": "Your card was returned to USCIS because it could not be delivered. USCIS holds returned cards for a limited time. You need to contact USCIS and confirm your correct address. Your approval is not affected.",
+    "meaning_es": "Tu tarjeta fue devuelta a USCIS porque no se pudo entregar. USCIS guarda las tarjetas devueltas por un tiempo limitado. Necesitas comunicarte con USCIS y confirmar tu dirección correcta. Tu aprobación no se ve afectada.",
+    "next_en": [
+      "Update your address with USCIS (Form AR-11 and your case).",
+      "Contact USCIS to request that the card be re-mailed.",
+      "Act quickly before the card may be destroyed.",
+      "If it was destroyed, ask how to get a replacement."
+    ],
+    "next_es": [
+      "Actualiza tu dirección con USCIS (Formulario AR-11 y en tu caso).",
+      "Comunícate con USCIS para pedir que reenvíen la tarjeta.",
+      "Actúa rápido antes de que la tarjeta pueda destruirse.",
+      "Si ya la destruyeron, pregunta cómo obtener un reemplazo."
+    ],
+    "mistakes_en": [
+      "Assuming USCIS will re-mail it on its own.",
+      "Waiting months to call."
+    ],
+    "mistakes_es": [
+      "Suponer que USCIS la reenviará por su cuenta.",
+      "Esperar meses para llamar."
+    ],
+    "wait_en": "USCIS holds returned cards for a limited time, so act within days, not months.",
+    "wait_es": "USCIS guarda las tarjetas devueltas por un tiempo limitado; actúa en días, no en meses.",
+    "faq_en": [
+      {
+        "q": "How do I get my returned card?",
+        "a": "Update your address and contact USCIS to request that it be mailed again."
+      },
+      {
+        "q": "How long will USCIS keep my card?",
+        "a": "For a limited time. After that, it may be destroyed and you may need a replacement."
+      },
+      {
+        "q": "Do I have to pay again?",
+        "a": "Not usually if the card is re-mailed. A replacement may have a fee depending on the reason."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cómo recupero mi tarjeta devuelta?",
+        "a": "Actualiza tu dirección y comunícate con USCIS para pedir que la vuelvan a enviar."
+      },
+      {
+        "q": "¿Cuánto tiempo guarda USCIS mi tarjeta?",
+        "a": "Por un tiempo limitado. Después puede destruirse y quizá necesites un reemplazo."
+      },
+      {
+        "q": "¿Tengo que pagar otra vez?",
+        "a": "Normalmente no si la reenvían. Un reemplazo puede tener costo según el motivo."
+      }
+    ],
+    "applies_to": [
+      "family",
+      "employment",
+      "humanitarian",
+      "travel_work",
+      "card",
+      "investor"
+    ],
+    "card_only": true,
+    "interview_only": false
+  },
+  {
+    "code": "Notice Was Returned To USCIS Because The Post Office Could Not Deliver It",
+    "slug_en": "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it",
+    "title_es": "Aviso devuelto a USCIS por no poder entregarse",
+    "slug_es": "aviso-devuelto-a-uscis-por-no-poder-entregarse",
+    "kind": "act",
+    "stage": "admin",
+    "meaning_en": "A notice USCIS mailed you came back undelivered. It could be a receipt, an appointment, a request for evidence or a decision. Missing that notice could mean missing a deadline. Find out what it was and update your address quickly.",
+    "meaning_es": "Un aviso que USCIS te mandó por correo regresó sin entregarse. Puede ser un recibo, una cita, una solicitud de evidencia o una decisión. No recibir ese aviso puede hacer que pierdas una fecha límite. Averigua qué era y actualiza tu dirección pronto.",
+    "next_en": [
+      "Update your address with USCIS right away.",
+      "Check your online account for a copy of the notice.",
+      "Contact USCIS to ask what the notice was and request a duplicate.",
+      "If it had a deadline, act on it immediately."
+    ],
+    "next_es": [
+      "Actualiza tu dirección con USCIS de inmediato.",
+      "Busca una copia del aviso en tu cuenta en línea.",
+      "Comunícate con USCIS para saber qué aviso era y pedir un duplicado.",
+      "Si tenía fecha límite, actúa de inmediato."
+    ],
+    "mistakes_en": [
+      "Ignoring it because you do not know what the notice was.",
+      "Missing an RFE or interview because of the returned mail."
+    ],
+    "mistakes_es": [
+      "Ignorarlo porque no sabes qué aviso era.",
+      "Perder un RFE o una entrevista por el correo devuelto."
+    ],
+    "wait_en": "This varies; act right away in case the notice had a deadline.",
+    "wait_es": "Varía; actúa de inmediato por si el aviso tenía fecha límite.",
+    "faq_en": [
+      {
+        "q": "How do I know what notice was returned?",
+        "a": "Check your USCIS online account or contact USCIS."
+      },
+      {
+        "q": "Can I get the notice again?",
+        "a": "Yes. Ask USCIS for a duplicate notice after updating your address."
+      },
+      {
+        "q": "Does this affect my case?",
+        "a": "It can if the notice needed a response. Act quickly."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Cómo sé qué aviso regresó?",
+        "a": "Revisa tu cuenta en línea de USCIS o comunícate con USCIS."
+      },
+      {
+        "q": "¿Puedo recibir el aviso otra vez?",
+        "a": "Sí. Pide a USCIS un aviso duplicado después de actualizar tu dirección."
+      },
+      {
+        "q": "¿Esto afecta mi caso?",
+        "a": "Puede afectarlo si el aviso pedía una respuesta. Actúa rápido."
+      }
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Card Was Received By USCIS Along With My Letter",
+    "slug_en": "card-was-received-by-uscis-along-with-my-letter",
+    "title_es": "USCIS recibió tu tarjeta junto con tu carta",
+    "slug_es": "uscis-recibio-tu-tarjeta-junto-con-tu-carta",
+    "kind": "ok",
+    "stage": "card",
+    "meaning_en": "USCIS received a card you sent back with a letter. People usually do this to fix an error on the card or to return a card they cannot use. USCIS will review it and may issue a corrected card. You will get an update when it acts.",
+    "meaning_es": "USCIS recibió una tarjeta que enviaste de regreso con una carta. Normalmente se hace para corregir un error en la tarjeta o devolver una tarjeta que no puedes usar. USCIS la revisará y puede emitir una tarjeta corregida. Recibirás una actualización cuando actúe.",
+    "next_en": [
+      "Keep a copy of the card and your letter.",
+      "Keep your approval notice as proof of status.",
+      "Watch for a 'New Card Is Being Produced' update."
+    ],
+    "next_es": [
+      "Guarda una copia de la tarjeta y de tu carta.",
+      "Guarda tu aviso de aprobación como prueba de estatus.",
+      "Espera la actualización 'New Card Is Being Produced'."
+    ],
+    "mistakes_en": [
+      "Not keeping a copy of what you sent.",
+      "Not having other proof of status while you wait."
+    ],
+    "mistakes_es": [
+      "No guardar copia de lo que enviaste.",
+      "No tener otra prueba de estatus mientras esperas."
+    ],
+    "wait_en": "A corrected card can take weeks to a few months; it varies.",
+    "wait_es": "Una tarjeta corregida puede tardar semanas o unos meses; varía.",
+    "faq_en": [
+      {
+        "q": "Why did USCIS receive my card back?",
+        "a": "Because you mailed it back with a letter, usually to correct an error."
+      },
+      {
+        "q": "How do I prove my status without the card?",
+        "a": "Keep your approval notice. Ask USCIS about other temporary proof if you need it."
+      },
+      {
+        "q": "Will I get a new card?",
+        "a": "If USCIS agrees there was an error, it usually produces a corrected card."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Por qué USCIS recibió mi tarjeta de regreso?",
+        "a": "Porque la enviaste con una carta, normalmente para corregir un error."
+      },
+      {
+        "q": "¿Cómo pruebo mi estatus sin la tarjeta?",
+        "a": "Guarda tu aviso de aprobación. Pregunta a USCIS por otra prueba temporal si la necesitas."
+      },
+      {
+        "q": "¿Me darán una tarjeta nueva?",
+        "a": "Si USCIS confirma que hubo un error, normalmente produce una tarjeta corregida."
+      }
+    ],
+    "applies_to": [
+      "family",
+      "employment",
+      "humanitarian",
+      "travel_work",
+      "card",
+      "investor"
+    ],
+    "card_only": true,
+    "interview_only": false
+  },
+  {
+    "code": "Date of Birth Was Updated",
+    "slug_en": "date-of-birth-was-updated",
+    "title_es": "Fecha de nacimiento actualizada",
+    "slug_es": "fecha-de-nacimiento-actualizada",
+    "kind": "ok",
+    "stage": "admin",
+    "meaning_en": "USCIS changed the date of birth on your case record. This usually follows a correction request or new evidence. Your case continues with the corrected date. Any card or notice should now show it.",
+    "meaning_es": "USCIS cambió la fecha de nacimiento en el registro de tu caso. Normalmente pasa después de una solicitud de corrección o evidencia nueva. Tu caso sigue con la fecha corregida. Cualquier tarjeta o aviso debe mostrarla ahora.",
+    "next_en": [
+      "Check that the new date is exactly right.",
+      "Use the same date on all future forms.",
+      "Keep the birth certificate or document that supports it."
+    ],
+    "next_es": [
+      "Revisa que la nueva fecha sea exactamente correcta.",
+      "Usa la misma fecha en todos los formularios futuros.",
+      "Guarda el acta de nacimiento o el documento que la respalda."
+    ],
+    "mistakes_en": [
+      "Mixing day and month order on forms.",
+      "Not checking the final card."
+    ],
+    "mistakes_es": [
+      "Confundir el orden de día y mes en los formularios.",
+      "No revisar la tarjeta final."
+    ],
+    "wait_en": "This is a quick update; the case usually moves on to its next step.",
+    "wait_es": "Es una actualización rápida; el caso normalmente pasa a su siguiente paso.",
+    "faq_en": [
+      {
+        "q": "Why was my date of birth updated?",
+        "a": "Usually because of a correction request or a document showing the right date."
+      },
+      {
+        "q": "Will this delay my case?",
+        "a": "Usually not much."
+      },
+      {
+        "q": "What if it is still wrong?",
+        "a": "Contact USCIS with your birth certificate or passport."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Por qué actualizaron mi fecha de nacimiento?",
+        "a": "Normalmente por una solicitud de corrección o un documento con la fecha correcta."
+      },
+      {
+        "q": "¿Esto retrasa mi caso?",
+        "a": "Normalmente no mucho."
+      },
+      {
+        "q": "¿Qué hago si sigue mal?",
+        "a": "Comunícate con USCIS con tu acta de nacimiento o pasaporte."
+      }
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Continuation Notice Was Mailed",
+    "slug_en": "continuation-notice-was-mailed",
+    "title_es": "Aviso de continuación enviado",
+    "slug_es": "aviso-de-continuacion-enviado",
+    "kind": "ok",
+    "stage": "admin",
+    "meaning_en": "USCIS mailed you a notice about your case continuing. For some forms, this kind of notice is used as evidence that your status or benefit continues while the case is pending. It is not a final decision. Read the notice to see exactly what it covers and for how long.",
+    "meaning_es": "USCIS te envió un aviso sobre la continuación de tu caso. En algunos formularios, este tipo de aviso sirve como prueba de que tu estatus o beneficio sigue vigente mientras el caso está pendiente. No es una decisión final. Lee el aviso para ver qué cubre exactamente y por cuánto tiempo.",
+    "next_en": [
+      "Read the notice and note any validity dates.",
+      "Keep it with your card or status documents.",
+      "Show it to employers or agencies if it serves as proof.",
+      "Keep checking your status for the decision."
+    ],
+    "next_es": [
+      "Lee el aviso y anota cualquier fecha de vigencia.",
+      "Guárdalo junto con tu tarjeta o documentos de estatus.",
+      "Muéstralo a empleadores o agencias si sirve como prueba.",
+      "Sigue revisando tu estatus para ver la decisión."
+    ],
+    "mistakes_en": [
+      "Thinking it is an approval.",
+      "Ignoring the end date on the notice."
+    ],
+    "mistakes_es": [
+      "Pensar que es una aprobación.",
+      "Ignorar la fecha de vencimiento del aviso."
+    ],
+    "wait_en": "The case often stays pending for months after this notice; it varies.",
+    "wait_es": "El caso muchas veces sigue pendiente por meses después de este aviso; varía.",
+    "faq_en": [
+      {
+        "q": "What is a continuation notice?",
+        "a": "A USCIS notice about your case or status continuing while it is pending. Read it to see what it covers."
+      },
+      {
+        "q": "Can I use it as proof of status?",
+        "a": "For some forms, yes, together with your card. The notice will say."
+      },
+      {
+        "q": "Does it mean my case was approved?",
+        "a": "No. A decision still has to be made."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué es un aviso de continuación?",
+        "a": "Un aviso de USCIS sobre la continuación de tu caso o estatus mientras está pendiente. Léelo para ver qué cubre."
+      },
+      {
+        "q": "¿Lo puedo usar como prueba de estatus?",
+        "a": "En algunos formularios sí, junto con tu tarjeta. El aviso lo dirá."
+      },
+      {
+        "q": "¿Significa que aprobaron mi caso?",
+        "a": "No. Todavía falta la decisión."
+      }
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Termination Notice Sent",
+    "slug_en": "termination-notice-sent",
+    "title_es": "Aviso de terminación enviado",
+    "slug_es": "aviso-de-terminacion-enviado",
+    "kind": "bad",
+    "stage": "closed",
+    "meaning_en": "USCIS sent a notice ending your case, status or benefit. This can happen for many reasons, such as abandonment, a withdrawn petition, or a change in eligibility. The notice explains the reason and any options. Act quickly, because options can have short deadlines.",
+    "meaning_es": "USCIS envió un aviso que termina tu caso, estatus o beneficio. Puede pasar por muchas razones, como abandono, una petición retirada o un cambio en la elegibilidad. El aviso explica la razón y las opciones. Actúa rápido, porque las opciones pueden tener plazos cortos.",
+    "next_en": [
+      "Read the termination notice and note any deadline.",
+      "Talk to an immigration attorney or accredited representative right away.",
+      "Check how this affects your status and work permission.",
+      "Gather documents that support your case if you plan to challenge it."
+    ],
+    "next_es": [
+      "Lee el aviso de terminación y anota cualquier fecha límite.",
+      "Habla de inmediato con un abogado de inmigración o representante acreditado.",
+      "Revisa cómo afecta esto tu estatus y tu permiso de trabajo.",
+      "Reúne documentos que apoyen tu caso si piensas impugnarlo."
+    ],
+    "mistakes_en": [
+      "Continuing to work on a terminated permit.",
+      "Missing the deadline to file a motion."
+    ],
+    "mistakes_es": [
+      "Seguir trabajando con un permiso terminado.",
+      "Perder el plazo para presentar una moción."
+    ],
+    "wait_en": "This is a closing status; any deadline to respond is in the notice.",
+    "wait_es": "Es un estatus de cierre; cualquier plazo para responder está en el aviso.",
+    "faq_en": [
+      {
+        "q": "What does 'Termination Notice Sent' mean?",
+        "a": "USCIS ended your case, status or benefit. The notice explains why."
+      },
+      {
+        "q": "Can a termination be reversed?",
+        "a": "Sometimes, through a motion or by fixing the problem. Ask an attorney or accredited representative."
+      },
+      {
+        "q": "Can I still work?",
+        "a": "It depends on what was terminated. Get advice before continuing to work."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué significa 'Termination Notice Sent'?",
+        "a": "USCIS terminó tu caso, estatus o beneficio. El aviso explica por qué."
+      },
+      {
+        "q": "¿Se puede revertir una terminación?",
+        "a": "A veces, con una moción o corrigiendo el problema. Pregunta a un abogado o representante acreditado."
+      },
+      {
+        "q": "¿Puedo seguir trabajando?",
+        "a": "Depende de qué se terminó. Busca orientación antes de seguir trabajando."
+      }
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Case Closed Benefit Received By Other Means",
+    "slug_en": "case-closed-benefit-received-by-other-means",
+    "title_es": "Caso cerrado: beneficio recibido por otra vía",
+    "slug_es": "caso-cerrado-beneficio-recibido-por-otra-via",
+    "kind": "ok",
+    "stage": "closed",
+    "meaning_en": "USCIS closed this case because you already received the same benefit another way. For example, you got a green card through another filing. The case is not denied; it is no longer needed. Check that the benefit you got is the one you expected.",
+    "meaning_es": "USCIS cerró este caso porque ya recibiste el mismo beneficio por otra vía. Por ejemplo, obtuviste la green card por otro trámite. El caso no fue negado; simplemente ya no es necesario. Revisa que el beneficio que recibiste sea el que esperabas.",
+    "next_en": [
+      "Confirm which case gave you the benefit.",
+      "Keep the closure notice with your records.",
+      "Contact USCIS if you believe the case was closed by mistake."
+    ],
+    "next_es": [
+      "Confirma qué caso te dio el beneficio.",
+      "Guarda el aviso de cierre con tus documentos.",
+      "Comunícate con USCIS si crees que cerraron el caso por error."
+    ],
+    "mistakes_en": [
+      "Thinking the case was denied.",
+      "Not checking whether a related benefit, like a work permit, is still needed."
+    ],
+    "mistakes_es": [
+      "Pensar que negaron el caso.",
+      "No revisar si todavía necesitas un beneficio relacionado, como un permiso de trabajo."
+    ],
+    "wait_en": "This is a closed status; it does not usually change.",
+    "wait_es": "Es un estatus de cierre; normalmente no cambia.",
+    "faq_en": [
+      {
+        "q": "Was my case denied?",
+        "a": "No. It was closed because you already have the benefit through another case."
+      },
+      {
+        "q": "Will I get a refund?",
+        "a": "USCIS generally does not refund fees for closed cases."
+      },
+      {
+        "q": "What if I did not get the benefit?",
+        "a": "Contact USCIS, because the case may have been closed in error."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Negaron mi caso?",
+        "a": "No. Lo cerraron porque ya tienes el beneficio por otro caso."
+      },
+      {
+        "q": "¿Me devuelven el pago?",
+        "a": "En general USCIS no reembolsa pagos de casos cerrados."
+      },
+      {
+        "q": "¿Qué hago si no recibí el beneficio?",
+        "a": "Comunícate con USCIS, porque el caso pudo cerrarse por error."
+      }
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Expedite Request Denied",
+    "slug_en": "expedite-request-denied",
+    "title_es": "Solicitud para acelerar el caso negada",
+    "slug_es": "solicitud-para-acelerar-el-caso-negada",
+    "kind": "ok",
+    "stage": "admin",
+    "meaning_en": "USCIS decided not to speed up your case. This is about the expedite request only, not your application. Your case keeps its place in the normal line. You can ask again if your situation changes.",
+    "meaning_es": "USCIS decidió no acelerar tu caso. Esto es solo sobre la petición para acelerar, no sobre tu solicitud. Tu caso conserva su lugar en la fila normal. Puedes volver a pedirlo si tu situación cambia.",
+    "next_en": [
+      "Keep waiting for normal processing.",
+      "Gather stronger proof if your urgency grows.",
+      "Ask again only with new evidence of urgency."
+    ],
+    "next_es": [
+      "Sigue esperando el procesamiento normal.",
+      "Reúne pruebas más fuertes si tu urgencia aumenta.",
+      "Vuelve a pedirlo solo con pruebas nuevas de urgencia."
+    ],
+    "mistakes_en": [
+      "Thinking your main case was denied.",
+      "Sending the same request again without new evidence."
+    ],
+    "mistakes_es": [
+      "Pensar que negaron tu caso principal.",
+      "Enviar la misma petición otra vez sin pruebas nuevas."
+    ],
+    "wait_en": "Your case continues at normal processing times, which vary by form and office.",
+    "wait_es": "Tu caso sigue con los tiempos normales, que varían según el formulario y la oficina.",
+    "faq_en": [
+      {
+        "q": "Was my case denied?",
+        "a": "No. Only the request to speed it up was denied."
+      },
+      {
+        "q": "Can I request an expedite again?",
+        "a": "Yes, especially if your situation changes and you have new proof."
+      },
+      {
+        "q": "Will this hurt my case?",
+        "a": "No. The case continues normally."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Negaron mi caso?",
+        "a": "No. Solo negaron la petición para acelerarlo."
+      },
+      {
+        "q": "¿Puedo pedir otra vez que lo aceleren?",
+        "a": "Sí, sobre todo si tu situación cambia y tienes pruebas nuevas."
+      },
+      {
+        "q": "¿Esto perjudica mi caso?",
+        "a": "No. El caso sigue normalmente."
+      }
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "card_only": false,
+    "interview_only": false
+  },
+  {
+    "code": "Correspondence Was Received And USCIS Is Reviewing It",
+    "slug_en": "correspondence-was-received-and-uscis-is-reviewing-it",
+    "title_es": "Correspondencia recibida y en revisión",
+    "slug_es": "correspondencia-recibida-y-en-revision",
+    "kind": "ok",
+    "stage": "review",
+    "meaning_en": "USCIS received a letter, document or message you sent about your case. An officer will review it and decide if any action is needed. This does not mean a decision has been made. It confirms your correspondence arrived.",
+    "meaning_es": "USCIS recibió una carta, documento o mensaje que enviaste sobre tu caso. Un oficial lo revisará y decidirá si hace falta alguna acción. Esto no significa que ya haya una decisión. Confirma que tu correspondencia llegó.",
+    "next_en": [
+      "Keep a copy of what you sent and the mailing receipt.",
+      "Watch for a response or a status change.",
+      "Avoid sending the same correspondence again."
+    ],
+    "next_es": [
+      "Guarda una copia de lo que enviaste y el comprobante de envío.",
+      "Espera una respuesta o un cambio de estatus.",
+      "Evita enviar la misma correspondencia otra vez."
+    ],
+    "mistakes_en": [
+      "Sending multiple copies of the same letter.",
+      "Expecting an immediate reply."
+    ],
+    "mistakes_es": [
+      "Enviar varias copias de la misma carta.",
+      "Esperar una respuesta inmediata."
+    ],
+    "wait_en": "Review of correspondence can take weeks to months; it varies.",
+    "wait_es": "La revisión de correspondencia puede tardar semanas o meses; varía.",
+    "faq_en": [
+      {
+        "q": "What correspondence did USCIS receive?",
+        "a": "Usually something you or your representative sent, like a letter, document or address change."
+      },
+      {
+        "q": "Will USCIS reply to me?",
+        "a": "Only if action is needed. Otherwise the case continues."
+      },
+      {
+        "q": "Does this status mean a decision is near?",
+        "a": "No. It only confirms your correspondence arrived."
+      }
+    ],
+    "faq_es": [
+      {
+        "q": "¿Qué correspondencia recibió USCIS?",
+        "a": "Normalmente algo que tú o tu representante enviaron, como una carta, documento o cambio de dirección."
+      },
+      {
+        "q": "¿USCIS me va a responder?",
+        "a": "Solo si hace falta alguna acción. Si no, el caso sigue."
+      },
+      {
+        "q": "¿Este estatus significa que la decisión está cerca?",
+        "a": "No. Solo confirma que tu correspondencia llegó."
+      }
+    ],
+    "applies_to": [
+      "all"
+    ],
+    "card_only": false,
+    "interview_only": false
+  }
+]
