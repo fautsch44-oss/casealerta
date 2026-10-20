@@ -1,0 +1,150 @@
+{
+"case-was-received": {
+"en": "USCIS has the I-929 filed by the U-1 holder for a family member who never had U status. This petition is tied to the U-1 holder's own green card case, so its progress usually depends on that I-485. Keep both receipt numbers together and track them side by side.",
+"es": "USCIS ya tiene el I-929 que presentó la persona con visa U-1 para un familiar que nunca tuvo estatus U. Esta petición va ligada al caso de green card de la persona U-1, así que su avance suele depender de ese I-485. Guarda juntos los dos números de recibo y síguelos al mismo tiempo."
+},
+"case-was-received-and-a-receipt-notice-was-sent": {
+"en": "The I-797C receipt for the I-929 is in the mail to the U-1 holder who filed it. Save it, and give a copy to the relative it covers. The receipt proves the petition is pending but does not give the relative any status or permission to work by itself.",
+"es": "Viene por correo el recibo I-797C del I-929 para la persona U-1 que lo presentó. Guárdalo y dale una copia al familiar que cubre. El recibo prueba que la petición está en trámite, pero por sí solo no le da al familiar ningún estatus ni permiso para trabajar."
+},
+"fingerprint-fee-was-received": {
+"en": "USCIS logged the biometrics part of the I-929 case. If the family member lives in the U.S., expect an appointment notice for fingerprints and a photo. If they live abroad, their identity and background checks are usually handled later, through the consulate, when they apply for the visa.",
+"es": "USCIS registró la parte de biométricos del caso I-929. Si el familiar vive en EE.UU., espera un aviso de cita para huellas y foto. Si vive fuera, su revisión de identidad y antecedentes normalmente se hace después, en el consulado, cuando pide la visa."
+},
+"fingerprint-review-was-completed": {
+"en": "The background check linked to the I-929 is done. For this form, the officer then focuses on two main points: that the family relationship is real, and that keeping the family apart would cause extreme hardship. Both need solid evidence in the file.",
+"es": "Terminó la revisión de antecedentes ligada al I-929. En este formulario, el oficial después se enfoca en dos puntos: que el parentesco sea real y que mantener separada a la familia causaría dificultades extremas. Ambos necesitan pruebas sólidas en el expediente."
+},
+"case-is-being-actively-reviewed-by-uscis": {
+"en": "An officer is reviewing the I-929. Because USCIS generally decides it together with or after the U-1 holder's I-485, check that case's status too. Extra evidence of family ties and hardship is often what moves this review forward, so keep it organized and ready.",
+"es": "Un oficial está revisando el I-929. Como USCIS por lo general lo decide junto con el I-485 de la persona U-1 o después, revisa también el estatus de ese caso. Las pruebas extra de lazos familiares y de dificultades suelen ser lo que hace avanzar esta revisión, así que tenlas ordenadas y listas."
+},
+"request-for-additional-evidence-was-sent": {
+"en": "USCIS wants more evidence for the I-929. Typical requests include birth or marriage certificates proving the relationship, and proof of extreme hardship if the relative cannot join or stay with the U-1 holder. Answer fully by the deadline, ideally with help from an immigration attorney or accredited representative.",
+"es": "USCIS quiere más pruebas para el I-929. Suelen pedir actas de nacimiento o de matrimonio que prueben el parentesco, y pruebas de dificultades extremas si el familiar no puede reunirse o quedarse con la persona U-1. Responde completo antes de la fecha límite, de preferencia con ayuda de un abogado de inmigración o representante acreditado."
+},
+"request-for-initial-evidence-was-sent": {
+"en": "The I-929 was missing a basic document, such as a copy of the U-1 holder's I-485 receipt or approval, proof of the family relationship, or the relative's identity papers. USCIS will hold the petition until you send it. Return everything with the cover page before the deadline.",
+"es": "Al I-929 le faltó un documento básico, como copia del recibo o la aprobación del I-485 de la persona U-1, prueba del parentesco o los papeles de identidad del familiar. USCIS detiene la petición hasta que lo mandes. Regresa todo con la hoja de portada antes de la fecha límite."
+},
+"response-to-uscis-request-for-evidence-was-received": {
+"en": "USCIS received the documents sent for the I-929. The officer will review them along with the U-1 holder's green card case. If the principal's I-485 is still pending, the I-929 decision may wait for it, so keep an eye on both receipts.",
+"es": "USCIS recibió los documentos que mandaste para el I-929. El oficial los revisará junto con el caso de green card de la persona U-1. Si el I-485 principal sigue pendiente, la decisión del I-929 puede esperar a ese caso, así que vigila los dos recibos."
+},
+"case-was-transferred-and-a-new-office-has-jurisdiction": {
+"en": "The I-929 moved to another USCIS office. This often happens so it can be handled next to the U-1 holder's I-485 or to balance workloads. The receipt number stays the same, and nothing new needs to be filed by you or the relative.",
+"es": "El I-929 pasó a otra oficina de USCIS. Suele pasar para manejarlo junto al I-485 de la persona U-1 o para repartir el trabajo. El número de recibo sigue igual y ni tú ni tu familiar necesitan presentar nada nuevo."
+},
+"case-was-approved": {
+"en": "The I-929 was approved. If the family member is in the U.S., they can now file their own I-485 to apply for a green card. If they live abroad, the approved petition is sent on so they can apply for an immigrant visa at a U.S. consulate. Either way, the relative still needs that next step.",
+"es": "Aprobaron el I-929. Si el familiar está en EE.UU., ahora puede presentar su propio I-485 para pedir la green card. Si vive fuera, la petición aprobada se envía para que pida una visa de inmigrante en un consulado de EE.UU. En los dos casos, el familiar todavía necesita ese siguiente paso."
+},
+"document-was-mailed-to-me": {
+"en": "For an I-929, the mailed document is usually the approval or decision notice. Keep the original safe and make copies: the relative will need it to file an I-485 inside the U.S., or to show at the consulate if they are abroad.",
+"es": "En el I-929, el documento que te mandan suele ser el aviso de aprobación o decisión. Guarda el original en un lugar seguro y saca copias: el familiar lo necesitará para presentar el I-485 dentro de EE.UU., o para mostrarlo en el consulado si vive fuera."
+},
+"notice-explaining-uscis-actions-was-mailed": {
+"en": "USCIS mailed a letter about the I-929, and this status alone does not say what it is. It might be a biometrics notice for the relative, an evidence request about hardship, or a decision. Open it right away and write down any deadline.",
+"es": "USCIS mandó una carta sobre el I-929 y este estatus por sí solo no dice qué es. Puede ser un aviso de biométricos para el familiar, una petición de pruebas sobre dificultades o una decisión. Ábrela de inmediato y anota cualquier fecha límite."
+},
+"case-was-denied": {
+"en": "The I-929 was denied. The notice gives the reason, such as not enough proof of the relationship or of extreme hardship, and explains whether an appeal or motion on Form I-290B is possible and by when. Talk with an immigration attorney or accredited representative before deciding what to do.",
+"es": "Negaron el I-929. El aviso da la razón, como falta de pruebas del parentesco o de las dificultades extremas, y explica si se puede apelar o presentar una moción con el Formulario I-290B y hasta cuándo. Habla con un abogado de inmigración o representante acreditado antes de decidir qué hacer."
+},
+"case-was-reopened": {
+"en": "The I-929 is open again after a decision. This usually follows a granted motion, an appeal sent back for review, or a change in the U-1 holder's green card case. Expect new notices and possibly a request for updated hardship evidence.",
+"es": "El I-929 se abrió de nuevo después de una decisión. Suele pasar tras aceptar una moción, cuando una apelación lo regresa para revisión o por un cambio en el caso de green card de la persona U-1. Espera nuevos avisos y quizá una petición de pruebas de dificultades actualizadas."
+},
+"case-rejected-because-i-sent-an-incorrect-fee": {
+"en": "The I-929 came back because of the payment, so it is not pending. Check the current fee on uscis.gov. This form allows a fee waiver request, which many U-1 families use, so you can include Form I-912 with the new filing if you qualify.",
+"es": "Te regresaron el I-929 por el pago, así que no está en trámite. Revisa la tarifa actual en uscis.gov. Este formulario permite pedir exención de pago, que muchas familias U-1 usan, así que puedes incluir el Formulario I-912 en la nueva presentación si calificas."
+},
+"expedite-request-received": {
+"en": "USCIS logged a request to speed up the I-929. Expedites are granted only for reasons that meet USCIS criteria, such as urgent medical or safety situations affecting the relative. Keep supporting proof ready, and remember the decision may still depend on the U-1 holder's I-485.",
+"es": "USCIS registró una petición para acelerar el I-929. Solo aprueban acelerar por razones que cumplen sus criterios, como una situación médica o de seguridad urgente del familiar. Ten las pruebas listas y recuerda que la decisión todavía puede depender del I-485 de la persona U-1."
+},
+"withdrawal-acknowledgement-notice-was-sent": {
+"en": "USCIS confirmed the U-1 holder withdrew the I-929. The case is closed and any fee paid is not refunded. The family member loses this route unless a new petition is filed, which is generally possible only while the U-1 holder is eligible to file it.",
+"es": "USCIS confirmó que la persona U-1 retiró el I-929. El caso quedó cerrado y si se pagó tarifa no se devuelve. El familiar pierde esta vía a menos que se presente una petición nueva, lo que por lo general solo se puede mientras la persona U-1 siga calificando para presentarla."
+},
+"name-was-updated": {
+"en": "USCIS updated a name on the I-929, either the U-1 holder's or the relative's. Check that it matches the passport and civil documents, since the same record will carry into the relative's I-485 or visa case later.",
+"es": "USCIS actualizó un nombre en el I-929, de la persona U-1 o del familiar. Revisa que coincida con el pasaporte y las actas, porque ese mismo dato pasará después al I-485 o al caso de visa del familiar. Si hay errores, avísale a USCIS pronto."
+},
+"case-was-received-and-a-receipt-notice-was-emailed": {
+"en": "The I-929 receipt was sent electronically. Download and save it next to the receipt for the U-1 holder's I-485. Having both in one place makes it easier to answer USCIS and to plan the relative's next step once the petition is decided.",
+"es": "El recibo del I-929 llegó de forma electrónica. Descárgalo y guárdalo junto al recibo del I-485 de la persona U-1. Tener los dos en un solo lugar facilita contestarle a USCIS y planear el siguiente paso del familiar cuando decidan la petición."
+},
+"case-accepted-by-the-uscis-lockbox": {
+"en": "The I-929 passed the intake check at the filing location: the fee or fee waiver request was processed and the form was accepted. Next, it gets a receipt number. Watch the mail for the I-797C, which is usually sent to the U-1 holder who filed it.",
+"es": "El I-929 pasó la revisión de entrada en el lugar de presentación: se procesó la tarifa o la petición de exención y aceptaron el formulario. Ahora recibe número de recibo. Espera por correo el I-797C, que normalmente le llega a la persona U-1 que lo presentó."
+},
+"fees-were-waived": {
+"en": "USCIS approved the fee waiver for the I-929, so no filing fee is due. The petition now moves through the same review as a paid one. If the relative later files an I-485 in the U.S., a fee waiver may also be requested for that form.",
+"es": "USCIS aprobó la exención de pago del I-929, así que no hay que pagar. La petición pasa por la misma revisión que una pagada. Si después el familiar presenta un I-485 en EE.UU., también se puede pedir exención de pago para ese formulario."
+},
+"case-was-rejected-because-it-was-improperly-filed": {
+"en": "The I-929 was returned and is not pending. Common reasons include a missing signature, an old edition, or filing before the U-1 holder had a pending or approved I-485. Fix the issue named in the letter and file again; the new date will count.",
+"es": "Regresaron el I-929 y no está en trámite. Razones comunes: faltó la firma, era una edición vieja o se presentó antes de que la persona U-1 tuviera un I-485 pendiente o aprobado. Corrige lo que dice la carta y vuelve a presentarlo; contará la nueva fecha."
+},
+"biometrics-appointment-was-scheduled": {
+"en": "A biometrics appointment is set in the I-929 case, usually for the family member if they are in the U.S. They should bring the notice and a photo ID, such as a passport. If the date does not work, request a new one before the appointment.",
+"es": "Hay cita de biométricos en el caso I-929, normalmente para el familiar si está en EE.UU. Debe llevar el aviso y una identificación con foto, como su pasaporte. Si la fecha no le queda, que pida otra antes de la cita."
+},
+"case-was-updated-to-show-fingerprints-were-taken": {
+"en": "The biometrics for the I-929 case are recorded. The background check now runs. There is usually no interview for this petition, so the next update is often a request for more evidence or a decision, often timed with the U-1 holder's green card.",
+"es": "Ya quedaron registrados los biométricos del caso I-929. Ahora corre la revisión de antecedentes. Normalmente no hay entrevista para esta petición, así que lo siguiente suele ser una petición de más pruebas o una decisión, muchas veces al mismo tiempo que la green card de la persona U-1."
+},
+"case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+"en": "USCIS shows that the relative missed the biometrics appointment for the I-929. Contact USCIS quickly to explain and ask for a new date. A missed appointment without follow-up can lead to the petition being denied as abandoned.",
+"es": "USCIS indica que el familiar faltó a la cita de biométricos del I-929. Comunícate rápido con USCIS para explicar y pedir nueva fecha. Si faltan y no dan seguimiento, la petición puede negarse por abandono y habría que empezar de nuevo."
+},
+"case-was-approved-and-my-decision-was-emailed": {
+"en": "The I-929 approval was sent electronically. Download it and share a copy with the family member. If they are in the U.S., the next step is their I-485; if they are abroad, they should watch for instructions about the consular visa process.",
+"es": "La aprobación del I-929 llegó de forma electrónica. Descárgala y comparte una copia con el familiar. Si está en EE.UU., lo siguiente es su I-485; si vive fuera, debe estar pendiente de las instrucciones para el trámite de visa en el consulado."
+},
+"case-approval-was-certified-by-uscis": {
+"en": "This is an unusual status for an I-929. It generally means an approval was confirmed through an extra internal review. The next step for the relative stays the same: an I-485 in the U.S. or the consular visa process abroad.",
+"es": "Es un estatus poco común en el I-929. Por lo general indica que una aprobación se confirmó con una revisión interna adicional. El siguiente paso del familiar no cambia: un I-485 dentro de EE.UU. o el trámite de visa consular si vive fuera."
+},
+"response-to-uscis-notice-of-intent-was-received": {
+"en": "USCIS received the reply to its notice of intent to deny the I-929. The officer will compare the new evidence of the relationship and hardship with its concerns. Because a denial would close this path for the relative, keep an immigration attorney or accredited representative involved.",
+"es": "USCIS recibió la respuesta al aviso de intención de negar el I-929. El oficial va a comparar las nuevas pruebas del parentesco y de las dificultades con sus dudas. Como una negación cerraría esta vía para el familiar, mantén involucrado a un abogado de inmigración o representante acreditado."
+},
+"case-is-pending-at-a-local-office": {
+"en": "The I-929 is at a local field office. This can happen when it is reviewed alongside the U-1 holder's I-485 at that office, or when an officer wants to verify something in person. Watch for any appointment notice and bring the documents it lists.",
+"es": "El I-929 está en una oficina local. Puede pasar cuando lo revisan junto con el I-485 de la persona U-1 en esa oficina, o cuando un oficial quiere confirmar algo en persona. Espera cualquier aviso de cita y lleva los documentos que pida."
+},
+"duplicate-notice-was-mailed": {
+"en": "USCIS mailed another copy of a notice from the I-929 case, often because one was requested. A duplicate approval is especially useful if the original was lost and the relative needs it to file an I-485 or to present at the consulate.",
+"es": "USCIS mandó otra copia de un aviso del caso I-929, muchas veces porque alguien la pidió. Una copia de la aprobación es muy útil si se perdió la original y el familiar la necesita para presentar el I-485 o para llevarla al consulado."
+},
+"notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+"en": "A letter about the I-929 could not be delivered and returned to USCIS. It may have been a biometrics notice or an evidence request with a deadline. Update the address with USCIS right away and ask what was sent and whether it can be resent.",
+"es": "Una carta del I-929 no se pudo entregar y regresó a USCIS. Puede haber sido un aviso de biométricos o una petición de pruebas con fecha límite. Actualiza la dirección con USCIS de inmediato y pregunta qué te mandaron y si lo pueden reenviar."
+},
+"date-of-birth-was-updated": {
+"en": "USCIS corrected a date of birth on the I-929. For children in particular, age can affect eligibility as a qualifying family member, so confirm the date matches the birth certificate. It will also carry into the relative's later green card or visa case.",
+"es": "USCIS corrigió una fecha de nacimiento en el I-929. Sobre todo en hijos, la edad puede afectar si califican como familiar, así que confirma que coincida con el acta de nacimiento. Esa fecha también pasará al caso de green card o de visa del familiar."
+},
+"continuation-notice-was-mailed": {
+"en": "USCIS put the I-929 on hold for a reason shown in the notice. A common one is that it is waiting for a decision on the U-1 holder's I-485. Read the notice for anything you need to send, and keep copies of every document.",
+"es": "USCIS pausó el I-929 por una razón que muestra el aviso. Una razón común es que está esperando la decisión del I-485 de la persona U-1. Lee el aviso por si debes mandar algo y guarda copias de todos los documentos."
+},
+"termination-notice-sent": {
+"en": "USCIS ended the I-929 case without approval. This can happen, for example, if the U-1 holder's green card case was denied or the U status ended. Read the notice for the exact reason and contact an immigration attorney or accredited representative soon to review other options for the relative.",
+"es": "USCIS terminó el caso I-929 sin aprobarlo. Puede pasar, por ejemplo, si negaron el caso de green card de la persona U-1 o si terminó su estatus U. Lee el aviso para ver la razón exacta y busca pronto a un abogado de inmigración o representante acreditado para revisar otras opciones del familiar."
+},
+"case-closed-benefit-received-by-other-means": {
+"en": "USCIS closed the I-929 because the family member already got a benefit another way, such as derivative U status or a green card through a different petition. Keep proof of the relative's current status and confirm which case is active.",
+"es": "USCIS cerró el I-929 porque el familiar ya obtuvo un beneficio por otra vía, como estatus U derivado o una green card por otra petición. Guarda la prueba del estatus actual del familiar y confirma cuál caso sigue activo para no hacer trámites de más."
+},
+"expedite-request-denied": {
+"en": "USCIS will not speed up the I-929, but the petition keeps its place in line. If the relative's situation becomes more urgent, you can ask again with new proof. In the meantime, keep watching the U-1 holder's I-485, since the decisions are often linked.",
+"es": "USCIS no va a acelerar el I-929, pero la petición sigue en su lugar en la fila. Si la situación del familiar se vuelve más urgente, puedes pedirlo otra vez con pruebas nuevas. Mientras tanto, sigue vigilando el I-485 de la persona U-1, porque las decisiones suelen ir ligadas."
+},
+"correspondence-was-received-and-uscis-is-reviewing-it": {
+"en": "USCIS received a letter or documents sent about the I-929, such as an address change or new hardship evidence. An officer will add it to the file. You do not need to resend it unless USCIS asks, but keep a copy of what you mailed.",
+"es": "USCIS recibió una carta o documentos que mandaste sobre el I-929, como un cambio de dirección o nuevas pruebas de dificultades. Un oficial lo agregará al expediente. No necesitas reenviarlo salvo que USCIS lo pida, pero guarda copia de lo que mandaste."
+}
+}

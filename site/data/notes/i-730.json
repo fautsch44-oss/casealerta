@@ -1,0 +1,166 @@
+{
+ "case-was-received": {
+  "en": "USCIS has your I-730 to bring your spouse or unmarried child under 21 as a follow-to-join refugee or asylee relative. Each relative needs a separate I-730, so you should get one receipt per person. The petition has no filing fee, and filing within two years of your own approval is what counts.",
+  "es": "USCIS tiene tu I-730 para traer a tu cónyuge o hijo soltero menor de 21 como familiar de refugiado o asilado. Cada familiar necesita su propio I-730, así que debes recibir un recibo por persona. Esta petición no tiene tarifa, y lo que cuenta es presentarla dentro de dos años de tu propia aprobación."
+ },
+ "case-was-received-and-a-receipt-notice-was-sent": {
+  "en": "Your I-797C receipt for the I-730 is in the mail. It shows the filing date, which proves you filed within the two-year window after your own refugee or asylee approval. Keep one copy for yourself and share a copy with your relative, since they may need the receipt number later.",
+  "es": "Tu recibo I-797C del I-730 viene por correo. Muestra la fecha de presentación, que prueba que presentaste dentro de los dos años de tu aprobación como refugiado o asilado. Guarda una copia y comparte otra con tu familiar, porque después puede necesitar el número de recibo."
+ },
+ "fingerprint-fee-was-received": {
+  "en": "This status is unusual for an I-730, because the petition has no filing fee. If you see it, USCIS may simply be recording biometrics for a relative who is in the U.S. Check any notice you receive, and contact USCIS if you were asked to pay something you did not expect.",
+  "es": "Este estatus es poco común en un I-730, porque la petición no tiene tarifa. Si aparece, quizá USCIS solo está registrando biométricos de un familiar que está en EE.UU. Revisa cualquier aviso que recibas y comunícate con USCIS si te pidieron pagar algo que no esperabas."
+ },
+ "fingerprint-review-was-completed": {
+  "en": "The background check for your I-730 case is done. This step usually applies to a relative who is already in the U.S., or to you as the petitioner. The officer can now move on to reviewing proof of the family relationship.",
+  "es": "La revisión de antecedentes de tu caso I-730 terminó. Este paso normalmente aplica a un familiar que ya está en EE.UU. o a ti como peticionario. Ahora el oficial puede pasar a revisar las pruebas del parentesco, como actas de matrimonio o nacimiento."
+ },
+ "case-is-being-actively-reviewed-by-uscis": {
+  "en": "An officer is reviewing your I-730. They check your refugee or asylee approval, that the relationship existed before that approval, and documents like marriage or birth certificates. If the relative is abroad, an approved case later goes to the National Visa Center and a consulate.",
+  "es": "Un oficial está revisando tu I-730. Revisa tu aprobación como refugiado o asilado, que el parentesco existía antes de esa aprobación y documentos como actas de matrimonio o nacimiento. Si tu familiar está fuera, un caso aprobado después pasa al Centro Nacional de Visas y a un consulado."
+ },
+ "case-is-ready-to-be-scheduled-for-an-interview": {
+  "en": "Your I-730 is waiting for an interview date. If your relative is in the U.S., the interview is usually at a USCIS office and you may be asked to come too. Start gathering original marriage and birth records, plus your own approval documents.",
+  "es": "Tu I-730 espera fecha de entrevista. Si tu familiar está en EE.UU., la entrevista suele ser en una oficina de USCIS y quizá te pidan ir también. Empieza a juntar actas originales de matrimonio y nacimiento, además de tus documentos de aprobación como refugiado o asilado."
+ },
+ "interview-was-scheduled": {
+  "en": "An interview is set for your I-730 case. The officer will ask about your family relationship and check identity documents. Bring the notice, originals of marriage or birth records, and an interpreter if the notice allows one. Answers should match what you said in your own asylum or refugee case.",
+  "es": "Hay cita de entrevista para tu caso I-730. El oficial preguntará por el parentesco y revisará documentos de identidad. Lleva el aviso, originales de actas de matrimonio o nacimiento y un intérprete si el aviso lo permite. Tus respuestas deben coincidir con lo que dijiste en tu propio caso de asilo o refugio."
+ },
+ "interview-was-completed-and-my-case-must-be-reviewed": {
+  "en": "The I-730 interview is finished, but the officer needs more time, maybe to verify documents or finish security checks. You may receive a request for evidence or a decision next. Some cases also ask for DNA testing when records are missing; that is voluntary but can help.",
+  "es": "La entrevista del I-730 terminó, pero el oficial necesita más tiempo, quizá para verificar documentos o terminar revisiones de seguridad. Después puede llegar una petición de evidencia o la decisión. En algunos casos sugieren prueba de ADN cuando faltan documentos; es voluntaria, pero puede ayudar."
+ },
+ "request-for-additional-evidence-was-sent": {
+  "en": "USCIS needs more proof for your I-730. Common requests are proof the marriage happened before your refugee or asylee approval, a child's birth certificate naming you, or secondary evidence when records cannot be obtained. Answer by the deadline and include the RFE cover sheet.",
+  "es": "USCIS necesita más pruebas para tu I-730. Suelen pedir prueba de que el matrimonio fue antes de tu aprobación como refugiado o asilado, el acta de nacimiento del hijo con tu nombre o pruebas secundarias cuando no se pueden conseguir actas. Responde antes de la fecha límite e incluye la hoja del RFE."
+ },
+ "request-for-initial-evidence-was-sent": {
+  "en": "Your I-730 was missing a required item, such as a copy of your asylum or refugee approval, a photo of the relative, or the relationship document. Send exactly what the notice lists before the deadline so the petition can go to review.",
+  "es": "A tu I-730 le faltó algo obligatorio, como copia de tu aprobación de asilo o refugio, una foto del familiar o el documento de parentesco. Manda justo lo que dice el aviso antes de la fecha límite para que la petición pase a revisión."
+ },
+ "response-to-uscis-request-for-evidence-was-received": {
+  "en": "USCIS has your evidence for the I-730 and the officer will continue the review. If approved and your relative lives abroad, the case usually moves to the National Visa Center and then to a U.S. embassy or USCIS office for the relative's interview.",
+  "es": "USCIS ya tiene tus pruebas para el I-730 y el oficial seguirá la revisión. Si lo aprueban y tu familiar vive fuera, el caso normalmente pasa al Centro Nacional de Visas y luego a una embajada u oficina de USCIS para la entrevista del familiar."
+ },
+ "case-was-transferred-and-a-new-office-has-jurisdiction": {
+  "en": "Your I-730 moved to another USCIS office. This often happens when the relative is in the U.S. and the case goes to the local office or asylum office near them. Your receipt number stays the same; check the notice for the new office.",
+  "es": "Tu I-730 pasó a otra oficina de USCIS. Pasa mucho cuando el familiar está en EE.UU. y el caso va a la oficina local o de asilo cercana. Tu número de recibo no cambia; revisa el aviso para ver cuál es la nueva oficina."
+ },
+ "case-was-approved": {
+  "en": "Your I-730 was approved. If your relative is in the U.S., they generally get derivative refugee or asylee status. If they live abroad, the case is sent on so they can be interviewed and get travel documents to come. Approval does not mean immediate travel; more checks happen abroad.",
+  "es": "Aprobaron tu I-730. Si tu familiar está en EE.UU., en general recibe estatus derivado de refugiado o asilado. Si vive fuera, el caso se envía para que lo entrevisten y reciba documentos para viajar. La aprobación no significa viaje inmediato; hay más revisiones en el extranjero."
+ },
+ "document-was-mailed-to-me": {
+  "en": "USCIS mailed a document for your I-730, usually the approval notice. Keep it safe and send a copy to your relative. If your relative is in the U.S., ask what documents show their new status, since they may need them for work or a later green card.",
+  "es": "USCIS mandó por correo un documento de tu I-730, normalmente el aviso de aprobación. Guárdalo bien y manda una copia a tu familiar. Si tu familiar está en EE.UU., pregunta qué documento muestra su nuevo estatus, porque lo puede necesitar para trabajar o para la green card después."
+ },
+ "notice-explaining-uscis-actions-was-mailed": {
+  "en": "USCIS mailed a letter about your I-730. It might set an interview, ask for documents, mention DNA testing, or explain a decision. Since family reunification depends on it, read it fast and share it with your relative.",
+  "es": "USCIS mandó una carta sobre tu I-730. Puede dar una cita, pedir documentos, mencionar prueba de ADN o explicar una decisión. Como la reunificación familiar depende de esto, léela rápido y compártela con tu familiar."
+ },
+ "case-was-denied": {
+  "en": "Your I-730 was denied. There is generally no appeal for this petition, but you may be able to file a motion to reopen or reconsider, and in some cases file a new I-730 if you are still within the time limit or qualify for an exception. Talk to an immigration attorney or accredited representative soon.",
+  "es": "Te negaron el I-730. En general no hay apelación para esta petición, pero quizá puedas presentar una moción para reabrir o reconsiderar, y en algunos casos un I-730 nuevo si sigues en plazo o calificas para una excepción. Habla pronto con un abogado de inmigración o representante acreditado."
+ },
+ "case-was-reopened": {
+  "en": "USCIS reopened your I-730, often after a motion. The petition for your relative is pending again. Watch for new notices, and keep copies of any documents you sent with the motion. Share any new notice with your relative as well.",
+  "es": "USCIS reabrió tu I-730, muchas veces después de una moción. La petición por tu familiar vuelve a estar en trámite. Espera nuevos avisos y guarda copias de los documentos que mandaste con la moción, por si te los vuelven a pedir."
+ },
+ "case-rejected-because-i-sent-an-incorrect-fee": {
+  "en": "This status is unusual for an I-730, since the petition itself has no filing fee. It may relate to another form sent in the same package. Read the rejection notice to see which form was affected, and refile quickly so you stay within your two-year window.",
+  "es": "Este estatus es poco común en un I-730, porque la petición no tiene tarifa. Puede tener que ver con otro formulario que mandaste en el mismo paquete. Lee el aviso de rechazo para ver qué formulario fue y vuelve a presentar rápido para no salir de tu plazo de dos años."
+ },
+ "expedite-request-received": {
+  "en": "USCIS logged your request to speed up the I-730. Expedites can be considered for urgent humanitarian reasons, such as a relative abroad facing danger or serious illness. Keep proof ready, like news reports, medical letters or police reports.",
+  "es": "USCIS registró tu petición para acelerar el I-730. Pueden considerar acelerar por razones humanitarias urgentes, como un familiar en el extranjero en peligro o con una enfermedad grave. Ten listas pruebas, como cartas médicas, reportes policiales o noticias."
+ },
+ "withdrawal-acknowledgement-notice-was-sent": {
+  "en": "USCIS confirmed you withdrew the I-730 for this relative. The petition is closed. Keep in mind the two-year filing window: if you change your mind later, you may need to show a humanitarian reason to file late.",
+  "es": "USCIS confirmó que retiraste el I-730 de este familiar. La petición queda cerrada. Recuerda el plazo de dos años: si cambias de opinión después, quizá debas mostrar una razón humanitaria para presentar fuera de tiempo."
+ },
+ "name-was-updated": {
+  "en": "USCIS updated a name on your I-730 record. For this form, the relative's name should match their passport or identity document, because consulates and airlines will compare them. Check the next notice to confirm the change.",
+  "es": "USCIS actualizó un nombre en tu expediente del I-730. En este formulario, el nombre del familiar debe coincidir con su pasaporte o documento de identidad, porque consulados y aerolíneas los comparan. Revisa el siguiente aviso para confirmar el cambio."
+ },
+ "case-was-received-and-a-receipt-notice-was-emailed": {
+  "en": "Your I-730 receipt is in your USCIS online account. Download the PDF and send a copy to your relative. The receipt date is your proof of filing within the two-year limit, so keep it safe.",
+  "es": "Tu recibo del I-730 está en tu cuenta de USCIS en línea. Descarga el PDF y manda una copia a tu familiar. La fecha del recibo es tu prueba de que presentaste dentro del plazo de dos años, así que guárdala bien."
+ },
+ "case-accepted-by-the-uscis-lockbox": {
+  "en": "The USCIS lockbox accepted your paper I-730. Since there is no fee to process, a receipt notice should follow. If you filed for several relatives, each one gets a separate receipt number. Keep copies of the relationship documents you sent.",
+  "es": "El lockbox de USCIS aceptó tu I-730 en papel. Como no hay tarifa que procesar, después llega el aviso de recibo. Si presentaste por varios familiares, cada uno tendrá su propio número de recibo para seguir su caso."
+ },
+ "fees-were-waived": {
+  "en": "This status is unusual for an I-730, because the petition has no filing fee to waive. It may refer to a related form. Check the notice to see which application the waiver covers, and keep it in your file.",
+  "es": "Este estatus es poco común en un I-730, porque la petición no tiene tarifa que exentar. Puede referirse a un formulario relacionado. Revisa el aviso para ver qué solicitud cubre la exención y guárdalo en tu expediente."
+ },
+ "case-was-rejected-because-it-was-improperly-filed": {
+  "en": "Your I-730 was returned without review. Common reasons are a missing signature, filing one form for several relatives, or sending it to the wrong address. Fix the issue and refile quickly to stay inside your two-year window.",
+  "es": "Te regresaron el I-730 sin revisarlo. Razones comunes: falta de firma, un solo formulario para varios familiares o enviarlo a la dirección equivocada. Corrige el problema y vuelve a presentar rápido para quedar dentro de tu plazo de dos años."
+ },
+ "biometrics-appointment-was-scheduled": {
+  "en": "A biometrics appointment was scheduled in your I-730 case. This usually applies to a relative who is already in the U.S. Bring the appointment notice and photo ID. Relatives abroad usually give fingerprints at the embassy or USCIS office instead.",
+  "es": "Hay cita de biométricos en tu caso I-730. Esto normalmente aplica a un familiar que ya está en EE.UU. Lleva el aviso de cita y una identificación con foto. Los familiares que están fuera suelen dar huellas en la embajada u oficina de USCIS."
+ },
+ "case-was-updated-to-show-fingerprints-were-taken": {
+  "en": "USCIS recorded that biometrics were taken for the I-730 case. Background checks now run in the background. The officer will continue with the relationship review, and an interview or decision may follow. Keep the stamped appointment notice.",
+  "es": "USCIS registró que ya se tomaron biométricos en el caso I-730. Ahora corren las revisiones de antecedentes. El oficial seguirá revisando el parentesco y después puede venir una entrevista o la decisión. Guarda el aviso de cita sellado."
+ },
+ "interview-was-rescheduled": {
+  "en": "The I-730 interview has a new date. Read the new notice carefully for time and place. If you and your relative were both asked to attend, confirm you can both make it, and bring the same original documents.",
+  "es": "La entrevista del I-730 tiene nueva fecha. Lee bien el nuevo aviso para ver hora y lugar. Si a ti y a tu familiar los citaron a los dos, confirmen que pueden ir, y lleven los mismos documentos originales."
+ },
+ "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+  "en": "USCIS shows no one came to the I-730 appointment. Missing it can lead to denial. Contact USCIS right away to explain and ask for a new appointment, and keep proof of the reason you could not attend.",
+  "es": "USCIS indica que nadie fue a la cita del I-730. Faltar puede llevar a una negación. Comunícate con USCIS de inmediato para explicar y pedir nueva cita, y guarda pruebas del motivo por el que no pudieron ir."
+ },
+ "case-was-approved-and-my-decision-was-emailed": {
+  "en": "Your I-730 approval is in your USCIS online account. Download it and send a copy to your relative. If they are abroad, the next stage is processing through the National Visa Center and an interview at an embassy or USCIS office.",
+  "es": "Tu aprobación del I-730 está en tu cuenta de USCIS en línea. Descárgala y manda una copia a tu familiar. Si está fuera, lo siguiente es el trámite con el Centro Nacional de Visas y una entrevista en una embajada u oficina de USCIS."
+ },
+ "case-approval-was-certified-by-uscis": {
+  "en": "USCIS certified the approval of your I-730. This is an internal confirmation step. Your relative's case continues: in the U.S. they keep derivative status, and abroad the file moves on for interview and travel processing.",
+  "es": "USCIS certificó la aprobación de tu I-730. Es un paso interno de confirmación. El caso de tu familiar sigue: en EE.UU. mantiene su estatus derivado, y en el extranjero el expediente avanza para la entrevista y el viaje."
+ },
+ "response-to-uscis-notice-of-intent-was-received": {
+  "en": "USCIS received your reply to its notice of intent on the I-730. That notice means the officer was leaning toward denial, often over proof of the relationship. If you have not already, consider getting help from an immigration attorney or accredited representative.",
+  "es": "USCIS recibió tu respuesta al aviso de intención sobre tu I-730. Ese aviso significa que el oficial pensaba negar, muchas veces por la prueba del parentesco. Si aún no tienes ayuda, considera un abogado de inmigración o representante acreditado."
+ },
+ "case-is-pending-at-a-local-office": {
+  "en": "Your I-730 is at a local USCIS office. This usually means the relative is in the U.S. and the office will handle any interview. Keep both addresses current and watch for an appointment notice. Keep originals of the family records ready.",
+  "es": "Tu I-730 está en una oficina local de USCIS. Normalmente significa que el familiar está en EE.UU. y esa oficina se encargará de la entrevista. Mantengan sus direcciones al día y esperen un aviso de cita."
+ },
+ "duplicate-notice-was-mailed": {
+  "en": "USCIS mailed a copy of an I-730 notice. It is a duplicate, not a new decision. Compare it with what you have. A spare copy can be useful to send to your relative abroad. Keep it in your file.",
+  "es": "USCIS mandó una copia de un aviso del I-730. Es un duplicado, no una nueva decisión. Compáralo con lo que tienes. Una copia extra puede servirte para mandarla a tu familiar en el extranjero. Guárdalo en tu expediente."
+ },
+ "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+  "en": "A notice for your I-730 came back to USCIS undelivered. It could be an interview date or a request for evidence. Update your address online or with Form AR-11, and ask USCIS to resend the notice right away.",
+  "es": "Un aviso de tu I-730 regresó a USCIS sin entregarse. Puede ser una fecha de entrevista o una petición de evidencia. Actualiza tu dirección en línea o con el Formulario AR-11 y pide a USCIS que reenvíe el aviso de inmediato."
+ },
+ "date-of-birth-was-updated": {
+  "en": "USCIS corrected a date of birth on the I-730 record. For a child, this matters because eligibility depends on being under 21 when you filed, with special age rules. Check that the corrected date matches the child's birth certificate.",
+  "es": "USCIS corrigió una fecha de nacimiento en el expediente del I-730. Para un hijo esto importa, porque la elegibilidad depende de tener menos de 21 cuando presentaste, con reglas especiales de edad. Revisa que la fecha coincida con su acta de nacimiento."
+ },
+ "continuation-notice-was-mailed": {
+  "en": "USCIS sent a continuation notice on your I-730. It usually means the case is still open and another step is coming, such as an interview or security checks. It is not a decision. Share it with your relative.",
+  "es": "USCIS mandó un aviso de continuación de tu I-730. Normalmente significa que el caso sigue abierto y viene otro paso, como entrevista o revisiones de seguridad. No es una decisión. Compártelo con tu familiar. Guárdalo con tus papeles."
+ },
+ "termination-notice-sent": {
+  "en": "USCIS sent a termination notice on your I-730. This can happen if your own refugee or asylee status changes or if the relationship no longer qualifies. Read it carefully and speak with an immigration attorney or accredited representative right away.",
+  "es": "USCIS mandó un aviso de terminación de tu I-730. Puede pasar si cambia tu propio estatus de refugiado o asilado o si el parentesco ya no califica. Léelo con cuidado y habla de inmediato con un abogado de inmigración o representante acreditado."
+ },
+ "case-closed-benefit-received-by-other-means": {
+  "en": "USCIS closed your I-730 because your relative already got status another way, for example their own asylum grant or a different immigration benefit. Check what status your relative now holds and keep the closing notice.",
+  "es": "USCIS cerró tu I-730 porque tu familiar ya obtuvo estatus por otra vía, por ejemplo su propio asilo u otro beneficio migratorio. Revisa qué estatus tiene ahora tu familiar y guarda el aviso de cierre en tu expediente."
+ },
+ "expedite-request-denied": {
+  "en": "USCIS will not speed up your I-730. The case stays in the normal line. If the danger or emergency gets worse, you can send a new request with fresh proof, and a legal aid group may help you prepare it.",
+  "es": "USCIS no va a acelerar tu I-730. El caso sigue en la fila normal. Si el peligro o la emergencia empeora, puedes mandar una nueva petición con pruebas nuevas, y una organización de ayuda legal puede ayudarte a prepararla."
+ },
+ "correspondence-was-received-and-uscis-is-reviewing-it": {
+  "en": "USCIS received something you sent about your I-730, such as your relative's new address abroad or extra family records. An officer will review it and add it to the file. Keep a copy of what you sent.",
+  "es": "USCIS recibió algo que mandaste sobre tu I-730, como la nueva dirección de tu familiar en el extranjero o más documentos familiares. Un oficial lo revisará y lo agregará al expediente. Guarda una copia de lo que enviaste."
+ }
+}

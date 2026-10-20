@@ -1,0 +1,130 @@
+{
+"case-was-received": {
+"en": "USCIS has your request for a replacement or first I-94 arrival record. While you wait, you can still print your electronic I-94 from the CBP website if one exists. If your problem is a simple CBP mistake on entry, a CBP deferred inspection office may fix it faster.",
+"es": "USCIS tiene tu solicitud de un I-94 de reemplazo o uno nuevo. Mientras esperas, puedes imprimir tu I-94 electrónico en el sitio de CBP si existe. Si tu problema es un error simple de CBP al entrar, una oficina de inspección diferida de CBP puede arreglarlo más rápido."
+},
+"case-was-received-and-a-receipt-notice-was-sent": {
+"en": "Your I-102 receipt notice is in the mail. Keep it with your passport and visa. The receipt shows you asked for a replacement arrival record, which can help if an employer or agency asks for your I-94 while the case is pending.",
+"es": "Tu aviso de recibo del I-102 viene por correo. Guárdalo con tu pasaporte y tu visa. El recibo muestra que pediste un registro de llegada de reemplazo, lo que puede ayudar si un empleador o una agencia te pide tu I-94 mientras el caso está pendiente."
+},
+"case-is-being-actively-reviewed-by-uscis": {
+"en": "An officer is checking your I-102 against entry records, your passport and your visa. USCIS needs to confirm your last admission before issuing a replacement I-94. This review is mostly records-based and rarely involves an appointment.",
+"es": "Un oficial está revisando tu I-102 contra los registros de entrada, tu pasaporte y tu visa. USCIS necesita confirmar tu última admisión antes de dar un I-94 de reemplazo. Esta revisión es casi toda con registros y casi nunca requiere cita."
+},
+"request-for-additional-evidence-was-sent": {
+"en": "For an I-102, RFEs often ask for proof of your last entry, such as passport stamps, travel tickets or a copy of the visa, or a police report if the I-94 was stolen. Send what the notice lists before the deadline so USCIS can confirm your admission.",
+"es": "En un I-102, las RFE suelen pedir prueba de tu última entrada, como sellos del pasaporte, boletos de viaje o copia de la visa, o un reporte de policía si te robaron el I-94. Manda lo que pide el aviso antes de la fecha límite para que USCIS confirme tu admisión."
+},
+"request-for-initial-evidence-was-sent": {
+"en": "Your I-102 was missing something basic, such as a copy of the passport page or the damaged I-94 you were replacing. Send the items with the notice on top before the deadline, or the request can be denied as abandoned.",
+"es": "A tu I-102 le faltó algo básico, como copia de la página del pasaporte o el I-94 dañado que querías reemplazar. Manda lo que falta con el aviso encima antes de la fecha límite, o la solicitud puede negarse por abandono."
+},
+"response-to-uscis-request-for-evidence-was-received": {
+"en": "USCIS has your documents for the I-102 and the officer will compare them with entry records again. If they confirm your admission, the next step is usually an approval with a replacement arrival record. Keep copies of what you sent.",
+"es": "USCIS tiene tus documentos del I-102 y el oficial los va a comparar otra vez con los registros de entrada. Si confirman tu admisión, el siguiente paso suele ser una aprobación con un registro de llegada de reemplazo. Guarda copias de lo que mandaste."
+},
+"case-was-transferred-and-a-new-office-has-jurisdiction": {
+"en": "Your I-102 moved to a different USCIS office, usually to balance workload. This form is handled at service centers and does not normally need a local office visit. The transfer notice names the new office.",
+"es": "Tu I-102 pasó a otra oficina de USCIS, normalmente para repartir el trabajo. Este formulario se atiende en centros de servicio y normalmente no necesita visita a una oficina local. El aviso de transferencia dice cuál es la nueva oficina."
+},
+"case-was-approved": {
+"en": "Your I-102 is approved. USCIS will issue a replacement or initial arrival record showing your admission class and admit-until date. Check that date carefully against your visa status; if it is wrong, ask for a correction quickly, since it controls how long you can stay.",
+"es": "Tu I-102 fue aprobado. USCIS emitirá un registro de llegada de reemplazo o inicial con tu clase de admisión y la fecha hasta la que puedes quedarte. Revisa esa fecha con cuidado contra tu estatus; si está mal, pide corrección rápido, porque controla cuánto tiempo puedes quedarte."
+},
+"document-was-mailed-to-me": {
+"en": "USCIS mailed your I-102 result, usually the approval notice with the replacement I-94 attached. Keep the original with your passport. Show it to employers or agencies that need proof of your lawful admission, and check every detail on it.",
+"es": "USCIS te mandó el resultado del I-102, normalmente el aviso de aprobación con el I-94 de reemplazo adjunto. Guarda el original con tu pasaporte. Muéstralo a empleadores o agencias que necesiten prueba de tu admisión legal, y revisa cada dato."
+},
+"notice-explaining-uscis-actions-was-mailed": {
+"en": "USCIS sent a letter about your I-102. It might say the request belongs with CBP instead, ask for more proof of entry, or explain another step. Read it right away and follow any instructions before the deadline.",
+"es": "USCIS mandó una carta sobre tu I-102. Puede decir que la solicitud le toca a CBP, pedir más pruebas de entrada, o explicar otro paso. Léela de inmediato y sigue las instrucciones antes de la fecha límite."
+},
+"case-was-denied": {
+"en": "USCIS denied your I-102, often because it could not confirm your admission or because the problem should be fixed by CBP. Read the letter for the reason. If your stay in the U.S. depends on this record, talk to an immigration attorney or accredited representative.",
+"es": "USCIS negó tu I-102, muchas veces porque no pudo confirmar tu admisión o porque el problema lo debe arreglar CBP. Lee la carta para ver la razón. Si tu permanencia en EE.UU. depende de este registro, habla con un abogado de inmigración o representante acreditado."
+},
+"case-was-reopened": {
+"en": "Your I-102 is open again after a decision, often after a motion or a USCIS correction. The officer will look at your entry records again. Send any new proof of admission if the notice asks for it.",
+"es": "Tu I-102 está abierto otra vez después de una decisión, muchas veces tras una moción o una corrección de USCIS. El oficial revisará de nuevo tus registros de entrada. Manda nuevas pruebas de tu admisión si el aviso lo pide."
+},
+"case-rejected-because-i-sent-an-incorrect-fee": {
+"en": "Your I-102 was rejected over the fee. Check the current fee on uscis.gov and refile. Note that if the mistake on your record was made by USCIS or CBP, a different free correction process may apply instead of filing an I-102.",
+"es": "Tu I-102 fue rechazado por el pago. Revisa el costo actual en uscis.gov y vuelve a presentarlo. Ten en cuenta que si el error en tu registro lo hizo USCIS o CBP, puede aplicar otro proceso de corrección gratis en lugar del I-102."
+},
+"expedite-request-received": {
+"en": "USCIS received your request to speed up the I-102. It is reviewed under USCIS expedite criteria, such as urgent travel or a job that depends on proof of admission. Send supporting proof if you have it.",
+"es": "USCIS recibió tu solicitud para acelerar el I-102. Se revisa con los criterios de USCIS para acelerar, como un viaje urgente o un trabajo que depende de la prueba de admisión. Manda pruebas que lo respalden si las tienes."
+},
+"withdrawal-acknowledgement-notice-was-sent": {
+"en": "USCIS confirmed your I-102 was withdrawn. People sometimes withdraw after CBP fixes the I-94 directly or after finding the record online. If you still need a replacement arrival record, you would need to file again.",
+"es": "USCIS confirmó que se retiró tu I-102. A veces la gente lo retira después de que CBP arregla el I-94 o de encontrar el registro en línea. Si todavía necesitas un registro de llegada de reemplazo, tendrías que presentarlo de nuevo."
+},
+"name-was-updated": {
+"en": "USCIS updated your name on the I-102 record. Make sure it matches your passport exactly, because the replacement I-94 will use this name. Matching names avoid problems with employers, Social Security and driver's license offices.",
+"es": "USCIS actualizó tu nombre en el registro del I-102. Asegúrate de que coincida exactamente con tu pasaporte, porque el I-94 de reemplazo usará ese nombre. Que los nombres coincidan evita problemas con empleadores, el Seguro Social y la oficina de licencias de manejo."
+},
+"case-was-received-and-a-receipt-notice-was-emailed": {
+"en": "Your I-102 receipt arrived electronically. Save and print it, and keep it with your passport. While the replacement is pending, check the CBP I-94 website too, since many recent entries are already recorded there and can be printed for free.",
+"es": "Tu recibo del I-102 llegó en forma electrónica. Guárdalo e imprímelo. Mientras el reemplazo está pendiente, revisa también el sitio de I-94 de CBP, porque muchas entradas recientes ya están registradas ahí y se pueden imprimir."
+},
+"case-accepted-by-the-uscis-lockbox": {
+"en": "The intake site accepted your I-102 package and processed the fee. A receipt notice should follow. Keep your mailing proof and a copy of everything you sent, including your passport and visa pages, until the case is decided.",
+"es": "El centro de recepción aceptó tu paquete del I-102 y procesó el pago. Debe llegar un aviso de recibo. Guarda tu comprobante de envío y una copia de todo lo que mandaste, incluyendo las páginas del pasaporte y la visa."
+},
+"fees-were-waived": {
+"en": "USCIS waived the fee on your I-102. Fee waivers for this form are limited to certain applicants, so keep the notice as proof. Your request now moves on like any other I-102 toward a decision.",
+"es": "USCIS exentó el pago de tu I-102. Las exenciones para este formulario se limitan a ciertos solicitantes, así que guarda el aviso como prueba. Tu solicitud sigue ahora como cualquier otro I-102 hacia una decisión."
+},
+"case-was-rejected-because-it-was-improperly-filed": {
+"en": "Your I-102 was returned without review, for example for a missing signature, an outdated form or missing copies of your travel documents. Fix the issue and refile. Also confirm that USCIS, not CBP, is the right place for your type of problem.",
+"es": "Tu I-102 fue devuelto sin revisar, por ejemplo por falta de firma, un formulario viejo o copias faltantes de tus documentos de viaje. Corrige el problema y preséntalo de nuevo. Confirma también que USCIS, y no CBP, es el lugar correcto para tu tipo de problema."
+},
+"case-was-approved-and-my-decision-was-emailed": {
+"en": "Your I-102 approval is in your online account. Download it and check the class of admission and the admit-until date on the new record. Keep a printed copy with your passport for employers or agencies.",
+"es": "La aprobación de tu I-102 está en tu cuenta en línea. Descárgala y revisa la clase de admisión y la fecha hasta la que puedes quedarte en el nuevo registro. Guarda una copia impresa con tu pasaporte para empleadores o agencias."
+},
+"case-approval-was-certified-by-uscis": {
+"en": "USCIS certified the approval of your I-102 for another agency, which may need official confirmation of your arrival record. This is uncommon for this form and needs no action from you. Keep your approval notice in a safe place.",
+"es": "USCIS certificó la aprobación de tu I-102 para otra agencia, que puede necesitar confirmación oficial de tu registro de llegada. Es poco común en este formulario y no necesitas hacer nada. Guarda tu aviso de aprobación en un lugar seguro."
+},
+"case-was-sent-to-the-department-of-state": {
+"en": "This is unusual for an I-102. It can happen for certain diplomatic or international organization visa holders, whose requests involve the Department of State. Read the notice to see what was sent and why, and contact USCIS if it is unclear.",
+"es": "Esto es raro en un I-102. Puede pasar con ciertos titulares de visas diplomáticas o de organismos internacionales, cuyas solicitudes involucran al Departamento de Estado. Lee el aviso para ver qué se mandó y por qué, y comunícate con USCIS si no queda claro."
+},
+"response-to-uscis-notice-of-intent-was-received": {
+"en": "USCIS received your reply to a notice of intent on the I-102, probably about whether your admission could be confirmed. The officer will review it before deciding. If your stay depends on the result, consider legal help.",
+"es": "USCIS recibió tu respuesta a un aviso de intención sobre el I-102, seguramente sobre si se pudo confirmar tu admisión. El oficial la revisará antes de decidir. Si tu permanencia depende del resultado, considera ayuda legal."
+},
+"duplicate-notice-was-mailed": {
+"en": "USCIS mailed another copy of an I-102 notice. A duplicate approval with the attached arrival record can be useful if the first was lost. It does not change your admission dates or status, but keep it with your passport.",
+"es": "USCIS mandó otra copia de un aviso del I-102. Una copia de la aprobación con el registro de llegada adjunto puede servir si se perdió el primero. No cambia tus fechas de admisión ni tu estatus."
+},
+"notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+"en": "A notice on your I-102 came back to USCIS. If it was the approval with your replacement I-94, you need it as proof of admission. Update your address with USCIS and ask for the notice to be resent.",
+"es": "Un aviso de tu I-102 regresó a USCIS. Si era la aprobación con tu I-94 de reemplazo, lo necesitas como prueba de admisión. Actualiza tu dirección con USCIS y pide que te reenvíen el aviso lo antes posible."
+},
+"date-of-birth-was-updated": {
+"en": "USCIS corrected the date of birth on your I-102 record. Check that it now matches your passport, because the replacement I-94 will carry it. A wrong birth date on an I-94 can cause problems with licenses and benefits.",
+"es": "USCIS corrigió la fecha de nacimiento en el registro de tu I-102. Revisa que ahora coincida con tu pasaporte, porque el I-94 de reemplazo la va a llevar. Una fecha equivocada en un I-94 puede causar problemas con licencias y beneficios."
+},
+"continuation-notice-was-mailed": {
+"en": "This notice is unusual for an I-102, which only replaces an arrival record and does not extend your stay. Read it to see whether it refers to another filing, such as an extension of status. Contact USCIS if it is unclear.",
+"es": "Este aviso es raro en un I-102, que solo reemplaza un registro de llegada y no extiende tu estancia. Léelo para ver si se refiere a otro trámite, como una extensión de estatus. Comunícate con USCIS si no queda claro."
+},
+"termination-notice-sent": {
+"en": "USCIS ended your I-102 case, for example after abandonment or a withdrawal. This does not by itself change your status, but you may still lack proof of admission. Read the notice and consider asking an immigration attorney what to do next.",
+"es": "USCIS terminó tu caso del I-102, por ejemplo por abandono o un retiro. Esto por sí solo no cambia tu estatus, pero puede que sigas sin prueba de admisión. Lee el aviso y considera preguntar a un abogado de inmigración qué hacer."
+},
+"case-closed-benefit-received-by-other-means": {
+"en": "USCIS closed your I-102 because you already have the record another way, for example CBP corrected your I-94 or a new I-94 came with an approved extension. Print your current I-94 from the CBP website to confirm it is correct.",
+"es": "USCIS cerró tu I-102 porque ya tienes el registro por otra vía, por ejemplo CBP corrigió tu I-94 o llegó un I-94 nuevo con una extensión aprobada. Imprime tu I-94 actual del sitio de CBP para confirmar que esté correcto."
+},
+"expedite-request-denied": {
+"en": "USCIS will not speed up your I-102, but it keeps its normal place. If you need proof of entry sooner, check whether CBP can help, since some arrival record issues are fixed at a deferred inspection office.",
+"es": "USCIS no va a acelerar tu I-102, pero conserva su lugar normal. Si necesitas prueba de entrada antes, revisa si CBP puede ayudarte, porque algunos problemas del registro de llegada se arreglan en una oficina de inspección diferida."
+},
+"correspondence-was-received-and-uscis-is-reviewing-it": {
+"en": "USCIS received something you sent about your I-102, such as extra proof of entry or an address change. An officer will decide if it affects your request. Keep a dated copy of what you sent.",
+"es": "USCIS recibió algo que mandaste sobre tu I-102, como pruebas extra de tu entrada o un cambio de dirección. Un oficial decidirá si afecta tu solicitud. Guarda una copia con fecha de lo que mandaste."
+}
+}

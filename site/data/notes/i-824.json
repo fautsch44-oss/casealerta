@@ -1,0 +1,130 @@
+{
+  "case-was-received": {
+    "en": "Your I-824 is in line. This form does not create a new benefit; it asks USCIS to take an extra step on a case already approved, such as sending the approval to a consulate or issuing a duplicate notice. The original approval stays valid while this request is pending.",
+    "es": "Tu I-824 ya está en fila. Este formulario no crea un beneficio nuevo; le pide a USCIS un paso extra sobre un caso ya aprobado, como mandar la aprobación a un consulado o emitir un aviso duplicado. La aprobación original sigue vigente mientras esta solicitud está pendiente."
+  },
+  "case-was-received-and-a-receipt-notice-was-sent": {
+    "en": "The I-797C receipt for your I-824 is in the mail. Note that it has its own receipt number, different from the approved case it refers to. Track both numbers, because updates may appear on either one, especially when the request is to notify a consulate.",
+    "es": "El recibo I-797C de tu I-824 viene por correo. Fíjate que tiene su propio número de recibo, distinto al del caso aprobado al que se refiere. Sigue ambos números, porque las novedades pueden salir en cualquiera, sobre todo si la solicitud es para avisar a un consulado."
+  },
+  "case-is-being-actively-reviewed-by-uscis": {
+    "en": "An officer is working on your I-824, checking the approved case it refers to and what you asked for. For a request to notify a consulate, they confirm the beneficiary's details and where the family member will apply for the visa. Most I-824s are handled on paper without any appointment.",
+    "es": "Un oficial está trabajando en tu I-824: revisa el caso aprobado al que se refiere y lo que pediste. Si pediste avisar a un consulado, confirma los datos del beneficiario y dónde pedirá la visa tu familiar. La mayoría de los I-824 se resuelven con papeles, sin ninguna cita."
+  },
+  "request-for-additional-evidence-was-sent": {
+    "en": "I-824 RFEs often ask for a copy of the original approval notice, proof of the relationship for a following-to-join family member, or a copy of the principal's green card. Send each listed item before the deadline so USCIS can complete the action on your approved case.",
+    "es": "En el I-824, el RFE suele pedir copia del aviso de aprobación original, prueba del parentesco de un familiar que va a reunirse contigo, o copia de la green card del beneficiario principal. Manda cada punto antes del plazo para que USCIS pueda completar la acción sobre tu caso aprobado."
+  },
+  "request-for-initial-evidence-was-sent": {
+    "en": "Your I-824 was missing something basic, usually a copy of the approval notice for the underlying case or details about the consulate or family member involved. Send exactly what the notice asks for, with the notice on top, before the deadline.",
+    "es": "A tu I-824 le faltó algo básico, normalmente copia del aviso de aprobación del caso original o datos del consulado o del familiar involucrado. Manda exactamente lo que pide el aviso, con el aviso encima, antes del plazo, para que la solicitud pueda avanzar."
+  },
+  "response-to-uscis-request-for-evidence-was-received": {
+    "en": "USCIS has your evidence for the I-824. If it is complete, the next step is usually approval and the requested action, such as sending the case to the National Visa Center or mailing a duplicate approval notice.",
+    "es": "USCIS ya tiene tus pruebas para el I-824. Si están completas, lo que suele seguir es la aprobación y la acción que pediste, como mandar el caso al Centro Nacional de Visas o enviar un aviso de aprobación duplicado. Guarda copia de lo que mandaste."
+  },
+  "case-was-transferred-and-a-new-office-has-jurisdiction": {
+    "en": "Your I-824 moved to another office, often the one that holds the file of the approved case it refers to. That office will complete the requested action. Check the notice or your online account for the new location.",
+    "es": "Tu I-824 pasó a otra oficina, muchas veces la que tiene el expediente del caso aprobado al que se refiere. Esa oficina hará la acción que pediste. Revisa el aviso o tu cuenta en línea para ver la nueva ubicación y sigue pendiente de tu correo."
+  },
+  "case-was-approved": {
+    "en": "Your I-824 was approved, so USCIS will carry out what you asked. If you requested consular notification for a family member, the approved case goes to the State Department so they can apply for an immigrant visa abroad. If you asked for a duplicate notice, it will be mailed.",
+    "es": "Aprobaron tu I-824, así que USCIS hará lo que pediste. Si pediste avisar al consulado por un familiar, el caso aprobado pasa al Departamento de Estado para que pueda pedir su visa de inmigrante en el extranjero. Si pediste un aviso duplicado, te lo mandarán."
+  },
+  "document-was-mailed-to-me": {
+    "en": "For an I-824, the document mailed is usually the duplicate approval notice or a confirmation that the approved case was sent to the consulate. Keep it with your other immigration papers; the family member abroad may need a copy for the visa interview.",
+    "es": "En un I-824, el documento enviado suele ser el aviso de aprobación duplicado o la confirmación de que el caso aprobado se mandó al consulado. Guárdalo con tus otros papeles migratorios; tu familiar en el extranjero puede necesitar una copia para su entrevista de visa."
+  },
+  "notice-explaining-uscis-actions-was-mailed": {
+    "en": "For an I-824, this letter may explain that the request was completed, that the original file must be located first, or that more information is needed. Read it right away and look for any deadline.",
+    "es": "En un I-824, esta carta puede explicar que la solicitud se completó, que primero deben localizar el expediente original o que necesitan más información. Léela de inmediato y busca cualquier plazo que tengas que cumplir para responder."
+  },
+  "case-was-denied": {
+    "en": "A denied I-824 does not cancel the approved case it refers to; it means USCIS will not take the extra step you requested. The letter explains why and whether a motion is possible. An attorney can help you find another way to get the family member's case moving.",
+    "es": "Que nieguen tu I-824 no cancela el caso aprobado al que se refiere; significa que USCIS no hará el paso extra que pediste. La carta explica la razón y si puedes pedir una moción. Un abogado puede ayudarte a buscar otra forma de avanzar el caso de tu familiar."
+  },
+  "case-was-reopened": {
+    "en": "Your I-824 is active again, usually after a motion or a USCIS correction. The officer will look again at the action you requested on your approved case and may ask for updated details about the family member or consulate.",
+    "es": "Tu I-824 está activo otra vez, normalmente por una moción o una corrección de USCIS. El oficial volverá a revisar la acción que pediste sobre tu caso aprobado y puede pedir datos actualizados del familiar o del consulado."
+  },
+  "case-rejected-because-i-sent-an-incorrect-fee": {
+    "en": "Your I-824 was returned because of the payment, so it is not pending. Check the current fee on uscis.gov and refile. If a family member abroad is waiting on consular notification, refiling quickly keeps their case from stalling.",
+    "es": "Te regresaron el I-824 por el pago, así que no está pendiente. Revisa el costo actual en uscis.gov y vuelve a presentarlo. Si un familiar en el extranjero espera el aviso al consulado, presentarlo rápido evita que su caso se detenga."
+  },
+  "expedite-request-received": {
+    "en": "USCIS is reviewing your request to speed up your I-824. This can matter when a child is close to aging out or a family member abroad faces urgent circumstances. Only listed reasons qualify, so include proof.",
+    "es": "USCIS está revisando tu petición de acelerar tu I-824. Esto puede importar cuando un hijo está por cumplir la edad límite o un familiar en el extranjero vive una situación urgente. Solo cuentan las razones de la lista, así que incluye pruebas."
+  },
+  "withdrawal-acknowledgement-notice-was-sent": {
+    "en": "Your I-824 was withdrawn, so USCIS will not take the requested action. The approved case it refers to is not affected. If you still need consular notification or a duplicate notice later, you would file again.",
+    "es": "Tu I-824 quedó retirado, así que USCIS no hará la acción que pediste. El caso aprobado al que se refiere no se ve afectado. Si más adelante necesitas el aviso al consulado o un aviso duplicado, tendrías que presentarlo de nuevo."
+  },
+  "name-was-updated": {
+    "en": "The name on your I-824 record was updated. Make sure it matches the approved case and, for a family member abroad, their passport, so the consulate can match the paperwork without delays or extra questions at the visa interview.",
+    "es": "Se actualizó el nombre en tu I-824. Asegúrate de que coincida con el caso aprobado y, si hay un familiar en el extranjero, con su pasaporte, para que el consulado pueda relacionar los papeles sin retrasos ni preguntas extra."
+  },
+  "case-was-received-and-a-receipt-notice-was-emailed": {
+    "en": "Your I-824 receipt arrived by email, so you can follow the request in your USCIS online account. Save the PDF and keep it with the approval notice of the original case, since you may need to show both.",
+    "es": "El recibo de tu I-824 llegó por correo electrónico, así que puedes seguir la solicitud en tu cuenta en línea de USCIS. Guarda el PDF junto con el aviso de aprobación del caso original, porque quizá tengas que mostrar ambos."
+  },
+  "case-accepted-by-the-uscis-lockbox": {
+    "en": "The lockbox accepted your I-824 and processed the payment. A receipt notice with its own number comes next. The request can still be rejected later if the copy of the original approval notice is missing.",
+    "es": "El lockbox aceptó tu I-824 y procesó el pago. Lo siguiente es un recibo con su propio número. Todavía pueden rechazar la solicitud después si falta la copia del aviso de aprobación original, así que ten esa copia a la mano."
+  },
+  "fees-were-waived": {
+    "en": "USCIS approved a fee waiver for your I-824, so you do not pay for this follow-up action. The request now moves on like any other. Keep the waiver approval with your records and the original approval notice.",
+    "es": "USCIS aprobó una exención de pago para tu I-824, así que no pagas por esta acción de seguimiento. La solicitud sigue ahora como cualquier otra. Guarda la aprobación de la exención con tus papeles y con el aviso de aprobación original."
+  },
+  "case-was-rejected-because-it-was-improperly-filed": {
+    "en": "Your I-824 was returned without review, for example because of a missing signature, an old form edition, or no copy of the original approval. Fix the problem and refile so the action on your approved case can proceed.",
+    "es": "Te regresaron el I-824 sin revisarlo, por ejemplo por falta de firma, una edición vieja del formulario o no incluir copia de la aprobación original. Corrige el problema y vuelve a presentarlo para que avance la acción sobre tu caso aprobado."
+  },
+  "case-was-approved-and-my-decision-was-emailed": {
+    "en": "Your I-824 approval is in your online account. If the request was to notify a consulate, the National Visa Center should contact the family member abroad next. Share the notice with them so they know to expect it.",
+    "es": "La aprobación de tu I-824 está en tu cuenta en línea. Si la solicitud era avisar a un consulado, lo siguiente es que el Centro Nacional de Visas contacte a tu familiar en el extranjero. Compártele el aviso para que sepa qué esperar."
+  },
+  "case-approval-was-certified-by-uscis": {
+    "en": "For an I-824, this usually means USCIS certified the approved case to the State Department so a consulate can act on it. This is often exactly the result an I-824 is filed for. Watch for National Visa Center instructions.",
+    "es": "En un I-824, esto normalmente significa que USCIS certificó el caso aprobado al Departamento de Estado para que un consulado pueda actuar. Muchas veces es justo el resultado por el que se presenta un I-824. Pendiente de las instrucciones del Centro Nacional de Visas."
+  },
+  "case-was-sent-to-the-department-of-state": {
+    "en": "The approved case was sent to the State Department, which is the most common goal of an I-824. The National Visa Center will contact the beneficiary or family member about forms, fees and documents before a consular interview is scheduled.",
+    "es": "El caso aprobado se mandó al Departamento de Estado, que es la meta más común de un I-824. El Centro Nacional de Visas contactará al beneficiario o al familiar sobre formularios, pagos y documentos antes de programar la entrevista en el consulado."
+  },
+  "response-to-uscis-notice-of-intent-was-received": {
+    "en": "USCIS has your answer to a notice of intent on your I-824. These notices are uncommon for this form and may question the approved case itself. Have an immigration attorney review your answer if possible.",
+    "es": "USCIS ya tiene tu respuesta a un aviso de intención sobre tu I-824. Estos avisos son poco comunes en este formulario y pueden cuestionar el propio caso aprobado. Si puedes, que un abogado de inmigración revise tu respuesta."
+  },
+  "duplicate-notice-was-mailed": {
+    "en": "A copy of a notice is on its way. Since many people file an I-824 precisely to get a duplicate approval notice, this may be what you asked for. Check that it shows the right case and keep it safe.",
+    "es": "Viene en camino una copia de un aviso. Como mucha gente presenta el I-824 justo para obtener un aviso de aprobación duplicado, quizá sea lo que pediste. Revisa que corresponda al caso correcto y guárdalo bien."
+  },
+  "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+    "en": "An I-824 notice came back undelivered. It could be your duplicate approval, a request for evidence, or a decision. Update your address with USCIS and ask for the notice to be resent, so you do not miss any deadline it contains.",
+    "es": "Un aviso de tu I-824 regresó sin entregarse. Puede ser tu aprobación duplicada, una petición de pruebas o una decisión. Actualiza tu dirección con USCIS y pide que vuelvan a mandar el aviso para no perder ningún plazo."
+  },
+  "date-of-birth-was-updated": {
+    "en": "The birth date on your I-824 record was corrected. For following-to-join children, the date matters because it affects whether they still qualify by age. Check that it matches their passport and birth certificate before the consulate reviews the case.",
+    "es": "Se corrigió la fecha de nacimiento en tu I-824. En hijos que van a reunirse contigo, la fecha importa porque afecta si todavía califican por edad. Revisa que coincida con su pasaporte y acta de nacimiento."
+  },
+  "continuation-notice-was-mailed": {
+    "en": "A continuation notice is not typical for an I-824. It may relate to the approved case behind it or to another filing. Read it carefully to see what continues, and keep it with your records.",
+    "es": "Un aviso de continuación no es típico en un I-824. Puede referirse al caso aprobado que lo respalda o a otro trámite. Léelo con cuidado para ver qué es lo que continúa y guárdalo con tus papeles migratorios."
+  },
+  "termination-notice-sent": {
+    "en": "A termination on an I-824 is rare. It may mean the request was closed as abandoned or that the approved case behind it was revoked. Read the reason carefully and talk to an immigration attorney.",
+    "es": "Que terminen un I-824 es raro. Puede significar que cerraron la solicitud por abandono o que revocaron el caso aprobado que la respalda. Lee la razón con cuidado y habla con un abogado de inmigración sobre tus opciones."
+  },
+  "case-closed-benefit-received-by-other-means": {
+    "en": "Your I-824 was closed because the action was no longer needed, for example the family member already got a visa or green card another way, or a duplicate notice was already issued. If that is your situation, nothing more is required.",
+    "es": "Cerraron tu I-824 porque la acción ya no hacía falta, por ejemplo tu familiar ya obtuvo visa o green card por otra vía. Si esa es tu situación, no tienes que hacer nada más con este caso."
+  },
+  "expedite-request-denied": {
+    "en": "USCIS will not rush your I-824, so it stays in normal order. If a child is close to the age limit, ask an attorney whether age-protection rules apply. You can ask again if a new urgent fact comes up.",
+    "es": "USCIS no va a acelerar tu I-824, así que sigue en su orden normal. Si un hijo está por llegar a la edad límite, pregúntale a un abogado si aplican reglas de protección por edad. Puedes volver a pedirlo si surge algo urgente nuevo."
+  },
+  "correspondence-was-received-and-uscis-is-reviewing-it": {
+    "en": "USCIS received something you sent about your I-824, such as a new consulate choice, an address change, or a copy of the approval notice. It will be added to your file, and you will hear back if more is needed.",
+    "es": "USCIS recibió algo que mandaste sobre tu I-824, como la elección de otro consulado, un cambio de dirección o copia del aviso de aprobación. Lo agregarán a tu expediente y te contestarán solo si hace falta algo más."
+  }
+}

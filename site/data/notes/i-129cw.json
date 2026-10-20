@@ -1,0 +1,150 @@
+{
+ "case-was-received": {
+  "en": "USCIS has the employer's I-129CW for a CW-1 transitional worker in the Commonwealth of the Northern Mariana Islands. CW-1 numbers are limited each fiscal year, so filing early matters. The receipt does not reserve a number; it only confirms the petition is in line for review.",
+  "es": "USCIS tiene el I-129CW del empleador para un trabajador transitorio CW-1 en las Islas Marianas del Norte (CNMI). Los cupos CW-1 son limitados cada año fiscal, así que presentar temprano importa. El recibo no aparta un cupo; solo confirma que la petición está en fila para revisión."
+ },
+ "case-was-received-and-a-receipt-notice-was-sent": {
+  "en": "The I-797C receipt for the I-129CW was mailed to the employer. Workers already in the CNMI asking for an extension can use it, together with their I-94, as proof that a timely petition was filed. Workers should ask the employer for a copy.",
+  "es": "El recibo I-797C del I-129CW se envió por correo al empleador. Los trabajadores que ya están en las CNMI y piden extensión pueden usarlo, junto con su I-94, como prueba de que se presentó una petición a tiempo. Si eres el trabajador, pide una copia a tu empleador."
+ },
+ "fingerprint-fee-was-received": {
+  "en": "USCIS logged the biometrics step for this I-129CW. Biometrics usually apply to CW-1 workers who are already in the CNMI. The worker should watch for an appointment notice and attend it on the island. The employer can help confirm the date and place.",
+  "es": "USCIS registró el paso de biométricos de este I-129CW. Normalmente aplican a trabajadores CW-1 que ya están en las CNMI. El trabajador debe esperar el aviso de cita y asistir en la isla. El empleador puede ayudar a confirmar la fecha y el lugar."
+ },
+ "fingerprint-review-was-completed": {
+  "en": "The fingerprint background check for the CW-1 worker in this I-129CW case is complete. The officer will now continue reviewing the employer's need for the worker and the job details. A decision or request for evidence may follow.",
+  "es": "Terminó la revisión de huellas del trabajador CW-1 en este caso I-129CW. Ahora el oficial seguirá revisando la necesidad del empleador y los detalles del empleo. Después puede llegar una decisión o una petición de evidencia."
+ },
+ "case-is-being-actively-reviewed-by-uscis": {
+  "en": "An officer is reviewing the I-129CW. They check that the job is in an eligible occupation, that the employer tried to recruit U.S. workers, the prevailing wage and, where required, the temporary labor certification. A decision or request for evidence usually comes next.",
+  "es": "Un oficial está revisando el I-129CW. Revisa que el puesto sea de una ocupación elegible, que el empleador intentó contratar trabajadores estadounidenses, el salario prevaleciente y, cuando se exige, la certificación laboral temporal. Después suele llegar una decisión o una petición de evidencia."
+ },
+ "request-for-additional-evidence-was-sent": {
+  "en": "USCIS wants more evidence for the I-129CW. Common requests cover proof of recruitment of U.S. workers, the worker's qualifications, the employer's ability to pay, or the worker's lawful status in the CNMI. The employer must answer by the deadline.",
+  "es": "USCIS quiere más pruebas para el I-129CW. Suelen pedir pruebas del reclutamiento de trabajadores estadounidenses, la preparación del trabajador, la capacidad del empleador para pagar o el estatus legal del trabajador en las CNMI. El empleador debe responder antes de la fecha límite."
+ },
+ "request-for-initial-evidence-was-sent": {
+  "en": "The I-129CW was missing required documents, such as the job offer details, the labor certification where required, or the worker's passport and status records. The employer should send exactly what is listed before the deadline.",
+  "es": "Al I-129CW le faltaron documentos obligatorios, como los detalles de la oferta de trabajo, la certificación laboral cuando se exige o el pasaporte y registros de estatus del trabajador. El empleador debe mandar justo lo que se pide antes de la fecha límite."
+ },
+ "response-to-uscis-request-for-evidence-was-received": {
+  "en": "USCIS has the employer's response for the I-129CW. The officer will continue the review. If the worker's current CW-1 status already ended, they should confirm with the employer whether they can keep working under the pending extension.",
+  "es": "USCIS ya tiene la respuesta del empleador para el I-129CW. El oficial seguirá la revisión. Si el estatus CW-1 actual del trabajador ya terminó, debe confirmar con el empleador si puede seguir trabajando con la extensión en trámite."
+ },
+ "case-was-transferred-and-a-new-office-has-jurisdiction": {
+  "en": "The I-129CW moved to another USCIS office to balance workload. The receipt number stays the same. CW-1 petitions are processed by USCIS service centers, so this is an internal move rather than a change in the employer's case.",
+  "es": "El I-129CW pasó a otra oficina de USCIS para repartir el trabajo. El número de recibo no cambia. Las peticiones CW-1 se procesan en centros de servicio de USCIS, así que es un movimiento interno y no un cambio en el caso del empleador."
+ },
+ "case-was-approved": {
+  "en": "The I-129CW was approved. A worker already in the CNMI usually gets the new CW-1 status with an I-94 on the approval notice. A worker abroad uses the approval to apply for a CW-1 visa at a U.S. consulate. CW-1 status is only valid in the CNMI.",
+  "es": "Aprobaron el I-129CW. Un trabajador que ya está en las CNMI normalmente recibe el nuevo estatus CW-1 con un I-94 en el aviso de aprobación. Un trabajador fuera usa la aprobación para pedir la visa CW-1 en un consulado. El estatus CW-1 solo vale en las CNMI."
+ },
+ "notice-explaining-uscis-actions-was-mailed": {
+  "en": "USCIS mailed a letter to the employer about the I-129CW. It may ask for information, describe a biometrics step for the worker, or explain a decision. Workers should ask the employer what the letter says and whether anything is needed from them.",
+  "es": "USCIS mandó una carta al empleador sobre el I-129CW. Puede pedir información, describir un paso de biométricos para el trabajador o explicar una decisión. Si eres el trabajador, pregunta al empleador qué dice y si necesitan algo de ti."
+ },
+ "case-was-denied": {
+  "en": "The I-129CW was denied. If the worker is in the CNMI and their CW-1 status has ended, they may no longer be authorized to work or stay. The employer may file a motion or appeal with Form I-290B. The worker should get advice from an immigration attorney or accredited representative quickly.",
+  "es": "Negaron el I-129CW. Si el trabajador está en las CNMI y su estatus CW-1 ya terminó, quizá ya no tenga permiso para trabajar ni para quedarse. El empleador puede presentar una moción o apelación con el Formulario I-290B. El trabajador debe buscar pronto consejo de un abogado de inmigración o representante acreditado."
+ },
+ "case-was-reopened": {
+  "en": "USCIS reopened the I-129CW, often after the employer's motion. The CW-1 petition is pending again. Workers should ask the employer what this means for their ability to keep working while the case is decided. Keep the reopening notice on file.",
+  "es": "USCIS reabrió el I-129CW, muchas veces después de una moción del empleador. La petición CW-1 vuelve a estar en trámite. El trabajador debe preguntar al empleador qué significa esto para poder seguir trabajando mientras se decide el caso."
+ },
+ "case-rejected-because-i-sent-an-incorrect-fee": {
+  "en": "The I-129CW was returned because the payment was wrong. Besides the filing fee, CW-1 petitions carry extra required fees, including a CNMI education funding fee. The employer should check uscis.gov/i-129cw, correct all fees and refile quickly, since CW-1 numbers can run out.",
+  "es": "Regresaron el I-129CW porque el pago estaba mal. Además de la tarifa de presentación, las peticiones CW-1 llevan otros cobros obligatorios, como la cuota para el fondo de educación de las CNMI. El empleador debe revisar uscis.gov/i-129cw, corregir todo y volver a presentar rápido, porque los cupos CW-1 pueden acabarse."
+ },
+ "expedite-request-received": {
+  "en": "USCIS logged a request to speed up the I-129CW. Employers may ask for an expedite for reasons like severe financial loss to the business. Keep proof ready, such as contracts or project deadlines that depend on the worker.",
+  "es": "USCIS registró una petición para acelerar el I-129CW. El empleador puede pedirlo por razones como una pérdida económica grave para el negocio. Tengan listas las pruebas, como contratos o fechas de proyectos que dependen del trabajador."
+ },
+ "withdrawal-acknowledgement-notice-was-sent": {
+  "en": "USCIS confirmed the employer withdrew the I-129CW. The worker will not get CW-1 status through this petition. A worker in the CNMI should check right away whether they still have a valid status, and seek advice if not.",
+  "es": "USCIS confirmó que el empleador retiró el I-129CW. El trabajador no recibirá estatus CW-1 por esta petición. Si estás en las CNMI, revisa de inmediato si todavía tienes un estatus válido y busca consejo si no lo tienes."
+ },
+ "name-was-updated": {
+  "en": "USCIS updated a name on the I-129CW record, either the worker's or the employer's. The I-94 on any approval should show the correct worker name to match the passport. Check the next notice to confirm.",
+  "es": "USCIS actualizó un nombre en el expediente del I-129CW, del trabajador o del empleador. El I-94 de la aprobación debe mostrar el nombre correcto del trabajador, igual que en su pasaporte. Revisa el siguiente aviso para confirmarlo."
+ },
+ "case-was-received-and-a-receipt-notice-was-emailed": {
+  "en": "The I-129CW receipt was sent electronically to the employer's USCIS account. The employer should download it and share a copy with the worker, who may need it as proof of a timely filed extension. Keep it with the I-94.",
+  "es": "El recibo del I-129CW llegó en forma electrónica a la cuenta de USCIS del empleador. El empleador debe descargarlo y compartir una copia con el trabajador, que puede necesitarla como prueba de una extensión presentada a tiempo."
+ },
+ "case-accepted-by-the-uscis-lockbox": {
+  "en": "USCIS accepted the paper I-129CW and is processing the fees. A receipt notice comes next. The acceptance date matters because CW-1 numbers are counted against a yearly limit. The employer should keep a full copy of the petition and fee payments.",
+  "es": "USCIS aceptó el I-129CW en papel y está procesando los cobros. Lo siguiente es el aviso de recibo. La fecha de aceptación importa porque los cupos CW-1 se cuentan contra un límite anual. Guarden copia de todo lo enviado."
+ },
+ "fees-were-waived": {
+  "en": "This status is unusual for an I-129CW, because employer petitions generally do not qualify for fee waivers. If you see it, check the notice to find which fee it refers to, or contact USCIS. Keep the notice on file.",
+  "es": "Este estatus es poco común en un I-129CW, porque las peticiones de empleadores en general no califican para exención de pago. Si aparece, revisa el aviso para ver a qué cobro se refiere o comunícate con USCIS."
+ },
+ "case-was-rejected-because-it-was-improperly-filed": {
+  "en": "The I-129CW was returned without review, perhaps for a missing signature, an outdated form, or filing too early or too late for the requested start date. The employer should fix the issue and refile soon.",
+  "es": "Regresaron el I-129CW sin revisarlo, quizá por falta de firma, una edición vieja del formulario o por presentarlo muy pronto o muy tarde para la fecha de inicio pedida. El empleador debe corregir el problema y volver a presentar pronto."
+ },
+ "biometrics-appointment-was-scheduled": {
+  "en": "USCIS scheduled a biometrics appointment for the CW-1 worker in this I-129CW case. It applies to workers who are in the CNMI. The worker should bring the notice and passport to the local appointment. Missing it can delay the case.",
+  "es": "USCIS programó una cita de biométricos para el trabajador CW-1 de este caso I-129CW. Aplica a trabajadores que están en las CNMI. El trabajador debe llevar el aviso y su pasaporte a la cita local."
+ },
+ "case-was-updated-to-show-fingerprints-were-taken": {
+  "en": "USCIS recorded that the CW-1 worker's biometrics were taken. Background checks now run, and the officer will continue the I-129CW review. A decision or request for evidence may follow. The worker should keep the stamped appointment notice.",
+  "es": "USCIS registró que ya se tomaron los biométricos del trabajador CW-1. Ahora corren las revisiones de antecedentes y el oficial seguirá revisando el I-129CW. Después puede llegar una decisión o una petición de evidencia. Guarden el aviso sellado."
+ },
+ "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+  "en": "USCIS shows the CW-1 worker missed the biometrics appointment. That can lead to denial of the I-129CW. The worker and employer should contact USCIS right away to reschedule and explain the reason. Keep proof of any good reason for missing it.",
+  "es": "USCIS indica que el trabajador CW-1 no fue a su cita de biométricos. Eso puede llevar a negar el I-129CW. El trabajador y el empleador deben comunicarse con USCIS de inmediato para pedir nueva cita y explicar el motivo."
+ },
+ "case-was-approved-and-my-decision-was-emailed": {
+  "en": "The I-129CW approval was sent to the employer's USCIS online account. The worker should get a copy. If the worker is in the CNMI, check the I-94 on the notice for the new end date of CW-1 status.",
+  "es": "La aprobación del I-129CW llegó a la cuenta de USCIS del empleador. El trabajador debe recibir una copia. Si está en las CNMI, revisen el I-94 del aviso para ver la nueva fecha de fin del estatus CW-1."
+ },
+ "case-approval-was-certified-by-uscis": {
+  "en": "USCIS certified the approval of the I-129CW. This is an internal confirmation step. The CW-1 approval stands, and the worker can continue with the next step: staying in the new status or applying for the visa abroad.",
+  "es": "USCIS certificó la aprobación del I-129CW. Es un paso interno de confirmación. La aprobación CW-1 se mantiene, y el trabajador puede seguir con el siguiente paso: quedarse en el nuevo estatus o pedir la visa en el extranjero."
+ },
+ "case-was-sent-to-the-department-of-state": {
+  "en": "The approved I-129CW was sent to the State Department. This is normal when the CW-1 worker is outside the CNMI. The worker can now apply for a CW-1 visa at a U.S. embassy or consulate and attend a visa interview before traveling.",
+  "es": "El I-129CW aprobado se envió al Departamento de Estado. Es normal cuando el trabajador CW-1 está fuera de las CNMI. Ahora puede pedir la visa CW-1 en una embajada o consulado de EE.UU. e ir a la entrevista de visa antes de viajar."
+ },
+ "response-to-uscis-notice-of-intent-was-received": {
+  "en": "USCIS received the employer's reply to its notice of intent on the I-129CW. That notice means the officer was leaning toward denial. Because the worker's status may depend on the result, both should stay in touch and consider legal advice.",
+  "es": "USCIS recibió la respuesta del empleador a su aviso de intención sobre el I-129CW. Ese aviso significa que el oficial pensaba negar. Como el estatus del trabajador puede depender del resultado, ambos deben mantenerse en contacto y considerar asesoría legal."
+ },
+ "case-is-pending-at-a-local-office": {
+  "en": "The I-129CW shows as pending at a local office. CW-1 petitions are mostly handled by service centers, so this is less common. It may involve a local step in the CNMI, such as biometrics or a site visit.",
+  "es": "El I-129CW aparece en una oficina local. Las peticiones CW-1 casi siempre las manejan centros de servicio, así que esto es menos común. Puede tratarse de un paso local en las CNMI, como biométricos o una visita al lugar de trabajo."
+ },
+ "duplicate-notice-was-mailed": {
+  "en": "USCIS mailed a duplicate notice for the I-129CW. It is a copy, not a new decision. The employer can share it with the worker, who may need it to show status or for a visa appointment.",
+  "es": "USCIS mandó un aviso duplicado del I-129CW. Es una copia, no una nueva decisión. El empleador puede compartirlo con el trabajador, que puede necesitarlo para mostrar su estatus o para la cita de visa. Guárdenlo en el expediente."
+ },
+ "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+  "en": "A notice for the I-129CW came back to USCIS undelivered. It might be a biometrics date or a request for evidence. The employer should update its address with USCIS and ask for the notice to be resent quickly.",
+  "es": "Un aviso del I-129CW regresó a USCIS sin entregarse. Puede ser una cita de biométricos o una petición de evidencia. El empleador debe actualizar su dirección con USCIS y pedir que reenvíen el aviso pronto."
+ },
+ "date-of-birth-was-updated": {
+  "en": "USCIS corrected the worker's date of birth on the I-129CW record. Check that the I-94 on the approval notice shows the right date and matches the passport, since mismatches can cause problems with employers and travel.",
+  "es": "USCIS corrigió la fecha de nacimiento del trabajador en el expediente del I-129CW. Revisen que el I-94 del aviso de aprobación muestre la fecha correcta y coincida con el pasaporte, porque los errores causan problemas con empleo y viajes."
+ },
+ "continuation-notice-was-mailed": {
+  "en": "USCIS sent a continuation notice on the I-129CW. It usually means the case is still open and another step is coming. It is not a decision. The employer should share it with the worker. Keep it on file.",
+  "es": "USCIS mandó un aviso de continuación del I-129CW. Normalmente significa que el caso sigue abierto y viene otro paso. No es una decisión. El empleador debe compartirlo con el trabajador para que esté al tanto."
+ },
+ "termination-notice-sent": {
+  "en": "USCIS sent a termination notice in this I-129CW case. A CW-1 approval can be ended, for example if the job ends or the employer no longer qualifies. The worker should read it carefully and seek advice from an immigration attorney or accredited representative.",
+  "es": "USCIS mandó un aviso de terminación en este caso I-129CW. Una aprobación CW-1 puede terminarse, por ejemplo si se acaba el empleo o el empleador ya no califica. El trabajador debe leerlo con cuidado y buscar consejo de un abogado de inmigración o representante acreditado."
+ },
+ "case-closed-benefit-received-by-other-means": {
+  "en": "USCIS closed the I-129CW because the worker got status another way, for example through a different employer's petition or another visa category. Check the worker's current I-94 to confirm their status. Keep the closing notice with the worker's records.",
+  "es": "USCIS cerró el I-129CW porque el trabajador obtuvo estatus por otra vía, por ejemplo con la petición de otro empleador o con otra categoría de visa. Revisen el I-94 actual del trabajador para confirmar su estatus."
+ },
+ "expedite-request-denied": {
+  "en": "USCIS will not speed up the I-129CW. The petition stays in normal processing. The employer can request again if a new urgent reason appears, with fresh proof of the business impact. Keep the notice on file.",
+  "es": "USCIS no va a acelerar el I-129CW. La petición sigue en el trámite normal. El empleador puede pedirlo otra vez si aparece una nueva razón urgente, con pruebas nuevas del impacto en el negocio. Guarden el aviso en el expediente."
+ },
+ "correspondence-was-received-and-uscis-is-reviewing-it": {
+  "en": "USCIS received correspondence about the I-129CW, such as a change of worksite or updated employer information. An officer will review it and add it to the file. The employer should keep a copy. No need to send it again.",
+  "es": "USCIS recibió correspondencia sobre el I-129CW, como un cambio de lugar de trabajo o información actualizada del empleador. Un oficial la revisará y la agregará al expediente. El empleador debe guardar una copia. No hace falta enviarla otra vez."
+ }
+}

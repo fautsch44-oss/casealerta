@@ -1,0 +1,146 @@
+{
+"case-was-received": {
+"en": "For an I-131, this receipt covers your travel document request, whether it is advance parole, a reentry permit or a refugee travel document. If you asked for advance parole while your green card is pending, do not leave the U.S. before it is approved, because leaving usually counts as abandoning the request.",
+"es": "En un I-131, este recibo cubre tu solicitud de documento de viaje, sea advance parole, permiso de reingreso o documento de viaje de refugiado. Si pediste advance parole mientras tu green card está en trámite, no salgas de EE.UU. antes de la aprobación, porque salir normalmente se toma como abandono de la solicitud."
+},
+"case-was-received-and-a-receipt-notice-was-sent": {
+"en": "Your I-797C receipt for the I-131 is on its way by mail. Keep it with your passport papers: the receipt number is how you track the travel document. For a reentry permit, the next step is a biometrics appointment, which you must attend in the U.S. before traveling.",
+"es": "Tu recibo I-797C del I-131 viene en camino por correo. Guárdalo junto a tus papeles de viaje: con ese número de recibo sigues tu documento de viaje. Si pediste permiso de reingreso, lo siguiente es la cita de biométricos, a la que debes ir dentro de EE.UU. antes de viajar."
+},
+"fingerprint-fee-was-received": {
+"en": "USCIS logged the biometrics part of your I-131 payment. Biometrics matter most for reentry permits and refugee travel documents, since those booklets carry your photo and fingerprints. Watch your mail for the appointment notice; under current fee rules the biometric cost is often included in the filing fee.",
+"es": "USCIS registró la parte de biométricos de tu pago del I-131. Los biométricos importan sobre todo para el permiso de reingreso y el documento de viaje de refugiado, porque esas libretas llevan tu foto y huellas. Espera por correo el aviso de cita; con las reglas actuales, ese costo muchas veces ya va incluido en la tarifa."
+},
+"fingerprint-review-was-completed": {
+"en": "The background check on your I-131 fingerprints is done. If you applied for a reentry permit, you may now travel abroad while USCIS finishes the case, as long as you chose where the permit will be sent. An officer still has to review and decide the request.",
+"es": "La revisión de antecedentes con tus huellas del I-131 ya terminó. Si pediste permiso de reingreso, ya puedes viajar mientras USCIS termina el caso, siempre que hayas indicado a dónde enviar el permiso. Todavía falta que un oficial revise y decida la solicitud."
+},
+"case-is-being-actively-reviewed-by-uscis": {
+"en": "An officer is looking at your I-131. For advance parole they check that your underlying green card or other case is still pending; for a reentry permit they confirm your residence and travel plans. A decision or a request for more evidence usually follows this step.",
+"es": "Un oficial está revisando tu I-131. Para advance parole revisa que tu green card u otro caso base siga en trámite; para el permiso de reingreso confirma tu residencia y tus planes de viaje. Después de este paso normalmente llega una decisión o una petición de más evidencia."
+},
+"request-for-additional-evidence-was-sent": {
+"en": "USCIS wants more proof for your I-131. Common asks are passport photos that meet the specs, proof of a pending I-485, or evidence of an urgent humanitarian reason for parole. Answer by the deadline on the notice and send everything in one package with the RFE cover page on top.",
+"es": "USCIS quiere más pruebas para tu I-131. Suelen pedir fotos de pasaporte que cumplan las reglas, prueba de un I-485 en trámite o evidencia de una razón humanitaria urgente para el parole. Responde antes de la fecha límite del aviso y manda todo en un solo paquete con la hoja del RFE encima."
+},
+"request-for-initial-evidence-was-sent": {
+"en": "Something required for the I-131 was missing when you filed, such as the copy of your green card for a reentry permit or proof of refugee or asylee status for a refugee travel document. Send exactly what the notice lists before the deadline so the request is not denied.",
+"es": "Faltó algo obligatorio cuando presentaste el I-131, como la copia de tu green card para el permiso de reingreso o la prueba de estatus de refugiado o asilado para el documento de viaje de refugiado. Manda justo lo que dice el aviso antes de la fecha límite para que no te nieguen."
+},
+"response-to-uscis-request-for-evidence-was-received": {
+"en": "USCIS has your answer to the I-131 evidence request and the file goes back to the officer. Travel plans should still wait: the document is not issued until the case is approved. If your trip is urgent for a humanitarian reason, you can ask about an expedite.",
+"es": "USCIS ya tiene tu respuesta a la petición de evidencia del I-131 y el expediente regresa al oficial. Tus planes de viaje deben esperar: el documento no se emite hasta que aprueben el caso. Si tu viaje es urgente por una razón humanitaria, puedes preguntar por un trámite acelerado."
+},
+"case-was-transferred-and-a-new-office-has-jurisdiction": {
+"en": "Your I-131 moved to another USCIS office. This often happens when advance parole is moved to sit with your pending I-485 so both are handled together. Your receipt number stays the same; check the transfer notice for the new office name.",
+"es": "Tu I-131 pasó a otra oficina de USCIS. Pasa mucho cuando el advance parole se mueve para quedar junto a tu I-485 en trámite y así revisarlos juntos. Tu número de recibo no cambia; revisa el aviso de traslado para ver el nombre de la nueva oficina."
+},
+"case-was-approved": {
+"en": "Your I-131 travel document was approved. Next USCIS prints it: advance parole is a paper document, while reentry permits and refugee travel documents are booklets. Carry it when you travel. Advance parole lets you ask to be let back in, but the officer at the border still makes the final call.",
+"es": "Aprobaron tu documento de viaje del I-131. Ahora USCIS lo imprime: el advance parole es un documento en papel, y el permiso de reingreso y el documento de refugiado son libretas. Llévalo al viajar. El advance parole te permite pedir la entrada de regreso, pero el oficial de la frontera decide al final."
+},
+"document-was-mailed-to-me": {
+"en": "Your I-131 travel document is in the mail, or was sent to the U.S. embassy or USCIS office you picked for pickup. Check the name, dates and validity right away. A reentry permit is usually valid longer than a refugee travel document, so read the expiration printed inside.",
+"es": "Tu documento de viaje del I-131 va por correo, o se envió a la embajada u oficina de USCIS que elegiste para recogerlo. Revisa luego luego nombre, fechas y vigencia. El permiso de reingreso suele durar más que el documento de refugiado, así que lee la fecha de vencimiento impresa adentro."
+},
+"notice-explaining-uscis-actions-was-mailed": {
+"en": "USCIS mailed a letter about your I-131. It may ask you to schedule biometrics, explain why the travel document cannot be issued yet, or tell you what happened to the request. Read it as soon as it arrives, since travel plans often depend on its content.",
+"es": "USCIS mandó una carta sobre tu I-131. Puede pedirte programar biométricos, explicar por qué aún no pueden emitir el documento de viaje o decirte qué pasó con la solicitud. Léela en cuanto llegue, porque tus planes de viaje muchas veces dependen de lo que diga."
+},
+"case-was-denied": {
+"en": "Your I-131 travel document was denied. Do not travel on the assumption you can return, especially if your green card is still pending. The denial letter explains the reason; many I-131 denials can be refiled once the problem is fixed. Talk to an immigration attorney or accredited representative before you travel.",
+"es": "Te negaron el documento de viaje del I-131. No viajes pensando que podrás regresar, sobre todo si tu green card sigue en trámite. La carta explica el motivo; muchas veces puedes volver a presentar el I-131 cuando corrijas el problema. Habla con un abogado de inmigración o representante acreditado antes de viajar."
+},
+"case-was-reopened": {
+"en": "USCIS reopened your I-131, often after a motion or on its own after spotting an error. The travel document request is pending again, so do not travel based on the earlier decision. Watch for new notices or evidence requests.",
+"es": "USCIS reabrió tu I-131, muchas veces por una moción o por su cuenta al notar un error. La solicitud de documento de viaje vuelve a estar en trámite, así que no viajes con base en la decisión anterior. Espera nuevos avisos o peticiones de evidencia."
+},
+"case-rejected-because-i-sent-an-incorrect-fee": {
+"en": "Your I-131 came back because the payment was wrong. The fee depends on which document you want, for example advance parole costs differently than a reentry permit. Check the current fee on uscis.gov/i-131, fix the payment and file again as soon as you can.",
+"es": "Te regresaron el I-131 porque el pago estaba mal. La tarifa depende del documento que pides; por ejemplo, el advance parole no cuesta igual que el permiso de reingreso. Revisa la tarifa actual en uscis.gov/i-131, corrige el pago y preséntalo de nuevo lo antes posible."
+},
+"expedite-request-received": {
+"en": "USCIS logged your request to speed up the I-131. Travel document expedites are usually tied to urgent reasons like a dying relative or a medical emergency abroad. Keep proof ready, such as a doctor letter. Very urgent cases may also qualify for an emergency appointment at a local office.",
+"es": "USCIS registró tu petición para acelerar el I-131. Para documentos de viaje, aceleran sobre todo por razones urgentes, como un familiar muy enfermo o una emergencia médica en el extranjero. Ten listas tus pruebas, como una carta del doctor. Casos muy urgentes pueden pedir cita de emergencia en una oficina local."
+},
+"withdrawal-acknowledgement-notice-was-sent": {
+"en": "USCIS confirmed that you withdrew your I-131. The travel document will not be issued, and the fee is not refunded. If you need to travel later, you would file a new I-131 and wait for it to be approved first.",
+"es": "USCIS confirmó que retiraste tu I-131. No te van a emitir el documento de viaje y no regresan la tarifa. Si después necesitas viajar, tendrías que presentar un I-131 nuevo y esperar a que lo aprueben antes de salir."
+},
+"name-was-updated": {
+"en": "USCIS updated your name on the I-131 record. Make sure it matches your passport, because airlines and border officers compare the travel document against your passport. If the document was already printed with the old name, ask USCIS how to get it corrected.",
+"es": "USCIS actualizó tu nombre en el expediente del I-131. Verifica que coincida con tu pasaporte, porque la aerolínea y los oficiales de frontera comparan el documento de viaje con tu pasaporte. Si ya lo imprimieron con el nombre anterior, pregunta a USCIS cómo corregirlo."
+},
+"case-was-received-and-a-receipt-notice-was-emailed": {
+"en": "You filed the I-131 online and the receipt is in your USCIS account and email. Online filing is available for some I-131 types; save the PDF notice. If you need biometrics, the appointment notice will also appear in your account.",
+"es": "Presentaste el I-131 en línea y el recibo está en tu cuenta de USCIS y en tu correo. Algunos tipos de I-131 se pueden presentar en línea; guarda el aviso en PDF. Si te toca biométricos, el aviso de cita también aparecerá en tu cuenta."
+},
+"case-accepted-by-the-uscis-lockbox": {
+"en": "The USCIS lockbox accepted your paper I-131 and is processing the payment. A receipt notice comes next. If you filed it together with an I-485 and I-765, each form gets its own receipt number, so expect several notices.",
+"es": "El lockbox de USCIS aceptó tu I-131 en papel y está procesando el pago. Lo siguiente es el aviso de recibo. Si lo mandaste junto con un I-485 y un I-765, cada formulario tiene su propio número de recibo, así que espera varios avisos."
+},
+"fees-were-waived": {
+"en": "USCIS approved your fee waiver for the I-131. Fee waivers are only available for certain I-131 requests, such as some humanitarian cases. Your request now moves into regular processing. Keep the approval letter in your file.",
+"es": "USCIS aprobó tu exención de pago para el I-131. Las exenciones solo aplican a ciertas solicitudes del I-131, como algunos casos humanitarios. Tu solicitud sigue ahora el trámite normal. Guarda la carta de aprobación en tu expediente."
+},
+"case-was-rejected-because-it-was-improperly-filed": {
+"en": "Your I-131 was returned without review. Common reasons are a missing signature, the wrong edition of the form, or filing for a reentry permit while outside the U.S. Read the rejection notice, fix the issue and file again.",
+"es": "Te regresaron el I-131 sin revisarlo. Razones comunes: falta de firma, una edición equivocada del formulario o pedir permiso de reingreso estando fuera de EE.UU. Lee el aviso de rechazo, corrige el error y preséntalo otra vez."
+},
+"biometrics-appointment-was-scheduled": {
+"en": "USCIS set a biometrics appointment for your I-131. For a reentry permit or refugee travel document this visit is required, and you must be in the U.S. to attend. Bring the appointment notice and a photo ID; your photo and fingerprints go on the travel booklet.",
+"es": "USCIS te dio cita de biométricos para tu I-131. Para el permiso de reingreso o el documento de refugiado esta cita es obligatoria y debes estar en EE.UU. para ir. Lleva el aviso de cita y una identificación con foto; tu foto y huellas van en la libreta de viaje."
+},
+"case-was-updated-to-show-fingerprints-were-taken": {
+"en": "USCIS recorded that your biometrics for the I-131 were taken. If you applied for a reentry permit, you may travel after this step, as long as you asked for the permit to be sent to a U.S. embassy or USCIS office abroad. The decision comes later.",
+"es": "USCIS registró que ya te tomaron biométricos para el I-131. Si pediste permiso de reingreso, puedes viajar después de este paso, siempre que hayas pedido que te manden el permiso a una embajada u oficina de USCIS en el extranjero. La decisión llega después."
+},
+"case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+"en": "USCIS shows you missed the I-131 biometrics appointment. For a reentry permit or refugee travel document this can lead to denial. Ask to reschedule right away through your USCIS account or the Contact Center, and keep proof if you had a good reason to miss it.",
+"es": "USCIS indica que no fuiste a la cita de biométricos del I-131. Para el permiso de reingreso o el documento de refugiado esto puede llevar a una negación. Pide una nueva cita de inmediato por tu cuenta de USCIS o el Centro de Contacto, y guarda pruebas si tuviste un buen motivo."
+},
+"case-was-approved-and-my-decision-was-emailed": {
+"en": "Your I-131 approval notice is in your USCIS online account. The approval letter is not the travel document itself; USCIS still has to print and send the advance parole, reentry permit or refugee travel document. Watch for the mailing status next.",
+"es": "Tu aviso de aprobación del I-131 está en tu cuenta de USCIS en línea. La carta de aprobación no es el documento de viaje; USCIS todavía tiene que imprimir y enviar el advance parole, permiso de reingreso o documento de refugiado. Espera el estatus de envío."
+},
+"case-approval-was-certified-by-uscis": {
+"en": "USCIS certified the approval of your I-131. This is an internal confirmation step, often when a decision is formally reviewed. Your travel document should still be issued as approved. Wait for the mailing or pickup notice before planning travel.",
+"es": "USCIS certificó la aprobación de tu I-131. Es un paso interno de confirmación, muchas veces cuando revisan formalmente una decisión. Tu documento de viaje debe emitirse tal como se aprobó. Espera el aviso de envío o de recogida antes de planear tu viaje."
+},
+"response-to-uscis-notice-of-intent-was-received": {
+"en": "USCIS received your answer to its notice of intent on the I-131. A notice of intent means the officer was leaning toward denial, so this response matters. The officer will now decide. If you did not have legal help, consider an attorney or accredited representative now.",
+"es": "USCIS recibió tu respuesta al aviso de intención sobre tu I-131. Ese aviso significa que el oficial pensaba negar, así que tu respuesta es importante. Ahora el oficial decidirá. Si no tuviste ayuda legal, considera ahora un abogado o representante acreditado."
+},
+"duplicate-notice-was-mailed": {
+"en": "USCIS mailed a copy of an I-131 notice. This can be a duplicate of your receipt or approval letter. It is not a new travel document. Compare it with what you already have and keep the newest copy.",
+"es": "USCIS mandó una copia de un aviso del I-131. Puede ser un duplicado de tu recibo o de tu carta de aprobación. No es un documento de viaje nuevo. Compáralo con lo que ya tienes y guarda la copia más reciente."
+},
+"notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+"en": "A notice about your I-131 came back to USCIS as undeliverable. It may be a biometrics appointment you must not miss. Update your address online or with Form AR-11 and ask USCIS to resend the notice.",
+"es": "Un aviso sobre tu I-131 regresó a USCIS porque no pudieron entregarlo. Puede ser una cita de biométricos que no debes perder. Actualiza tu dirección en línea o con el Formulario AR-11 y pide a USCIS que reenvíe el aviso."
+},
+"date-of-birth-was-updated": {
+"en": "USCIS corrected your date of birth on the I-131 record. This matters because the travel document must match your passport exactly. If a document was already printed with the wrong date, ask USCIS for a corrected one before you travel.",
+"es": "USCIS corrigió tu fecha de nacimiento en el expediente del I-131. Esto importa porque el documento de viaje debe coincidir exactamente con tu pasaporte. Si ya imprimieron un documento con la fecha mal, pide uno corregido antes de viajar."
+},
+"continuation-notice-was-mailed": {
+"en": "USCIS sent a continuation notice on your I-131. It usually confirms the case is still pending or explains a next step, such as more biometrics. Read it carefully; it is not an approval and not a travel document.",
+"es": "USCIS mandó un aviso de continuación sobre tu I-131. Normalmente confirma que el caso sigue en trámite o explica un siguiente paso, como más biométricos. Léelo con calma; no es una aprobación ni un documento de viaje."
+},
+"termination-notice-sent": {
+"en": "USCIS sent a termination notice on your I-131. For advance parole this can happen when the related green card case is denied or closed. Do not travel on that document. Read the notice and speak with an immigration attorney or accredited representative.",
+"es": "USCIS mandó un aviso de terminación sobre tu I-131. En advance parole puede pasar cuando niegan o cierran el caso de green card relacionado. No viajes con ese documento. Lee el aviso y habla con un abogado de inmigración o representante acreditado."
+},
+"case-closed-benefit-received-by-other-means": {
+"en": "USCIS closed your I-131 because you already got what you needed another way. A common example: your green card was approved, so you no longer need advance parole. Travel with your green card and passport instead.",
+"es": "USCIS cerró tu I-131 porque ya obtuviste lo que necesitabas por otra vía. Ejemplo común: aprobaron tu green card y ya no necesitas advance parole. Ahora viaja con tu green card vigente y tu pasaporte, y guarda este aviso de cierre."
+},
+"expedite-request-denied": {
+"en": "USCIS will not speed up your I-131. The case stays in the regular line. If your travel need is a true emergency, you can ask for an emergency appointment at a local office or, in some situations, ask about emergency advance parole.",
+"es": "USCIS no va a acelerar tu I-131. El caso sigue en la fila normal. Si tu viaje es una emergencia real, puedes pedir una cita de emergencia en una oficina local o, en algunos casos, preguntar por un advance parole de emergencia."
+},
+"correspondence-was-received-and-uscis-is-reviewing-it": {
+"en": "USCIS got a letter or document you sent about your I-131, such as new travel dates or a change of pickup location. An officer will review it and add it to your file. You do not need to send it again.",
+"es": "USCIS recibió una carta o documento que mandaste sobre tu I-131, como nuevas fechas de viaje o cambio de lugar para recoger el documento. Un oficial lo revisará y lo agregará a tu expediente. No necesitas enviarlo otra vez."
+}
+}

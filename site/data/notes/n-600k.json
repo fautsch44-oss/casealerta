@@ -1,0 +1,174 @@
+{
+ "case-was-received": {
+  "en": "USCIS has your N-600K for your child who lives outside the U.S. Unlike the N-600, the child is not yet a citizen; citizenship comes when the child takes the oath, or when the oath is waived, after approval. Everything must be finished before the child turns 18, so keep that date in mind.",
+  "es": "USCIS tiene tu N-600K para tu hijo que vive fuera de EE.UU. A diferencia del N-600, el niño todavía no es ciudadano; la ciudadanía llega cuando hace el juramento, o cuando se lo dispensan, después de la aprobación. Todo debe terminar antes de que cumpla 18, así que ten presente esa fecha."
+ },
+ "case-was-received-and-a-receipt-notice-was-sent": {
+  "en": "Your I-797C receipt for the N-600K is in the mail. On the form you could pick a preferred USCIS office for the interview; the receipt does not confirm the office yet. Keep the receipt, because the child may need it when applying for a U.S. visitor visa for the trip.",
+  "es": "Tu recibo I-797C del N-600K viene por correo. En el formulario pudiste elegir la oficina de USCIS preferida para la entrevista; el recibo todavía no confirma la oficina. Guarda el recibo, porque el niño puede necesitarlo al pedir la visa de visitante para el viaje."
+ },
+ "fingerprint-fee-was-received": {
+  "en": "USCIS recorded a biometrics step in your N-600K case. Biometrics are not routine for every N-600K. If an appointment is set, it will be at a U.S. office during the child's visit, so coordinate the travel dates with the notice.",
+  "es": "USCIS registró un paso de biométricos en tu caso N-600K. No todos los N-600K piden biométricos. Si dan una cita, será en una oficina de EE.UU. durante la visita del niño, así que coordina las fechas del viaje con el aviso."
+ },
+ "fingerprint-review-was-completed": {
+  "en": "The fingerprint check in your N-600K case is done. The officer can now focus on the main rules: your citizenship, your physical presence or that of a grandparent in the U.S., and your legal and physical custody of the child.",
+  "es": "La revisión de huellas en tu caso N-600K terminó. Ahora el oficial puede enfocarse en las reglas principales: tu ciudadanía, el tiempo de presencia física tuyo o de un abuelo en EE.UU. y tu custodia legal y física del niño."
+ },
+ "case-is-being-actively-reviewed-by-uscis": {
+  "en": "An officer is reviewing your N-600K. They check your proof of citizenship, the required physical presence in the U.S. by you or the child's U.S. citizen grandparent, and that the child lives abroad in your legal and physical custody. An interview date usually comes after this review.",
+  "es": "Un oficial está revisando tu N-600K. Revisa tu prueba de ciudadanía, el tiempo de presencia física en EE.UU. tuyo o del abuelo ciudadano del niño, y que el niño vive fuera bajo tu custodia legal y física. Después de esta revisión normalmente llega la fecha de entrevista."
+ },
+ "case-is-ready-to-be-scheduled-for-an-interview": {
+  "en": "Your N-600K is waiting for an interview date. Most N-600K cases do have an interview, and the child must be in the U.S. in lawful status for it, usually on a visitor visa or the Visa Waiver Program. Start planning the trip, but wait for the actual date before buying tickets.",
+  "es": "Tu N-600K espera fecha de entrevista. La mayoría de los N-600K sí tienen entrevista, y el niño debe estar en EE.UU. de forma legal, normalmente con visa de visitante o con el Programa de Exención de Visas. Empieza a planear el viaje, pero espera la fecha real antes de comprar boletos."
+ },
+ "interview-was-scheduled": {
+  "en": "Your N-600K interview is set. The child must attend in the U.S. with lawful admission, and the U.S. citizen parent usually attends too. Bring every original on the notice. If approved, the oath is often given the same day, so the child may leave as a U.S. citizen.",
+  "es": "Ya tienes cita de entrevista del N-600K. El niño debe asistir en EE.UU. con entrada legal, y el padre o madre ciudadano normalmente también va. Lleva todos los originales que pide el aviso. Si lo aprueban, muchas veces el juramento es ese mismo día y el niño puede salir ya como ciudadano."
+ },
+ "interview-was-completed-and-my-case-must-be-reviewed": {
+  "en": "The N-600K interview is done, but the officer needs more time, maybe for more documents. Time matters: the child must take the oath while still lawfully in the U.S. and before turning 18. Ask the officer or USCIS how long the child should plan to stay.",
+  "es": "La entrevista del N-600K terminó, pero el oficial necesita más tiempo, quizá por más documentos. El tiempo importa: el niño debe hacer el juramento mientras siga en EE.UU. de forma legal y antes de cumplir 18. Pregunta al oficial o a USCIS cuánto tiempo conviene que el niño se quede."
+ },
+ "request-for-additional-evidence-was-sent": {
+  "en": "USCIS needs more proof for your N-600K. Common requests are records showing your years of physical presence in the U.S., or the grandparent's presence, plus custody papers if parents are divorced. Answer by the deadline with the RFE cover sheet on top.",
+  "es": "USCIS necesita más pruebas para tu N-600K. Suelen pedir registros de tus años de presencia física en EE.UU., o los del abuelo, y papeles de custodia si los padres están divorciados. Responde antes de la fecha límite con la hoja del RFE encima."
+ },
+ "request-for-initial-evidence-was-sent": {
+  "en": "Your N-600K was missing a basic document, such as the child's birth certificate, your proof of citizenship, or translations of foreign records. Send exactly what the notice lists before the deadline so review can start.",
+  "es": "A tu N-600K le faltó un documento básico, como el acta de nacimiento del niño, tu prueba de ciudadanía o traducciones de documentos extranjeros. Manda justo lo que dice el aviso antes de la fecha límite para que empiece la revisión."
+ },
+ "response-to-uscis-request-for-evidence-was-received": {
+  "en": "USCIS has your evidence for the N-600K and the officer will continue the review. Next usually comes an interview notice. Check that the child's passport and U.S. visitor visa, if needed, will be valid for the trip.",
+  "es": "USCIS ya tiene tus pruebas del N-600K y el oficial seguirá la revisión. Lo siguiente suele ser el aviso de entrevista. Revisa que el pasaporte del niño y su visa de visitante, si la necesita, estén vigentes para el viaje."
+ },
+ "case-was-transferred-and-a-new-office-has-jurisdiction": {
+  "en": "Your N-600K moved to another USCIS office, often the one that will hold the interview and oath. Your receipt number stays the same. Check the notice for the new office so you can plan the child's travel to that city.",
+  "es": "Tu N-600K pasó a otra oficina de USCIS, muchas veces la que hará la entrevista y el juramento. Tu número de recibo no cambia. Revisa el aviso para ver la nueva oficina y planear el viaje del niño a esa ciudad."
+ },
+ "case-was-approved": {
+  "en": "Your N-600K was approved. The child becomes a U.S. citizen when taking the Oath of Allegiance, or when USCIS waives it for a young child, and then receives a Certificate of Citizenship. This must happen before the child turns 18 and while lawfully in the U.S.",
+  "es": "Aprobaron tu N-600K. El niño se vuelve ciudadano al hacer el Juramento de Lealtad, o cuando USCIS se lo dispensa por ser pequeño, y luego recibe el Certificado de Ciudadanía. Esto debe pasar antes de que cumpla 18 y mientras esté legalmente en EE.UU."
+ },
+ "document-was-mailed-to-me": {
+  "en": "USCIS mailed a document for your N-600K, often a notice or the Certificate of Citizenship. Many families get the certificate at the oath appointment instead. When you have it, check the child's name and birth date, then use it to apply for a U.S. passport.",
+  "es": "USCIS mandó por correo un documento de tu N-600K, muchas veces un aviso o el Certificado de Ciudadanía. Muchas familias lo reciben en la cita de juramento. Cuando lo tengas, revisa nombre y fecha de nacimiento del niño y úsalo para pedir su pasaporte estadounidense."
+ },
+ "notice-explaining-uscis-actions-was-mailed": {
+  "en": "USCIS mailed a letter about your N-600K. It may set the interview, ask for documents or explain a delay. Because the child has to travel to the U.S., read it quickly so you have time to arrange visas and tickets.",
+  "es": "USCIS mandó una carta sobre tu N-600K. Puede dar la cita de entrevista, pedir documentos o explicar un retraso. Como el niño tiene que viajar a EE.UU., léela rápido para tener tiempo de arreglar visas y boletos."
+ },
+ "case-was-denied": {
+  "en": "Your N-600K was denied. You can usually appeal with Form I-290B, or file again if the child is still under 18 and you can fix the problem, for example with better physical presence records. Because time is limited, talk to an immigration attorney or accredited representative soon.",
+  "es": "Te negaron el N-600K. Normalmente puedes apelar con el Formulario I-290B, o presentar de nuevo si el niño sigue siendo menor de 18 y puedes corregir el problema, por ejemplo con mejores pruebas de presencia física. Como el tiempo es limitado, habla pronto con un abogado de inmigración o representante acreditado."
+ },
+ "case-was-reopened": {
+  "en": "USCIS reopened your N-600K, often after a motion or appeal. The case is pending again. Watch the calendar: the whole process, including the oath, must still finish before the child turns 18. Watch for new notices and keep the child's passport valid.",
+  "es": "USCIS reabrió tu N-600K, muchas veces después de una moción o apelación. El caso vuelve a estar en trámite. Cuida el calendario: todo el proceso, incluido el juramento, debe terminar antes de que el niño cumpla 18 años."
+ },
+ "case-rejected-because-i-sent-an-incorrect-fee": {
+  "en": "Your N-600K was returned for a wrong payment. Check the current N-600K fee on uscis.gov/n-600k, including whether you qualify for a reduced fee or waiver, then refile quickly. A rejected filing does not hold your place in line.",
+  "es": "Te regresaron el N-600K por un pago incorrecto. Revisa la tarifa actual del N-600K en uscis.gov/n-600k, incluido si calificas para una tarifa reducida o exención, y vuelve a presentar rápido. Un trámite rechazado no guarda tu lugar en la fila."
+ },
+ "expedite-request-received": {
+  "en": "USCIS logged your request to speed up the N-600K. A common reason is that the child will soon turn 18, which would end eligibility. Send proof of the child's birth date and any other urgent reason.",
+  "es": "USCIS registró tu petición para acelerar el N-600K. Una razón común es que el niño pronto cumplirá 18, lo que terminaría su elegibilidad. Manda prueba de la fecha de nacimiento del niño y de cualquier otra razón urgente."
+ },
+ "withdrawal-acknowledgement-notice-was-sent": {
+  "en": "USCIS confirmed you withdrew the N-600K. The child does not become a citizen through this case. If the child later moves to the U.S. as a green card holder, citizenship may come automatically instead, and you could then file an N-600.",
+  "es": "USCIS confirmó que retiraste el N-600K. El niño no se hace ciudadano por este caso. Si después se muda a EE.UU. con green card, la ciudadanía podría llegar de forma automática, y entonces podrías presentar un N-600."
+ },
+ "name-was-updated": {
+  "en": "USCIS updated a name on the N-600K record. The child's Certificate of Citizenship will be printed with the name on file, so check it matches the child's passport and birth certificate. Fixing a printed certificate later takes a separate request.",
+  "es": "USCIS actualizó un nombre en el expediente del N-600K. El Certificado de Ciudadanía del niño se imprimirá con el nombre registrado, así que revisa que coincida con su pasaporte y acta de nacimiento antes del juramento."
+ },
+ "case-was-received-and-a-receipt-notice-was-emailed": {
+  "en": "You filed the N-600K online and the receipt is in your USCIS account. Online filing works well when you live abroad, since notices arrive faster. Check the account often for the interview notice. Download the receipt as a PDF.",
+  "es": "Presentaste el N-600K en línea y el recibo está en tu cuenta de USCIS. Presentar en línea ayuda cuando vives fuera, porque los avisos llegan más rápido. Revisa la cuenta seguido para ver el aviso de entrevista."
+ },
+ "case-accepted-by-the-uscis-lockbox": {
+  "en": "The USCIS lockbox accepted your paper N-600K and is processing the payment. A receipt notice comes next. If you live abroad, make sure the mailing address on the form can receive U.S. mail reliably. Keep copies of everything you sent.",
+  "es": "El lockbox de USCIS aceptó tu N-600K en papel y está procesando el pago. Lo siguiente es el aviso de recibo. Si vives fuera, asegúrate de que la dirección del formulario reciba correo de EE.UU. sin problemas."
+ },
+ "fees-were-waived": {
+  "en": "USCIS approved your fee waiver for the N-600K. Your case now moves into regular processing. Remember the child's travel costs to the U.S. for the interview are separate and still need planning. Keep the waiver approval letter.",
+  "es": "USCIS aprobó la exención de pago de tu N-600K. Tu caso sigue ahora el trámite normal. Recuerda que los gastos de viaje del niño a EE.UU. para la entrevista son aparte y hay que planearlos con tiempo."
+ },
+ "case-was-rejected-because-it-was-improperly-filed": {
+  "en": "Your N-600K was returned without review. Common causes are a missing parent signature, filing for a child who already lives in the U.S. (that case uses the N-600), or an outdated form. Fix the problem and file again.",
+  "es": "Te regresaron el N-600K sin revisarlo. Causas comunes: falta la firma del padre o madre, presentarlo para un niño que ya vive en EE.UU. (ese caso usa el N-600) o una edición vieja del formulario. Corrige el problema y preséntalo otra vez."
+ },
+ "biometrics-appointment-was-scheduled": {
+  "en": "A biometrics appointment was set in your N-600K case. It will be at a U.S. location, so the date may need to fit the child's visit. Bring the notice and the child's passport. Contact USCIS early if the date does not work with travel.",
+  "es": "Hay cita de biométricos en tu caso N-600K. Será en un lugar de EE.UU., así que la fecha debe coincidir con la visita del niño. Lleva el aviso y el pasaporte del niño. Avisa pronto a USCIS si la fecha no cuadra con el viaje."
+ },
+ "case-was-updated-to-show-fingerprints-were-taken": {
+  "en": "USCIS recorded that biometrics were taken in your N-600K case. The officer can continue toward the interview and decision. Keep the child's travel documents ready in case the interview is set soon. Keep the stamped appointment notice.",
+  "es": "USCIS registró que ya se tomaron biométricos en tu caso N-600K. El oficial puede seguir hacia la entrevista y la decisión. Ten listos los documentos de viaje del niño por si la entrevista se programa pronto."
+ },
+ "interview-was-rescheduled": {
+  "en": "Your N-600K interview has a new date. Check the new notice and adjust travel plans; the child must still be in the U.S. lawfully on that day. If the new date is close to the child's 18th birthday, tell USCIS right away.",
+  "es": "Tu entrevista del N-600K tiene nueva fecha. Revisa el aviso y ajusta el viaje; el niño debe estar legalmente en EE.UU. ese día. Si la nueva fecha queda cerca de que el niño cumpla 18, avisa a USCIS de inmediato."
+ },
+ "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+  "en": "USCIS shows no one came to the N-600K appointment. This can lead to denial for abandonment. Contact USCIS right away to explain and ask for a new date, and keep proof such as travel or visa problems.",
+  "es": "USCIS indica que nadie fue a la cita del N-600K. Esto puede llevar a negación por abandono. Comunícate con USCIS de inmediato para explicar y pedir nueva fecha, y guarda pruebas, como problemas de viaje o de visa."
+ },
+ "oath-ceremony-will-be-scheduled": {
+  "en": "Your N-600K is approved and USCIS will set the oath. This is the step that actually makes the child a U.S. citizen. The child must be in the U.S. lawfully for it and still under 18. Very young children often have the oath waived.",
+  "es": "Tu N-600K está aprobado y USCIS dará cita para el juramento. Este es el paso que de verdad hace ciudadano al niño. Debe estar legalmente en EE.UU. y seguir siendo menor de 18. A los niños muy pequeños muchas veces les dispensan el juramento."
+ },
+ "oath-ceremony-notice-was-mailed": {
+  "en": "The N-600K oath notice is in the mail. Bring the notice, the child's passport with the U.S. entry record and your ID. After the oath the child receives the Certificate of Citizenship; check it before leaving, then apply for a U.S. passport.",
+  "es": "El aviso de juramento del N-600K viene por correo. Lleva el aviso, el pasaporte del niño con su registro de entrada a EE.UU. y tu identificación. Después del juramento recibe el Certificado de Ciudadanía; revísalo antes de salir y luego pide su pasaporte."
+ },
+ "case-was-approved-and-my-decision-was-emailed": {
+  "en": "Your N-600K approval is in your USCIS online account. The child is not a citizen until the oath is taken or waived, so watch for the oath appointment and keep the child's travel plans flexible.",
+  "es": "Tu aprobación del N-600K está en tu cuenta de USCIS en línea. El niño no es ciudadano hasta hacer el juramento o que se lo dispensen, así que espera la cita de juramento y mantén flexibles los planes de viaje del niño."
+ },
+ "case-approval-was-certified-by-uscis": {
+  "en": "USCIS certified the approval of your N-600K. This is an internal confirmation step. The next milestone is the oath, or its waiver, and then the Certificate of Citizenship for your child. Check that the child can travel in time.",
+  "es": "USCIS certificó la aprobación de tu N-600K. Es un paso interno de confirmación. Lo siguiente es el juramento, o su dispensa, y después el Certificado de Ciudadanía para tu hijo. Revisa que el niño pueda viajar."
+ },
+ "response-to-uscis-notice-of-intent-was-received": {
+  "en": "USCIS received your reply to its notice of intent on the N-600K. That notice means the officer was leaning toward denial, often over physical presence or custody proof. Given the age deadline, consider an immigration attorney or accredited representative now.",
+  "es": "USCIS recibió tu respuesta al aviso de intención sobre tu N-600K. Ese aviso significa que el oficial pensaba negar, muchas veces por la prueba de presencia física o de custodia. Por el límite de edad, considera ahora un abogado de inmigración o representante acreditado."
+ },
+ "case-is-pending-at-a-local-office": {
+  "en": "Your N-600K is at a local USCIS office, usually the one where the interview and oath will happen. Plan the child's trip around that city, and watch for the interview notice. Have original documents ready to bring.",
+  "es": "Tu N-600K está en una oficina local de USCIS, normalmente donde serán la entrevista y el juramento. Planea el viaje del niño a esa ciudad y espera el aviso de entrevista. Ten listos los documentos originales."
+ },
+ "duplicate-notice-was-mailed": {
+  "en": "USCIS mailed a copy of a notice for your N-600K. It is a duplicate, not a new decision. Keep it with the child's papers; an extra copy can help when the child applies for a visitor visa.",
+  "es": "USCIS mandó una copia de un aviso de tu N-600K. Es un duplicado, no una nueva decisión. Guárdalo con los papeles del niño; una copia extra puede ayudar cuando pida la visa de visitante. Revisa que los datos coincidan."
+ },
+ "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+  "en": "A notice for your N-600K came back to USCIS undelivered. It could be the interview date. Update your address in your USCIS account and ask USCIS to resend it, so the child does not miss the appointment.",
+  "es": "Un aviso de tu N-600K regresó a USCIS sin entregarse. Puede ser la fecha de entrevista. Actualiza tu dirección en tu cuenta de USCIS y pide que lo reenvíen, para que el niño no pierda la cita."
+ },
+ "date-of-birth-was-updated": {
+  "en": "USCIS corrected the child's date of birth on the N-600K record. This is important because the child must finish the process before turning 18. Check that the certificate shows the correct date. Fixing it later takes another request.",
+  "es": "USCIS corrigió la fecha de nacimiento del niño en el expediente del N-600K. Esto es importante porque el niño debe terminar el proceso antes de cumplir 18. Revisa que el certificado muestre la fecha correcta."
+ },
+ "continuation-notice-was-mailed": {
+  "en": "USCIS sent a continuation notice on your N-600K. It usually means the case is still open and another step is coming, like the interview. It is not a decision. Keep travel documents ready. Check your USCIS account often.",
+  "es": "USCIS mandó un aviso de continuación de tu N-600K. Normalmente significa que el caso sigue abierto y viene otro paso, como la entrevista. No es una decisión. Ten listos los documentos de viaje del niño."
+ },
+ "termination-notice-sent": {
+  "en": "USCIS sent a termination notice on your N-600K. This can happen if the child turned 18 before finishing or no longer qualifies. Read the notice carefully and speak with an immigration attorney or accredited representative about other paths.",
+  "es": "USCIS mandó un aviso de terminación de tu N-600K. Puede pasar si el niño cumplió 18 antes de terminar o ya no califica. Lee el aviso con cuidado y habla con un abogado de inmigración o representante acreditado sobre otras opciones."
+ },
+ "case-closed-benefit-received-by-other-means": {
+  "en": "USCIS closed your N-600K because the child got citizenship another way, for example by moving to the U.S. as a green card holder and acquiring citizenship automatically. You can file an N-600 for the certificate in that case.",
+  "es": "USCIS cerró tu N-600K porque el niño obtuvo la ciudadanía por otra vía, por ejemplo al mudarse a EE.UU. con green card y adquirirla automáticamente. En ese caso puedes presentar un N-600 para el certificado."
+ },
+ "expedite-request-denied": {
+  "en": "USCIS will not speed up your N-600K. The case stays in the normal line. If the child is close to turning 18, ask again with clear proof of the deadline, or seek legal help about options.",
+  "es": "USCIS no va a acelerar tu N-600K. El caso sigue en la fila normal. Si el niño está por cumplir 18, vuelve a pedirlo con prueba clara de esa fecha, o busca ayuda legal sobre otras opciones."
+ },
+ "correspondence-was-received-and-uscis-is-reviewing-it": {
+  "en": "USCIS received something you sent about your N-600K, such as a request for a different interview office or updated custody papers. An officer will review it and add it to the file. Keep a copy.",
+  "es": "USCIS recibió algo que mandaste sobre tu N-600K, como una petición de otra oficina para la entrevista o papeles de custodia actualizados. Un oficial lo revisará y lo agregará al expediente. Guarda una copia. No hace falta enviarlo otra vez."
+ }
+}

@@ -1,0 +1,178 @@
+{
+ "case-was-received": {
+  "en": "USCIS has your I-914 for T nonimmigrant status. Information in T visa cases is protected by special confidentiality rules, so USCIS generally cannot share it with the person who harmed you. There is no filing fee for the I-914. The next steps are usually biometrics and a first review called the bona fide determination.",
+  "es": "USCIS tiene tu I-914 para el estatus de no inmigrante T. La información de los casos de visa T está protegida por reglas especiales de confidencialidad, así que USCIS en general no puede compartirla con quien te hizo daño. El I-914 no tiene tarifa. Lo siguiente suele ser biométricos y una primera revisión llamada determinación de buena fe."
+ },
+ "case-was-received-and-a-receipt-notice-was-sent": {
+  "en": "Your I-797C receipt for the I-914 is in the mail. If you added family members with Supplement A, each one should get a separate receipt. Use a safe mailing address you trust; you can update it any time to protect your privacy.",
+  "es": "Tu recibo I-797C del I-914 viene por correo. Si agregaste familiares con el Suplemento A, cada uno debe recibir su propio recibo. Usa una dirección postal segura y de confianza; puedes cambiarla cuando quieras para proteger tu privacidad y tu seguridad."
+ },
+ "fingerprint-fee-was-received": {
+  "en": "USCIS recorded the biometrics step for your I-914. T visa applicants do not pay a biometrics fee, so this status mainly confirms that the biometrics part of your case is set up. An appointment notice should follow by mail.",
+  "es": "USCIS registró el paso de biométricos de tu I-914. Los solicitantes de visa T no pagan cuota de biométricos, así que este estatus sobre todo confirma que esa parte de tu caso está lista. Después llegará por correo el aviso de cita."
+ },
+ "fingerprint-review-was-completed": {
+  "en": "The background check on your I-914 fingerprints is done. This helps USCIS move toward the bona fide determination, which can lead to deferred action and a work permit while the full T visa decision is pending.",
+  "es": "La revisión de antecedentes con tus huellas del I-914 terminó. Esto ayuda a USCIS a avanzar hacia la determinación de buena fe, que puede darte acción diferida y permiso de trabajo mientras se decide la visa T completa."
+ },
+ "case-is-being-actively-reviewed-by-uscis": {
+  "en": "An officer is reviewing your I-914. They look at your statement, proof that you are a trafficking victim, that you are in the U.S. because of it, and your cooperation with reasonable law enforcement requests unless an exception applies. A request for evidence or decision may follow.",
+  "es": "Un oficial está revisando tu I-914. Revisa tu declaración, las pruebas de que eres víctima de trata, que estás en EE.UU. por esa razón y tu cooperación con peticiones razonables de las autoridades, salvo que aplique una excepción. Después puede llegar una petición de evidencia o la decisión."
+ },
+ "request-for-additional-evidence-was-sent": {
+  "en": "USCIS needs more proof for your I-914. They might ask for a more detailed personal statement, records from police or a service provider, or evidence of the harm you would face if removed. Answer by the deadline; a victim advocate or attorney can help you gather it.",
+  "es": "USCIS necesita más pruebas para tu I-914. Puede pedir una declaración personal más detallada, registros de policía o de una organización que te ayuda, o pruebas del daño que sufrirías si te sacan del país. Responde antes de la fecha límite; un defensor de víctimas o abogado puede ayudarte."
+ },
+ "request-for-initial-evidence-was-sent": {
+  "en": "Your I-914 was missing something required, such as your signed personal statement, passport photos, or a needed waiver form like the I-192. Send exactly what the notice lists before the deadline so the case can move forward.",
+  "es": "A tu I-914 le faltó algo obligatorio, como tu declaración personal firmada, fotos tipo pasaporte o un formulario de perdón necesario, como el I-192. Manda justo lo que dice el aviso antes de la fecha límite para que el caso avance."
+ },
+ "response-to-uscis-request-for-evidence-was-received": {
+  "en": "USCIS has your evidence for the I-914. The officer will continue the review. Remember that T visa cases often take a long time; compare your wait with the typical range shown on this page before worrying.",
+  "es": "USCIS ya tiene tus pruebas del I-914. El oficial seguirá con la revisión. Recuerda que los casos de visa T suelen tardar mucho; compara tu espera con el rango típico que aparece en esta página antes de preocuparte."
+ },
+ "case-was-transferred-and-a-new-office-has-jurisdiction": {
+  "en": "Your I-914 moved to another USCIS office. T visa cases are handled by specially trained teams, and moving between them is normal. Your receipt number and confidentiality protections stay the same. Keep your mailing address current so new notices reach you.",
+  "es": "Tu I-914 pasó a otra oficina de USCIS. Los casos de visa T los manejan equipos con capacitación especial y es normal que se muevan entre ellos. Tu número de recibo y tus protecciones de confidencialidad siguen iguales."
+ },
+ "case-was-approved": {
+  "en": "Your I-914 was approved and you now have T-1 nonimmigrant status. USCIS usually issues a work permit card with the approval, and the approval notice includes your I-94. After enough time in T status, usually three years, you may be able to apply for a green card.",
+  "es": "Aprobaron tu I-914 y ahora tienes estatus T-1. USCIS normalmente emite una tarjeta de permiso de trabajo con la aprobación, y el aviso de aprobación trae tu I-94. Después de cierto tiempo en estatus T, por lo general tres años, podrías pedir la green card."
+ },
+ "new-card-is-being-produced": {
+  "en": "USCIS is printing the work permit card linked to your T visa case. This may come from your T-1 approval or from a bona fide determination that granted deferred action. The card shows a category code; keep it to show employers.",
+  "es": "USCIS está imprimiendo la tarjeta de permiso de trabajo de tu caso de visa T. Puede venir de tu aprobación T-1 o de una determinación de buena fe que te dio acción diferida. La tarjeta tiene un código de categoría; guárdala para mostrarla a tu empleador."
+ },
+ "card-was-mailed-to-me": {
+  "en": "Your work permit card from the T visa case was mailed. Watch your mailbox; if you used a safe address with an advocate or attorney, check with them. When it arrives, confirm your name, birth date and the end date printed on the card.",
+  "es": "Te enviaron por correo la tarjeta de permiso de trabajo de tu caso de visa T. Revisa tu buzón; si usaste una dirección segura con un defensor o abogado, pregúntales. Cuando llegue, confirma tu nombre, fecha de nacimiento y la fecha de vencimiento impresa."
+ },
+ "card-was-picked-up-by-the-united-states-postal-service": {
+  "en": "The Postal Service has your work permit card from the T visa case. Use the tracking number in your USCIS account to follow delivery. The card authorizes you to work, so plan to show it to your employer once it arrives.",
+  "es": "El Servicio Postal ya tiene tu tarjeta de permiso de trabajo del caso de visa T. Usa el número de rastreo de tu cuenta de USCIS para seguir la entrega. La tarjeta te autoriza a trabajar, así que muéstrala a tu empleador cuando llegue."
+ },
+ "card-was-delivered-to-me-by-the-post-office": {
+  "en": "The Postal Service shows your T visa work permit card was delivered. If you did not get it, check with anyone at that address, then contact USCIS soon. Keep the card safe, since it is also proof of your status for jobs and some benefits.",
+  "es": "El Servicio Postal indica que entregó tu tarjeta de permiso de trabajo de visa T. Si no la recibiste, pregunta a quien viva en esa dirección y luego avisa pronto a USCIS. Cuida la tarjeta: también es prueba de tu estatus para trabajos y algunos beneficios."
+ },
+ "document-was-mailed-to-me": {
+  "en": "USCIS mailed a document for your I-914, often the approval notice with your I-94, or a bona fide determination notice. Keep it in a safe place. It shows your status and the dates that matter for a future green card application.",
+  "es": "USCIS mandó por correo un documento de tu I-914, muchas veces el aviso de aprobación con tu I-94 o un aviso de determinación de buena fe. Guárdalo en un lugar seguro. Muestra tu estatus y las fechas que importan para pedir la green card después."
+ },
+ "notice-explaining-uscis-actions-was-mailed": {
+  "en": "USCIS mailed a letter about your I-914. It might be a bona fide determination, a biometrics notice or an explanation of a delay. Read it soon, and share it with your advocate or attorney if you have one.",
+  "es": "USCIS mandó una carta sobre tu I-914. Puede ser una determinación de buena fe, un aviso de biométricos o la explicación de un retraso. Léela pronto y compártela con tu defensor o abogado si tienes uno."
+ },
+ "case-was-denied": {
+  "en": "Your I-914 was denied. You may be able to appeal or file a motion with Form I-290B, and the deadline is short. Because this is a high-stakes decision, contact an immigration attorney, accredited representative or anti-trafficking organization right away.",
+  "es": "Te negaron el I-914. Quizá puedas apelar o presentar una moción con el Formulario I-290B, y el plazo es corto. Como es una decisión muy importante, busca de inmediato a un abogado de inmigración, representante acreditado u organización contra la trata."
+ },
+ "case-was-reopened": {
+  "en": "USCIS reopened your I-914, often after a motion or appeal. Your T visa case is pending again and confidentiality protections continue. Watch for new notices or requests for evidence. Share each new notice with the advocate or attorney helping you.",
+  "es": "USCIS reabrió tu I-914, muchas veces después de una moción o apelación. Tu caso de visa T vuelve a estar en trámite y las protecciones de confidencialidad siguen. Espera nuevos avisos o peticiones de evidencia y compártelos con quien te ayuda."
+ },
+ "case-rejected-because-i-sent-an-incorrect-fee": {
+  "en": "The I-914 itself has no filing fee, so this usually involves a form sent with it, like the I-192 waiver or I-765, where a fee or fee waiver request was wrong. Read the notice to see which form was returned, fix it, and resend.",
+  "es": "El I-914 no tiene tarifa, así que esto normalmente tiene que ver con un formulario que mandaste junto, como el perdón I-192 o el I-765, donde el pago o la petición de exención estaba mal. Lee el aviso para ver cuál regresaron, corrígelo y reenvíalo."
+ },
+ "expedite-request-received": {
+  "en": "USCIS logged your request to speed up the I-914. Urgent safety risks, serious medical needs or a family member in danger abroad can be reasons. Keep proof ready, such as a letter from a service provider or law enforcement.",
+  "es": "USCIS registró tu petición para acelerar el I-914. Riesgos urgentes para tu seguridad, necesidades médicas graves o un familiar en peligro en el extranjero pueden ser razones. Ten pruebas listas, como una carta de una organización de apoyo o de las autoridades."
+ },
+ "withdrawal-acknowledgement-notice-was-sent": {
+  "en": "USCIS confirmed you withdrew your I-914. The T visa request is closed and any related benefits may end. If you were pressured to withdraw, tell an advocate or attorney right away; help is available. Keep this notice in your records.",
+  "es": "USCIS confirmó que retiraste tu I-914. La solicitud de visa T queda cerrada y los beneficios relacionados pueden terminar. Si alguien te presionó para retirarla, díselo de inmediato a un defensor o abogado; hay ayuda disponible."
+ },
+ "name-was-updated": {
+  "en": "USCIS updated your name on the I-914 record. Your work permit card and approval notice should show the new name. If a card was already printed with the old name, ask USCIS how to get a corrected card.",
+  "es": "USCIS actualizó tu nombre en el expediente del I-914. Tu tarjeta de permiso de trabajo y tu aviso de aprobación deben mostrar el nombre nuevo. Si ya imprimieron una tarjeta con el nombre anterior, pregunta a USCIS cómo corregirla."
+ },
+ "case-was-received-and-a-receipt-notice-was-emailed": {
+  "en": "Your I-914 receipt is in your USCIS online account. Make sure only you, or someone you trust, can access that account and email. Download the receipt and keep a copy in a safe place. Notices can also arrive by mail.",
+  "es": "Tu recibo del I-914 está en tu cuenta de USCIS en línea. Asegúrate de que solo tú, o alguien de confianza, pueda entrar a esa cuenta y a tu correo. Descarga el recibo y guarda una copia en un lugar seguro."
+ },
+ "case-accepted-by-the-uscis-lockbox": {
+  "en": "USCIS accepted your paper I-914 for processing. Since the I-914 has no fee, the next step is the receipt notice. Supplements for family members and any waiver forms will get their own receipts. Keep copies of everything you sent.",
+  "es": "USCIS aceptó tu I-914 en papel para procesarlo. Como el I-914 no tiene tarifa, lo siguiente es el aviso de recibo. Los suplementos de familiares y los formularios de perdón recibirán sus propios recibos. Guarda copias de todo lo que enviaste."
+ },
+ "fees-were-waived": {
+  "en": "USCIS approved a fee waiver in your T visa case. The I-914 itself is free, so the waiver usually covers a related form, such as the I-192 waiver of inadmissibility. Check the notice to see which form it applies to.",
+  "es": "USCIS aprobó una exención de pago en tu caso de visa T. El I-914 es gratis, así que la exención normalmente cubre un formulario relacionado, como el perdón de inadmisibilidad I-192. Revisa el aviso para ver a qué formulario aplica."
+ },
+ "case-was-rejected-because-it-was-improperly-filed": {
+  "en": "Your I-914 was returned without review. Common causes are a missing signature, an old form edition or a missing supplement page. Fix the problem on the notice and file again. A victim advocate can help check the package first.",
+  "es": "Te regresaron el I-914 sin revisarlo. Causas comunes: falta de firma, una edición vieja del formulario o una hoja de suplemento que faltó. Corrige lo que dice el aviso y preséntalo otra vez. Un defensor de víctimas puede ayudarte a revisar el paquete."
+ },
+ "biometrics-appointment-was-scheduled": {
+  "en": "USCIS set a biometrics appointment for your I-914. They will take your photo, fingerprints and signature for background checks and for the work permit card. Bring the notice and a photo ID. If you need to reschedule for safety reasons, contact USCIS.",
+  "es": "USCIS te dio cita de biométricos para tu I-914. Te tomarán foto, huellas y firma para revisar antecedentes y para la tarjeta de permiso de trabajo. Lleva el aviso y una identificación con foto. Si por seguridad necesitas cambiar la cita, avisa a USCIS."
+ },
+ "case-was-updated-to-show-fingerprints-were-taken": {
+  "en": "USCIS recorded that your biometrics for the I-914 were taken. Background checks are now running. The next big step is often the bona fide determination, which can give you deferred action and a work permit while you wait.",
+  "es": "USCIS registró que ya te tomaron biométricos para el I-914. Ya corren las revisiones de antecedentes. El siguiente paso importante suele ser la determinación de buena fe, que puede darte acción diferida y permiso de trabajo mientras esperas."
+ },
+ "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+  "en": "USCIS shows you missed the I-914 biometrics appointment. Without biometrics, your case can be denied as abandoned. Contact USCIS right away to reschedule, and explain if safety or other serious reasons kept you from going.",
+  "es": "USCIS indica que no fuiste a la cita de biométricos del I-914. Sin biométricos, tu caso puede negarse por abandono. Comunícate con USCIS de inmediato para una nueva cita y explica si razones de seguridad u otras graves te impidieron ir."
+ },
+ "case-was-approved-and-my-decision-was-emailed": {
+  "en": "Your I-914 approval is in your USCIS online account. You now have T-1 status. A work permit card usually follows by mail. Save the approval notice, since you will need its dates for a future green card application.",
+  "es": "Tu aprobación del I-914 está en tu cuenta de USCIS en línea. Ya tienes estatus T-1. La tarjeta de permiso de trabajo normalmente llega después por correo. Guarda el aviso, porque necesitarás sus fechas para pedir la green card más adelante."
+ },
+ "case-approval-was-certified-by-uscis": {
+  "en": "USCIS certified the approval of your I-914. This is an internal confirmation step. Your T-1 status stands as approved. Watch for the work permit card and keep the approval notice safe. Check the end date on your I-94 too.",
+  "es": "USCIS certificó la aprobación de tu I-914. Es un paso interno de confirmación. Tu estatus T-1 queda aprobado. Espera la tarjeta de permiso de trabajo y guarda bien el aviso de aprobación con tu I-94."
+ },
+ "response-to-uscis-notice-of-intent-was-received": {
+  "en": "USCIS received your reply to its notice of intent on the I-914. That notice means the officer was leaning toward denial. Because this decision affects your safety and status, work with an immigration attorney, accredited representative or anti-trafficking group.",
+  "es": "USCIS recibió tu respuesta al aviso de intención sobre tu I-914. Ese aviso significa que el oficial pensaba negar. Como esta decisión afecta tu seguridad y tu estatus, trabaja con un abogado de inmigración, representante acreditado u organización contra la trata."
+ },
+ "case-is-pending-at-a-local-office": {
+  "en": "Your I-914 shows as pending at a local office. T visa decisions are usually made by a central team, so this is less common. It may mean a local step, like an interview, is needed. Watch your mail and account.",
+  "es": "Tu I-914 aparece en una oficina local. Las decisiones de visa T normalmente las toma un equipo central, así que esto es menos común. Puede significar que hace falta un paso local, como una entrevista. Revisa tu correo y tu cuenta."
+ },
+ "duplicate-notice-was-mailed": {
+  "en": "USCIS mailed a copy of a notice for your I-914. It is not a new decision or a new card. Compare it with what you already have and keep it in a safe place, since T visa papers contain private information.",
+  "es": "USCIS mandó una copia de un aviso de tu I-914. No es una nueva decisión ni una tarjeta nueva. Compárala con lo que ya tienes y guárdala en un lugar seguro, porque los papeles de visa T tienen información privada."
+ },
+ "card-is-being-returned-to-uscis-by-post-office": {
+  "en": "Your T visa work permit card could not be delivered and is going back to USCIS. Update your address in your USCIS account right away. You may need to ask USCIS to resend the card once it arrives back.",
+  "es": "No pudieron entregar tu tarjeta de permiso de trabajo de visa T y va de regreso a USCIS. Actualiza tu dirección en tu cuenta de USCIS de inmediato. Quizá debas pedir que reenvíen la tarjeta cuando llegue de vuelta."
+ },
+ "card-was-returned-to-uscis": {
+  "en": "Your T visa work permit card was returned to USCIS as undeliverable. Confirm your current safe address with USCIS and ask for the card to be resent. Without the card, showing work authorization to an employer can be harder.",
+  "es": "Tu tarjeta de permiso de trabajo de visa T regresó a USCIS porque no la pudieron entregar. Confirma tu dirección segura actual con USCIS y pide que reenvíen la tarjeta. Sin la tarjeta, puede ser más difícil mostrar tu permiso de trabajo."
+ },
+ "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+  "en": "A notice for your I-914 came back to USCIS undelivered. It could be a biometrics date or a bona fide determination. Update your address online or with Form AR-11, and ask USCIS to resend it.",
+  "es": "Un aviso de tu I-914 regresó a USCIS sin entregarse. Puede ser una cita de biométricos o una determinación de buena fe. Actualiza tu dirección en línea o con el Formulario AR-11 y pide a USCIS que lo reenvíe."
+ },
+ "card-was-received-by-uscis-along-with-my-letter": {
+  "en": "USCIS received the T visa work permit card you sent back, along with your letter, usually to fix an error. They will review the request and send a corrected card. Keep a copy of your letter and the mailing receipt.",
+  "es": "USCIS recibió la tarjeta de permiso de trabajo de visa T que regresaste junto con tu carta, normalmente para corregir un error. Revisarán la petición y mandarán una tarjeta corregida. Guarda copia de tu carta y el comprobante de envío."
+ },
+ "date-of-birth-was-updated": {
+  "en": "USCIS corrected your date of birth on the I-914 record. Check that your work permit card and approval notice show the right date. If a card was already printed wrong, ask USCIS for a corrected one.",
+  "es": "USCIS corrigió tu fecha de nacimiento en el expediente del I-914. Revisa que tu tarjeta de permiso de trabajo y tu aviso de aprobación muestren la fecha correcta. Si ya imprimieron una tarjeta con error, pide una corregida."
+ },
+ "continuation-notice-was-mailed": {
+  "en": "USCIS sent a continuation notice on your I-914. It usually means the case is still open and another step is coming. It is not a final decision. Share it with your advocate or attorney if you have one.",
+  "es": "USCIS mandó un aviso de continuación de tu I-914. Normalmente significa que el caso sigue abierto y viene otro paso. No es una decisión final. Compártelo con tu defensor o abogado si tienes uno. Guárdalo en un lugar seguro."
+ },
+ "termination-notice-sent": {
+  "en": "USCIS sent a termination notice in your T visa case. T status can be ended in some situations, such as a finding that the person no longer qualifies. Read the notice carefully and contact an immigration attorney or anti-trafficking organization right away.",
+  "es": "USCIS mandó un aviso de terminación en tu caso de visa T. El estatus T se puede terminar en algunos casos, por ejemplo si deciden que ya no calificas. Lee el aviso con cuidado y busca de inmediato a un abogado de inmigración u organización contra la trata."
+ },
+ "case-closed-benefit-received-by-other-means": {
+  "en": "USCIS closed your I-914 because you got status another way, for example a U visa, asylum or a green card. Check which status you now hold and keep the closing notice with your immigration papers.",
+  "es": "USCIS cerró tu I-914 porque obtuviste estatus por otra vía, por ejemplo una visa U, asilo o una green card. Revisa qué estatus tienes ahora y guarda el aviso de cierre con tus papeles de inmigración."
+ },
+ "expedite-request-denied": {
+  "en": "USCIS will not speed up your I-914. The case stays in normal processing. If your safety situation changes or gets worse, you can send a new request with new proof, ideally with help from an advocate.",
+  "es": "USCIS no va a acelerar tu I-914. El caso sigue en el trámite normal. Si tu situación de seguridad cambia o empeora, puedes mandar una nueva petición con pruebas nuevas, de preferencia con ayuda de un defensor."
+ },
+ "correspondence-was-received-and-uscis-is-reviewing-it": {
+  "en": "USCIS received something you sent about your I-914, such as a new safe address or an updated law enforcement declaration. An officer will review it and add it to your file. Keep a copy for your records.",
+  "es": "USCIS recibió algo que mandaste sobre tu I-914, como una nueva dirección segura o una declaración actualizada de las autoridades. Un oficial lo revisará y lo agregará a tu expediente. Guarda una copia. No necesitas enviarlo otra vez."
+ }
+}

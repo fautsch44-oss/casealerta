@@ -1,0 +1,158 @@
+{
+  "case-was-received": {
+    "en": "Your N-565 request for a replacement citizenship document is in line. Your U.S. citizenship itself is not in question; only the paper certificate is being replaced. If you need proof of citizenship sooner, a U.S. passport, if you already have one, works for most purposes while you wait.",
+    "es": "Tu solicitud N-565 para reemplazar tu documento de ciudadanía ya está en fila. Tu ciudadanía estadounidense no está en duda; solo se reemplaza el certificado en papel. Si necesitas prueba de ciudadanía antes, un pasaporte de EE.UU., si ya tienes uno, sirve para casi todo mientras esperas."
+  },
+  "case-was-received-and-a-receipt-notice-was-sent": {
+    "en": "The I-797C receipt for your N-565 is in the mail. Keep it with your records. Unlike some other receipts, it is not proof of citizenship by itself, so for jobs or benefits rely on a U.S. passport or other accepted evidence while the new certificate is made.",
+    "es": "El recibo I-797C de tu N-565 viene por correo. Guárdalo con tus papeles. A diferencia de otros recibos, este no es prueba de ciudadanía por sí solo, así que para trabajo o beneficios usa un pasaporte de EE.UU. u otra prueba aceptada mientras hacen el certificado nuevo."
+  },
+  "fingerprint-fee-was-received": {
+    "en": "USCIS applied a biometrics payment to your N-565. Not every replacement needs a new appointment, but USCIS may want fresh fingerprints and a photo to confirm your identity before printing a new certificate. If so, a notice for an Application Support Center visit will follow.",
+    "es": "USCIS aplicó un pago de biométricos a tu N-565. No todos los reemplazos necesitan cita nueva, pero USCIS puede querer huellas y foto nuevas para confirmar tu identidad antes de imprimir el certificado. Si es así, te llegará un aviso para ir a un Centro de Apoyo de Solicitudes (ASC)."
+  },
+  "fingerprint-review-was-completed": {
+    "en": "The identity check from your N-565 fingerprints is complete. For a certificate replacement, this mainly confirms that you are the person named on the original. The next step is usually a decision and printing of the replacement certificate.",
+    "es": "Terminó la revisión de identidad con las huellas de tu N-565. En un reemplazo de certificado, esto sobre todo confirma que tú eres la persona del certificado original. Lo que suele seguir es la decisión y la impresión del certificado de reemplazo."
+  },
+  "case-is-being-actively-reviewed-by-uscis": {
+    "en": "An officer is reviewing your N-565, comparing your request with USCIS records of your naturalization or citizenship. If you reported a lost or stolen certificate, they check your explanation; if you asked for a correction, they check whether the record supports it.",
+    "es": "Un oficial está revisando tu N-565 y lo compara con los registros de USCIS de tu naturalización o ciudadanía. Si reportaste un certificado perdido o robado, revisa tu explicación; si pediste una corrección, revisa si el expediente la respalda."
+  },
+  "request-for-additional-evidence-was-sent": {
+    "en": "N-565 RFEs often ask for the court order or marriage certificate behind a name change, a police report for a stolen certificate, or the damaged original itself. Send every item listed before the deadline, with the notice on top.",
+    "es": "En el N-565 el RFE suele pedir la orden judicial o el acta de matrimonio del cambio de nombre, un reporte de policía si te robaron el certificado, o el original dañado. Manda cada cosa que pide antes del plazo, con el aviso encima de todo."
+  },
+  "request-for-initial-evidence-was-sent": {
+    "en": "Something required was missing from your N-565, often passport-style photos, a copy of the certificate if you still have one, or proof of your legal name change. Send exactly what the notice lists before the deadline so the request can move forward.",
+    "es": "Faltó algo obligatorio en tu N-565, muchas veces las fotos tipo pasaporte, copia del certificado si todavía la tienes, o prueba de tu cambio legal de nombre. Manda exactamente lo que pide el aviso antes del plazo para que la solicitud avance."
+  },
+  "response-to-uscis-request-for-evidence-was-received": {
+    "en": "USCIS has the documents you sent for your N-565. If they settle the question, the next steps are usually approval and the new certificate in the mail. Keep copies of everything you sent, especially originals you had to mail.",
+    "es": "USCIS ya tiene los documentos que mandaste para tu N-565. Si resuelven la duda, lo que suele seguir es la aprobación y el certificado nuevo por correo. Guarda copias de todo lo que mandaste, sobre todo de los originales que tuviste que enviar."
+  },
+  "case-was-transferred-and-a-new-office-has-jurisdiction": {
+    "en": "Your N-565 was moved to another office. Sometimes a replacement is sent to the field office that holds your naturalization file, or to one near you if the certificate will be handed over in person. Check the new office in your account or notice.",
+    "es": "Tu N-565 pasó a otra oficina. A veces el reemplazo se manda a la oficina local que tiene tu expediente de naturalización, o a una cerca de ti si te entregarán el certificado en persona. Revisa la nueva oficina en tu cuenta o en el aviso."
+  },
+  "case-was-approved": {
+    "en": "Your N-565 was approved, so a replacement Certificate of Naturalization or Certificate of Citizenship will be issued. The new certificate keeps your original citizenship date. It is usually mailed, though some offices hand it over at an appointment.",
+    "es": "Aprobaron tu N-565, así que te van a emitir un Certificado de Naturalización o de Ciudadanía de reemplazo. El certificado nuevo conserva tu fecha original de ciudadanía. Normalmente llega por correo, aunque algunas oficinas lo entregan en una cita."
+  },
+  "document-was-mailed-to-me": {
+    "en": "Your replacement citizenship certificate is in the mail. When it arrives, check your name, date of birth and other details. Store it somewhere safe, and avoid making photocopies for casual use; a passport is easier to carry as proof.",
+    "es": "Tu certificado de ciudadanía de reemplazo va por correo. Cuando llegue, revisa tu nombre, fecha de nacimiento y demás datos. Guárdalo en un lugar seguro y evita sacarle copias para cualquier trámite; un pasaporte es más práctico como prueba."
+  },
+  "notice-explaining-uscis-actions-was-mailed": {
+    "en": "For an N-565, this letter may ask you to come in to receive your certificate, return a damaged original, or explain a discrepancy in your records. Open it right away and look for any appointment date or deadline.",
+    "es": "En un N-565, esta carta puede pedirte que vayas por tu certificado, que devuelvas el original dañado o que expliques una diferencia en tus registros. Ábrela de inmediato y busca cualquier fecha de cita o plazo para responder."
+  },
+  "case-was-denied": {
+    "en": "A denied N-565 does not take away your citizenship; it only means USCIS will not issue a replacement for now. The letter explains the reason and whether you can appeal or file a motion with Form I-290B. An immigration attorney can help if the reason is complex.",
+    "es": "Que nieguen tu N-565 no te quita la ciudadanía; solo significa que USCIS por ahora no emitirá un reemplazo. La carta explica la razón y si puedes apelar o pedir una moción con el formulario I-290B. Un abogado de inmigración puede ayudarte si la razón es complicada."
+  },
+  "case-was-reopened": {
+    "en": "Your N-565 is open again, often after a motion or because USCIS found an error in its decision. The officer will look at the replacement request again and may ask for more documents, such as proof of a name change.",
+    "es": "Tu N-565 está abierto otra vez, muchas veces por una moción o porque USCIS encontró un error en su decisión. El oficial volverá a revisar la solicitud de reemplazo y puede pedir más documentos, como prueba de un cambio de nombre."
+  },
+  "case-rejected-because-i-sent-an-incorrect-fee": {
+    "en": "Your N-565 was returned because of the payment. Check the current fee on uscis.gov. If you are asking to fix an error USCIS made on your certificate, no fee is required. Correct the payment and refile.",
+    "es": "Te regresaron el N-565 por el pago. Revisa el costo actual en uscis.gov. Si pides corregir un error que USCIS cometió en tu certificado, no se paga nada. Corrige el pago y vuelve a presentarlo para que tu solicitud entre en fila."
+  },
+  "expedite-request-received": {
+    "en": "USCIS is reviewing your request to speed up your N-565. Expedites are granted only for listed reasons. If you need to prove citizenship urgently, for example for a job, applying for or using a U.S. passport may be a faster path.",
+    "es": "USCIS está revisando tu petición de acelerar tu N-565. Solo se acelera por razones de la lista. Si necesitas probar tu ciudadanía con urgencia, por ejemplo para un trabajo, sacar o usar un pasaporte de EE.UU. puede ser un camino más rápido."
+  },
+  "withdrawal-acknowledgement-notice-was-sent": {
+    "en": "Your N-565 was withdrawn, so no replacement certificate will come from it. Your citizenship is not affected in any way. If you later need a new certificate, for example to prove citizenship for a relative's case, you would file a new N-565.",
+    "es": "Tu N-565 quedó retirado, así que no llegará un certificado de reemplazo por este caso. Tu ciudadanía no se ve afectada en nada. Si más adelante necesitas un certificado nuevo, tendrías que presentar otro N-565 desde el principio."
+  },
+  "name-was-updated": {
+    "en": "Updating the name after a marriage or court-ordered change is a common reason to file an N-565, and USCIS has updated your record. Your new certificate should show this name. Compare it with your legal documents now to catch any mistakes early.",
+    "es": "Actualizar el nombre después de casarte o de un cambio por orden judicial es una razón común para el N-565, y USCIS ya actualizó tu expediente. Tu certificado nuevo debería mostrar este nombre. Compáralo ya con tus documentos legales para detectar errores a tiempo."
+  },
+  "case-was-received-and-a-receipt-notice-was-emailed": {
+    "en": "Your N-565 receipt arrived by email, likely because you filed online. Save the PDF. You can follow the replacement request in your USCIS account, where biometrics or pickup appointment notices may also appear, so check it every so often.",
+    "es": "El recibo de tu N-565 llegó por correo electrónico, seguramente porque lo presentaste en línea. Guarda el PDF. Puedes seguir la solicitud de reemplazo en tu cuenta de USCIS, donde también pueden aparecer avisos de cita."
+  },
+  "case-accepted-by-the-uscis-lockbox": {
+    "en": "The lockbox accepted your paper N-565 and processed the payment. A receipt notice comes next. If you sent a damaged or incorrect certificate with the form, keep your mailing proof, since that original is now with USCIS.",
+    "es": "El lockbox aceptó tu N-565 en papel y procesó el pago. Lo siguiente es el recibo. Si mandaste el certificado dañado o con errores junto con el formulario, guarda tu comprobante de envío, porque ese original ya está con USCIS."
+  },
+  "fees-were-waived": {
+    "en": "USCIS approved your fee waiver for the N-565, so you do not pay for the replacement certificate. Everything else works as usual: review, a decision, and then the new certificate by mail or in person. Keep the waiver approval with your records.",
+    "es": "USCIS aprobó tu exención de pago para el N-565, así que no pagas por el certificado de reemplazo. Todo lo demás sigue igual: revisión, decisión y envío del certificado nuevo. Guarda la aprobación de la exención junto con tus papeles."
+  },
+  "case-was-rejected-because-it-was-improperly-filed": {
+    "en": "Your N-565 was returned without review, for reasons like a missing signature, an old form edition, or missing photos. A rejected request does not keep any place in line, so fix the issue and refile.",
+    "es": "Te regresaron el N-565 sin revisarlo, por razones como falta de firma, una edición vieja del formulario o falta de fotos. Una solicitud rechazada no conserva lugar en la fila, así que corrige el problema y preséntala otra vez."
+  },
+  "biometrics-appointment-was-scheduled": {
+    "en": "USCIS wants new fingerprints and a photo for your N-565, which helps confirm your identity before issuing a replacement certificate. Bring the notice and a photo ID, such as your U.S. passport or driver's license.",
+    "es": "USCIS quiere huellas y foto nuevas para tu N-565, lo que ayuda a confirmar tu identidad antes de emitir el certificado de reemplazo. Lleva el aviso y una identificación con foto, como tu pasaporte de EE.UU. o licencia de manejo."
+  },
+  "case-was-updated-to-show-fingerprints-were-taken": {
+    "en": "USCIS recorded your N-565 biometrics. With your identity confirmed, the officer can move toward a decision on the replacement certificate. Watch your mail and online account for the next step, which may be an approval or a pickup appointment.",
+    "es": "USCIS registró tus biométricos del N-565. Con tu identidad confirmada, el oficial puede avanzar hacia la decisión del certificado de reemplazo. Pendiente de tu correo y tu cuenta en línea para el siguiente paso del trámite."
+  },
+  "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+    "en": "You missed an in-person appointment for your N-565, either biometrics or a visit to pick up your certificate. Contact USCIS soon to reschedule. If you do not, the request may be denied or the certificate held.",
+    "es": "Faltaste a una cita en persona de tu N-565, ya sea de biométricos o para recoger tu certificado. Comunícate pronto con USCIS para cambiar la cita. Si no, pueden negar la solicitud o retener el certificado."
+  },
+  "oath-ceremony-will-be-scheduled": {
+    "en": "This status is unusual for an N-565, because you are already a citizen and do not take the oath again. Some offices hand out replacement certificates at a ceremony or appointment instead of mailing them. Read any notice you receive to see what is being scheduled.",
+    "es": "Este estatus es raro en un N-565, porque ya eres ciudadano y no vuelves a jurar. Algunas oficinas entregan los certificados de reemplazo en una ceremonia o cita en vez de mandarlos por correo. Lee cualquier aviso que te llegue para ver qué te están programando."
+  },
+  "oath-ceremony-notice-was-mailed": {
+    "en": "For an N-565, a ceremony notice usually means your replacement certificate will be delivered in person at that event or appointment. You do not take the oath again. Bring the notice and a photo ID, and check the certificate before you leave.",
+    "es": "En un N-565, un aviso de ceremonia normalmente significa que te entregarán el certificado de reemplazo en persona en ese evento o cita. No vuelves a jurar. Lleva el aviso y una identificación con foto, y revisa el certificado antes de irte."
+  },
+  "case-was-approved-and-my-decision-was-emailed": {
+    "en": "Your N-565 approval is in your online account. The replacement certificate is sent separately, usually by mail, though some offices ask you to pick it up. Make sure your mailing address is current so the certificate is not returned.",
+    "es": "La aprobación de tu N-565 está en tu cuenta en línea. El certificado de reemplazo se manda aparte, normalmente por correo. Asegúrate de que tu dirección esté al día para que no regresen el certificado a USCIS y tengas que esperar más."
+  },
+  "case-approval-was-certified-by-uscis": {
+    "en": "For an N-565, this may mean USCIS confirmed your citizenship record to another agency, such as the State Department for a passport. It does not change your replacement request. Check your account if you did not expect it.",
+    "es": "En un N-565, esto puede significar que USCIS confirmó tu registro de ciudadanía a otra agencia, como el Departamento de Estado para un pasaporte. No cambia tu solicitud de reemplazo. Revisa tu cuenta si no lo esperabas."
+  },
+  "response-to-uscis-notice-of-intent-was-received": {
+    "en": "USCIS has your answer to a notice of intent on your N-565. Such notices are uncommon for a certificate replacement and may concern a mismatch in your records. The officer will review your answer before deciding.",
+    "es": "USCIS ya tiene tu respuesta a un aviso de intención sobre tu N-565. Estos avisos son poco comunes en un reemplazo de certificado y pueden tratar de una diferencia en tus registros. El oficial revisará tu respuesta antes de decidir."
+  },
+  "case-is-pending-at-a-local-office": {
+    "en": "Your N-565 is at a field office, often the one near you. This can happen when the office will hand you the certificate in person or needs to check your naturalization file. Watch for an appointment notice.",
+    "es": "Tu N-565 está en una oficina local, muchas veces la que está cerca de ti. Esto pasa cuando la oficina te entregará el certificado en persona o necesita revisar tu expediente de naturalización. Pendiente de un aviso de cita."
+  },
+  "duplicate-notice-was-mailed": {
+    "en": "A copy of an N-565 notice is on its way, perhaps the receipt or an appointment notice. Read it to confirm any dates it lists. Your replacement request continues as before, and you do not need to file anything again.",
+    "es": "Viene en camino una copia de un aviso de tu N-565, quizá el recibo o un aviso de cita. Léelo para confirmar cualquier fecha que traiga. Tu solicitud de reemplazo sigue igual que antes y no tienes que volver a presentarla."
+  },
+  "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+    "en": "An N-565 notice came back to USCIS. If it was an appointment or a request for documents, missing it could delay or end the request. Update your address and check your USCIS account for the notice.",
+    "es": "Un aviso de tu N-565 regresó a USCIS. Si era una cita o una petición de documentos, perderlo podría retrasar o terminar la solicitud. Actualiza tu dirección y busca el aviso en tu cuenta de USCIS."
+  },
+  "date-of-birth-was-updated": {
+    "en": "USCIS corrected the birth date on your N-565 record. For citizenship certificates, USCIS usually changes the date only when the original error was its own, so this suggests your request was accepted. Check the new certificate when it arrives.",
+    "es": "USCIS corrigió la fecha de nacimiento en tu N-565. En los certificados de ciudadanía, USCIS normalmente solo cambia la fecha cuando el error original fue suyo, así que esto indica que aceptaron tu petición. Revisa el certificado nuevo cuando llegue."
+  },
+  "continuation-notice-was-mailed": {
+    "en": "A continuation notice is not typical for an N-565, since citizenship does not expire and needs no extension. Read it to see what it refers to; it may relate to another case you have. Keep it with your records and ask USCIS if unclear.",
+    "es": "Un aviso de continuación no es típico en un N-565, porque la ciudadanía no vence. Léelo para ver a qué se refiere; puede ser de otro caso tuyo. Guárdalo con tus papeles y, si no entiendes qué es, pregunta a USCIS."
+  },
+  "termination-notice-sent": {
+    "en": "A termination notice on an N-565 is rare. It usually means the replacement request was closed, for example as abandoned. It does not by itself take away citizenship. Read the reason, and talk to an immigration attorney if it mentions your citizenship.",
+    "es": "Un aviso de terminación en un N-565 es raro. Normalmente quiere decir que cerraron la solicitud de reemplazo, por ejemplo por abandono. Por sí solo no te quita la ciudadanía. Lee la razón y habla con un abogado de inmigración si menciona tu ciudadanía."
+  },
+  "case-closed-benefit-received-by-other-means": {
+    "en": "Your N-565 was closed because you already got what you asked for another way, for example a certificate issued through a different filing or a corrected one sent after you returned it. If you have a valid certificate now, nothing more is needed.",
+    "es": "Cerraron tu N-565 porque ya obtuviste lo que pedías por otra vía, por ejemplo un certificado emitido en otro trámite o uno corregido que te mandaron después de devolverlo. Si ya tienes un certificado válido, no necesitas hacer nada más con este caso."
+  },
+  "expedite-request-denied": {
+    "en": "USCIS will not rush your N-565, so it keeps its normal place in line. If you need proof of citizenship sooner, ask whether a U.S. passport could serve your purpose while the replacement is processed.",
+    "es": "USCIS no va a acelerar tu N-565, así que conserva su lugar normal en la fila. Si necesitas prueba de ciudadanía antes, averigua si un pasaporte de EE.UU. te sirve para tu trámite mientras procesan el reemplazo."
+  },
+  "correspondence-was-received-and-uscis-is-reviewing-it": {
+    "en": "USCIS received something you sent about your N-565, such as a new address, a police report, or name change papers. It will be added to your file, and you will hear back if more is needed.",
+    "es": "USCIS recibió algo que mandaste sobre tu N-565, como una dirección nueva, un reporte de policía o papeles del cambio de nombre. Lo agregarán a tu expediente y te contestarán si hace falta algo más."
+  }
+}

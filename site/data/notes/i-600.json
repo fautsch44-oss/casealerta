@@ -1,0 +1,150 @@
+{
+"case-was-received": {
+"en": "USCIS has your I-600, the petition to classify a specific child from a non-Hague country as an orphan who can immigrate as your immediate relative. If you filed after an approved I-600A, USCIS will rely on that suitability finding and focus on the child's orphan status and the adoption or custody papers.",
+"es": "USCIS ya tiene tu I-600, la petición para clasificar a un niño específico de un país que no es parte del Convenio de La Haya como huérfano que puede inmigrar como tu familiar inmediato. Si lo presentaste después de un I-600A aprobado, USCIS usa esa aprobación como padres y se enfoca en si el niño es huérfano y en los papeles de adopción o custodia."
+},
+"case-was-received-and-a-receipt-notice-was-sent": {
+"en": "Your I-797C receipt for the I-600 is in the mail. Keep it with your I-600A approval notice and home study, since your adoption agency and the U.S. embassy may ask for these documents later in the process.",
+"es": "Viene por correo tu recibo I-797C del I-600. Guárdalo con tu aprobación del I-600A y tu estudio del hogar, porque tu agencia de adopción y la embajada de EE.UU. pueden pedirte estos documentos más adelante en el proceso."
+},
+"fingerprint-fee-was-received": {
+"en": "USCIS logged the biometrics payment for your I-600. In orphan cases, the prospective adoptive parents and adult members of the household usually give fingerprints. If your I-600A fingerprints are still valid, USCIS may not need new ones; otherwise, expect appointment notices.",
+"es": "USCIS registró el pago de biométricos de tu I-600. En casos de huérfanos, normalmente dan huellas los padres adoptivos y los adultos que viven en la casa. Si tus huellas del I-600A siguen vigentes, quizá no pidan nuevas; si no, espera avisos de cita."
+},
+"fingerprint-review-was-completed": {
+"en": "The background checks for your I-600 household are done. This is part of confirming you remain suitable to adopt. Next, the officer reviews the child's documents to decide whether the child meets the legal definition of an orphan.",
+"es": "Terminaron las revisiones de antecedentes de tu hogar para el I-600. Esto forma parte de confirmar que siguen siendo aptos para adoptar. Ahora el oficial revisa los documentos del niño para decidir si cumple con la definición legal de huérfano."
+},
+"case-is-being-actively-reviewed-by-uscis": {
+"en": "An officer is reviewing your I-600. They check that the child meets the orphan definition, for example because both parents died or disappeared or a sole parent cannot care for the child, and that the adoption or custody papers are valid. Stay in touch with your adoption agency for any updates abroad.",
+"es": "Un oficial está revisando tu I-600. Revisa que el niño cumpla la definición de huérfano, por ejemplo porque sus padres murieron o desaparecieron o porque un solo padre no puede cuidarlo, y que los papeles de adopción o custodia sean válidos. Mantente en contacto con tu agencia de adopción para novedades en el extranjero."
+},
+"request-for-additional-evidence-was-sent": {
+"en": "USCIS needs more evidence for your I-600. Common requests are death certificates of the birth parents, proof of abandonment, an updated home study, or the final adoption decree. Answer by the deadline, and work closely with your adoption agency and an immigration attorney if the child's orphan status is in question.",
+"es": "USCIS necesita más pruebas para tu I-600. Suelen pedir actas de defunción de los padres biológicos, pruebas de abandono, un estudio del hogar actualizado o el decreto final de adopción. Responde antes de la fecha límite y trabaja de cerca con tu agencia y un abogado de inmigración si está en duda que el niño sea huérfano."
+},
+"request-for-initial-evidence-was-sent": {
+"en": "Your I-600 was missing a basic document, such as the child's birth certificate, proof of your U.S. citizenship, your marriage certificate, or the home study. USCIS will hold the petition until you send it. Return everything the letter lists before the deadline.",
+"es": "A tu I-600 le faltó un documento básico, como el acta de nacimiento del niño, la prueba de tu ciudadanía, tu acta de matrimonio o el estudio del hogar. USCIS detiene la petición hasta que lo mandes. Regresa todo lo que pide la carta antes de la fecha límite."
+},
+"response-to-uscis-request-for-evidence-was-received": {
+"en": "USCIS received the documents you sent for your I-600. The officer will continue the review. If the petition is approved, it goes to the Department of State so the embassy can check the child's orphan status and process the immigrant visa.",
+"es": "USCIS recibió los documentos que mandaste para tu I-600. El oficial seguirá con la revisión. Si aprueban la petición, pasa al Departamento de Estado para que la embajada revise si el niño es huérfano y tramite su visa de inmigrante."
+},
+"case-was-transferred-and-a-new-office-has-jurisdiction": {
+"en": "Your I-600 moved to another USCIS office. Adoption cases are handled by specialized staff, and transfers usually happen to balance workloads or move the case closer to the next step. Your receipt number does not change, and you do not need to refile.",
+"es": "Tu I-600 pasó a otra oficina de USCIS. Los casos de adopción los maneja personal especializado y los traslados suelen ser para repartir el trabajo o acercar el caso al siguiente paso. Tu número de recibo no cambia y no tienes que volver a presentar nada."
+},
+"case-was-approved": {
+"en": "Your I-600 was approved. The next stage happens with the Department of State: the U.S. embassy or consulate does its own review of the child's orphan status and handles the child's immigrant visa. Your adoption agency can tell you what documents the embassy will want.",
+"es": "Aprobaron tu I-600. La siguiente etapa es con el Departamento de Estado: la embajada o consulado de EE.UU. hace su propia revisión de si el niño es huérfano y tramita su visa de inmigrante. Tu agencia de adopción te puede decir qué documentos va a pedir la embajada."
+},
+"notice-explaining-uscis-actions-was-mailed": {
+"en": "USCIS mailed a letter about your I-600, and the status does not say what it is. It could be a fingerprint notice for your household, an evidence request about the child, or a decision. Open it right away and share it with your adoption agency.",
+"es": "USCIS te mandó una carta sobre tu I-600 y el estatus no dice qué es. Puede ser un aviso de huellas para tu hogar, una petición de pruebas sobre el niño o una decisión. Ábrela de inmediato y compártela con tu agencia de adopción."
+},
+"case-was-denied": {
+"en": "Your I-600 was denied. The notice explains why, for example the child did not meet the orphan definition or a document was missing, and whether you can appeal or file a motion on Form I-290B, and by when. Given what is at stake, talk with an immigration attorney experienced in adoption.",
+"es": "Te negaron el I-600. El aviso explica por qué, por ejemplo que el niño no cumplió la definición de huérfano o faltó un documento, y si puedes apelar o presentar una moción con el I-290B, y hasta cuándo. Por lo mucho que está en juego, habla con un abogado de inmigración con experiencia en adopciones."
+},
+"case-was-reopened": {
+"en": "Your I-600 is open again after a decision. This can follow a granted motion, an appeal sent back for review, or a case returned by the embassy after its own orphan review. Expect new notices and possibly a request for more evidence about the child.",
+"es": "Tu I-600 se abrió de nuevo después de una decisión. Puede pasar tras aceptar una moción, cuando una apelación lo regresa o cuando la embajada lo devuelve tras su propia revisión de orfandad. Espera nuevos avisos y quizá una petición de más pruebas sobre el niño."
+},
+"case-rejected-because-i-sent-an-incorrect-fee": {
+"en": "Your I-600 came back because of the payment, so it is not pending. Fee rules for this form depend on whether you filed while an I-600A approval was still valid and on how many children are included. Check the current rules on uscis.gov before filing again.",
+"es": "Te regresaron el I-600 por el pago, así que no está en trámite. Las reglas de pago de este formulario dependen de si lo presentaste mientras tu aprobación del I-600A seguía vigente y de cuántos niños incluye. Revisa las reglas actuales en uscis.gov antes de volver a presentar."
+},
+"expedite-request-received": {
+"en": "USCIS logged your request to speed up your I-600. In adoption cases, expedites may be considered for urgent situations such as a child's serious medical needs or an expiring approval. Keep supporting proof ready, such as doctor letters, in case USCIS asks.",
+"es": "USCIS registró tu petición para acelerar tu I-600. En adopciones pueden considerar acelerar por situaciones urgentes, como necesidades médicas graves del niño o una aprobación a punto de vencer. Ten listas pruebas como cartas médicas por si USCIS las pide."
+},
+"withdrawal-acknowledgement-notice-was-sent": {
+"en": "USCIS confirmed you withdrew your I-600. The petition for this child is closed and any fee paid is not refunded. If you later want to adopt a different child, check whether your I-600A approval is still valid before filing a new petition.",
+"es": "USCIS confirmó que retiraste tu I-600. La petición para este niño quedó cerrada y si pagaste tarifa no se devuelve. Si después quieres adoptar a otro niño, revisa si tu aprobación del I-600A sigue vigente antes de presentar una nueva petición."
+},
+"name-was-updated": {
+"en": "USCIS updated a name on your I-600, often the child's name after the adoption decree. Make sure it matches the new birth certificate or adoption papers, because the same name will appear on the child's visa and later U.S. documents.",
+"es": "USCIS actualizó un nombre en tu I-600, muchas veces el del niño después del decreto de adopción. Asegúrate de que coincida con la nueva acta de nacimiento o los papeles de adopción, porque ese nombre aparecerá en la visa del niño y en sus documentos de EE.UU."
+},
+"case-was-received-and-a-receipt-notice-was-emailed": {
+"en": "Your I-600 receipt was sent electronically. Download it and share a copy with your adoption agency. Keep it together with your I-600A approval so you can quickly answer questions from USCIS or the U.S. embassy abroad.",
+"es": "Tu recibo del I-600 llegó de forma electrónica. Descárgalo y comparte una copia con tu agencia de adopción. Guárdalo junto con tu aprobación del I-600A para poder contestar rápido las preguntas de USCIS o de la embajada."
+},
+"case-accepted-by-the-uscis-lockbox": {
+"en": "Your I-600 passed the intake check: payment, if any, was processed and the petition was accepted. Next it gets a receipt number and goes to the team that handles adoption cases. Watch your mail for the I-797C receipt.",
+"es": "Tu I-600 pasó la revisión de entrada: se procesó el pago, si había, y aceptaron la petición. Ahora recibe número de recibo y pasa al equipo que maneja adopciones. Espera por correo el recibo I-797C."
+},
+"fees-were-waived": {
+"en": "USCIS shows no fee is due on your I-600. This often happens when the petition is filed while an I-600A approval is still valid, which can cover the first I-600. Your petition continues through normal review.",
+"es": "USCIS indica que no debes pagar tarifa por tu I-600. Esto pasa muchas veces cuando presentas la petición mientras tu aprobación del I-600A sigue vigente, lo que puede cubrir el primer I-600. Tu petición sigue con la revisión normal."
+},
+"case-was-rejected-because-it-was-improperly-filed": {
+"en": "Your I-600 was returned and is not pending. Common causes include a missing signature, filing for a child from a Hague Convention country (which uses Form I-800 instead), or an outdated form edition. Fix what the letter lists and file again.",
+"es": "Te regresaron tu I-600 y no está en trámite. Causas comunes: faltó la firma, el niño es de un país del Convenio de La Haya (que usa el Formulario I-800 en su lugar) o era una edición vieja. Corrige lo que dice la carta y vuelve a presentarlo."
+},
+"biometrics-appointment-was-scheduled": {
+"en": "Biometrics appointments are set for your I-600 case, usually for you, your spouse and adult household members. Each person should bring their notice and photo ID. These checks confirm your household is still suitable for the adoption.",
+"es": "Hay citas de biométricos para tu caso I-600, normalmente para ti, tu cónyuge y los adultos que viven en tu casa. Cada persona debe llevar su aviso y una identificación con foto. Estas revisiones confirman que tu hogar sigue siendo apto para la adopción."
+},
+"case-was-updated-to-show-fingerprints-were-taken": {
+"en": "Fingerprints for your I-600 case are recorded. The background checks now run while the officer reviews the child's orphan documents. Next is usually a decision or a request for evidence, and if approved, the case moves to the embassy.",
+"es": "Ya quedaron registradas las huellas de tu caso I-600. Las revisiones de antecedentes corren mientras el oficial revisa los documentos de orfandad del niño. Lo siguiente suele ser una decisión o una petición de pruebas, y si lo aprueban, el caso pasa a la embajada."
+},
+"case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+"en": "USCIS shows that someone in your household missed a biometrics appointment for the I-600. Contact USCIS quickly to reschedule. Without fingerprints from every required adult, the petition cannot be approved and may be treated as abandoned.",
+"es": "USCIS indica que alguien de tu hogar faltó a una cita de biométricos del I-600. Comunícate rápido con USCIS para pedir otra fecha. Sin las huellas de todos los adultos requeridos no pueden aprobar la petición, y podrían darla por abandonada."
+},
+"case-was-approved-and-my-decision-was-emailed": {
+"en": "Your I-600 approval was sent electronically. Download it and send it to your adoption agency. The case now moves to the Department of State, where the embassy reviews the child's orphan status and processes the immigrant visa.",
+"es": "La aprobación de tu I-600 llegó de forma electrónica. Descárgala y mándala a tu agencia de adopción. El caso ahora pasa al Departamento de Estado, donde la embajada revisa si el niño es huérfano y tramita la visa de inmigrante."
+},
+"case-approval-was-certified-by-uscis": {
+"en": "This status is unusual for an I-600. It generally means the approval was confirmed through an extra internal review. The next step stays the same: the approved petition goes to the Department of State for the child's visa process.",
+"es": "Es un estatus poco común en el I-600. Por lo general indica que la aprobación se confirmó con una revisión interna adicional. El siguiente paso no cambia: la petición aprobada pasa al Departamento de Estado para el trámite de visa del niño."
+},
+"case-was-sent-to-the-department-of-state": {
+"en": "Your approved I-600 was sent to the Department of State. The U.S. embassy or consulate will review the child's orphan status, which can include an investigation, and then process the child's immigrant visa. Your adoption agency will usually help schedule the child's visa appointment.",
+"es": "Tu I-600 aprobado se mandó al Departamento de Estado. La embajada o consulado de EE.UU. revisará si el niño es huérfano, lo que puede incluir una investigación, y luego tramitará su visa de inmigrante. Normalmente tu agencia de adopción ayuda a programar la cita de visa del niño."
+},
+"response-to-uscis-notice-of-intent-was-received": {
+"en": "USCIS received your reply to its notice that it intended to deny or revoke your I-600. This can happen when the embassy finds a problem with the child's orphan status. The officer will review your evidence before deciding; keep an adoption-experienced immigration attorney involved.",
+"es": "USCIS recibió tu respuesta al aviso de que pensaba negar o revocar tu I-600. Puede pasar cuando la embajada encuentra un problema con la orfandad del niño. El oficial revisará tus pruebas antes de decidir; mantén involucrado a un abogado de inmigración con experiencia en adopciones."
+},
+"case-is-pending-at-a-local-office": {
+"en": "Your I-600 is at a local USCIS office. This can happen when a local officer needs to review documents in person or complete part of the adoption review. Watch for an appointment notice and bring the documents it asks for, including originals.",
+"es": "Tu I-600 está en una oficina local de USCIS. Puede pasar cuando un oficial local necesita revisar documentos en persona o hacer parte de la revisión de la adopción. Espera un aviso de cita y lleva los documentos que pida, incluidos los originales."
+},
+"duplicate-notice-was-mailed": {
+"en": "USCIS sent another copy of a notice from your I-600 case, often because you requested it. A duplicate approval notice can be useful if the embassy or your agency needs a copy and the original is already in your adoption dossier.",
+"es": "USCIS te mandó otra copia de un aviso de tu I-600, muchas veces porque la pediste. Una copia de la aprobación es útil si la embajada o tu agencia la necesitan y la original ya está en tu expediente de adopción."
+},
+"notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+"en": "A letter about your I-600 could not be delivered. If you are traveling to meet the child or moved recently, update your address with USCIS right away and ask what was sent, since it could be an evidence request with a deadline.",
+"es": "Una carta de tu I-600 no se pudo entregar. Si estás viajando para conocer al niño o te mudaste hace poco, actualiza tu dirección con USCIS de inmediato y pregunta qué te mandaron, porque puede ser una petición de pruebas con fecha límite."
+},
+"date-of-birth-was-updated": {
+"en": "USCIS corrected a date of birth on your I-600, often the child's. The child's age matters because orphan petitions generally must be filed before the child turns 16, with limited exceptions for siblings. Confirm the date matches the birth certificate.",
+"es": "USCIS corrigió una fecha de nacimiento en tu I-600, muchas veces la del niño. La edad importa porque las peticiones de huérfano por lo general deben presentarse antes de que el niño cumpla 16 años, con algunas excepciones para hermanos. Confirma que la fecha coincida con el acta de nacimiento."
+},
+"continuation-notice-was-mailed": {
+"en": "USCIS put your I-600 on hold for a reason shown in the notice, for example waiting on an updated home study or documents from the child's country. Read it carefully and coordinate with your adoption agency to send anything requested.",
+"es": "USCIS pausó tu I-600 por una razón que muestra el aviso, por ejemplo esperando un estudio del hogar actualizado o documentos del país del niño. Léelo con cuidado y coordina con tu agencia de adopción para mandar lo que pidan."
+},
+"termination-notice-sent": {
+"en": "USCIS ended your I-600 case without approval. This can happen if the case was abandoned or the adoption could not move forward. Read the notice for the reason and talk with an immigration attorney experienced in adoption about your options.",
+"es": "USCIS terminó tu caso I-600 sin aprobarlo. Puede pasar si el caso se consideró abandonado o si la adopción no pudo seguir. Lee el aviso para ver la razón y habla con un abogado de inmigración con experiencia en adopciones sobre tus opciones."
+},
+"case-closed-benefit-received-by-other-means": {
+"en": "USCIS closed your I-600 because the child already received an immigration benefit another way, for example through a different petition. Keep proof of the child's current status, and check whether the child may also need proof of U.S. citizenship.",
+"es": "USCIS cerró tu I-600 porque el niño ya obtuvo un beneficio migratorio por otra vía, por ejemplo con otra petición. Guarda la prueba del estatus actual del niño y revisa si también necesita prueba de ciudadanía estadounidense."
+},
+"expedite-request-denied": {
+"en": "USCIS will not speed up your I-600, but your petition keeps its place in line. If the child's situation becomes more urgent, for example a new medical issue, you can ask again with new proof from a doctor or the agency.",
+"es": "USCIS no va a acelerar tu I-600, pero tu petición sigue en su lugar en la fila. Si la situación del niño se vuelve más urgente, por ejemplo un nuevo problema médico, puedes pedirlo otra vez con pruebas nuevas del médico o de la agencia."
+},
+"correspondence-was-received-and-uscis-is-reviewing-it": {
+"en": "USCIS received a letter or documents you sent about your I-600, such as an updated home study or a final adoption decree. An officer will add it to your file. You do not need to resend it unless USCIS asks.",
+"es": "USCIS recibió una carta o documentos que mandaste sobre tu I-600, como un estudio del hogar actualizado o el decreto final de adopción. Un oficial lo agregará a tu expediente. No necesitas reenviarlo salvo que USCIS lo pida."
+}
+}

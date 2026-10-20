@@ -1,0 +1,146 @@
+{
+ "case-was-received": {
+  "en": "USCIS has your I-212, the request for permission to reapply for admission after a removal or deportation. This form only asks for consent to come back before your bar ends; it is not a visa. Many people file it alongside another waiver, so keep track of each receipt number separately.",
+  "es": "USCIS ya tiene tu I-212, la petición de permiso para volver a solicitar la entrada después de una deportación. Este formulario solo pide permiso para regresar antes de que termine tu castigo; no es una visa. Muchas personas lo presentan junto con otro perdón, así que sigue cada número de recibo por separado."
+ },
+ "case-was-received-and-a-receipt-notice-was-sent": {
+  "en": "Your I-797C receipt for the I-212 is in the mail. Keep a copy, because the consulate or USCIS office handling your visa or green card case may ask for proof that the request is pending. If you are abroad, make sure the mailing address you gave is reliable.",
+  "es": "Viene por correo tu recibo I-797C del I-212. Guarda una copia, porque el consulado o la oficina de USCIS que lleva tu caso de visa o green card puede pedir prueba de que la solicitud está en trámite. Si estás fuera de EE.UU., asegúrate de que la dirección que diste sea confiable."
+ },
+ "fingerprint-fee-was-received": {
+  "en": "USCIS logged a biometrics payment linked to your I-212 case. Whether you need a fingerprint appointment depends on where you are and how the form was filed. If you are in the U.S., expect an appointment notice; if you are abroad, follow the instructions you receive.",
+  "es": "USCIS registró un pago de biométricos ligado a tu caso I-212. Si necesitas cita de huellas depende de dónde estás y de cómo se presentó el formulario. Si estás en EE.UU., espera un aviso de cita; si estás fuera, sigue las instrucciones que te lleguen."
+ },
+ "fingerprint-review-was-completed": {
+  "en": "The background check for your I-212 is complete. For this form, the officer also looks at the reasons for your past removal, any criminal history, and how long ago you left. Next, the officer weighs those facts against your family ties and other positive factors.",
+  "es": "Ya terminó la revisión de antecedentes de tu I-212. En este formulario el oficial también ve las razones de tu deportación, si hay antecedentes penales y cuánto tiempo ha pasado desde que saliste. Luego compara eso con tus lazos familiares y otros puntos a tu favor."
+ },
+ "case-is-being-actively-reviewed-by-uscis": {
+  "en": "An officer is reviewing your I-212. This is a discretionary decision, so the officer balances negative factors, such as the removal and any immigration violations, against positive ones, like U.S. citizen family, rehabilitation and hardship. There is usually no interview for this form.",
+  "es": "Un oficial está revisando tu I-212. Es una decisión discrecional: el oficial compara lo negativo, como la deportación y otras violaciones migratorias, con lo positivo, como familia ciudadana, rehabilitación y dificultades para tu familia. Normalmente no hay entrevista para este formulario."
+ },
+ "request-for-additional-evidence-was-sent": {
+  "en": "USCIS wants more evidence before deciding your I-212. It often asks for records of the removal, court dispositions, proof of family relationships, or proof of rehabilitation and hardship. Reply completely by the deadline. Because this decision is discretionary and high-stakes, get help from an immigration attorney or accredited representative.",
+  "es": "USCIS quiere más pruebas antes de decidir tu I-212. Suele pedir papeles de la deportación, resoluciones de la corte, pruebas de parentesco o pruebas de rehabilitación y de dificultades. Responde completo antes de la fecha límite. Como es una decisión discrecional y delicada, busca ayuda de un abogado de inmigración o representante acreditado."
+ },
+ "request-for-initial-evidence-was-sent": {
+  "en": "Your I-212 was missing something basic, such as a copy of the removal order, proof of the underlying visa petition, or required identity documents. USCIS will not continue until you send it. Read the list carefully and return everything with the cover page before the deadline.",
+  "es": "A tu I-212 le faltó algo básico, como copia de la orden de deportación, prueba de la petición de visa en la que se basa o documentos de identidad requeridos. USCIS no sigue hasta que lo mandes. Lee la lista con cuidado y regresa todo con la hoja de portada antes de la fecha límite."
+ },
+ "response-to-uscis-request-for-evidence-was-received": {
+  "en": "USCIS received your response for the I-212. The officer will now weigh the new evidence with the rest of the file. If you also have a pending I-601 or I-601A waiver, the two may be decided around the same time, but each has its own status.",
+  "es": "USCIS recibió tu respuesta para el I-212. El oficial va a analizar las nuevas pruebas junto con el resto del expediente. Si también tienes un perdón I-601 o I-601A pendiente, puede que los decidan en fechas cercanas, pero cada uno tiene su propio estatus."
+ },
+ "case-was-transferred-and-a-new-office-has-jurisdiction": {
+  "en": "Your I-212 moved to another USCIS office. This is common when it needs to be decided together with a related waiver or green card case handled elsewhere. Your receipt number stays the same, and you do not need to file again.",
+  "es": "Tu I-212 pasó a otra oficina de USCIS. Es común cuando hay que decidirlo junto con otro perdón o caso de green card que lleva otra oficina. Tu número de recibo sigue igual y no tienes que volver a presentar."
+ },
+ "case-was-approved": {
+  "en": "Your I-212 was approved, which gives consent to reapply for admission. It does not give you a visa or green card by itself: you still need to finish the immigrant visa or adjustment case, plus any other waiver required. If the approval was conditional for an I-601A process, it takes effect only when you depart for your consular interview.",
+  "es": "Aprobaron tu I-212, lo que te da permiso para volver a solicitar la entrada. No te da visa ni green card por sí solo: todavía debes terminar tu caso de visa de inmigrante o ajuste, y cualquier otro perdón necesario. Si fue una aprobación condicional para el proceso I-601A, solo entra en efecto cuando sales para tu entrevista consular."
+ },
+ "document-was-mailed-to-me": {
+  "en": "For an I-212, the mailed document is usually the approval or decision notice. Keep the original and send a copy to the consulate or office handling your visa case, since they need proof of consent to reapply before issuing anything.",
+  "es": "En el I-212, el documento que te mandan suele ser el aviso de aprobación o decisión. Guarda el original y manda copia al consulado u oficina que lleva tu caso de visa, porque necesitan prueba del permiso para volver a solicitar antes de darte algo."
+ },
+ "notice-explaining-uscis-actions-was-mailed": {
+  "en": "USCIS mailed a letter about your I-212, and the status does not say what it is. It could be an evidence request, an intent to deny, a transfer notice, or a decision. Open it right away and check for any deadline.",
+  "es": "USCIS te mandó una carta sobre tu I-212 y el estatus no dice qué es. Puede ser una petición de pruebas, un aviso de intención de negar, un aviso de traslado o una decisión. Ábrela enseguida y revisa si trae fecha límite."
+ },
+ "case-was-denied": {
+  "en": "Your I-212 was denied, so you do not have permission to return before your bar ends. The notice explains the reason and whether you can appeal to the Administrative Appeals Office or file a motion on Form I-290B, and the deadline. Talk with an immigration attorney or accredited representative before choosing a next step.",
+  "es": "Te negaron el I-212, así que no tienes permiso para regresar antes de que termine tu castigo. El aviso explica la razón y si puedes apelar ante la Oficina de Apelaciones Administrativas o presentar una moción con el I-290B, y el plazo. Habla con un abogado de inmigración o representante acreditado antes de decidir qué hacer."
+ },
+ "case-was-reopened": {
+  "en": "Your I-212 is open again after a decision, often because a motion was granted or the appeals office sent it back. The officer will review it again, and you may be asked for updated evidence of hardship or rehabilitation.",
+  "es": "Tu I-212 se abrió de nuevo después de una decisión, muchas veces porque aceptaron una moción o la oficina de apelaciones lo regresó. El oficial lo revisará otra vez y quizá te pidan pruebas actualizadas de dificultades o de rehabilitación."
+ },
+ "case-rejected-because-i-sent-an-incorrect-fee": {
+  "en": "Your I-212 came back because of the payment, so it is not pending. Check the current I-212 fee on uscis.gov and confirm where to file, since the address depends on whether you are in the U.S. or abroad and on what other forms you are filing.",
+  "es": "Te regresaron tu I-212 por el pago, así que no está en trámite. Revisa en uscis.gov la tarifa actual del I-212 y confirma dónde presentarlo, porque la dirección depende de si estás en EE.UU. o fuera y de qué otros formularios estás mandando."
+ },
+ "expedite-request-received": {
+  "en": "USCIS logged your request to speed up your I-212. Expedites are granted only for reasons that fit USCIS criteria, such as urgent humanitarian situations or a consular interview that is waiting on this decision. Keep proof ready in case they ask.",
+  "es": "USCIS registró tu petición para acelerar tu I-212. Solo aprueban acelerar por razones que cumplen sus criterios, como una situación humanitaria urgente o una entrevista consular que está esperando esta decisión. Ten tus pruebas listas por si las piden."
+ },
+ "withdrawal-acknowledgement-notice-was-sent": {
+  "en": "USCIS confirmed you withdrew your I-212. The case is closed and the fee is not refunded. Remember that without consent to reapply, a consulate generally cannot issue an immigrant visa while your removal bar is still in effect.",
+  "es": "USCIS confirmó que retiraste tu I-212. El caso quedó cerrado y la tarifa no se devuelve. Recuerda que sin permiso para volver a solicitar, por lo general el consulado no puede darte visa de inmigrante mientras tu castigo por deportación siga vigente."
+ },
+ "name-was-updated": {
+  "en": "USCIS updated your name on the I-212. Because removal records may use a different spelling or an older name, make sure the file links both. Send proof of the legal change if you have not, so the approval matches your passport.",
+  "es": "USCIS actualizó tu nombre en el I-212. Como los registros de deportación pueden tener otra forma de escribirlo o un nombre anterior, asegúrate de que el expediente ligue ambos. Manda prueba del cambio legal si no lo has hecho, para que la aprobación coincida con tu pasaporte."
+ },
+ "case-was-received-and-a-receipt-notice-was-emailed": {
+  "en": "Your I-212 receipt was sent electronically. Download it and keep it with your other case papers. If you are outside the U.S., this is often the fastest way to confirm USCIS has your request, since mailed notices abroad can be slow.",
+  "es": "Tu recibo del I-212 llegó de forma electrónica. Descárgalo y guárdalo con tus otros papeles del caso. Si estás fuera de EE.UU., esta suele ser la forma más rápida de confirmar que USCIS tiene tu solicitud, porque el correo al extranjero puede tardar."
+ },
+ "case-accepted-by-the-uscis-lockbox": {
+  "en": "Your I-212 passed the lockbox intake check: the fee was processed and the form was accepted. Next it receives a receipt number and goes to the office that decides it, which may depend on your related waiver or visa case.",
+  "es": "Tu I-212 pasó la revisión de entrada del lockbox: se cobró la tarifa y aceptaron el formulario. Ahora recibe número de recibo y pasa a la oficina que lo decide, que puede depender de tu otro perdón o caso de visa."
+ },
+ "fees-were-waived": {
+  "en": "USCIS shows the fee for your I-212 case was waived. Fee waivers for this form are limited to certain categories, so read the notice to confirm what was covered. Your request now moves to review like any other.",
+  "es": "USCIS indica que no pagaste la tarifa de tu I-212. Las exenciones para este formulario solo aplican a ciertas categorías, así que lee el aviso para confirmar qué cubrió. Tu solicitud ahora pasa a revisión como cualquier otra."
+ },
+ "case-was-rejected-because-it-was-improperly-filed": {
+  "en": "Your I-212 was returned and is not pending. A common cause is sending it to the wrong place, since the right office depends on your situation, or a missing signature or old form edition. Fix what the letter lists and file again.",
+  "es": "Te regresaron tu I-212 y no está en trámite. Una causa común es mandarlo al lugar equivocado, porque la oficina correcta depende de tu situación, o que faltó la firma o usaste una edición vieja. Corrige lo que dice la carta y vuelve a presentarlo."
+ },
+ "biometrics-appointment-was-scheduled": {
+  "en": "You have a biometrics appointment for your I-212. Bring the notice and a valid photo ID. Your fingerprints help USCIS match you to your past removal record and check for any criminal history, which is a key part of this decision.",
+  "es": "Tienes cita de biométricos para tu I-212. Lleva el aviso y una identificación con foto vigente. Tus huellas ayudan a USCIS a ligarte con tu registro de deportación y revisar si hay antecedentes, que es parte clave de esta decisión."
+ },
+ "case-was-updated-to-show-fingerprints-were-taken": {
+  "en": "Your I-212 biometrics are recorded. The background check now runs. Since there is usually no interview for this form, the next update is often a request for evidence or a decision. Meanwhile, check your mail often and keep your address current.",
+  "es": "Ya quedaron registrados tus biométricos del I-212. Ahora corre la revisión de antecedentes. Como normalmente no hay entrevista para este formulario, lo siguiente suele ser una petición de pruebas o una decisión. Mientras tanto, revisa tu correo con frecuencia."
+ },
+ "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+  "en": "USCIS shows you missed your biometrics appointment for the I-212. Contact USCIS soon to explain and ask for a new date. Without biometrics, the request may be denied as abandoned, which would hold up your visa case too.",
+  "es": "USCIS indica que faltaste a tu cita de biométricos del I-212. Comunícate pronto con USCIS para explicar y pedir nueva fecha. Sin biométricos, podrían negar la solicitud por abandono, y eso también detendría tu caso de visa."
+ },
+ "case-was-approved-and-my-decision-was-emailed": {
+  "en": "Your I-212 approval was sent electronically. Download it and share a copy with the consulate or USCIS office handling your immigrant visa or green card case. Check whether the approval is conditional, which is common when it is paired with an I-601A.",
+  "es": "La aprobación de tu I-212 llegó de forma electrónica. Descárgala y comparte una copia con el consulado o la oficina de USCIS que lleva tu visa de inmigrante o green card. Revisa si es condicional, algo común cuando va junto con un I-601A."
+ },
+ "case-approval-was-certified-by-uscis": {
+  "en": "This is an unusual status for an I-212. It generally means the approval passed an extra internal review. Your next step is the same: share the approval with the office handling your visa or adjustment case.",
+  "es": "Es un estatus poco común en el I-212. Por lo general indica que la aprobación pasó una revisión interna adicional. Tu siguiente paso es el mismo: compartir la aprobación con la oficina que lleva tu caso de visa o de ajuste de estatus."
+ },
+ "response-to-uscis-notice-of-intent-was-received": {
+  "en": "USCIS received your reply to its notice of intent to deny your I-212. The officer will reweigh the negative and positive factors with your new evidence. This is a critical stage, so keep your immigration attorney or accredited representative involved.",
+  "es": "USCIS recibió tu respuesta al aviso de intención de negar tu I-212. El oficial volverá a comparar lo negativo y lo positivo con tus nuevas pruebas. Es una etapa crítica, así que mantén involucrado a tu abogado de inmigración o representante acreditado."
+ },
+ "duplicate-notice-was-mailed": {
+  "en": "USCIS sent another copy of a notice from your I-212 case, often because you asked for it. A duplicate approval notice is useful when the consulate or another office needs the original document to continue your immigrant visa case.",
+  "es": "USCIS te mandó otra copia de un aviso de tu I-212, muchas veces porque la pediste. Una copia de la aprobación es útil cuando el consulado u otra oficina necesita el documento original para seguir con tu visa de inmigrante."
+ },
+ "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+  "en": "A letter about your I-212 could not be delivered. If you live abroad or moved, update your address with USCIS and ask what was sent, since it may include an evidence request with a deadline or your decision.",
+  "es": "Una carta de tu I-212 no se pudo entregar. Si vives fuera o te mudaste, actualiza tu dirección con USCIS y pregunta qué te mandaron, porque puede ser una petición de pruebas con fecha límite o tu decisión."
+ },
+ "date-of-birth-was-updated": {
+  "en": "USCIS corrected your date of birth on the I-212. This helps match the request with your removal record and your visa case. Confirm the date matches your passport and birth certificate in every related case.",
+  "es": "USCIS corrigió tu fecha de nacimiento en el I-212. Esto ayuda a ligar la solicitud con tu registro de deportación y tu caso de visa. Confirma que la fecha coincida con tu pasaporte y acta de nacimiento en todos tus casos relacionados."
+ },
+ "continuation-notice-was-mailed": {
+  "en": "USCIS put your I-212 on hold for a reason shown in the notice, for example waiting on records from immigration court or from a related waiver. Read it for any action you must take, and keep copies of everything you send.",
+  "es": "USCIS pausó tu I-212 por una razón que muestra el aviso, por ejemplo esperando registros de la corte de inmigración o de otro perdón relacionado. Léelo por si debes hacer algo y guarda copia de todo lo que mandes."
+ },
+ "termination-notice-sent": {
+  "en": "USCIS ended your I-212 case without granting it, or revoked a previous approval. This affects your ability to return before your bar ends. Read the reason in the notice and talk with an immigration attorney or accredited representative right away.",
+  "es": "USCIS terminó tu caso I-212 sin aprobarlo, o revocó una aprobación anterior. Esto afecta tu posibilidad de regresar antes de que termine tu castigo. Lee la razón en el aviso y habla de inmediato con un abogado de inmigración o representante acreditado."
+ },
+ "case-closed-benefit-received-by-other-means": {
+  "en": "USCIS closed your I-212 because it is no longer needed. For example, your bar period may have ended, or another decision already covered the permission. Ask the office handling your visa case to confirm nothing else is required.",
+  "es": "USCIS cerró tu I-212 porque ya no hace falta. Por ejemplo, pudo terminar el tiempo de tu castigo u otra decisión ya cubrió el permiso. Pide a la oficina que lleva tu caso de visa que confirme que no se necesita nada más."
+ },
+ "expedite-request-denied": {
+  "en": "USCIS will not speed up your I-212, but it keeps its place in line. If something urgent changes, such as a serious medical emergency in the family, you may ask again with new proof. Meanwhile, keep building evidence for your visa case.",
+  "es": "USCIS no va a acelerar tu I-212, pero sigue en su lugar en la fila. Si pasa algo urgente, como una emergencia médica grave en la familia, puedes pedirlo otra vez con pruebas nuevas. Mientras tanto, sigue juntando pruebas para tu caso de visa."
+ },
+ "correspondence-was-received-and-uscis-is-reviewing-it": {
+  "en": "USCIS received a letter or documents you sent about your I-212, such as new hardship evidence or an address change. The officer will add it to the file. You do not need to resend it unless asked.",
+  "es": "USCIS recibió una carta o documentos que mandaste sobre tu I-212, como pruebas nuevas de dificultades o un cambio de dirección. El oficial lo agregará al expediente. No necesitas reenviarlo salvo que te lo pidan."
+ }
+}

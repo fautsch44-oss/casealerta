@@ -1,0 +1,130 @@
+{
+"case-was-received": {
+"en": "USCIS has your premium processing request. When the I-907 is filed together with the petition, both usually share one receipt number, so this status often reflects the underlying case. The premium clock starts once USCIS receives the request at the correct address and the fee clears.",
+"es": "USCIS tiene tu solicitud de procesamiento premium. Cuando el I-907 se presenta junto con la petición, normalmente comparten un solo número de recibo, así que este estatus suele reflejar el caso principal. El reloj premium empieza cuando USCIS recibe la solicitud en la dirección correcta y se cobra el pago."
+},
+"case-was-received-and-a-receipt-notice-was-sent": {
+"en": "The receipt for your premium request is in the mail. If you upgraded an already pending petition, the I-907 notice should point to that petition's receipt number. Note the date USCIS received it, since the premium processing time is counted in business days from that point.",
+"es": "El recibo de tu solicitud premium viene por correo. Si mejoraste a premium una petición que ya estaba pendiente, el aviso del I-907 debe mencionar el número de recibo de esa petición. Anota la fecha en que USCIS la recibió, porque el tiempo premium se cuenta en días hábiles desde ese momento."
+},
+"case-is-being-actively-reviewed-by-uscis": {
+"en": "The premium clock is running and an officer is working on the underlying petition. Under premium processing, USCIS commits to take action within a set number of business days, and action can mean approval, denial, a request for evidence or a notice of intent to deny.",
+"es": "El reloj premium está corriendo y un oficial trabaja en la petición principal. Con procesamiento premium, USCIS se compromete a actuar dentro de un número fijo de días hábiles, y actuar puede ser aprobar, negar, pedir evidencia o mandar un aviso de intención de negar."
+},
+"request-for-additional-evidence-was-sent": {
+"en": "An RFE counts as USCIS action under premium processing, so it stops the premium clock. When USCIS receives your full response, a new premium period starts. Answer all points at once; a complete response is the fastest route to a final decision on the petition.",
+"es": "Una RFE cuenta como acción de USCIS en procesamiento premium, así que detiene el reloj premium. Cuando USCIS recibe tu respuesta completa, empieza un nuevo periodo premium. Contesta todos los puntos a la vez; una respuesta completa es el camino más rápido a la decisión final de la petición."
+},
+"request-for-initial-evidence-was-sent": {
+"en": "Something required was missing from the petition or the premium request. Like an RFE, this pauses premium handling until USCIS gets the missing items. Send everything listed with the notice on top, and include a copy of the I-907 receipt if you have it.",
+"es": "Faltó algo obligatorio en la petición o en la solicitud premium. Igual que una RFE, esto pausa el trámite premium hasta que USCIS reciba lo que falta. Manda todo lo que pide el aviso con el aviso encima, e incluye copia del recibo del I-907 si lo tienes."
+},
+"response-to-uscis-request-for-evidence-was-received": {
+"en": "USCIS received your response, and a fresh premium processing period begins from this receipt. Expect the next action within the premium timeframe that applies to your form type. This is often the step just before an approval or a denial.",
+"es": "USCIS recibió tu respuesta, y desde este recibo empieza un nuevo periodo de procesamiento premium. Espera la siguiente acción dentro del plazo premium que aplica a tu tipo de formulario. Este suele ser el paso justo antes de una aprobación o una negación."
+},
+"case-was-transferred-and-a-new-office-has-jurisdiction": {
+"en": "Your premium case moved to another USCIS office. Premium requests are handled at service centers, and transfers can happen to balance work. The transfer notice names the new office. If the premium deadline passes without action, check the refund rules on uscis.gov.",
+"es": "Tu caso premium pasó a otra oficina de USCIS. Las solicitudes premium se atienden en centros de servicio, y pueden transferirse para repartir el trabajo. El aviso de transferencia dice cuál es la nueva oficina. Si pasa el plazo premium sin acción, revisa en uscis.gov las reglas de reembolso."
+},
+"case-was-approved": {
+"en": "For a premium case, approval almost always refers to the underlying petition, such as an I-129 or I-140, decided under premium processing. The approval notice will show the petition type and validity. The I-907 itself has no separate benefit; it only bought speed.",
+"es": "En un caso premium, la aprobación casi siempre se refiere a la petición principal, como un I-129 o I-140, decidida con procesamiento premium. El aviso de aprobación mostrará el tipo de petición y su vigencia. El I-907 no da un beneficio aparte; solo pagó por rapidez."
+},
+"document-was-mailed-to-me": {
+"en": "USCIS mailed a document on your premium case, most often the approval notice for the underlying petition. The original usually goes to the attorney or employer listed on the filing. Keep it safe, because the worker may need it for a visa interview or travel.",
+"es": "USCIS mandó por correo un documento de tu caso premium, casi siempre el aviso de aprobación de la petición principal. El original normalmente va al abogado o empleador que aparece en el trámite. Guárdalo bien, porque el trabajador puede necesitarlo para su entrevista de visa o para viajar."
+},
+"notice-explaining-uscis-actions-was-mailed": {
+"en": "USCIS sent a letter on your premium case. It could be a request for evidence, a notice of intent to deny, or a notice that USCIS missed the premium timeframe. Read it right away, because premium cases move fast and replies have deadlines.",
+"es": "USCIS mandó una carta sobre tu caso premium. Puede ser una solicitud de evidencia, un aviso de intención de negar, o un aviso de que USCIS no cumplió el plazo premium. Léela de inmediato, porque los casos premium van rápido y las respuestas tienen plazo."
+},
+"case-was-denied": {
+"en": "A denial on a premium case usually means the underlying petition was denied, not just the speed request. Premium processing speeds a decision but never guarantees approval. Read the letter for the reasons and options, and talk to an immigration attorney about a motion, appeal or new filing.",
+"es": "Una negación en un caso premium normalmente significa que se negó la petición principal, no solo la solicitud de rapidez. El procesamiento premium acelera la decisión pero nunca garantiza la aprobación. Lee la carta para ver razones y opciones, y habla con un abogado de inmigración sobre una moción, apelación o nueva petición."
+},
+"case-was-reopened": {
+"en": "The underlying petition is open again after a decision, often following a motion. Premium processing may or may not carry over to the reopened case; check the notice or ask USCIS. The officer will review the case again before a new decision.",
+"es": "La petición principal está abierta otra vez después de una decisión, muchas veces tras una moción. El procesamiento premium puede o no seguir aplicando al caso reabierto; revisa el aviso o pregunta a USCIS. El oficial revisará el caso de nuevo antes de una nueva decisión."
+},
+"case-rejected-because-i-sent-an-incorrect-fee": {
+"en": "The I-907 was rejected because the premium fee was wrong or did not clear. Premium fees are adjusted from time to time, so check the current amount on uscis.gov. The underlying petition may still be pending at regular speed; refile the I-907 if you still want premium handling.",
+"es": "El I-907 fue rechazado porque el pago premium estaba mal o no se cobró. Las cuotas premium se ajustan de vez en cuando, así que revisa el monto actual en uscis.gov. La petición principal puede seguir pendiente a velocidad normal; vuelve a presentar el I-907 si todavía quieres trámite premium."
+},
+"expedite-request-received": {
+"en": "USCIS received an expedite request on a case linked to premium processing. Expedite requests are usually for cases where premium is not available, since premium already speeds the review. Read the notice to see which case it covers.",
+"es": "USCIS recibió una solicitud para acelerar un caso ligado a procesamiento premium. Las solicitudes para acelerar suelen ser para casos donde no hay premium, porque premium ya acelera la revisión. Lee el aviso para ver a qué caso se refiere."
+},
+"withdrawal-acknowledgement-notice-was-sent": {
+"en": "USCIS confirmed a withdrawal on this premium case. Check whether it was the whole petition or just the premium request. Withdrawing a petition closes it for good, while dropping premium leaves the petition at regular speed. Premium fees are generally not refunded after a withdrawal.",
+"es": "USCIS confirmó un retiro en este caso premium. Revisa si fue toda la petición o solo la solicitud premium. Retirar una petición la cierra para siempre, mientras que quitar el premium deja la petición a velocidad normal. En general, la cuota premium no se devuelve después de un retiro."
+},
+"name-was-updated": {
+"en": "USCIS updated a name on the premium case record, often the beneficiary's. Make sure it matches the passport, because the approval notice and any visa will use this name. Fixing it now avoids an extra correction request later.",
+"es": "USCIS actualizó un nombre en el registro del caso premium, muchas veces el del beneficiario. Asegúrate de que coincida con el pasaporte, porque el aviso de aprobación y cualquier visa usarán ese nombre. Corregirlo ahora evita otra solicitud de corrección después."
+},
+"case-was-received-and-a-receipt-notice-was-emailed": {
+"en": "Your premium processing receipt arrived electronically, which is common when the I-907 is filed online or by an attorney with an online account. Save it and note the received date, since the premium timeframe is counted from it.",
+"es": "Tu recibo de procesamiento premium llegó en forma electrónica, algo común cuando el I-907 se presenta en línea o por un abogado con cuenta en línea. Guárdalo y anota la fecha de recepción, porque el plazo premium se cuenta desde ella."
+},
+"case-accepted-by-the-uscis-lockbox": {
+"en": "The intake site accepted the premium request and processed the fee. Make sure the I-907 went to the address USCIS lists for your form, because a request sent to the wrong place can delay the start of the premium clock.",
+"es": "El centro de recepción aceptó la solicitud premium y procesó el pago. Asegúrate de que el I-907 se mandó a la dirección que USCIS indica para tu formulario, porque una solicitud enviada al lugar equivocado puede atrasar el inicio del reloj premium."
+},
+"fees-were-waived": {
+"en": "This is not expected on an I-907: the premium processing fee cannot be waived. Read the notice to see which form it refers to, likely another application in the same package. If it seems wrong, contact USCIS so the premium request is not rejected later.",
+"es": "Esto no se espera en un I-907: la cuota de procesamiento premium no se puede exentar. Lee el aviso para ver a qué formulario se refiere, quizá a otra solicitud del mismo paquete. Si parece un error, comunícate con USCIS para que la solicitud premium no sea rechazada después."
+},
+"case-was-rejected-because-it-was-improperly-filed": {
+"en": "The I-907 was rejected without processing, for example because the form type is not eligible for premium, the wrong edition was used, or it was missing a signature. Check which forms and categories currently accept premium processing on uscis.gov before refiling.",
+"es": "El I-907 fue rechazado sin procesar, por ejemplo porque el tipo de formulario no acepta premium, se usó una edición equivocada, o faltó una firma. Revisa en uscis.gov qué formularios y categorías aceptan procesamiento premium hoy antes de volver a presentarlo."
+},
+"case-was-approved-and-my-decision-was-emailed": {
+"en": "The approval of the petition handled under premium processing is in the online account. Download it and share it with the employer, attorney and worker. If the worker needs a visa abroad, the next step is usually the consular appointment.",
+"es": "La aprobación de la petición atendida con procesamiento premium está en la cuenta en línea. Descárgala y compártela con el empleador, el abogado y el trabajador. Si el trabajador necesita visa en el extranjero, el siguiente paso suele ser la cita en el consulado."
+},
+"case-approval-was-certified-by-uscis": {
+"en": "USCIS certified the approval of the petition decided under premium processing. This is usually for the Department of State, so a consulate can confirm the approved petition before issuing a visa. No action is needed from you.",
+"es": "USCIS certificó la aprobación de la petición decidida con procesamiento premium. Normalmente es para el Departamento de Estado, para que un consulado confirme la petición aprobada antes de dar la visa. No tienes que hacer nada."
+},
+"case-was-sent-to-the-department-of-state": {
+"en": "The petition approved under premium processing was sent to the Department of State, usually because the beneficiary will apply for a visa at a consulate abroad. The worker should book the visa interview and bring the approval notice.",
+"es": "La petición aprobada con procesamiento premium se mandó al Departamento de Estado, normalmente porque el beneficiario pedirá la visa en un consulado en el extranjero. El trabajador debe sacar la cita de visa y llevar el aviso de aprobación."
+},
+"response-to-uscis-notice-of-intent-was-received": {
+"en": "USCIS received your reply to a notice of intent to deny on a premium case. A new premium period generally starts from this receipt, so a decision should follow relatively soon. If the case is complex, an immigration attorney should review any further notices.",
+"es": "USCIS recibió tu respuesta a un aviso de intención de negar en un caso premium. En general empieza un nuevo periodo premium desde este recibo, así que la decisión debería llegar relativamente pronto. Si el caso es complejo, un abogado de inmigración debería revisar cualquier aviso nuevo."
+},
+"duplicate-notice-was-mailed": {
+"en": "USCIS mailed another copy of a notice on your premium case, often the approval or receipt. A spare approval notice can help the worker at a consulate or with an employer. Nothing about the decision changed.",
+"es": "USCIS mandó otra copia de un aviso de tu caso premium, muchas veces la aprobación o el recibo. Tener otra copia de la aprobación puede ayudar al trabajador en un consulado o con un empleador. Nada de la decisión cambió."
+},
+"notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+"en": "A notice on your premium case could not be delivered. On fast-moving premium cases this could be an RFE with a tight deadline. Confirm the mailing address of the employer or attorney with USCIS right away and ask for the notice to be resent.",
+"es": "Un aviso de tu caso premium no se pudo entregar. En casos premium, que van rápido, puede ser una RFE con plazo corto. Confirma con USCIS de inmediato la dirección del empleador o del abogado y pide que reenvíen el aviso."
+},
+"date-of-birth-was-updated": {
+"en": "USCIS corrected a date of birth on the premium case record. Check that it matches the beneficiary's passport so the approval notice and any I-94 attached to it are correct. Errors on approval notices take time to fix later.",
+"es": "USCIS corrigió una fecha de nacimiento en el registro del caso premium. Revisa que coincida con el pasaporte del beneficiario para que el aviso de aprobación y cualquier I-94 incluido estén correctos. Los errores en avisos de aprobación tardan en corregirse después."
+},
+"continuation-notice-was-mailed": {
+"en": "This notice is unusual for a premium request. It may relate to the underlying petition, for example a status that continues while an extension is pending. Read it to see which receipt number it covers, and contact USCIS if it is unclear.",
+"es": "Este aviso es raro en una solicitud premium. Puede tener que ver con la petición principal, por ejemplo un estatus que sigue mientras una extensión está pendiente. Léelo para ver qué número de recibo cubre, y comunícate con USCIS si no queda claro."
+},
+"termination-notice-sent": {
+"en": "USCIS ended the case connected to this premium request. This could follow a withdrawal by the employer, abandonment, or revocation of the underlying petition. Read the notice for the reason, and speak with an immigration attorney if the worker's status depends on it.",
+"es": "USCIS terminó el caso ligado a esta solicitud premium. Puede pasar después de un retiro del empleador, abandono, o revocación de la petición principal. Lee el aviso para ver la razón, y habla con un abogado de inmigración si el estatus del trabajador depende de esto."
+},
+"case-closed-benefit-received-by-other-means": {
+"en": "USCIS closed this case because the benefit was granted another way, for example the same petition was already approved under another receipt. If the premium fee was paid for a case that no longer needed it, check the refund rules on uscis.gov.",
+"es": "USCIS cerró este caso porque el beneficio se dio por otra vía, por ejemplo la misma petición ya fue aprobada con otro recibo. Si se pagó la cuota premium por un caso que ya no la necesitaba, revisa en uscis.gov las reglas de reembolso."
+},
+"expedite-request-denied": {
+"en": "USCIS declined to expedite this case. If the form is eligible for premium processing, filing an I-907 is often the more reliable way to get speed, because premium has a set timeframe while expedites are discretionary.",
+"es": "USCIS no aceptó acelerar este caso. Si el formulario acepta procesamiento premium, presentar un I-907 suele ser una forma más segura de ganar rapidez, porque premium tiene un plazo fijo y acelerar depende de la decisión de USCIS."
+},
+"correspondence-was-received-and-uscis-is-reviewing-it": {
+"en": "USCIS received a letter or document about your premium case, such as an address change or a question about the premium timeframe. An officer will review it. This does not by itself restart or stop the premium clock.",
+"es": "USCIS recibió una carta o documento sobre tu caso premium, como un cambio de dirección o una pregunta sobre el plazo premium. Un oficial lo va a revisar. Esto por sí solo no reinicia ni detiene el reloj premium."
+}
+}

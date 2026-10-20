@@ -1,0 +1,150 @@
+{
+ "case-was-received": {
+  "en": "USCIS has your organization's application to be designated as an EB-5 regional center. The I-956 is a business filing, not a visa or green card for any person. Review starts later; for now, keep the receipt with your corporate and compliance records.",
+  "es": "USCIS tiene la solicitud de tu organización para ser designada como centro regional EB-5. El I-956 es un trámite de empresa, no una visa ni una green card para ninguna persona. La revisión empieza después; por ahora, guarda el recibo con los registros corporativos y de cumplimiento."
+ },
+ "case-was-received-and-a-receipt-notice-was-sent": {
+  "en": "The I-956 receipt notice is in the mail to the regional center's address or its attorney. Keep it on file, since investors and project partners may ask for proof that designation is pending. Pending designation does not yet allow sponsoring EB-5 investments under the program.",
+  "es": "El aviso de recibo del I-956 viene por correo a la dirección del centro regional o de su abogado. Guárdalo en el expediente, porque inversionistas y socios del proyecto pueden pedir prueba de que la designación está pendiente. Una designación pendiente todavía no permite patrocinar inversiones EB-5 dentro del programa."
+ },
+ "fingerprint-fee-was-received": {
+  "en": "Fingerprints are not a standard step for the I-956 itself. USCIS does run checks on people involved with regional centers, which are handled through separate filings such as Form I-956H. Read the notice to see which person and filing it refers to.",
+  "es": "Las huellas no son un paso normal del I-956 en sí. USCIS sí revisa a las personas involucradas con centros regionales, lo que se maneja con trámites aparte como el formulario I-956H. Lee el aviso para ver a qué persona y trámite se refiere."
+ },
+ "fingerprint-review-was-completed": {
+  "en": "A background check linked to this regional center case came back. EB-5 rules require that people who own or manage a regional center pass integrity checks. This is one part of the review; USCIS still evaluates the economic and operational plan.",
+  "es": "Regresó un chequeo de antecedentes ligado a este caso de centro regional. Las reglas de EB-5 exigen que quienes son dueños o administran un centro regional pasen chequeos de integridad. Es solo una parte de la revisión; USCIS todavía evalúa el plan económico y operativo."
+ },
+ "case-is-being-actively-reviewed-by-uscis": {
+  "en": "USCIS is reviewing the regional center application, including the geographic area, the economic analysis of job creation, the business plan and the people involved. Economists and adjudicators may both look at the file, so this status can last a long time.",
+  "es": "USCIS está revisando la solicitud del centro regional, incluyendo el área geográfica, el análisis económico de creación de empleos, el plan de negocios y las personas involucradas. Economistas y oficiales pueden revisar el expediente, así que este estatus puede durar mucho."
+ },
+ "request-for-additional-evidence-was-sent": {
+  "en": "I-956 RFEs often ask for more detail on the economic methodology, the proposed geographic area, ownership and management structure, or compliance policies. Coordinate the reply with your EB-5 counsel and economist, and answer every point before the deadline.",
+  "es": "Las RFE del I-956 suelen pedir más detalle sobre la metodología económica, el área geográfica propuesta, la estructura de dueños y administración, o las políticas de cumplimiento. Coordina la respuesta con tu abogado de EB-5 y tu economista, y contesta cada punto antes de la fecha límite."
+ },
+ "request-for-initial-evidence-was-sent": {
+  "en": "The I-956 was missing a required item, such as the economic analysis, organizational documents, or filings for people involved with the center. Send everything listed, with the notice on top, before the deadline, so the application is not denied as abandoned.",
+  "es": "Al I-956 le faltó algo obligatorio, como el análisis económico, documentos de la organización, o los trámites de las personas involucradas con el centro. Manda todo lo que se pide, con el aviso encima, antes de la fecha límite, para que no nieguen la solicitud por abandono."
+ },
+ "response-to-uscis-request-for-evidence-was-received": {
+  "en": "USCIS has the regional center's response. The officer and, when needed, USCIS economists will review the new material. Expect a decision or another request after review. Keep a complete copy of the response for your compliance file.",
+  "es": "USCIS tiene la respuesta del centro regional. El oficial y, si hace falta, los economistas de USCIS revisarán el material nuevo. Espera una decisión u otra solicitud después de la revisión. Guarda una copia completa de la respuesta en tu archivo de cumplimiento."
+ },
+ "case-was-transferred-and-a-new-office-has-jurisdiction": {
+  "en": "The I-956 moved to a different USCIS office. EB-5 regional center filings are handled by a specialized USCIS office, so transfers are usually internal. The notice names the office now responsible. The application keeps its original filing date.",
+  "es": "El I-956 pasó a otra oficina de USCIS. Los trámites de centros regionales EB-5 los lleva una oficina especializada de USCIS, así que las transferencias suelen ser internas. El aviso dice qué oficina es la responsable ahora."
+ },
+ "case-was-approved": {
+  "en": "Your organization is designated as an EB-5 regional center. Next, each specific investment project is usually filed separately using Form I-956F. Designation also brings ongoing duties, such as filing the annual statement on Form I-956G and paying into the EB-5 Integrity Fund.",
+  "es": "Tu organización fue designada como centro regional EB-5. Después, cada proyecto de inversión normalmente se presenta aparte con el formulario I-956F. La designación también trae obligaciones continuas, como presentar el informe anual en el formulario I-956G y pagar al Fondo de Integridad EB-5."
+ },
+ "notice-explaining-uscis-actions-was-mailed": {
+  "en": "USCIS mailed a letter about the I-956. It may be a request, a notice of intent to deny, or an explanation of another action. Share it with your EB-5 counsel right away, because deadlines in regional center cases can affect investors relying on the center.",
+  "es": "USCIS mandó una carta sobre el I-956. Puede ser una solicitud, un aviso de intención de negar o la explicación de otra acción. Compártela de inmediato con tu abogado de EB-5, porque los plazos en casos de centro regional pueden afectar a los inversionistas que dependen del centro."
+ },
+ "case-was-denied": {
+  "en": "USCIS denied the regional center designation. The letter explains the reasons and options, such as a motion or an appeal. Work with experienced EB-5 counsel on next steps, and consider what to tell prospective investors and project partners.",
+  "es": "USCIS negó la designación del centro regional. La carta explica las razones y opciones, como una moción o una apelación. Trabaja con un abogado de EB-5 con experiencia en los siguientes pasos, y piensa qué decir a futuros inversionistas y socios del proyecto."
+ },
+ "case-was-reopened": {
+  "en": "The I-956 is open again after a decision, often following a motion or a USCIS correction. The designation review continues, and USCIS may ask for updated economic or organizational information. Keep your counsel and economist ready to respond.",
+  "es": "El I-956 está abierto otra vez después de una decisión, muchas veces tras una moción o una corrección de USCIS. La revisión de la designación sigue, y USCIS puede pedir información económica u organizacional actualizada."
+ },
+ "case-rejected-because-i-sent-an-incorrect-fee": {
+  "en": "The I-956 was rejected over the fee and was not reviewed. Regional center filing fees are high and change from time to time, so confirm the current amount on uscis.gov and refile the complete application.",
+  "es": "El I-956 fue rechazado por el pago y no se revisó. Las cuotas de centros regionales son altas y cambian de vez en cuando, así que confirma el monto actual en uscis.gov y vuelve a presentar la solicitud completa."
+ },
+ "expedite-request-received": {
+  "en": "USCIS received a request to speed up the I-956. Regional center filings can be expedited only under USCIS criteria, and some EB-5 priority rules apply to certain project types. Keep supporting evidence ready. Receiving the request is not an approval of it.",
+  "es": "USCIS recibió una solicitud para acelerar el I-956. Los trámites de centros regionales solo se aceleran bajo los criterios de USCIS, y hay reglas de prioridad de EB-5 para ciertos tipos de proyecto. Ten listas las pruebas que lo respalden."
+ },
+ "withdrawal-acknowledgement-notice-was-sent": {
+  "en": "USCIS confirmed the I-956 was withdrawn. The organization will not be designated from this filing. If investors or projects were planned under this center, talk with EB-5 counsel about how to inform them and what alternatives exist.",
+  "es": "USCIS confirmó que se retiró el I-956. La organización no será designada con este trámite. Si había inversionistas o proyectos planeados con este centro, habla con un abogado de EB-5 sobre cómo informarles y qué alternativas hay."
+ },
+ "name-was-updated": {
+  "en": "USCIS updated the name on the I-956 record, likely the regional center's legal name. Make sure it matches corporate documents and project filings, since investors' petitions will refer to the center by this name. Keep the notice with corporate records.",
+  "es": "USCIS actualizó el nombre en el registro del I-956, seguramente el nombre legal del centro regional. Asegúrate de que coincida con los documentos corporativos y los trámites de proyectos, porque las peticiones de los inversionistas usarán ese nombre."
+ },
+ "case-was-received-and-a-receipt-notice-was-emailed": {
+  "en": "The I-956 receipt arrived electronically, often through the attorney's or organization's online account. Save it with the corporate records, and set up a process to watch the account for requests. Missed requests can lead to denial for abandonment.",
+  "es": "El recibo del I-956 llegó en forma electrónica, muchas veces por la cuenta en línea del abogado o de la organización. Guárdalo con los registros corporativos, y define cómo revisar la cuenta por si llegan solicitudes."
+ },
+ "case-accepted-by-the-uscis-lockbox": {
+  "en": "The intake site accepted the I-956 package and processed the fee. A receipt notice should follow. Keep the mailing record and a full copy of the application, including the economic analysis. Confirm the payment cleared with your bank.",
+  "es": "El centro de recepción aceptó el paquete del I-956 y procesó el pago. Debe llegar un aviso de recibo. Guarda el registro del envío y una copia completa de la solicitud, incluyendo el análisis económico."
+ },
+ "fees-were-waived": {
+  "en": "This should not normally appear on an I-956, because regional center applications are not eligible for fee waivers. Read the notice to see which filing it refers to, and contact USCIS if it looks like an error.",
+  "es": "Esto normalmente no debería aparecer en un I-956, porque las solicitudes de centro regional no pueden tener exención de cuota. Lee el aviso para ver a qué trámite se refiere, y comunícate con USCIS si parece un error."
+ },
+ "case-was-rejected-because-it-was-improperly-filed": {
+  "en": "The I-956 was returned unprocessed, for example for a missing signature, an outdated form edition, or a missing required section. Correct the issue with your EB-5 counsel and refile the complete application. A rejected filing keeps no filing date.",
+  "es": "El I-956 regresó sin procesar, por ejemplo por falta de firma, una edición vieja del formulario o una sección obligatoria faltante. Corrige el problema con tu abogado de EB-5 y vuelve a presentar la solicitud completa."
+ },
+ "biometrics-appointment-was-scheduled": {
+  "en": "A biometrics appointment is unusual on an I-956, since the applicant is an organization. It may be for a person involved with the regional center whose background is being checked. Read the notice for the name, and make sure that person attends.",
+  "es": "Una cita de biométricos es rara en un I-956, porque quien solicita es una organización. Puede ser para una persona involucrada con el centro regional cuyos antecedentes se están revisando. Lee el aviso para ver el nombre, y asegúrate de que esa persona vaya."
+ },
+ "case-was-updated-to-show-fingerprints-were-taken": {
+  "en": "Fingerprints were recorded for someone connected to this regional center case. Background checks can now run. The rest of the designation review, including the economic analysis, continues separately. Keep the stamped appointment notice in the regional center's compliance file.",
+  "es": "Se registraron huellas de alguien ligado a este caso de centro regional. Ahora pueden correr los chequeos de antecedentes. El resto de la revisión de la designación, incluyendo el análisis económico, sigue por separado. Guarda el aviso sellado en el archivo de cumplimiento."
+ },
+ "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+  "en": "USCIS recorded a missed in-person appointment on this regional center case, likely a biometrics visit for a person involved. This can delay or harm the designation. Contact USCIS quickly to reschedule, and inform your EB-5 counsel.",
+  "es": "USCIS registró una cita en persona faltada en este caso de centro regional, seguramente de biométricos de una persona involucrada. Esto puede atrasar o perjudicar la designación. Comunícate rápido con USCIS para pedir otra cita, e informa a tu abogado de EB-5."
+ },
+ "case-was-approved-and-my-decision-was-emailed": {
+  "en": "The regional center designation approval is in the online account. Download it and keep it in your compliance file. Plan for ongoing obligations, like the yearly I-956G statement and project filings on Form I-956F. Share it with project partners.",
+  "es": "La aprobación de la designación del centro regional está en la cuenta en línea. Descárgala y guárdala en tu archivo de cumplimiento. Planea las obligaciones continuas, como el informe anual I-956G y los trámites de proyectos en el formulario I-956F."
+ },
+ "case-approval-was-certified-by-uscis": {
+  "en": "USCIS certified the I-956 approval for another agency. This may help the Department of State or another office confirm the designation for investors processing abroad. No action is needed from the regional center. Keep the approval notice on file.",
+  "es": "USCIS certificó la aprobación del I-956 para otra agencia. Esto puede ayudar al Departamento de Estado u otra oficina a confirmar la designación para inversionistas que hacen trámite en el extranjero. El centro regional no tiene que hacer nada."
+ },
+ "case-was-sent-to-the-department-of-state": {
+  "en": "This is uncommon for an I-956, since designation itself does not lead to a visa. It may relate to sharing the designation with the Department of State for investor cases abroad. Read the notice and ask your EB-5 counsel what it covers.",
+  "es": "Esto es poco común en un I-956, porque la designación en sí no lleva a una visa. Puede tener que ver con compartir la designación con el Departamento de Estado para casos de inversionistas en el extranjero. Lee el aviso y pregunta a tu abogado de EB-5 qué cubre."
+ },
+ "response-to-uscis-notice-of-intent-was-received": {
+  "en": "USCIS received the regional center's reply to a notice of intent to deny. The officer will review the rebuttal, which often addresses economic methodology or the people involved. Keep EB-5 counsel closely involved until a decision arrives.",
+  "es": "USCIS recibió la respuesta del centro regional a un aviso de intención de negar. El oficial revisará la respuesta, que muchas veces trata sobre la metodología económica o las personas involucradas. Mantén muy involucrado a tu abogado de EB-5 hasta que llegue la decisión."
+ },
+ "case-is-pending-at-a-local-office": {
+  "en": "The I-956 shows as pending at a local office, which is unusual for regional center filings handled by a specialized unit. It may mean a site visit or local review is planned. Keep records and contacts up to date.",
+  "es": "El I-956 aparece pendiente en una oficina local, algo raro para trámites de centros regionales que lleva una unidad especializada. Puede significar que se planea una visita al sitio o una revisión local. Mantén al día los registros y contactos."
+ },
+ "duplicate-notice-was-mailed": {
+  "en": "USCIS mailed another copy of an I-956 notice. A spare copy of the receipt or designation approval can be useful for investor due diligence. It does not change the status of the application. File it with the original.",
+  "es": "USCIS mandó otra copia de un aviso del I-956. Tener otra copia del recibo o de la aprobación de la designación puede servir para la revisión que hacen los inversionistas. No cambia el estado de la solicitud."
+ },
+ "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+  "en": "A notice on the I-956 could not be delivered. If it was an RFE or notice of intent, missing the deadline could cost the designation. Update the organization's address with USCIS and ask for the notice to be resent.",
+  "es": "Un aviso del I-956 no se pudo entregar. Si era una RFE o un aviso de intención, perder el plazo podría costar la designación. Actualiza la dirección de la organización con USCIS y pide que reenvíen el aviso."
+ },
+ "date-of-birth-was-updated": {
+  "en": "USCIS corrected a date of birth on this case, most likely for a person listed as involved with the regional center. Check that it matches that person's passport and any related background-check filings. Report any remaining error to USCIS.",
+  "es": "USCIS corrigió una fecha de nacimiento en este caso, seguramente de una persona que aparece como involucrada con el centro regional. Revisa que coincida con el pasaporte de esa persona y con los trámites de antecedentes relacionados."
+ },
+ "continuation-notice-was-mailed": {
+  "en": "A continuation notice is not typical for an I-956. Read it to see what it continues; it may relate to another regional center filing. Contact USCIS with the receipt number if it is unclear. Keep it in your compliance file.",
+  "es": "Un aviso de continuación no es típico en un I-956. Léelo para ver qué continúa; puede tener que ver con otro trámite del centro regional. Comunícate con USCIS con el número de recibo si no queda claro."
+ },
+ "termination-notice-sent": {
+  "en": "USCIS sent a notice ending the regional center case or designation. Designation can be terminated for reasons such as not filing the annual I-956G, not paying into the Integrity Fund, or other compliance problems. Investors may be affected; involve EB-5 counsel immediately.",
+  "es": "USCIS mandó un aviso que termina el caso o la designación del centro regional. La designación se puede terminar por razones como no presentar el informe anual I-956G, no pagar al Fondo de Integridad u otros problemas de cumplimiento. Los inversionistas pueden verse afectados; involucra de inmediato a un abogado de EB-5."
+ },
+ "case-closed-benefit-received-by-other-means": {
+  "en": "USCIS closed this I-956 because the designation already exists through another filing, for example a duplicate application or an earlier approval. Confirm which receipt number reflects your active designation. Keep the closure notice with your designation records, and tell investors which designation is active.",
+  "es": "USCIS cerró este I-956 porque la designación ya existe por otro trámite, por ejemplo una solicitud duplicada o una aprobación anterior. Confirma qué número de recibo corresponde a tu designación activa. Guarda el aviso de cierre con los registros de la designación."
+ },
+ "expedite-request-denied": {
+  "en": "USCIS will not speed up the I-956, but it keeps its place. Compare your wait with the typical range shown on this page. A complete economic analysis and organizational file usually helps avoid RFEs that add time.",
+  "es": "USCIS no va a acelerar el I-956, pero conserva su lugar. Compara tu espera con el rango típico de esta página. Un análisis económico y un expediente de la organización completos suelen ayudar a evitar RFE que agregan tiempo."
+ },
+ "correspondence-was-received-and-uscis-is-reviewing-it": {
+  "en": "USCIS received something the regional center sent, such as an update to management, ownership or address. An officer will decide if it affects the application. Material changes are generally required to be reported. Keep a dated copy of what was sent.",
+  "es": "USCIS recibió algo que mandó el centro regional, como un cambio en la administración, los dueños o la dirección. Un oficial decidirá si afecta la solicitud. En general, los cambios importantes se deben reportar. Guarda una copia con fecha de lo enviado."
+ }
+}

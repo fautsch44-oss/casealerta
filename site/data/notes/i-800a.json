@@ -1,0 +1,150 @@
+{
+ "case-was-received": {
+  "en": "USCIS has your I-800A, the first step in adopting from a Hague Convention country. This form is about you as prospective adoptive parents, not about a specific child yet. If your home study was not ready at filing, send it as soon as possible, since USCIS cannot decide without it.",
+  "es": "USCIS tiene tu I-800A, el primer paso para adoptar de un país del Convenio de La Haya. Este formulario trata sobre ustedes como futuros padres adoptivos, todavía no sobre un niño en particular. Si tu estudio del hogar no estaba listo al presentarlo, mándalo lo antes posible, porque USCIS no puede decidir sin él."
+ },
+ "case-was-received-and-a-receipt-notice-was-sent": {
+  "en": "Your I-800A receipt notice is in the mail. Share a copy with your adoption service provider, since they coordinate with USCIS and the other country. The next steps are usually biometrics for you and adult household members, then review of the home study.",
+  "es": "Tu aviso de recibo del I-800A viene por correo. Comparte una copia con tu agencia de adopción, porque ellos coordinan con USCIS y con el otro país. Los siguientes pasos suelen ser biométricos para ti y los adultos de tu hogar, y después la revisión del estudio del hogar."
+ },
+ "fingerprint-fee-was-received": {
+  "en": "USCIS confirmed the biometrics payment for your Hague adoption case. Fingerprints are required for you, your spouse if any, and adult members of your household. Each person should receive an appointment notice; tell your adoption agency if anyone is missing one.",
+  "es": "USCIS confirmó el pago de biométricos de tu caso de adopción de La Haya. Se piden huellas para ti, tu cónyuge si lo hay, y los adultos que viven en tu casa. Cada persona debe recibir un aviso de cita; avisa a tu agencia de adopción si a alguien no le llegó."
+ },
+ "fingerprint-review-was-completed": {
+  "en": "The FBI checks from your I-800A fingerprints came back. USCIS compares these results with what the home study says about criminal history. If anything appears that the home study did not mention, USCIS may ask for an updated home study before deciding.",
+  "es": "Regresaron los chequeos del FBI de las huellas de tu I-800A. USCIS compara estos resultados con lo que dice el estudio del hogar sobre antecedentes penales. Si aparece algo que el estudio del hogar no mencionó, USCIS puede pedir un estudio actualizado antes de decidir."
+ },
+ "case-is-being-actively-reviewed-by-uscis": {
+  "en": "An officer is reviewing your suitability to adopt, mainly the home study, background checks, and your plans for the child, such as age and number of children. Hague cases have strict home study rules, so the officer checks that every required element is there.",
+  "es": "Un oficial está revisando si son aptos para adoptar, sobre todo el estudio del hogar, los chequeos de antecedentes y sus planes para el niño, como la edad y el número de niños. Los casos de La Haya tienen reglas estrictas para el estudio del hogar, así que el oficial revisa que tenga todo lo requerido."
+ },
+ "request-for-additional-evidence-was-sent": {
+  "en": "I-800A RFEs often ask for an updated or corrected home study, more detail about a household member, or proof of the provider's accreditation. Work with your home study preparer and adoption agency to answer every point before the deadline. An adoption attorney can help with complex issues.",
+  "es": "Las RFE del I-800A suelen pedir un estudio del hogar actualizado o corregido, más detalles sobre alguien de la casa, o prueba de la acreditación de la agencia. Trabaja con quien hizo tu estudio del hogar y con tu agencia para contestar cada punto antes de la fecha límite. Un abogado de adopción puede ayudar en temas complejos."
+ },
+ "request-for-initial-evidence-was-sent": {
+  "en": "Something required was missing when you filed the I-800A, often the home study itself or proof of U.S. citizenship. Send the items with the notice on top before the deadline. Coordinate with your agency so the home study meets the Hague requirements.",
+  "es": "Faltó algo obligatorio cuando presentaste el I-800A, muchas veces el estudio del hogar o la prueba de ciudadanía. Manda lo que falta con el aviso encima antes de la fecha límite. Coordina con tu agencia para que el estudio del hogar cumpla los requisitos de La Haya."
+ },
+ "response-to-uscis-request-for-evidence-was-received": {
+  "en": "USCIS has your response for the I-800A, and the officer will review the updated documents. If the home study now meets all requirements, the next step is often the suitability decision. Keep your agency informed about this status.",
+  "es": "USCIS tiene tu respuesta del I-800A, y el oficial revisará los documentos actualizados. Si el estudio del hogar ya cumple todos los requisitos, el siguiente paso suele ser la decisión sobre su idoneidad. Mantén informada a tu agencia sobre este estatus."
+ },
+ "case-was-transferred-and-a-new-office-has-jurisdiction": {
+  "en": "Your I-800A moved to another USCIS office. Intercountry adoption cases are handled by a specialized USCIS unit, and transfers are usually administrative. The notice names the office now responsible; share it with your adoption agency.",
+  "es": "Tu I-800A pasó a otra oficina de USCIS. Los casos de adopción internacional los lleva una unidad especializada de USCIS, y las transferencias suelen ser administrativas. El aviso dice qué oficina es la responsable ahora; compártelo con tu agencia de adopción."
+ },
+ "case-was-approved": {
+  "en": "USCIS found you suitable to adopt from a Hague Convention country. The approval is valid for a limited time shown on the notice, and USCIS shares it with the Department of State. When the other country proposes a child, you will file Form I-800 for that child.",
+  "es": "USCIS determinó que son aptos para adoptar de un país del Convenio de La Haya. La aprobación vale por un tiempo limitado que aparece en el aviso, y USCIS la comparte con el Departamento de Estado. Cuando el otro país proponga un niño, presentarán el formulario I-800 para ese niño."
+ },
+ "notice-explaining-uscis-actions-was-mailed": {
+  "en": "USCIS sent a letter about your I-800A. It might ask for an updated home study, explain a transfer, or warn of an intent to deny. Read it right away and share it with your adoption agency, since many replies have short deadlines.",
+  "es": "USCIS mandó una carta sobre tu I-800A. Puede pedir un estudio del hogar actualizado, explicar una transferencia o avisar una intención de negar. Léela de inmediato y compártela con tu agencia de adopción, porque muchas respuestas tienen plazos cortos."
+ },
+ "case-was-denied": {
+  "en": "USCIS found that you are not suitable to adopt at this time, based on the home study or background checks. The letter explains why and what options exist, such as a motion or an appeal. Talk to your agency and an adoption attorney about fixing the issue and filing again.",
+  "es": "USCIS determinó que por ahora no son aptos para adoptar, por el estudio del hogar o los chequeos de antecedentes. La carta explica por qué y qué opciones hay, como una moción o una apelación. Hablen con su agencia y con un abogado de adopción para corregir el problema y presentar otra vez."
+ },
+ "case-was-reopened": {
+  "en": "Your I-800A is open again after a decision, often after a motion or a USCIS correction. The officer will review your suitability again, and may ask for an updated home study or new fingerprints if earlier ones are no longer current.",
+  "es": "Tu I-800A está abierto otra vez después de una decisión, muchas veces tras una moción o una corrección de USCIS. El oficial va a revisar de nuevo su idoneidad, y puede pedir un estudio del hogar actualizado o nuevas huellas si las anteriores ya no están vigentes."
+ },
+ "case-rejected-because-i-sent-an-incorrect-fee": {
+  "en": "Your I-800A was rejected over the fee. The amount can depend on how many adults in your household need biometrics, so check the current fees on uscis.gov. Refile the full package; your filing date will be the new acceptance date.",
+  "es": "Tu I-800A fue rechazado por el pago. El monto puede depender de cuántos adultos de tu casa necesitan biométricos, así que revisa las cuotas actuales en uscis.gov. Vuelve a mandar el paquete completo; tu fecha de presentación será la nueva fecha de aceptación."
+ },
+ "expedite-request-received": {
+  "en": "USCIS received your request to speed up the I-800A. Adoption cases can sometimes qualify, for example when a child's situation is urgent or a deadline in the other country is close. Send any proof you have, and keep your agency involved.",
+  "es": "USCIS recibió tu solicitud para acelerar el I-800A. Los casos de adopción a veces califican, por ejemplo cuando la situación de un niño es urgente o hay una fecha límite cercana en el otro país. Manda las pruebas que tengas, y mantén involucrada a tu agencia."
+ },
+ "withdrawal-acknowledgement-notice-was-sent": {
+  "en": "USCIS confirmed your I-800A was withdrawn. Your suitability case is closed and cannot support an I-800 for a child. If you decide to adopt from a Convention country later, you will need to file a new I-800A with a current home study.",
+  "es": "USCIS confirmó que se retiró tu I-800A. Su caso de idoneidad está cerrado y ya no puede servir para un I-800 de un niño. Si más adelante deciden adoptar de un país del Convenio, tendrán que presentar un nuevo I-800A con un estudio del hogar al día."
+ },
+ "name-was-updated": {
+  "en": "USCIS updated a name on your I-800A record. Make sure the spelling matches your passports and home study, because the approval goes to the Department of State and the other country, and mismatches can slow later steps.",
+  "es": "USCIS actualizó un nombre en el registro de tu I-800A. Asegúrate de que coincida con sus pasaportes y el estudio del hogar, porque la aprobación va al Departamento de Estado y al otro país, y las diferencias pueden atrasar los pasos siguientes."
+ },
+ "case-was-received-and-a-receipt-notice-was-emailed": {
+  "en": "Your I-800A receipt arrived electronically. Save it and send a copy to your adoption agency. Watch your account and mail for biometrics notices for each adult in your household, which usually come next. Print a copy for your adoption file.",
+  "es": "Tu recibo del I-800A llegó en forma electrónica. Guárdalo y manda una copia a tu agencia de adopción. Revisa tu cuenta y tu correo por si llegan los avisos de biométricos para cada adulto de tu casa, que suelen ser lo siguiente."
+ },
+ "case-accepted-by-the-uscis-lockbox": {
+  "en": "The intake site accepted your I-800A package and processed the fees, including biometrics fees for adults in the household. A receipt notice should follow. Keep proof of mailing and a complete copy of the home study you sent.",
+  "es": "El centro de recepción aceptó tu paquete del I-800A y procesó los pagos, incluyendo los de biométricos de los adultos de tu casa. Debe llegar un aviso de recibo. Guarda prueba del envío y una copia completa del estudio del hogar que mandaste."
+ },
+ "fees-were-waived": {
+  "en": "This is unusual for an I-800A, since adoption suitability filings generally require the fee. Read the notice to see which form or fee it refers to, such as a free extension or update request. Contact USCIS if it is unclear.",
+  "es": "Esto es raro en un I-800A, porque las solicitudes de idoneidad para adoptar en general requieren pago. Lee el aviso para ver a qué formulario o cuota se refiere, como una extensión o actualización sin costo. Comunícate con USCIS si no queda claro."
+ },
+ "case-was-rejected-because-it-was-improperly-filed": {
+  "en": "Your I-800A came back unprocessed, for example for a missing signature, an outdated form, or missing proof of citizenship. Fix the problem and refile. Ask your agency to check the package before sending it again.",
+  "es": "Tu I-800A regresó sin procesar, por ejemplo por falta de firma, un formulario viejo o falta de prueba de ciudadanía. Corrige el problema y preséntalo de nuevo. Pide a tu agencia que revise el paquete antes de volver a mandarlo."
+ },
+ "biometrics-appointment-was-scheduled": {
+  "en": "Biometrics are set for your Hague adoption case. You, your spouse and each adult in the household may receive separate appointment notices. Everyone listed must go, bringing the notice and photo ID; a missed appointment can delay the suitability decision.",
+  "es": "Los biométricos de tu caso de adopción de La Haya están programados. Tú, tu cónyuge y cada adulto de tu casa pueden recibir avisos de cita por separado. Todos deben ir con el aviso y una identificación con foto; una cita faltada puede atrasar la decisión de idoneidad."
+ },
+ "case-was-updated-to-show-fingerprints-were-taken": {
+  "en": "Fingerprints for your I-800A were recorded. The background checks can now run. Once they are back and the home study is complete, the officer can decide on your suitability to adopt. Keep each person's stamped notice.",
+  "es": "Se registraron las huellas de tu I-800A. Ahora pueden correr los chequeos de antecedentes. Cuando regresen y el estudio del hogar esté completo, el oficial podrá decidir si son aptos para adoptar. Guarden el aviso sellado de cada persona."
+ },
+ "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+  "en": "USCIS recorded a missed biometrics appointment on your I-800A. Every required adult must give fingerprints, so one missed visit can hold up the whole case. Contact USCIS right away to reschedule, and tell your agency.",
+  "es": "USCIS registró una cita de biométricos faltada en tu I-800A. Cada adulto requerido debe dar huellas, así que una cita faltada puede detener todo el caso. Comunícate de inmediato con USCIS para pedir otra cita, y avísale a tu agencia."
+ },
+ "case-was-approved-and-my-decision-was-emailed": {
+  "en": "Your I-800A approval is in your online account. Download it and share it with your agency. Note the validity period on the notice; if a child is not proposed before it ends, you may need to request an extension.",
+  "es": "La aprobación de tu I-800A está en tu cuenta en línea. Descárgala y compártela con tu agencia. Fíjate en la vigencia del aviso; si no proponen un niño antes de que termine, puede que necesites pedir una extensión."
+ },
+ "case-approval-was-certified-by-uscis": {
+  "en": "USCIS certified your I-800A approval for another agency, usually the Department of State, so the U.S. embassy in the child's country can rely on it. No action is needed from you. Your agency will guide the next steps.",
+  "es": "USCIS certificó la aprobación de tu I-800A para otra agencia, normalmente el Departamento de Estado, para que la embajada de EE.UU. en el país del niño pueda usarla. No necesitas hacer nada. Tu agencia te guiará en los siguientes pasos."
+ },
+ "case-was-sent-to-the-department-of-state": {
+  "en": "Your approved I-800A was sent to the Department of State, which shares it with the U.S. embassy or consulate in the Convention country. This lets the matching process move forward. When a child is proposed, you file the I-800 next.",
+  "es": "Tu I-800A aprobado se mandó al Departamento de Estado, que lo comparte con la embajada o consulado de EE.UU. en el país del Convenio. Así puede avanzar el proceso de asignación. Cuando propongan un niño, sigue presentar el I-800."
+ },
+ "response-to-uscis-notice-of-intent-was-received": {
+  "en": "USCIS received your reply to a notice of intent to deny your I-800A, often about home study concerns or background check findings. The officer will review it before deciding. Keep working with your agency and an adoption attorney.",
+  "es": "USCIS recibió tu respuesta a un aviso de intención de negar tu I-800A, muchas veces por dudas sobre el estudio del hogar o resultados de antecedentes. El oficial la revisará antes de decidir. Sigue trabajando con tu agencia y un abogado de adopción."
+ },
+ "case-is-pending-at-a-local-office": {
+  "en": "Your I-800A is at a USCIS local office. Adoption suitability is mostly decided on paper by a specialized unit, so this may mean a local review or document check. Keep your address current and watch for notices.",
+  "es": "Tu I-800A está en una oficina local de USCIS. La idoneidad para adoptar se decide casi siempre en papel por una unidad especializada, así que esto puede ser una revisión local o de documentos. Mantén tu dirección al día y revisa si llegan avisos."
+ },
+ "duplicate-notice-was-mailed": {
+  "en": "USCIS mailed another copy of an I-800A notice, often the approval. A spare approval copy can be useful for your adoption agency or the foreign authorities. It does not change the validity period of your approval.",
+  "es": "USCIS mandó otra copia de un aviso del I-800A, muchas veces la aprobación. Tener otra copia puede servir para tu agencia de adopción o las autoridades del otro país. No cambia la vigencia de tu aprobación."
+ },
+ "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+  "en": "A notice on your I-800A could not be delivered. If it was a biometrics appointment or a request for an updated home study, missing it can delay your adoption. Update your address with USCIS and ask what the notice said.",
+  "es": "Un aviso de tu I-800A no se pudo entregar. Si era una cita de biométricos o una solicitud de estudio del hogar actualizado, perderlo puede atrasar tu adopción. Actualiza tu dirección con USCIS y pregunta qué decía el aviso."
+ },
+ "date-of-birth-was-updated": {
+  "en": "USCIS corrected a date of birth on your I-800A record. Check that it matches your passport and the home study, since adoption authorities abroad often look at the ages of the adoptive parents. Report any remaining error to USCIS.",
+  "es": "USCIS corrigió una fecha de nacimiento en el registro de tu I-800A. Revisa que coincida con tu pasaporte y el estudio del hogar, porque las autoridades de adopción del otro país suelen revisar la edad de los padres adoptivos."
+ },
+ "continuation-notice-was-mailed": {
+  "en": "For an I-800A, a notice like this may relate to keeping your suitability approval valid, for example after an extension or update request. Read it to see what it covers and the new validity period, if any.",
+  "es": "En un I-800A, un aviso así puede tener que ver con mantener vigente tu aprobación de idoneidad, por ejemplo después de una solicitud de extensión o actualización. Léelo para ver qué cubre y la nueva vigencia, si la hay."
+ },
+ "termination-notice-sent": {
+  "en": "USCIS ended your I-800A case, for example after abandonment, a withdrawal, or because the approval period ended without an extension. Read the notice. If you still want to adopt, talk to your agency about filing again with a current home study.",
+  "es": "USCIS terminó tu caso del I-800A, por ejemplo por abandono, un retiro, o porque terminó la vigencia sin extensión. Lee el aviso. Si todavía quieren adoptar, hablen con su agencia sobre presentar de nuevo con un estudio del hogar al día."
+ },
+ "case-closed-benefit-received-by-other-means": {
+  "en": "USCIS closed this I-800A because the same determination already exists in another filing, for example a duplicate I-800A or a case already moving under another process. Check with your agency that the active case is the right one.",
+  "es": "USCIS cerró este I-800A porque la misma decisión ya existe en otro trámite, por ejemplo un I-800A duplicado o un caso que ya avanza por otro proceso. Confirma con tu agencia que el caso activo sea el correcto."
+ },
+ "expedite-request-denied": {
+  "en": "USCIS will not speed up your I-800A, but it keeps its normal place. Compare your wait with the typical range shown on this page. Make sure your home study and background checks are complete, since gaps there cause most delays.",
+  "es": "USCIS no va a acelerar tu I-800A, pero conserva su lugar normal. Compara tu espera con el rango típico de esta página. Asegúrate de que tu estudio del hogar y tus chequeos estén completos, porque las fallas ahí causan la mayoría de los retrasos."
+ },
+ "correspondence-was-received-and-uscis-is-reviewing-it": {
+  "en": "USCIS received something you sent about the I-800A, such as a home study update or a change in your household. An officer will decide if it affects your case. Significant changes, like a new household member, usually need to be reported.",
+  "es": "USCIS recibió algo que mandaste sobre el I-800A, como una actualización del estudio del hogar o un cambio en tu casa. Un oficial decidirá si afecta tu caso. Los cambios importantes, como una persona nueva en la casa, normalmente se deben reportar."
+ }
+}

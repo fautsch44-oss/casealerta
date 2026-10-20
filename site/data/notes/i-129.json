@@ -1,0 +1,150 @@
+{
+"case-was-received": {
+"en": "Your employer's I-129 petition is in the system. The employer, or its attorney, is the petitioner, so most notices go to them, not to the worker. If the employer paid for premium processing, a separate clock for a decision or request starts from receipt. Ask the employer for a copy of the receipt notice.",
+"es": "La petición I-129 de tu empleador ya está en el sistema. El peticionario es el empleador o su abogado, así que casi todos los avisos les llegan a ellos y no al trabajador. Si el empleador pagó procesamiento prioritario, corre un plazo especial para decidir o pedir pruebas. Pide al empleador una copia del aviso de recibo."
+},
+"case-was-received-and-a-receipt-notice-was-sent": {
+"en": "USCIS mailed the I-129 receipt notice to the employer or its attorney. For an extension or change of employer filed on time, this receipt can matter for whether the worker may keep working while the petition is pending. Ask the employer for a copy and keep it with your I-94 record.",
+"es": "USCIS mandó el aviso de recibo del I-129 al empleador o a su abogado. Si fue una extensión o un cambio de empleador presentado a tiempo, este recibo puede importar para saber si el trabajador puede seguir trabajando mientras se decide. Pide una copia al empleador y guárdala con tu registro I-94."
+},
+"fingerprint-fee-was-received": {
+"en": "This status is unusual for an I-129, because most temporary worker petitions do not include biometrics for the worker. It can appear in a few categories or when the worker also has a related application. Check with the employer or attorney whether an appointment notice is expected.",
+"es": "Este estatus es raro en un I-129, porque la mayoría de las peticiones de trabajo temporal no incluyen biométricos del trabajador. Puede salir en algunas categorías o si el trabajador tiene otra solicitud relacionada. Pregunta al empleador o al abogado si se espera una cita."
+},
+"fingerprint-review-was-completed": {
+"en": "Biometric checks are not a usual step for an I-129, so this update likely relates to a specific category or to a linked application. It is not a decision on the petition. The officer still reviews the job, the employer and the worker's qualifications.",
+"es": "Las huellas no son un paso normal en un I-129, así que este cambio probablemente tiene que ver con una categoría especial o con otra solicitud ligada. No es una decisión sobre la petición. El oficial todavía revisa el trabajo, el empleador y la preparación del trabajador."
+},
+"case-is-being-actively-reviewed-by-uscis": {
+"en": "An officer is reviewing the I-129, including the job offer, the employer's details and whether the worker qualifies for the category, such as H-1B, L-1 or O-1. With premium processing, the officer must act within the premium window. Without it, the review follows the typical range shown on this page.",
+"es": "Un oficial está revisando el I-129: la oferta de trabajo, los datos del empleador y si el trabajador califica para la categoría, como H-1B, L-1 u O-1. Con procesamiento prioritario, el oficial debe actuar dentro de ese plazo especial. Sin él, la revisión sigue el rango típico que muestra esta página."
+},
+"request-for-additional-evidence-was-sent": {
+"en": "I-129 RFEs often ask the employer to prove a specialty occupation, the employer-employee relationship, the worker's degree equivalency, or specialized knowledge for L-1. The employer or its attorney writes the response. Workers can help by sending diplomas, experience letters and pay records quickly.",
+"es": "Las RFE del I-129 muchas veces piden al empleador probar que el puesto es especializado, la relación entre empleador y trabajador, la equivalencia del título o el conocimiento especializado para L-1. El empleador o su abogado prepara la respuesta. El trabajador ayuda mandando rápido diplomas, cartas de experiencia y recibos de pago."
+},
+"request-for-initial-evidence-was-sent": {
+"en": "The I-129 package was missing something required from the start, such as the certified Labor Condition Application for H-1B, a signature, or a required supplement for the category. The employer must send it before the deadline. Missing it can lead to denial of the petition.",
+"es": "Al paquete del I-129 le faltó algo obligatorio desde el inicio, como la LCA certificada para H-1B, una firma o el suplemento que pide la categoría. El empleador debe mandarlo antes del plazo. Si no lo manda, la petición puede ser negada."
+},
+"response-to-uscis-request-for-evidence-was-received": {
+"en": "USCIS received the employer's RFE response on the I-129. If premium processing was paid, a new premium window usually starts when the response arrives. The officer will now approve, deny, or in some cases ask for more. The worker should keep in touch with the employer about the result.",
+"es": "USCIS recibió la respuesta del empleador a la RFE del I-129. Si se pagó procesamiento prioritario, normalmente empieza un nuevo plazo especial cuando llega la respuesta. Ahora el oficial puede aprobar, negar o, a veces, pedir más. El trabajador debe estar en contacto con el empleador para saber el resultado."
+},
+"case-was-transferred-and-a-new-office-has-jurisdiction": {
+"en": "The I-129 moved to another service center to balance workload. This is routine for employer petitions and does not affect the category or priority. Any premium processing request transfers with the case. New notices will show the new office.",
+"es": "El I-129 pasó a otro centro de servicio para repartir el trabajo. Es normal en peticiones de empleadores y no cambia la categoría ni la prioridad. Si había procesamiento prioritario, se va con el caso. Los avisos nuevos mostrarán la nueva oficina."
+},
+"case-was-approved": {
+"en": "The I-129 was approved and the employer will receive Form I-797. If the worker is in the U.S. and asked for an extension or change of status, the approval usually includes a new I-94. If the worker is abroad, the next step is a visa interview at a U.S. consulate, unless the category is visa-exempt.",
+"es": "El I-129 fue aprobado y el empleador recibirá el Formulario I-797. Si el trabajador está en EE.UU. y pidió extensión o cambio de estatus, la aprobación casi siempre trae un I-94 nuevo. Si está fuera, sigue la entrevista de visa en un consulado de EE.UU., salvo que la categoría no pida visa."
+},
+"notice-explaining-uscis-actions-was-mailed": {
+"en": "USCIS mailed a letter about the I-129 to the employer or attorney. It could be a request for evidence, a notice of intent to deny or revoke, or a site visit follow-up. The worker may not receive a copy directly, so ask the employer what it says and whether there is a deadline.",
+"es": "USCIS mandó una carta sobre el I-129 al empleador o al abogado. Puede ser una petición de pruebas, un aviso de intención de negar o revocar, o algo tras una visita al lugar de trabajo. El trabajador quizá no reciba copia, así que pregunta al empleador qué dice y si tiene plazo."
+},
+"case-was-denied": {
+"en": "The I-129 was denied. If the worker was in the U.S. on an extension or change of employer, the denial can affect permission to stay and work. The employer may file an I-290B or a new petition. Because status is at stake, the worker should talk to an immigration attorney, not only rely on the employer.",
+"es": "El I-129 fue negado. Si el trabajador estaba en EE.UU. con una extensión o cambio de empleador, la negación puede afectar su permiso para quedarse y trabajar. El empleador puede presentar un I-290B o una petición nueva. Como está en juego el estatus, el trabajador debe hablar con un abogado de inmigración, no solo con el empleador."
+},
+"case-was-reopened": {
+"en": "The I-129 is active again after a decision. Usually the employer filed a motion, or USCIS reopened it to correct an error. The officer may approve, ask for more evidence, or decide again. Ask the employer for the reopening notice and any deadline it includes.",
+"es": "El I-129 está activo otra vez después de una decisión. Casi siempre es porque el empleador presentó una moción o USCIS lo reabrió para corregir un error. El oficial puede aprobar, pedir más pruebas o decidir de nuevo. Pide al empleador el aviso de reapertura y cualquier plazo que traiga."
+},
+"case-rejected-because-i-sent-an-incorrect-fee": {
+"en": "The I-129 was rejected for a fee problem. I-129 fees depend on the category and on the employer's size, and some categories add extra fees, so mistakes are common. A rejected petition has no filing date. For time-sensitive filings, like an extension before the I-94 ends, the employer should refile at once.",
+"es": "El I-129 fue rechazado por un problema con el pago. Las cuotas del I-129 cambian según la categoría y el tamaño del empleador, y algunas categorías suman cuotas extra, así que los errores son comunes. Una petición rechazada no tiene fecha de presentación. Si hay prisa, como una extensión antes de que venza el I-94, el empleador debe volver a presentarla ya."
+},
+"expedite-request-received": {
+"en": "USCIS received an expedite request on the I-129. For many I-129 categories, employers use premium processing instead, which is a paid service with a set response window. An expedite request is reviewed against USCIS criteria and may or may not be granted.",
+"es": "USCIS recibió una solicitud para acelerar el I-129. En muchas categorías del I-129 los empleadores usan el procesamiento prioritario, un servicio pagado con plazo fijo de respuesta. La solicitud de aceleración se revisa con los criterios de USCIS y puede aceptarse o no."
+},
+"withdrawal-acknowledgement-notice-was-sent": {
+"en": "USCIS confirmed the employer withdrew the I-129. Employers do this when a job offer ends or a worker leaves. If the petition was already approved, a withdrawal can revoke it. Workers in the U.S. should check how this affects their status and any grace period, ideally with an attorney.",
+"es": "USCIS confirmó que el empleador retiró el I-129. Los empleadores lo hacen cuando termina la oferta o el trabajador se va. Si la petición ya estaba aprobada, retirarla puede revocarla. Si estás en EE.UU., revisa cómo afecta esto tu estatus y cualquier periodo de gracia, de preferencia con un abogado."
+},
+"name-was-updated": {
+"en": "USCIS updated a name on the I-129 record, usually the worker's name. The I-797 approval notice and any new I-94 will use this name. Make sure it matches the worker's passport exactly, because the consulate and border officers compare them.",
+"es": "USCIS actualizó un nombre en el expediente del I-129, casi siempre el del trabajador. El aviso de aprobación I-797 y cualquier I-94 nuevo usarán ese nombre. Asegúrate de que coincida exactamente con el pasaporte del trabajador, porque el consulado y la frontera los comparan."
+},
+"case-was-received-and-a-receipt-notice-was-emailed": {
+"en": "The I-129 receipt notice was sent electronically to the employer or its attorney. Online filing is available for some I-129 categories. The worker should ask for a copy, since the receipt number lets anyone track the petition here.",
+"es": "El aviso de recibo del I-129 se mandó de forma electrónica al empleador o a su abogado. Algunas categorías del I-129 ya se pueden presentar en línea. El trabajador debe pedir una copia, porque con el número de recibo puedes seguir la petición aquí."
+},
+"case-accepted-by-the-uscis-lockbox": {
+"en": "The I-129 package was accepted at intake and the fee was processed. A receipt notice for the employer should follow. If premium processing was filed at the same time, its clock usually starts once the case is receipted.",
+"es": "El paquete del I-129 fue aceptado y se cobró la cuota. Pronto debe llegar el aviso de recibo para el empleador. Si se pidió procesamiento prioritario al mismo tiempo, su plazo normalmente empieza cuando el caso queda registrado."
+},
+"fees-were-waived": {
+"en": "A fee waiver is very unusual for an I-129, since employers file it and fee waivers generally do not apply to employer petitions. Check the notice carefully to confirm what was waived, as it may concern a specific fee or a related filing. Contact USCIS if it looks like an error.",
+"es": "Una exención de cuota es muy rara en un I-129, porque lo presenta un empleador y en general las exenciones no aplican a peticiones de empleadores. Revisa bien el aviso para confirmar qué se exentó, porque puede ser una cuota específica u otro trámite ligado. Contacta a USCIS si parece un error."
+},
+"case-was-rejected-because-it-was-improperly-filed": {
+"en": "The I-129 was rejected without review. Common causes include filing at the wrong service center, missing the required supplement for the category, or for cap H-1B cases, filing without a valid registration selection. The employer must fix the issue and refile.",
+"es": "El I-129 fue rechazado sin revisarse. Las causas comunes son mandarlo al centro de servicio equivocado, no incluir el suplemento de la categoría o, en H-1B con cupo, presentarlo sin un registro seleccionado válido. El empleador debe corregir el problema y volver a presentarlo."
+},
+"biometrics-appointment-was-scheduled": {
+"en": "A biometrics appointment is not typical for an I-129. It can happen in a few categories or when a linked application, like a spouse's change of status, is involved. Go to the appointment with the notice and ID, and confirm with the employer which filing it belongs to.",
+"es": "Una cita de biométricos no es normal en un I-129. Puede pasar en algunas categorías o cuando hay otra solicitud ligada, como el cambio de estatus del cónyuge. Ve a la cita con el aviso y tu identificación, y confirma con el empleador a qué trámite corresponde."
+},
+"case-was-updated-to-show-fingerprints-were-taken": {
+"en": "Fingerprints were recorded for a case linked to this I-129. Most I-129 petitions do not need them, so this likely relates to a specific category or a related application. The petition review continues with the employer's evidence.",
+"es": "Se registraron huellas en un caso ligado a este I-129. La mayoría de las peticiones I-129 no las necesitan, así que probablemente tiene que ver con una categoría especial u otra solicitud relacionada. La revisión de la petición sigue con las pruebas del empleador."
+},
+"case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+"en": "USCIS recorded a missed in-person appointment connected to this I-129, which is unusual for employer petitions. It may relate to biometrics for a linked case. Contact USCIS and the employer quickly, since a missed appointment can lead to denial.",
+"es": "USCIS registró que nadie llegó a una cita en persona ligada a este I-129, algo raro en peticiones de empleadores. Puede ser una cita de biométricos de un caso relacionado. Contacta pronto a USCIS y al empleador, porque faltar a una cita puede llevar a una negación."
+},
+"case-was-approved-and-my-decision-was-emailed": {
+"en": "The I-129 approval was delivered electronically to the employer or attorney. The I-797 approval notice may include a new I-94 for workers in the U.S. Ask for a copy right away, since the worker needs it for HR records, the DMV or a visa appointment.",
+"es": "La aprobación del I-129 se mandó de forma electrónica al empleador o al abogado. El aviso de aprobación I-797 puede traer un I-94 nuevo si el trabajador está en EE.UU. Pide una copia de inmediato, porque el trabajador la necesita para recursos humanos, el DMV o la cita de visa."
+},
+"case-approval-was-certified-by-uscis": {
+"en": "USCIS confirmed the I-129 approval, often so the State Department can see it in its records before a visa interview. If the consulate cannot find the approval, this certification can help. The worker should bring the I-797 to the visa appointment.",
+"es": "USCIS confirmó la aprobación del I-129, muchas veces para que el Departamento de Estado la vea en su sistema antes de la entrevista de visa. Si el consulado no encuentra la aprobación, esta confirmación ayuda. El trabajador debe llevar el I-797 a su cita de visa."
+},
+"case-was-sent-to-the-department-of-state": {
+"en": "The approved I-129 information went to the State Department so the worker can apply for a visa abroad. Unlike green card cases, this does not go through NVC processing. The worker books a visa appointment at a U.S. consulate and brings the I-797 approval notice.",
+"es": "La información del I-129 aprobado se mandó al Departamento de Estado para que el trabajador pida su visa en el extranjero. A diferencia de los casos de green card, no pasa por el proceso del NVC. El trabajador saca cita de visa en un consulado de EE.UU. y lleva su aviso de aprobación I-797."
+},
+"response-to-uscis-notice-of-intent-was-received": {
+"en": "USCIS received the employer's answer to a notice of intent to deny or revoke the I-129. A notice of intent to revoke can come after approval, sometimes after a site visit. The officer will decide based on the response. The worker should consider talking to an immigration attorney about status options.",
+"es": "USCIS recibió la respuesta del empleador a un aviso de intención de negar o revocar el I-129. El aviso de revocar puede llegar después de la aprobación, a veces tras una visita al lugar de trabajo. El oficial decidirá con esa respuesta. El trabajador debería hablar con un abogado de inmigración sobre sus opciones."
+},
+"case-is-pending-at-a-local-office": {
+"en": "I-129 petitions are normally decided at service centers, so a local office status is unusual. It may reflect a site visit or a fraud prevention review of the employer. The case stays pending until that review ends. Ask the employer if anyone has been contacted.",
+"es": "Las peticiones I-129 normalmente se deciden en centros de servicio, así que este estatus es raro. Puede tener que ver con una visita al lugar de trabajo o una revisión antifraude del empleador. El caso sigue pendiente hasta que termine esa revisión. Pregunta al empleador si los han contactado."
+},
+"duplicate-notice-was-mailed": {
+"en": "USCIS mailed a copy of an I-129 notice to the employer or attorney. This is often the I-797 receipt or approval, which a worker may need for HR, a visa interview or the DMV. Ask the employer to share the copy.",
+"es": "USCIS mandó una copia de un aviso del I-129 al empleador o al abogado. Muchas veces es el I-797 de recibo o de aprobación, que el trabajador puede necesitar para recursos humanos, la cita de visa o el DMV. Pide al empleador que te comparta la copia."
+},
+"notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+"en": "An I-129 notice came back undelivered, likely because the employer or attorney address changed. If it was a request for evidence, the deadline still runs. The employer should update its address with USCIS and check the online account for the notice.",
+"es": "Un aviso del I-129 regresó sin entregarse, quizá porque cambió la dirección del empleador o del abogado. Si era una petición de pruebas, el plazo sigue corriendo. El empleador debe actualizar su dirección con USCIS y buscar el aviso en su cuenta en línea."
+},
+"date-of-birth-was-updated": {
+"en": "USCIS corrected the worker's date of birth on the I-129 record. This matters because the I-797 and any new I-94 should match the passport. Check the updated notice and ask the employer to confirm the record is now correct.",
+"es": "USCIS corrigió la fecha de nacimiento del trabajador en el expediente del I-129. Importa porque el I-797 y cualquier I-94 nuevo deben coincidir con el pasaporte. Revisa el aviso actualizado y pide al empleador que confirme que el registro ya está bien."
+},
+"continuation-notice-was-mailed": {
+"en": "USCIS mailed a notice about the I-129 continuing. For extensions filed on time, the worker may be allowed to keep working for the same employer for a limited period while the case is pending. Ask the employer or attorney how this notice applies to your category.",
+"es": "USCIS mandó un aviso de que el I-129 continúa. En extensiones presentadas a tiempo, el trabajador puede seguir trabajando para el mismo empleador por un tiempo limitado mientras se decide. Pregunta al empleador o al abogado cómo aplica este aviso a tu categoría."
+},
+"termination-notice-sent": {
+"en": "For an I-129, this usually means the approval was revoked or the petition was terminated, often after the employer withdrew it or USCIS found an issue. A worker in the U.S. may lose status. Talk to an immigration attorney quickly about a new employer, a change of status or departure planning.",
+"es": "En un I-129, esto normalmente significa que la aprobación se revocó o la petición se terminó, muchas veces porque el empleador la retiró o USCIS encontró un problema. Un trabajador en EE.UU. puede perder su estatus. Habla pronto con un abogado de inmigración sobre un nuevo empleador, un cambio de estatus o planear tu salida."
+},
+"case-closed-benefit-received-by-other-means": {
+"en": "USCIS closed this I-129 because the worker already has the same benefit through another filing, for example a separate approved petition for the same employer and dates. Check that the approval you rely on covers the right employer, job and period.",
+"es": "USCIS cerró este I-129 porque el trabajador ya tiene el mismo beneficio por otro trámite, por ejemplo otra petición aprobada para el mismo empleador y las mismas fechas. Revisa que la aprobación que usas cubra el empleador, el puesto y el periodo correctos."
+},
+"expedite-request-denied": {
+"en": "USCIS declined to expedite the I-129. The petition keeps its place in line. For many I-129 categories, the employer can still request premium processing, which is a paid service separate from expedite requests and comes with a set response window.",
+"es": "USCIS no aceptó acelerar el I-129. La petición conserva su lugar en la fila. En muchas categorías del I-129, el empleador todavía puede pedir procesamiento prioritario, un servicio pagado que es distinto de la solicitud de aceleración."
+},
+"correspondence-was-received-and-uscis-is-reviewing-it": {
+"en": "USCIS received a letter about the I-129, such as an address change, an amended job detail or a premium processing request. An officer will decide if it changes anything. The employer should keep a copy and the delivery proof.",
+"es": "USCIS recibió una carta sobre el I-129, como un cambio de dirección, un cambio en los datos del puesto o una solicitud de procesamiento prioritario. Un oficial decidirá si cambia algo. El empleador debe guardar copia y la prueba de entrega."
+}
+}

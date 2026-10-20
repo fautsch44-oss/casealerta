@@ -1,0 +1,150 @@
+{
+  "case-was-received": {
+    "en": "Your I-600A advance processing application is in line. USCIS will decide whether you are suitable to adopt a child from a country outside the Hague Adoption Convention. A home study is a key part of the file; if you did not send it with the form, submit it within the time allowed so the case is not closed as abandoned.",
+    "es": "Tu solicitud I-600A de trámite anticipado ya está en fila. USCIS decidirá si eres apto para adoptar a un niño de un país que no forma parte del Convenio de La Haya sobre adopción. El estudio del hogar es clave; si no lo mandaste con el formulario, envíalo dentro del tiempo permitido para que no cierren el caso por abandono."
+  },
+  "case-was-received-and-a-receipt-notice-was-sent": {
+    "en": "The I-797C receipt for your I-600A is in the mail. Share a copy with your adoption agency and home study provider. Biometrics notices should follow for you, your spouse if married, and adults living in your home, since each one needs a background check.",
+    "es": "El recibo I-797C de tu I-600A viene por correo. Comparte una copia con tu agencia de adopción y con quien hace tu estudio del hogar. Después deberían llegar avisos de biométricos para ti, tu cónyuge si estás casado y los adultos que viven en tu casa, porque cada uno necesita revisión de antecedentes."
+  },
+  "fingerprint-fee-was-received": {
+    "en": "USCIS applied the biometrics payment for your I-600A. Fingerprints are required for you, your spouse and adult household members, so expect one or more Application Support Center appointment notices. Make sure everyone who must attend knows to watch the mail.",
+    "es": "USCIS aplicó el pago de biométricos de tu I-600A. Se necesitan huellas tuyas, de tu cónyuge y de los adultos que viven en tu casa, así que espera uno o más avisos de cita en un Centro de Apoyo de Solicitudes (ASC). Avisa a todos los que deben ir para que estén pendientes del correo."
+  },
+  "fingerprint-review-was-completed": {
+    "en": "The FBI checks from your I-600A fingerprints are back. Those results also affect how long an approval can stay valid, so the dates matter. Next, the officer reviews your home study and suitability to adopt. Tell your agency so it can plan the next steps of the adoption.",
+    "es": "Ya regresaron las revisiones del FBI de las huellas de tu I-600A. Esos resultados también afectan cuánto tiempo puede valer una aprobación, así que las fechas importan. Ahora el oficial revisa tu estudio del hogar y si eres apto para adoptar. Avisa a tu agencia para que planee los siguientes pasos."
+  },
+  "case-is-being-actively-reviewed-by-uscis": {
+    "en": "An officer is reviewing your I-600A, mainly the home study, background checks, and your ability to care for an adopted child. If the home study needs an update, for example after a move or a change in your household, the next notice may be a request for evidence.",
+    "es": "Un oficial está revisando tu I-600A, sobre todo el estudio del hogar, las revisiones de antecedentes y tu capacidad para cuidar a un niño adoptado. Si el estudio necesita actualización, por ejemplo por una mudanza o un cambio en tu hogar, el siguiente aviso puede ser una petición de pruebas."
+  },
+  "request-for-additional-evidence-was-sent": {
+    "en": "I-600A RFEs often ask for a home study update, information about a past arrest or child-abuse registry check, or proof of finances. Work with your home study provider to answer every point before the deadline. If the issue involves a criminal or abuse record, an immigration attorney can help.",
+    "es": "En el I-600A, el RFE suele pedir una actualización del estudio del hogar, información sobre un arresto pasado o una revisión de registros de abuso infantil, o pruebas de ingresos. Trabaja con quien hizo tu estudio para responder cada punto antes del plazo. Si el tema es un antecedente penal o de abuso, un abogado puede ayudarte."
+  },
+  "request-for-initial-evidence-was-sent": {
+    "en": "Something required was missing from your I-600A, often the home study, proof of U.S. citizenship, a marriage certificate, or proof of divorce from past marriages. Send exactly what the notice lists before the deadline so your suitability review can begin.",
+    "es": "Faltó algo obligatorio en tu I-600A, muchas veces el estudio del hogar, la prueba de ciudadanía estadounidense, el acta de matrimonio o pruebas de divorcio de matrimonios anteriores. Manda exactamente lo que pide el aviso antes del plazo para que empiece la revisión de tu aptitud."
+  },
+  "response-to-uscis-request-for-evidence-was-received": {
+    "en": "USCIS has your evidence for the I-600A. If it resolves the questions about your home study or background, the next step is usually approval. Keep your agency informed, since many countries need the approval before a child can be matched or referred.",
+    "es": "USCIS ya tiene tus pruebas para el I-600A. Si resuelven las dudas sobre tu estudio del hogar o tus antecedentes, lo que suele seguir es la aprobación. Mantén informada a tu agencia, porque muchos países necesitan la aprobación antes de asignar o proponer a un niño."
+  },
+  "case-was-transferred-and-a-new-office-has-jurisdiction": {
+    "en": "Your I-600A moved to another office. Adoption cases are handled by specialized USCIS teams, and files can move between them to balance work or because of where you live. Check the new office in your notice and keep your agency updated.",
+    "es": "Tu I-600A pasó a otra oficina. Los casos de adopción los manejan equipos especializados de USCIS, y los expedientes pueden pasar entre ellos para repartir el trabajo o por el lugar donde vives. Revisa la nueva oficina en el aviso y mantén al día a tu agencia."
+  },
+  "case-was-approved": {
+    "en": "Your I-600A was approved, meaning USCIS found you suitable to adopt. The approval is valid only for a limited time shown on the notice. Once a child is identified, the next step is Form I-600 for that child. USCIS also informs the U.S. consulate in the child's country.",
+    "es": "Aprobaron tu I-600A, lo que significa que USCIS te considera apto para adoptar. La aprobación vale solo por un tiempo limitado que aparece en el aviso. Cuando identifiquen a un niño, el siguiente paso es el formulario I-600 para ese niño. USCIS también avisa al consulado de EE.UU. en el país del niño."
+  },
+  "notice-explaining-uscis-actions-was-mailed": {
+    "en": "For an I-600A, this letter may ask for a home study update, explain how long your approval is valid, or describe how to request an extension or change of country. Read it right away and share it with your adoption agency.",
+    "es": "En un I-600A, esta carta puede pedir una actualización del estudio del hogar, explicar cuánto tiempo vale tu aprobación, o decir cómo pedir una extensión o un cambio de país. Léela de inmediato y compártela con tu agencia de adopción."
+  },
+  "case-was-denied": {
+    "en": "A denied I-600A means USCIS did not find you suitable to adopt at this time, based on the reasons in the letter. The letter explains whether you can appeal or file a motion with Form I-290B, and by when. An immigration attorney who knows adoption cases can help you weigh options.",
+    "es": "Un I-600A negado significa que USCIS por ahora no te consideró apto para adoptar, por las razones de la carta. La carta explica si puedes apelar o pedir una moción con el formulario I-290B, y hasta cuándo. Un abogado de inmigración con experiencia en adopciones puede ayudarte a ver opciones."
+  },
+  "case-was-reopened": {
+    "en": "Your I-600A is active again, often after a motion or because USCIS is correcting its own decision. The officer will review your suitability again and may ask for an updated home study or new background checks.",
+    "es": "Tu I-600A está activo otra vez, muchas veces por una moción o porque USCIS corrige su propia decisión. El oficial volverá a revisar tu aptitud y puede pedir un estudio del hogar actualizado o nuevas revisiones de antecedentes para todos los adultos de tu casa."
+  },
+  "case-rejected-because-i-sent-an-incorrect-fee": {
+    "en": "Your I-600A was returned because of the payment, so it is not pending. Biometrics fees may apply for each adult in your household, which is a common source of mistakes. Check the amounts on uscis.gov and refile.",
+    "es": "Te regresaron el I-600A por el pago, así que no está pendiente. Puede haber cobro de biométricos por cada adulto de tu hogar, lo cual es una fuente común de errores. Revisa los montos en uscis.gov y vuelve a presentarlo cuanto antes."
+  },
+  "expedite-request-received": {
+    "en": "USCIS is reviewing your request to speed up your I-600A. In adoption cases this may be considered when a child's health or a deadline in the child's country is at stake. Include proof, such as letters from the agency or doctors.",
+    "es": "USCIS está revisando tu petición de acelerar tu I-600A. En adopciones esto se puede considerar cuando está en juego la salud de un niño o un plazo en el país del niño. Incluye pruebas, como cartas de la agencia o de médicos."
+  },
+  "withdrawal-acknowledgement-notice-was-sent": {
+    "en": "Your I-600A was withdrawn, so USCIS will not decide whether you are suitable to adopt through this filing. If you later decide to adopt from a non-Hague country, you would need to file again with a current home study.",
+    "es": "Tu I-600A quedó retirado, así que USCIS no decidirá tu aptitud para adoptar por este caso. Si más adelante decides adoptar de un país fuera del Convenio de La Haya, tendrías que presentarlo de nuevo con un estudio del hogar actualizado."
+  },
+  "name-was-updated": {
+    "en": "The name on your I-600A record was updated. Make sure it matches your passport, home study, and the documents your adoption agency sends abroad, so the consulate and the child's country can match all the paperwork.",
+    "es": "Se actualizó el nombre en tu I-600A. Asegúrate de que coincida con tu pasaporte, tu estudio del hogar y los documentos que tu agencia manda al extranjero, para que el consulado y el país del niño puedan relacionar todos los papeles."
+  },
+  "case-was-received-and-a-receipt-notice-was-emailed": {
+    "en": "Your I-600A receipt arrived by email, so you can follow the case in your USCIS online account. Save the PDF and send a copy to your adoption agency. Biometrics notices for household members may also appear there.",
+    "es": "El recibo de tu I-600A llegó por correo electrónico, así que puedes seguir el caso en tu cuenta en línea de USCIS. Guarda el PDF y manda una copia a tu agencia de adopción. Los avisos de biométricos de los adultos de tu hogar también pueden aparecer ahí."
+  },
+  "case-accepted-by-the-uscis-lockbox": {
+    "en": "The lockbox accepted your I-600A and processed the payment. A receipt notice comes next. The filing can still be rejected later if a signature or required document, such as proof of citizenship, is missing, so keep a complete copy of your package.",
+    "es": "El lockbox aceptó tu I-600A y procesó el pago. Lo siguiente es el recibo. Todavía pueden rechazarlo después si falta una firma o un documento obligatorio, como la prueba de ciudadanía, así que guarda una copia completa de lo que mandaste."
+  },
+  "fees-were-waived": {
+    "en": "A fee waiver is unusual for an I-600A. If you see this status, read the notice to confirm which fee was waived; it may relate to a linked filing. Your suitability review continues as usual.",
+    "es": "Una exención de pago es rara en un I-600A. Si ves este estatus, lee el aviso para confirmar qué pago se eximió; puede ser de un trámite ligado. La revisión de tu aptitud para adoptar sigue igual y no tienes que hacer nada más por esto."
+  },
+  "case-was-rejected-because-it-was-improperly-filed": {
+    "en": "Your I-600A was returned without review, for reasons like a missing signature, an old form edition, or filing when you do not meet the basic requirements, such as U.S. citizenship. Fix the problem and refile.",
+    "es": "Te regresaron el I-600A sin revisarlo, por razones como falta de firma, una edición vieja del formulario o presentarlo sin cumplir requisitos básicos, como ser ciudadano estadounidense. Corrige el problema y vuelve a presentarlo cuanto antes."
+  },
+  "biometrics-appointment-was-scheduled": {
+    "en": "Biometrics appointments are set for your I-600A. You, your spouse and each adult in your household may have separate notices. Everyone should bring their notice and a photo ID. Missing an appointment can delay or derail the case.",
+    "es": "Ya hay citas de biométricos para tu I-600A. Tú, tu cónyuge y cada adulto de tu hogar pueden tener avisos separados. Cada persona debe llevar su aviso y una identificación con foto. Faltar a una cita puede retrasar o descarrilar el caso."
+  },
+  "case-was-updated-to-show-fingerprints-were-taken": {
+    "en": "USCIS recorded biometrics for your I-600A. If several adults in your home were scheduled, check that everyone attended. The background checks now run, and the fingerprint dates can affect how long your approval stays valid.",
+    "es": "USCIS registró biométricos de tu I-600A. Si citaron a varios adultos de tu casa, verifica que todos hayan ido. Ahora corren las revisiones de antecedentes, y las fechas de las huellas pueden afectar cuánto tiempo vale tu aprobación."
+  },
+  "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+    "en": "USCIS recorded a missed appointment on your I-600A, often biometrics for you or another adult in your home. Without everyone's fingerprints, the case cannot be approved. Contact USCIS right away to reschedule, and let your adoption agency know about the delay.",
+    "es": "USCIS registró una cita perdida en tu I-600A, muchas veces de biométricos tuyos o de otro adulto de tu casa. Sin las huellas de todos, el caso no se puede aprobar. Comunícate de inmediato con USCIS para cambiar la cita y avisa a tu agencia."
+  },
+  "case-was-approved-and-my-decision-was-emailed": {
+    "en": "Your I-600A approval notice is in your online account. Print it and share it with your adoption agency. Note the validity period on the notice, because the I-600 for a specific child should be filed while the approval is still valid.",
+    "es": "El aviso de aprobación de tu I-600A está en tu cuenta en línea. Imprímelo y compártelo con tu agencia de adopción. Fíjate en el periodo de validez del aviso, porque el I-600 para un niño específico debe presentarse mientras la aprobación siga vigente."
+  },
+  "case-approval-was-certified-by-uscis": {
+    "en": "For an I-600A, this may mean USCIS confirmed your approval to the State Department so the U.S. consulate in the child's country can rely on it. It does not change your approval. Keep your agency informed.",
+    "es": "En un I-600A, esto puede significar que USCIS confirmó tu aprobación al Departamento de Estado para que el consulado de EE.UU. en el país del niño la tome en cuenta. No cambia tu aprobación. Mantén informada a tu agencia de adopción."
+  },
+  "case-was-sent-to-the-department-of-state": {
+    "en": "Your approved I-600A was sent to the State Department, which forwards it to the U.S. embassy or consulate in the country you plan to adopt from. This prepares the way for the child's visa once an I-600 is approved.",
+    "es": "Tu I-600A aprobado se mandó al Departamento de Estado, que lo pasa a la embajada o consulado de EE.UU. en el país de donde planeas adoptar. Esto prepara el camino para la visa del niño una vez que aprueben el I-600."
+  },
+  "response-to-uscis-notice-of-intent-was-received": {
+    "en": "USCIS has your answer to a notice of intent to deny your I-600A. The officer will weigh it before deciding on your suitability. Because the outcome affects your adoption plans, having an immigration attorney review your answer is worthwhile.",
+    "es": "USCIS ya tiene tu respuesta al aviso de intención de negar tu I-600A. El oficial la valorará antes de decidir sobre tu aptitud. Como el resultado afecta tus planes de adopción, vale la pena que un abogado de inmigración revise tu respuesta."
+  },
+  "case-is-pending-at-a-local-office": {
+    "en": "Your I-600A is at a USCIS field office, which may handle part of the adoption review or an interview if needed. Interviews are not usual for this form. Watch for any appointment notice and keep your agency updated.",
+    "es": "Tu I-600A está en una oficina local de USCIS, que puede encargarse de parte de la revisión de adopción o de una entrevista si hace falta. Las entrevistas no son lo usual en este formulario. Pendiente de cualquier aviso de cita y mantén al día a tu agencia."
+  },
+  "duplicate-notice-was-mailed": {
+    "en": "A copy of an I-600A notice is on its way, perhaps your receipt or approval. Duplicate approvals are handy, since adoption agencies and foreign authorities often ask for copies. The case itself does not change.",
+    "es": "Viene en camino una copia de un aviso de tu I-600A, quizá el recibo o la aprobación. Las copias de la aprobación sirven, porque las agencias de adopción y las autoridades extranjeras muchas veces las piden. El caso en sí no cambia."
+  },
+  "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+    "en": "An I-600A notice came back undelivered. It might be a biometrics appointment, a home study request, or your decision. Update your address with USCIS right away and check your online account, so no deadline is missed.",
+    "es": "Un aviso de tu I-600A regresó sin entregarse. Puede ser una cita de biométricos, una petición sobre el estudio del hogar o tu decisión. Actualiza tu dirección con USCIS de inmediato y revisa tu cuenta en línea para no perder ningún plazo."
+  },
+  "date-of-birth-was-updated": {
+    "en": "The birth date on your I-600A record was corrected. Make sure it matches your passport and home study. Age can matter in adoption, since some countries set age limits for adoptive parents, so your agency should also have the right date.",
+    "es": "Se corrigió la fecha de nacimiento en tu I-600A. Asegúrate de que coincida con tu pasaporte y tu estudio del hogar. La edad puede importar en adopciones, porque algunos países ponen límites de edad para los padres adoptivos."
+  },
+  "continuation-notice-was-mailed": {
+    "en": "A continuation notice is not typical for an I-600A. Changes such as extending an approval or switching countries are usually requested with a supplement form instead. Read the notice to see what it refers to and share it with your agency.",
+    "es": "Un aviso de continuación no es típico en un I-600A. Cambios como extender una aprobación o cambiar de país normalmente se piden con un formulario suplementario. Lee el aviso para ver a qué se refiere y compártelo con tu agencia."
+  },
+  "termination-notice-sent": {
+    "en": "A termination on an I-600A may happen if the case was abandoned, for example when the home study was not submitted in time, or if your approval was revoked. Read the reason carefully and talk to an immigration attorney who handles adoption cases.",
+    "es": "Que terminen un I-600A puede pasar si el caso se abandonó, por ejemplo cuando no se mandó el estudio del hogar a tiempo, o si revocaron tu aprobación. Lee la razón con cuidado y habla con un abogado de inmigración que maneje adopciones."
+  },
+  "case-closed-benefit-received-by-other-means": {
+    "en": "Your I-600A was closed because the need was met another way, for example you filed an I-600 directly for a child or pursued a different adoption process. If that fits your situation, no further action is needed on this case.",
+    "es": "Cerraron tu I-600A porque lo que necesitabas se resolvió por otra vía, por ejemplo presentaste un I-600 directamente para un niño o seguiste otro proceso de adopción. Si eso aplica a tu caso, no necesitas hacer nada más aquí."
+  },
+  "expedite-request-denied": {
+    "en": "USCIS will not rush your I-600A, so it stays in normal order. Your agency can help you understand how this affects any timeline in the child's country. You can ask again if new urgent facts arise.",
+    "es": "USCIS no va a acelerar tu I-600A, así que sigue en su orden normal. Tu agencia puede ayudarte a entender cómo afecta esto los plazos en el país del niño. Puedes volver a pedirlo si surgen hechos urgentes nuevos con pruebas."
+  },
+  "correspondence-was-received-and-uscis-is-reviewing-it": {
+    "en": "USCIS received something about your I-600A, such as a home study update, a new household member's information, or an address change. It will be added to your file, and you will hear back if more is needed.",
+    "es": "USCIS recibió algo sobre tu I-600A, como una actualización del estudio del hogar, datos de una persona nueva en tu casa o un cambio de dirección. Lo agregarán a tu expediente y te contestarán si hace falta algo más."
+  }
+}

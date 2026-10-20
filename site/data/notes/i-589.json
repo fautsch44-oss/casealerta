@@ -1,0 +1,166 @@
+{
+"case-was-received": {
+"en": "USCIS has your affirmative asylum application. The receipt date matters: it is the date used for the one-year filing deadline and it starts the clock toward an asylum-based work permit. Keep the receipt with you, because it shows your asylum case is pending.",
+"es": "USCIS tiene tu solicitud de asilo afirmativo. La fecha del recibo importa: es la que cuenta para el plazo de un año y empieza el reloj para el permiso de trabajo por asilo. Guarda el recibo, porque demuestra que tu caso de asilo está pendiente."
+},
+"case-was-received-and-a-receipt-notice-was-sent": {
+"en": "Your I-589 receipt notice is in the mail. Check every name, including any spouse and children you listed, since they are part of your case. You will need this receipt to apply for a work permit once the waiting period ends, and as proof your asylum case is pending.",
+"es": "Tu aviso de recibo del I-589 viene por correo. Revisa cada nombre, incluyendo a tu cónyuge e hijos si los pusiste, porque son parte de tu caso. Vas a necesitar este recibo para pedir permiso de trabajo cuando termine el periodo de espera, y como prueba de que tu caso de asilo está pendiente."
+},
+"fingerprint-fee-was-received": {
+"en": "Asylum applicants do not normally pay a separate fingerprint fee, so read this notice closely. It may confirm a payment linked to your case or to a family member's filing. Asylum-related fees have changed in recent years; check uscis.gov for the current rules.",
+"es": "Quien pide asilo normalmente no paga una cuota aparte por huellas, así que lee este aviso con cuidado. Puede confirmar un pago ligado a tu caso o al trámite de un familiar. Las cuotas relacionadas con el asilo han cambiado en los últimos años; revisa uscis.gov para ver las reglas actuales."
+},
+"fingerprint-review-was-completed": {
+"en": "The FBI check from your asylum biometrics came back. This covers you and any family members over the age limit on your case. It is a required step before the asylum office can decide, but it does not mean you have an interview date yet.",
+"es": "Ya regresó el chequeo del FBI de tus datos biométricos de asilo. Esto cubre a ti y a los familiares de tu caso que pasan la edad indicada. Es un paso obligatorio antes de que la oficina de asilo decida, pero no significa que ya tengas fecha de entrevista."
+},
+"case-is-being-actively-reviewed-by-uscis": {
+"en": "An asylum officer or system is working on your file, which can include security checks, scheduling or preparing the decision after your interview. Asylum cases can show this status for long periods. Keep your address current with USCIS within the required time after any move.",
+"es": "Un oficial de asilo o el sistema está trabajando en tu expediente, lo que puede incluir chequeos de seguridad, programación o preparar la decisión después de tu entrevista. Los casos de asilo pueden mostrar este estatus por mucho tiempo. Mantén tu dirección al día con USCIS dentro del plazo exigido después de mudarte."
+},
+"case-is-ready-to-be-scheduled-for-an-interview": {
+"en": "Your asylum case is waiting for an interview at an asylum office. Asylum offices set their own scheduling priorities, so newer cases are sometimes seen before older ones. Use this time to gather evidence about your fears and your country, and to arrange a lawyer or representative.",
+"es": "Tu caso de asilo espera entrevista en una oficina de asilo. Las oficinas de asilo ponen sus propias prioridades para programar, así que a veces ven casos nuevos antes que los viejos. Usa este tiempo para juntar pruebas sobre tu miedo y tu país, y para conseguir un abogado o representante."
+},
+"interview-was-scheduled": {
+"en": "Your asylum interview is set at an asylum office. An officer will ask about your identity, what happened to you and why you fear returning. Read the notice for interpreter rules and what to bring, including identity documents and translations. Family members on your case usually must attend too.",
+"es": "Tu entrevista de asilo está programada en una oficina de asilo. Un oficial te preguntará sobre tu identidad, lo que te pasó y por qué temes regresar. Lee el aviso para ver las reglas de intérprete y qué llevar, incluyendo documentos de identidad y traducciones. Los familiares de tu caso normalmente también deben ir."
+},
+"interview-was-completed-and-my-case-must-be-reviewed": {
+"en": "Asylum decisions are rarely given at the interview. The officer's assessment goes to a supervisor for review, and security checks must be current. The decision may be mailed or handed to you at a return visit, as your asylum office instructs. Waiting after the interview is normal.",
+"es": "Las decisiones de asilo casi nunca se dan en la entrevista. La evaluación del oficial pasa a un supervisor, y los chequeos de seguridad deben estar al día. La decisión puede llegar por correo o entregarse en otra visita, según indique tu oficina de asilo. Esperar después de la entrevista es normal."
+},
+"request-for-additional-evidence-was-sent": {
+"en": "Requests for evidence are less common in asylum cases, so read this one carefully. It may ask for identity documents, translations or details about your claim or family members. Send what it asks before the deadline, and get help from an immigration attorney or accredited representative.",
+"es": "Las solicitudes de evidencia son menos comunes en casos de asilo, así que lee esta con cuidado. Puede pedir documentos de identidad, traducciones o detalles de tu caso o de tus familiares. Manda lo que pide antes de la fecha límite, y busca ayuda de un abogado de inmigración o representante acreditado."
+},
+"request-for-initial-evidence-was-sent": {
+"en": "Your I-589 was missing something required when filed, such as a signature, a page, or information about a family member. An incomplete asylum application can be returned, which can affect the one-year deadline and the work permit clock. Respond quickly and completely.",
+"es": "A tu I-589 le faltó algo obligatorio al presentarlo, como una firma, una hoja o datos de un familiar. Una solicitud de asilo incompleta puede ser devuelta, y eso puede afectar el plazo de un año y el reloj del permiso de trabajo. Contesta rápido y completo."
+},
+"response-to-uscis-request-for-evidence-was-received": {
+"en": "The asylum office received your documents. Your case goes back to the officer, either to schedule the interview or to finish the decision if you were already interviewed. Keep copies of everything you sent in case questions come up later.",
+"es": "La oficina de asilo recibió tus documentos. Tu caso regresa al oficial, ya sea para programar la entrevista o para terminar la decisión si ya te entrevistaron. Guarda copias de todo lo que mandaste por si después hay preguntas."
+},
+"case-was-transferred-and-a-new-office-has-jurisdiction": {
+"en": "Your asylum case moved to a different asylum office, often because you moved or to balance workload. The new office will handle your interview. Make sure USCIS has your current address, since asylum offices schedule interviews based on where you live.",
+"es": "Tu caso de asilo pasó a otra oficina de asilo, muchas veces porque te mudaste o para repartir el trabajo. La nueva oficina hará tu entrevista. Asegúrate de que USCIS tenga tu dirección actual, porque las oficinas de asilo programan según dónde vives."
+},
+"case-was-approved": {
+"en": "You were granted asylum. You are now an asylee and can work without restriction. After one year as an asylee you can apply for a green card. You may also petition for a spouse or children left abroad within a limited time, using Form I-730.",
+"es": "Te dieron asilo. Ahora eres asilado y puedes trabajar sin restricción. Después de un año como asilado puedes pedir la green card. También puedes pedir a tu cónyuge o hijos que se quedaron en el extranjero dentro de un tiempo limitado, con el formulario I-730."
+},
+"document-was-mailed-to-me": {
+"en": "For an asylum case, this usually means USCIS mailed your approval documents, such as the grant letter and an I-94 showing asylee status. Keep the originals safe; you will need them to get a work permit card, a Social Security number and later a green card.",
+"es": "En un caso de asilo, esto suele significar que USCIS te mandó tus documentos de aprobación, como la carta de concesión y un I-94 que muestra tu estatus de asilado. Guarda bien los originales; los vas a necesitar para el permiso de trabajo, el número de Seguro Social y después la green card."
+},
+"notice-explaining-uscis-actions-was-mailed": {
+"en": "USCIS sent a letter about your asylum case. It could be a notice of intent to deny, a referral explanation, a request, or a transfer. Some of these letters have short response times. Read it right away and share it with your attorney or accredited representative.",
+"es": "USCIS mandó una carta sobre tu caso de asilo. Puede ser un aviso de intención de negar, una explicación de remisión a corte, una solicitud o una transferencia. Algunas de estas cartas tienen poco tiempo para responder. Léela de inmediato y compártela con tu abogado o representante acreditado."
+},
+"case-was-denied": {
+"en": "If you are in valid status, an asylum office can deny the case. If you have no status, the case is usually referred to immigration court instead, where a judge hears your asylum claim again. Either way, deadlines matter. Talk to an immigration attorney or accredited representative right away.",
+"es": "Si tienes un estatus válido, la oficina de asilo puede negar el caso. Si no tienes estatus, normalmente el caso se manda a la corte de inmigración, donde un juez vuelve a escuchar tu pedido de asilo. En los dos casos, los plazos importan. Habla de inmediato con un abogado de inmigración o representante acreditado."
+},
+"case-was-reopened": {
+"en": "Your asylum case is open again. This can follow a motion, a court order sending the case back, or a USCIS correction. A reopened case may need a new interview or updated biometrics. Watch your mail and keep your representative informed.",
+"es": "Tu caso de asilo está abierto otra vez. Puede ser por una moción, una orden de la corte que regresa el caso, o una corrección de USCIS. Un caso reabierto puede necesitar nueva entrevista o biométricos al día. Revisa tu correo y mantén informado a tu representante."
+},
+"case-rejected-because-i-sent-an-incorrect-fee": {
+"en": "Your asylum application was rejected over a fee. Recent law added fees connected to asylum cases, so check uscis.gov for the current amount. Refile quickly: a rejected I-589 does not count as filed, which can affect the one-year deadline and the work permit clock.",
+"es": "Tu solicitud de asilo fue rechazada por un pago. Una ley reciente agregó cuotas relacionadas con los casos de asilo, así que revisa el monto actual en uscis.gov. Vuelve a presentarla rápido: un I-589 rechazado no cuenta como presentado, y eso puede afectar el plazo de un año y el reloj del permiso de trabajo."
+},
+"expedite-request-received": {
+"en": "The asylum office received your request to move your case faster. Asylum offices review these requests under their own criteria, such as urgent medical needs or safety of family abroad. Send any supporting proof, and keep preparing for your interview in the meantime.",
+"es": "La oficina de asilo recibió tu solicitud para acelerar tu caso. Las oficinas de asilo revisan estas solicitudes con sus propios criterios, como necesidades médicas urgentes o la seguridad de familiares en el extranjero. Manda las pruebas que tengas, y sigue preparándote para tu entrevista mientras tanto."
+},
+"withdrawal-acknowledgement-notice-was-sent": {
+"en": "USCIS confirmed your asylum application was withdrawn. If you do not have another lawful status, withdrawing can lead to removal proceedings. Withdrawing can also affect a pending asylum-based work permit. If you have not already, speak with an immigration attorney or accredited representative.",
+"es": "USCIS confirmó que se retiró tu solicitud de asilo. Si no tienes otro estatus legal, retirarla puede llevar a un proceso de deportación. También puede afectar un permiso de trabajo por asilo pendiente. Si todavía no lo hiciste, habla con un abogado de inmigración o representante acreditado."
+},
+"name-was-updated": {
+"en": "USCIS updated your name on the asylum record. Asylum cases often involve names written differently in different alphabets or documents. Make sure the same spelling appears on your work permit and other USCIS papers so your records stay connected.",
+"es": "USCIS actualizó tu nombre en el registro de asilo. En los casos de asilo es común que los nombres se escriban distinto en diferentes alfabetos o documentos. Asegúrate de que la misma forma aparezca en tu permiso de trabajo y otros papeles de USCIS para que tus registros sigan conectados."
+},
+"case-was-received-and-a-receipt-notice-was-emailed": {
+"en": "You filed your I-589 online and the receipt is in your USCIS online account. Download and save it, and print copies. This receipt is your proof that an asylum case is pending, and its date matters for the work permit clock.",
+"es": "Presentaste tu I-589 en línea y el recibo está en tu cuenta en línea de USCIS. Descárgalo, guárdalo e imprime copias. Este recibo es tu prueba de que tienes un caso de asilo pendiente, y su fecha importa para el reloj del permiso de trabajo."
+},
+"case-accepted-by-the-uscis-lockbox": {
+"en": "The USCIS intake site accepted your mailed asylum application. Once entered, you will get a receipt notice and later a biometrics appointment. Do not travel outside the U.S. while the asylum case is pending without first getting legal advice and the right travel document.",
+"es": "El centro de recepción de USCIS aceptó tu solicitud de asilo enviada por correo. Una vez registrada, te llegará un aviso de recibo y después una cita de biométricos. No viajes fuera de EE.UU. con el caso de asilo pendiente sin antes recibir consejo legal y el documento de viaje correcto."
+},
+"fees-were-waived": {
+"en": "USCIS approved a fee waiver on your asylum case. The I-589 itself was free for many years, but newer asylum-related fees exist, and waiver rules depend on the fee. Read the notice to confirm which fee was waived and whether any yearly fee still applies.",
+"es": "USCIS aprobó una exención de cuota en tu caso de asilo. El I-589 fue gratis por muchos años, pero ahora existen cuotas nuevas relacionadas con el asilo, y las reglas de exención dependen de cada cuota. Lee el aviso para confirmar qué cuota se exentó y si todavía aplica alguna cuota anual."
+},
+"case-was-rejected-because-it-was-improperly-filed": {
+"en": "Your asylum application was returned unprocessed. Common reasons are a missing signature, missing pages, or a missing name or date of birth. A rejected I-589 is not considered filed, so correct it and refile fast, especially if you are close to one year since arrival.",
+"es": "Tu solicitud de asilo fue devuelta sin procesar. Razones comunes: falta de firma, hojas faltantes, o falta de nombre o fecha de nacimiento. Un I-589 rechazado no cuenta como presentado, así que corrígelo y preséntalo rápido, sobre todo si ya casi cumples un año desde que llegaste."
+},
+"biometrics-appointment-was-scheduled": {
+"en": "Your asylum biometrics appointment is set. You and family members included in your case must go. Missing it without good cause can delay your case and your work permit clock, and can even lead to dismissal. Bring the notice and any identity document you have.",
+"es": "Tu cita de biométricos de asilo está programada. Tú y los familiares incluidos en tu caso deben ir. Faltar sin una buena razón puede atrasar tu caso y el reloj del permiso de trabajo, y hasta llevar a que cierren el caso. Lleva el aviso y cualquier documento de identidad que tengas."
+},
+"case-was-updated-to-show-fingerprints-were-taken": {
+"en": "Your asylum biometrics are done. Background and security checks can now run. The next big step is the interview at the asylum office. Keep the stamped appointment notice, because it can help show you attended if questions about the work permit clock come up.",
+"es": "Tus biométricos de asilo ya están hechos. Ahora pueden correr los chequeos de antecedentes y seguridad. El siguiente paso grande es la entrevista en la oficina de asilo. Guarda el aviso sellado, porque puede ayudar a probar que fuiste si hay preguntas sobre el reloj del permiso de trabajo."
+},
+"interview-was-rescheduled": {
+"en": "Your asylum interview has a new date. If you asked for the change, it is usually counted as a delay you caused, which pauses the asylum work permit clock. If the office moved it, that pause usually does not apply. Read the new notice carefully.",
+"es": "Tu entrevista de asilo tiene una fecha nueva. Si tú pediste el cambio, normalmente cuenta como un retraso causado por ti, y eso pausa el reloj del permiso de trabajo por asilo. Si la oficina la movió, esa pausa normalmente no aplica. Lee el nuevo aviso con cuidado."
+},
+"case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+"en": "USCIS recorded that you missed an asylum appointment. Missing an asylum interview without good cause can lead to dismissal or referral to immigration court, and it stops the work permit clock. Contact the asylum office right away with proof of your reason, and get legal help.",
+"es": "USCIS registró que faltaste a una cita de asilo. Faltar a una entrevista de asilo sin buena razón puede llevar a que cierren el caso o lo manden a la corte de inmigración, y detiene el reloj del permiso de trabajo. Comunícate de inmediato con la oficina de asilo con prueba de tu razón, y busca ayuda legal."
+},
+"case-was-approved-and-my-decision-was-emailed": {
+"en": "Your asylum grant is in your online account. Download the decision and keep copies. As an asylee you can work, and you can later apply for a green card. Ask about a refugee travel document before any trip abroad, and never travel to the country you fled.",
+"es": "Tu concesión de asilo está en tu cuenta en línea. Descarga la decisión y guarda copias. Como asilado puedes trabajar y después pedir la green card. Pregunta por el documento de viaje de refugiado antes de cualquier viaje, y nunca viajes al país del que huiste."
+},
+"case-approval-was-certified-by-uscis": {
+"en": "USCIS certified your asylum approval for another agency, such as the Department of State or Social Security. This usually helps with a family petition or benefits that need proof of asylee status. You do not need to send anything.",
+"es": "USCIS certificó tu aprobación de asilo para otra agencia, como el Departamento de Estado o el Seguro Social. Esto suele ayudar con una petición familiar o beneficios que necesitan prueba de tu estatus de asilado. No necesitas mandar nada."
+},
+"response-to-uscis-notice-of-intent-was-received": {
+"en": "The asylum office has your reply to a notice of intent, often a notice of intent to deny or to terminate asylum. The officer will review your rebuttal before deciding. These are high-stakes steps; keep working with your immigration attorney or accredited representative.",
+"es": "La oficina de asilo tiene tu respuesta a un aviso de intención, muchas veces de negar o terminar el asilo. El oficial revisará tu respuesta antes de decidir. Son pasos muy importantes; sigue trabajando con tu abogado de inmigración o representante acreditado."
+},
+"case-is-pending-at-a-local-office": {
+"en": "Your I-589 is being held at a local office, which for asylum is usually an asylum office or a field office that handles asylum interviews in your area. The case is waiting there for scheduling or a decision. Keep your address current.",
+"es": "Tu I-589 está en una oficina local, que para asilo suele ser una oficina de asilo o una oficina local que hace entrevistas de asilo en tu zona. El caso espera ahí para programar o para la decisión. Mantén tu dirección al día."
+},
+"duplicate-notice-was-mailed": {
+"en": "USCIS sent another copy of a notice on your asylum case, such as the receipt or an interview notice. The receipt copy can help when you apply for a work permit or show a pending asylum case to an employer or agency. Nothing else changed.",
+"es": "USCIS mandó otra copia de un aviso de tu caso de asilo, como el recibo o un aviso de entrevista. La copia del recibo puede servir para pedir permiso de trabajo o mostrar que tu caso de asilo está pendiente ante un empleador o agencia. Nada más cambió."
+},
+"notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+"en": "A notice on your asylum case could not be delivered. If it was an interview notice, missing it can lead to dismissal or referral to court. Update your address now and contact the asylum office to find out what the notice said.",
+"es": "Un aviso de tu caso de asilo no se pudo entregar. Si era un aviso de entrevista, faltar puede llevar a que cierren el caso o lo manden a la corte. Actualiza tu dirección ya y comunícate con la oficina de asilo para saber qué decía el aviso."
+},
+"date-of-birth-was-updated": {
+"en": "USCIS corrected your date of birth on the asylum record. This matters for any children on your case, since age can decide whether they stay included. Check that your work permit and other records show the same date.",
+"es": "USCIS corrigió tu fecha de nacimiento en el registro de asilo. Esto importa para los hijos de tu caso, porque la edad puede decidir si siguen incluidos. Revisa que tu permiso de trabajo y otros registros muestren la misma fecha."
+},
+"continuation-notice-was-mailed": {
+"en": "On an asylum case, a continuation notice can show that your application remains pending, which some agencies or employers ask about. Read it to see what it covers. Keep it with your receipt notice as proof of your pending asylum case.",
+"es": "En un caso de asilo, un aviso de continuación puede mostrar que tu solicitud sigue pendiente, algo que algunas agencias o empleadores preguntan. Léelo para ver qué cubre. Guárdalo con tu aviso de recibo como prueba de tu caso de asilo pendiente."
+},
+"termination-notice-sent": {
+"en": "USCIS sent a notice ending your asylum case or asylee status. This can follow abandonment, fraud findings, or changed circumstances. Termination can lead to removal proceedings. Contact an immigration attorney or accredited representative right away, and keep every notice you received.",
+"es": "USCIS mandó un aviso que termina tu caso de asilo o tu estatus de asilado. Puede pasar por abandono, hallazgos de fraude o cambios en las circunstancias. La terminación puede llevar a un proceso de deportación. Comunícate de inmediato con un abogado de inmigración o representante acreditado, y guarda todos los avisos."
+},
+"case-closed-benefit-received-by-other-means": {
+"en": "USCIS closed your asylum case because you got lawful status another way, for example a green card through family or work. If you still fear return to your country, talk to an attorney before letting the asylum case go, because it can matter later.",
+"es": "USCIS cerró tu caso de asilo porque obtuviste estatus legal por otra vía, por ejemplo una green card por familia o trabajo. Si todavía temes regresar a tu país, habla con un abogado antes de dejar ir el caso de asilo, porque puede importar después."
+},
+"expedite-request-denied": {
+"en": "The asylum office will not move your interview up. Your case stays in its normal place. If your situation becomes more urgent, you can ask again with new proof. Meanwhile, keep preparing your declaration and evidence for the interview.",
+"es": "La oficina de asilo no va a adelantar tu entrevista. Tu caso sigue en su lugar normal. Si tu situación se vuelve más urgente, puedes pedirlo otra vez con nuevas pruebas. Mientras tanto, sigue preparando tu declaración y tus pruebas para la entrevista."
+},
+"correspondence-was-received-and-uscis-is-reviewing-it": {
+"en": "The asylum office received something you sent, such as new evidence, an address change, or a letter from your representative. An officer will decide if action is needed. Keep a dated copy, and bring copies of any new evidence to your interview as well.",
+"es": "La oficina de asilo recibió algo que mandaste, como nuevas pruebas, un cambio de dirección o una carta de tu representante. Un oficial decidirá si hace falta algo. Guarda una copia con fecha, y lleva también copias de las nuevas pruebas a tu entrevista."
+}
+}

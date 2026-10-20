@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useMemo, useState } from 'react';
+import { createPortal } from 'react-dom';
 import type { Kind, Lang } from '@/lib/types';
 import { KIND_COLOR, KIND_LABEL, VAPID_PUBLIC } from '@/lib/i18n';
 import { fn, sb, session, store } from '@/lib/sb';
@@ -65,9 +66,11 @@ export default function Lookup({ lang, plansHref, compact = false }: { lang: Lan
   const [pushMsg, setPushMsg] = useState<string | null>(null);
   const [recent, setRecent] = useState<string[]>([]);
   const [banner, setBanner] = useState<string | null>(null);
+  const [slot, setSlot] = useState<HTMLElement | null>(null);
 
   useEffect(() => {
     setRecent(store.get<string[]>('ca-recent', []));
+    setSlot(document.getElementById('lookup-slot'));
     fetch(`/catalog-${lang}.json`).then((r) => r.json()).then(setCat).catch(() => null);
     const q = new URLSearchParams(location.search).get('alertas');
     if (q === 'ok') setBanner(s.confirmed); else if (q === 'off') setBanner(s.off);
@@ -156,7 +159,7 @@ export default function Lookup({ lang, plansHref, compact = false }: { lang: Lan
         )}
       </div>
 
-      {c && (
+      {(() => { const extra = (<>{c && (
         <div id="resultado" style={{ display: 'flex', flexDirection: 'column', gap: 16, scrollMarginTop: 90 }}>
           <div className="card" style={{ display: 'flex', flexDirection: 'column', gap: 12, borderTop: `6px solid ${KIND_COLOR[kind].fg}` }}>
             <div className="row" style={{ justifyContent: 'space-between' }}>
@@ -209,7 +212,8 @@ export default function Lookup({ lang, plansHref, compact = false }: { lang: Lan
         </div>
       )}
 
-      {!compact && <Guest lang={lang} webCase={webCase} plansHref={plansHref} />}
+      {!compact && <Guest lang={lang} webCase={webCase} plansHref={plansHref} />}</>);
+        return slot ? createPortal(<div style={{ display: 'flex', flexDirection: 'column', gap: 16, marginBottom: 16 }}>{extra}</div>, slot) : extra; })()}
     </div>
   );
 }

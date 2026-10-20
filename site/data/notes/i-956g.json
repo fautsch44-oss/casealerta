@@ -1,0 +1,150 @@
+{
+ "case-was-received": {
+  "en": "USCIS has the regional center's annual statement. The I-956G covers the center's activity for the past federal fiscal year and is due by late December each year. This receipt is your proof of timely filing, which matters because a missed statement can lead to sanctions or termination.",
+  "es": "USCIS tiene el informe anual del centro regional. El I-956G cubre la actividad del centro en el año fiscal federal anterior y vence a finales de diciembre de cada año. Este recibo es tu prueba de que se presentó a tiempo, lo cual importa porque no presentarlo puede traer sanciones o terminación."
+ },
+ "case-was-received-and-a-receipt-notice-was-sent": {
+  "en": "The receipt for this year's I-956G is in the mail. File it with the prior years' receipts, since USCIS and investors may ask to see the center's annual compliance history. Check that the fiscal year shown matches the period you reported.",
+  "es": "El recibo del I-956G de este año viene por correo. Guárdalo con los recibos de años anteriores, porque USCIS y los inversionistas pueden pedir ver el historial de cumplimiento anual del centro. Revisa que el año fiscal que aparece coincida con el periodo que reportaste."
+ },
+ "fingerprint-fee-was-received": {
+  "en": "A biometrics payment is not part of a normal annual statement. If this appears on an I-956G, it may relate to a new person involved with the regional center whose background must be checked. Read the notice and match it to the right filing.",
+  "es": "Un pago de biométricos no forma parte de un informe anual normal. Si aparece en un I-956G, puede tener que ver con una persona nueva involucrada con el centro regional cuyos antecedentes se deben revisar. Lee el aviso y relaciónalo con el trámite correcto."
+ },
+ "fingerprint-review-was-completed": {
+  "en": "A background check tied to this annual statement case came back, likely for a person newly reported as involved with the regional center. The rest of the I-956G review, which covers projects and investor funds, continues separately.",
+  "es": "Regresó un chequeo de antecedentes ligado a este informe anual, seguramente de una persona reportada como nueva en el centro regional. El resto de la revisión del I-956G, que cubre proyectos y fondos de inversionistas, sigue por separado."
+ },
+ "case-is-being-actively-reviewed-by-uscis": {
+  "en": "USCIS is reviewing the annual statement: the projects the center sponsors, the capital raised, how investor funds were used, jobs created, and any changes in management. The review checks that the center still meets program requirements.",
+  "es": "USCIS está revisando el informe anual: los proyectos que patrocina el centro, el capital recaudado, cómo se usaron los fondos de los inversionistas, los empleos creados y cualquier cambio en la administración. La revisión confirma que el centro sigue cumpliendo los requisitos del programa."
+ },
+ "request-for-additional-evidence-was-sent": {
+  "en": "USCIS wants more information about the annual statement, often about how investor funds were spent, project status, or certifications from the people managing the center. Work with EB-5 counsel and project partners to answer completely before the deadline.",
+  "es": "USCIS quiere más información sobre el informe anual, muchas veces sobre cómo se gastaron los fondos de los inversionistas, el estado de los proyectos, o certificaciones de quienes administran el centro. Trabaja con tu abogado de EB-5 y los socios del proyecto para contestar completo antes de la fecha límite."
+ },
+ "request-for-initial-evidence-was-sent": {
+  "en": "The I-956G arrived missing something required, such as a required certification, project information, or a signature. Since the annual statement has a yearly deadline, send the missing items quickly with the notice on top to keep the center in good standing.",
+  "es": "El I-956G llegó sin algo obligatorio, como una certificación requerida, información de proyectos o una firma. Como el informe anual tiene una fecha límite cada año, manda rápido lo que falta con el aviso encima para que el centro siga en regla."
+ },
+ "response-to-uscis-request-for-evidence-was-received": {
+  "en": "USCIS received the regional center's added information for the annual statement. The officer will review it to confirm the center remains compliant. Keep a full copy with the I-956G for next year's reporting, since the same data often carries forward.",
+  "es": "USCIS recibió la información adicional del centro regional para el informe anual. El oficial la revisará para confirmar que el centro sigue cumpliendo. Guarda una copia completa con el I-956G para el informe del próximo año, porque muchos datos se repiten."
+ },
+ "case-was-transferred-and-a-new-office-has-jurisdiction": {
+  "en": "The annual statement moved to another USCIS office. Regional center compliance is handled by a specialized EB-5 office, so this is usually an internal workload change. The notice names the office now responsible for the review.",
+  "es": "El informe anual pasó a otra oficina de USCIS. El cumplimiento de los centros regionales lo lleva una oficina especializada de EB-5, así que suele ser un cambio interno de trabajo. El aviso dice qué oficina es la responsable ahora de la revisión."
+ },
+ "case-was-approved": {
+  "en": "For an I-956G, this status generally means USCIS accepted the annual statement and found no issue requiring further action at this time. Keep the notice in your compliance records. The next annual statement will be due after the next fiscal year ends.",
+  "es": "En un I-956G, este estatus en general significa que USCIS aceptó el informe anual y no encontró nada que requiera más acción por ahora. Guarda el aviso en tus registros de cumplimiento. El siguiente informe anual vencerá después de que termine el próximo año fiscal."
+ },
+ "notice-explaining-uscis-actions-was-mailed": {
+  "en": "USCIS sent a letter about the annual statement. It could ask for more information, point out a deficiency, or warn of possible sanctions or termination. Read it right away and involve EB-5 counsel, because compliance issues can affect the center's investors.",
+  "es": "USCIS mandó una carta sobre el informe anual. Puede pedir más información, señalar una falla, o avisar de posibles sanciones o terminación. Léela de inmediato e involucra a tu abogado de EB-5, porque los problemas de cumplimiento pueden afectar a los inversionistas del centro."
+ },
+ "case-was-denied": {
+  "en": "USCIS did not accept the annual statement as filed. This can expose the regional center to sanctions or termination of its designation. Read the letter for the reasons and any options, and work with experienced EB-5 counsel immediately to protect the center and its investors.",
+  "es": "USCIS no aceptó el informe anual como se presentó. Esto puede exponer al centro regional a sanciones o a la terminación de su designación. Lee la carta para ver las razones y opciones, y trabaja de inmediato con un abogado de EB-5 con experiencia para proteger al centro y a sus inversionistas."
+ },
+ "case-was-reopened": {
+  "en": "The annual statement case is open again after a decision, often following a motion or a USCIS correction. USCIS may review the year's information again. Keep the supporting records for that fiscal year ready. Respond promptly to any request.",
+  "es": "El caso del informe anual está abierto otra vez después de una decisión, muchas veces tras una moción o una corrección de USCIS. USCIS puede revisar otra vez la información de ese año. Ten listos los registros de respaldo de ese año fiscal."
+ },
+ "case-rejected-because-i-sent-an-incorrect-fee": {
+  "en": "The I-956G was rejected over the fee and does not count as filed. Because the annual statement has a yearly deadline, refile quickly with the correct fee shown on uscis.gov. A late or missing statement can lead to sanctions.",
+  "es": "El I-956G fue rechazado por el pago y no cuenta como presentado. Como el informe anual tiene una fecha límite cada año, vuelve a presentarlo rápido con la cuota correcta que aparece en uscis.gov. Un informe tarde o faltante puede traer sanciones."
+ },
+ "expedite-request-received": {
+  "en": "USCIS received a request to speed up review of the annual statement. This is unusual for an I-956G, since it is a compliance report rather than a benefit request. Read the notice and keep EB-5 counsel informed.",
+  "es": "USCIS recibió una solicitud para acelerar la revisión del informe anual. Es raro en un I-956G, porque es un informe de cumplimiento y no una solicitud de beneficio. Lee el aviso y mantén informado a tu abogado de EB-5."
+ },
+ "withdrawal-acknowledgement-notice-was-sent": {
+  "en": "USCIS confirmed the I-956G was withdrawn. Without an accepted annual statement for that fiscal year, the center may be out of compliance. If a corrected statement is planned, make sure it is filed before the deadline.",
+  "es": "USCIS confirmó que se retiró el I-956G. Sin un informe anual aceptado para ese año fiscal, el centro puede quedar fuera de cumplimiento. Si se planea un informe corregido, asegúrate de presentarlo antes de la fecha límite."
+ },
+ "name-was-updated": {
+  "en": "USCIS updated the name on the annual statement record, likely the regional center's legal name. Make sure the same name appears on the designation, project filings and investor documents, so all records stay linked. Keep the notice on file.",
+  "es": "USCIS actualizó el nombre en el registro del informe anual, seguramente el nombre legal del centro regional. Asegúrate de que el mismo nombre aparezca en la designación, los trámites de proyectos y los documentos de los inversionistas, para que todos los registros sigan conectados."
+ },
+ "case-was-received-and-a-receipt-notice-was-emailed": {
+  "en": "The I-956G receipt arrived electronically. Save it with the year's compliance records as proof of timely filing. Assign someone to watch the account for any follow-up request, since replies may have short deadlines. Print a copy for the auditors.",
+  "es": "El recibo del I-956G llegó en forma electrónica. Guárdalo con los registros de cumplimiento del año como prueba de que se presentó a tiempo. Asigna a alguien para revisar la cuenta por si llega una solicitud, porque las respuestas pueden tener plazos cortos."
+ },
+ "case-accepted-by-the-uscis-lockbox": {
+  "en": "The intake site accepted the annual statement and processed the fee. Keep the mailing record with the date, since filing before the yearly deadline is what counts. A receipt notice should follow. Confirm the payment cleared with your bank.",
+  "es": "El centro de recepción aceptó el informe anual y procesó el pago. Guarda el registro del envío con la fecha, porque lo que cuenta es presentarlo antes de la fecha límite anual. Debe llegar un aviso de recibo."
+ },
+ "fees-were-waived": {
+  "en": "This should not normally appear on an I-956G, because regional center filings are not eligible for fee waivers. Read the notice to see which filing it refers to, and contact USCIS if it looks like an error.",
+  "es": "Esto normalmente no debería aparecer en un I-956G, porque los trámites de centros regionales no pueden tener exención de cuota. Lee el aviso para ver a qué trámite se refiere, y comunícate con USCIS si parece un error."
+ },
+ "case-was-rejected-because-it-was-improperly-filed": {
+  "en": "The annual statement was returned unprocessed, for example for a missing signature, an outdated form, or a missing required section. A rejected I-956G does not count as filed, so correct it and refile before the yearly deadline.",
+  "es": "El informe anual regresó sin procesar, por ejemplo por falta de firma, un formulario viejo o una sección obligatoria faltante. Un I-956G rechazado no cuenta como presentado, así que corrígelo y preséntalo antes de la fecha límite anual."
+ },
+ "biometrics-appointment-was-scheduled": {
+  "en": "A biometrics appointment is not part of a normal annual statement. It may be for a person newly involved with the regional center. Read the notice for the name, make sure that person attends, and inform EB-5 counsel.",
+  "es": "Una cita de biométricos no forma parte de un informe anual normal. Puede ser para una persona nueva involucrada con el centro regional. Lee el aviso para ver el nombre, asegúrate de que esa persona vaya, e informa a tu abogado de EB-5."
+ },
+ "case-was-updated-to-show-fingerprints-were-taken": {
+  "en": "Fingerprints were recorded for someone linked to this annual statement case. Background checks can now run. The review of the center's projects and investor funds for the fiscal year continues separately. Keep the stamped appointment notice in the compliance file.",
+  "es": "Se registraron huellas de alguien ligado a este caso de informe anual. Ahora pueden correr los chequeos de antecedentes. La revisión de los proyectos del centro y los fondos de inversionistas del año fiscal sigue por separado."
+ },
+ "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+  "en": "USCIS recorded a missed in-person appointment on this I-956G case, likely biometrics for a person involved with the center. This can raise compliance concerns. Contact USCIS quickly to reschedule, and tell EB-5 counsel. Keep proof of the reason.",
+  "es": "USCIS registró una cita en persona faltada en este caso del I-956G, seguramente de biométricos de una persona involucrada con el centro. Esto puede causar dudas de cumplimiento. Comunícate rápido con USCIS para pedir otra cita, y avísale a tu abogado de EB-5."
+ },
+ "case-was-approved-and-my-decision-was-emailed": {
+  "en": "The decision on the annual statement is in the online account. Download it and keep it with the year's I-956G and supporting records. Start planning the data you will need for next year's statement. Share it with project partners.",
+  "es": "La decisión sobre el informe anual está en la cuenta en línea. Descárgala y guárdala con el I-956G del año y los registros de respaldo. Empieza a planear los datos que vas a necesitar para el informe del próximo año."
+ },
+ "case-approval-was-certified-by-uscis": {
+  "en": "USCIS certified the decision on the annual statement for another agency. This is uncommon and may relate to confirming the center's good standing. No action is needed from the regional center. Keep the notice with the year's I-956G records.",
+  "es": "USCIS certificó la decisión sobre el informe anual para otra agencia. Es poco común y puede tener que ver con confirmar que el centro está en regla. El centro regional no tiene que hacer nada."
+ },
+ "case-was-sent-to-the-department-of-state": {
+  "en": "This is unusual for an annual statement, which is a compliance report. It may relate to sharing information about the center with the Department of State for investors processing abroad. Read the notice and check with EB-5 counsel.",
+  "es": "Esto es raro en un informe anual, que es un reporte de cumplimiento. Puede tener que ver con compartir información del centro con el Departamento de Estado para inversionistas que hacen trámite en el extranjero. Lee el aviso y consulta con tu abogado de EB-5."
+ },
+ "response-to-uscis-notice-of-intent-was-received": {
+  "en": "USCIS received the center's reply to a notice of intent, often about sanctions or termination tied to the annual statement. The officer will review it before acting. Stay in close contact with EB-5 counsel until a decision arrives.",
+  "es": "USCIS recibió la respuesta del centro a un aviso de intención, muchas veces sobre sanciones o terminación ligadas al informe anual. El oficial la revisará antes de actuar. Mantente en contacto con tu abogado de EB-5 hasta que llegue la decisión."
+ },
+ "case-is-pending-at-a-local-office": {
+  "en": "The annual statement shows as pending at a local office, which is unusual. It may mean USCIS plans a site visit or compliance review of the center or a project. Keep records organized and contacts current.",
+  "es": "El informe anual aparece pendiente en una oficina local, algo raro. Puede significar que USCIS planea una visita al sitio o una revisión de cumplimiento del centro o de un proyecto. Mantén los registros ordenados y los contactos al día."
+ },
+ "duplicate-notice-was-mailed": {
+  "en": "USCIS mailed another copy of an I-956G notice, often the receipt. A spare receipt helps show investors and auditors that the annual statement was filed. It does not change anything in the case. File it with the original.",
+  "es": "USCIS mandó otra copia de un aviso del I-956G, muchas veces el recibo. Tener otra copia ayuda a mostrar a inversionistas y auditores que el informe anual se presentó. No cambia nada en el caso."
+ },
+ "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+  "en": "A notice on the annual statement could not be delivered. If it was a request or a notice of intent, missing the deadline could lead to sanctions. Update the center's address with USCIS and ask for the notice to be resent.",
+  "es": "Un aviso del informe anual no se pudo entregar. Si era una solicitud o un aviso de intención, perder el plazo podría traer sanciones. Actualiza la dirección del centro con USCIS y pide que reenvíen el aviso."
+ },
+ "date-of-birth-was-updated": {
+  "en": "USCIS corrected a date of birth on this case, likely for a person listed in the annual statement as involved with the center. Check that it matches the person's passport and other filings. Report any remaining error to USCIS.",
+  "es": "USCIS corrigió una fecha de nacimiento en este caso, seguramente de una persona que aparece en el informe anual como involucrada con el centro. Revisa que coincida con el pasaporte de esa persona y otros trámites."
+ },
+ "continuation-notice-was-mailed": {
+  "en": "A continuation notice is not typical for an annual statement. Read it to see what it refers to; it may relate to the center's designation or another filing. Contact USCIS with the receipt number if it is unclear.",
+  "es": "Un aviso de continuación no es típico en un informe anual. Léelo para ver a qué se refiere; puede tener que ver con la designación del centro u otro trámite. Comunícate con USCIS con el número de recibo si no queda claro."
+ },
+ "termination-notice-sent": {
+  "en": "USCIS sent a termination notice connected to the annual statement. Failing to file the I-956G, or serious compliance problems it reveals, can end a regional center's designation, which affects every investor relying on it. Involve experienced EB-5 counsel right away.",
+  "es": "USCIS mandó un aviso de terminación ligado al informe anual. No presentar el I-956G, o problemas graves de cumplimiento que muestre, puede terminar la designación de un centro regional, lo que afecta a cada inversionista que depende de él. Involucra de inmediato a un abogado de EB-5 con experiencia."
+ },
+ "case-closed-benefit-received-by-other-means": {
+  "en": "USCIS closed this I-956G, likely because the same fiscal year is already covered by another accepted statement, such as a duplicate filing. Confirm which receipt number reflects the official annual statement for that year. Keep the closure notice on file.",
+  "es": "USCIS cerró este I-956G, seguramente porque el mismo año fiscal ya está cubierto por otro informe aceptado, como un trámite duplicado. Confirma qué número de recibo corresponde al informe anual oficial de ese año. Guarda el aviso de cierre en el archivo."
+ },
+ "expedite-request-denied": {
+  "en": "USCIS will not speed up review of the annual statement. This usually does not affect the center's standing, since timely filing is what the rules require. Keep records ready in case USCIS asks for more information.",
+  "es": "USCIS no va a acelerar la revisión del informe anual. Normalmente esto no afecta la situación del centro, porque lo que exigen las reglas es presentarlo a tiempo. Ten listos los registros por si USCIS pide más información."
+ },
+ "correspondence-was-received-and-uscis-is-reviewing-it": {
+  "en": "USCIS received something the regional center sent about the annual statement, such as a correction or an update on a project. An officer will decide if it changes the review. Keep a dated copy with the year's records.",
+  "es": "USCIS recibió algo que mandó el centro regional sobre el informe anual, como una corrección o una actualización de un proyecto. Un oficial decidirá si cambia la revisión. Guarda una copia con fecha con los registros del año."
+ }
+}

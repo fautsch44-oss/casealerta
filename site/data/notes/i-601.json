@@ -1,0 +1,146 @@
+{
+  "case-was-received": {
+    "en": "USCIS has your I-601 waiver application. This is the waiver filed after a consular officer or USCIS found you inadmissible, not the I-601A provisional waiver filed before leaving the U.S. Keep the receipt and tell the consulate or your attorney the receipt number. Waiver reviews often take a long time.",
+    "es": "USCIS ya tiene tu solicitud de perdón I-601. Este es el perdón que se presenta después de que un cónsul o USCIS dijo que eres inadmisible, no el perdón provisional I-601A que se pide antes de salir de EE.UU. Guarda el recibo y da el número al consulado o a tu abogado. Estas revisiones suelen tardar bastante."
+  },
+  "case-was-received-and-a-receipt-notice-was-sent": {
+    "en": "Your I-601 is logged and the paper receipt is on its way. If you live abroad, mail can be slow, so make sure USCIS has a reliable address or that your attorney receives copies. Next comes a long review of your hardship evidence.",
+    "es": "Tu I-601 quedó registrado y el recibo en papel viene en camino. Si vives fuera de EE.UU., el correo puede tardar, así que asegúrate de que USCIS tenga una dirección confiable o que tu abogado reciba copias. Lo que sigue es una revisión larga de tus pruebas de dificultad."
+  },
+  "fingerprint-fee-was-received": {
+    "en": "Fingerprints are not usually a separate step for an I-601, since biometrics are normally collected through the green card or visa case it supports. If you see this, check the receipt number and watch for an appointment notice, especially if you are in the U.S. adjusting status.",
+    "es": "Las huellas no suelen ser un paso aparte en el I-601, porque los biométricos se toman en el caso de green card o de visa al que apoya. Si ves esto, revisa el número de recibo y espera una cita, sobre todo si estás en EE.UU. ajustando estatus."
+  },
+  "fingerprint-review-was-completed": {
+    "en": "USCIS finished a fingerprint check linked to your waiver. For an I-601, background results matter because some grounds of inadmissibility involve criminal history. The officer still needs to weigh your hardship evidence and decide whether the waiver deserves approval.",
+    "es": "USCIS terminó una revisión de huellas ligada a tu perdón. En el I-601 los antecedentes importan, porque algunas causas de inadmisibilidad tienen que ver con delitos. El oficial todavía debe evaluar tus pruebas de dificultad y decidir si el perdón merece aprobarse."
+  },
+  "case-is-being-actively-reviewed-by-uscis": {
+    "en": "An officer is reviewing your I-601. For most waivers, they look at whether your U.S. citizen or resident relative would suffer extreme hardship if you were not allowed in, and at your overall record. This review is detailed and often slow. Compare with the typical range on this page.",
+    "es": "Un oficial está revisando tu I-601. En la mayoría de los perdones revisa si tu familiar ciudadano o residente sufriría una dificultad extrema si no te dejan entrar, y tu historial completo. Es una revisión detallada y muchas veces lenta. Compara con el rango típico de esta página."
+  },
+  "request-for-additional-evidence-was-sent": {
+    "en": "USCIS needs more proof for your waiver. I-601 requests often ask for stronger hardship evidence: medical records, financial documents, psychological evaluations, or country conditions. They may also ask for court records. This is a high-stakes reply, so work with an immigration attorney or accredited representative.",
+    "es": "USCIS necesita más pruebas para tu perdón. En el I-601 suelen pedir pruebas más fuertes de dificultad: expedientes médicos, documentos de dinero, evaluaciones psicológicas o condiciones del país. También pueden pedir papeles de la corte. Es una respuesta delicada, así que trabaja con un abogado de inmigración o un representante acreditado."
+  },
+  "request-for-initial-evidence-was-sent": {
+    "en": "A basic item was missing from your I-601, such as the consular refusal letter, proof of your relationship to the qualifying relative, or a signature. Send exactly what the notice lists by the deadline. Without it, USCIS can deny the waiver and your visa case would stay blocked.",
+    "es": "Faltó algo básico en tu I-601, como la carta de negación del consulado, prueba de tu relación con el familiar que califica o una firma. Manda justo lo que dice el aviso antes del plazo. Sin eso, USCIS puede negar el perdón y tu caso de visa seguiría detenido."
+  },
+  "response-to-uscis-request-for-evidence-was-received": {
+    "en": "USCIS received your reply on the I-601. The officer will now weigh the new hardship evidence with everything else. A decision letter usually follows. Keep a full copy of what you sent, as you may need it later if there is an appeal.",
+    "es": "USCIS recibió tu respuesta sobre el I-601. El oficial va a evaluar las nuevas pruebas de dificultad con todo lo demás. Normalmente sigue una carta de decisión. Guarda copia completa de lo que mandaste, porque puedes necesitarla si luego hay una apelación."
+  },
+  "case-was-transferred-and-a-new-office-has-jurisdiction": {
+    "en": "Your I-601 moved to another USCIS office. Waivers are sometimes moved to balance workloads or to join a related green card case. The receipt number stays the same. Let the consulate or your attorney know if they track the case.",
+    "es": "Tu I-601 pasó a otra oficina de USCIS. A veces mueven los perdones para repartir trabajo o para juntarlos con un caso de green card relacionado. El número de recibo no cambia. Avisa al consulado o a tu abogado si siguen el caso."
+  },
+  "case-was-approved": {
+    "en": "Your waiver was approved. If you are abroad, USCIS notifies the consulate, which can then continue your immigrant visa case. If you are in the U.S. adjusting status, the I-485 can move forward. The approval covers only the grounds listed in the decision.",
+    "es": "Aprobaron tu perdón. Si estás fuera de EE.UU., USCIS avisa al consulado, que puede seguir con tu visa de inmigrante. Si estás en EE.UU. ajustando estatus, el I-485 puede avanzar. La aprobación cubre solo las causas que aparecen en la decisión."
+  },
+  "document-was-mailed-to-me": {
+    "en": "USCIS mailed the written decision on your I-601. For a waiver, this letter is the key document: it states whether the waiver was approved or denied and which grounds it covers. Share a copy with the consulate or your attorney so the visa or green card case can continue.",
+    "es": "USCIS mandó la decisión por escrito de tu I-601. En un perdón, esta carta es el documento clave: dice si lo aprobaron o negaron y qué causas cubre. Comparte una copia con el consulado o tu abogado para que siga el caso de visa o de green card."
+  },
+  "notice-explaining-uscis-actions-was-mailed": {
+    "en": "USCIS mailed a letter about your waiver. It may be a request for evidence, a notice of intent to deny, or a decision. Waiver letters often have firm deadlines, so open it right away and share it with your attorney or accredited representative.",
+    "es": "USCIS mandó una carta sobre tu perdón. Puede ser una petición de pruebas, un aviso de intención de negar o una decisión. Las cartas de perdón suelen tener plazos firmes, así que ábrela de inmediato y compártela con tu abogado o representante acreditado."
+  },
+  "case-was-denied": {
+    "en": "Your I-601 waiver was denied. The decision explains why, often that extreme hardship was not shown. You may be able to appeal to the Administrative Appeals Office or file a motion using Form I-290B, or file a new waiver with stronger evidence. Deadlines are short, so speak with an immigration attorney right away.",
+    "es": "Te negaron el perdón I-601. La decisión explica por qué, muchas veces porque no se probó la dificultad extrema. Tal vez puedas apelar ante la Oficina de Apelaciones Administrativas o pedir una moción con el formulario I-290B, o presentar un nuevo perdón con pruebas más fuertes. Los plazos son cortos, así que habla ya con un abogado de inmigración."
+  },
+  "case-was-reopened": {
+    "en": "USCIS reopened your I-601, often after a motion or an appeal. The waiver is pending again and will get a new decision. Make sure any new hardship evidence, such as updated medical records, reaches USCIS through your attorney.",
+    "es": "USCIS reabrió tu I-601, muchas veces tras una moción o una apelación. El perdón vuelve a estar pendiente y tendrá nueva decisión. Asegúrate de que cualquier prueba nueva de dificultad, como expedientes médicos recientes, llegue a USCIS por medio de tu abogado."
+  },
+  "case-rejected-because-i-sent-an-incorrect-fee": {
+    "en": "Your I-601 was returned because the fee was wrong. Check the current filing fee on uscis.gov, fix the payment and refile. A rejected waiver does not count as filed, so the consulate will keep your visa case on hold until a new receipt exists.",
+    "es": "Te regresaron el I-601 porque la cuota estaba mal. Revisa la cuota actual en uscis.gov, corrige el pago y vuelve a presentarlo. Un perdón rechazado no cuenta como presentado, así que el consulado seguirá deteniendo tu visa hasta que haya un nuevo recibo."
+  },
+  "expedite-request-received": {
+    "en": "USCIS logged your request to speed up the waiver. Waiver expedites are sometimes granted for serious medical emergencies of the qualifying relative or other urgent humanitarian reasons. Strong documents matter. USCIS decides case by case.",
+    "es": "USCIS registró tu petición para acelerar el perdón. A veces aceptan acelerar perdones por emergencias médicas graves del familiar que califica u otras razones humanitarias urgentes. Los documentos fuertes importan. USCIS decide caso por caso."
+  },
+  "withdrawal-acknowledgement-notice-was-sent": {
+    "en": "USCIS confirmed your I-601 was withdrawn. Without an approved waiver, the ground of inadmissibility remains and the visa or green card case it supports usually cannot be approved. If this was unexpected, contact your attorney right away.",
+    "es": "USCIS confirmó que retiraste tu I-601. Sin un perdón aprobado, la causa de inadmisibilidad sigue y el caso de visa o green card al que apoya normalmente no se puede aprobar. Si no lo esperabas, contacta a tu abogado de inmediato."
+  },
+  "name-was-updated": {
+    "en": "USCIS updated your name on the waiver record. It should match the name on your immigrant visa or green card case and on the consular refusal letter. If they differ, the consulate may have trouble linking the approval to your file.",
+    "es": "USCIS actualizó tu nombre en el registro del perdón. Debe coincidir con el nombre en tu caso de visa o green card y en la carta de negación del consulado. Si no coinciden, el consulado podría tener problemas para ligar la aprobación a tu expediente."
+  },
+  "case-was-received-and-a-receipt-notice-was-emailed": {
+    "en": "Your I-601 receipt is in your USCIS online account. Download it and send a copy to the consulate if your visa case is waiting on this waiver. Online notices are especially helpful if you live outside the U.S.",
+    "es": "El recibo de tu I-601 está en tu cuenta de USCIS. Descárgalo y manda copia al consulado si tu visa está esperando este perdón. Los avisos en línea ayudan mucho si vives fuera de EE.UU."
+  },
+  "case-accepted-by-the-uscis-lockbox": {
+    "en": "The lockbox accepted your I-601 and processed payment. A receipt number comes next. Because the waiver package often has many hardship documents, it may take a little time before the case appears with full details online.",
+    "es": "El lockbox aceptó tu I-601 y procesó el pago. Lo siguiente es el número de recibo. Como el paquete de perdón suele tener muchas pruebas de dificultad, puede tardar un poco en aparecer con todos los detalles en línea."
+  },
+  "fees-were-waived": {
+    "en": "USCIS approved a fee waiver for your I-601. Fee waivers are only available for this form in certain humanitarian categories, so this is less common. Your waiver now moves to normal review. Read the notice to confirm which form the waiver applies to.",
+    "es": "USCIS aprobó una exención de cuota para tu I-601. Solo se permiten exenciones para este formulario en ciertas categorías humanitarias, así que es poco común. Tu perdón ahora pasa a revisión normal. Lee el aviso para confirmar a qué formulario aplica la exención."
+  },
+  "case-was-rejected-because-it-was-improperly-filed": {
+    "en": "Your I-601 was returned without review. Common reasons: wrong form edition, missing signature, or filing the I-601 when the I-601A or another form was the right one. Fix the issue, confirm the correct form and filing address, and refile.",
+    "es": "Te regresaron el I-601 sin revisarlo. Razones comunes: versión equivocada del formulario, falta de firma, o presentar el I-601 cuando correspondía el I-601A u otro formulario. Corrige el problema, confirma el formulario y la dirección correcta, y vuelve a presentarlo."
+  },
+  "biometrics-appointment-was-scheduled": {
+    "en": "You have a biometrics appointment linked to your waiver. This is more common when the I-601 is filed in the U.S. with an I-485. Bring the notice and photo ID. If you are abroad and received this, contact USCIS about where to go.",
+    "es": "Tienes cita de biométricos ligada a tu perdón. Es más común cuando el I-601 se presenta en EE.UU. junto con un I-485. Lleva el aviso y una identificación con foto. Si estás fuera del país y te llegó esto, contacta a USCIS para saber a dónde ir."
+  },
+  "case-was-updated-to-show-fingerprints-were-taken": {
+    "en": "Your biometrics for the waiver case are on file. USCIS can now complete background checks, which matter for waivers involving criminal grounds. The next step is the officer's hardship review and decision. No action is needed unless a letter arrives.",
+    "es": "Tus biométricos para el caso de perdón ya están registrados. USCIS ya puede terminar la revisión de antecedentes, que importa en perdones por causas penales. Lo siguiente es que el oficial revise la dificultad y decida."
+  },
+  "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+    "en": "USCIS recorded that you missed an in-person appointment for your waiver case. This can lead to denial for abandonment. Follow the notice right away to reschedule or explain, and tell your attorney. Keep proof of any reason you could not attend.",
+    "es": "USCIS registró que faltaste a una cita en persona de tu caso de perdón. Esto puede llevar a una negación por abandono. Sigue el aviso de inmediato para reprogramar o explicar, y avisa a tu abogado."
+  },
+  "case-was-approved-and-my-decision-was-emailed": {
+    "en": "Your waiver was approved and the decision is in your USCIS online account. Download it. If your immigrant visa is pending abroad, the consulate is normally informed, but keeping a copy helps you follow up on your visa issuance.",
+    "es": "Aprobaron tu perdón y la decisión está en tu cuenta de USCIS. Descárgala. Si tu visa de inmigrante está pendiente en el extranjero, normalmente informan al consulado, pero tener copia te ayuda a dar seguimiento a la emisión de tu visa."
+  },
+  "case-approval-was-certified-by-uscis": {
+    "en": "USCIS certified the approval of your I-601. This works like an approval. The waiver now removes the listed grounds of inadmissibility so the consulate or USCIS can continue your immigrant visa or green card case.",
+    "es": "USCIS certificó la aprobación de tu I-601. Funciona como una aprobación. El perdón ahora quita las causas de inadmisibilidad indicadas, para que el consulado o USCIS sigan con tu visa de inmigrante o tu green card."
+  },
+  "response-to-uscis-notice-of-intent-was-received": {
+    "en": "USCIS received your reply to its notice of intent to deny the waiver. The officer will now decide, considering your reply. This is a critical stage for an I-601, so if an attorney did not prepare the reply, consider getting legal help now.",
+    "es": "USCIS recibió tu respuesta al aviso de intención de negar el perdón. El oficial decidirá tomando en cuenta tu respuesta. Es una etapa crítica del I-601, así que si un abogado no preparó la respuesta, considera buscar ayuda legal ya."
+  },
+  "duplicate-notice-was-mailed": {
+    "en": "USCIS mailed a copy of a notice from your waiver case. A duplicate approval is useful if the consulate asks for proof that your I-601 was granted. Keep it with your visa or green card documents.",
+    "es": "USCIS mandó una copia de un aviso de tu perdón. Una copia de la aprobación sirve si el consulado pide prueba de que te concedieron el I-601. Guárdala con tus papeles de visa o de green card."
+  },
+  "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+    "en": "A notice about your waiver came back undelivered. This often happens with addresses abroad. It may have had a deadline. Update your address with USCIS, ask what the notice said, and make sure your attorney gets copies.",
+    "es": "Un aviso de tu perdón regresó sin entregarse. Pasa seguido con direcciones fuera de EE.UU. Podría tener un plazo. Actualiza tu dirección con USCIS, pregunta qué decía el aviso y asegúrate de que tu abogado reciba copias."
+  },
+  "date-of-birth-was-updated": {
+    "en": "USCIS corrected your date of birth on the waiver record. It should match your passport and your visa or green card file, so the consulate or USCIS can match the approved waiver to the right person.",
+    "es": "USCIS corrigió tu fecha de nacimiento en el registro del perdón. Debe coincidir con tu pasaporte y tu expediente de visa o green card, para que el consulado o USCIS liguen el perdón aprobado a la persona correcta."
+  },
+  "continuation-notice-was-mailed": {
+    "en": "USCIS mailed a continuation notice on your waiver. This is uncommon for an I-601. Read it carefully: it may continue a review, reschedule something, or relate to a linked case. Ask your attorney if anything is unclear.",
+    "es": "USCIS mandó un aviso de continuación de tu perdón. No es común en el I-601. Léelo bien: puede continuar una revisión, reprogramar algo o tratar de un caso ligado. Pregunta a tu abogado si algo no está claro."
+  },
+  "termination-notice-sent": {
+    "en": "USCIS sent a termination notice on your waiver. This is unusual and could mean the waiver or the related case was ended or revoked. Read the notice for the reason and the effective date, and contact an immigration attorney right away.",
+    "es": "USCIS mandó un aviso de terminación sobre tu perdón. Es raro y puede significar que terminaron o revocaron el perdón o el caso relacionado. Lee el aviso para ver el motivo y la fecha, y contacta de inmediato a un abogado de inmigración."
+  },
+  "case-closed-benefit-received-by-other-means": {
+    "en": "USCIS closed your I-601 because the waiver is no longer needed, for example because the ground was resolved another way or a different waiver was granted. Confirm with your attorney that your visa or green card case is not affected.",
+    "es": "USCIS cerró tu I-601 porque ya no se necesita el perdón, por ejemplo porque la causa se resolvió de otra manera o te dieron otro perdón. Confirma con tu abogado que tu caso de visa o green card no se afecta."
+  },
+  "expedite-request-denied": {
+    "en": "USCIS decided not to speed up your waiver. The I-601 stays in the regular queue and the expedite decision does not hurt the case. If the hardship becomes more urgent, you can ask again with new proof.",
+    "es": "USCIS decidió no acelerar tu perdón. El I-601 sigue en la fila normal y esa decisión no perjudica el caso. Si la dificultad se vuelve más urgente, puedes pedirlo otra vez con pruebas nuevas. Guarda tus pruebas."
+  },
+  "correspondence-was-received-and-uscis-is-reviewing-it": {
+    "en": "USCIS received a letter or documents you sent about your waiver and is reviewing them. This is often new hardship evidence or an address update. Wait for a written answer before sending duplicates. Keep copies of everything you mailed.",
+    "es": "USCIS recibió una carta o documentos que mandaste sobre tu perdón y los está revisando. Muchas veces son pruebas nuevas de dificultad o un cambio de dirección. Espera respuesta por escrito antes de mandar copias repetidas."
+  }
+}

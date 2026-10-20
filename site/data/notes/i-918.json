@@ -1,0 +1,178 @@
+{
+"case-was-received": {
+"en": "USCIS logged your U visa petition. I-918 cases move slowly because only a limited number of U-1 visas are given each year. Before any final decision, many petitioners first get a bona fide determination or a waiting-list review, which can bring a work permit. Keep your receipt and your law enforcement certification copy together.",
+"es": "USCIS registró tu petición de visa U. Los casos I-918 avanzan lento porque cada año solo se dan un número limitado de visas U-1. Antes de la decisión final, muchas personas primero reciben una determinación de buena fe o una revisión para la lista de espera, que puede traer permiso de trabajo. Guarda tu recibo junto con la copia de tu certificación policial."
+},
+"case-was-received-and-a-receipt-notice-was-sent": {
+"en": "Your I-918 receipt notice is on its way. It proves you filed for U status but does not by itself give work permission or protection from removal. The next milestones are biometrics and a bona fide determination review. If family members filed Supplement A, each gets its own receipt.",
+"es": "Tu aviso de recibo del I-918 ya va en camino. Prueba que pediste el estatus U, pero por sí solo no da permiso de trabajo ni protección contra la deportación. Lo que sigue son los biométricos y la revisión de buena fe. Si tus familiares presentaron el Suplemento A, cada uno recibe su propio recibo."
+},
+"fingerprint-fee-was-received": {
+"en": "USCIS applied the biometrics part of your I-918 filing. U visa petitioners usually do not pay a filing fee for the I-918 itself, but biometrics are still required. Expect an appointment notice at an Application Support Center. Go on time and bring photo ID.",
+"es": "USCIS aplicó la parte de biométricos de tu I-918. Normalmente la petición de visa U no tiene cuota, pero los biométricos sí son obligatorios. Espera una cita en un Centro de Apoyo de Solicitudes. Llega a tiempo y lleva identificación con foto."
+},
+"fingerprint-review-was-completed": {
+"en": "The FBI background check from your I-918 biometrics came back. USCIS can now look at whether your petition qualifies for a bona fide determination, which can bring deferred action and a work permit while you wait for a U visa number. This is a step forward, not a final decision.",
+"es": "Ya regresó la revisión del FBI de tus biométricos del I-918. Ahora USCIS puede ver si tu petición califica para una determinación de buena fe, que puede traer acción diferida y permiso de trabajo mientras esperas un número de visa U. Es un paso adelante, no la decisión final."
+},
+"case-is-being-actively-reviewed-by-uscis": {
+"en": "An officer is reviewing your I-918. Depending on the stage, this can be the bona fide determination, a waiting-list review, or the final decision once a U visa number is available. The status can appear several times over a long period. Keep your address updated so no notice is missed.",
+"es": "Un oficial está revisando tu I-918. Según la etapa, puede ser la determinación de buena fe, la revisión para la lista de espera o la decisión final cuando haya un número de visa U. Este estatus puede aparecer varias veces durante mucho tiempo. Mantén tu dirección al día para no perder ningún aviso."
+},
+"request-for-additional-evidence-was-sent": {
+"en": "For an I-918, an RFE often asks about the harm you suffered, your helpfulness to police or prosecutors, or the law enforcement certification on Supplement B. It can also ask about past immigration or criminal issues and a waiver on Form I-192. Answer completely by the deadline; an attorney or accredited representative can help.",
+"es": "En un I-918, la RFE muchas veces pregunta por el daño que sufriste, tu ayuda a la policía o la fiscalía, o la certificación del Suplemento B. También puede preguntar por problemas migratorios o penales y la dispensa del Formulario I-192. Contesta todo antes del plazo; un abogado o representante acreditado puede ayudarte."
+},
+"request-for-initial-evidence-was-sent": {
+"en": "Something required was missing from your I-918 filing. A common gap is the signed law enforcement certification, Supplement B, or your personal statement. The notice lists what is needed. Send it before the deadline, because without the certification USCIS cannot approve the U visa.",
+"es": "Faltó algo obligatorio en tu I-918. Lo más común es la certificación firmada por la autoridad, el Suplemento B, o tu declaración personal. El aviso dice qué falta. Mándalo antes del plazo, porque sin la certificación USCIS no puede aprobar la visa U."
+},
+"response-to-uscis-request-for-evidence-was-received": {
+"en": "USCIS received your answer to the I-918 request. Your case returns to the officer, who may move it toward a bona fide determination, the waiting list or a final decision. Because U cases are long, it may take a while before the next update appears.",
+"es": "USCIS recibió tu respuesta a la petición del I-918. Tu caso regresa al oficial, que puede moverlo hacia la determinación de buena fe, la lista de espera o la decisión final. Como los casos U son largos, puede pasar tiempo antes de la siguiente actualización."
+},
+"case-was-transferred-and-a-new-office-has-jurisdiction": {
+"en": "Your I-918 moved to another USCIS office. U visa petitions are handled by specific service centers, and transfers between them are usually about workload. It does not affect your place in line for a U visa number. Notices will now come from the new office.",
+"es": "Tu I-918 pasó a otra oficina de USCIS. Las peticiones de visa U las manejan centros de servicio específicos, y los traslados entre ellos casi siempre son por carga de trabajo. No cambia tu lugar en la fila para un número de visa U. Los avisos llegarán ahora de la nueva oficina."
+},
+"case-was-approved": {
+"en": "Your U visa petition was approved. If you are in the U.S., you receive U-1 status for up to four years with an I-94, and USCIS issues a work permit. Approved family members on Supplement A follow their own cases. After three years in U status, you may be able to apply for a green card.",
+"es": "Tu petición de visa U fue aprobada. Si estás en EE.UU., recibes estatus U-1 por hasta cuatro años con un I-94, y USCIS te da permiso de trabajo. Tus familiares del Suplemento A siguen sus propios casos. Después de tres años con estatus U, quizá puedas pedir la green card."
+},
+"new-card-is-being-produced": {
+"en": "For an I-918, the card being produced is a work permit (EAD). It may come from a bona fide determination, a waiting-list placement, or final U-1 approval. Check the related notice to see which one. Confirm your mailing address is current so the card reaches you.",
+"es": "En un I-918, la tarjeta que se está haciendo es un permiso de trabajo (EAD). Puede venir de la determinación de buena fe, de la lista de espera o de la aprobación final U-1. Revisa el aviso relacionado para saber cuál es. Confirma que tu dirección esté al día para que te llegue."
+},
+"card-was-mailed-to-me": {
+"en": "Your work permit linked to the I-918 is in the mail. Track it with the USPS number if one appears. When it arrives, check the category code and the validity dates, since U petitioners can get cards based on different stages of the case.",
+"es": "Tu permiso de trabajo ligado al I-918 ya va por correo. Síguelo con el número de USPS si aparece. Cuando llegue, revisa el código de categoría y las fechas de vigencia, porque quienes piden visa U pueden recibir tarjetas en distintas etapas del caso."
+},
+"card-was-picked-up-by-the-united-states-postal-service": {
+"en": "USPS is carrying your I-918 work permit to you. Use the tracking number to follow delivery. If you moved since filing, update your address with USCIS right away, because many U petitioners move during the long wait and cards get returned.",
+"es": "USPS está llevando tu permiso de trabajo del I-918. Usa el número de rastreo para seguir la entrega. Si te mudaste desde que presentaste, actualiza tu dirección con USCIS de inmediato, porque muchas personas se mudan durante la larga espera y las tarjetas regresan."
+},
+"card-was-delivered-to-me-by-the-post-office": {
+"en": "Your work permit from the I-918 process was delivered. Check your name, photo, category and dates. You can show it to an employer for the I-9 form. Note the expiration date, since you may need to renew it while your U case keeps moving.",
+"es": "Te entregaron tu permiso de trabajo del trámite I-918. Revisa tu nombre, foto, categoría y fechas. Puedes mostrarlo a tu empleador para el formulario I-9. Anota la fecha de vencimiento, porque quizá tengas que renovarlo mientras tu caso U sigue avanzando."
+},
+"document-was-mailed-to-me": {
+"en": "USCIS mailed you a document tied to your I-918, most often an approval notice with your I-94 showing U-1 status, or a notice granting deferred action. Read it carefully: it shows your status dates and what comes next. Keep the original in a safe place.",
+"es": "USCIS te mandó un documento de tu I-918, casi siempre el aviso de aprobación con tu I-94 que muestra el estatus U-1, o un aviso que te da acción diferida. Léelo con cuidado: dice las fechas de tu estatus y qué sigue. Guarda el original en un lugar seguro."
+},
+"notice-explaining-uscis-actions-was-mailed": {
+"en": "USCIS sent a letter about your I-918. It may be a bona fide determination notice, a waiting-list placement, a request for evidence, or a notice of intent to deny. Each has very different next steps. Read it right away and look for any deadline.",
+"es": "USCIS te mandó una carta sobre tu I-918. Puede ser el aviso de buena fe, que te pusieron en la lista de espera, una petición de pruebas o un aviso de intención de negar. Cada uno tiene pasos muy distintos. Léelo de inmediato y busca si tiene plazo."
+},
+"case-was-denied": {
+"en": "Your U visa petition was denied. The letter explains why, for example a problem with the law enforcement certification or an inadmissibility issue without a waiver. You may be able to appeal to the Administrative Appeals Office or file a motion with Form I-290B. Talk with an immigration attorney or accredited representative quickly.",
+"es": "Tu petición de visa U fue negada. La carta explica por qué, por ejemplo un problema con la certificación policial o una causa de inadmisibilidad sin dispensa. Quizá puedas apelar ante la Oficina Administrativa de Apelaciones o presentar una moción con el Formulario I-290B. Habla pronto con un abogado de inmigración o un representante acreditado."
+},
+"case-was-reopened": {
+"en": "Your I-918 is open again, often after a motion filed on Form I-290B or a correction by USCIS. The petition goes back to review. Watch for notices asking for updated evidence, such as a new law enforcement certification.",
+"es": "Tu I-918 está abierto otra vez, muchas veces por una moción con el Formulario I-290B o una corrección de USCIS. La petición vuelve a revisión. Espera avisos que pidan pruebas actualizadas, como una nueva certificación policial."
+},
+"case-rejected-because-i-sent-an-incorrect-fee": {
+"en": "Your I-918 package was rejected over a payment issue. The I-918 itself generally has no filing fee, so this often involves a related form in the package, like the I-192 waiver or an I-765. Check current fees on uscis.gov, fix the payment and refile the whole package.",
+"es": "Tu paquete del I-918 fue rechazado por un problema de pago. El I-918 en sí normalmente no tiene cuota, así que muchas veces el problema es otro formulario del paquete, como la dispensa I-192 o un I-765. Revisa las cuotas actuales en uscis.gov, corrige el pago y vuelve a mandar todo el paquete."
+},
+"expedite-request-received": {
+"en": "USCIS received your request to speed up your I-918. Even if granted, an expedite cannot create a U visa number when the yearly cap is used up. It may speed a bona fide or waiting-list review instead. Wait for USCIS to answer.",
+"es": "USCIS recibió tu solicitud para acelerar tu I-918. Aunque la acepten, no puede crear un número de visa U si ya se acabó el cupo del año. Puede acelerar la revisión de buena fe o de la lista de espera. Espera la respuesta de USCIS."
+},
+"withdrawal-acknowledgement-notice-was-sent": {
+"en": "USCIS confirmed your I-918 was withdrawn. Any family petitions on Supplement A depend on your main case and usually end too. If you withdrew by mistake or your situation changed, speak with an immigration attorney about whether you can refile.",
+"es": "USCIS confirmó que tu I-918 fue retirado. Las peticiones de tus familiares en el Suplemento A dependen de tu caso principal y normalmente también terminan. Si lo retiraste por error o cambió tu situación, habla con un abogado de inmigración para ver si puedes presentarlo de nuevo."
+},
+"name-was-updated": {
+"en": "USCIS changed the name on your I-918 record. Your work permit and approval notice will use the new name. Make sure it matches your identity documents, and tell USCIS if the change should also apply to your family members' Supplement A cases.",
+"es": "USCIS cambió el nombre en tu expediente I-918. Tu permiso de trabajo y tu aviso de aprobación usarán el nombre nuevo. Asegúrate de que coincida con tus documentos de identidad y avisa a USCIS si el cambio también debe aplicarse a los casos de tus familiares en el Suplemento A."
+},
+"case-was-received-and-a-receipt-notice-was-emailed": {
+"en": "Your I-918 receipt notice was sent electronically. Download it and keep it with your law enforcement certification. The receipt number lets you track the long U visa process here, from biometrics to the bona fide determination and a final decision.",
+"es": "Tu aviso de recibo del I-918 se mandó de forma electrónica. Descárgalo y guárdalo con tu certificación policial. Con el número de recibo puedes seguir aquí todo el largo proceso de visa U, desde los biométricos hasta la determinación de buena fe y la decisión final."
+},
+"case-accepted-by-the-uscis-lockbox": {
+"en": "Your mailed I-918 package was accepted at intake. If you sent related forms like the I-192 waiver or an I-765 with a fee, that payment was processed. Each form will get its own receipt notice, so expect more than one letter.",
+"es": "Tu paquete del I-918 por correo fue aceptado. Si mandaste otros formularios, como la dispensa I-192 o un I-765 con cuota, ese pago se procesó. Cada formulario recibe su propio aviso de recibo, así que espera más de una carta."
+},
+"fees-were-waived": {
+"en": "USCIS approved a fee waiver connected to your I-918 case. Since the I-918 itself generally has no fee, the waiver usually covers a related form, like the I-192 waiver of inadmissibility. Keep the approval with your records; your case continues normally.",
+"es": "USCIS aprobó una exención de cuota ligada a tu caso I-918. Como el I-918 en sí normalmente no tiene cuota, la exención suele cubrir otro formulario, como la dispensa de inadmisibilidad I-192. Guarda la aprobación con tus papeles; tu caso sigue normal."
+},
+"case-was-rejected-because-it-was-improperly-filed": {
+"en": "Your I-918 was not accepted. A frequent cause is a law enforcement certification that was unsigned or older than allowed when filed, or a missing signature on the petition. Check the rejection notice, fix the problem and refile. A rejected case does not hold a place in line.",
+"es": "Tu I-918 no fue aceptado. Una causa frecuente es una certificación policial sin firma o más vieja de lo permitido al presentarla, o que faltó tu firma en la petición. Revisa el aviso de rechazo, corrige el problema y vuelve a presentarlo. Un caso rechazado no guarda lugar en la fila."
+},
+"biometrics-appointment-was-scheduled": {
+"en": "You have a biometrics appointment for your I-918. Your fingerprints and photo are needed for background checks and for any work permit USCIS issues later. Bring the notice and photo ID. If you cannot go, ask to reschedule before the date.",
+"es": "Tienes cita de biométricos para tu I-918. Tus huellas y foto se usan para la revisión de antecedentes y para cualquier permiso de trabajo que USCIS te dé después. Lleva el aviso y una identificación con foto. Si no puedes ir, pide cambiar la cita antes de la fecha."
+},
+"case-was-updated-to-show-fingerprints-were-taken": {
+"en": "USCIS recorded your I-918 biometrics. Background checks can now run, and your petition can move toward a bona fide determination. That step can bring deferred action and a work permit before a U visa number is available.",
+"es": "USCIS registró tus biométricos del I-918. Ya puede correr la revisión de antecedentes y tu petición puede avanzar hacia la determinación de buena fe. Ese paso puede traer acción diferida y permiso de trabajo antes de que haya un número de visa U."
+},
+"case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+"en": "USCIS recorded that you missed your I-918 biometrics appointment. Without biometrics, the bona fide review and any work permit can stall, and the petition may be denied as abandoned. Contact USCIS right away to reschedule, and get help from an attorney or accredited representative if needed.",
+"es": "USCIS registró que faltaste a tu cita de biométricos del I-918. Sin biométricos, la revisión de buena fe y el permiso de trabajo se pueden detener, y la petición puede negarse por abandono. Contacta a USCIS de inmediato para reprogramar y busca ayuda de un abogado o representante acreditado si hace falta."
+},
+"case-was-approved-and-my-decision-was-emailed": {
+"en": "Your I-918 approval notice is in your USCIS online account. It shows your U-1 status dates. Print it and keep it safe, because you will need it later to apply for a green card after three years in U status.",
+"es": "Tu aviso de aprobación del I-918 está en tu cuenta en línea de USCIS. Muestra las fechas de tu estatus U-1. Imprímelo y guárdalo bien, porque lo vas a necesitar para pedir la green card después de tres años con estatus U."
+},
+"case-approval-was-certified-by-uscis": {
+"en": "USCIS confirmed your I-918 approval for official use. This can help when a consulate needs to see the approval, for example for a family member abroad, or when another agency asks for proof of your U status. Check your notice for details.",
+"es": "USCIS confirmó tu aprobación del I-918 para uso oficial. Esto ayuda cuando un consulado necesita ver la aprobación, por ejemplo para un familiar en el extranjero, o cuando otra agencia pide prueba de tu estatus U. Revisa tu aviso para más detalles."
+},
+"response-to-uscis-notice-of-intent-was-received": {
+"en": "USCIS received your response to a notice of intent to deny your I-918. The officer will review your explanation and evidence, often about the certification, helpfulness or a criminal record issue. This is a critical stage; an attorney or accredited representative can help you prepare for the result.",
+"es": "USCIS recibió tu respuesta al aviso de intención de negar tu I-918. El oficial revisará tu explicación y tus pruebas, muchas veces sobre la certificación, tu ayuda a las autoridades o antecedentes penales. Es una etapa crítica; un abogado o representante acreditado puede ayudarte a prepararte para el resultado."
+},
+"case-is-pending-at-a-local-office": {
+"en": "U visa petitions are usually decided at a service center, so a local office status is uncommon for an I-918. It may mean a specific review step or document check is happening there. Your place in the U visa line is not affected. Check your account for any notice.",
+"es": "Las peticiones de visa U casi siempre se deciden en un centro de servicio, así que este estatus es poco común en un I-918. Puede ser que ahí se haga una revisión específica o de documentos. No cambia tu lugar en la fila de la visa U. Revisa tu cuenta por si hay algún aviso."
+},
+"duplicate-notice-was-mailed": {
+"en": "USCIS mailed a copy of an I-918 notice. It may be your receipt, a bona fide determination, or your approval with the I-94. If the original was lost during a move, this copy replaces it. Keep it with your certification and other U visa papers.",
+"es": "USCIS mandó una copia de un aviso de tu I-918. Puede ser tu recibo, el aviso de buena fe o tu aprobación con el I-94. Si el original se perdió en una mudanza, esta copia lo reemplaza. Guárdala con tu certificación y tus otros papeles de visa U."
+},
+"card-is-being-returned-to-uscis-by-post-office": {
+"en": "USPS could not deliver your work permit from the I-918 process and is sending it back. Update your address with USCIS online and contact USCIS to ask for the card to be resent. Without the card, showing work authorization to an employer is harder.",
+"es": "USPS no pudo entregar tu permiso de trabajo del trámite I-918 y lo está regresando. Actualiza tu dirección con USCIS en línea y contacta a USCIS para pedir que lo vuelvan a mandar. Sin la tarjeta, es más difícil mostrar tu permiso de trabajo al empleador."
+},
+"card-was-returned-to-uscis": {
+"en": "Your I-918 work permit is back at USCIS because it could not be delivered. USCIS holds returned cards for a limited time. Confirm your correct address and ask that it be mailed again, so you do not need to request a replacement.",
+"es": "Tu permiso de trabajo del I-918 regresó a USCIS porque no se pudo entregar. USCIS guarda las tarjetas devueltas solo un tiempo. Confirma tu dirección correcta y pide que te la vuelvan a mandar, para no tener que pedir un reemplazo."
+},
+"notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+"en": "An I-918 notice came back undelivered. Because U cases last years, address changes are common. The returned notice might be a request for evidence with a deadline. Update your address with USCIS now and check your online account for the notice.",
+"es": "Un aviso de tu I-918 regresó sin entregarse. Como los casos U duran años, los cambios de dirección son comunes. El aviso devuelto puede ser una petición de pruebas con plazo. Actualiza ya tu dirección con USCIS y busca el aviso en tu cuenta en línea."
+},
+"card-was-received-by-uscis-along-with-my-letter": {
+"en": "USCIS received the work permit you sent back with a letter, usually to correct a USCIS error on the card. They will review it and decide whether to issue a corrected card. Keep a copy of the card and letter you mailed.",
+"es": "USCIS recibió el permiso de trabajo que regresaste con una carta, casi siempre para corregir un error de USCIS en la tarjeta. Lo revisarán y decidirán si te dan una tarjeta corregida. Guarda copia de la tarjeta y de la carta que mandaste."
+},
+"date-of-birth-was-updated": {
+"en": "USCIS corrected your date of birth on the I-918 record. This matters for your work permit and later for your green card application. Check that it matches your passport or birth certificate, and contact USCIS if it still looks wrong.",
+"es": "USCIS corrigió tu fecha de nacimiento en el expediente I-918. Importa para tu permiso de trabajo y después para tu solicitud de green card. Revisa que coincida con tu pasaporte o acta de nacimiento, y contacta a USCIS si sigue mal."
+},
+"continuation-notice-was-mailed": {
+"en": "USCIS mailed a notice about your I-918 continuing. For U petitioners, notices like this can confirm deferred action or waiting-list status while the case remains pending. Check the notice for any validity dates and keep it with your work permit.",
+"es": "USCIS te mandó un aviso de que tu I-918 continúa. Para quien pide visa U, avisos así pueden confirmar la acción diferida o la lista de espera mientras el caso sigue pendiente. Revisa en el aviso si hay fechas de vigencia y guárdalo con tu permiso de trabajo."
+},
+"termination-notice-sent": {
+"en": "For an I-918 case, a termination notice can end deferred action from the waiting list or revoke U status already granted, for example after a certification is withdrawn. This affects your permission to stay and work. Talk with an immigration attorney or accredited representative right away.",
+"es": "En un caso I-918, un aviso de terminación puede quitar la acción diferida de la lista de espera o revocar un estatus U ya dado, por ejemplo si retiran la certificación. Esto afecta tu permiso para quedarte y trabajar. Habla de inmediato con un abogado de inmigración o un representante acreditado."
+},
+"case-closed-benefit-received-by-other-means": {
+"en": "USCIS closed your I-918 because you already have the same benefit another way, for example U status approved on a different receipt, or a green card through another path. Check that the other approval covers you before you stop following this case.",
+"es": "USCIS cerró tu I-918 porque ya tienes el mismo beneficio por otra vía, por ejemplo estatus U aprobado con otro número de recibo, o una green card por otro camino. Revisa que esa otra aprobación te cubra antes de dejar de seguir este caso."
+},
+"expedite-request-denied": {
+"en": "USCIS will not expedite your I-918. Your petition keeps its place in line for the bona fide review and the U visa cap. If your safety or health situation changes, you can ask again with new evidence.",
+"es": "USCIS no va a acelerar tu I-918. Tu petición conserva su lugar en la fila para la revisión de buena fe y el cupo de visas U. Si cambia tu situación de seguridad o de salud, puedes pedirlo otra vez con pruebas nuevas."
+},
+"correspondence-was-received-and-uscis-is-reviewing-it": {
+"en": "USCIS received something you sent about your I-918, such as an address change, an updated certification or new evidence. An officer will decide if action is needed. Keep a copy and proof of delivery, especially for anything about the law enforcement certification.",
+"es": "USCIS recibió algo que mandaste sobre tu I-918, como un cambio de dirección, una certificación actualizada o pruebas nuevas. Un oficial decidirá si hace falta hacer algo. Guarda copia y prueba de entrega, sobre todo de lo relacionado con la certificación policial."
+}
+}

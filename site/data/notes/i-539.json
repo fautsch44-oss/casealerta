@@ -1,0 +1,130 @@
+{
+ "case-was-received": {
+  "en": "USCIS has your I-539 to extend or change your nonimmigrant status. If it was filed before your I-94 expired, you can usually stay in the U.S. while it is pending, but your old status rules still apply. For example, a visitor switching to F-1 should not start classes until approval.",
+  "es": "USCIS tiene tu I-539 para extender o cambiar tu estatus de no inmigrante. Si lo presentaste antes de que venciera tu I-94, normalmente puedes quedarte en EE.UU. mientras está en trámite, pero siguen las reglas de tu estatus actual. Por ejemplo, un turista que cambia a F-1 no debe empezar clases antes de la aprobación."
+ },
+ "case-was-received-and-a-receipt-notice-was-sent": {
+  "en": "Your I-797C receipt for the I-539 is in the mail. Keep it with your I-94 record: together they show you filed on time. Each co-applicant listed on the form, such as children, should appear on the notice, so check that every name is there.",
+  "es": "Tu recibo I-797C del I-539 viene por correo. Guárdalo con tu registro I-94: juntos muestran que presentaste a tiempo. Cada co-solicitante incluido en el formulario, como tus hijos, debe aparecer en el aviso, así que revisa que estén todos los nombres."
+ },
+ "case-is-being-actively-reviewed-by-uscis": {
+  "en": "An officer is reviewing your I-539. They check that you kept your current status, filed before your stay ended, and qualify for the new or extended status. For H-4 or L-2 spouses, the officer often looks at the principal worker's case too.",
+  "es": "Un oficial está revisando tu I-539. Revisa que hayas mantenido tu estatus, que presentaste antes de que terminara tu estancia y que calificas para el estatus nuevo o extendido. Para cónyuges H-4 o L-2, muchas veces también revisa el caso del trabajador principal."
+ },
+ "request-for-additional-evidence-was-sent": {
+  "en": "USCIS needs more proof for your I-539. Typical requests are bank statements showing you can support yourself, proof of ties to your home country, or for students, school documents. Answer by the deadline and include the RFE cover sheet.",
+  "es": "USCIS necesita más pruebas para tu I-539. Suelen pedir estados de cuenta que muestren que puedes mantenerte, pruebas de lazos con tu país o, para estudiantes, documentos de la escuela. Responde antes de la fecha límite e incluye la hoja del RFE."
+ },
+ "request-for-initial-evidence-was-sent": {
+  "en": "Your I-539 was missing a required document, often a copy of the I-94, passport pages, or the principal's approval notice for dependents. Send exactly what is listed before the deadline. Missing it can lead to denial and the end of your authorized stay.",
+  "es": "A tu I-539 le faltó un documento obligatorio, muchas veces la copia del I-94, páginas del pasaporte o el aviso de aprobación del titular para dependientes. Manda justo lo que piden antes de la fecha límite. Si no, pueden negarlo y terminar tu estancia autorizada."
+ },
+ "response-to-uscis-request-for-evidence-was-received": {
+  "en": "USCIS has your evidence for the I-539 and the officer will continue the review. While you wait, keep following the rules of your current status. If your plans change, for example you leave the U.S., the request may be treated as abandoned.",
+  "es": "USCIS ya tiene tus pruebas para el I-539 y el oficial seguirá la revisión. Mientras esperas, sigue las reglas de tu estatus actual. Si cambian tus planes, por ejemplo sales de EE.UU., la solicitud puede considerarse abandonada."
+ },
+ "case-was-transferred-and-a-new-office-has-jurisdiction": {
+  "en": "Your I-539 moved to another USCIS office, often to balance workload or to sit next to a related petition such as the principal worker's I-129. Your receipt number does not change. Check the notice for the new office name.",
+  "es": "Tu I-539 pasó a otra oficina de USCIS, muchas veces para repartir trabajo o para quedar junto a una petición relacionada, como el I-129 del trabajador principal. Tu número de recibo no cambia. Revisa el aviso para ver la nueva oficina."
+ },
+ "case-was-approved": {
+  "en": "Your I-539 was approved. The approval notice, Form I-797A, normally includes a new I-94 at the bottom showing your new status and the date your stay ends. Keep it with your passport and check the end date right away.",
+  "es": "Aprobaron tu I-539. El aviso de aprobación, Formulario I-797A, normalmente trae un nuevo I-94 en la parte de abajo con tu nuevo estatus y la fecha en que termina tu estancia. Guárdalo con tu pasaporte y revisa esa fecha de una vez."
+ },
+ "document-was-mailed-to-me": {
+  "en": "USCIS mailed your I-539 decision document. For an approval, this is usually the I-797A with the new I-94 attached. If you leave the U.S., you generally need a visa stamp in the new category to come back; the approval itself is not a visa.",
+  "es": "USCIS te mandó por correo el documento de decisión del I-539. Si es aprobación, normalmente es el I-797A con el nuevo I-94. Si sales de EE.UU., en general necesitas una visa en la nueva categoría para regresar; la aprobación no es una visa."
+ },
+ "notice-explaining-uscis-actions-was-mailed": {
+  "en": "USCIS mailed a letter about your I-539. It may ask for biometrics, explain a delay, or describe a decision. Since your permission to stay can depend on this case, read it as soon as it arrives and act on any deadline.",
+  "es": "USCIS mandó una carta sobre tu I-539. Puede pedir biométricos, explicar un retraso o describir una decisión. Como tu permiso para quedarte puede depender de este caso, léela en cuanto llegue y atiende cualquier fecha límite."
+ },
+ "case-was-denied": {
+  "en": "Your I-539 was denied. If your I-94 date has already passed, you may now be out of status, and days in the U.S. can start counting as unlawful presence. Read the denial reason and talk to an immigration attorney or accredited representative quickly about leaving or other options.",
+  "es": "Te negaron el I-539. Si tu fecha del I-94 ya pasó, puedes estar fuera de estatus y los días en EE.UU. pueden empezar a contar como presencia ilegal. Lee el motivo y habla pronto con un abogado de inmigración o representante acreditado sobre salir del país u otras opciones."
+ },
+ "case-was-reopened": {
+  "en": "USCIS reopened your I-539, often after a motion to reopen or reconsider. The extension or change request is pending again. Keep proof of the reopening with your I-94, since it shows your case is active.",
+  "es": "USCIS reabrió tu I-539, muchas veces después de una moción para reabrir o reconsiderar. La solicitud de extensión o cambio vuelve a estar en trámite. Guarda la prueba de reapertura con tu I-94, porque muestra que tu caso está activo."
+ },
+ "case-rejected-because-i-sent-an-incorrect-fee": {
+  "en": "Your I-539 was rejected for a wrong payment. The fee differs between online and paper filing, and biometrics costs may apply per person. Check uscis.gov/i-539, correct the payment, and refile fast: a rejected I-539 does not protect your stay, and your I-94 date keeps running.",
+  "es": "Te rechazaron el I-539 por un pago incorrecto. La tarifa cambia entre presentación en línea y en papel, y puede aplicar un cobro de biométricos por persona. Revisa uscis.gov/i-539, corrige el pago y preséntalo rápido: un I-539 rechazado no protege tu estancia y la fecha de tu I-94 sigue corriendo."
+ },
+ "expedite-request-received": {
+  "en": "USCIS logged your request to speed up the I-539. Expedites are granted only for specific reasons, such as severe financial loss or urgent humanitarian need. Have proof ready. A school start date alone usually does not qualify.",
+  "es": "USCIS registró tu petición para acelerar el I-539. Solo aceleran por razones específicas, como una pérdida económica grave o una necesidad humanitaria urgente. Ten pruebas listas. Solo la fecha de inicio de clases normalmente no basta."
+ },
+ "withdrawal-acknowledgement-notice-was-sent": {
+  "en": "USCIS confirmed you withdrew your I-539. You no longer have a pending extension or change. If your I-94 date has passed, plan your departure soon, and ask an immigration attorney about your options if you need to stay.",
+  "es": "USCIS confirmó que retiraste tu I-539. Ya no tienes una extensión o cambio en trámite. Si tu fecha de I-94 ya pasó, planea tu salida pronto, y pregunta a un abogado de inmigración por tus opciones si necesitas quedarte."
+ },
+ "name-was-updated": {
+  "en": "USCIS updated your name on the I-539 file. The new I-94 issued with your approval should show the updated name. If it does not match your passport, ask for a correction, since airlines and employers check the I-94.",
+  "es": "USCIS actualizó tu nombre en el expediente del I-539. El nuevo I-94 que llegue con tu aprobación debe mostrar el nombre corregido. Si no coincide con tu pasaporte, pide corrección, porque aerolíneas y empleadores revisan el I-94."
+ },
+ "case-was-received-and-a-receipt-notice-was-emailed": {
+  "en": "You filed the I-539 online and the receipt is in your USCIS account. Online filing is available for many I-539 applicants. Download the receipt and keep it with your I-94 as proof you filed on time.",
+  "es": "Presentaste el I-539 en línea y el recibo está en tu cuenta de USCIS. Muchos solicitantes del I-539 pueden presentarlo en línea. Descarga el recibo y guárdalo con tu I-94 como prueba de que presentaste a tiempo."
+ },
+ "case-accepted-by-the-uscis-lockbox": {
+  "en": "The USCIS lockbox accepted your paper I-539. The date it was received is important, because it shows you filed before your stay ended. Your receipt notice will show that date; keep it safe. Co-applicants on the same form share that filing date.",
+  "es": "El lockbox de USCIS aceptó tu I-539 en papel. La fecha de recibo es importante, porque muestra que presentaste antes de que terminara tu estancia. Tu aviso de recibo mostrará esa fecha; guárdalo bien. Los co-solicitantes del mismo formulario comparten esa fecha."
+ },
+ "fees-were-waived": {
+  "en": "USCIS approved a fee waiver for your I-539. Fee waivers for this form are limited to certain groups, such as some humanitarian categories. Your case now goes through normal processing. Watch for the receipt notice and keep the waiver approval letter with it.",
+  "es": "USCIS aprobó la exención de pago de tu I-539. Para este formulario las exenciones son solo para ciertos grupos, como algunas categorías humanitarias. Tu caso sigue ahora el trámite normal y llegará tu aviso de recibo."
+ },
+ "case-was-rejected-because-it-was-improperly-filed": {
+  "en": "Your I-539 came back without review, perhaps for a missing signature from a co-applicant or an old form edition. A rejected filing does not count as filed on time. Fix the problem and refile before your I-94 date if possible.",
+  "es": "Te regresaron el I-539 sin revisarlo, quizá por falta de firma de un co-solicitante o una edición vieja del formulario. Un trámite rechazado no cuenta como presentado a tiempo. Corrige el problema y vuelve a presentarlo antes de tu fecha de I-94 si puedes."
+ },
+ "case-was-approved-and-my-decision-was-emailed": {
+  "en": "Your I-539 approval is in your USCIS online account. Download the approval notice; it usually shows your new I-94 and the end date of your stay. You can also check your I-94 on the CBP website.",
+  "es": "Tu aprobación del I-539 está en tu cuenta de USCIS en línea. Descarga el aviso; normalmente muestra tu nuevo I-94 y la fecha en que termina tu estancia. También puedes revisar tu I-94 en la página de CBP."
+ },
+ "case-approval-was-certified-by-uscis": {
+  "en": "USCIS certified the approval of your I-539. This is an internal confirmation. Your new or extended status stands as approved. Keep the approval notice and I-94 together. Check the end date on the I-94, because that is the date you must leave or file again before.",
+  "es": "USCIS certificó la aprobación de tu I-539. Es una confirmación interna. Tu estatus nuevo o extendido queda aprobado. Guarda juntos el aviso de aprobación y tu I-94, y revisa la fecha de fin de tu estancia."
+ },
+ "case-was-sent-to-the-department-of-state": {
+  "en": "This status is unusual for an I-539, because most extensions are handled fully by USCIS. It can happen when the State Department needs to act, for example for some diplomatic or visa-related cases. Check your notice or ask USCIS what it means for you.",
+  "es": "Este estatus es poco común en un I-539, porque casi todas las extensiones las resuelve USCIS. Puede pasar cuando el Departamento de Estado tiene que intervenir, por ejemplo en algunos casos diplomáticos o de visa. Revisa tu aviso o pregunta a USCIS qué significa para ti."
+ },
+ "response-to-uscis-notice-of-intent-was-received": {
+  "en": "USCIS received your reply to its notice of intent on the I-539. That notice means the officer was leaning toward denial. Your stay may depend on the outcome, so having an immigration attorney or accredited representative review your situation is a good idea.",
+  "es": "USCIS recibió tu respuesta al aviso de intención sobre tu I-539. Ese aviso significa que el oficial pensaba negar. Tu estancia puede depender del resultado, así que es buena idea que un abogado de inmigración o representante acreditado revise tu caso."
+ },
+ "duplicate-notice-was-mailed": {
+  "en": "USCIS sent a copy of a notice for your I-539. If it is the approval, the copy should show the same I-94 information. Keep the original and the copy together. A copy does not change your end date or give you extra time.",
+  "es": "USCIS mandó una copia de un aviso de tu I-539. Si es la aprobación, la copia debe mostrar la misma información del I-94. Guarda el original y la copia juntos con tu pasaporte y revisa que los datos sean los mismos."
+ },
+ "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+  "en": "A notice for your I-539 came back to USCIS undelivered. It could be your approval with the new I-94 or a biometrics appointment. Update your address online and ask USCIS to resend it. You can also see recent notices in your online account.",
+  "es": "Un aviso de tu I-539 regresó a USCIS sin entregarse. Puede ser tu aprobación con el nuevo I-94 o una cita de biométricos. Actualiza tu dirección en línea y pide a USCIS que lo reenvíe lo antes posible."
+ },
+ "date-of-birth-was-updated": {
+  "en": "USCIS corrected your date of birth on the I-539 record. Check that the I-94 attached to your approval shows the right date, and that it matches your passport. If anything is still wrong, ask USCIS or CBP for a correction before you travel.",
+  "es": "USCIS corrigió tu fecha de nacimiento en el expediente del I-539. Revisa que el I-94 de tu aprobación muestre la fecha correcta y que coincida con tu pasaporte. Si hay diferencias, pide corrección a USCIS o a CBP."
+ },
+ "continuation-notice-was-mailed": {
+  "en": "USCIS sent a continuation notice for your I-539. It usually means the case is still open and something more is coming, like a biometrics appointment. Keep following your current status rules while you wait. It is not an approval.",
+  "es": "USCIS mandó un aviso de continuación para tu I-539. Normalmente significa que el caso sigue abierto y viene algo más, como una cita de biométricos. Sigue las reglas de tu estatus actual mientras esperas. No es una aprobación."
+ },
+ "termination-notice-sent": {
+  "en": "USCIS sent a termination notice on your I-539 case. This can affect your permission to stay. Read it carefully and talk to an immigration attorney or accredited representative right away about what it means for your time in the U.S.",
+  "es": "USCIS mandó un aviso de terminación en tu caso I-539. Esto puede afectar tu permiso para quedarte. Léelo con cuidado y habla de inmediato con un abogado de inmigración o representante acreditado sobre lo que significa para tu estancia en EE.UU."
+ },
+ "case-closed-benefit-received-by-other-means": {
+  "en": "USCIS closed your I-539 because you got the benefit another way. For example, you left and came back with a new visa, or another petition already gave you the status you asked for. Check your current I-94 to confirm your status.",
+  "es": "USCIS cerró tu I-539 porque obtuviste el beneficio por otra vía. Por ejemplo, saliste y regresaste con una visa nueva, u otra petición ya te dio el estatus que pediste. Revisa tu I-94 actual para confirmar tu estatus."
+ },
+ "expedite-request-denied": {
+  "en": "USCIS will not speed up your I-539. The case stays in normal processing. If your stay depends on timing, ask an immigration attorney whether another path, such as a different filing, could help. Keep following your current status rules while you wait.",
+  "es": "USCIS no va a acelerar tu I-539. El caso sigue en el trámite normal. Si tu estancia depende de los tiempos, pregunta a un abogado de inmigración si otra vía, como un trámite distinto, podría ayudarte."
+ },
+ "correspondence-was-received-and-uscis-is-reviewing-it": {
+  "en": "USCIS received something you sent about your I-539, such as a new address or updated school documents. An officer will review it and add it to your file. No need to send it again. Keep a copy of what you sent.",
+  "es": "USCIS recibió algo que mandaste sobre tu I-539, como una nueva dirección o documentos actualizados de la escuela. Un oficial lo revisará y lo agregará a tu expediente. No hace falta enviarlo otra vez. Guarda una copia de lo que enviaste."
+ }
+}

@@ -1,0 +1,178 @@
+{
+  "case-was-received": {
+    "en": "USCIS has your TPS application or re-registration. Keep the I-797C receipt in a safe place. If your country's Federal Register notice extended TPS documents, the receipt may help show your status while the case is pending. Rules change by country, so check the TPS page for your country on uscis.gov.",
+    "es": "USCIS ya tiene tu solicitud o re-registro de TPS. Guarda el recibo I-797C en un lugar seguro. Si el aviso del Registro Federal de tu país extendió los documentos de TPS, el recibo puede ayudarte a mostrar tu estatus mientras el caso sigue. Las reglas cambian por país, así que revisa la página de TPS de tu país en uscis.gov."
+  },
+  "case-was-received-and-a-receipt-notice-was-sent": {
+    "en": "Your I-821 is logged and the paper receipt is in the mail. If you also filed an I-765 for a work permit, it gets its own receipt. Check both notices for correct names and dates of birth, because TPS approval and the EAD card use that data.",
+    "es": "Tu I-821 quedó registrado y el recibo en papel viene por correo. Si también mandaste un I-765 para permiso de trabajo, tendrá su propio recibo. Revisa que ambos avisos tengan bien tu nombre y fecha de nacimiento, porque la aprobación de TPS y la tarjeta EAD usan esos datos."
+  },
+  "fingerprint-fee-was-received": {
+    "en": "USCIS accepted the biometrics payment that comes with TPS filings for people 14 and older. This lets USCIS run background checks required for TPS. An appointment notice for fingerprints and photo usually follows, unless USCIS decides to reuse biometrics it already has from your earlier TPS cases.",
+    "es": "USCIS aceptó el pago de biométricos que acompaña al TPS para personas de 14 años o más. Esto permite hacer las revisiones de antecedentes que exige el TPS. Suele llegar después una cita para huellas y foto, salvo que USCIS reutilice biométricos que ya tiene de tus casos anteriores de TPS."
+  },
+  "fingerprint-review-was-completed": {
+    "en": "USCIS finished the background check on your fingerprints for TPS. Certain criminal records can make someone ineligible for TPS, which is why this step matters. The next step is the officer's decision on your I-821 and, if filed, your work permit.",
+    "es": "USCIS terminó la revisión de antecedentes con tus huellas para el TPS. Ciertos antecedentes penales pueden quitarte la elegibilidad para TPS, por eso este paso importa. Lo siguiente es la decisión del oficial sobre tu I-821 y, si lo presentaste, tu permiso de trabajo."
+  },
+  "case-is-being-actively-reviewed-by-uscis": {
+    "en": "An officer is reviewing your TPS case. They check your nationality, when you arrived, that you have lived in the U.S. continuously since the date set for your country, and the background check. Re-registrations are often quicker than first-time applications. Compare with the typical range shown on this page.",
+    "es": "Un oficial está revisando tu caso de TPS. Revisa tu nacionalidad, cuándo llegaste, que hayas vivido en EE.UU. sin interrupción desde la fecha fijada para tu país y tus antecedentes. Los re-registros suelen ir más rápido que las solicitudes iniciales. Compara con el rango típico de esta página."
+  },
+  "request-for-additional-evidence-was-sent": {
+    "en": "USCIS needs more proof for your TPS case. Common requests ask for proof of nationality, like a passport or birth certificate with ID, or proof that you lived in the U.S. since your country's required date, such as leases, pay stubs or school records. Reply by the deadline with copies, not originals.",
+    "es": "USCIS necesita más pruebas para tu TPS. Lo común es pedir prueba de nacionalidad, como pasaporte o acta de nacimiento con identificación, o prueba de que vives en EE.UU. desde la fecha que exige tu país, como contratos de renta, talones de pago o constancias escolares. Responde antes del plazo con copias, no originales."
+  },
+  "request-for-initial-evidence-was-sent": {
+    "en": "Something required was missing from your I-821. Often it is a photo, a copy of your ID or proof of nationality, or a signature. Send exactly what the notice asks before the deadline. If you miss it, USCIS can deny TPS, and filing windows for many countries are limited.",
+    "es": "Faltó algo obligatorio en tu I-821. Muchas veces es una foto, copia de tu identificación o prueba de nacionalidad, o una firma. Manda justo lo que pide el aviso antes del plazo. Si no respondes, USCIS puede negar el TPS, y en muchos países el periodo para aplicar es limitado."
+  },
+  "response-to-uscis-request-for-evidence-was-received": {
+    "en": "USCIS received the documents you sent for TPS. The officer will review them with the rest of your I-821. If they are enough, the next update is usually an approval and, if you asked for one, a work permit card. Keep a copy of everything you mailed.",
+    "es": "USCIS recibió los documentos que mandaste para el TPS. El oficial los revisará con el resto de tu I-821. Si son suficientes, lo siguiente suele ser la aprobación y, si la pediste, la tarjeta de permiso de trabajo. Guarda copia de todo lo que enviaste."
+  },
+  "case-was-transferred-and-a-new-office-has-jurisdiction": {
+    "en": "Your TPS case moved to another USCIS office. This often happens when a large group of re-registrations is spread across offices, or when a case needs a field office. Your receipt number stays the same, and the new office continues the review.",
+    "es": "Tu caso de TPS pasó a otra oficina de USCIS. Pasa seguido cuando reparten muchos re-registros entre oficinas o cuando un caso necesita una oficina local. Tu número de recibo no cambia y la nueva oficina sigue la revisión."
+  },
+  "case-was-approved": {
+    "en": "Your TPS was approved. You will get an approval notice. If you also filed an I-765, the EAD card usually comes through that case. TPS lasts only through your country's current designation period, so watch for the next re-registration window and any Federal Register notice.",
+    "es": "Aprobaron tu TPS. Te llegará un aviso de aprobación. Si también presentaste el I-765, la tarjeta EAD normalmente llega por ese caso. El TPS dura solo hasta que termine el periodo vigente de tu país, así que pendiente del próximo re-registro y de cualquier aviso del Registro Federal."
+  },
+  "new-card-is-being-produced": {
+    "en": "A card is being printed in connection with your TPS case. For most people this is the EAD work permit card, which often shows category A12 or C19 and serves as proof of TPS-based work permission. Check the dates and category when it arrives.",
+    "es": "Están imprimiendo una tarjeta ligada a tu caso de TPS. Para casi todos es la tarjeta de permiso de trabajo EAD, que suele mostrar la categoría A12 o C19 y sirve como prueba de permiso de trabajo por TPS. Revisa las fechas y la categoría cuando llegue."
+  },
+  "card-was-mailed-to-me": {
+    "en": "Your TPS-related card, usually the EAD, was mailed to the address USCIS has on file. Look for a USPS tracking number in your case. If your address changed, update it with USCIS right away so the card is not returned.",
+    "es": "Enviaron la tarjeta de tu TPS, normalmente la EAD, a la dirección que USCIS tiene registrada. Busca un número de rastreo de USPS en tu caso. Si cambiaste de dirección, actualízala con USCIS de inmediato para que la tarjeta no regrese."
+  },
+  "card-was-picked-up-by-the-united-states-postal-service": {
+    "en": "The post office has your TPS work permit card. Use the USPS tracking number to follow it. Once you have it, keep it safe, since it may be your main proof of both TPS and work permission until the expiration date printed on it.",
+    "es": "El correo ya tiene tu tarjeta de permiso de trabajo de TPS. Usa el número de rastreo de USPS para seguirla. Cuando la tengas, cuídala, porque puede ser tu prueba principal de TPS y de permiso de trabajo hasta la fecha de vencimiento que trae."
+  },
+  "card-was-delivered-to-me-by-the-post-office": {
+    "en": "USPS says your TPS card was delivered. If you cannot find it, check with neighbors and the post office first, then contact USCIS. Act quickly, because there is a limited time to report a card that never arrived without paying again.",
+    "es": "USPS dice que entregó tu tarjeta de TPS. Si no la encuentras, pregunta con vecinos y en el correo, y luego contacta a USCIS. Hazlo rápido, porque hay un tiempo limitado para reportar una tarjeta que nunca llegó sin pagar otra vez."
+  },
+  "document-was-mailed-to-me": {
+    "en": "USCIS mailed a document on your TPS case, often the I-797 approval notice that proves your TPS status, or a decision letter. Keep TPS approval notices from every period: they help show your history if you ever apply for another benefit.",
+    "es": "USCIS te mandó un documento de tu caso de TPS, muchas veces el aviso de aprobación I-797 que prueba tu estatus, o una carta de decisión. Guarda los avisos de aprobación de TPS de cada periodo: ayudan a mostrar tu historial si algún día pides otro beneficio."
+  },
+  "notice-explaining-uscis-actions-was-mailed": {
+    "en": "USCIS mailed you a letter about your TPS case. It may explain a request for documents, a transfer, a decision, or news about your country's designation. Read it as soon as it arrives, because TPS notices can have short deadlines.",
+    "es": "USCIS te mandó una carta sobre tu caso de TPS. Puede explicar una petición de documentos, un traslado, una decisión o noticias sobre la designación de tu país. Léela en cuanto llegue, porque los avisos de TPS pueden tener plazos cortos."
+  },
+  "case-was-denied": {
+    "en": "Your TPS application was denied. The letter explains why and what options you have. Depending on your situation, you may be able to appeal, file a motion, or ask an immigration judge to review TPS if you are in removal proceedings. Deadlines are short, so contact an immigration attorney or accredited representative now.",
+    "es": "Te negaron el TPS. La carta explica el motivo y qué opciones tienes. Según tu caso, tal vez puedas apelar, presentar una moción o pedir a un juez de inmigración que revise el TPS si estás en proceso de deportación. Los plazos son cortos, así que contacta ya a un abogado de inmigración o un representante acreditado."
+  },
+  "case-was-reopened": {
+    "en": "USCIS reopened your TPS case, often after a motion, an appeal decision, or a court order involving TPS for your country. Your I-821 is pending again. Watch for requests for documents and for any new notice about your country's TPS dates.",
+    "es": "USCIS reabrió tu caso de TPS, muchas veces por una moción, una decisión de apelación o una orden de corte sobre el TPS de tu país. Tu I-821 vuelve a estar pendiente. Está atento a peticiones de documentos y a nuevos avisos sobre las fechas de TPS de tu país."
+  },
+  "case-rejected-because-i-sent-an-incorrect-fee": {
+    "en": "Your I-821 was returned because the payment was wrong. TPS fees depend on whether it is a first application or re-registration, your age, and whether you also asked for a work permit. Check the current fees on uscis.gov and refile quickly, because re-registration windows close.",
+    "es": "Te regresaron el I-821 porque el pago estaba mal. Las cuotas de TPS cambian si es solicitud inicial o re-registro, según tu edad y si también pediste permiso de trabajo. Revisa las cuotas actuales en uscis.gov y vuelve a presentarlo rápido, porque los periodos de re-registro se cierran."
+  },
+  "expedite-request-received": {
+    "en": "USCIS logged your request to speed up your TPS case. Expedites are decided one by one and need proof, such as job loss because your work permit is about to expire. Keep any automatic extension notice for your country handy in the meantime.",
+    "es": "USCIS registró tu solicitud para acelerar tu TPS. Las aceleraciones se deciden una por una y necesitan pruebas, como perder el trabajo porque tu permiso está por vencer. Mientras tanto, ten a la mano cualquier aviso de extensión automática para tu país."
+  },
+  "withdrawal-acknowledgement-notice-was-sent": {
+    "en": "USCIS confirmed your TPS application was withdrawn. Without TPS, you may lose protection from removal and the related work permit. If this was not your intention, or you are unsure of the effects, talk to an immigration attorney before anything else.",
+    "es": "USCIS confirmó que retiraste tu solicitud de TPS. Sin TPS puedes perder la protección contra la deportación y el permiso de trabajo ligado. Si no era tu intención o no sabes qué efectos tiene, habla primero con un abogado de inmigración."
+  },
+  "name-was-updated": {
+    "en": "USCIS updated your name on the TPS case. This name will appear on approval notices and on the work permit card. Make sure it matches your passport or national ID, since TPS depends on proving your nationality.",
+    "es": "USCIS actualizó tu nombre en el caso de TPS. Ese nombre saldrá en los avisos de aprobación y en la tarjeta de permiso de trabajo. Asegúrate de que coincida con tu pasaporte o identificación nacional, porque el TPS depende de probar tu nacionalidad."
+  },
+  "case-was-received-and-a-receipt-notice-was-emailed": {
+    "en": "You filed your TPS case online and the receipt is in your USCIS online account. Download and save it. Online filing lets you see notices faster, which helps when your country's re-registration period is short.",
+    "es": "Presentaste tu TPS en línea y el recibo está en tu cuenta de USCIS. Descárgalo y guárdalo. Presentar en línea te deja ver los avisos más rápido, lo que ayuda cuando el periodo de re-registro de tu país es corto."
+  },
+  "case-accepted-by-the-uscis-lockbox": {
+    "en": "The lockbox accepted your paper I-821 and processed payment. Your receipt number comes next. For TPS, the date it was accepted can matter to show you filed within your country's registration period, so keep the receipt.",
+    "es": "El lockbox aceptó tu I-821 en papel y procesó el pago. Lo siguiente es tu número de recibo. En el TPS, la fecha en que lo aceptaron puede servir para probar que aplicaste dentro del periodo de tu país, así que guarda el recibo."
+  },
+  "fees-were-waived": {
+    "en": "USCIS approved your fee waiver for TPS. Fee waivers are available for some TPS fees when you show you cannot pay. Your case now moves forward normally. For the next re-registration, you will need to ask again if you still qualify.",
+    "es": "USCIS aprobó tu exención de cuota para el TPS. Hay exenciones para algunas cuotas de TPS si demuestras que no puedes pagar. Tu caso sigue normal. En el próximo re-registro tendrás que pedirla otra vez si sigues calificando."
+  },
+  "case-was-rejected-because-it-was-improperly-filed": {
+    "en": "Your I-821 was returned without review. Common reasons: missing signature, old form edition, or filing outside your country's registration window. Fix the problem and refile quickly. Late re-registration may be possible only with a good reason, so read the rules for your country.",
+    "es": "Te regresaron el I-821 sin revisarlo. Razones comunes: falta de firma, versión vieja del formulario o aplicar fuera del periodo de tu país. Corrige el problema y vuelve a presentarlo rápido. El re-registro tardío solo se acepta con buena razón, así que lee las reglas de tu país."
+  },
+  "biometrics-appointment-was-scheduled": {
+    "en": "You have an appointment for fingerprints, photo and signature for your TPS case. These are used for background checks and for the EAD card. Bring the appointment notice and photo ID. If you cannot go, follow the instructions on the notice to reschedule before the date.",
+    "es": "Tienes cita para huellas, foto y firma de tu caso de TPS. Se usan para la revisión de antecedentes y para la tarjeta EAD. Lleva la carta de la cita y una identificación con foto. Si no puedes ir, sigue las instrucciones del aviso para reprogramar antes de la fecha."
+  },
+  "case-was-updated-to-show-fingerprints-were-taken": {
+    "en": "Your TPS biometrics are on file. USCIS can now complete the background checks and has the photo it needs for the work permit card. The next step is the officer's decision on your I-821. No action is needed unless a letter arrives.",
+    "es": "Tus biométricos de TPS ya están registrados. USCIS ya puede terminar la revisión de antecedentes y tiene la foto que necesita para la tarjeta de permiso de trabajo. Lo siguiente es la decisión del oficial sobre tu I-821."
+  },
+  "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+    "en": "USCIS recorded that you missed your TPS biometrics appointment. Without biometrics, the TPS case and the work permit cannot be finished and may be denied as abandoned. Contact USCIS right away using the instructions on your notice to reschedule.",
+    "es": "USCIS registró que no fuiste a tu cita de biométricos de TPS. Sin biométricos no pueden terminar el TPS ni el permiso de trabajo, y pueden negarlo por abandono. Contacta a USCIS de inmediato siguiendo las instrucciones del aviso para reprogramar."
+  },
+  "case-was-approved-and-my-decision-was-emailed": {
+    "en": "Your TPS was approved and the notice is in your USCIS online account. Download it and save a printed copy. If you also requested a work permit, watch for card statuses on that case. Note the end date of your country's current TPS period.",
+    "es": "Aprobaron tu TPS y el aviso está en tu cuenta de USCIS. Descárgalo y guarda una copia impresa. Si también pediste permiso de trabajo, espera los estatus de la tarjeta en ese caso. Anota la fecha de fin del periodo actual de TPS de tu país."
+  },
+  "case-approval-was-certified-by-uscis": {
+    "en": "USCIS certified the approval of your TPS case. This is uncommon but works like an approval. Keep the notice: it is part of the proof that you held TPS during this period, which can matter for future applications.",
+    "es": "USCIS certificó la aprobación de tu TPS. Es poco común, pero funciona como una aprobación. Guarda el aviso: es parte de la prueba de que tuviste TPS en este periodo, lo que puede importar en trámites futuros."
+  },
+  "response-to-uscis-notice-of-intent-was-received": {
+    "en": "USCIS received your reply to a notice saying it planned to deny or withdraw your TPS. The officer will review your answer. These notices often involve criminal history or questions about continuous residence. An attorney or accredited representative should review your case now.",
+    "es": "USCIS recibió tu respuesta a un aviso donde decía que pensaba negar o retirar tu TPS. El oficial revisará tu respuesta. Estos avisos suelen tratar de antecedentes penales o dudas sobre tu residencia continua. Un abogado o representante acreditado debe revisar tu caso ya."
+  },
+  "case-is-pending-at-a-local-office": {
+    "en": "Your TPS case is at a local USCIS field office. This is not the usual route for TPS, which is mostly handled at service centers. It may mean the office wants to review something in person. Watch your mail for an appointment or letter.",
+    "es": "Tu caso de TPS está en una oficina local de USCIS. No es el camino normal del TPS, que casi siempre se maneja en centros de servicio. Puede significar que la oficina quiere revisar algo en persona. Revisa tu correo por si llega una cita o una carta."
+  },
+  "duplicate-notice-was-mailed": {
+    "en": "USCIS mailed a copy of a notice from your TPS case. Duplicate approval notices are useful, since some employers and agencies accept them together with an automatic extension notice for your country as proof of work permission.",
+    "es": "USCIS te mandó una copia de un aviso de tu TPS. Las copias de aprobación son útiles, porque algunos empleadores y agencias las aceptan junto con un aviso de extensión automática para tu país como prueba de permiso de trabajo."
+  },
+  "card-is-being-returned-to-uscis-by-post-office": {
+    "en": "The post office could not deliver your TPS work permit card and is returning it to USCIS. Update your address online with USCIS now and contact them to have the card sent again, because you may need it to keep working.",
+    "es": "El correo no pudo entregar tu tarjeta de permiso de trabajo de TPS y la está regresando a USCIS. Actualiza tu dirección en línea con USCIS ya y contáctalos para que la reenvíen, porque tal vez la necesites para seguir trabajando."
+  },
+  "card-was-returned-to-uscis": {
+    "en": "Your TPS card is back at USCIS because it was not delivered. Confirm your address with USCIS, then ask them to resend the card. Until it arrives, your approval notice and any automatic extension for your country may help with employers.",
+    "es": "Tu tarjeta de TPS regresó a USCIS porque no se entregó. Confirma tu dirección con USCIS y luego pide que la reenvíen. Mientras llega, tu aviso de aprobación y cualquier extensión automática para tu país pueden ayudarte con empleadores."
+  },
+  "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+    "en": "A notice on your TPS case came back undelivered. It may have been a biometrics appointment or a request for evidence with a deadline. Update your address with USCIS and ask what the notice said, so your TPS case does not get denied for no response.",
+    "es": "Un aviso de tu TPS regresó sin entregarse. Pudo ser una cita de biométricos o una petición de pruebas con plazo. Actualiza tu dirección con USCIS y pregunta qué decía el aviso, para que no nieguen tu TPS por falta de respuesta."
+  },
+  "card-was-received-by-uscis-along-with-my-letter": {
+    "en": "USCIS received the TPS-related card you sent back with your letter, usually to correct a mistake on it. If the error was USCIS's fault, it should issue a corrected card. Keep copies of the card and letter you mailed.",
+    "es": "USCIS recibió la tarjeta de TPS que regresaste con tu carta, casi siempre para corregir un error. Si el error fue de USCIS, debe emitir una tarjeta corregida. Guarda copias de la tarjeta y de la carta que mandaste."
+  },
+  "date-of-birth-was-updated": {
+    "en": "USCIS corrected your date of birth on the TPS case. This matters for TPS because age affects fees and biometrics, and the date prints on your work permit card. Check that it now matches your passport or birth certificate.",
+    "es": "USCIS corrigió tu fecha de nacimiento en el caso de TPS. Esto importa porque la edad cambia las cuotas y los biométricos, y la fecha sale en tu tarjeta de permiso de trabajo. Revisa que ahora coincida con tu pasaporte o acta de nacimiento."
+  },
+  "continuation-notice-was-mailed": {
+    "en": "USCIS mailed a notice that continues or extends something in your TPS case. For TPS, such notices have been used to extend the validity of EADs and TPS-related documents while a case or court case is pending. Check the dates and keep it with your card.",
+    "es": "USCIS mandó un aviso que continúa o extiende algo en tu TPS. En el TPS, estos avisos se han usado para extender la validez de la EAD y otros documentos mientras sigue un caso o un juicio. Revisa las fechas y guárdalo con tu tarjeta."
+  },
+  "termination-notice-sent": {
+    "en": "USCIS sent a notice ending TPS. This can be about your individual case, for example after a criminal record or ineligibility finding, or about the end of your country's TPS designation. Read the effective date carefully and talk to an immigration attorney or accredited representative about other options right away.",
+    "es": "USCIS mandó un aviso que termina el TPS. Puede ser sobre tu caso en particular, por ejemplo por antecedentes penales o falta de elegibilidad, o por el fin de la designación de TPS de tu país. Lee con cuidado la fecha en que aplica y habla ya con un abogado de inmigración o un representante acreditado sobre otras opciones."
+  },
+  "case-closed-benefit-received-by-other-means": {
+    "en": "USCIS closed your TPS case because you got status another way, for example a green card or asylum. If so, you no longer need TPS. If you are unsure what status you now hold, check your notices or ask an attorney.",
+    "es": "USCIS cerró tu caso de TPS porque obtuviste estatus por otra vía, por ejemplo green card o asilo. Si es así, ya no necesitas TPS. Si no estás seguro de qué estatus tienes ahora, revisa tus avisos o pregunta a un abogado."
+  },
+  "expedite-request-denied": {
+    "en": "USCIS declined to speed up your TPS case. It stays in the normal queue and the decision on the expedite does not hurt the case. Check whether your country's Federal Register notice gives an automatic extension you can show employers.",
+    "es": "USCIS no aceptó acelerar tu TPS. Sigue en la fila normal y esa decisión no perjudica tu caso. Revisa si el aviso del Registro Federal de tu país da una extensión automática que puedas mostrar a tu empleador."
+  },
+  "correspondence-was-received-and-uscis-is-reviewing-it": {
+    "en": "USCIS received a letter or documents you sent about your TPS case and is reviewing them. It may be an address change, extra proof of residence, or a late re-registration explanation. Wait for a written answer before sending more.",
+    "es": "USCIS recibió una carta o documentos que mandaste sobre tu TPS y los está revisando. Puede ser un cambio de dirección, más pruebas de residencia o una explicación de re-registro tardío. Espera respuesta por escrito antes de mandar más."
+  }
+}

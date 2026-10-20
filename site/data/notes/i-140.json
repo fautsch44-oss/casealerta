@@ -1,0 +1,150 @@
+{
+  "case-was-received": {
+    "en": "USCIS has the I-140 immigrant worker petition. For most employer-filed cases, the filing date or the labor certification date becomes your priority date, your place in the green card line. Keep the I-797C receipt: you may need it to file an I-485 or extend H-1B time.",
+    "es": "USCIS ya tiene la petición de trabajador inmigrante I-140. En la mayoría de los casos de empleador, la fecha de presentación o la de la certificación laboral se vuelve tu fecha de prioridad, tu lugar en la fila para la green card. Guarda el recibo I-797C: puede servirte para el I-485 o para extender tu tiempo en H-1B."
+  },
+  "case-was-received-and-a-receipt-notice-was-sent": {
+    "en": "The I-140 is logged and the paper receipt is on its way, usually to the employer or its attorney rather than to the worker. Ask them for a copy. Check that the priority date and classification, such as EB-2 or EB-3, look right.",
+    "es": "La I-140 quedó registrada y el recibo en papel viene en camino, casi siempre al empleador o a su abogado, no al trabajador. Pídeles una copia. Revisa que la fecha de prioridad y la categoría, como EB-2 o EB-3, estén correctas."
+  },
+  "fingerprint-fee-was-received": {
+    "en": "The I-140 petition itself does not normally require fingerprints. If you see this status, it may belong to a related filing, like an I-485 sent at the same time under another receipt number. Double-check which receipt number this update is for.",
+    "es": "La petición I-140 por sí sola normalmente no pide huellas. Si ves este estatus, quizá sea de un trámite relacionado, como un I-485 que mandaron al mismo tiempo con otro número de recibo. Revisa bien a qué número de recibo corresponde esta actualización."
+  },
+  "fingerprint-review-was-completed": {
+    "en": "Fingerprint checks are not a usual step for an I-140, which judges the job offer and your qualifications. This update is more likely tied to a concurrent I-485. If the receipt number truly is your I-140, the case simply continues toward a decision.",
+    "es": "Revisar huellas no es un paso normal de la I-140, que evalúa la oferta de trabajo y tus requisitos. Lo más probable es que esta actualización sea de un I-485 presentado al mismo tiempo. Si de verdad es el recibo de tu I-140, el caso sigue hacia una decisión."
+  },
+  "case-is-being-actively-reviewed-by-uscis": {
+    "en": "An officer is reviewing the I-140. They check the job, your degree and experience, and for most employer cases the company's ability to pay the offered wage. If the employer used premium processing, the time limit for action is shorter. Otherwise compare with the typical range on this page.",
+    "es": "Un oficial está revisando la I-140. Revisa el puesto, tu título y experiencia y, en la mayoría de los casos de empleador, si la empresa puede pagar el salario ofrecido. Si el empleador pagó procesamiento prioritario, el plazo para actuar es más corto. Si no, compara con el rango típico de esta página."
+  },
+  "request-for-additional-evidence-was-sent": {
+    "en": "USCIS wants more proof for the I-140. Typical requests ask for experience letters, degree evaluations, or the employer's tax returns or financial statements to show ability to pay. For self-petitions like EB-1A or the National Interest Waiver, they often ask for stronger evidence of achievements. An attorney usually prepares this reply.",
+    "es": "USCIS pide más pruebas para la I-140. Lo típico son cartas de experiencia, evaluación de títulos o declaraciones de impuestos del empleador para probar que puede pagar. En autopeticiones como EB-1A o National Interest Waiver suelen pedir pruebas más fuertes de logros. Normalmente un abogado prepara la respuesta."
+  },
+  "request-for-initial-evidence-was-sent": {
+    "en": "A required document was missing from the I-140. For employer cases, this is often the original certified labor certification (PERM) or proof of the worker's degree. Send exactly what is listed before the deadline, because USCIS can deny the petition if it gets no answer.",
+    "es": "Faltó un documento obligatorio en la I-140. En casos de empleador suele ser la certificación laboral (PERM) original o la prueba del título del trabajador. Manda justo lo que piden antes del plazo, porque USCIS puede negar la petición si no recibe respuesta."
+  },
+  "response-to-uscis-request-for-evidence-was-received": {
+    "en": "USCIS received the reply to its request on the I-140. The officer will review the new documents with the rest of the petition. For premium processing cases, a new response clock starts after the reply arrives. The next likely status is an approval or another letter.",
+    "es": "USCIS recibió la respuesta a su petición sobre la I-140. El oficial revisará los documentos nuevos junto con el resto. En casos con procesamiento prioritario, el plazo de respuesta vuelve a empezar al llegar la respuesta. Lo siguiente suele ser una aprobación u otra carta."
+  },
+  "case-was-transferred-and-a-new-office-has-jurisdiction": {
+    "en": "The I-140 moved to another USCIS office, often to balance workloads between service centers. The receipt number and priority date stay the same. The new office will continue the review where the last one left off.",
+    "es": "La I-140 pasó a otra oficina de USCIS, muchas veces para repartir el trabajo entre centros de servicio. El número de recibo y la fecha de prioridad no cambian. La nueva oficina sigue la revisión donde la dejó la anterior."
+  },
+  "case-was-approved": {
+    "en": "The I-140 was approved. This does not give a green card by itself; it confirms your category and priority date. Next, you can file an I-485 in the U.S. when your date is current, or the case goes to the National Visa Center if you will apply at a consulate abroad.",
+    "es": "Aprobaron la I-140. Esto no da la green card por sí solo; confirma tu categoría y tu fecha de prioridad. Lo que sigue: puedes presentar el I-485 en EE.UU. cuando tu fecha esté vigente, o el caso pasa al Centro Nacional de Visas si vas a tramitar en un consulado fuera."
+  },
+  "notice-explaining-uscis-actions-was-mailed": {
+    "en": "USCIS mailed a letter about the I-140, usually to the employer or its attorney. It may explain a request, a transfer or a decision. Ask the employer's attorney for a copy so you know where your green card petition stands.",
+    "es": "USCIS mandó una carta sobre la I-140, casi siempre al empleador o a su abogado. Puede explicar una petición, un traslado o una decisión. Pide una copia al abogado del empleador para saber cómo va tu petición de green card."
+  },
+  "case-was-denied": {
+    "en": "The I-140 was denied. The decision explains the reasons, such as qualifications, the job requirements or ability to pay. The employer or self-petitioner may be able to file an appeal or motion with Form I-290B, or file a new petition. Strict deadlines apply, so talk to an immigration attorney quickly.",
+    "es": "Negaron la I-140. La decisión explica los motivos, como requisitos, el puesto o la capacidad de pago. El empleador o quien se autopeticionó puede apelar o pedir una moción con el formulario I-290B, o presentar una petición nueva. Hay plazos estrictos, así que habla pronto con un abogado de inmigración."
+  },
+  "case-was-reopened": {
+    "en": "USCIS reopened the I-140, often after a motion filed with Form I-290B or on its own initiative. The petition is pending again and will get a new decision. If you have an I-485 that depended on it, ask your attorney how this affects that case.",
+    "es": "USCIS reabrió la I-140, muchas veces después de una moción con el formulario I-290B o por su cuenta. La petición vuelve a estar pendiente y tendrá una nueva decisión. Si tienes un I-485 que dependía de ella, pregunta a tu abogado cómo le afecta."
+  },
+  "case-rejected-because-i-sent-an-incorrect-fee": {
+    "en": "The I-140 was returned because the fee was wrong. Employer petitions may owe more than the base fee, such as the Asylum Program Fee, which varies by employer size. Check the current fees on uscis.gov, correct the payment and refile. The labor certification must still be valid when you refile.",
+    "es": "Regresaron la I-140 porque la cuota estaba mal. Las peticiones de empleador pueden deber más que la cuota base, como la cuota del Programa de Asilo, que cambia según el tamaño de la empresa. Revisa las cuotas actuales en uscis.gov, corrige el pago y vuelve a presentarla. La certificación laboral debe seguir vigente."
+  },
+  "expedite-request-received": {
+    "en": "USCIS logged a request to speed up the I-140. Many employers skip the expedite route and use premium processing instead, which has a set response time for a separate fee. A regular expedite is decided case by case and needs strong proof.",
+    "es": "USCIS registró una solicitud para acelerar la I-140. Muchos empleadores prefieren el procesamiento prioritario, que tiene un plazo fijo de respuesta por una cuota aparte. Una aceleración normal se decide caso por caso y necesita pruebas fuertes."
+  },
+  "withdrawal-acknowledgement-notice-was-sent": {
+    "en": "USCIS confirmed the I-140 was withdrawn, usually by the employer. If the petition had been approved for at least 180 days before the withdrawal, it generally stays approved for purposes like keeping your priority date. Ask an attorney how this applies to you.",
+    "es": "USCIS confirmó que retiraron la I-140, casi siempre el empleador. Si la petición llevaba al menos 180 días aprobada antes de retirarla, en general sigue aprobada para cosas como conservar tu fecha de prioridad. Pregunta a un abogado cómo aplica en tu caso."
+  },
+  "name-was-updated": {
+    "en": "USCIS updated a name on the I-140 record, either the worker's or, sometimes, the employer's. Make sure it matches your passport, since the same name should carry into your I-485 or visa application later. If it is wrong, tell the attorney so it can be fixed early.",
+    "es": "USCIS actualizó un nombre en el registro de la I-140, el del trabajador o, a veces, el del empleador. Asegúrate de que coincida con tu pasaporte, porque ese nombre debe pasar igual a tu I-485 o a tu solicitud de visa después."
+  },
+  "case-was-received-and-a-receipt-notice-was-emailed": {
+    "en": "The I-140 was filed online and the receipt is in the online account used to file it, usually the employer's or attorney's. Ask for a PDF copy. The receipt date can matter for H-1B extensions beyond the usual six years.",
+    "es": "La I-140 se presentó en línea y el recibo está en la cuenta que se usó, casi siempre la del empleador o del abogado. Pide una copia en PDF. La fecha del recibo puede importar para extender una H-1B más allá de los seis años normales."
+  },
+  "case-accepted-by-the-uscis-lockbox": {
+    "en": "The I-140 package was accepted at intake and the payment processed. A receipt number comes next. If an I-485 was mailed in the same package, it will get its own receipt number and statuses. Expect the receipt to go to the filer.",
+    "es": "El paquete de la I-140 fue aceptado en la recepción y el pago se procesó. Lo siguiente es el número de recibo. Si en el mismo paquete iba un I-485, tendrá su propio número de recibo y sus propios estatus."
+  },
+  "fees-were-waived": {
+    "en": "This is very unusual for an I-140, because employment petitions generally cannot use a fee waiver. Check that the update is really for this receipt number. If it is, read the notice carefully and confirm with uscis.gov or an attorney.",
+    "es": "Esto es muy raro en una I-140, porque las peticiones de empleo en general no aceptan exención de cuota. Revisa que la actualización sea de verdad de este número de recibo. Si lo es, lee el aviso con cuidado y confírmalo en uscis.gov o con un abogado."
+  },
+  "case-was-rejected-because-it-was-improperly-filed": {
+    "en": "The I-140 was returned without review. Common causes are a missing signature, an old form edition, or a missing labor certification when one is required. Fix the issue and refile soon, because a PERM certification has a limited validity period.",
+    "es": "Regresaron la I-140 sin revisarla. Causas comunes: falta de firma, versión vieja del formulario o falta de la certificación laboral cuando se requiere. Corrige el problema y vuelve a presentarla pronto, porque la certificación PERM tiene una vigencia limitada."
+  },
+  "biometrics-appointment-was-scheduled": {
+    "en": "The I-140 does not usually include a biometrics appointment. This notice most likely belongs to a related I-485 or I-765 filed at the same time. Check the receipt number on the appointment letter and go to the appointment it lists.",
+    "es": "La I-140 normalmente no incluye cita de biométricos. Lo más probable es que este aviso sea de un I-485 o I-765 presentado al mismo tiempo. Revisa el número de recibo en la carta de la cita y acude a la cita que indica."
+  },
+  "case-was-updated-to-show-fingerprints-were-taken": {
+    "en": "Fingerprints are not normally part of an I-140. This update probably reflects biometrics for a related case. Your I-140 review continues based on the job offer and your qualifications, not on biometrics. Check the receipt number to see which case it belongs to.",
+    "es": "Las huellas normalmente no forman parte de la I-140. Esta actualización quizá sea de biométricos para un caso relacionado. La revisión de tu I-140 sigue según la oferta de trabajo y tus requisitos, no según biométricos."
+  },
+  "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+    "en": "This is unusual for an I-140, which rarely needs an in-person visit. It may relate to a missed appointment on a linked case, like an I-485. Check which receipt number is affected and follow the notice quickly to avoid a denial.",
+    "es": "Esto es raro en una I-140, que casi nunca requiere ir en persona. Puede tener que ver con una cita perdida en un caso ligado, como un I-485. Revisa qué número de recibo está afectado y sigue el aviso rápido para evitar una negación."
+  },
+  "case-was-approved-and-my-decision-was-emailed": {
+    "en": "The I-140 was approved and the approval notice is in the online account that filed it. Ask for a copy: you will need it for the I-485 or the National Visa Center stage, and for some H-1B extensions.",
+    "es": "Aprobaron la I-140 y el aviso de aprobación está en la cuenta en línea que la presentó. Pide una copia: la vas a necesitar para el I-485 o para la etapa del Centro Nacional de Visas, y para algunas extensiones de H-1B."
+  },
+  "case-approval-was-certified-by-uscis": {
+    "en": "USCIS certified the approval of the I-140. In practice, the result is the same as an approval: your classification and priority date are set. Your next step depends on your visa bulletin date and whether you adjust in the U.S. or go through a consulate.",
+    "es": "USCIS certificó la aprobación de la I-140. En la práctica, es lo mismo que una aprobación: quedan fijas tu categoría y tu fecha de prioridad. Lo que sigue depende de tu fecha en el boletín de visas y de si ajustas en EE.UU. o vas por consulado."
+  },
+  "case-was-sent-to-the-department-of-state": {
+    "en": "The approved I-140 was sent to the State Department's National Visa Center because you will get your green card through a consulate abroad. The NVC will contact you about fees and documents. Your interview is scheduled only when your priority date is current.",
+    "es": "La I-140 aprobada pasó al Centro Nacional de Visas del Departamento de Estado porque vas a sacar tu green card en un consulado. El NVC te contactará sobre cuotas y documentos. La entrevista se agenda solo cuando tu fecha de prioridad esté vigente."
+  },
+  "response-to-uscis-notice-of-intent-was-received": {
+    "en": "USCIS received the reply to a notice saying it planned to deny or revoke the I-140. Notices of intent to revoke sometimes come years after approval, for example after a site visit. The officer will review the reply. An attorney should be involved at this stage.",
+    "es": "USCIS recibió la respuesta a un aviso donde decía que pensaba negar o revocar la I-140. Los avisos de intención de revocar a veces llegan años después de aprobar, por ejemplo tras una visita al lugar de trabajo. El oficial revisará la respuesta. En esta etapa conviene tener abogado."
+  },
+  "case-is-pending-at-a-local-office": {
+    "en": "I-140 petitions are usually decided at a service center, so this status is unusual. It can happen when the file was sent to a field office together with an I-485 for an interview. The case is still pending; wait for the local office to act.",
+    "es": "Las I-140 casi siempre se deciden en un centro de servicio, así que este estatus es raro. Puede pasar cuando mandan el expediente a una oficina local junto con un I-485 para entrevista. El caso sigue pendiente; espera a que la oficina local actúe."
+  },
+  "duplicate-notice-was-mailed": {
+    "en": "USCIS mailed a copy of an I-140 notice, often the approval notice. Duplicates help when the worker changes employers or needs proof of the priority date. Keep it with your immigration records. Ask the filer for a copy if it went to them.",
+    "es": "USCIS mandó una copia de un aviso de la I-140, muchas veces el de aprobación. Las copias ayudan cuando el trabajador cambia de empleador o necesita probar su fecha de prioridad. Guárdala con tus papeles de inmigración."
+  },
+  "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+    "en": "A notice about the I-140 came back to USCIS undelivered, often because the employer or attorney moved. It could be an RFE with a deadline. Make sure the employer updates its address with USCIS and asks for a copy of the notice.",
+    "es": "Un aviso de la I-140 regresó a USCIS sin entregarse, muchas veces porque el empleador o el abogado se mudó. Podría ser un RFE con plazo. Asegúrate de que el empleador actualice su dirección con USCIS y pida copia del aviso."
+  },
+  "date-of-birth-was-updated": {
+    "en": "USCIS corrected the worker's date of birth on the I-140 record. That date should match your passport and later applications. Ask your attorney for a copy of the updated notice and keep it in your green card file.",
+    "es": "USCIS corrigió la fecha de nacimiento del trabajador en la I-140. Esa fecha debe coincidir con tu pasaporte y tus trámites siguientes. Pide a tu abogado copia del aviso actualizado y guárdala en tu expediente de green card."
+  },
+  "continuation-notice-was-mailed": {
+    "en": "USCIS sent a continuation notice on the I-140. This is not common for employment petitions. Read it closely or ask the employer's attorney what it covers, since it may relate to a pending review or a linked case.",
+    "es": "USCIS mandó un aviso de continuación sobre la I-140. No es común en peticiones de empleo. Léelo con cuidado o pregunta al abogado del empleador qué cubre, porque puede tener que ver con una revisión pendiente o un caso ligado."
+  },
+  "termination-notice-sent": {
+    "en": "Termination is not a normal outcome for an I-140; this may reflect a revocation or a closed related case. Read the notice to see exactly what ended and whether your priority date is affected. Talk to an immigration attorney right away.",
+    "es": "Terminar no es un resultado normal de una I-140; puede tratarse de una revocación o de un caso relacionado que se cerró. Lee el aviso para ver qué terminó exactamente y si tu fecha de prioridad se afecta. Habla de inmediato con un abogado de inmigración."
+  },
+  "case-closed-benefit-received-by-other-means": {
+    "en": "USCIS closed the I-140 because the goal was reached another way, for example a green card through a different petition or family case. If you still need this petition for the priority date, ask an attorney before relying on it.",
+    "es": "USCIS cerró la I-140 porque el objetivo se logró por otra vía, por ejemplo una green card por otra petición o por familia. Si todavía necesitas esta petición por la fecha de prioridad, pregunta a un abogado antes de contar con ella."
+  },
+  "expedite-request-denied": {
+    "en": "USCIS declined to speed up the I-140. The petition stays in the regular queue. If the classification allows it, the employer can still upgrade to premium processing, which works separately from an expedite request. The denial does not hurt the case.",
+    "es": "USCIS no aceptó acelerar la I-140. La petición sigue en la fila normal. Si la categoría lo permite, el empleador todavía puede pasar a procesamiento prioritario, que funciona aparte de una solicitud de aceleración. La negación no perjudica el caso."
+  },
+  "correspondence-was-received-and-uscis-is-reviewing-it": {
+    "en": "USCIS received a letter about the I-140 and is reviewing it. It may be an address change, a request to transfer the petition's use to a new job through portability, or an update from the employer. Wait for a written reply.",
+    "es": "USCIS recibió una carta sobre la I-140 y la está revisando. Puede ser un cambio de dirección, un aviso de portabilidad a un nuevo empleo o una novedad del empleador. Espera una respuesta por escrito."
+  }
+}

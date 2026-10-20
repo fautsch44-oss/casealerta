@@ -1,0 +1,166 @@
+{
+"case-was-received": {
+"en": "For an I-130, this means USCIS has the family petition and opened a file under the petitioner's name. Nobody has looked at the relationship evidence yet. If your relative is in the U.S. and filed an I-485 at the same time, each form has its own receipt number and status.",
+"es": "En un I-130, esto significa que USCIS tiene la petición familiar y abrió un expediente a nombre del peticionario. Todavía nadie ha revisado las pruebas del parentesco. Si tu familiar está en EE.UU. y presentó un I-485 al mismo tiempo, cada formulario tiene su propio número de recibo y su propio estatus."
+},
+"case-was-received-and-a-receipt-notice-was-sent": {
+"en": "Your I-797C receipt for the I-130 is on its way. Keep it safe: it shows the priority date, which decides your relative's place in line in the family preference categories. Immediate relatives of U.S. citizens, like spouses and parents, do not wait for a visa number, but the receipt still matters.",
+"es": "Tu recibo I-797C del I-130 va en camino. Guárdalo bien: muestra la fecha de prioridad, que decide el lugar de tu familiar en la fila de las categorías de preferencia familiar. Los familiares inmediatos de ciudadanos, como cónyuges y padres, no esperan número de visa, pero el recibo igual es importante."
+},
+"fingerprint-fee-was-received": {
+"en": "An I-130 by itself does not usually require fingerprints from the relative abroad. When you see this, it is most often tied to an I-485 filed together with the petition, or USCIS asked the petitioner for biometrics. Check which receipt number the notice lists before you plan anything.",
+"es": "Un I-130 por sí solo normalmente no pide huellas al familiar que está en el extranjero. Cuando ves esto, casi siempre está ligado a un I-485 presentado junto con la petición, o USCIS le pidió datos biométricos al peticionario. Revisa qué número de recibo aparece en el aviso antes de planear algo."
+},
+"fingerprint-review-was-completed": {
+"en": "The background check from fingerprints came back. On a family case this usually belongs to the petitioner or to an I-485 filed with the I-130. It does not mean the relationship was approved; the officer still has to review your marriage, birth or other family documents.",
+"es": "Ya regresó la revisión de antecedentes de las huellas. En un caso familiar esto suele ser del peticionario o de un I-485 presentado con el I-130. No significa que el parentesco fue aprobado; el oficial todavía tiene que revisar tus documentos de matrimonio, nacimiento u otros del familiar."
+},
+"case-is-being-actively-reviewed-by-uscis": {
+"en": "An officer is looking at the I-130 evidence: the proof that the family relationship is real and that the petitioner is a citizen or green card holder. For marriage petitions, the officer also looks for signs of a real shared life. This status can appear more than once before a decision.",
+"es": "Un oficial está revisando las pruebas del I-130: que el parentesco es real y que el peticionario es ciudadano o residente. En peticiones por matrimonio, el oficial también busca señales de una vida real en pareja. Este estatus puede aparecer más de una vez antes de la decisión."
+},
+"case-is-ready-to-be-scheduled-for-an-interview": {
+"en": "Interviews on an I-130 happen mostly in marriage cases, often together with the I-485 interview at a local field office. The case is waiting for an open slot. Start gathering updated proof of your life together, like joint bills, leases, photos and tax returns.",
+"es": "Las entrevistas del I-130 se dan sobre todo en casos de matrimonio, muchas veces junto con la entrevista del I-485 en una oficina local. El caso espera un espacio libre. Empieza a juntar pruebas nuevas de su vida juntos, como cuentas, contrato de renta, fotos y declaraciones de impuestos en conjunto."
+},
+"interview-was-scheduled": {
+"en": "For a family petition, both the petitioner and the relative usually must attend. In marriage cases the officer may ask each spouse about daily life, and sometimes interviews them separately. Bring originals of your marriage or birth certificates and the documents listed on the appointment notice.",
+"es": "En una petición familiar, normalmente deben ir el peticionario y el familiar. En casos de matrimonio, el oficial puede preguntar a cada cónyuge sobre su vida diaria y a veces los entrevista por separado. Lleva los originales de tus actas de matrimonio o nacimiento y lo que pida el aviso de cita."
+},
+"interview-was-completed-and-my-case-must-be-reviewed": {
+"en": "The officer did not decide your I-130 at the interview. This is common when the officer wants a supervisor check, more proof of the relationship, or a pending background check. Watch for a Request for Evidence in the mail, and answer it fully if it arrives.",
+"es": "El oficial no decidió tu I-130 en la entrevista. Es común cuando el oficial quiere revisión de un supervisor, más pruebas del parentesco o un chequeo de antecedentes pendiente. Revisa tu correo por si llega una Solicitud de Evidencia, y contéstala completa si llega."
+},
+"request-for-additional-evidence-was-sent": {
+"en": "On an I-130, RFEs often ask for proof the petitioner is a citizen or permanent resident, proof a prior marriage ended, or more evidence the marriage is genuine. Send exactly what the notice lists before the deadline. If the RFE questions the relationship itself, an immigration attorney or accredited representative can help.",
+"es": "En un I-130, las RFE suelen pedir prueba de que el peticionario es ciudadano o residente, prueba de que terminó un matrimonio anterior, o más evidencia de que el matrimonio es real. Manda exactamente lo que pide el aviso antes de la fecha límite. Si la RFE duda del parentesco, un abogado de inmigración o representante acreditado puede ayudarte."
+},
+"request-for-initial-evidence-was-sent": {
+"en": "Something basic was missing from the I-130 package, such as the petitioner's proof of status, the marriage or birth certificate, or the passport photos required for spouse petitions. Gather the item, include the notice on top, and mail it before the deadline so the petition is not denied as abandoned.",
+"es": "Faltó algo básico en el paquete del I-130, como la prueba de estatus del peticionario, el acta de matrimonio o nacimiento, o las fotos que se piden en peticiones de cónyuge. Junta lo que falta, pon el aviso encima y envíalo antes de la fecha límite para que no nieguen la petición por abandono."
+},
+"response-to-uscis-request-for-evidence-was-received": {
+"en": "USCIS has your answer to the I-130 evidence request and the petition goes back to the officer. If an I-485 is pending with it, both files usually move together. Expect another status change once the officer finishes reviewing the new family documents.",
+"es": "USCIS tiene tu respuesta a la solicitud de evidencia del I-130 y la petición regresa al oficial. Si hay un I-485 pendiente junto con ella, normalmente los dos expedientes avanzan juntos. Espera otro cambio de estatus cuando el oficial termine de revisar los nuevos documentos familiares."
+},
+"case-was-transferred-and-a-new-office-has-jurisdiction": {
+"en": "I-130 petitions are often moved between service centers to balance work, or sent to a local field office when an interview is needed with an I-485. The petition keeps its priority date after a transfer. Your notice names the new office handling the case.",
+"es": "Las peticiones I-130 se mueven seguido entre centros de servicio para repartir el trabajo, o se mandan a una oficina local cuando hace falta entrevista con un I-485. La petición conserva su fecha de prioridad aunque la transfieran. Tu aviso dice cuál es la nueva oficina que lleva el caso."
+},
+"case-was-approved": {
+"en": "Approval of the I-130 confirms the family relationship, but it is not a green card. If your relative is abroad, the case goes to the National Visa Center for the immigrant visa steps. If an I-485 was filed together in the U.S., that application continues toward the green card.",
+"es": "La aprobación del I-130 confirma el parentesco, pero no es una green card. Si tu familiar está en el extranjero, el caso pasa al Centro Nacional de Visas (NVC) para los pasos de la visa de inmigrante. Si se presentó un I-485 junto en EE.UU., esa solicitud sigue hacia la green card."
+},
+"notice-explaining-uscis-actions-was-mailed": {
+"en": "USCIS mailed a letter about your I-130. In family cases it may be a request, a transfer notice, or a notice of intent to deny or revoke if the officer doubts the relationship. Open it as soon as it arrives, because these letters often come with a short reply deadline.",
+"es": "USCIS te mandó una carta sobre tu I-130. En casos familiares puede ser una solicitud, un aviso de transferencia, o un aviso de intención de negar o revocar si el oficial duda del parentesco. Ábrela en cuanto llegue, porque estas cartas suelen traer un plazo corto para responder."
+},
+"case-was-denied": {
+"en": "A denied I-130 means USCIS did not accept the family relationship or the petitioner's eligibility. The letter explains why and how to challenge it; I-130 denials are generally appealed to the Board of Immigration Appeals with a short deadline. Often a new petition is possible. Talk to an immigration attorney or accredited representative soon.",
+"es": "Un I-130 negado significa que USCIS no aceptó el parentesco o la elegibilidad del peticionario. La carta explica por qué y cómo impugnarlo; las negaciones del I-130 en general se apelan ante la Junta de Apelaciones de Inmigración con un plazo corto. Muchas veces se puede presentar una petición nueva. Habla pronto con un abogado de inmigración o representante acreditado."
+},
+"case-was-reopened": {
+"en": "Your I-130 is active again after a decision or closure. This often follows a motion to reopen, or USCIS fixing its own error. If your relative already had a later step started, such as at the National Visa Center, that step may wait until the petition is decided again.",
+"es": "Tu I-130 está activo otra vez después de una decisión o cierre. Esto suele pasar tras una moción para reabrir, o cuando USCIS corrige su propio error. Si tu familiar ya tenía un paso posterior en marcha, como en el Centro Nacional de Visas, ese paso puede esperar hasta que la petición se decida de nuevo."
+},
+"case-rejected-because-i-sent-an-incorrect-fee": {
+"en": "The I-130 was returned because of the fee, so it never got a filing date or priority date. Check the current I-130 fee on uscis.gov, since paper and online filing can cost different amounts, then refile the full package. Your priority date will be the date of the new accepted filing.",
+"es": "El I-130 fue devuelto por el pago, así que nunca recibió fecha de presentación ni fecha de prioridad. Revisa el costo actual del I-130 en uscis.gov, porque en papel y en línea puede costar distinto, y vuelve a mandar el paquete completo. Tu fecha de prioridad será la de la nueva presentación aceptada."
+},
+"expedite-request-received": {
+"en": "USCIS has your request to speed up the I-130. Family petitions are only expedited under USCIS criteria, such as severe financial loss, urgent humanitarian reasons or certain emergencies. Keep supporting proof ready, and remember that an approved expedite does not skip visa-number waits in the preference categories.",
+"es": "USCIS tiene tu petición para acelerar el I-130. Las peticiones familiares solo se aceleran bajo los criterios de USCIS, como pérdida económica grave, razones humanitarias urgentes o ciertas emergencias. Ten lista la prueba que lo respalde, y recuerda que acelerar no salta la espera de número de visa en las categorías de preferencia."
+},
+"withdrawal-acknowledgement-notice-was-sent": {
+"en": "USCIS confirmed the petitioner withdrew the I-130. The petition is closed and the relative loses that place in line. If an I-485 depended on this petition, that application usually cannot be approved without it. Reversing a withdrawal generally means filing a new petition with a new priority date.",
+"es": "USCIS confirmó que el peticionario retiró el I-130. La petición está cerrada y el familiar pierde ese lugar en la fila. Si un I-485 dependía de esta petición, normalmente no se puede aprobar sin ella. Para echar atrás un retiro, en general hay que presentar una petición nueva con nueva fecha de prioridad."
+},
+"name-was-updated": {
+"en": "USCIS changed a name on the I-130 record, often the beneficiary's name after marriage or a correction. Make sure the same spelling appears on the passport and civil documents, because the National Visa Center and the consulate will compare them later in the process.",
+"es": "USCIS cambió un nombre en el registro del I-130, muchas veces el del beneficiario después de casarse o por una corrección. Asegúrate de que la misma forma de escribirlo aparezca en el pasaporte y en las actas, porque el Centro Nacional de Visas y el consulado los van a comparar más adelante."
+},
+"case-was-received-and-a-receipt-notice-was-emailed": {
+"en": "You filed the I-130 online and the receipt notice is in your USCIS online account. Download and save the PDF. Online I-130 filers can also upload responses and see notices in the account, which is often faster than waiting for mail.",
+"es": "Presentaste el I-130 en línea y el aviso de recibo está en tu cuenta en línea de USCIS. Descarga y guarda el PDF. Quienes presentan el I-130 en línea también pueden subir respuestas y ver avisos en la cuenta, lo que suele ser más rápido que esperar el correo."
+},
+"case-accepted-by-the-uscis-lockbox": {
+"en": "The lockbox opened your mailed I-130 package and processed the payment. The formal receipt notice usually follows soon. If you mailed an I-130 and an I-485 together, check that both payments were taken, since each form is entered separately.",
+"es": "La oficina de recepción (lockbox) abrió tu paquete del I-130 enviado por correo y procesó el pago. El aviso de recibo formal suele llegar pronto. Si mandaste un I-130 y un I-485 juntos, revisa que se cobraron los dos pagos, porque cada formulario se registra por separado."
+},
+"fees-were-waived": {
+"en": "This is unusual for an I-130, which normally requires the filing fee and is generally not eligible for a fee waiver. Read the notice carefully to see which form the waiver applies to; it may belong to another application filed in the same package. If it is unclear, contact USCIS.",
+"es": "Esto es raro en un I-130, que normalmente exige el pago y en general no permite exención de cuota. Lee el aviso con cuidado para ver a qué formulario aplica la exención; puede ser de otra solicitud enviada en el mismo paquete. Si no queda claro, comunícate con USCIS."
+},
+"case-was-rejected-because-it-was-improperly-filed": {
+"en": "The I-130 came back without review, so no priority date was kept. Common causes are a missing petitioner signature, an old edition of the form, or mailing to the wrong lockbox. Fix the issue in the rejection notice and refile the whole package as soon as you can.",
+"es": "El I-130 regresó sin revisión, así que no se guardó ninguna fecha de prioridad. Las causas comunes son falta de firma del peticionario, una edición vieja del formulario o enviarlo a la oficina equivocada. Corrige lo que dice el aviso de rechazo y vuelve a mandar todo el paquete lo antes posible."
+},
+"biometrics-appointment-was-scheduled": {
+"en": "On a family case, this appointment is usually for an I-485 or work permit filed with the I-130, though USCIS can also call the petitioner. Bring the appointment notice and photo ID. Missing it can delay or end the related application, so reschedule only for a good reason.",
+"es": "En un caso familiar, esta cita suele ser por un I-485 o permiso de trabajo presentado con el I-130, aunque USCIS también puede citar al peticionario. Lleva el aviso de cita y una identificación con foto. Faltar puede retrasar o terminar la solicitud relacionada, así que solo cambia la cita con una buena razón."
+},
+"case-was-updated-to-show-fingerprints-were-taken": {
+"en": "Your fingerprints and photo are in the system. For an I-130 with a pending I-485, this lets background checks run for the green card side. The petition itself still needs an officer to approve the family relationship, and the case may move to an interview next.",
+"es": "Tus huellas y foto ya están en el sistema. En un I-130 con un I-485 pendiente, esto permite correr los chequeos de antecedentes para la parte de la green card. La petición todavía necesita que un oficial apruebe el parentesco, y el caso puede pasar a entrevista después."
+},
+"interview-was-rescheduled": {
+"en": "Your family interview has a new date. Read the new notice for the time and place, and confirm both the petitioner and the relative can attend. Asking to reschedule again can push a marriage case back by months, so plan to keep this appointment.",
+"es": "Tu entrevista familiar tiene una fecha nueva. Lee el nuevo aviso para ver la hora y el lugar, y confirma que el peticionario y el familiar puedan ir. Pedir otro cambio puede atrasar un caso de matrimonio por meses, así que planea asistir a esta cita."
+},
+"case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+"en": "USCIS recorded a missed appointment on this family case. If the petitioner or relative skipped an I-130 or I-485 interview, the case can be denied as abandoned. If you had a real reason, contact USCIS right away and ask to reschedule, keeping proof of the reason.",
+"es": "USCIS registró una cita faltada en este caso familiar. Si el peticionario o el familiar no fueron a una entrevista del I-130 o I-485, el caso puede negarse por abandono. Si tuviste una razón real, comunícate con USCIS de inmediato y pide otra cita, guardando prueba de la razón."
+},
+"case-was-approved-and-my-decision-was-emailed": {
+"en": "The I-130 approval notice is in your online account. Download it, because you may need it at the National Visa Center or with a pending I-485. For relatives in preference categories, approval means waiting until the priority date is current in the Visa Bulletin.",
+"es": "El aviso de aprobación del I-130 está en tu cuenta en línea. Descárgalo, porque puedes necesitarlo en el Centro Nacional de Visas o con un I-485 pendiente. Para familiares en categorías de preferencia, la aprobación significa esperar a que la fecha de prioridad esté vigente en el Boletín de Visas."
+},
+"case-approval-was-certified-by-uscis": {
+"en": "USCIS confirmed the I-130 approval for another agency, usually the Department of State or a consulate that needs official proof before an immigrant visa interview. Nothing new is needed from you. Follow the instructions from the National Visa Center for the next steps.",
+"es": "USCIS confirmó la aprobación del I-130 para otra agencia, normalmente el Departamento de Estado o un consulado que necesita prueba oficial antes de la entrevista de visa de inmigrante. No necesitas mandar nada nuevo. Sigue las instrucciones del Centro Nacional de Visas para los siguientes pasos."
+},
+"case-was-sent-to-the-department-of-state": {
+"en": "Your approved I-130 went to the National Visa Center. NVC will send a case number and ask for the Affidavit of Support, civil documents and fees. For preference categories, NVC holds the case until the priority date is current. The visa interview happens at a U.S. consulate abroad.",
+"es": "Tu I-130 aprobado pasó al Centro Nacional de Visas (NVC). El NVC enviará un número de caso y pedirá la Declaración de Patrocinio Económico, actas y pagos. En categorías de preferencia, el NVC guarda el caso hasta que la fecha de prioridad esté vigente. La entrevista de visa es en un consulado de EE.UU. en el extranjero."
+},
+"response-to-uscis-notice-of-intent-was-received": {
+"en": "USCIS has your reply to a notice of intent on the I-130. In family cases these notices often question whether a marriage is genuine or whether a past marriage was for immigration. The officer will weigh your answer before deciding. An immigration attorney can help if more questions follow.",
+"es": "USCIS tiene tu respuesta a un aviso de intención sobre el I-130. En casos familiares, estos avisos suelen dudar si el matrimonio es real o si un matrimonio anterior fue por inmigración. El oficial va a considerar tu respuesta antes de decidir. Un abogado de inmigración puede ayudar si llegan más preguntas."
+},
+"case-is-pending-at-a-local-office": {
+"en": "Your I-130 is at a USCIS field office, usually because an interview is planned with a pending I-485, often in marriage cases. The office will send an interview notice when it has a date. Keep your address current so the notice reaches both you and your relative.",
+"es": "Tu I-130 está en una oficina local de USCIS, normalmente porque se planea una entrevista con un I-485 pendiente, muchas veces en casos de matrimonio. La oficina mandará el aviso de entrevista cuando tenga fecha. Mantén tu dirección al día para que el aviso les llegue a ti y a tu familiar."
+},
+"duplicate-notice-was-mailed": {
+"en": "USCIS sent another copy of an I-130 notice, often the receipt or approval. A duplicate approval notice can be useful if the National Visa Center or a consulate asks for a copy. It does not change your priority date or your place in line.",
+"es": "USCIS mandó otra copia de un aviso del I-130, muchas veces el recibo o la aprobación. Una copia de la aprobación puede servir si el Centro Nacional de Visas o un consulado la piden. No cambia tu fecha de prioridad ni tu lugar en la fila."
+},
+"notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+"en": "A notice on your I-130 did not reach the petitioner. It could be an interview date or evidence request with a deadline. File a change of address with USCIS now, then contact USCIS to find out what the notice said and ask for it to be sent again.",
+"es": "Un aviso de tu I-130 no le llegó al peticionario. Puede ser una fecha de entrevista o una solicitud de evidencia con plazo. Presenta el cambio de dirección con USCIS ya, y luego comunícate con USCIS para saber qué decía el aviso y pedir que lo vuelvan a mandar."
+},
+"date-of-birth-was-updated": {
+"en": "USCIS corrected a date of birth on the I-130 record. On family petitions the beneficiary's age matters, for example when a child turns 21, so a correct birth date can affect the category. Check that it now matches the birth certificate and passport.",
+"es": "USCIS corrigió una fecha de nacimiento en el registro del I-130. En peticiones familiares importa la edad del beneficiario, por ejemplo cuando un hijo cumple 21 años, así que la fecha correcta puede cambiar la categoría. Revisa que ahora coincida con el acta de nacimiento y el pasaporte."
+},
+"continuation-notice-was-mailed": {
+"en": "This notice is not common on an I-130, which does not extend any status by itself. Read it to see whether it refers to another form filed together, such as an I-485 or a work permit. If it is unclear what continues, contact USCIS with your receipt number.",
+"es": "Este aviso no es común en un I-130, que por sí solo no extiende ningún estatus. Léelo para ver si se refiere a otro formulario presentado junto, como un I-485 o un permiso de trabajo. Si no queda claro qué continúa, comunícate con USCIS con tu número de recibo."
+},
+"termination-notice-sent": {
+"en": "USCIS ended the I-130 case. In family petitions this can follow the death of the petitioner, a divorce, a withdrawal, or abandonment after missed deadlines. In some situations, like a petitioner's death, special relief may exist. Ask an immigration attorney or accredited representative what options remain.",
+"es": "USCIS terminó el caso del I-130. En peticiones familiares esto puede pasar tras la muerte del peticionario, un divorcio, un retiro o abandono por plazos no cumplidos. En algunas situaciones, como la muerte del peticionario, puede haber alivio especial. Pregunta a un abogado de inmigración o representante acreditado qué opciones quedan."
+},
+"case-closed-benefit-received-by-other-means": {
+"en": "USCIS closed this I-130 because the relative already got the benefit another way, such as an earlier approved petition, a different family petition, or a green card through another category. Check that you are not losing an older priority date before you ask for anything else.",
+"es": "USCIS cerró este I-130 porque el familiar ya obtuvo el beneficio de otra forma, como una petición anterior aprobada, otra petición familiar o una green card por otra categoría. Revisa que no estés perdiendo una fecha de prioridad más antigua antes de pedir otra cosa."
+},
+"expedite-request-denied": {
+"en": "USCIS will not speed up this I-130, but the petition keeps its normal place in line. You can send a new expedite request if your situation changes, for example a new medical emergency. Compare your wait with the typical range shown on this page before contacting USCIS again.",
+"es": "USCIS no va a acelerar este I-130, pero la petición conserva su lugar normal en la fila. Puedes mandar otra solicitud para acelerar si tu situación cambia, por ejemplo una nueva emergencia médica. Compara tu espera con el rango típico de esta página antes de contactar otra vez a USCIS."
+},
+"correspondence-was-received-and-uscis-is-reviewing-it": {
+"en": "USCIS got something you sent about the I-130, such as new proof of the relationship, an address change or a letter. An officer will decide if it changes anything. Keep a copy of what you sent and the date, in case you need to refer to it later.",
+"es": "USCIS recibió algo que mandaste sobre el I-130, como nuevas pruebas del parentesco, un cambio de dirección o una carta. Un oficial va a decidir si cambia algo. Guarda una copia de lo que mandaste y la fecha, por si necesitas mencionarlo después."
+}
+}

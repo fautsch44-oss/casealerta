@@ -1,0 +1,150 @@
+{
+"case-was-received": {
+"en": "USCIS logged a Supplement A for a family member of a U visa petitioner. This case is tied to the main I-918: it generally cannot be approved before the principal's petition, and it moves along with it. Each relative gets a separate receipt number, so track each one on its own.",
+"es": "USCIS registró un Suplemento A para un familiar de quien pidió la visa U. Este caso está ligado al I-918 principal: en general no se puede aprobar antes que la petición principal y avanza junto con ella. Cada familiar recibe su propio número de recibo, así que sigue cada uno por separado."
+},
+"case-was-received-and-a-receipt-notice-was-sent": {
+"en": "The receipt notice for this Supplement A is in the mail. It confirms the derivative U petition for one relative, such as a spouse or child. Keep it together with the principal's I-918 receipt, since USCIS reviews both cases side by side.",
+"es": "El aviso de recibo de este Suplemento A ya va por correo. Confirma la petición U derivada de un familiar, como el esposo, la esposa o un hijo. Guárdalo junto con el recibo del I-918 principal, porque USCIS revisa los dos casos lado a lado."
+},
+"fingerprint-fee-was-received": {
+"en": "USCIS applied the biometrics part of this Supplement A. Family members living in the U.S. usually need their own fingerprints and photo for background checks. Expect a separate appointment notice for this relative, not combined with the principal's.",
+"es": "USCIS aplicó la parte de biométricos de este Suplemento A. Los familiares que viven en EE.UU. normalmente necesitan sus propias huellas y foto para la revisión de antecedentes. Espera una cita aparte para este familiar, no junto con la del peticionario principal."
+},
+"fingerprint-review-was-completed": {
+"en": "The background check for this family member came back. The Supplement A can now move toward review, but it still depends on the principal's I-918 reaching a bona fide determination, the waiting list, or approval. This is a routine step, not a decision.",
+"es": "Ya regresó la revisión de antecedentes de este familiar. El Suplemento A puede avanzar a revisión, pero sigue dependiendo de que el I-918 principal llegue a la determinación de buena fe, la lista de espera o la aprobación. Es un paso de rutina, no una decisión."
+},
+"case-is-being-actively-reviewed-by-uscis": {
+"en": "An officer is reviewing this Supplement A, including the family relationship to the U visa petitioner and the relative's own background. The case usually moves at the same stage as the principal's I-918. If the principal's case is waiting for a visa number, this one waits too.",
+"es": "Un oficial está revisando este Suplemento A, incluyendo la relación familiar con quien pidió la visa U y los antecedentes del familiar. El caso normalmente va en la misma etapa que el I-918 principal. Si el caso principal espera un número de visa, este también espera."
+},
+"request-for-additional-evidence-was-sent": {
+"en": "USCIS wants more evidence for this Supplement A. It often asks for proof of the family relationship, like marriage or birth certificates, or about the relative's immigration or criminal history and a possible I-192 waiver. Answer by the deadline; an attorney or accredited representative can help.",
+"es": "USCIS quiere más pruebas para este Suplemento A. Muchas veces pide prueba del parentesco, como acta de matrimonio o de nacimiento, o pregunta por el historial migratorio o penal del familiar y una posible dispensa I-192. Contesta antes del plazo; un abogado o representante acreditado puede ayudar."
+},
+"request-for-initial-evidence-was-sent": {
+"en": "This Supplement A was missing something required, such as the relationship document, a passport copy, or the principal's signature. Remember the principal U visa petitioner signs Supplement A. Send exactly what the notice lists before the deadline.",
+"es": "A este Suplemento A le faltó algo obligatorio, como el documento de parentesco, la copia del pasaporte o la firma del peticionario principal. Recuerda que el Suplemento A lo firma quien pidió la visa U. Manda exactamente lo que dice el aviso antes del plazo."
+},
+"response-to-uscis-request-for-evidence-was-received": {
+"en": "USCIS received the evidence sent for this family member's Supplement A. The officer will add it to the file and keep reviewing it alongside the principal's I-918. Because U cases are long, the next update may take a while.",
+"es": "USCIS recibió las pruebas que mandaste para el Suplemento A de este familiar. El oficial las agregará al expediente y seguirá revisándolo junto con el I-918 principal. Como los casos U son largos, la siguiente actualización puede tardar."
+},
+"case-was-transferred-and-a-new-office-has-jurisdiction": {
+"en": "This Supplement A moved to another office. Family cases are usually kept with the principal's I-918, so a transfer often happens when the main case moves too. It does not change the relative's eligibility. Notices will come from the new office.",
+"es": "Este Suplemento A pasó a otra oficina. Los casos familiares normalmente se mantienen con el I-918 principal, así que el traslado suele pasar cuando el caso principal también se mueve. No cambia que el familiar califique. Los avisos llegarán de la nueva oficina."
+},
+"case-was-approved": {
+"en": "This family member's derivative U status was approved. Depending on the relationship, it is U-2, U-3, U-4 or U-5. A relative in the U.S. receives an I-94 and can apply for a work permit with Form I-765. A relative abroad applies for a U visa at a U.S. consulate.",
+"es": "Aprobaron el estatus U derivado de este familiar. Según el parentesco, es U-2, U-3, U-4 o U-5. Si el familiar está en EE.UU., recibe un I-94 y puede pedir permiso de trabajo con el Formulario I-765. Si está fuera, pide la visa U en un consulado de EE.UU."
+},
+"document-was-mailed-to-me": {
+"en": "USCIS mailed a document for this Supplement A, usually the approval notice with an I-94 for a relative in the U.S., or a deferred action notice from the waiting list. Check the dates on it, since derivative status generally ends when the principal's status ends.",
+"es": "USCIS mandó un documento de este Suplemento A, normalmente el aviso de aprobación con I-94 para el familiar en EE.UU., o un aviso de acción diferida de la lista de espera. Revisa las fechas, porque el estatus derivado en general termina cuando termina el del peticionario principal."
+},
+"notice-explaining-uscis-actions-was-mailed": {
+"en": "USCIS sent a letter about this family member's Supplement A. It might be a bona fide or waiting-list notice, a request for evidence, or an explanation that the case is waiting on the principal's I-918. Read it and look for any deadline.",
+"es": "USCIS mandó una carta sobre el Suplemento A de este familiar. Puede ser un aviso de buena fe o de lista de espera, una petición de pruebas o una explicación de que el caso espera al I-918 principal. Léela y busca si tiene plazo."
+},
+"case-was-denied": {
+"en": "This Supplement A was denied. A common reason is that the principal's I-918 was denied, or the relationship did not qualify at the time of filing. Other reasons involve the relative's own inadmissibility. Options may include an I-290B appeal or motion; consult an immigration attorney or accredited representative.",
+"es": "Este Suplemento A fue negado. Una razón común es que negaron el I-918 principal o que el parentesco no calificaba al presentarlo. Otras razones tienen que ver con la inadmisibilidad del propio familiar. Las opciones pueden incluir una apelación o moción I-290B; consulta a un abogado de inmigración o representante acreditado."
+},
+"case-was-reopened": {
+"en": "This Supplement A is open again, often because the principal's I-918 was reopened or a motion was granted for the family member. Review continues and may require new evidence of the relationship or updated biometrics.",
+"es": "Este Suplemento A está abierto otra vez, muchas veces porque se reabrió el I-918 principal o se aceptó una moción del familiar. La revisión sigue y puede pedir nuevas pruebas del parentesco o biométricos actualizados."
+},
+"case-rejected-because-i-sent-an-incorrect-fee": {
+"en": "This Supplement A was rejected over a payment issue. The supplement itself generally has no filing fee, so the problem is usually a related form sent with it, such as an I-192 waiver or an I-765 for the relative. Check fees on uscis.gov and refile the package.",
+"es": "Este Suplemento A fue rechazado por un problema de pago. El suplemento en sí normalmente no tiene cuota, así que el problema suele ser otro formulario que iba con él, como la dispensa I-192 o un I-765 del familiar. Revisa las cuotas en uscis.gov y vuelve a mandar el paquete."
+},
+"expedite-request-received": {
+"en": "USCIS received a request to speed up this Supplement A. Since the family member's case depends on the principal's I-918, an expedite usually only helps if the main case can move too. USCIS reviews it against its criteria.",
+"es": "USCIS recibió una solicitud para acelerar este Suplemento A. Como el caso del familiar depende del I-918 principal, acelerarlo normalmente solo ayuda si el caso principal también puede avanzar. USCIS la revisa con sus criterios."
+},
+"withdrawal-acknowledgement-notice-was-sent": {
+"en": "USCIS confirmed this Supplement A was withdrawn. The principal's I-918 continues on its own, but this relative no longer has a pending derivative case. If the relative still qualifies, a new Supplement A can sometimes be filed later; ask an attorney.",
+"es": "USCIS confirmó que este Suplemento A fue retirado. El I-918 principal sigue solo, pero este familiar ya no tiene caso derivado pendiente. Si el familiar todavía califica, a veces se puede presentar un nuevo Suplemento A después; pregunta a un abogado."
+},
+"name-was-updated": {
+"en": "USCIS updated this family member's name on the Supplement A record. The approval notice and I-94 will use the new name. Make sure it matches the relative's passport and the relationship documents, like the birth or marriage certificate.",
+"es": "USCIS actualizó el nombre de este familiar en el expediente del Suplemento A. El aviso de aprobación y el I-94 usarán el nombre nuevo. Asegúrate de que coincida con el pasaporte del familiar y los documentos de parentesco, como el acta de nacimiento o de matrimonio."
+},
+"case-was-received-and-a-receipt-notice-was-emailed": {
+"en": "The Supplement A receipt was sent electronically. Download it and label it with the family member's name, since each relative has a different receipt number. Keep it with the principal's I-918 receipt to track both cases here.",
+"es": "El recibo del Suplemento A se mandó de forma electrónica. Descárgalo y márcalo con el nombre del familiar, porque cada uno tiene un número de recibo distinto. Guárdalo con el recibo del I-918 principal para seguir los dos casos aquí."
+},
+"case-accepted-by-the-uscis-lockbox": {
+"en": "The package with this Supplement A was accepted at intake. Each family member's supplement will get its own receipt notice, separate from the principal's I-918. Keep proof of mailing and a copy of everything you sent.",
+"es": "El paquete con este Suplemento A fue aceptado. Cada suplemento de un familiar recibirá su propio aviso de recibo, aparte del I-918 principal. Guarda la prueba de envío y una copia de todo lo que mandaste."
+},
+"fees-were-waived": {
+"en": "USCIS approved a fee waiver connected to this Supplement A. Since the supplement itself usually has no fee, the waiver likely covers a related form, such as the relative's I-192 or I-765. The case keeps moving with the principal's I-918.",
+"es": "USCIS aprobó una exención de cuota ligada a este Suplemento A. Como el suplemento normalmente no tiene cuota, la exención probablemente cubre otro formulario, como el I-192 o el I-765 del familiar. El caso sigue avanzando con el I-918 principal."
+},
+"case-was-rejected-because-it-was-improperly-filed": {
+"en": "This Supplement A was not accepted. Common causes are a missing signature from the principal petitioner, filing without a pending or approved I-918, or an outdated form edition. Fix the issue and refile so the relative's case can be linked to the main petition.",
+"es": "Este Suplemento A no fue aceptado. Causas comunes son falta de firma del peticionario principal, presentarlo sin un I-918 pendiente o aprobado, o una edición vieja del formulario. Corrige el problema y vuelve a presentarlo para que el caso del familiar quede ligado a la petición principal."
+},
+"biometrics-appointment-was-scheduled": {
+"en": "This family member has a biometrics appointment for the Supplement A. Bring the notice and photo ID; a parent or guardian should go with a child. Each relative usually has a separate appointment, even if family members go the same day.",
+"es": "Este familiar tiene cita de biométricos para el Suplemento A. Lleva el aviso y una identificación con foto; si es un niño, debe ir con su mamá, papá o tutor. Cada familiar normalmente tiene su propia cita, aunque vayan el mismo día."
+},
+"case-was-updated-to-show-fingerprints-were-taken": {
+"en": "USCIS recorded this family member's biometrics. Background checks can now run, and the Supplement A can move forward together with the principal's I-918. This is a routine step and does not mean a decision is near.",
+"es": "USCIS registró los biométricos de este familiar. Ya puede correr la revisión de antecedentes y el Suplemento A puede avanzar junto con el I-918 principal. Es un paso de rutina y no significa que la decisión esté cerca."
+},
+"case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+"en": "USCIS recorded that this family member missed a biometrics appointment. Without biometrics, the Supplement A cannot move forward and may be denied as abandoned. Contact USCIS right away to reschedule, and keep proof of any reason for missing it.",
+"es": "USCIS registró que este familiar faltó a su cita de biométricos. Sin biométricos, el Suplemento A no puede avanzar y puede negarse por abandono. Contacta a USCIS de inmediato para reprogramar y guarda pruebas de la razón por la que faltó."
+},
+"case-was-approved-and-my-decision-was-emailed": {
+"en": "The approval for this family member's Supplement A was delivered electronically. Download it and keep it with the principal's approval. A relative in the U.S. can use it to apply for a work permit; a relative abroad uses it for the consular step.",
+"es": "La aprobación del Suplemento A de este familiar se mandó de forma electrónica. Descárgala y guárdala con la aprobación principal. Si el familiar está en EE.UU., puede usarla para pedir permiso de trabajo; si está fuera, la usa para el trámite en el consulado."
+},
+"case-approval-was-certified-by-uscis": {
+"en": "USCIS certified the approval of this Supplement A, often so a U.S. consulate can see it when a family member abroad applies for a U visa. Bring a copy of the approval to the consular appointment, together with the relationship documents.",
+"es": "USCIS certificó la aprobación de este Suplemento A, muchas veces para que un consulado de EE.UU. la vea cuando un familiar en el extranjero pide la visa U. Lleva una copia de la aprobación a la cita del consulado, junto con los documentos de parentesco."
+},
+"response-to-uscis-notice-of-intent-was-received": {
+"en": "USCIS received the response to a notice of intent to deny this Supplement A. The officer will review it, often together with the status of the principal's I-918. This is a sensitive stage; an attorney or accredited representative can help both cases.",
+"es": "USCIS recibió la respuesta al aviso de intención de negar este Suplemento A. El oficial la revisará, muchas veces junto con el estado del I-918 principal. Es una etapa delicada; un abogado o representante acreditado puede ayudar con los dos casos."
+},
+"case-is-pending-at-a-local-office": {
+"en": "Supplement A cases are usually decided at the same service center as the principal's I-918, so a local office status is uncommon. It may reflect a specific check for this relative. Keep tracking both receipt numbers and watch for notices.",
+"es": "Los Suplementos A normalmente se deciden en el mismo centro de servicio que el I-918 principal, así que este estatus es poco común. Puede ser una revisión específica de este familiar. Sigue los dos números de recibo y espera avisos."
+},
+"duplicate-notice-was-mailed": {
+"en": "USCIS mailed a copy of a notice for this Supplement A, such as the receipt or approval. Label it with the relative's name and keep it with the principal's I-918 papers, since you may need both later for a green card application.",
+"es": "USCIS mandó una copia de un aviso de este Suplemento A, como el recibo o la aprobación. Márcala con el nombre del familiar y guárdala con los papeles del I-918 principal, porque quizá necesites los dos después para pedir la green card."
+},
+"notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+"en": "A notice for this Supplement A came back undelivered. It might be a biometrics appointment or a request for evidence with a deadline. Update the address for the family member and the principal with USCIS, and check the online account.",
+"es": "Un aviso de este Suplemento A regresó sin entregarse. Puede ser una cita de biométricos o una petición de pruebas con plazo. Actualiza con USCIS la dirección del familiar y del peticionario principal, y revisa la cuenta en línea."
+},
+"date-of-birth-was-updated": {
+"en": "USCIS corrected this family member's date of birth on the Supplement A. Age can matter for U visa family cases, for example whether a child qualifies. Check that the date matches the birth certificate and passport.",
+"es": "USCIS corrigió la fecha de nacimiento de este familiar en el Suplemento A. La edad puede importar en los casos familiares de visa U, por ejemplo para saber si un hijo califica. Revisa que la fecha coincida con el acta de nacimiento y el pasaporte."
+},
+"continuation-notice-was-mailed": {
+"en": "USCIS mailed a notice that this Supplement A is continuing. For U family members, it may confirm deferred action from the waiting list while the case stays pending. Check the notice for any dates and keep it with the relative's records.",
+"es": "USCIS mandó un aviso de que este Suplemento A continúa. Para familiares en casos U, puede confirmar la acción diferida de la lista de espera mientras el caso sigue pendiente. Revisa si el aviso tiene fechas y guárdalo con los papeles del familiar."
+},
+"termination-notice-sent": {
+"en": "USCIS sent a termination notice on this Supplement A. Derivative U status can end if the principal's status is revoked or ends, or because of the relative's own situation. This affects permission to stay and work. Speak with an immigration attorney right away.",
+"es": "USCIS mandó un aviso de terminación de este Suplemento A. El estatus U derivado puede terminar si se revoca o termina el del peticionario principal, o por la situación propia del familiar. Esto afecta su permiso para quedarse y trabajar. Habla de inmediato con un abogado de inmigración."
+},
+"case-closed-benefit-received-by-other-means": {
+"en": "USCIS closed this Supplement A because the family member already has the same benefit another way, such as their own approved U petition or a green card through another path. Confirm that proof of the other benefit is on hand.",
+"es": "USCIS cerró este Suplemento A porque el familiar ya tiene el mismo beneficio por otra vía, como su propia petición U aprobada o una green card por otro camino. Confirma que tengas la prueba de ese otro beneficio."
+},
+"expedite-request-denied": {
+"en": "USCIS will not expedite this Supplement A. It keeps its place in line together with the principal's I-918. If the family member's situation becomes urgent, for example a medical or safety need, you can ask again with new evidence.",
+"es": "USCIS no va a acelerar este Suplemento A. Conserva su lugar en la fila junto con el I-918 principal. Si la situación del familiar se vuelve urgente, por ejemplo por salud o seguridad, puedes pedirlo otra vez con pruebas nuevas."
+},
+"correspondence-was-received-and-uscis-is-reviewing-it": {
+"en": "USCIS received something sent about this Supplement A, such as a new address, relationship documents, or a letter about the relative's situation. An officer will decide if action is needed. Keep a copy and note which receipt number it referred to.",
+"es": "USCIS recibió algo que mandaste sobre este Suplemento A, como una dirección nueva, documentos de parentesco o una carta sobre la situación del familiar. Un oficial decidirá si hace falta hacer algo. Guarda copia y anota a qué número de recibo se refería."
+}
+}

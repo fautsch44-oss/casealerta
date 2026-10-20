@@ -1,0 +1,146 @@
+{
+"case-was-received": {
+"en": "USCIS has your I-612, the request to waive the J-1 two-year home residence rule based on exceptional hardship to a U.S. citizen or resident spouse or child, or on persecution. Keep the receipt with your Department of State waiver case number, since both agencies take part in this decision.",
+"es": "USCIS ya tiene tu I-612, la solicitud para quitar la regla de los dos años de residencia en tu país de la visa J-1, por dificultades excepcionales a tu cónyuge o hijo ciudadano o residente, o por persecución. Guarda el recibo con tu número de caso de exención del Departamento de Estado, porque las dos agencias participan en esta decisión."
+},
+"case-was-received-and-a-receipt-notice-was-sent": {
+"en": "Your I-797C receipt for the I-612 is in the mail. Save it with your DS-2019 forms and your Department of State waiver case number. The receipt shows the waiver is pending, but the two-year rule still applies to you until a final approval comes.",
+"es": "Viene por correo tu recibo I-797C del I-612. Guárdalo con tus formularios DS-2019 y tu número de caso de exención del Departamento de Estado. El recibo muestra que la exención está en trámite, pero la regla de los dos años te sigue aplicando hasta que llegue la aprobación final."
+},
+"fingerprint-fee-was-received": {
+"en": "USCIS logged a biometrics-related payment on your I-612. Biometrics are not part of every I-612 case, so check your notices to see whether an appointment is coming. If one is scheduled, attending on time keeps your waiver moving toward the hardship review.",
+"es": "USCIS registró un pago relacionado con biométricos en tu I-612. No en todos los casos de I-612 piden biométricos, así que revisa tus avisos para ver si viene una cita. Si te programan una, ir a tiempo ayuda a que tu exención avance hacia la revisión de dificultades."
+},
+"fingerprint-review-was-completed": {
+"en": "The background check tied to your I-612 is finished. Next, the officer focuses on the core question for this form: whether your U.S. citizen or resident spouse or child would suffer exceptional hardship, or whether you would face persecution, if you had to return home for two years.",
+"es": "Terminó la revisión de antecedentes ligada a tu I-612. Ahora el oficial se enfoca en la pregunta central de este formulario: si tu cónyuge o hijo ciudadano o residente sufriría dificultades excepcionales, o si tú enfrentarías persecución, si tuvieras que regresar dos años a tu país."
+},
+"case-is-being-actively-reviewed-by-uscis": {
+"en": "An officer is reviewing your I-612. If USCIS finds exceptional hardship or persecution, it sends that finding to the Department of State Waiver Review Division for a recommendation, and USCIS then makes the final decision. That handoff is a normal part of this waiver and can add waiting time.",
+"es": "Un oficial está revisando tu I-612. Si USCIS encuentra dificultades excepcionales o persecución, manda esa conclusión a la División de Revisión de Exenciones del Departamento de Estado para que dé su recomendación, y luego USCIS toma la decisión final. Ese paso es normal en esta exención y puede alargar la espera."
+},
+"request-for-additional-evidence-was-sent": {
+"en": "USCIS wants more evidence for your I-612. Requests often ask for medical, financial or psychological records showing the hardship to your spouse or child, both if they moved with you and if they stayed behind. Answer completely by the deadline, and consider working with an immigration attorney given how detailed this showing must be.",
+"es": "USCIS quiere más pruebas para tu I-612. Suelen pedir registros médicos, económicos o psicológicos que muestren las dificultades de tu cónyuge o hijo, tanto si se fueran contigo como si se quedaran aquí. Responde completo antes de la fecha límite y considera trabajar con un abogado de inmigración, porque esta prueba debe ser muy detallada."
+},
+"request-for-initial-evidence-was-sent": {
+"en": "Your I-612 was missing a basic document, such as copies of all your DS-2019 forms, proof of your spouse's or child's U.S. citizenship or residence, or your Department of State waiver case number. USCIS will hold the case until you send it before the deadline.",
+"es": "A tu I-612 le faltó un documento básico, como copias de todos tus formularios DS-2019, prueba de la ciudadanía o residencia de tu cónyuge o hijo, o tu número de caso de exención del Departamento de Estado. USCIS detiene el caso hasta que lo mandes antes de la fecha límite."
+},
+"response-to-uscis-request-for-evidence-was-received": {
+"en": "USCIS received your response for the I-612. The officer will decide whether the hardship or persecution claim is proven. If yes, the case typically moves to the Department of State for its recommendation before USCIS issues the final decision.",
+"es": "USCIS recibió tu respuesta para el I-612. El oficial decidirá si quedan probadas las dificultades o la persecución. Si es así, el caso normalmente pasa al Departamento de Estado para su recomendación antes de que USCIS dé la decisión final."
+},
+"case-was-transferred-and-a-new-office-has-jurisdiction": {
+"en": "Your I-612 moved to another USCIS office, usually to balance workloads. Your receipt number and your Department of State waiver case number stay the same. You do not need to file anything again, but keep both numbers handy if you contact either agency.",
+"es": "Tu I-612 pasó a otra oficina de USCIS, casi siempre para repartir el trabajo. Tu número de recibo y tu número de caso del Departamento de Estado siguen iguales. No tienes que presentar nada otra vez, pero ten a la mano los dos números si contactas a cualquiera de las dos agencias."
+},
+"case-was-approved": {
+"en": "Your I-612 waiver was approved, so the J-1 two-year home residence requirement no longer blocks you. This opens the door to applying for statuses that rule had barred, such as an H-1B, an L visa or a green card. The waiver itself does not give you a new status; you still need to file for it.",
+"es": "Aprobaron tu exención I-612, así que la regla de los dos años de la J-1 ya no te bloquea. Esto te abre la puerta para pedir estatus que esa regla te impedía, como una H-1B, una visa L o la green card. La exención por sí sola no te da un estatus nuevo; todavía tienes que solicitarlo."
+},
+"document-was-mailed-to-me": {
+"en": "For an I-612, the mailed document is usually the approval or denial notice. Keep the original with your J-1 records. If approved, you will attach a copy when you later apply for a change of status, a work visa or a green card.",
+"es": "En el I-612, el documento que te mandan suele ser el aviso de aprobación o de negación. Guarda el original con tus papeles de la J-1. Si lo aprobaron, vas a anexar una copia cuando pidas un cambio de estatus, una visa de trabajo o la green card."
+},
+"notice-explaining-uscis-actions-was-mailed": {
+"en": "USCIS mailed a letter about your I-612, and the status does not say what it contains. It could be an evidence request, a notice that your file was sent to the Department of State, or a decision. Open it right away and check for deadlines.",
+"es": "USCIS te mandó una carta sobre tu I-612 y el estatus no dice qué trae. Puede ser una petición de pruebas, un aviso de que tu expediente pasó al Departamento de Estado, o una decisión. Ábrela de inmediato y revisa si tiene fechas límite."
+},
+"case-was-denied": {
+"en": "Your I-612 was denied, so the two-year home residence rule still applies. The notice explains why and whether you can appeal or file a motion on Form I-290B, and by when. Other J-1 waiver types, such as a no-objection statement, start with the Department of State, so ask an immigration attorney which options fit you.",
+"es": "Te negaron el I-612, así que la regla de los dos años te sigue aplicando. El aviso explica por qué y si puedes apelar o presentar una moción con el I-290B, y hasta cuándo. Otros tipos de exención J-1, como la carta de no objeción, empiezan en el Departamento de Estado; pregunta a un abogado de inmigración cuál te conviene."
+},
+"case-was-reopened": {
+"en": "Your I-612 is open again after a decision. This usually follows a granted motion or an appeal sent back for review. The officer will look at the hardship evidence again, and you may be asked for updated records about your spouse or child.",
+"es": "Tu I-612 se abrió de nuevo después de una decisión. Suele pasar cuando aceptan una moción o cuando una apelación lo regresa para revisión. El oficial volverá a ver las pruebas de dificultades y quizá te pidan registros actualizados de tu cónyuge o hijo."
+},
+"case-rejected-because-i-sent-an-incorrect-fee": {
+"en": "Your I-612 came back because of the payment, so it is not pending. Check the current I-612 fee on uscis.gov, which is separate from the fee you paid the Department of State for your waiver case number, and file again with the correct amount.",
+"es": "Te regresaron el I-612 por el pago, así que no está en trámite. Revisa en uscis.gov la tarifa actual del I-612, que es aparte de lo que pagaste al Departamento de Estado por tu número de caso de exención, y vuelve a presentarlo con el monto correcto."
+},
+"expedite-request-received": {
+"en": "USCIS logged your request to speed up your I-612. Expedites are approved only for reasons that meet USCIS criteria, such as an urgent medical situation for your spouse or child. Keep proof ready, and remember the Department of State step can also affect total timing.",
+"es": "USCIS registró tu petición para acelerar tu I-612. Solo aprueban acelerar por razones que cumplen sus criterios, como una situación médica urgente de tu cónyuge o hijo. Ten tus pruebas listas y recuerda que el paso del Departamento de Estado también puede afectar el tiempo total."
+},
+"withdrawal-acknowledgement-notice-was-sent": {
+"en": "USCIS confirmed you withdrew your I-612. The case is closed and the fee is not refunded. The two-year rule remains in place, so if you still need a waiver later, you will have to file again or pursue a different J-1 waiver type.",
+"es": "USCIS confirmó que retiraste tu I-612. El caso quedó cerrado y la tarifa no se devuelve. La regla de los dos años sigue vigente, así que si más adelante necesitas una exención, tendrás que volver a presentar o buscar otro tipo de exención J-1."
+},
+"name-was-updated": {
+"en": "USCIS updated your name on the I-612. Make sure it matches your passport and DS-2019 forms, because the waiver decision will later be used in other filings. If the change came from marriage, keep the marriage certificate with your case copies.",
+"es": "USCIS actualizó tu nombre en el I-612. Asegúrate de que coincida con tu pasaporte y tus DS-2019, porque la decisión de la exención se usará después en otros trámites. Si el cambio fue por matrimonio, guarda el acta con las copias de tu caso."
+},
+"case-was-received-and-a-receipt-notice-was-emailed": {
+"en": "Your I-612 receipt was sent electronically. Download it and save it with your Department of State waiver case number and DS-2019 copies. You will want all three together whenever you check status with either agency.",
+"es": "Tu recibo del I-612 llegó de forma electrónica. Descárgalo y guárdalo con tu número de caso de exención del Departamento de Estado y tus copias de DS-2019. Te conviene tener los tres juntos cuando revises el estatus con cualquiera de las dos agencias."
+},
+"case-accepted-by-the-uscis-lockbox": {
+"en": "Your I-612 passed the intake check: the fee was processed and the form was accepted. Next it receives a receipt number and goes to the office that reviews J-1 hardship waivers. Watch your mail for the I-797C receipt notice.",
+"es": "Tu I-612 pasó la revisión de entrada: se cobró la tarifa y aceptaron el formulario. Ahora recibe número de recibo y pasa a la oficina que revisa las exenciones J-1 por dificultades. Espera por correo el aviso de recibo I-797C."
+},
+"fees-were-waived": {
+"en": "USCIS shows that the fee for your I-612 was waived. Fee waivers are not available for every form, so read the notice to confirm what was covered. Your hardship review now continues as normal, including any Department of State step.",
+"es": "USCIS indica que no pagaste la tarifa de tu I-612. La exención de pago no aplica a todos los formularios, así que lee el aviso para confirmar qué cubrió. La revisión de dificultades sigue normal, incluido el paso con el Departamento de Estado."
+},
+"case-was-rejected-because-it-was-improperly-filed": {
+"en": "Your I-612 was returned and is not pending. Common causes are a missing signature, an outdated form edition, or sending it to the wrong address. Fix what the letter lists and file again; the new filing date is the one that counts.",
+"es": "Te regresaron tu I-612 y no está en trámite. Causas comunes: faltó la firma, era una edición vieja o lo mandaste a una dirección equivocada. Corrige lo que dice la carta y vuelve a presentarlo; la nueva fecha de presentación es la que cuenta."
+},
+"biometrics-appointment-was-scheduled": {
+"en": "You have a biometrics appointment for your I-612 case. Bring the notice and your passport. Going on time helps the waiver move to the hardship review. If you are traveling for your J-1 program, request a new date before the appointment rather than missing it.",
+"es": "Tienes cita de biométricos para tu caso I-612. Lleva el aviso y tu pasaporte. Ir a tiempo ayuda a que la exención pase a la revisión de dificultades. Si vas a viajar por tu programa J-1, pide otra fecha antes de la cita en vez de faltar."
+},
+"case-was-updated-to-show-fingerprints-were-taken": {
+"en": "Your biometrics for the I-612 are recorded. The background check now runs. Since there is usually no interview for this waiver, the next update is often an evidence request, a referral to the Department of State, or a decision.",
+"es": "Ya quedaron registrados tus biométricos del I-612. Ahora corre la revisión de antecedentes. Como normalmente no hay entrevista para esta exención, lo siguiente suele ser una petición de pruebas, el envío al Departamento de Estado o una decisión."
+},
+"case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+"en": "USCIS shows that you missed an in-person appointment for your I-612. Contact USCIS soon to explain and ask for a new date. If the missed visit is not resolved, the waiver can be denied as abandoned and you would need to start again.",
+"es": "USCIS indica que faltaste a una cita en persona de tu I-612. Comunícate pronto con USCIS para explicar y pedir nueva fecha. Si no se resuelve, la exención se puede negar por abandono y tendrías que empezar otra vez."
+},
+"case-was-approved-and-my-decision-was-emailed": {
+"en": "Your I-612 approval was sent electronically. Download and save it with your J-1 documents. You will need a copy when you file for an H-1B, a change of status, or a green card, since the two-year rule is what this approval removes.",
+"es": "La aprobación de tu I-612 llegó de forma electrónica. Descárgala y guárdala con tus papeles de la J-1. Vas a necesitar una copia cuando pidas una H-1B, un cambio de estatus o la green card, porque esta aprobación es lo que quita la regla de los dos años."
+},
+"case-approval-was-certified-by-uscis": {
+"en": "This status is unusual for an I-612. It generally means the approval was confirmed after an extra review, which for this form can follow the Department of State recommendation. Keep the approval notice; you are no longer held by the two-year rule.",
+"es": "Es un estatus poco común en el I-612. Por lo general indica que la aprobación se confirmó tras una revisión extra, que en este formulario puede venir después de la recomendación del Departamento de Estado. Guarda el aviso; la regla de los dos años ya no te detiene."
+},
+"response-to-uscis-notice-of-intent-was-received": {
+"en": "USCIS received your reply to its notice of intent to deny your I-612. The officer will review the new hardship or persecution evidence before deciding. Because this decides whether you must spend two years abroad, keep working with an immigration attorney or accredited representative.",
+"es": "USCIS recibió tu respuesta al aviso de intención de negar tu I-612. El oficial revisará las nuevas pruebas de dificultades o persecución antes de decidir. Como esto define si debes pasar dos años fuera, sigue trabajando con un abogado de inmigración o representante acreditado."
+},
+"duplicate-notice-was-mailed": {
+"en": "USCIS sent another copy of a notice from your I-612 case, often because you asked for it. A duplicate approval notice is useful if you lost the original and need to include it with a future work visa or green card filing.",
+"es": "USCIS te mandó otra copia de un aviso de tu I-612, muchas veces porque la pediste. Una copia de la aprobación sirve si perdiste la original y necesitas incluirla en un futuro trámite de visa de trabajo o de green card."
+},
+"notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+"en": "A letter about your I-612 could not be delivered. J-1 holders often move between programs or cities, so update your address with USCIS right away and ask what was sent, since it may be an evidence request with a deadline.",
+"es": "Una carta de tu I-612 no se pudo entregar. Quienes tienen J-1 se mudan seguido entre programas o ciudades, así que actualiza tu dirección con USCIS de inmediato y pregunta qué te mandaron, porque puede ser una petición de pruebas con fecha límite."
+},
+"date-of-birth-was-updated": {
+"en": "USCIS corrected your date of birth on the I-612. Confirm it matches your passport and all your DS-2019 forms. A consistent record avoids delays later when the waiver approval is used in your next immigration filing.",
+"es": "USCIS corrigió tu fecha de nacimiento en el I-612. Confirma que coincida con tu pasaporte y tus formularios DS-2019. Tener datos iguales en todos lados evita retrasos después, cuando uses la aprobación de la exención en tu siguiente trámite migratorio."
+},
+"continuation-notice-was-mailed": {
+"en": "USCIS put your I-612 on hold for a reason shown in the notice. For this form, a common reason is waiting for the Department of State's recommendation after USCIS made its hardship finding. Read the notice for anything you need to do.",
+"es": "USCIS pausó tu I-612 por una razón que muestra el aviso. En este formulario, una razón común es esperar la recomendación del Departamento de Estado después de que USCIS decidió lo de las dificultades. Lee el aviso por si debes hacer algo."
+},
+"termination-notice-sent": {
+"en": "USCIS ended your I-612 case without approval. Read the notice for the reason, for example if the waiver was no longer needed or the Department of State did not recommend it. Talk with an immigration attorney about whether another J-1 waiver route is available to you.",
+"es": "USCIS terminó tu caso I-612 sin aprobarlo. Lee el aviso para ver la razón, por ejemplo si la exención ya no hacía falta o si el Departamento de Estado no la recomendó. Habla con un abogado de inmigración sobre si tienes otra vía de exención J-1."
+},
+"case-closed-benefit-received-by-other-means": {
+"en": "USCIS closed your I-612 because you already got relief another way, for example a waiver through a different J-1 basis such as a no-objection statement or an interested government agency request. Keep the approval you received as proof the two-year rule was waived.",
+"es": "USCIS cerró tu I-612 porque ya obtuviste el alivio por otra vía, por ejemplo una exención con otra base de la J-1, como una carta de no objeción o la petición de una agencia de gobierno interesada. Guarda la aprobación que recibiste como prueba de que te quitaron la regla de los dos años."
+},
+"expedite-request-denied": {
+"en": "USCIS will not speed up your I-612, but it keeps its place in line. If your family's situation becomes more urgent, you can ask again with new proof. Remember to plan around your current J-1 or other status dates while you wait.",
+"es": "USCIS no va a acelerar tu I-612, pero sigue en su lugar en la fila. Si la situación de tu familia se vuelve más urgente, puedes pedirlo otra vez con pruebas nuevas. Mientras esperas, planea con base en las fechas de tu J-1 o del estatus que tengas ahora."
+},
+"correspondence-was-received-and-uscis-is-reviewing-it": {
+"en": "USCIS received a letter or documents you sent about your I-612, such as updated medical records or an address change. An officer will add it to your file. You do not need to resend it unless USCIS asks for it.",
+"es": "USCIS recibió una carta o documentos que mandaste sobre tu I-612, como registros médicos actualizados o un cambio de dirección. Un oficial lo agregará a tu expediente. No necesitas reenviarlo salvo que USCIS lo pida, pero guarda tu copia."
+}
+}

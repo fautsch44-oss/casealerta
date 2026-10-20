@@ -1,0 +1,130 @@
+{
+ "case-was-received": {
+  "en": "USCIS has your I-508, the waiver of diplomatic or treaty rights, privileges and immunities that people in A, E or G status sign when applying for a green card. This form travels with your I-485, so the green card application is where most of the real progress will show.",
+  "es": "USCIS ya tiene tu I-508, la renuncia a derechos, privilegios e inmunidades diplomáticas o de tratado que firman quienes tienen estatus A, E o G al pedir la green card. Este formulario va junto con tu I-485, así que en la solicitud de green card es donde verás casi todo el avance."
+ },
+ "case-was-received-and-a-receipt-notice-was-sent": {
+  "en": "A receipt notice for your I-508 is in the mail. Keep it with your I-485 receipt. The I-508 itself does not change your current A, E or G status; it only takes effect as part of becoming a permanent resident.",
+  "es": "Viene por correo un aviso de recibo de tu I-508. Guárdalo con el recibo de tu I-485. El I-508 por sí solo no cambia tu estatus actual A, E o G; solo cuenta como parte del proceso para hacerte residente permanente."
+ },
+ "case-is-being-actively-reviewed-by-uscis": {
+  "en": "An officer is reviewing your I-508 along with your green card application. They confirm your current status category and that the waiver is properly signed. Most of the decision timing depends on the I-485, including biometrics and any interview in that case.",
+  "es": "Un oficial está revisando tu I-508 junto con tu solicitud de green card. Confirma tu categoría de estatus actual y que la renuncia esté bien firmada. Casi todo el tiempo de la decisión depende del I-485, incluidos los biométricos y cualquier entrevista de ese caso."
+ },
+ "request-for-additional-evidence-was-sent": {
+  "en": "USCIS wants more information about your I-508. This usually means proof of your A, E or G status, such as a letter from your embassy, international organization or employer, or a corrected signature. Send it by the deadline so your I-485 is not held up.",
+  "es": "USCIS quiere más información sobre tu I-508. Suele ser prueba de tu estatus A, E o G, como una carta de tu embajada, organismo internacional o empleador, o una firma corregida. Mándalo antes de la fecha límite para que tu I-485 no se detenga."
+ },
+ "request-for-initial-evidence-was-sent": {
+  "en": "Your I-508 was missing something basic, such as a signature, a copy of your I-94 or visa, or proof of the status you hold. Without it, the green card case cannot be finished. Return what the letter lists, with the cover page, before the deadline.",
+  "es": "A tu I-508 le faltó algo básico, como la firma, copia de tu I-94 o visa, o prueba del estatus que tienes. Sin eso no se puede terminar el caso de green card. Regresa lo que pide la carta, con la hoja de portada, antes de la fecha límite."
+ },
+ "response-to-uscis-request-for-evidence-was-received": {
+  "en": "USCIS received what you sent for your I-508. The officer will add it to your file and continue with your I-485. If the green card is approved, the waiver becomes part of that approval, and you give up the immunities tied to your former status.",
+  "es": "USCIS recibió lo que mandaste para tu I-508. El oficial lo agregará a tu expediente y seguirá con tu I-485. Si aprueban la green card, la renuncia queda como parte de esa aprobación y dejas las inmunidades de tu estatus anterior."
+ },
+ "case-was-transferred-and-a-new-office-has-jurisdiction": {
+  "en": "Your I-508 moved to another USCIS office, usually together with your I-485 so both are decided by the same officer. This often happens when a green card case is sent to a local office for an interview. Your receipt number stays the same.",
+  "es": "Tu I-508 pasó a otra oficina de USCIS, normalmente junto con tu I-485 para que los decida el mismo oficial. Suele pasar cuando el caso de green card se manda a una oficina local para la entrevista. Tu número de recibo sigue igual."
+ },
+ "case-was-approved": {
+  "en": "Your I-508 waiver was accepted. This clears one requirement for your green card, but it does not give you permanent residence by itself. Watch your I-485 status: once that is approved, you become a permanent resident and the immunities of your A, E or G status no longer apply.",
+  "es": "Aceptaron tu renuncia I-508. Esto cumple un requisito de tu green card, pero por sí solo no te da la residencia permanente. Vigila el estatus de tu I-485: cuando lo aprueben, serás residente permanente y ya no tendrás las inmunidades de tu estatus A, E o G."
+ },
+ "document-was-mailed-to-me": {
+  "en": "For an I-508, a mailed document is usually a notice confirming the waiver was recorded, or a notice linked to your green card case. Keep it with your I-485 papers. The green card itself will arrive under the I-485 receipt, not this one.",
+  "es": "En el I-508, lo que te mandan por correo suele ser un aviso que confirma que la renuncia quedó registrada, o un aviso de tu caso de green card. Guárdalo con tus papeles del I-485. La green card llegará con el recibo del I-485, no con este."
+ },
+ "notice-explaining-uscis-actions-was-mailed": {
+  "en": "USCIS mailed a letter about your I-508, and the status does not say what it is. It may be a request for status proof, a notice that the waiver was accepted, or information tied to your I-485. Open it right away and check for deadlines.",
+  "es": "USCIS te mandó una carta sobre tu I-508 y el estatus no dice qué es. Puede ser una petición de prueba de estatus, un aviso de que aceptaron la renuncia o información ligada a tu I-485. Ábrela de inmediato y revisa si tiene fechas límite."
+ },
+ "case-was-denied": {
+  "en": "Your I-508 was not accepted. Because people in A, E or G status generally need this waiver to adjust, the denial can block your green card. Read the reason closely; it may be fixable with a new, properly signed form. An immigration attorney can help you decide the next step quickly.",
+  "es": "No aceptaron tu I-508. Como quienes tienen estatus A, E o G por lo general necesitan esta renuncia para ajustar su estatus, la negación puede bloquear tu green card. Lee bien la razón; puede corregirse con un formulario nuevo bien firmado. Un abogado de inmigración te puede ayudar a decidir rápido el siguiente paso."
+ },
+ "case-was-reopened": {
+  "en": "Your I-508 is open again after a decision. This often happens when the related I-485 is reopened or when USCIS corrects a processing error. Expect updated notices and check your I-485 status at the same time.",
+  "es": "Tu I-508 se abrió de nuevo después de una decisión. Suele pasar cuando reabren el I-485 relacionado o cuando USCIS corrige un error de trámite. Espera avisos nuevos y revisa al mismo tiempo el estatus de tu I-485 para ver si también cambió."
+ },
+ "case-rejected-because-i-sent-an-incorrect-fee": {
+  "en": "This status on an I-508 usually relates to the green card package it was filed with, since the I-508 generally has no separate fee. Check the payment for the I-485 and any other forms in the package, then refile the full set with the correct amounts.",
+  "es": "Este estatus en el I-508 normalmente tiene que ver con el paquete de green card con el que se mandó, porque el I-508 por lo general no tiene tarifa propia. Revisa el pago del I-485 y de los otros formularios del paquete, y vuelve a mandar todo con los montos correctos."
+ },
+ "expedite-request-received": {
+  "en": "USCIS logged a request to speed up your case. For an I-508, the timing really depends on your I-485, so the expedite request usually covers the whole green card package. Keep proof of the urgent reason ready, such as an ending diplomatic assignment.",
+  "es": "USCIS registró una petición para acelerar tu caso. En el I-508, el tiempo depende en realidad de tu I-485, así que la petición normalmente cubre todo el paquete de green card. Ten lista la prueba de la razón urgente, como el fin de una misión diplomática."
+ },
+ "withdrawal-acknowledgement-notice-was-sent": {
+  "en": "USCIS confirmed you withdrew your I-508. Without this waiver, a green card based on adjustment from A, E or G status generally cannot be approved. If you still plan to adjust, talk to an immigration attorney about whether to file a new waiver.",
+  "es": "USCIS confirmó que retiraste tu I-508. Sin esta renuncia, por lo general no se puede aprobar una green card por ajuste desde estatus A, E o G. Si todavía piensas ajustar tu estatus, habla con un abogado de inmigración sobre si conviene presentar una nueva renuncia."
+ },
+ "name-was-updated": {
+  "en": "USCIS updated the name on your I-508. Make sure it matches your passport, your diplomatic or treaty ID, and your I-485, because the same name will appear on your green card. Send proof of any legal name change if you have not done so.",
+  "es": "USCIS actualizó el nombre en tu I-508. Asegúrate de que coincida con tu pasaporte, tu identificación diplomática o de tratado y tu I-485, porque ese nombre saldrá en tu green card. Manda prueba de cualquier cambio legal de nombre si no lo has hecho."
+ },
+ "case-was-received-and-a-receipt-notice-was-emailed": {
+  "en": "Your I-508 receipt was sent electronically. Download it and save it with your I-485 receipt and other green card notices. Having them together makes it easy to answer USCIS if they ask about your A, E or G status.",
+  "es": "Tu recibo del I-508 llegó de forma electrónica. Descárgalo y guárdalo con el recibo de tu I-485 y los otros avisos de la green card. Tenerlos juntos facilita contestarle a USCIS si te pregunta por tu estatus A, E o G."
+ },
+ "case-accepted-by-the-uscis-lockbox": {
+  "en": "Your I-508 passed the intake check as part of your green card package and was accepted for processing. Next it gets a receipt number and follows the I-485 to the office that will decide it. Watch your mail for the receipt notices.",
+  "es": "Tu I-508 pasó la revisión de entrada como parte de tu paquete de green card y lo aceptaron para trámite. Ahora recibe número de recibo y sigue al I-485 a la oficina que lo va a decidir. Espera por correo los avisos de recibo."
+ },
+ "fees-were-waived": {
+  "en": "USCIS shows no fee is due for your I-508. This form generally has no separate filing fee, so this status mainly confirms that. Your green card case continues through the normal I-485 steps, such as biometrics and review.",
+  "es": "USCIS indica que no debes pagar tarifa por tu I-508. Este formulario por lo general no tiene tarifa propia, así que el estatus sobre todo confirma eso. Tu caso de green card sigue con los pasos normales del I-485, como biométricos y revisión."
+ },
+ "case-was-rejected-because-it-was-improperly-filed": {
+  "en": "Your I-508 was returned and is not pending. Common causes are a missing signature or filing it without the I-485 it supports. Fix what the letter lists and send it again with the green card package, or as the letter instructs.",
+  "es": "Te regresaron tu I-508 y no está en trámite. Causas comunes: faltó la firma o lo mandaste sin el I-485 al que acompaña. Corrige lo que dice la carta y vuelve a mandarlo con el paquete de green card, o como indique la carta."
+ },
+ "case-was-approved-and-my-decision-was-emailed": {
+  "en": "The acceptance of your I-508 was sent electronically. Save it with your green card papers. The final step is still the I-485 decision; once that is approved, you become a permanent resident and your former status immunities end.",
+  "es": "La aceptación de tu I-508 llegó de forma electrónica. Guárdala con tus papeles de la green card. El paso final sigue siendo la decisión del I-485; cuando lo aprueben, serás residente permanente y terminan las inmunidades de tu estatus anterior."
+ },
+ "case-approval-was-certified-by-uscis": {
+  "en": "This status is unusual for an I-508. It generally means the waiver's acceptance was confirmed through an extra internal review. Nothing changes for you: keep following your I-485, which is the case that decides the green card.",
+  "es": "Es un estatus poco común en el I-508. Por lo general indica que la aceptación de la renuncia se confirmó con una revisión interna adicional. Para ti no cambia nada: sigue al pendiente de tu I-485, que es el que decide la green card."
+ },
+ "case-was-sent-to-the-department-of-state": {
+  "en": "Your I-508 information was shared with the Department of State. This can happen because the State Department keeps records of diplomatic and international organization personnel whose status is changing. You usually do not need to do anything; keep following your I-485 for the green card decision.",
+  "es": "La información de tu I-508 se compartió con el Departamento de Estado. Puede pasar porque el Departamento de Estado lleva registro del personal diplomático y de organismos internacionales cuyo estatus cambia. Normalmente no tienes que hacer nada; sigue tu I-485 para la decisión de la green card."
+ },
+ "response-to-uscis-notice-of-intent-was-received": {
+  "en": "USCIS received your reply to its notice that it intended to deny your I-508 or related green card case. The officer will review your answer before deciding. Because this affects your ability to adjust, keep an immigration attorney involved.",
+  "es": "USCIS recibió tu respuesta al aviso de que pensaba negar tu I-508 o tu caso de green card relacionado. El oficial revisará tu respuesta antes de decidir. Como esto afecta tu posibilidad de ajustar estatus, mantén involucrado a un abogado de inmigración."
+ },
+ "duplicate-notice-was-mailed": {
+  "en": "USCIS sent another copy of a notice from your I-508 case, often because you asked for it. File it with your I-485 papers. A copy can be useful if your embassy or employer asks for proof that you filed the waiver.",
+  "es": "USCIS te mandó otra copia de un aviso de tu I-508, muchas veces porque la pediste. Guárdala con tus papeles del I-485. Una copia sirve si tu embajada o empleador te piden prueba de que presentaste la renuncia."
+ },
+ "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+  "en": "A letter about your I-508 could not be delivered. If your diplomatic assignment ended or you moved, update your address with USCIS right away and ask what was sent, since it may also affect your I-485.",
+  "es": "Una carta de tu I-508 no se pudo entregar. Si terminó tu misión diplomática o te mudaste, actualiza tu dirección con USCIS de inmediato y pregunta qué te mandaron, porque también puede afectar tu I-485 y la entrega de tu green card."
+ },
+ "date-of-birth-was-updated": {
+  "en": "USCIS corrected your date of birth on the I-508. Confirm it matches your passport and your I-485, because the same date will print on your green card. Report any remaining mismatch to USCIS before your case is decided.",
+  "es": "USCIS corrigió tu fecha de nacimiento en el I-508. Confirma que coincida con tu pasaporte y tu I-485, porque esa misma fecha saldrá en tu green card. Reporta a USCIS cualquier diferencia que quede antes de que decidan tu caso."
+ },
+ "continuation-notice-was-mailed": {
+  "en": "USCIS put your I-508 on hold for a reason given in the notice. Often it is simply waiting on the I-485, for example for an interview or background checks. Read the notice for anything you need to send.",
+  "es": "USCIS pausó tu I-508 por una razón que da el aviso. Muchas veces solo está esperando al I-485, por ejemplo una entrevista o revisiones de antecedentes. Lee el aviso por si debes mandar algo y mantén tu dirección al día."
+ },
+ "termination-notice-sent": {
+  "en": "USCIS ended your I-508 case. This often happens when the related I-485 is denied, withdrawn or closed, since the waiver has no purpose without it. Read the notice for the reason and talk with an immigration attorney about your green card options.",
+  "es": "USCIS terminó tu caso I-508. Suele pasar cuando niegan, retiran o cierran el I-485 relacionado, porque la renuncia no sirve sin él. Lee el aviso para ver la razón y habla con un abogado de inmigración sobre tus opciones de green card."
+ },
+ "case-closed-benefit-received-by-other-means": {
+  "en": "USCIS closed your I-508 because it is no longer needed, for example because you got permanent residence another way or are no longer in A, E or G status. Keep proof of your current status with your records.",
+  "es": "USCIS cerró tu I-508 porque ya no hace falta, por ejemplo porque obtuviste la residencia por otra vía o ya no tienes estatus A, E o G. Guarda la prueba de tu estatus actual con tus papeles por si te la piden más adelante."
+ },
+ "expedite-request-denied": {
+  "en": "USCIS will not speed up your case, but it keeps its place in line. Since the I-508 follows the I-485, any future expedite request should focus on the green card case and include new proof of urgency.",
+  "es": "USCIS no va a acelerar tu caso, pero sigue en su lugar en la fila. Como el I-508 sigue al I-485, cualquier nueva petición para acelerar debe enfocarse en el caso de green card e incluir pruebas nuevas de la urgencia."
+ },
+ "correspondence-was-received-and-uscis-is-reviewing-it": {
+  "en": "USCIS received a letter or documents you sent about your I-508, such as a new embassy letter or an address change. An officer will add it to your file and to the green card case. You do not need to resend it unless asked.",
+  "es": "USCIS recibió una carta o documentos que mandaste sobre tu I-508, como una nueva carta de tu embajada o un cambio de dirección. Un oficial lo agregará a tu expediente y al caso de green card. No necesitas reenviarlo salvo que te lo pidan."
+ }
+}

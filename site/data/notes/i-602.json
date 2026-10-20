@@ -1,0 +1,146 @@
+{
+ "case-was-received": {
+  "en": "USCIS logged your I-602 refugee waiver. In the U.S., this form usually travels with a refugee's I-485 green card application, and an officer often decides both together. The waiver can be granted for humanitarian reasons, family unity, or the public interest. Keep the receipt with your I-485 papers.",
+  "es": "USCIS registró tu dispensa de refugiado I-602. En EE.UU., este formulario casi siempre va junto con el I-485 de green card de un refugiado, y un oficial muchas veces decide los dos juntos. La dispensa se puede dar por razones humanitarias, unidad familiar o interés público. Guarda el recibo con tus papeles del I-485."
+ },
+ "case-was-received-and-a-receipt-notice-was-sent": {
+  "en": "Your I-602 receipt notice is in the mail. It confirms USCIS has your waiver request for a ground of inadmissibility that could block your refugee green card. Check that the notice matches your I-485 details and keep both receipts together.",
+  "es": "Tu aviso de recibo del I-602 ya va por correo. Confirma que USCIS tiene tu solicitud de dispensa por una causa de inadmisibilidad que podría impedir tu green card de refugiado. Revisa que los datos coincidan con tu I-485 y guarda los dos recibos juntos."
+ },
+ "fingerprint-fee-was-received": {
+  "en": "This update is uncommon for an I-602, because the waiver form itself generally has no filing fee and refugees adjusting status are often exempt from many fees. It may relate to your linked I-485. Check which receipt number the notice shows.",
+  "es": "Este cambio es poco común en un I-602, porque la dispensa en sí normalmente no tiene cuota y los refugiados que ajustan estatus muchas veces no pagan varias cuotas. Puede ser de tu I-485 ligado. Revisa qué número de recibo aparece en el aviso."
+ },
+ "fingerprint-review-was-completed": {
+  "en": "The background check tied to your refugee case came back. For an I-602, these results matter because the officer weighs the ground of inadmissibility against your humanitarian and family reasons. It is not yet a decision on the waiver.",
+  "es": "Ya regresó la revisión de antecedentes de tu caso de refugiado. En un I-602, estos resultados importan porque el oficial compara la causa de inadmisibilidad con tus razones humanitarias y familiares. Todavía no es una decisión sobre la dispensa."
+ },
+ "case-is-being-actively-reviewed-by-uscis": {
+  "en": "An officer is reviewing your I-602. They look at the reason you may be inadmissible and at your reasons for a waiver: humanitarian need, keeping your family together, or the public interest. Some serious grounds cannot be waived. The decision often comes with your I-485.",
+  "es": "Un oficial está revisando tu I-602. Mira la razón por la que podrías ser inadmisible y tus razones para la dispensa: necesidad humanitaria, mantener unida a tu familia o el interés público. Algunas causas graves no se pueden perdonar. La decisión muchas veces llega junto con tu I-485."
+ },
+ "request-for-additional-evidence-was-sent": {
+  "en": "USCIS wants more evidence for your I-602. It may ask for court records, medical reports, proof of family ties in the U.S., or statements about hardship. Because a waiver decision can decide your refugee green card, answer completely and consider help from an attorney or accredited representative.",
+  "es": "USCIS quiere más pruebas para tu I-602. Puede pedir récords de la corte, reportes médicos, prueba de tu familia en EE.UU. o declaraciones sobre el perjuicio. Como la dispensa puede decidir tu green card de refugiado, contesta todo y considera ayuda de un abogado o representante acreditado."
+ },
+ "request-for-initial-evidence-was-sent": {
+  "en": "Your I-602 was missing something required, such as a signature, a copy of your refugee documents, or records about the ground of inadmissibility. The notice lists what is needed. Send it before the deadline so your waiver and I-485 can keep moving.",
+  "es": "A tu I-602 le faltó algo obligatorio, como una firma, la copia de tus documentos de refugiado o récords sobre la causa de inadmisibilidad. El aviso dice qué falta. Mándalo antes del plazo para que tu dispensa y tu I-485 sigan avanzando."
+ },
+ "response-to-uscis-request-for-evidence-was-received": {
+  "en": "USCIS received your I-602 evidence. The officer will review it together with your refugee green card case. Some refugee waiver cases also involve an interview for the I-485. Keep copies of all records you sent.",
+  "es": "USCIS recibió tus pruebas del I-602. El oficial las revisará junto con tu caso de green card de refugiado. Algunos casos con dispensa de refugiado también tienen entrevista por el I-485. Guarda copia de todos los papeles que mandaste."
+ },
+ "case-was-transferred-and-a-new-office-has-jurisdiction": {
+  "en": "Your I-602 moved to another office, often to stay with your I-485 or to go to a field office for an interview. The transfer itself does not mean a problem with the waiver. New notices will come from the office now handling both cases.",
+  "es": "Tu I-602 pasó a otra oficina, muchas veces para quedarse con tu I-485 o para ir a una oficina local con entrevista. El traslado en sí no significa un problema con la dispensa. Los avisos nuevos llegarán de la oficina que ahora lleva los dos casos."
+ },
+ "case-was-approved": {
+  "en": "Your I-602 waiver was approved. The ground of inadmissibility no longer blocks your refugee green card. If your I-485 is still pending, it can now move to a decision. The approval usually covers only the grounds listed in the notice, so read it carefully.",
+  "es": "Aprobaron tu dispensa I-602. La causa de inadmisibilidad ya no bloquea tu green card de refugiado. Si tu I-485 sigue pendiente, ahora puede avanzar a una decisión. La aprobación normalmente cubre solo las causas que dice el aviso, así que léelo con cuidado."
+ },
+ "document-was-mailed-to-me": {
+  "en": "USCIS mailed a document for your I-602, usually the written decision on the waiver. Keep the original with your refugee papers. If it is an approval, your I-485 decision should follow; if not, the letter explains the reasons.",
+  "es": "USCIS te mandó un documento de tu I-602, normalmente la decisión por escrito sobre la dispensa. Guarda el original con tus papeles de refugiado. Si es una aprobación, debe seguir la decisión de tu I-485; si no, la carta explica las razones."
+ },
+ "notice-explaining-uscis-actions-was-mailed": {
+  "en": "USCIS sent a letter about your I-602. It might request evidence, schedule an interview for your linked I-485, or explain a decision. Read it as soon as it arrives and note any deadline. Check your online account for a copy.",
+  "es": "USCIS te mandó una carta sobre tu I-602. Puede pedir pruebas, darte cita de entrevista por tu I-485 ligado o explicar una decisión. Léela en cuanto llegue y anota cualquier plazo. Busca una copia en tu cuenta en línea."
+ },
+ "case-was-denied": {
+  "en": "Your I-602 waiver was denied. This can lead to denial of your refugee green card application. Read the letter to see which ground was not waived and what options it lists. Speak with an immigration attorney or accredited representative quickly about next steps.",
+  "es": "Negaron tu dispensa I-602. Esto puede llevar a que nieguen tu solicitud de green card de refugiado. Lee la carta para ver qué causa no se perdonó y qué opciones menciona. Habla pronto con un abogado de inmigración o un representante acreditado sobre los siguientes pasos."
+ },
+ "case-was-reopened": {
+  "en": "Your I-602 is open again, often after a motion or because USCIS reopened your refugee I-485. The officer will review the waiver again and may ask for new evidence. Keep an eye on both receipt numbers.",
+  "es": "Tu I-602 está abierto otra vez, muchas veces por una moción o porque USCIS reabrió tu I-485 de refugiado. El oficial revisará de nuevo la dispensa y puede pedir pruebas nuevas. Sigue los dos números de recibo."
+ },
+ "case-rejected-because-i-sent-an-incorrect-fee": {
+  "en": "Your I-602 package was rejected over a payment issue. The I-602 generally has no filing fee, so the problem may be another form sent with it. Check fee rules on uscis.gov for each form in the package, fix the payment and refile.",
+  "es": "Tu paquete del I-602 fue rechazado por un problema de pago. El I-602 normalmente no tiene cuota, así que el problema puede ser otro formulario que iba con él. Revisa en uscis.gov las cuotas de cada formulario del paquete, corrige el pago y vuelve a presentarlo."
+ },
+ "expedite-request-received": {
+  "en": "USCIS received a request to speed up your I-602. Because the waiver usually moves together with your refugee I-485, an expedite may only help if both can be decided. USCIS reviews it against its criteria.",
+  "es": "USCIS recibió una solicitud para acelerar tu I-602. Como la dispensa normalmente avanza junto con tu I-485 de refugiado, acelerarla quizá solo ayude si se pueden decidir los dos. USCIS la revisa con sus criterios."
+ },
+ "withdrawal-acknowledgement-notice-was-sent": {
+  "en": "USCIS confirmed your I-602 was withdrawn. If you still face a ground of inadmissibility, your refugee I-485 may not be approvable without a waiver. If the withdrawal was a mistake or the facts changed, ask an attorney or accredited representative.",
+  "es": "USCIS confirmó que tu I-602 fue retirado. Si todavía tienes una causa de inadmisibilidad, quizá tu I-485 de refugiado no se pueda aprobar sin dispensa. Si el retiro fue un error o cambiaron los hechos, pregunta a un abogado o representante acreditado."
+ },
+ "name-was-updated": {
+  "en": "USCIS updated the name on your I-602 record. The waiver decision and your future green card should show this name. Make sure it matches your refugee travel documents and I-94, and keep the paper that supports the change.",
+  "es": "USCIS actualizó el nombre en tu expediente I-602. La decisión de la dispensa y tu futura green card deben salir con este nombre. Asegúrate de que coincida con tus documentos de refugiado y tu I-94, y guarda el papel que respalda el cambio."
+ },
+ "case-was-received-and-a-receipt-notice-was-emailed": {
+  "en": "Your I-602 receipt was sent electronically. Download it and keep it with your refugee I-485 receipt. The two cases are often reviewed together, so it helps to track both receipt numbers here. Print a copy as well.",
+  "es": "Tu recibo del I-602 se mandó de forma electrónica. Descárgalo y guárdalo con el recibo de tu I-485 de refugiado. Los dos casos muchas veces se revisan juntos, así que ayuda seguir los dos números de recibo aquí."
+ },
+ "case-accepted-by-the-uscis-lockbox": {
+  "en": "Your I-602 package was accepted at intake. Since the waiver usually has no fee, this mainly confirms the filing was entered. A receipt notice should follow, separate from your I-485 receipt. Keep proof of mailing.",
+  "es": "Tu paquete del I-602 fue aceptado. Como la dispensa normalmente no tiene cuota, esto sobre todo confirma que se registró el trámite. Pronto debe llegar el aviso de recibo, aparte del recibo de tu I-485. Guarda la prueba de envío."
+ },
+ "fees-were-waived": {
+  "en": "USCIS recorded a fee waiver connected to your I-602 case. The waiver form generally has no fee, so this likely covers a related form, such as a biometrics or adjustment fee. Your refugee case continues as usual.",
+  "es": "USCIS registró una exención de cuota ligada a tu caso I-602. La dispensa normalmente no tiene cuota, así que probablemente cubre otro formulario relacionado, como biométricos o el ajuste. Tu caso de refugiado sigue normal."
+ },
+ "case-was-rejected-because-it-was-improperly-filed": {
+  "en": "Your I-602 was not accepted, for example because of a missing signature, an old form edition, or filing it where it does not belong. Read the rejection notice, fix the issue and refile, ideally together with or referencing your I-485.",
+  "es": "Tu I-602 no fue aceptado, por ejemplo por falta de firma, una edición vieja del formulario o presentarlo donde no corresponde. Lee el aviso de rechazo, corrige el problema y vuelve a presentarlo, de preferencia junto con tu I-485 o mencionándolo."
+ },
+ "biometrics-appointment-was-scheduled": {
+  "en": "You have a biometrics appointment connected to your I-602. It most likely serves your refugee I-485 as well. Bring the notice and photo ID, such as your I-94 or refugee travel document, and go on the date shown.",
+  "es": "Tienes cita de biométricos ligada a tu I-602. Lo más probable es que también sirva para tu I-485 de refugiado. Lleva el aviso y una identificación con foto, como tu I-94 o documento de viaje de refugiado, y ve el día indicado."
+ },
+ "case-was-updated-to-show-fingerprints-were-taken": {
+  "en": "USCIS recorded your fingerprints for the refugee case linked to your I-602. Background checks can now run, and the officer can weigh the results together with your waiver reasons. This is a routine step, not a decision.",
+  "es": "USCIS registró tus huellas del caso de refugiado ligado a tu I-602. Ya puede correr la revisión de antecedentes y el oficial puede ver los resultados junto con tus razones para la dispensa. Es un paso de rutina, no una decisión."
+ },
+ "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+  "en": "USCIS recorded that you missed an appointment tied to your I-602, such as biometrics or an interview for your I-485. Missing it can lead to denial of both. Contact USCIS right away to explain and reschedule, and seek help from an accredited representative.",
+  "es": "USCIS registró que faltaste a una cita ligada a tu I-602, como biométricos o una entrevista por tu I-485. Faltar puede llevar a negar los dos. Contacta a USCIS de inmediato para explicar y reprogramar, y busca ayuda de un representante acreditado."
+ },
+ "case-was-approved-and-my-decision-was-emailed": {
+  "en": "Your I-602 approval was delivered electronically. Download and print it. With the waiver granted, your refugee I-485 can move forward. Keep the approval with your refugee papers, since it may be needed later for citizenship.",
+  "es": "Tu aprobación del I-602 se mandó de forma electrónica. Descárgala e imprímela. Con la dispensa aprobada, tu I-485 de refugiado puede avanzar. Guárdala con tus papeles de refugiado, porque quizá la necesites después para la ciudadanía."
+ },
+ "case-approval-was-certified-by-uscis": {
+  "en": "USCIS certified your I-602 approval. This can happen when another agency needs official proof that the waiver was granted, for example in refugee processing abroad. Check the notice for details and keep it with your waiver approval.",
+  "es": "USCIS certificó tu aprobación del I-602. Puede pasar cuando otra agencia necesita prueba oficial de que se dio la dispensa, por ejemplo en el proceso de refugio en el extranjero. Revisa el aviso y guárdalo con tu aprobación de la dispensa."
+ },
+ "response-to-uscis-notice-of-intent-was-received": {
+  "en": "USCIS received your response to a notice of intent to deny your I-602. The officer will weigh your humanitarian, family unity or public interest reasons before deciding. Since your green card may depend on it, an attorney or accredited representative can help you prepare for the result.",
+  "es": "USCIS recibió tu respuesta al aviso de intención de negar tu I-602. El oficial va a pesar tus razones humanitarias, de unidad familiar o de interés público antes de decidir. Como tu green card puede depender de esto, un abogado o representante acreditado puede ayudarte a prepararte."
+ },
+ "duplicate-notice-was-mailed": {
+  "en": "USCIS mailed a copy of an I-602 notice, such as the receipt or the decision. If you lost the original, this replaces it. Keep it with your refugee documents and I-485 notices in one place.",
+  "es": "USCIS mandó una copia de un aviso de tu I-602, como el recibo o la decisión. Si perdiste el original, esta copia lo reemplaza. Guárdala con tus documentos de refugiado y los avisos del I-485 en un solo lugar."
+ },
+ "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+  "en": "An I-602 notice came back undelivered. Refugees often move during resettlement, and the notice might be a request for evidence or interview date. Update your address with USCIS now and check your online account. Your resettlement agency can help.",
+  "es": "Un aviso de tu I-602 regresó sin entregarse. Los refugiados se mudan seguido durante el reasentamiento, y el aviso puede ser una petición de pruebas o una fecha de entrevista. Actualiza ya tu dirección con USCIS y revisa tu cuenta en línea."
+ },
+ "date-of-birth-was-updated": {
+  "en": "USCIS corrected your date of birth on the I-602 record. Refugee documents sometimes have estimated dates, so check that it matches your I-94 and other records. The same date should appear on your future green card.",
+  "es": "USCIS corrigió tu fecha de nacimiento en el expediente I-602. Los documentos de refugiado a veces tienen fechas aproximadas, así que revisa que coincida con tu I-94 y otros registros. La misma fecha debe salir en tu futura green card."
+ },
+ "continuation-notice-was-mailed": {
+  "en": "USCIS mailed a notice that your I-602 is continuing. Your refugee status generally continues while the waiver and green card are pending. Check what this notice covers and keep it with your I-94. Read any dates it lists.",
+  "es": "USCIS te mandó un aviso de que tu I-602 continúa. Tu estatus de refugiado en general sigue mientras la dispensa y la green card están pendientes. Revisa qué cubre este aviso y guárdalo con tu I-94."
+ },
+ "termination-notice-sent": {
+  "en": "USCIS sent a termination notice in your I-602 case. This may end the waiver request, or relate to your refugee status itself. Either can seriously affect your path to a green card. Read the reasons and talk with an immigration attorney or accredited representative right away.",
+  "es": "USCIS mandó un aviso de terminación en tu caso I-602. Puede terminar la solicitud de dispensa o tener que ver con tu estatus de refugiado. Cualquiera de los dos puede afectar mucho tu camino a la green card. Lee las razones y habla de inmediato con un abogado o representante acreditado."
+ },
+ "case-closed-benefit-received-by-other-means": {
+  "en": "USCIS closed your I-602 because the result was reached another way, for example the ground was waived in another filing or was no longer needed for your green card. Check that your I-485 decision reflects this.",
+  "es": "USCIS cerró tu I-602 porque el resultado se logró por otra vía, por ejemplo la causa se perdonó en otro trámite o ya no hacía falta para tu green card. Revisa que la decisión de tu I-485 lo refleje."
+ },
+ "expedite-request-denied": {
+  "en": "USCIS will not expedite your I-602. The waiver keeps its place in line together with your refugee I-485. If your situation becomes urgent, such as a medical or family emergency, you can ask again with new evidence.",
+  "es": "USCIS no va a acelerar tu I-602. La dispensa conserva su lugar en la fila junto con tu I-485 de refugiado. Si tu situación se vuelve urgente, como una emergencia médica o familiar, puedes pedirlo otra vez con pruebas nuevas."
+ },
+ "correspondence-was-received-and-uscis-is-reviewing-it": {
+  "en": "USCIS received something you sent about your I-602, such as new hardship evidence, court records or an address change. An officer will decide if it changes anything. Keep a copy and proof of delivery. It is not a decision.",
+  "es": "USCIS recibió algo que mandaste sobre tu I-602, como nuevas pruebas de perjuicio, récords de la corte o un cambio de dirección. Un oficial decidirá si cambia algo. Guarda copia y prueba de entrega. No es una decisión."
+ }
+}

@@ -1,0 +1,130 @@
+{
+ "case-was-received": {
+  "en": "USCIS has your I-698 to move from temporary resident under the 1986 legalization program to permanent resident. These cases are rare today and often tied to older class settlement cases. Keep your temporary resident documents and any proof of English and civics study together; you will likely need them at an interview.",
+  "es": "USCIS tiene tu I-698 para pasar de residente temporal del programa de legalización de 1986 a residente permanente. Hoy estos casos son raros y muchas veces vienen de demandas colectivas antiguas. Guarda juntos tus documentos de residente temporal y cualquier prueba de estudio de inglés y civismo; seguramente los necesitarás en la entrevista."
+ },
+ "case-was-received-and-a-receipt-notice-was-sent": {
+  "en": "Your I-797C receipt for the I-698 is in the mail. Keep it with your temporary resident card or approval papers. The receipt number lets you track a case that may involve old legalization records, so store it safely.",
+  "es": "Tu recibo I-797C del I-698 viene por correo. Guárdalo junto con tu tarjeta o papeles de residente temporal. Con el número de recibo sigues un caso que puede involucrar registros antiguos de legalización, así que guárdalo en un lugar seguro."
+ },
+ "case-is-being-actively-reviewed-by-uscis": {
+  "en": "An officer is reviewing your I-698. They check your temporary resident status, your continuous residence, and whether you meet the basic citizenship skills rule, either by passing English and civics questions or by showing you studied them in an approved course. An interview usually follows.",
+  "es": "Un oficial está revisando tu I-698. Revisa tu estatus de residente temporal, tu residencia continua y si cumples la regla de conocimientos básicos, ya sea contestando preguntas de inglés y civismo o mostrando que los estudiaste en un curso aprobado. Normalmente sigue una entrevista."
+ },
+ "request-for-additional-evidence-was-sent": {
+  "en": "USCIS needs more proof for your I-698. Common requests are evidence of continuous residence since becoming a temporary resident, certificates from English and civics classes, or court records if you were ever arrested. Answer by the deadline with the RFE cover sheet on top.",
+  "es": "USCIS necesita más pruebas para tu I-698. Suelen pedir evidencia de residencia continua desde que fuiste residente temporal, constancias de clases de inglés y civismo o registros de la corte si alguna vez te arrestaron. Responde antes de la fecha límite con la hoja del RFE encima."
+ },
+ "request-for-initial-evidence-was-sent": {
+  "en": "Your I-698 was missing a basic item, such as a copy of your temporary resident card, photos, or the documents showing your legalization approval. Send exactly what is listed before the deadline so the case can be reviewed.",
+  "es": "A tu I-698 le faltó algo básico, como copia de tu tarjeta de residente temporal, fotos o los documentos que muestran tu aprobación de legalización. Manda justo lo que se pide antes de la fecha límite para que puedan revisar el caso."
+ },
+ "response-to-uscis-request-for-evidence-was-received": {
+  "en": "USCIS has your evidence for the I-698 and the officer will continue. The next step is often an interview where English and civics knowledge may be checked, unless you showed proof of an approved course or qualify for an exception.",
+  "es": "USCIS ya tiene tus pruebas del I-698 y el oficial seguirá. El siguiente paso suele ser una entrevista donde pueden revisar tus conocimientos de inglés y civismo, salvo que hayas mostrado un curso aprobado o califiques para una excepción."
+ },
+ "case-was-transferred-and-a-new-office-has-jurisdiction": {
+  "en": "Your I-698 moved to another USCIS office, often the local office that will hold your interview. Legalization files can be old and stored in different places, so transfers are not unusual. Your receipt number stays the same.",
+  "es": "Tu I-698 pasó a otra oficina de USCIS, muchas veces la oficina local que hará tu entrevista. Los expedientes de legalización pueden ser antiguos y estar guardados en distintos lugares, así que los traslados no son raros. Tu número de recibo no cambia."
+ },
+ "case-was-approved": {
+  "en": "Your I-698 was approved, so you are now a lawful permanent resident. Next, USCIS produces your green card and mails it. Your time as a permanent resident counts toward a future naturalization application; check the date on the card once it arrives.",
+  "es": "Aprobaron tu I-698, así que ya eres residente permanente legal. Ahora USCIS produce tu green card y te la manda por correo. Tu tiempo como residente permanente cuenta para pedir la ciudadanía más adelante; revisa la fecha en la tarjeta cuando llegue."
+ },
+ "document-was-mailed-to-me": {
+  "en": "USCIS mailed a document for your I-698, often your green card or the approval notice. When it arrives, check your name, birth date and the resident since date. If something is wrong, ask USCIS for a correction right away.",
+  "es": "USCIS mandó por correo un documento de tu I-698, muchas veces tu green card o el aviso de aprobación. Cuando llegue, revisa tu nombre, fecha de nacimiento y la fecha desde la que eres residente. Si algo está mal, pide corrección a USCIS de inmediato."
+ },
+ "notice-explaining-uscis-actions-was-mailed": {
+  "en": "USCIS mailed a letter about your I-698. It may set your interview, ask for proof of English and civics study, or explain a decision. Read it quickly and gather the documents it mentions. Some deadlines are short.",
+  "es": "USCIS mandó una carta sobre tu I-698. Puede darte cita de entrevista, pedir prueba de estudio de inglés y civismo o explicar una decisión. Léela rápido y junta los documentos que menciona, por si tienes poco tiempo."
+ },
+ "case-was-denied": {
+  "en": "Your I-698 was denied. Legalization cases have their own appeal process, generally using Form I-694 to the Administrative Appeals Office, with a short deadline. Because your status is at stake, speak with an immigration attorney or accredited representative right away.",
+  "es": "Te negaron el I-698. Los casos de legalización tienen su propio proceso de apelación, en general con el Formulario I-694 ante la Oficina de Apelaciones Administrativas, y el plazo es corto. Como tu estatus está en juego, habla de inmediato con un abogado de inmigración o representante acreditado."
+ },
+ "case-was-reopened": {
+  "en": "USCIS reopened your I-698, often after an appeal or motion, or under a court settlement. Your request for permanent residence is pending again. Watch for an interview notice or a request for evidence. Keep the reopening notice with your file.",
+  "es": "USCIS reabrió tu I-698, muchas veces después de una apelación o moción, o por un acuerdo de una corte. Tu solicitud de residencia permanente vuelve a estar en trámite. Espera un aviso de entrevista o una petición de evidencia."
+ },
+ "case-rejected-because-i-sent-an-incorrect-fee": {
+  "en": "Your I-698 was returned for a wrong payment. Legalization forms have their own fees, and settlement cases may follow special rules. Check uscis.gov/i-698 or your settlement instructions, correct the payment, and refile. Keep proof of the new payment.",
+  "es": "Te regresaron el I-698 por un pago incorrecto. Los formularios de legalización tienen sus propias tarifas, y los casos de acuerdos judiciales pueden tener reglas especiales. Revisa uscis.gov/i-698 o las instrucciones de tu acuerdo, corrige el pago y vuelve a presentar."
+ },
+ "expedite-request-received": {
+  "en": "USCIS logged your request to speed up the I-698. Expedites are considered for reasons like serious illness or urgent need to travel. Since a long-pending legalization case can affect jobs and travel, keep proof of the urgency ready.",
+  "es": "USCIS registró tu petición para acelerar el I-698. Consideran acelerar por razones como enfermedad grave o necesidad urgente de viajar. Como un caso de legalización pendiente afecta trabajo y viajes, ten listas pruebas de la urgencia."
+ },
+ "withdrawal-acknowledgement-notice-was-sent": {
+  "en": "USCIS confirmed you withdrew your I-698. The request for permanent residence is closed. Withdrawing can have serious effects on legalization status, so talk to an immigration attorney or accredited representative about where this leaves you.",
+  "es": "USCIS confirmó que retiraste tu I-698. La solicitud de residencia permanente queda cerrada. Retirarla puede tener efectos serios en tu estatus de legalización, así que habla con un abogado de inmigración o representante acreditado sobre tu situación."
+ },
+ "name-was-updated": {
+  "en": "USCIS updated your name on the I-698 record. Your green card will be printed with the name on file, so check that it matches your current legal documents. Older legalization papers may show a different name; keep proof of the change.",
+  "es": "USCIS actualizó tu nombre en el expediente del I-698. Tu green card se imprimirá con el nombre registrado, así que revisa que coincida con tus documentos legales actuales. Los papeles antiguos de legalización pueden tener otro nombre; guarda prueba del cambio."
+ },
+ "case-was-received-and-a-receipt-notice-was-emailed": {
+  "en": "Your I-698 receipt is in your USCIS online account. Download it and keep a printed copy with your legalization papers. Watch the account for an interview notice, which is common for this form. Keep your login safe.",
+  "es": "Tu recibo del I-698 está en tu cuenta de USCIS en línea. Descárgalo y guarda una copia impresa con tus papeles de legalización. Revisa la cuenta para ver el aviso de entrevista, que es común en este formulario."
+ },
+ "case-accepted-by-the-uscis-lockbox": {
+  "en": "USCIS accepted your paper I-698 and is processing the payment. A receipt notice comes next. Keep copies of everything you sent, especially old legalization documents that may be hard to replace. Never send originals unless asked.",
+  "es": "USCIS aceptó tu I-698 en papel y está procesando el pago. Lo siguiente es el aviso de recibo. Guarda copias de todo lo que mandaste, sobre todo los documentos antiguos de legalización que pueden ser difíciles de reponer."
+ },
+ "fees-were-waived": {
+  "en": "USCIS approved a fee waiver for your I-698. Your case now moves into normal processing. Keep the approval letter; if your case is part of a court settlement, it may also be useful to show you followed the settlement rules.",
+  "es": "USCIS aprobó la exención de pago de tu I-698. Tu caso sigue ahora el trámite normal. Guarda la carta de aprobación; si tu caso es parte de un acuerdo judicial, también puede servir para mostrar que seguiste las reglas del acuerdo."
+ },
+ "case-was-rejected-because-it-was-improperly-filed": {
+  "en": "Your I-698 was returned without review. Common causes are a missing signature, an old form edition, or filing without proof of temporary resident status. Read the notice, fix the problem and file again. Keep a copy of the notice.",
+  "es": "Te regresaron el I-698 sin revisarlo. Causas comunes: falta de firma, una edición vieja del formulario o presentarlo sin prueba de estatus de residente temporal. Lee el aviso, corrige el problema y preséntalo otra vez."
+ },
+ "case-was-approved-and-my-decision-was-emailed": {
+  "en": "Your I-698 approval is in your USCIS online account. You are now a permanent resident, and your green card should be produced and mailed next. Make sure your mailing address is current. Keep the approval notice safe.",
+  "es": "Tu aprobación del I-698 está en tu cuenta de USCIS en línea. Ya eres residente permanente y lo siguiente es que produzcan y te manden tu green card. Asegúrate de que tu dirección postal esté al día para recibirla."
+ },
+ "case-approval-was-certified-by-uscis": {
+  "en": "USCIS certified the approval of your I-698. This is an internal confirmation step. Your permanent residence stands as approved. Watch for the green card in the mail and check it carefully when it arrives. Keep the notice.",
+  "es": "USCIS certificó la aprobación de tu I-698. Es un paso interno de confirmación. Tu residencia permanente queda aprobada. Espera tu green card por correo y revísala con cuidado cuando llegue. Guarda este aviso con tus papeles de legalización."
+ },
+ "case-was-sent-to-the-department-of-state": {
+  "en": "This status is unusual for an I-698, because legalization applicants are already in the U.S. and USCIS decides the case. It may relate to a records request or a family member's case. Check the notice or contact USCIS to learn why.",
+  "es": "Este estatus es poco común en un I-698, porque quienes lo piden ya están en EE.UU. y USCIS decide el caso. Puede tener que ver con una petición de registros o con el caso de un familiar. Revisa el aviso o comunícate con USCIS para saber por qué."
+ },
+ "response-to-uscis-notice-of-intent-was-received": {
+  "en": "USCIS received your reply to its notice of intent on the I-698. That notice means the officer was leaning toward denial, perhaps over residence or the citizenship skills rule. Get help from an immigration attorney or accredited representative if you have not.",
+  "es": "USCIS recibió tu respuesta al aviso de intención sobre tu I-698. Ese aviso significa que el oficial pensaba negar, quizá por la residencia o por la regla de conocimientos básicos. Busca ayuda de un abogado de inmigración o representante acreditado si aún no la tienes."
+ },
+ "duplicate-notice-was-mailed": {
+  "en": "USCIS mailed a copy of a notice for your I-698. It is a duplicate, not a new decision. Keep it with your legalization file, since these old cases often need many records over time. Check the dates.",
+  "es": "USCIS mandó una copia de un aviso de tu I-698. Es un duplicado, no una nueva decisión. Guárdalo con tu expediente de legalización, porque estos casos antiguos muchas veces necesitan muchos registros con el tiempo."
+ },
+ "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+  "en": "A notice for your I-698 came back to USCIS undelivered. It could be your interview date. Update your address online or with Form AR-11 and ask USCIS to resend the notice right away. Missing it can hurt your case.",
+  "es": "Un aviso de tu I-698 regresó a USCIS sin entregarse. Puede ser la fecha de tu entrevista. Actualiza tu dirección en línea o con el Formulario AR-11 y pide a USCIS que reenvíe el aviso de inmediato."
+ },
+ "date-of-birth-was-updated": {
+  "en": "USCIS corrected your date of birth on the I-698 record. Check that it matches your passport or birth certificate, and that your green card shows the right date. Old legalization records sometimes have errors like this.",
+  "es": "USCIS corrigió tu fecha de nacimiento en el expediente del I-698. Revisa que coincida con tu pasaporte o acta de nacimiento y que tu green card muestre la fecha correcta. Los registros antiguos de legalización a veces tienen errores así."
+ },
+ "continuation-notice-was-mailed": {
+  "en": "USCIS sent a continuation notice for your I-698. It usually means the case is still open and another step is coming, such as an interview. It is not a decision. Keep your documents ready. Watch your mail.",
+  "es": "USCIS mandó un aviso de continuación de tu I-698. Normalmente significa que el caso sigue abierto y viene otro paso, como una entrevista. No es una decisión. Ten tus documentos listos y revisa tu correo."
+ },
+ "termination-notice-sent": {
+  "en": "USCIS sent a termination notice on your I-698 case. Temporary resident status under legalization can be terminated in some situations. This is serious; read the notice carefully and speak with an immigration attorney or accredited representative right away.",
+  "es": "USCIS mandó un aviso de terminación en tu caso I-698. El estatus de residente temporal por legalización puede terminarse en algunos casos. Es algo serio; lee el aviso con cuidado y habla de inmediato con un abogado de inmigración o representante acreditado."
+ },
+ "case-closed-benefit-received-by-other-means": {
+  "en": "USCIS closed your I-698 because you already got permanent residence another way, for example through a family petition. Check that your green card is valid and keep the closing notice with your records. No more action is needed here.",
+  "es": "USCIS cerró tu I-698 porque ya obtuviste la residencia permanente por otra vía, por ejemplo una petición familiar. Revisa que tu green card esté vigente y guarda el aviso de cierre con tus registros. No hace falta hacer nada más aquí."
+ },
+ "expedite-request-denied": {
+  "en": "USCIS will not speed up your I-698. The case stays in normal processing. If your situation becomes more urgent, you can ask again with new proof, or ask an accredited representative for help. Keep the notice on file.",
+  "es": "USCIS no va a acelerar tu I-698. El caso sigue en el trámite normal. Si tu situación se vuelve más urgente, puedes pedirlo de nuevo con pruebas nuevas o pedir ayuda a un representante acreditado."
+ },
+ "correspondence-was-received-and-uscis-is-reviewing-it": {
+  "en": "USCIS received something you sent about your I-698, such as a class certificate or new address. An officer will review it and add it to your legalization file. Keep a copy of what you sent.",
+  "es": "USCIS recibió algo que mandaste sobre tu I-698, como una constancia de clases o una nueva dirección. Un oficial lo revisará y lo agregará a tu expediente de legalización. Guarda una copia de lo que enviaste."
+ }
+}

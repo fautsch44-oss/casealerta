@@ -1,0 +1,150 @@
+{
+"case-was-received": {
+"en": "USCIS has your I-360 special immigrant petition. Because this form covers very different groups, such as VAWA self-petitioners, Special Immigrant Juveniles, widow(er)s and religious workers, your path and wait depend on the category you checked. Keep the receipt with any court order or employer letter you filed.",
+"es": "USCIS ya tiene tu petición de inmigrante especial I-360. Como este formulario cubre grupos muy distintos, como autopeticiones VAWA, Jóvenes Inmigrantes Especiales, viudos(as) y trabajadores religiosos, tu camino y tu espera dependen de la categoría que marcaste. Guarda el recibo junto con la orden de la corte o la carta del empleador que mandaste."
+},
+"case-was-received-and-a-receipt-notice-was-sent": {
+"en": "Your I-797C receipt for the I-360 is in the mail. If you filed under VAWA, USCIS sends it to the safe mailing address you gave, and your file is protected by special confidentiality rules. Save the receipt: it shows your receipt number and the filing date of your petition.",
+"es": "Viene por correo tu recibo I-797C del I-360. Si presentaste por VAWA, USCIS lo manda a la dirección segura que diste y tu expediente está protegido por reglas especiales de confidencialidad. Guarda el recibo: trae tu número de recibo y la fecha en que presentaste tu petición."
+},
+"fingerprint-fee-was-received": {
+"en": "USCIS recorded the biometrics part of your I-360 case. Some I-360 categories have no filing fee at all, such as VAWA and Special Immigrant Juvenile petitions, so this update mainly confirms intake. If biometrics are needed for your category, an appointment notice should follow.",
+"es": "USCIS registró la parte de biométricos de tu caso I-360. Algunas categorías del I-360 no pagan tarifa, como VAWA y Jóvenes Inmigrantes Especiales, así que esto sobre todo confirma la entrada del caso. Si tu categoría requiere biométricos, te llegará un aviso de cita."
+},
+"fingerprint-review-was-completed": {
+"en": "The background check from your I-360 biometrics is done. For VAWA self-petitioners, this check is part of the good moral character review. After it, the officer can continue with the rest of the petition, such as the evidence of abuse, the juvenile court order, or the religious job offer.",
+"es": "Ya terminó la revisión de antecedentes de tus biométricos del I-360. En las autopeticiones VAWA, esta revisión forma parte del análisis de buena conducta moral. Después, el oficial sigue con el resto de la petición, como las pruebas del abuso, la orden de la corte juvenil o la oferta de trabajo religioso."
+},
+"case-is-being-actively-reviewed-by-uscis": {
+"en": "An officer is reviewing your I-360. In VAWA cases, USCIS may first issue a prima facie notice that can help with certain public benefits while the full review continues. In religious worker cases, a site visit to the employer is possible. Keep your contact details current.",
+"es": "Un oficial está revisando tu I-360. En casos VAWA, USCIS puede mandar primero un aviso de prima facie que ayuda con ciertos beneficios públicos mientras sigue la revisión completa. En trabajadores religiosos, puede haber una visita al lugar de trabajo. Mantén tus datos de contacto al día."
+},
+"request-for-additional-evidence-was-sent": {
+"en": "USCIS needs more proof for your I-360. In VAWA cases it may ask for more evidence of the relationship, abuse or shared residence; in SIJ cases, details from the juvenile court order; in religious worker cases, proof of the job and past work. Reply before the deadline and consider help from an immigration attorney or accredited representative.",
+"es": "USCIS necesita más pruebas para tu I-360. En VAWA puede pedir más pruebas de la relación, del abuso o de que vivieron juntos; en SIJ, detalles de la orden de la corte juvenil; en trabajadores religiosos, pruebas del puesto y del trabajo previo. Responde antes de la fecha límite y busca apoyo de un abogado de inmigración o representante acreditado."
+},
+"request-for-initial-evidence-was-sent": {
+"en": "Your I-360 was missing a required starting document. Depending on your category, that could be the state juvenile court order for SIJ, the spouse's death certificate for a widow(er) petition, or the employer attestation for a religious worker. USCIS will wait until you send it by the deadline.",
+"es": "A tu I-360 le faltó un documento básico requerido. Según tu categoría, puede ser la orden de la corte juvenil estatal para SIJ, el acta de defunción del cónyuge para viudos(as) o la declaración del empleador para trabajadores religiosos. USCIS esperará hasta que lo mandes antes de la fecha límite."
+},
+"response-to-uscis-request-for-evidence-was-received": {
+"en": "USCIS received the documents you sent for your I-360. The officer will now continue the review with the new evidence. If approved, your next step depends on the category and on whether a visa number is available for you, which you can check in the monthly Visa Bulletin.",
+"es": "USCIS recibió los documentos que mandaste para tu I-360. El oficial seguirá la revisión con las nuevas pruebas. Si lo aprueban, tu siguiente paso depende de la categoría y de si hay número de visa disponible para ti, lo que puedes ver en el Boletín de Visas mensual."
+},
+"case-was-transferred-and-a-new-office-has-jurisdiction": {
+"en": "Your I-360 moved to another USCIS office. VAWA self-petitions are handled by specially trained staff, and other categories may move between centers to balance workloads. Your receipt number stays the same and you do not need to file anything new.",
+"es": "Tu I-360 pasó a otra oficina de USCIS. Las autopeticiones VAWA las maneja personal con capacitación especial, y otras categorías pueden moverse entre centros para repartir el trabajo. Tu número de recibo sigue igual y no tienes que presentar nada nuevo."
+},
+"case-was-approved": {
+"en": "Your I-360 was approved. This is not a green card yet: it makes you eligible to apply for one. If a visa number is available in your category and you are in the U.S., the next step is usually an I-485; otherwise you wait for your date in the Visa Bulletin. Approved VAWA self-petitioners may also qualify for deferred action and a work permit.",
+"es": "Aprobaron tu I-360. Todavía no es green card: te hace elegible para pedirla. Si hay número de visa en tu categoría y estás en EE.UU., lo siguiente suele ser el I-485; si no, esperas tu fecha en el Boletín de Visas. Quienes tienen VAWA aprobada también pueden calificar para acción diferida y permiso de trabajo."
+},
+"document-was-mailed-to-me": {
+"en": "For an I-360, the mailed document is usually the approval notice (Form I-797) or another decision notice. Keep the original safe, because you will need a copy when you file for a green card or a work permit. VAWA notices go to the safe address on file.",
+"es": "En el I-360, el documento que te mandan suele ser el aviso de aprobación (Formulario I-797) u otro aviso de decisión. Guarda el original en un lugar seguro, porque vas a necesitar una copia cuando pidas la green card o el permiso de trabajo. Los avisos de VAWA llegan a la dirección segura registrada."
+},
+"notice-explaining-uscis-actions-was-mailed": {
+"en": "USCIS mailed you a letter about your I-360, and the status does not say what it is. It could be a prima facie notice for VAWA, an evidence request, a site visit notice, or a decision. Read it as soon as it arrives and note any deadline.",
+"es": "USCIS te mandó una carta sobre tu I-360 y el estatus no dice qué es. Puede ser un aviso de prima facie para VAWA, una petición de pruebas, un aviso de visita al lugar de trabajo o una decisión. Léela en cuanto llegue y anota cualquier fecha límite."
+},
+"case-was-denied": {
+"en": "Your I-360 was denied. The notice explains why and whether you can file an appeal or motion on Form I-290B, and by when. In VAWA and SIJ cases a denial can affect safety and future options, so speak with an immigration attorney or accredited representative quickly.",
+"es": "Te negaron el I-360. El aviso explica por qué y si puedes apelar o presentar una moción con el Formulario I-290B, y hasta cuándo. En VAWA y SIJ una negación puede afectar tu seguridad y tus opciones, así que habla pronto con un abogado de inmigración o representante acreditado."
+},
+"case-was-reopened": {
+"en": "Your I-360 is open again after a decision, usually because a motion on Form I-290B was granted or USCIS reopened it on its own. The officer will review the case again, and you may get new requests for evidence. Keep your address, or VAWA safe address, current.",
+"es": "Tu I-360 se abrió de nuevo después de una decisión, casi siempre porque aceptaron una moción con el Formulario I-290B o USCIS lo reabrió por su cuenta. El oficial lo revisará otra vez y quizá te pidan más pruebas. Mantén al día tu dirección o tu dirección segura de VAWA."
+},
+"case-rejected-because-i-sent-an-incorrect-fee": {
+"en": "Your I-360 came back because of the payment. Fees differ by category: some, such as VAWA self-petitions and Special Immigrant Juveniles, have no fee, while religious workers and others do pay. Check the fee chart on uscis.gov for your category and file again.",
+"es": "Te regresaron el I-360 por el pago. La tarifa cambia según la categoría: algunas, como VAWA y Jóvenes Inmigrantes Especiales, no pagan, y otras como trabajadores religiosos sí pagan. Revisa la tabla de tarifas en uscis.gov para tu categoría y vuelve a presentar."
+},
+"expedite-request-received": {
+"en": "USCIS logged your request to speed up your I-360. Expedites are granted only when the reason meets USCIS criteria, such as urgent safety concerns or a young person about to age out of SIJ eligibility under state law. Keep supporting proof ready in case they ask.",
+"es": "USCIS registró tu petición para acelerar tu I-360. Solo aprueban acelerar cuando la razón cumple sus criterios, como un riesgo urgente de seguridad o un joven que está por perder la elegibilidad de SIJ por la edad según la ley estatal. Ten tus pruebas listas por si las piden."
+},
+"withdrawal-acknowledgement-notice-was-sent": {
+"en": "USCIS confirmed the withdrawal of your I-360. If a religious employer withdrew the petition, the worker loses that basis for a green card. In VAWA cases only the self-petitioner can withdraw. Any fee paid is not refunded.",
+"es": "USCIS confirmó el retiro de tu I-360. Si un empleador religioso retiró la petición, el trabajador pierde esa base para la green card. En VAWA solo la persona que hizo la autopetición puede retirarla. Si pagaste tarifa, no se devuelve."
+},
+"name-was-updated": {
+"en": "USCIS updated the name on your I-360. This matters because the same record carries over to your I-485 or visa case later. Make sure you sent proof of the legal change and that the name matches your passport or ID.",
+"es": "USCIS actualizó el nombre en tu I-360. Es importante porque ese mismo dato pasa después a tu I-485 o a tu caso de visa. Asegúrate de haber mandado la prueba del cambio legal y de que el nombre coincida con tu pasaporte o identificación."
+},
+"case-was-received-and-a-receipt-notice-was-emailed": {
+"en": "Your I-360 receipt was sent electronically to your USCIS online account or email. Download and keep it with your other I-360 papers. For VAWA self-petitioners, make sure that email and account are private and not accessible to the abuser.",
+"es": "Tu recibo del I-360 llegó de forma electrónica a tu cuenta en línea de USCIS o a tu correo. Descárgalo y guárdalo. Si es una autopetición VAWA, asegúrate de que ese correo y esa cuenta sean privados y que el agresor no pueda entrar."
+},
+"case-accepted-by-the-uscis-lockbox": {
+"en": "Your I-360 passed the intake check at the lockbox or designated filing location and was accepted for processing. Next, it gets a receipt number and goes to the office that handles your category. Watch for the I-797C receipt.",
+"es": "Tu I-360 pasó la revisión de entrada en el lockbox o lugar de presentación y fue aceptado para trámite. Ahora recibe número de recibo y pasa a la oficina que maneja tu categoría. Espera el recibo I-797C."
+},
+"fees-were-waived": {
+"en": "USCIS approved a fee waiver for your I-360 case. This applies only to I-360 categories that charge a fee and allow waivers; VAWA and SIJ petitions are already free. Your petition now moves forward like any other.",
+"es": "USCIS aprobó una exención de pago en tu caso I-360. Esto solo aplica a categorías del I-360 que cobran tarifa y permiten exención; las peticiones VAWA y SIJ ya son gratis. Tu petición ahora avanza igual que cualquier otra."
+},
+"case-was-rejected-because-it-was-improperly-filed": {
+"en": "Your I-360 was sent back and is not pending. Common causes are a missing signature, filing at the wrong address for your category, or an outdated form edition. Fix the problem in the letter and file again; the new filing date will count.",
+"es": "Te regresaron tu I-360 y no está en trámite. Causas comunes: faltó la firma, lo mandaste a la dirección equivocada para tu categoría o usaste una edición vieja. Corrige lo que dice la carta y vuelve a presentarlo; contará la nueva fecha."
+},
+"biometrics-appointment-was-scheduled": {
+"en": "You have a biometrics appointment for your I-360 case. Bring the notice and a photo ID. For VAWA self-petitioners, the notice goes to your safe address; you can go alone and do not need to bring anyone connected to your case.",
+"es": "Tienes cita de biométricos para tu caso I-360. Lleva el aviso y una identificación con foto. En autopeticiones VAWA, el aviso llega a tu dirección segura; puedes ir solo(a) y no necesitas llevar a nadie relacionado con tu caso."
+},
+"case-was-updated-to-show-fingerprints-were-taken": {
+"en": "Your I-360 biometrics are recorded. The background check now runs while the officer reviews your petition evidence. Most I-360 cases do not need an interview, so the next update is often a decision or a request for more evidence.",
+"es": "Ya quedaron registrados tus biométricos del I-360. Ahora corre la revisión de antecedentes mientras el oficial revisa las pruebas de tu petición. Casi ningún I-360 requiere entrevista, así que lo siguiente suele ser una decisión o una petición de más pruebas."
+},
+"case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+"en": "USCIS shows that you missed an in-person appointment for your I-360, usually biometrics. Contact USCIS soon to explain and request a new date, because a missed appointment can lead to denial for abandonment. VAWA filers can also use their safe contact channels.",
+"es": "USCIS indica que faltaste a una cita en persona de tu I-360, casi siempre de biométricos. Comunícate pronto con USCIS para explicar y pedir nueva fecha, porque faltar puede llevar a que lo nieguen por abandono. Quienes presentaron por VAWA pueden usar sus medios seguros de contacto."
+},
+"case-was-approved-and-my-decision-was-emailed": {
+"en": "Your I-360 approval was delivered to your USCIS online account. Download it and keep copies. You will need it to file an I-485 when a visa number is available in your category, or to request a work permit if your category allows it.",
+"es": "La aprobación de tu I-360 llegó a tu cuenta en línea de USCIS. Descárgala y guarda copias. La vas a necesitar para presentar el I-485 cuando haya número de visa en tu categoría, o para pedir permiso de trabajo si tu categoría lo permite."
+},
+"case-approval-was-certified-by-uscis": {
+"en": "This status is not common on an I-360. It usually means an approval passed an extra internal check. Your next steps stay the same: keep the approval notice and watch the Visa Bulletin for when you can apply for the green card.",
+"es": "Este estatus no es común en el I-360. Suele indicar que una aprobación pasó una revisión interna adicional. Tus siguientes pasos no cambian: guarda el aviso de aprobación y revisa el Boletín de Visas para saber cuándo puedes pedir la green card."
+},
+"response-to-uscis-notice-of-intent-was-received": {
+"en": "USCIS received your reply to its notice that it planned to deny or revoke your I-360. In religious worker or VAWA cases this can follow a site visit or concerns about evidence. The officer will decide based on what you sent; stay in touch with your attorney or accredited representative.",
+"es": "USCIS recibió tu respuesta al aviso de que pensaba negar o revocar tu I-360. En trabajadores religiosos o VAWA puede venir después de una visita o de dudas sobre las pruebas. El oficial decidirá con lo que mandaste; mantente en contacto con tu abogado o representante acreditado."
+},
+"case-is-pending-at-a-local-office": {
+"en": "Your I-360 is at a local field office. This can happen when it is being reviewed together with a pending I-485, or when an officer needs to see you in person. Watch for an appointment notice and bring all the documents it lists.",
+"es": "Tu I-360 está en una oficina local. Puede pasar cuando lo revisan junto con un I-485 pendiente o cuando un oficial necesita verte en persona. Espera un aviso de cita y lleva todos los documentos que pida."
+},
+"duplicate-notice-was-mailed": {
+"en": "USCIS mailed another copy of a notice for your I-360, often because you requested it. A duplicate approval notice is useful if you lost the original and need it for your green card or work permit filing.",
+"es": "USCIS te mandó otra copia de un aviso de tu I-360, muchas veces porque la pediste. Una copia de la aprobación sirve si perdiste la original y la necesitas para pedir tu green card o tu permiso de trabajo, que es justo lo que sigue."
+},
+"notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+"en": "A letter about your I-360 could not be delivered and went back to USCIS. It may contain a deadline. Update your address, or your VAWA safe address, with USCIS and contact them to find out what was sent.",
+"es": "Una carta de tu I-360 no se pudo entregar y regresó a USCIS. Puede tener una fecha límite. Actualiza tu dirección, o tu dirección segura de VAWA, con USCIS y comunícate con ellos para saber qué te mandaron y pedir que la reenvíen."
+},
+"date-of-birth-was-updated": {
+"en": "USCIS corrected your date of birth on the I-360. In Special Immigrant Juvenile cases, age is central to eligibility, and in every category the date carries to your green card. Confirm it matches your birth certificate and the court order if you have one.",
+"es": "USCIS corrigió tu fecha de nacimiento en el I-360. En Jóvenes Inmigrantes Especiales la edad es clave para calificar, y en todas las categorías la fecha pasa a tu green card. Confirma que coincida con tu acta de nacimiento y con la orden de la corte si tienes una."
+},
+"continuation-notice-was-mailed": {
+"en": "USCIS paused your I-360 for a reason explained in the notice. It may be waiting for records, a site visit result, or more information from you. Read it carefully, answer anything requested by its date, and keep copies of what you send.",
+"es": "USCIS pausó tu I-360 por una razón que explica el aviso. Puede estar esperando registros, el resultado de una visita o más información tuya. Léelo con cuidado, responde lo que pidan antes de su fecha y guarda copias de lo que mandes."
+},
+"termination-notice-sent": {
+"en": "USCIS ended your I-360 case without approval, or ended a benefit tied to it. This is serious, especially in VAWA, SIJ or religious worker cases where it affects your path to a green card. Read the notice for the reason and contact an immigration attorney or accredited representative right away.",
+"es": "USCIS terminó tu caso I-360 sin aprobarlo, o terminó un beneficio ligado a él. Es serio, sobre todo en VAWA, SIJ o trabajadores religiosos, porque afecta tu camino a la green card. Lee el aviso para saber la razón y busca de inmediato a un abogado de inmigración o representante acreditado."
+},
+"case-closed-benefit-received-by-other-means": {
+"en": "USCIS closed your I-360 because you already got the benefit another way, for example a green card through a different petition or status. Keep proof of your current status. If you think the closure is a mistake, contact USCIS with your receipt number.",
+"es": "USCIS cerró tu I-360 porque ya obtuviste el beneficio por otra vía, por ejemplo una green card por otra petición o estatus. Guarda la prueba de tu estatus actual. Si crees que el cierre es un error, comunícate con USCIS con tu número de recibo."
+},
+"expedite-request-denied": {
+"en": "USCIS will not speed up your I-360, but your petition keeps its place in line. If your situation becomes more urgent, for example a new safety risk or an approaching age deadline, you can ask again with new proof.",
+"es": "USCIS no va a acelerar tu I-360, pero tu petición sigue en su lugar en la fila. Si tu situación se vuelve más urgente, por ejemplo un nuevo riesgo de seguridad o una fecha de edad que se acerca, puedes pedirlo otra vez con pruebas nuevas."
+},
+"correspondence-was-received-and-uscis-is-reviewing-it": {
+"en": "USCIS received a letter or documents you sent about your I-360, such as an address change, a new court order, or extra evidence. An officer will add it to the file. You do not need to resend it unless USCIS asks.",
+"es": "USCIS recibió una carta o documentos que mandaste sobre tu I-360, como un cambio de dirección, una nueva orden de la corte o pruebas adicionales. Un oficial lo agregará al expediente. No necesitas reenviarlo salvo que USCIS lo pida."
+}
+}

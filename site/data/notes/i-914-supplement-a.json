@@ -1,0 +1,150 @@
+{
+  "case-was-received": {
+    "en": "The Supplement A for your family member is in line. Each relative gets a separate receipt and case, but it is linked to the main I-914 of the trafficking survivor. A relative's case can be approved only once the principal's T visa application is approved, so watch both receipt numbers.",
+    "es": "El Suplemento A de tu familiar ya está en fila. Cada familiar recibe su propio recibo y caso, pero va ligado al I-914 principal de la víctima de trata. El caso de un familiar solo se puede aprobar cuando se aprueba la solicitud de visa T de la persona principal, así que sigue ambos números de recibo."
+  },
+  "case-was-received-and-a-receipt-notice-was-sent": {
+    "en": "The I-797C for this Supplement A is in the mail. Information in T visa cases is protected by special confidentiality rules, so keep it in a safe place and make sure the mailing address is one where it is safe to receive mail. Share a copy with your attorney or advocate.",
+    "es": "El I-797C de este Suplemento A viene por correo. La información de los casos de visa T está protegida por reglas especiales de confidencialidad, así que guárdalo en un lugar seguro y asegúrate de que la dirección sea un lugar donde sea seguro recibir correo. Comparte una copia con tu abogado o defensor."
+  },
+  "fingerprint-fee-was-received": {
+    "en": "T visa filings, including Supplement A, generally have no filing or biometrics fee, so this status is unusual here. It may simply confirm the biometrics step was recorded. A relative living in the U.S. should expect an appointment notice; relatives abroad usually give biometrics later through the consulate.",
+    "es": "Los trámites de visa T, incluido el Suplemento A, por lo general no pagan costo de presentación ni de biométricos, así que este estatus es raro aquí. Puede solo confirmar que se registró el paso de biométricos. Un familiar que vive en EE.UU. debe esperar aviso de cita; los que están fuera suelen darlos después en el consulado."
+  },
+  "fingerprint-review-was-completed": {
+    "en": "The background check from your relative's fingerprints is complete. The derivative case still depends on the principal's I-914. If the principal's case is approved, the Supplement A can move to a decision; if it is still pending, the relative's file waits with it.",
+    "es": "Terminó la revisión de antecedentes con las huellas de tu familiar. El caso derivado sigue dependiendo del I-914 principal. Si aprueban el caso principal, el Suplemento A puede pasar a decisión; si todavía está pendiente, el expediente del familiar espera junto con él."
+  },
+  "case-is-being-actively-reviewed-by-uscis": {
+    "en": "An officer is reviewing this Supplement A. They check the family relationship to the principal and whether the relative qualifies, and they may look at the principal's case at the same time. USCIS may first make a bona fide determination, which can bring deferred action and work permission for relatives in the U.S.",
+    "es": "Un oficial está revisando este Suplemento A. Verifica el parentesco con la persona principal y si el familiar califica, y puede revisar el caso principal al mismo tiempo. USCIS puede hacer primero una determinación de buena fe, que puede dar acción diferida y permiso de trabajo a los familiares que están en EE.UU."
+  },
+  "request-for-additional-evidence-was-sent": {
+    "en": "Supplement A RFEs usually ask for proof of the family relationship, such as birth or marriage certificates, identity documents, or information about the relative's past immigration or criminal history. Answer before the deadline, ideally with the attorney or accredited representative helping with the T visa case.",
+    "es": "En el Suplemento A, el RFE suele pedir prueba del parentesco, como actas de nacimiento o de matrimonio, documentos de identidad, o información sobre el historial migratorio o penal del familiar. Responde antes del plazo, de preferencia con el abogado o representante acreditado que lleva el caso de visa T."
+  },
+  "request-for-initial-evidence-was-sent": {
+    "en": "Something required was missing from the Supplement A, such as proof of the relationship, the relative's photos, or a needed waiver form. Send exactly what the notice lists before the deadline, and tell the attorney or advocate handling the principal's case.",
+    "es": "Faltó algo obligatorio en el Suplemento A, como prueba del parentesco, las fotos del familiar o un formulario de perdón necesario. Manda exactamente lo que pide el aviso antes del plazo y avisa al abogado o defensor que lleva el caso principal."
+  },
+  "response-to-uscis-request-for-evidence-was-received": {
+    "en": "USCIS has the evidence for this Supplement A. If it proves the relationship and the principal's I-914 is approved, the relative's case can move to approval. Keep copies of everything sent, stored somewhere private, and let the attorney or advocate know it arrived.",
+    "es": "USCIS ya tiene las pruebas de este Suplemento A. Si demuestran el parentesco y el I-914 principal está aprobado, el caso del familiar puede pasar a aprobación. Guarda copias de todo lo que mandaste en un lugar privado y seguro."
+  },
+  "case-was-transferred-and-a-new-office-has-jurisdiction": {
+    "en": "This Supplement A moved to another USCIS office. T visa cases are handled by specially trained staff, and files may move between offices to balance work. Check the notice or online account for the new office and keep the principal's case linked.",
+    "es": "Este Suplemento A pasó a otra oficina de USCIS. Los casos de visa T los maneja personal con capacitación especial, y los expedientes pueden moverse entre oficinas para repartir el trabajo. Revisa el aviso o la cuenta en línea para ver la nueva oficina y mantén ligado el caso principal."
+  },
+  "case-was-approved": {
+    "en": "The Supplement A was approved, so your relative has derivative T status. If they are in the U.S., the approval notice usually includes their arrival-departure record. If they are abroad, they apply for a T visa at a U.S. consulate. Later, T status can lead to a green card through Form I-485.",
+    "es": "Aprobaron el Suplemento A, así que tu familiar tiene estatus T derivado. Si está en EE.UU., el aviso de aprobación normalmente incluye su registro de entrada y salida. Si está fuera, pide la visa T en un consulado de EE.UU. Más adelante, el estatus T puede llevar a la green card con el formulario I-485."
+  },
+  "document-was-mailed-to-me": {
+    "en": "For a Supplement A, the document mailed is usually the approval notice, which for a relative in the U.S. often includes the I-94 record proving T status. Keep it safe; it is needed for a work permit, travel planning, and later the green card application.",
+    "es": "En un Suplemento A, el documento enviado suele ser el aviso de aprobación, que para un familiar en EE.UU. muchas veces incluye el registro I-94 que prueba el estatus T. Guárdalo bien; se necesita para el permiso de trabajo, para planear viajes y después para la solicitud de green card."
+  },
+  "notice-explaining-uscis-actions-was-mailed": {
+    "en": "For a Supplement A, this letter might explain a bona fide determination, ask for more evidence, or say the case is waiting on the principal's I-914. Read it right away and share it with the attorney or advocate on the case.",
+    "es": "En un Suplemento A, esta carta puede explicar una determinación de buena fe, pedir más pruebas o decir que el caso espera el I-914 principal. Léela de inmediato y compártela con el abogado o defensor que lleva el caso."
+  },
+  "case-was-denied": {
+    "en": "A denied Supplement A can often be appealed to the Administrative Appeals Office or challenged by motion with Form I-290B within a short deadline. A denial may also follow a denial of the principal's I-914. Talk to an immigration attorney or accredited representative right away.",
+    "es": "Un Suplemento A negado muchas veces se puede apelar ante la Oficina Administrativa de Apelaciones o impugnar con una moción en el formulario I-290B dentro de un plazo corto. También puede negarse porque negaron el I-914 principal. Habla de inmediato con un abogado de inmigración o un representante acreditado."
+  },
+  "case-was-reopened": {
+    "en": "This Supplement A is active again, often after a motion, a successful appeal, or the reopening of the principal's I-914. The officer will review the relative's eligibility again and may ask for updated documents, such as current identity papers or proof of the relationship.",
+    "es": "Este Suplemento A está activo otra vez, muchas veces por una moción, una apelación ganada o porque reabrieron el I-914 principal. El oficial volverá a revisar si el familiar califica y puede pedir documentos actualizados para decidir."
+  },
+  "case-rejected-because-i-sent-an-incorrect-fee": {
+    "en": "This is unusual, because Supplement A normally has no filing fee. The rejection may concern a fee for a form sent with it, such as a waiver of inadmissibility, unless a fee waiver was requested. Read the notice, fix the issue, and refile.",
+    "es": "Esto es raro, porque el Suplemento A normalmente no tiene costo. El rechazo puede ser por el pago de un formulario que iba con él, como un perdón de inadmisibilidad, si no se pidió exención. Lee el aviso, corrige el problema y vuelve a presentarlo."
+  },
+  "expedite-request-received": {
+    "en": "USCIS is reviewing a request to speed up this Supplement A. In T visa cases, urgent safety risks to relatives, especially those abroad, may be a reason to ask. Include proof, and coordinate with the attorney or advocate on the principal's case.",
+    "es": "USCIS está revisando una petición para acelerar este Suplemento A. En casos de visa T, un peligro urgente para los familiares, sobre todo los que están fuera, puede ser motivo para pedirlo. Incluye pruebas y coordina con el abogado o defensor del caso principal."
+  },
+  "withdrawal-acknowledgement-notice-was-sent": {
+    "en": "This Supplement A was withdrawn, so the relative will not get derivative T status from it. The principal's I-914 is not affected. If circumstances change, a new Supplement A may be possible while the principal remains in T status.",
+    "es": "Este Suplemento A quedó retirado, así que el familiar no recibirá estatus T derivado por este caso. El I-914 principal no se ve afectado. Si las cosas cambian, puede ser posible un Suplemento A nuevo mientras la persona principal siga con estatus T."
+  },
+  "name-was-updated": {
+    "en": "The name on this Supplement A record was updated. Make sure it matches the relative's passport or identity document and the relationship documents, because the consulate or USCIS will need to match them for a visa or work permit.",
+    "es": "Se actualizó el nombre en este Suplemento A. Asegúrate de que coincida con el pasaporte o documento de identidad del familiar y con los documentos de parentesco, porque el consulado o USCIS tendrán que relacionarlos para una visa o un permiso de trabajo."
+  },
+  "case-was-received-and-a-receipt-notice-was-emailed": {
+    "en": "The Supplement A receipt arrived by email through a USCIS online account. Save the PDF somewhere private, given the confidentiality of T visa cases. Each relative has a separate receipt number, so label each one clearly.",
+    "es": "El recibo del Suplemento A llegó por correo electrónico mediante una cuenta en línea de USCIS. Guarda el PDF en un lugar privado, por la confidencialidad de los casos de visa T. Cada familiar tiene su propio número de recibo, así que identifica bien cada uno."
+  },
+  "case-accepted-by-the-uscis-lockbox": {
+    "en": "The Supplement A package was accepted for processing. Because T visa forms normally have no fee, this mainly confirms the package was received and is being entered into the system. Separate receipt notices for each relative listed should come next.",
+    "es": "El paquete del Suplemento A fue aceptado para trámite. Como los formularios de visa T normalmente no tienen costo, esto sobre todo confirma que se recibió y se está capturando. Lo siguiente son los recibos de cada familiar, uno por persona."
+  },
+  "fees-were-waived": {
+    "en": "Supplement A itself has no filing fee, so this waiver likely covers a related form sent with it, such as a waiver of inadmissibility. The relative's case continues as usual. Keep the notice with the T visa records.",
+    "es": "El Suplemento A no tiene costo, así que esta exención probablemente cubre un formulario relacionado que iba con él, como un perdón de inadmisibilidad. El caso del familiar sigue igual. Guarda el aviso con los papeles de la visa T."
+  },
+  "case-was-rejected-because-it-was-improperly-filed": {
+    "en": "This Supplement A was returned without review, for example because of a missing signature, an old form edition, or filing without a pending or approved principal I-914. Fix the problem and refile, ideally with help from the T visa attorney.",
+    "es": "Te regresaron este Suplemento A sin revisarlo, por ejemplo por falta de firma, una edición vieja del formulario o presentarlo sin un I-914 principal pendiente o aprobado. Corrige el problema y vuelve a presentarlo, de preferencia con ayuda del abogado de la visa T."
+  },
+  "biometrics-appointment-was-scheduled": {
+    "en": "A biometrics appointment is set for the relative in this Supplement A. Bring the notice and a photo ID, such as a passport. This step is for relatives in the U.S.; going is important because the derivative case cannot be approved without it.",
+    "es": "Hay cita de biométricos para el familiar de este Suplemento A. Lleva el aviso y una identificación con foto, como pasaporte. Este paso es para familiares que están en EE.UU.; es importante ir, porque el caso derivado no se aprueba sin él."
+  },
+  "case-was-updated-to-show-fingerprints-were-taken": {
+    "en": "USCIS recorded the relative's biometrics for this Supplement A. Background checks run next. The case will then move toward a decision, which still depends on the principal's I-914 being approved, so a quiet period after this step is normal.",
+    "es": "USCIS registró los biométricos del familiar para este Suplemento A. Ahora corren las revisiones de antecedentes. Luego el caso avanzará hacia una decisión, que sigue dependiendo de que aprueben el I-914 principal de la víctima."
+  },
+  "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+    "en": "The relative missed a biometrics appointment for this Supplement A. USCIS can deny the case as abandoned if this is not fixed. Contact USCIS right away to reschedule, and if safety concerns kept them away, tell the attorney or advocate.",
+    "es": "El familiar faltó a la cita de biométricos de este Suplemento A. USCIS puede negar el caso por abandono si no se arregla. Comunícate de inmediato con USCIS para cambiar la cita y, si un tema de seguridad le impidió ir, avisa al abogado o defensor."
+  },
+  "case-was-approved-and-my-decision-was-emailed": {
+    "en": "The Supplement A approval is in the online account. Save it privately. A relative in the U.S. can use it to apply for a work permit; a relative abroad will use it when applying for a T visa at the consulate.",
+    "es": "La aprobación del Suplemento A está en la cuenta en línea. Guárdala en privado. Un familiar en EE.UU. puede usarla para pedir permiso de trabajo; un familiar en el extranjero la usará al pedir la visa T en el consulado de EE.UU."
+  },
+  "case-approval-was-certified-by-uscis": {
+    "en": "For a Supplement A, this may mean USCIS confirmed the approval to the State Department so a relative abroad can apply for a T visa at a U.S. consulate. It does not change the approval itself.",
+    "es": "En un Suplemento A, esto puede significar que USCIS confirmó la aprobación al Departamento de Estado para que un familiar en el extranjero pueda pedir la visa T en un consulado de EE.UU. No cambia la aprobación en sí."
+  },
+  "response-to-uscis-notice-of-intent-was-received": {
+    "en": "USCIS has the answer to a notice of intent to deny this Supplement A. The officer will weigh it before deciding. Given what is at stake for the family, an attorney's review of the response is strongly advised.",
+    "es": "USCIS ya tiene la respuesta al aviso de intención de negar este Suplemento A. El oficial la valorará antes de decidir. Por lo que está en juego para la familia, se recomienda mucho que un abogado revise la respuesta."
+  },
+  "case-is-pending-at-a-local-office": {
+    "en": "T visa supplements are usually decided by a central USCIS office, so a field office status is uncommon. It may mean an interview or identity check was requested for the relative. Watch for an appointment notice and inform the attorney.",
+    "es": "Los suplementos de visa T normalmente los decide una oficina central de USCIS, así que un estatus en oficina local es poco común. Puede significar que pidieron una entrevista o verificación de identidad del familiar. Pendiente de un aviso de cita y avisa al abogado."
+  },
+  "duplicate-notice-was-mailed": {
+    "en": "A copy of a Supplement A notice is on its way, perhaps the receipt or approval. A duplicate approval can be useful when a relative abroad needs it for the consulate. The case itself does not change.",
+    "es": "Viene en camino una copia de un aviso del Suplemento A, quizá el recibo o la aprobación. Una copia de la aprobación puede servir cuando un familiar en el extranjero la necesita para el consulado. El caso en sí no cambia."
+  },
+  "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+    "en": "A Supplement A notice came back undelivered. Use a safe mailing address, which can be your attorney's or advocate's office. Then check the online account, since a missed RFE or appointment can lead to denial.",
+    "es": "Un aviso del Suplemento A regresó sin entregarse. Usa una dirección segura para el correo, que puede ser la oficina de tu abogado o defensor. Luego revisa la cuenta en línea, porque perder un RFE o una cita puede llevar a una negación."
+  },
+  "date-of-birth-was-updated": {
+    "en": "The birth date on this Supplement A record was corrected. For children and siblings, age matters for who qualifies as a derivative, so check that the new date matches the relative's birth certificate and passport.",
+    "es": "Se corrigió la fecha de nacimiento en este Suplemento A. En hijos y hermanos, la edad importa para saber quién califica como derivado, así que revisa que la fecha nueva coincida con el acta de nacimiento y el pasaporte del familiar."
+  },
+  "continuation-notice-was-mailed": {
+    "en": "A continuation notice on a Supplement A may relate to derivative T status or work permission continuing while an extension or green card application is pending. Read it carefully for the period it covers and keep it with the approval.",
+    "es": "Un aviso de continuación en un Suplemento A puede referirse a que el estatus T derivado o el permiso de trabajo siguen mientras está pendiente una extensión o una solicitud de green card. Léelo con cuidado para ver el periodo que cubre y guárdalo con la aprobación."
+  },
+  "termination-notice-sent": {
+    "en": "USCIS ended this derivative T case or status. This can happen if the principal's T status is revoked or if the relative no longer qualifies. Read the reason carefully and contact an immigration attorney or accredited representative right away.",
+    "es": "USCIS terminó este caso o estatus T derivado. Esto puede pasar si revocan el estatus T de la persona principal o si el familiar ya no califica. Lee la razón con cuidado y comunícate de inmediato con un abogado de inmigración o representante acreditado."
+  },
+  "case-closed-benefit-received-by-other-means": {
+    "en": "This Supplement A was closed because the relative already got status another way, such as through a different petition or their own application. If that is correct, no further action is needed on this case.",
+    "es": "Cerraron este Suplemento A porque el familiar ya obtuvo estatus por otra vía, como otra petición o su propia solicitud. Si eso es correcto, no hace falta hacer nada más con este caso derivado de la visa T."
+  },
+  "expedite-request-denied": {
+    "en": "USCIS will not rush this Supplement A, so it stays in normal order. If a relative faces danger, talk to the attorney or advocate about other protections and whether new evidence supports another request. The case itself is not harmed by the denied expedite.",
+    "es": "USCIS no va a acelerar este Suplemento A, así que sigue en su orden normal. Si un familiar corre peligro, habla con el abogado o defensor sobre otras protecciones y si pruebas nuevas permiten otra petición."
+  },
+  "correspondence-was-received-and-uscis-is-reviewing-it": {
+    "en": "USCIS received something about this Supplement A, such as a new safe address, relationship documents, or attorney paperwork. It will be added to the relative's file, and you will usually hear back only if more information is needed to decide.",
+    "es": "USCIS recibió algo sobre este Suplemento A, como una dirección segura nueva, documentos de parentesco o papeles del abogado. Lo agregarán al expediente del familiar y normalmente solo te contestan si hace falta algo más para decidir."
+  }
+}

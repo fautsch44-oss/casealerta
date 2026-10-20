@@ -1,0 +1,178 @@
+{
+"case-was-received": {
+"en": "USCIS has the investor's petition to remove conditions. Filing on time keeps conditional residence alive while the case is pending. The receipt notice works together with your expiring 2-year green card as proof of status; check the notice for how long the extension lasts.",
+"es": "USCIS tiene la petición del inversionista para quitar condiciones. Presentarla a tiempo mantiene viva la residencia condicional mientras el caso está pendiente. El aviso de recibo, junto con tu green card de 2 años vencida o por vencer, sirve como prueba de estatus; revisa en el aviso cuánto dura la extensión."
+},
+"case-was-received-and-a-receipt-notice-was-sent": {
+"en": "Your I-829 receipt notice is in the mail. This notice is valuable: carried with your conditional green card, it shows your status is extended for the period printed on it. Make copies for travel, work and any family members included on the petition.",
+"es": "Tu aviso de recibo del I-829 viene por correo. Este aviso vale mucho: junto con tu green card condicional, demuestra que tu estatus está extendido por el periodo impreso en él. Saca copias para viajar, trabajar y para los familiares incluidos en la petición."
+},
+"fingerprint-fee-was-received": {
+"en": "USCIS confirmed the biometrics payment for your I-829. The investor and each family member on the petition usually give fingerprints. A biometrics appointment notice should follow, or USCIS may reuse fingerprints taken earlier. Either way, keep your mailing address current.",
+"es": "USCIS confirmó el pago de biométricos de tu I-829. El inversionista y cada familiar incluido en la petición normalmente dan huellas. Debe llegar un aviso de cita de biométricos, o USCIS puede reutilizar huellas tomadas antes."
+},
+"fingerprint-review-was-completed": {
+"en": "The background check from your I-829 biometrics is back. This is one part of the review. The bigger part is the officer's look at the investment: that the capital stayed at risk and the required jobs were created or kept.",
+"es": "Ya regresó el chequeo de antecedentes de tus biométricos del I-829. Es solo una parte de la revisión. La parte más grande es lo que el oficial revisa de la inversión: que el capital siguió en riesgo y que se crearon o mantuvieron los empleos requeridos."
+},
+"case-is-being-actively-reviewed-by-uscis": {
+"en": "An officer is reviewing your I-829, including evidence about the EB-5 project, the capital investment and job creation. For regional center investments, project-level documents from the regional center often matter. This review can take a long time and the status may repeat.",
+"es": "Un oficial está revisando tu I-829, incluyendo pruebas del proyecto EB-5, la inversión de capital y la creación de empleos. En inversiones de centro regional, suelen importar los documentos del proyecto que da el centro regional. Esta revisión puede tardar mucho y el estatus puede repetirse."
+},
+"request-for-additional-evidence-was-sent": {
+"en": "I-829 RFEs often ask for more proof of job creation, updated business records, or proof the investment was sustained. If you invested through a regional center, contact them early, since they hold much of the project evidence. An EB-5 attorney should help with the response.",
+"es": "Las RFE del I-829 suelen pedir más pruebas de creación de empleos, registros de negocio actualizados, o prueba de que la inversión se mantuvo. Si invertiste por un centro regional, contáctalo pronto, porque ellos tienen gran parte de las pruebas del proyecto. Un abogado de EB-5 debería ayudar con la respuesta."
+},
+"request-for-initial-evidence-was-sent": {
+"en": "Something required was missing from the I-829 filing, such as a copy of the conditional green card, proof of the investment, or a family member's documents. Send the items with the notice before the deadline to keep the petition, and your status extension, on track.",
+"es": "Faltó algo obligatorio en el I-829, como copia de la green card condicional, prueba de la inversión o documentos de un familiar. Manda lo que falta con el aviso antes de la fecha límite para mantener la petición, y la extensión de tu estatus, en orden."
+},
+"response-to-uscis-request-for-evidence-was-received": {
+"en": "USCIS has your response on the I-829, and the officer will review the new investment and job documents. Your status extension continues while the case is pending. Expect another update once the officer decides whether the evidence is enough.",
+"es": "USCIS tiene tu respuesta del I-829, y el oficial revisará los nuevos documentos de la inversión y los empleos. La extensión de tu estatus sigue mientras el caso está pendiente. Espera otra actualización cuando el oficial decida si las pruebas son suficientes."
+},
+"case-was-transferred-and-a-new-office-has-jurisdiction": {
+"en": "Your I-829 moved to a different USCIS office. EB-5 cases are mainly handled by a specialized USCIS office, but a file may go to a field office if an interview or local review is needed. The new office is named in the notice.",
+"es": "Tu I-829 pasó a otra oficina de USCIS. Los casos EB-5 los lleva sobre todo una oficina especializada de USCIS, pero un expediente puede ir a una oficina local si hace falta entrevista o revisión local. La nueva oficina aparece en el aviso."
+},
+"case-was-approved": {
+"en": "Your I-829 is approved and the conditions are removed. You and the family members on the petition become permanent residents without conditions, and new 10-year green cards will be produced. Time as a conditional resident usually counts toward citizenship.",
+"es": "Tu I-829 fue aprobado y se quitaron las condiciones. Tú y los familiares incluidos se vuelven residentes permanentes sin condiciones, y se van a producir nuevas green cards de 10 años. El tiempo como residente condicional normalmente cuenta para la ciudadanía."
+},
+"new-card-is-being-produced": {
+"en": "USCIS is printing your 10-year green card after the I-829 approval. Each family member approved with you gets a separate card. Until the card arrives, keep using your conditional card with the I-829 receipt notice as proof of status.",
+"es": "USCIS está imprimiendo tu green card de 10 años después de aprobar el I-829. Cada familiar aprobado contigo recibe su propia tarjeta. Mientras llega, sigue usando tu tarjeta condicional con el aviso de recibo del I-829 como prueba de estatus."
+},
+"card-was-mailed-to-me": {
+"en": "Your new 10-year green card was mailed. Track it with the USPS number if one is shown. When it arrives, check your name, birth date and the dates on the card; conditional cards have a 2-year validity, while this one should show 10 years.",
+"es": "Tu nueva green card de 10 años fue enviada por correo. Síguela con el número de USPS si aparece. Cuando llegue, revisa tu nombre, fecha de nacimiento y las fechas de la tarjeta; las condicionales duran 2 años y esta debe mostrar 10 años."
+},
+"card-was-picked-up-by-the-united-states-postal-service": {
+"en": "The Postal Service has your 10-year green card from the I-829 approval. Watch your mailbox, since some cards need a signature and USPS tracking shows the progress. If family members were approved too, their cards may arrive on different days.",
+"es": "El Servicio Postal tiene tu green card de 10 años de la aprobación del I-829. Revisa tu buzón, porque algunas tarjetas piden firma. Si también aprobaron a tus familiares, sus tarjetas pueden llegar en días distintos."
+},
+"card-was-delivered-to-me-by-the-post-office": {
+"en": "USPS says your 10-year green card was delivered. Check it right away for errors. Keep your old conditional card and the I-829 approval notice with your records; the new card is your proof of permanent residence without conditions.",
+"es": "USPS dice que tu green card de 10 años fue entregada. Revísala de inmediato por si tiene errores. Guarda tu tarjeta condicional anterior y el aviso de aprobación del I-829 con tus papeles; la tarjeta nueva es tu prueba de residencia permanente sin condiciones."
+},
+"notice-explaining-uscis-actions-was-mailed": {
+"en": "USCIS mailed a letter about your I-829. For EB-5 cases this is often a notice of intent to deny tied to job creation or project problems, or a transfer or request. Read it quickly; replies often have short deadlines. Share it with your EB-5 attorney and regional center.",
+"es": "USCIS mandó una carta sobre tu I-829. En casos EB-5 suele ser un aviso de intención de negar por empleos o problemas del proyecto, o una transferencia o solicitud. Léela rápido; las respuestas suelen tener plazos cortos. Compártela con tu abogado de EB-5 y con tu centro regional."
+},
+"case-was-denied": {
+"en": "A denied I-829 ends conditional residence, and USCIS usually issues a Notice to Appear in immigration court. There, you can ask the immigration judge to review the I-829. This is serious; work with an experienced EB-5 or removal defense attorney right away.",
+"es": "Un I-829 negado termina la residencia condicional, y USCIS normalmente emite un Aviso de Comparecencia ante la corte de inmigración. Ahí puedes pedirle al juez que revise el I-829. Es grave; trabaja de inmediato con un abogado con experiencia en EB-5 o en defensa contra deportación."
+},
+"case-was-reopened": {
+"en": "Your I-829 is active again after a decision. This can follow a motion, a court ruling, or a USCIS correction. If you received a denial and a court notice before, ask your attorney how reopening affects the court case and your status.",
+"es": "Tu I-829 está activo otra vez después de una decisión. Puede ser por una moción, una decisión de corte o una corrección de USCIS. Si antes recibiste una negación y un aviso de corte, pregunta a tu abogado cómo afecta la reapertura al caso en corte y a tu estatus."
+},
+"case-rejected-because-i-sent-an-incorrect-fee": {
+"en": "The I-829 was rejected over the fee, so it does not count as filed. This is urgent, because the petition must be filed in the window before the conditional card expires. Check the current fee and biometrics rules on uscis.gov and refile right away.",
+"es": "El I-829 fue rechazado por el pago, así que no cuenta como presentado. Es urgente, porque la petición debe presentarse en el periodo antes de que venza la tarjeta condicional. Revisa el costo actual y las reglas de biométricos en uscis.gov y vuelve a presentarla de inmediato."
+},
+"expedite-request-received": {
+"en": "USCIS received a request to speed up your I-829. EB-5 expedites follow USCIS criteria, such as urgent humanitarian reasons or serious financial loss. Remember that your status remains extended while you wait, so travel and work generally continue with the receipt notice.",
+"es": "USCIS recibió una solicitud para acelerar tu I-829. Las solicitudes en EB-5 siguen los criterios de USCIS, como razones humanitarias urgentes o pérdida económica grave. Recuerda que tu estatus sigue extendido mientras esperas, así que viajar y trabajar normalmente siguen con el aviso de recibo."
+},
+"withdrawal-acknowledgement-notice-was-sent": {
+"en": "USCIS confirmed the I-829 was withdrawn. Without a pending or approved I-829, conditional residence ends when the card expires, which can lead to removal proceedings. If this was not intended, contact an EB-5 attorney right away.",
+"es": "USCIS confirmó que se retiró el I-829. Sin un I-829 pendiente o aprobado, la residencia condicional termina cuando vence la tarjeta, y eso puede llevar a un proceso de deportación. Si no era lo que querías, comunícate de inmediato con un abogado de EB-5."
+},
+"name-was-updated": {
+"en": "USCIS changed a name on your I-829 record. Since your 10-year green card will print with the name on file, confirm the spelling now. Matching names also help when the regional center or project sends documents in your name.",
+"es": "USCIS cambió un nombre en el registro de tu I-829. Como tu green card de 10 años se imprimirá con el nombre registrado, confirma ahora cómo está escrito. Que los nombres coincidan también ayuda cuando el centro regional o el proyecto mandan documentos a tu nombre."
+},
+"case-was-received-and-a-receipt-notice-was-emailed": {
+"en": "Your I-829 receipt notice arrived electronically. Print it and keep it with your conditional green card, since the two together show your extended status. Make sure family members on the petition also have copies, especially before any trip abroad.",
+"es": "Tu aviso de recibo del I-829 llegó en forma electrónica. Imprímelo y guárdalo con tu green card condicional, porque juntos muestran tu estatus extendido. Asegúrate de que los familiares incluidos en la petición también tengan copias."
+},
+"case-accepted-by-the-uscis-lockbox": {
+"en": "The intake site accepted your I-829 package and processed the fee. Watch for the receipt notice, which is what extends your status. If your conditional card is about to expire, keep proof of mailing until the receipt arrives.",
+"es": "El centro de recepción aceptó tu paquete del I-829 y procesó el pago. Espera el aviso de recibo, que es lo que extiende tu estatus. Si tu tarjeta condicional está por vencer, guarda la prueba de envío hasta que llegue el recibo."
+},
+"fees-were-waived": {
+"en": "This is unexpected on an I-829, because investor petitions are generally not eligible for fee waivers. Read the notice to confirm which form it refers to. If it looks like an error, contact USCIS so your petition is not rejected later.",
+"es": "Esto es inesperado en un I-829, porque las peticiones de inversionista en general no pueden tener exención de cuota. Lee el aviso para confirmar a qué formulario se refiere. Si parece un error, comunícate con USCIS para que tu petición no sea rechazada después."
+},
+"case-was-rejected-because-it-was-improperly-filed": {
+"en": "The I-829 came back unprocessed, for example for a missing signature or an old form edition. A rejected petition does not extend your status. Fix the issue and refile quickly, especially if you are near the end of the filing window.",
+"es": "El I-829 regresó sin procesar, por ejemplo por falta de firma o una edición vieja del formulario. Una petición rechazada no extiende tu estatus. Corrige el problema y vuelve a presentarla rápido, sobre todo si estás cerca del final del periodo para presentarla."
+},
+"biometrics-appointment-was-scheduled": {
+"en": "Your I-829 biometrics appointment is set. The investor and family members on the petition may each get a notice. Bring the notice and your conditional green card. If you live abroad part of the time, plan travel so you can attend.",
+"es": "Tu cita de biométricos del I-829 está programada. El inversionista y los familiares incluidos pueden recibir cada uno un aviso. Lleva el aviso y tu green card condicional. Si vives parte del tiempo en el extranjero, planea tus viajes para poder ir."
+},
+"case-was-updated-to-show-fingerprints-were-taken": {
+"en": "Your I-829 fingerprints were recorded. Background checks can now run. The case then waits for the officer's review of the investment and job creation, which is usually the longest part of the process. Keep your stamped appointment notice.",
+"es": "Se registraron tus huellas del I-829. Ahora pueden correr los chequeos de antecedentes. Después el caso espera la revisión del oficial sobre la inversión y los empleos, que normalmente es la parte más larga del proceso."
+},
+"case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+"en": "USCIS recorded a missed appointment on your I-829. Missing biometrics or an interview can lead to denial and loss of conditional status. Contact USCIS right away with your reason and ask to reschedule. Let your EB-5 attorney know.",
+"es": "USCIS registró una cita faltada en tu I-829. Faltar a biométricos o a una entrevista puede llevar a negación y a perder el estatus condicional. Comunícate de inmediato con USCIS con tu razón y pide otra cita. Avísale a tu abogado de EB-5."
+},
+"case-was-approved-and-my-decision-was-emailed": {
+"en": "The I-829 approval is in your online account. Conditions on your residence are removed. Save the notice; your 10-year green card will be mailed separately. Keep your old card and a printed copy of the approval until the new one arrives.",
+"es": "La aprobación del I-829 está en tu cuenta en línea. Se quitaron las condiciones de tu residencia. Guarda el aviso; tu green card de 10 años llegará por separado. Conserva tu tarjeta anterior hasta que llegue la nueva."
+},
+"case-approval-was-certified-by-uscis": {
+"en": "USCIS certified your I-829 approval for another agency. This may happen when a consulate or another office needs official proof that your conditions were removed, for example for a family member's case. No action is needed from you; your 10-year card process continues.",
+"es": "USCIS certificó la aprobación de tu I-829 para otra agencia. Puede pasar cuando un consulado u otra oficina necesita prueba oficial de que se quitaron tus condiciones, por ejemplo para el caso de un familiar. No necesitas hacer nada; el trámite de tu tarjeta de 10 años sigue."
+},
+"case-was-sent-to-the-department-of-state": {
+"en": "This is uncommon for an I-829, which is decided by USCIS for people already holding conditional residence. It may relate to a family member processing abroad or a records request. Read the notice and ask your EB-5 attorney what it refers to.",
+"es": "Esto es poco común en un I-829, que USCIS decide para personas que ya tienen residencia condicional. Puede tener que ver con un familiar que hace trámite en el extranjero o una solicitud de registros. Lee el aviso y pregunta a tu abogado de EB-5 a qué se refiere."
+},
+"response-to-uscis-notice-of-intent-was-received": {
+"en": "USCIS has your rebuttal to a notice of intent to deny the I-829. These notices usually focus on whether jobs were created or the investment was sustained. The officer will weigh your answer and project evidence before deciding. Stay in close touch with your EB-5 attorney.",
+"es": "USCIS tiene tu respuesta a un aviso de intención de negar el I-829. Estos avisos suelen tratar sobre si se crearon los empleos o si se mantuvo la inversión. El oficial revisará tu respuesta y las pruebas del proyecto antes de decidir. Mantente en contacto con tu abogado de EB-5."
+},
+"case-is-pending-at-a-local-office": {
+"en": "Your I-829 is at a USCIS field office, which can mean an interview may be scheduled, though interviews are rare for this form. Keep your address current and your EB-5 records ready in case the office asks for them.",
+"es": "Tu I-829 está en una oficina local de USCIS, lo que puede significar que se programe una entrevista, aunque las entrevistas son raras en este formulario. Mantén tu dirección al día y tus papeles de EB-5 listos por si la oficina los pide."
+},
+"duplicate-notice-was-mailed": {
+"en": "USCIS sent another copy of an I-829 notice. A spare receipt notice is handy, since it is your proof of extended status for travel and work. It does not change the case or the extension period.",
+"es": "USCIS mandó otra copia de un aviso del I-829. Tener otro aviso de recibo es útil, porque es tu prueba de estatus extendido para viajar y trabajar. No cambia el caso ni el periodo de extensión."
+},
+"card-is-being-returned-to-uscis-by-post-office": {
+"en": "The Postal Service could not deliver your 10-year green card and is sending it back. Update your address with USCIS now, since EB-5 investors who travel or move often run into this. Then contact USCIS to have the card sent again.",
+"es": "El Servicio Postal no pudo entregar tu green card de 10 años y la está regresando. Actualiza tu dirección con USCIS ya, porque los inversionistas EB-5 que viajan o se mudan seguido tienen este problema. Luego comunícate con USCIS para que la vuelvan a mandar."
+},
+"card-was-returned-to-uscis": {
+"en": "Your 10-year green card is back at USCIS. Returned cards are held only for a limited time. Confirm your address with USCIS and ask for the card to be resent. Meanwhile, keep your I-829 approval notice as proof of permanent residence.",
+"es": "Tu green card de 10 años regresó a USCIS. Las tarjetas devueltas solo se guardan por un tiempo limitado. Confirma tu dirección con USCIS y pide que la vuelvan a mandar. Mientras tanto, guarda tu aviso de aprobación del I-829 como prueba de residencia permanente."
+},
+"notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+"en": "A notice on your I-829 came back undelivered. If it was an evidence request or a notice of intent to deny, missing the deadline could cost you your status. Update your address and contact USCIS now to learn what the notice said.",
+"es": "Un aviso de tu I-829 regresó sin entregarse. Si era una solicitud de evidencia o un aviso de intención de negar, perder el plazo podría costarte tu estatus. Actualiza tu dirección y comunícate con USCIS ya para saber qué decía el aviso."
+},
+"card-was-received-by-uscis-along-with-my-letter": {
+"en": "USCIS received a green card you returned with a letter, usually to correct an error on the new 10-year card. USCIS will review your request and, if the error was theirs, issue a corrected card. Keep a copy of what you sent.",
+"es": "USCIS recibió una green card que regresaste con una carta, normalmente para corregir un error en la nueva tarjeta de 10 años. USCIS revisará tu solicitud y, si el error fue suyo, emitirá una tarjeta corregida. Guarda copia de lo que mandaste."
+},
+"date-of-birth-was-updated": {
+"en": "USCIS corrected a date of birth on your I-829 record. Check that it matches your passport so the 10-year green card prints correctly. If a child on the petition is involved, confirm their details too.",
+"es": "USCIS corrigió una fecha de nacimiento en el registro de tu I-829. Revisa que coincida con tu pasaporte para que la green card de 10 años salga bien. Si se trata de un hijo incluido en la petición, confirma también sus datos."
+},
+"continuation-notice-was-mailed": {
+"en": "This notice confirms your conditional resident status continues while the I-829 is pending. Carry it with your conditional green card when you travel or start a new job. Check the notice for the length of the extension it gives.",
+"es": "Este aviso confirma que tu estatus de residente condicional sigue mientras el I-829 está pendiente. Llévalo con tu green card condicional cuando viajes o empieces un trabajo nuevo. Revisa en el aviso cuánto dura la extensión que te da."
+},
+"termination-notice-sent": {
+"en": "USCIS ended your conditional resident status. This can happen if the I-829 was not filed on time, was denied, or the investment did not meet EB-5 rules. Termination usually leads to immigration court. Contact an experienced EB-5 or removal defense attorney right away.",
+"es": "USCIS terminó tu estatus de residente condicional. Puede pasar si el I-829 no se presentó a tiempo, fue negado, o la inversión no cumplió las reglas de EB-5. La terminación normalmente lleva a la corte de inmigración. Comunícate de inmediato con un abogado con experiencia en EB-5 o defensa contra deportación."
+},
+"case-closed-benefit-received-by-other-means": {
+"en": "USCIS closed the I-829 because you already got permanent residence another way, for example through a separate approved filing or another green card category. Check that your records show permanent residence without conditions before you stop tracking this case.",
+"es": "USCIS cerró el I-829 porque ya obtuviste la residencia permanente por otra vía, por ejemplo con otro trámite aprobado o por otra categoría de green card. Revisa que tus registros muestren residencia permanente sin condiciones antes de dejar de seguir este caso."
+},
+"expedite-request-denied": {
+"en": "USCIS will not speed up your I-829, but the case keeps its place. Your status remains extended while you wait. Compare your wait with the typical range shown on this page, and keep your project records current in case an RFE arrives.",
+"es": "USCIS no va a acelerar tu I-829, pero el caso conserva su lugar. Tu estatus sigue extendido mientras esperas. Compara tu espera con el rango típico de esta página, y mantén al día los registros del proyecto por si llega una RFE."
+},
+"correspondence-was-received-and-uscis-is-reviewing-it": {
+"en": "USCIS received something you sent about the I-829, such as updated job creation evidence or an address change. An officer will review it. Keep a dated copy, and tell your regional center if it involves project information.",
+"es": "USCIS recibió algo que mandaste sobre el I-829, como pruebas actualizadas de empleos o un cambio de dirección. Un oficial lo va a revisar. Guarda una copia con fecha, y avísale a tu centro regional si tiene que ver con datos del proyecto."
+}
+}

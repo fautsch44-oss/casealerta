@@ -1,0 +1,146 @@
+{
+  "case-was-received": {
+    "en": "Your I-694 appeal is in line. It challenges a denial under the 1986 legalization program or the Special Agricultural Worker program, and it is decided by the Administrative Appeals Office, not by the office that denied you. These are older, specialized cases, so working with an immigration attorney is strongly recommended.",
+    "es": "Tu apelación I-694 ya está en fila. Impugna una negación del programa de legalización de 1986 o del programa de Trabajadores Agrícolas Especiales, y la decide la Oficina Administrativa de Apelaciones, no la oficina que te negó. Son casos antiguos y especializados, así que se recomienda mucho trabajar con un abogado de inmigración."
+  },
+  "case-was-received-and-a-receipt-notice-was-sent": {
+    "en": "The receipt for your I-694 appeal is in the mail. Keep it with the denial decision you are appealing and any old legalization papers, such as your original application and work permits. If you said you would send a brief or more evidence later, note the deadline for it.",
+    "es": "El recibo de tu apelación I-694 viene por correo. Guárdalo con la decisión de negación que estás apelando y con tus papeles viejos de legalización, como tu solicitud original y permisos de trabajo. Si dijiste que mandarías un escrito o más pruebas después, anota el plazo para hacerlo."
+  },
+  "fingerprint-fee-was-received": {
+    "en": "Biometrics are not a usual step for an I-694 appeal itself. If you see this status, it may relate to updated background checks USCIS needs before acting on your legalization case. Watch for an appointment notice and keep your mailing address current.",
+    "es": "Los biométricos no son un paso usual en la apelación I-694. Si ves este estatus, puede ser por revisiones de antecedentes actualizadas que USCIS necesita antes de actuar en tu caso de legalización. Pendiente de un aviso de cita y mantén tu dirección al día."
+  },
+  "fingerprint-review-was-completed": {
+    "en": "Updated background checks connected to your I-694 are complete. This is not a normal stage of the appeal, so it may mean your legalization case is being prepared for further action. Keep watching for a decision from the Administrative Appeals Office.",
+    "es": "Terminaron revisiones de antecedentes actualizadas ligadas a tu I-694. Esta no es una etapa normal de la apelación, así que puede significar que preparan tu caso de legalización para otro paso. Sigue pendiente de una decisión de la Oficina Administrativa de Apelaciones."
+  },
+  "case-is-being-actively-reviewed-by-uscis": {
+    "en": "Your I-694 appeal is under review. The original office may first look again at its own denial, and if it does not change it, the file goes to the Administrative Appeals Office. The appeal looks at whether the denial was correct based on the record and your arguments.",
+    "es": "Tu apelación I-694 está en revisión. La oficina original puede revisar primero su propia negación y, si no la cambia, el expediente pasa a la Oficina Administrativa de Apelaciones. La apelación revisa si la negación fue correcta según el expediente y tus argumentos."
+  },
+  "request-for-additional-evidence-was-sent": {
+    "en": "An RFE on an I-694 appeal is not common. It may ask for proof of your residence or farm work during the qualifying periods of the legalization program, or for court records. Answer fully before the deadline, ideally with an immigration attorney experienced in legalization cases.",
+    "es": "Un RFE en una apelación I-694 no es común. Puede pedir pruebas de tu residencia o de tu trabajo agrícola en los periodos que exigía el programa de legalización, o registros de corte. Responde completo antes del plazo, de preferencia con un abogado con experiencia en casos de legalización."
+  },
+  "request-for-initial-evidence-was-sent": {
+    "en": "Something basic was missing from your I-694, such as a copy of the decision you are appealing, a signature, or a statement of why you think the denial was wrong. Send exactly what the notice lists before the deadline so the appeal can move forward.",
+    "es": "Faltó algo básico en tu I-694, como copia de la decisión que apelas, una firma o una explicación de por qué crees que la negación estuvo mal. Manda exactamente lo que pide el aviso antes del plazo para que la apelación pueda avanzar."
+  },
+  "response-to-uscis-request-for-evidence-was-received": {
+    "en": "USCIS has your evidence for the I-694 appeal. It will be added to the record the Administrative Appeals Office reviews. Keep copies of everything you sent, since legalization cases often rely on old documents that are hard to replace.",
+    "es": "USCIS ya tiene tus pruebas para la apelación I-694. Se agregarán al expediente que revisa la Oficina Administrativa de Apelaciones. Guarda copias de todo lo que mandaste, porque los casos de legalización muchas veces dependen de documentos viejos que son difíciles de reponer."
+  },
+  "case-was-transferred-and-a-new-office-has-jurisdiction": {
+    "en": "Your I-694 file moved to another office. This often happens when the appeal goes from the office that issued the denial to the Administrative Appeals Office, or when the old legalization file is retrieved. Check the notice for the new location.",
+    "es": "Tu expediente I-694 pasó a otra oficina. Esto pasa muchas veces cuando la apelación va de la oficina que negó a la Oficina Administrativa de Apelaciones, o cuando sacan del archivo tu expediente viejo de legalización. Revisa el aviso para ver la nueva ubicación."
+  },
+  "case-was-approved": {
+    "en": "Your I-694 appeal was approved, meaning the denial of your legalization or agricultural worker application was overturned. Your original application now moves forward. Read the decision carefully and talk to an attorney about the next steps toward temporary or permanent residence.",
+    "es": "Aprobaron tu apelación I-694, lo que significa que se anuló la negación de tu solicitud de legalización o de trabajador agrícola. Tu solicitud original ahora sigue adelante. Lee la decisión con cuidado y habla con un abogado sobre los siguientes pasos hacia la residencia temporal o permanente."
+  },
+  "document-was-mailed-to-me": {
+    "en": "For an I-694, the document mailed is usually the written decision of the Administrative Appeals Office. It explains whether your appeal was sustained or dismissed and why. Keep the original and share a copy with your attorney right away.",
+    "es": "En un I-694, el documento enviado suele ser la decisión por escrito de la Oficina Administrativa de Apelaciones. Explica si tu apelación fue aceptada o rechazada y por qué. Guarda el original y comparte una copia con tu abogado de inmediato."
+  },
+  "notice-explaining-uscis-actions-was-mailed": {
+    "en": "For an I-694, this letter may say your file was sent to the Administrative Appeals Office, ask for more information, or explain that the original office reconsidered the denial. Read it right away and note any deadline.",
+    "es": "En un I-694, esta carta puede decir que tu expediente se mandó a la Oficina Administrativa de Apelaciones, pedir más información, o explicar que la oficina original reconsideró la negación. Léela de inmediato y anota cualquier plazo."
+  },
+  "case-was-denied": {
+    "en": "Your I-694 appeal was dismissed, which usually ends the administrative review of your legalization case. Options after this are very limited and may involve federal court review in narrow situations. Talk to an immigration attorney or accredited representative promptly about what, if anything, can be done.",
+    "es": "Rechazaron tu apelación I-694, lo que normalmente termina la revisión administrativa de tu caso de legalización. Las opciones después de esto son muy limitadas y pueden incluir revisión en una corte federal solo en situaciones específicas. Habla pronto con un abogado de inmigración o representante acreditado sobre qué se puede hacer."
+  },
+  "case-was-reopened": {
+    "en": "Your I-694 case is active again. In legalization cases, reopening can follow a court order, a class action settlement, or a correction by USCIS. The appeal or the underlying application will be reviewed again, and new evidence may be requested.",
+    "es": "Tu caso I-694 está activo otra vez. En casos de legalización, se puede reabrir por una orden de corte, un acuerdo de demanda colectiva o una corrección de USCIS. La apelación o la solicitud original se revisará de nuevo y pueden pedir pruebas nuevas."
+  },
+  "case-rejected-because-i-sent-an-incorrect-fee": {
+    "en": "Your I-694 was returned because of the payment, so the appeal is not pending. Appeals have strict filing deadlines, so check the current fee on uscis.gov and refile as soon as possible, with help from an attorney if the deadline is close.",
+    "es": "Te regresaron el I-694 por el pago, así que la apelación no está pendiente. Las apelaciones tienen plazos estrictos, así que revisa el costo actual en uscis.gov y vuelve a presentarla lo antes posible, con ayuda de un abogado si el plazo está cerca."
+  },
+  "expedite-request-received": {
+    "en": "USCIS is reviewing your request to speed up your I-694 appeal. Expedites are granted only for listed reasons, such as urgent humanitarian situations like a serious illness. Include documents that support the urgency, and keep a copy of everything you sent.",
+    "es": "USCIS está revisando tu petición de acelerar tu apelación I-694. Solo se acelera por razones de la lista, como situaciones humanitarias urgentes, por ejemplo una enfermedad grave. Incluye documentos que respalden la urgencia y guarda copia de lo que mandaste."
+  },
+  "withdrawal-acknowledgement-notice-was-sent": {
+    "en": "Your I-694 appeal was withdrawn, so the earlier denial of your legalization application stands. A withdrawn appeal generally cannot be refiled after the deadline. If you did not mean to withdraw it, contact an attorney right away.",
+    "es": "Tu apelación I-694 quedó retirada, así que la negación anterior de tu solicitud de legalización se mantiene. Una apelación retirada por lo general no se puede volver a presentar fuera de plazo. Si no querías retirarla, comunícate con un abogado de inmediato."
+  },
+  "name-was-updated": {
+    "en": "The name on your I-694 record was updated. Legalization files are often decades old, so names may differ from current documents. Make sure the record links your current name to the one used in your original application.",
+    "es": "Se actualizó el nombre en tu I-694. Los expedientes de legalización muchas veces tienen décadas, así que los nombres pueden ser distintos a los de tus documentos actuales. Asegúrate de que el expediente ligue tu nombre actual con el que usaste en tu solicitud original."
+  },
+  "case-was-received-and-a-receipt-notice-was-emailed": {
+    "en": "Your I-694 receipt arrived by email, so you can follow the appeal in a USCIS online account. Save the PDF with the denial decision you are appealing. Decisions from the Administrative Appeals Office can take a long time, so check periodically.",
+    "es": "El recibo de tu I-694 llegó por correo electrónico, así que puedes seguir la apelación en una cuenta en línea de USCIS. Guarda el PDF con la decisión de negación que apelas. Las decisiones de la Oficina Administrativa de Apelaciones pueden tardar, así que revisa de vez en cuando."
+  },
+  "case-accepted-by-the-uscis-lockbox": {
+    "en": "Your I-694 package was accepted and the payment processed. A receipt notice comes next. The appeal can still be rejected later if it was filed late or is missing a signature, so keep proof of the date you mailed it.",
+    "es": "Aceptaron tu paquete del I-694 y procesaron el pago. Lo siguiente es el recibo. Todavía pueden rechazar la apelación después si se presentó tarde o le falta firma, así que guarda la prueba de la fecha en que la mandaste."
+  },
+  "fees-were-waived": {
+    "en": "USCIS approved a fee waiver for your I-694 appeal, so you do not pay the filing fee. The appeal continues as usual toward a decision by the Administrative Appeals Office. Keep the waiver approval with your records.",
+    "es": "USCIS aprobó una exención de pago para tu apelación I-694, así que no pagas el costo de presentación. La apelación sigue igual hacia una decisión de la Oficina Administrativa de Apelaciones. Guarda la aprobación de la exención con tus papeles."
+  },
+  "case-was-rejected-because-it-was-improperly-filed": {
+    "en": "Your I-694 was returned without review, for example because it was filed late, sent to the wrong place, or missing a signature. Appeal deadlines are strict, so get help from an immigration attorney right away to see if any option remains.",
+    "es": "Te regresaron el I-694 sin revisarlo, por ejemplo porque se presentó tarde, se mandó al lugar equivocado o le faltó firma. Los plazos de apelación son estrictos, así que busca de inmediato ayuda de un abogado de inmigración para ver si queda alguna opción."
+  },
+  "biometrics-appointment-was-scheduled": {
+    "en": "A biometrics appointment is set in connection with your I-694. This is not a usual step for an appeal, but USCIS may need updated background checks. Bring the notice and a photo ID, and do not miss it.",
+    "es": "Hay una cita de biométricos ligada a tu I-694. No es un paso usual en una apelación, pero USCIS puede necesitar revisiones de antecedentes actualizadas. Lleva el aviso y una identificación con foto, y no faltes a la cita."
+  },
+  "case-was-updated-to-show-fingerprints-were-taken": {
+    "en": "USCIS recorded your biometrics connected to the I-694. Updated background checks can now run. This may be a sign that your legalization case is being prepared for a decision or further processing, so keep an eye on your mail and online account.",
+    "es": "USCIS registró tus biométricos ligados al I-694. Ahora pueden correr revisiones de antecedentes actualizadas. Esto puede ser señal de que preparan tu caso de legalización para una decisión o para otro trámite, así que pendiente de tu correo."
+  },
+  "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+    "en": "You missed an in-person appointment connected to your I-694. This could hurt your legalization case and the appeal. Contact USCIS right away to explain and reschedule, and keep proof of why you could not attend, such as a medical or work note.",
+    "es": "Faltaste a una cita en persona ligada a tu I-694. Esto podría perjudicar tu caso de legalización. Comunícate de inmediato con USCIS para explicar y pedir otra cita, y guarda pruebas de por qué no pudiste ir."
+  },
+  "case-was-approved-and-my-decision-was-emailed": {
+    "en": "The decision on your I-694 appeal was approved and sent electronically. Save it carefully and print a copy. Your legalization or agricultural worker application now moves forward; ask your attorney which forms or steps come next and when.",
+    "es": "La decisión de tu apelación I-694 fue aprobada y enviada de forma electrónica. Guárdala con cuidado. Tu solicitud de legalización o de trabajador agrícola ahora sigue adelante; pregúntale a tu abogado qué formularios o pasos siguen."
+  },
+  "case-approval-was-certified-by-uscis": {
+    "en": "This status is uncommon on an I-694. It may mean USCIS confirmed the appeal outcome to another office or record system so your legalization case can continue. Check your account or mail for a related notice.",
+    "es": "Este estatus es poco común en un I-694. Puede significar que USCIS confirmó el resultado de la apelación a otra oficina o sistema para que tu caso de legalización siga. Revisa tu cuenta o tu correo por si hay un aviso relacionado."
+  },
+  "response-to-uscis-notice-of-intent-was-received": {
+    "en": "USCIS has your answer to a notice of intent connected to your I-694 or legalization case. The officer will consider it before acting. Given how complex these older cases are, an attorney's review is strongly recommended.",
+    "es": "USCIS ya tiene tu respuesta a un aviso de intención ligado a tu I-694 o a tu caso de legalización. El oficial la tomará en cuenta antes de actuar. Por lo complejos que son estos casos antiguos, se recomienda mucho que un abogado la revise."
+  },
+  "duplicate-notice-was-mailed": {
+    "en": "A copy of an I-694 notice is on its way, perhaps the receipt or the appeal decision. Keeping duplicates is useful because legalization records are old and hard to replace. The appeal itself does not change because of this status.",
+    "es": "Viene en camino una copia de un aviso de tu I-694, quizá el recibo o la decisión. Tener copias sirve porque los registros de legalización son viejos y difíciles de reponer. La apelación en sí no cambia por este estatus."
+  },
+  "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+    "en": "An I-694 notice came back undelivered. If you moved since filing, which is common in long legalization cases, update your address with USCIS now. A missed request or decision deadline could cost you options, so ask for the notice to be resent.",
+    "es": "Un aviso de tu I-694 regresó sin entregarse. Si te mudaste después de presentar, algo común en casos de legalización largos, actualiza ya tu dirección con USCIS. Perder un plazo de una petición o decisión podría quitarte opciones."
+  },
+  "date-of-birth-was-updated": {
+    "en": "The birth date on your I-694 record was corrected. Old legalization files sometimes contain errors from decades ago, so check that the date now matches your birth certificate and passport, and keep proof of the correction with your records.",
+    "es": "Se corrigió la fecha de nacimiento en tu I-694. Los expedientes viejos de legalización a veces tienen errores, así que revisa que la fecha ahora coincida con tu acta de nacimiento y tu pasaporte, y guarda prueba de la corrección."
+  },
+  "continuation-notice-was-mailed": {
+    "en": "A continuation notice on an I-694 may show that a benefit tied to your legalization case, such as permission to work, continues while the appeal is pending. Read it carefully for what it covers and for how long.",
+    "es": "Un aviso de continuación en un I-694 puede mostrar que un beneficio ligado a tu caso de legalización, como el permiso de trabajo, sigue mientras la apelación está pendiente. Léelo con cuidado para ver qué cubre y por cuánto tiempo."
+  },
+  "termination-notice-sent": {
+    "en": "A termination notice on an I-694 or legalization case is serious; it may end temporary resident status or the appeal itself. Read the reason carefully and contact an immigration attorney or accredited representative right away.",
+    "es": "Un aviso de terminación en un I-694 o caso de legalización es serio; puede terminar el estatus de residente temporal o la apelación misma. Lee la razón con cuidado y comunícate de inmediato con un abogado de inmigración o representante acreditado."
+  },
+  "case-closed-benefit-received-by-other-means": {
+    "en": "Your I-694 was closed because you already obtained status another way, for example a green card through a family petition or another program. If you are now a permanent resident, the legalization appeal is no longer needed and no action is required.",
+    "es": "Cerraron tu I-694 porque ya obtuviste estatus por otra vía, por ejemplo una green card por familia u otro programa. Si ya eres residente permanente, la apelación ya no hace falta y no tienes que hacer nada más."
+  },
+  "expedite-request-denied": {
+    "en": "USCIS will not rush your I-694 appeal, so it stays in normal order with the Administrative Appeals Office. You may ask again if a new urgent situation arises and you have documents to support it.",
+    "es": "USCIS no va a acelerar tu apelación I-694, así que sigue en su orden normal con la Oficina Administrativa de Apelaciones. Puedes volver a pedirlo si surge una situación urgente nueva y tienes documentos que la respalden."
+  },
+  "correspondence-was-received-and-uscis-is-reviewing-it": {
+    "en": "USCIS received something you sent about your I-694, such as a brief, new evidence, or an address change. It will be added to the appeal record, and you will hear back if more is needed.",
+    "es": "USCIS recibió algo que mandaste sobre tu I-694, como un escrito, pruebas nuevas o un cambio de dirección. Lo agregarán al expediente de la apelación y normalmente solo te contestan si hace falta algo más de tu parte."
+  }
+}

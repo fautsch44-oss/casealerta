@@ -1,0 +1,146 @@
+{
+  "case-was-received": {
+    "en": "Your I-601A provisional waiver is in line at USCIS. While it is pending, you stay in the U.S. and your immigrant visa interview abroad waits for the decision. Do not leave the country before a decision; departing while it is pending can lead USCIS to deny it.",
+    "es": "Tu perdón provisional I-601A ya está en fila en USCIS. Mientras está pendiente, te quedas en EE.UU. y tu entrevista de visa en el consulado espera la decisión. No salgas del país antes de que decidan; salir con el caso pendiente puede hacer que USCIS lo niegue."
+  },
+  "case-was-received-and-a-receipt-notice-was-sent": {
+    "en": "The receipt for your I-601A is in the mail. Send a copy to your immigration attorney if you have one and keep it with your National Visa Center papers. Unlike an I-485 receipt, this one does not give you a work permit or lawful status; it only shows the waiver is pending.",
+    "es": "El recibo de tu I-601A viene por correo. Si tienes abogado, mándale copia, y guárdalo con tus papeles del Centro Nacional de Visas (NVC). A diferencia del recibo de un I-485, este no te da permiso de trabajo ni estatus legal; solo muestra que el perdón está pendiente."
+  },
+  "fingerprint-fee-was-received": {
+    "en": "The I-601A includes a biometrics step, and USCIS has applied that payment. A notice to visit an Application Support Center should come next. Your fingerprints are used for background checks, since the waiver can be denied if other problems, like certain criminal records, show up.",
+    "es": "El I-601A incluye biométricos, y USCIS ya aplicó ese pago. Lo siguiente debería ser un aviso para ir a un Centro de Apoyo de Solicitudes (ASC). Tus huellas se usan para revisar antecedentes, ya que el perdón puede negarse si aparecen otros problemas, como ciertos antecedentes penales."
+  },
+  "fingerprint-review-was-completed": {
+    "en": "The background check from your I-601A biometrics is back. Next, an officer weighs your extreme hardship evidence, meaning how your U.S. citizen or resident spouse or parent would suffer if you were kept outside the country. That review is usually the longest part of the wait.",
+    "es": "Ya regresó la revisión de antecedentes de tus biométricos del I-601A. Ahora un oficial valora tus pruebas de sufrimiento extremo, es decir, cómo sufriría tu cónyuge o padre ciudadano o residente si te quedaras fuera del país. Esa revisión suele ser la parte más larga de la espera."
+  },
+  "case-is-being-actively-reviewed-by-uscis": {
+    "en": "An officer is reading your I-601A, mainly the proof of extreme hardship to your qualifying relative: medical, financial, emotional and family ties. Decisions are usually made on paper. If something is unclear, the next notice may be a request for evidence rather than a decision.",
+    "es": "Un oficial está leyendo tu I-601A, sobre todo las pruebas de sufrimiento extremo para tu familiar que califica: salud, dinero, lo emocional y lazos familiares. Por lo general se decide con los papeles. Si algo no queda claro, el siguiente aviso puede ser una petición de pruebas y no una decisión."
+  },
+  "request-for-additional-evidence-was-sent": {
+    "en": "I-601A RFEs usually ask for stronger proof of extreme hardship to your U.S. citizen or resident spouse or parent, such as medical records, financial documents or expert letters. The answer can decide the waiver, so working with an immigration attorney or accredited representative is highly recommended.",
+    "es": "En el I-601A, el RFE casi siempre pide pruebas más fuertes del sufrimiento extremo para tu cónyuge o padre ciudadano o residente, como expedientes médicos, papeles de dinero o cartas de expertos. La respuesta puede decidir el perdón, así que se recomienda mucho trabajar con un abogado de inmigración o representante acreditado."
+  },
+  "request-for-initial-evidence-was-sent": {
+    "en": "A required piece was missing from your I-601A, often proof that you paid the State Department immigrant visa fee, a copy of the approved I-130 or I-140, or proof that your qualifying relative is a citizen or resident. Send exactly what the notice asks before the deadline.",
+    "es": "Faltó algo obligatorio en tu I-601A, muchas veces el comprobante de pago de la visa de inmigrante del Departamento de Estado, copia del I-130 o I-140 aprobado, o prueba de que tu familiar que califica es ciudadano o residente. Manda exactamente lo que pide el aviso antes del plazo."
+  },
+  "response-to-uscis-request-for-evidence-was-received": {
+    "en": "USCIS has your answer for the I-601A. The officer now decides whether your hardship evidence is enough. If approved, the National Visa Center is notified so your consular interview can be scheduled; if not, you can file a new I-601A in most cases.",
+    "es": "USCIS ya tiene tu respuesta para el I-601A. Ahora el oficial decide si tus pruebas de sufrimiento alcanzan. Si lo aprueban, avisan al Centro Nacional de Visas para que te den cita en el consulado; si no, en la mayoría de los casos puedes presentar un I-601A nuevo."
+  },
+  "case-was-transferred-and-a-new-office-has-jurisdiction": {
+    "en": "Your I-601A moved to another USCIS office, usually to balance workloads. Interviews are rare for this waiver, so a transfer rarely means you will be called in. Check the new office in your online account and keep your address current.",
+    "es": "Tu I-601A pasó a otra oficina de USCIS, normalmente para repartir el trabajo. Las entrevistas son raras en este perdón, así que un traslado casi nunca significa que te van a citar. Revisa la nueva oficina en tu cuenta en línea y mantén tu dirección al día."
+  },
+  "case-was-approved": {
+    "en": "Your provisional waiver of unlawful presence was approved. The next step is your immigrant visa interview at the U.S. consulate abroad. The waiver only covers the unlawful presence bars; the consular officer can still find other problems. Talk to your attorney before you travel.",
+    "es": "Aprobaron tu perdón provisional por presencia ilegal. Lo que sigue es tu entrevista de visa de inmigrante en el consulado de EE.UU. en el extranjero. El perdón solo cubre los castigos por presencia ilegal; el cónsul aún puede encontrar otros problemas. Habla con tu abogado antes de viajar."
+  },
+  "document-was-mailed-to-me": {
+    "en": "For an I-601A, the document mailed is usually your approval notice. Keep the original safe and bring a copy to your consular interview. USCIS also shares the approval with the State Department, so the consulate should see it too.",
+    "es": "En un I-601A, el documento enviado suele ser tu aviso de aprobación. Guarda bien el original y lleva una copia a tu entrevista en el consulado. USCIS también comparte la aprobación con el Departamento de Estado, así que el consulado debería verla."
+  },
+  "notice-explaining-uscis-actions-was-mailed": {
+    "en": "An I-601A letter could be a request for evidence, a notice that USCIS intends to deny, or news about your linked immigrant visa case. Open it right away and look for deadlines. If it mentions denial or another ground of inadmissibility, contact an immigration attorney.",
+    "es": "Una carta del I-601A puede ser una petición de pruebas, un aviso de que USCIS piensa negar, o noticias de tu caso de visa ligado. Ábrela de inmediato y busca plazos. Si menciona negación u otra causa de inadmisibilidad, comunícate con un abogado de inmigración."
+  },
+  "case-was-denied": {
+    "en": "An I-601A denial cannot be appealed, and a motion to reopen is generally not available. In most cases you can file a new I-601A with stronger evidence, as long as your immigrant visa case is still active. Do not travel for your consular interview without legal advice.",
+    "es": "La negación de un I-601A no se puede apelar y, por lo general, tampoco se puede pedir reabrir. En la mayoría de los casos puedes presentar un I-601A nuevo con mejores pruebas, siempre que tu caso de visa siga activo. No viajes a la entrevista consular sin consejo legal."
+  },
+  "case-was-reopened": {
+    "en": "Reopening an I-601A is unusual because motions are generally not allowed for this waiver. When it happens, USCIS is usually correcting its own error. The case goes back to review, and you may be asked for updated hardship evidence.",
+    "es": "Que reabran un I-601A es raro, porque en este perdón por lo general no se permiten mociones. Cuando pasa, normalmente USCIS está corrigiendo su propio error. El caso vuelve a revisión y te pueden pedir pruebas de sufrimiento actualizadas."
+  },
+  "case-rejected-because-i-sent-an-incorrect-fee": {
+    "en": "Your I-601A was returned because of the payment, so it is not pending. Check the current fee and whether biometrics must be paid separately on uscis.gov. Refile quickly, since your consular interview cannot move forward until the waiver is decided.",
+    "es": "Te regresaron el I-601A por el pago, así que no está pendiente. Revisa en uscis.gov el costo actual y si los biométricos se pagan aparte. Vuelve a presentarlo rápido, porque tu entrevista en el consulado no avanza hasta que decidan el perdón."
+  },
+  "expedite-request-received": {
+    "en": "USCIS is reviewing your request to speed up your I-601A. Approvals are limited to listed reasons, such as urgent medical needs. Strong documents, like a doctor's letter about your qualifying relative, help. The answer comes separately from the waiver decision.",
+    "es": "USCIS está revisando tu petición de acelerar tu I-601A. Solo se acepta por razones de la lista, como necesidades médicas urgentes. Ayudan los documentos fuertes, como una carta médica sobre tu familiar que califica. La respuesta llega aparte de la decisión del perdón."
+  },
+  "withdrawal-acknowledgement-notice-was-sent": {
+    "en": "Your I-601A is withdrawn and will not be decided. Without an approved provisional waiver, leaving the U.S. for your consular interview may trigger the unlawful presence bars. Check with an immigration attorney before any travel.",
+    "es": "Tu I-601A quedó retirado y no se va a decidir. Sin un perdón provisional aprobado, salir de EE.UU. para tu entrevista consular puede activar los castigos por presencia ilegal. Consulta con un abogado de inmigración antes de cualquier viaje."
+  },
+  "name-was-updated": {
+    "en": "USCIS updated the name on your I-601A. Make sure it matches the name in your immigrant visa case at the National Visa Center and in your passport, so the consulate can match the waiver to you without delays.",
+    "es": "USCIS actualizó el nombre en tu I-601A. Asegúrate de que coincida con el nombre en tu caso de visa en el Centro Nacional de Visas y en tu pasaporte, para que el consulado pueda ligar el perdón contigo sin retrasos."
+  },
+  "case-was-received-and-a-receipt-notice-was-emailed": {
+    "en": "Your I-601A receipt came by email, which means you can follow the waiver in your USCIS online account. Save the PDF. You may want to share it with the National Visa Center if they ask whether a waiver is pending.",
+    "es": "El recibo de tu I-601A llegó por correo electrónico, así que puedes seguir el perdón en tu cuenta en línea de USCIS. Guarda el PDF. Puede servirte compartirlo con el Centro Nacional de Visas si preguntan si tienes un perdón pendiente."
+  },
+  "case-accepted-by-the-uscis-lockbox": {
+    "en": "The lockbox accepted your I-601A package and processed the payment. Your receipt notice comes next. A filing can still be rejected later if, for example, proof of the State Department visa fee payment is missing.",
+    "es": "El lockbox aceptó tu paquete del I-601A y procesó el pago. Lo siguiente es tu recibo. Todavía pueden rechazarlo después si, por ejemplo, falta el comprobante de pago de la visa del Departamento de Estado."
+  },
+  "fees-were-waived": {
+    "en": "A fee waiver is unusual for an I-601A, since fee waivers are generally not offered for this form. If you see this status, read your notice to confirm which fee was waived and keep it with your records. The waiver review itself continues as usual.",
+    "es": "Una exención de pago es rara en un I-601A, porque por lo general no se ofrece para este formulario. Si ves este estatus, lee tu aviso para confirmar qué pago se eximió y guárdalo con tus papeles. La revisión del perdón sigue igual."
+  },
+  "case-was-rejected-because-it-was-improperly-filed": {
+    "en": "Your I-601A was returned without review. Frequent reasons include filing before paying the State Department immigrant visa fee, an old form edition, or a missing signature. Fix the problem and refile; the consular interview cannot proceed until a waiver is pending or decided.",
+    "es": "Te regresaron el I-601A sin revisarlo. Razones frecuentes: presentarlo antes de pagar la visa de inmigrante al Departamento de Estado, una edición vieja o falta de firma. Corrige el problema y preséntalo de nuevo; la entrevista consular no avanza hasta tener un perdón pendiente o decidido."
+  },
+  "biometrics-appointment-was-scheduled": {
+    "en": "Your I-601A biometrics appointment is set. Bring the notice and a valid photo ID, such as your passport or consular ID. Going to this appointment is required; missing it can lead to the waiver being denied.",
+    "es": "Ya tienes cita de biométricos para tu I-601A. Lleva el aviso y una identificación con foto vigente, como tu pasaporte o matrícula consular. Ir a esta cita es obligatorio; faltar puede hacer que nieguen el perdón."
+  },
+  "case-was-updated-to-show-fingerprints-were-taken": {
+    "en": "USCIS recorded your I-601A biometrics. Background checks run next, then an officer reviews your hardship evidence. There is usually no interview for this waiver, so the next update is often a request for evidence or a decision.",
+    "es": "USCIS registró tus biométricos del I-601A. Ahora corren las revisiones de antecedentes y luego un oficial revisa tus pruebas de sufrimiento. Normalmente no hay entrevista para este perdón, así que lo siguiente suele ser una petición de pruebas o una decisión."
+  },
+  "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+    "en": "You missed your I-601A biometrics appointment. If it is not fixed, USCIS can deny the waiver as abandoned, which would delay your consular interview. Contact USCIS right away to reschedule and keep proof of why you could not go.",
+    "es": "Faltaste a la cita de biométricos de tu I-601A. Si no se arregla, USCIS puede negar el perdón por abandono. Comunícate de inmediato con USCIS para cambiar la cita y guarda pruebas de por qué no pudiste ir."
+  },
+  "case-was-approved-and-my-decision-was-emailed": {
+    "en": "Your I-601A approval notice is in your online account. Print it and bring a copy to your consular interview. The National Visa Center will continue your immigrant visa case; talk to your attorney about timing before you leave the U.S.",
+    "es": "El aviso de aprobación de tu I-601A está en tu cuenta en línea. Imprímelo y lleva una copia a tu entrevista en el consulado. El Centro Nacional de Visas seguirá con tu caso de visa; habla con tu abogado sobre los tiempos antes de salir de EE.UU."
+  },
+  "case-approval-was-certified-by-uscis": {
+    "en": "For an I-601A, this may mean USCIS confirmed the waiver approval to the State Department so the consulate can rely on it. It does not change the approval. Keep watching your National Visa Center case for the interview date.",
+    "es": "En un I-601A, esto puede significar que USCIS confirmó la aprobación del perdón al Departamento de Estado para que el consulado la tome en cuenta. No cambia la aprobación. Sigue pendiente de tu caso en el Centro Nacional de Visas para la fecha de entrevista."
+  },
+  "response-to-uscis-notice-of-intent-was-received": {
+    "en": "USCIS received your answer to its notice of intent to deny your I-601A. The officer will weigh your new hardship evidence before deciding. Because a denial cannot be appealed, an attorney's review of what you sent is worth it.",
+    "es": "USCIS recibió tu respuesta al aviso de intención de negar tu I-601A. El oficial va a valorar tus nuevas pruebas de sufrimiento antes de decidir. Como una negación no se puede apelar, vale la pena que un abogado revise lo que mandaste."
+  },
+  "duplicate-notice-was-mailed": {
+    "en": "A copy of an I-601A notice is on its way. A duplicate approval notice is handy for your consular interview, so keep it with your immigrant visa papers. The waiver case itself does not change because of this status.",
+    "es": "Viene en camino una copia de un aviso de tu I-601A. Una copia del aviso de aprobación es útil para tu entrevista en el consulado, así que guárdala bien con tus papeles del caso de visa. El caso en sí no cambia por este estatus."
+  },
+  "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+    "en": "An I-601A notice was returned to USCIS. It might be a biometrics appointment, an RFE or your decision. Missing it could hurt the waiver. Update your address with USCIS today and check your online account.",
+    "es": "Un aviso de tu I-601A regresó a USCIS. Puede ser la cita de biométricos, un RFE o tu decisión. Perderlo podría perjudicar el perdón. Actualiza hoy tu dirección con USCIS y revisa tu cuenta en línea."
+  },
+  "date-of-birth-was-updated": {
+    "en": "The birth date on your I-601A record was corrected. It should match your passport and your immigrant visa case so the consulate can link the approval to you. Let the National Visa Center know if their record differs.",
+    "es": "Se corrigió la fecha de nacimiento en tu I-601A. Debe coincidir con tu pasaporte y con tu caso de visa para que el consulado pueda ligar la aprobación contigo. Avisa al Centro Nacional de Visas si su registro es diferente."
+  },
+  "continuation-notice-was-mailed": {
+    "en": "A continuation notice is unusual for an I-601A, because the waiver does not give a status that needs extending. Read the notice to see what it refers to, and keep it with your waiver and visa papers.",
+    "es": "Un aviso de continuación es raro en un I-601A, porque el perdón no da un estatus que haya que extender. Lee el aviso para ver a qué se refiere y guárdalo con tus papeles del perdón y de la visa."
+  },
+  "termination-notice-sent": {
+    "en": "A termination on an I-601A is unusual. An approved provisional waiver can be revoked, for example if the underlying immigrant visa case ends or the consulate finds another ground of inadmissibility. Read the reason and contact an immigration attorney.",
+    "es": "Que terminen un I-601A es raro. Un perdón provisional aprobado puede revocarse, por ejemplo si termina el caso de visa de inmigrante o el consulado encuentra otra causa de inadmisibilidad. Lee la razón y comunícate con un abogado de inmigración."
+  },
+  "case-closed-benefit-received-by-other-means": {
+    "en": "Your I-601A was closed because the need for it was met another way, for example you got a green card in the U.S. or a different waiver was approved. If you are unsure which benefit replaced it, read the notice or check your other cases.",
+    "es": "Cerraron tu I-601A porque lo que necesitabas se resolvió por otra vía, por ejemplo obtuviste la green card dentro de EE.UU. o aprobaron otro perdón. Si no sabes cuál beneficio lo reemplazó, lee el aviso o revisa tus otros casos."
+  },
+  "expedite-request-denied": {
+    "en": "USCIS will not rush your I-601A, but it stays in the normal line. Your consular interview will be scheduled after the waiver is decided. You can ask again if a new urgent situation arises with documents to support it.",
+    "es": "USCIS no va a acelerar tu I-601A, pero sigue en la fila normal. Tu entrevista consular se programará después de que decidan el perdón. Puedes volver a pedirlo si surge una situación urgente nueva con documentos que la respalden."
+  },
+  "correspondence-was-received-and-uscis-is-reviewing-it": {
+    "en": "USCIS got something you sent about your I-601A, such as new hardship evidence, an address change, or attorney paperwork. It will be added to your file. You usually hear back only if they need more.",
+    "es": "USCIS recibió algo que mandaste sobre tu I-601A, como pruebas nuevas de sufrimiento, un cambio de dirección o papeles de tu abogado. Lo agregarán a tu expediente. Normalmente solo te contestan si necesitan algo más de ti."
+  }
+}

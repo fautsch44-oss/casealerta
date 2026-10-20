@@ -1,0 +1,146 @@
+{
+  "case-was-received": {
+    "en": "USCIS has your I-131A request for carrier documentation, the boarding foil that lets an airline fly a green card holder back to the U.S. Your next step is usually to book or attend your appointment at the U.S. embassy or consulate where you chose to appear. Keep your receipt and passport ready.",
+    "es": "USCIS ya tiene tu I-131A para el documento de transporte, la etiqueta que permite a una aerolínea llevar de regreso a EE.UU. a un residente permanente. Lo siguiente suele ser agendar o acudir a tu cita en la embajada o consulado que elegiste. Ten listos tu recibo y tu pasaporte."
+  },
+  "case-was-received-and-a-receipt-notice-was-sent": {
+    "en": "Your I-131A is logged and a receipt was issued. Because the I-131A is filed online and you are outside the U.S., check your USCIS online account rather than waiting for paper mail. Bring the receipt to your embassy or consulate appointment.",
+    "es": "Tu I-131A quedó registrado y se emitió un recibo. Como el I-131A se presenta en línea y estás fuera de EE.UU., revisa tu cuenta de USCIS en vez de esperar correo en papel. Lleva el recibo a tu cita en la embajada o consulado."
+  },
+  "fingerprint-fee-was-received": {
+    "en": "USCIS accepted the biometrics payment for your I-131A. For this form, fingerprints and photos are usually taken at the U.S. embassy or consulate during your in-person appointment, not at a U.S. support center. Watch for instructions on how to schedule.",
+    "es": "USCIS aceptó el pago de biométricos de tu I-131A. En este formulario, las huellas y fotos casi siempre se toman en la embajada o consulado de EE.UU. durante tu cita en persona, no en un centro de apoyo en EE.UU. Espera instrucciones para agendar."
+  },
+  "fingerprint-review-was-completed": {
+    "en": "The background check on the fingerprints taken at the embassy or consulate is done. USCIS can now decide whether you qualify for carrier documentation, for example whether your absence was beyond your control and whether you kept your U.S. residence.",
+    "es": "Terminó la revisión de antecedentes con las huellas que te tomaron en la embajada o consulado. USCIS ya puede decidir si calificas para el documento de transporte, por ejemplo si tu ausencia fue por causas fuera de tu control y si mantuviste tu residencia en EE.UU."
+  },
+  "case-is-being-actively-reviewed-by-uscis": {
+    "en": "USCIS is reviewing your I-131A. The officer checks why you could not return on time, or why your card was lost or expired, and whether you still intend to live in the U.S. Proof like a U.S. job, home, tax filings or medical records abroad helps. Compare with the typical range on this page.",
+    "es": "USCIS está revisando tu I-131A. El oficial revisa por qué no pudiste volver a tiempo, o por qué perdiste o se venció tu tarjeta, y si sigues con intención de vivir en EE.UU. Ayudan pruebas como trabajo o casa en EE.UU., declaraciones de impuestos o expedientes médicos. Compara con el rango típico de esta página."
+  },
+  "request-for-additional-evidence-was-sent": {
+    "en": "USCIS needs more proof for your I-131A. Requests often ask for evidence of ties to the U.S., like tax returns filed as a resident, a lease or mortgage, or bank accounts, or proof that a medical or family emergency kept you abroad. Reply by the deadline in the format the notice requests.",
+    "es": "USCIS necesita más pruebas para tu I-131A. Suelen pedir pruebas de lazos con EE.UU., como impuestos declarados como residente, contrato de renta o hipoteca o cuentas de banco, o prueba de que una emergencia médica o familiar te retuvo afuera. Responde antes del plazo en la forma que indica el aviso."
+  },
+  "request-for-initial-evidence-was-sent": {
+    "en": "Something basic was missing from your I-131A, such as a copy of your green card, a police report for a stolen card, or your passport page. Send exactly what is listed before the deadline so USCIS can continue reviewing your travel request.",
+    "es": "Faltó algo básico en tu I-131A, como copia de tu green card, un reporte policial si te la robaron o la página de tu pasaporte. Manda justo lo que dice el aviso antes del plazo para que USCIS pueda seguir revisando tu solicitud de viaje."
+  },
+  "response-to-uscis-request-for-evidence-was-received": {
+    "en": "USCIS received your reply for the I-131A. The officer will review it along with your embassy interview notes and biometrics. If approved, the embassy or consulate usually places the boarding foil in your passport so you can travel.",
+    "es": "USCIS recibió tu respuesta para el I-131A. El oficial la revisará junto con las notas de tu cita en la embajada y tus biométricos. Si lo aprueban, la embajada o consulado normalmente pone la etiqueta de transporte en tu pasaporte para que puedas viajar."
+  },
+  "case-was-transferred-and-a-new-office-has-jurisdiction": {
+    "en": "Your I-131A moved to another USCIS office. Your embassy or consulate appointment details should stay the same unless you are told otherwise. Keep checking your online account for messages about your travel document. Your receipt number stays the same.",
+    "es": "Tu I-131A pasó a otra oficina de USCIS. Los datos de tu cita en la embajada o consulado deben seguir igual salvo que te digan otra cosa. Sigue revisando tu cuenta en línea por mensajes sobre tu documento de viaje."
+  },
+  "case-was-approved": {
+    "en": "Your I-131A was approved. The embassy or consulate will issue the carrier documentation, a boarding foil in your passport, which the airline needs to let you board. Follow their instructions for picking up your passport and travel within the validity shown on the foil.",
+    "es": "Aprobaron tu I-131A. La embajada o consulado emitirá el documento de transporte, una etiqueta en tu pasaporte que la aerolínea necesita para dejarte abordar. Sigue sus instrucciones para recoger tu pasaporte y viaja dentro de la vigencia que muestra la etiqueta."
+  },
+  "document-was-mailed-to-me": {
+    "en": "USCIS sent a document on your I-131A, usually the decision notice. The boarding foil itself is normally handled through the embassy or consulate, not mailed from USCIS. Read the notice and follow the embassy's instructions for your passport.",
+    "es": "USCIS mandó un documento de tu I-131A, normalmente el aviso de decisión. La etiqueta de transporte casi siempre se maneja en la embajada o consulado, no se manda por correo desde USCIS. Lee el aviso y sigue las instrucciones de la embajada para tu pasaporte."
+  },
+  "notice-explaining-uscis-actions-was-mailed": {
+    "en": "USCIS sent a notice about your I-131A. It may ask for documents, explain a decision, or give appointment instructions. Since you are abroad, check your online account and email often so you do not miss a deadline.",
+    "es": "USCIS mandó un aviso sobre tu I-131A. Puede pedir documentos, explicar una decisión o dar instrucciones de cita. Como estás fuera del país, revisa seguido tu cuenta en línea y tu correo para no perder un plazo."
+  },
+  "case-was-denied": {
+    "en": "Your I-131A was denied, so the airline may not let you board using your green card. The notice explains why. Depending on your situation, options may include applying for a returning resident (SB-1) visa through the consulate or another visa. This is serious for your residence status, so talk to an immigration attorney.",
+    "es": "Te negaron el I-131A, así que la aerolínea podría no dejarte abordar con tu green card. El aviso explica por qué. Según tu caso, las opciones pueden incluir pedir una visa de residente que regresa (SB-1) en el consulado u otra visa. Es serio para tu residencia, así que habla con un abogado de inmigración."
+  },
+  "case-was-reopened": {
+    "en": "USCIS reopened your I-131A, often after new information or a motion. The request for carrier documentation is pending again. Keep your passport available, as the embassy may need it again if the case is approved.",
+    "es": "USCIS reabrió tu I-131A, muchas veces por información nueva o una moción. Tu solicitud de documento de transporte vuelve a estar pendiente. Ten tu pasaporte disponible, porque la embajada podría necesitarlo otra vez si lo aprueban."
+  },
+  "case-rejected-because-i-sent-an-incorrect-fee": {
+    "en": "Your I-131A was rejected because the payment was wrong. Check the current fees on uscis.gov, including any biometrics fee, and file again online. You cannot get the boarding foil until a correctly paid I-131A is accepted.",
+    "es": "Rechazaron tu I-131A porque el pago estaba mal. Revisa las cuotas actuales en uscis.gov, incluida la de biométricos si aplica, y vuelve a presentarlo en línea. No puedes recibir la etiqueta de transporte hasta que acepten un I-131A bien pagado."
+  },
+  "expedite-request-received": {
+    "en": "USCIS logged your request to speed up your I-131A. Urgent reasons, like a medical emergency or a pressing need to return to a U.S. job, can be considered. Bring proof to your embassy appointment as well. USCIS decides case by case.",
+    "es": "USCIS registró tu petición para acelerar tu I-131A. Pueden considerar razones urgentes, como una emergencia médica o la necesidad de volver a un trabajo en EE.UU. Lleva pruebas también a tu cita en la embajada. USCIS decide caso por caso."
+  },
+  "withdrawal-acknowledgement-notice-was-sent": {
+    "en": "USCIS confirmed your I-131A was withdrawn. You will not receive carrier documentation from this request. If you still need to return as a green card holder, you would have to file again or explore another option with an attorney.",
+    "es": "USCIS confirmó que retiraste tu I-131A. No recibirás documento de transporte por esta solicitud. Si todavía necesitas volver como residente, tendrías que presentarlo de nuevo o buscar otra opción con un abogado. Normalmente no devuelven la cuota."
+  },
+  "name-was-updated": {
+    "en": "USCIS updated your name on the I-131A. The name must match your passport, because the boarding foil goes into that passport and the airline compares them at check-in. Check that it now matches exactly. If not, contact USCIS before you fly.",
+    "es": "USCIS actualizó tu nombre en el I-131A. El nombre debe coincidir con tu pasaporte, porque la etiqueta se pone en ese pasaporte y la aerolínea los compara al documentar. Revisa que ahora coincida exactamente. Si no, contacta a USCIS antes de volar."
+  },
+  "case-was-received-and-a-receipt-notice-was-emailed": {
+    "en": "Your I-131A receipt is in your USCIS online account, which is where this form is filed. Download it and bring a copy to your embassy or consulate appointment along with your passport and green card if you have it.",
+    "es": "El recibo de tu I-131A está en tu cuenta de USCIS, que es donde se presenta este formulario. Descárgalo y llévalo a tu cita en la embajada o consulado junto con tu pasaporte y tu green card si la tienes."
+  },
+  "case-accepted-by-the-uscis-lockbox": {
+    "en": "Your I-131A was accepted at intake and payment processed. Because this form is filed online, this step is usually quick. Next comes your receipt and instructions for your embassy or consulate appointment. Keep your passport available for that visit.",
+    "es": "Tu I-131A fue aceptado en la recepción y el pago se procesó. Como este formulario se presenta en línea, este paso suele ser rápido. Lo siguiente es tu recibo y las instrucciones para tu cita en la embajada o consulado."
+  },
+  "fees-were-waived": {
+    "en": "USCIS waived the fee for your I-131A. This is uncommon for carrier documentation. Read the notice to confirm what was waived, then continue with your embassy or consulate appointment as instructed. Bring the notice with you to that appointment.",
+    "es": "USCIS te exentó la cuota del I-131A. Esto es poco común en el documento de transporte. Lee el aviso para confirmar qué se exentó y luego sigue con tu cita en la embajada o consulado según las instrucciones."
+  },
+  "case-was-rejected-because-it-was-improperly-filed": {
+    "en": "Your I-131A was returned without review. Common reasons are missing information or filing when this form does not fit, such as when you were away more than a year without a reentry permit and may need a different path. Check the instructions and refile, or ask an attorney.",
+    "es": "Te regresaron el I-131A sin revisarlo. Razones comunes: falta información, o este formulario no aplica a tu caso, por ejemplo si estuviste fuera más de un año sin permiso de reingreso y necesitas otro camino. Revisa las instrucciones y vuelve a presentarlo, o pregunta a un abogado."
+  },
+  "biometrics-appointment-was-scheduled": {
+    "en": "Your I-131A appointment is set. For this form, biometrics are usually taken at the U.S. embassy or consulate you selected. Bring your passport, appointment notice, any green card you have, and evidence of why you need to return.",
+    "es": "Tu cita del I-131A está agendada. En este formulario, los biométricos casi siempre se toman en la embajada o consulado que elegiste. Lleva tu pasaporte, la carta de la cita, tu green card si la tienes y pruebas de por qué necesitas volver."
+  },
+  "case-was-updated-to-show-fingerprints-were-taken": {
+    "en": "Your biometrics for the I-131A were taken, usually at the embassy or consulate. USCIS can now complete background checks and decide. If approved, the embassy will tell you how and when to get your passport with the boarding foil.",
+    "es": "Ya te tomaron los biométricos del I-131A, casi siempre en la embajada o consulado. USCIS ya puede terminar las revisiones y decidir. Si lo aprueban, la embajada te dirá cómo y cuándo recoger tu pasaporte con la etiqueta."
+  },
+  "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+    "en": "USCIS recorded that you did not appear for your I-131A appointment at the embassy or consulate. Without that visit, the case cannot move forward and may be denied. Contact the embassy or USCIS quickly to reschedule.",
+    "es": "USCIS registró que no fuiste a tu cita del I-131A en la embajada o consulado. Sin esa visita el caso no puede avanzar y podrían negarlo. Contacta rápido a la embajada o a USCIS para reprogramar."
+  },
+  "case-was-approved-and-my-decision-was-emailed": {
+    "en": "Your I-131A was approved and the notice is in your online account. Next, the embassy or consulate should issue the boarding foil in your passport. Follow their pickup instructions and plan your flight within the foil's validity.",
+    "es": "Aprobaron tu I-131A y el aviso está en tu cuenta en línea. Lo siguiente es que la embajada o consulado ponga la etiqueta de transporte en tu pasaporte. Sigue sus instrucciones para recogerlo y planea tu vuelo dentro de la vigencia de la etiqueta."
+  },
+  "case-approval-was-certified-by-uscis": {
+    "en": "USCIS certified the approval of your I-131A. This works like an approval. The embassy or consulate can now issue your carrier documentation. Once you land, CBP at the airport makes the final decision on your admission.",
+    "es": "USCIS certificó la aprobación de tu I-131A. Funciona como una aprobación. La embajada o consulado ya puede emitir tu documento de transporte. Al llegar, CBP en el aeropuerto toma la decisión final sobre tu entrada."
+  },
+  "response-to-uscis-notice-of-intent-was-received": {
+    "en": "USCIS received your reply to a notice saying it planned to deny your I-131A. The officer will consider it before deciding. A denial could affect your green card, so an immigration attorney should review your situation now.",
+    "es": "USCIS recibió tu respuesta a un aviso donde decía que pensaba negar tu I-131A. El oficial la tomará en cuenta antes de decidir. Una negación podría afectar tu green card, así que un abogado de inmigración debe revisar tu caso ya."
+  },
+  "duplicate-notice-was-mailed": {
+    "en": "USCIS sent a copy of a notice from your I-131A. Since you are abroad, a duplicate helps if the original was lost. Keep it with your passport so you can show it at the embassy if needed.",
+    "es": "USCIS mandó una copia de un aviso de tu I-131A. Como estás fuera del país, una copia ayuda si el original se perdió. Guárdala con tu pasaporte para mostrarla en la embajada si hace falta."
+  },
+  "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+    "en": "A notice about your I-131A came back undelivered. Mail sent abroad often fails. Check your USCIS online account for a digital copy, and update your address so you do not miss deadlines or appointment instructions.",
+    "es": "Un aviso de tu I-131A regresó sin entregarse. El correo al extranjero falla seguido. Revisa tu cuenta de USCIS por una copia digital y actualiza tu dirección para no perder plazos ni instrucciones de cita."
+  },
+  "date-of-birth-was-updated": {
+    "en": "USCIS corrected your date of birth on the I-131A. It must match your passport and green card record, because the airline and CBP will compare these details when you travel with the boarding foil. Keep a copy of the corrected notice.",
+    "es": "USCIS corrigió tu fecha de nacimiento en el I-131A. Debe coincidir con tu pasaporte y tu registro de green card, porque la aerolínea y CBP compararán esos datos cuando viajes con la etiqueta. Guarda una copia del aviso corregido."
+  },
+  "continuation-notice-was-mailed": {
+    "en": "USCIS sent a continuation notice on your I-131A. This is uncommon for this form. Read it carefully, since it may reschedule your embassy appointment or continue a review. Check your online account for details. Keep it with your passport.",
+    "es": "USCIS mandó un aviso de continuación de tu I-131A. No es común en este formulario. Léelo bien, porque puede reprogramar tu cita en la embajada o continuar una revisión. Revisa tu cuenta en línea para más detalles."
+  },
+  "termination-notice-sent": {
+    "en": "USCIS sent a termination notice on your I-131A. This is unusual and may mean the request was ended. It could have consequences for your permanent residence. Read the reason carefully and contact an immigration attorney quickly.",
+    "es": "USCIS mandó un aviso de terminación de tu I-131A. Es raro y puede significar que terminaron la solicitud. Podría tener consecuencias para tu residencia permanente. Lee bien el motivo y contacta rápido a un abogado de inmigración."
+  },
+  "case-closed-benefit-received-by-other-means": {
+    "en": "USCIS closed your I-131A because you got a way to return by other means, for example a valid reentry permit, a replacement card, or a returning resident visa. Make sure you travel with the document that now applies.",
+    "es": "USCIS cerró tu I-131A porque obtuviste otra forma de regresar, por ejemplo un permiso de reingreso vigente, una tarjeta de reemplazo o una visa de residente que regresa. Asegúrate de viajar con el documento que ahora aplica."
+  },
+  "expedite-request-denied": {
+    "en": "USCIS declined to speed up your I-131A. Your request stays in the normal queue and the expedite decision does not hurt it. Keep your embassy appointment and continue gathering proof of your ties to the U.S.",
+    "es": "USCIS no aceptó acelerar tu I-131A. Tu solicitud sigue en la fila normal y esa decisión no la perjudica. Mantén tu cita en la embajada y sigue juntando pruebas de tus lazos con EE.UU. Puedes pedirlo otra vez con pruebas nuevas."
+  },
+  "correspondence-was-received-and-uscis-is-reviewing-it": {
+    "en": "USCIS received a message or documents you sent about your I-131A and is reviewing them. This may be new proof of why you stayed abroad or an address update. Wait for an answer in your online account before sending more.",
+    "es": "USCIS recibió un mensaje o documentos que mandaste sobre tu I-131A y los está revisando. Puede ser una prueba nueva de por qué te quedaste afuera o un cambio de dirección. Espera respuesta en tu cuenta en línea antes de mandar más."
+  }
+}

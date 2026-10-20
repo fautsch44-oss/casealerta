@@ -1,0 +1,150 @@
+{
+  "case-was-received": {
+    "en": "USCIS has your I-956K registration as an EB-5 promoter. Under the EB-5 Reform and Integrity Act of 2022, regional centers may work only with promoters who are registered with USCIS. Keep the receipt; regional centers you work with may ask for proof that your registration is pending or approved.",
+    "es": "USCIS ya tiene tu registro I-956K como promotor de EB-5. Según la Ley de Reforma e Integridad de EB-5 de 2022, los centros regionales solo pueden trabajar con promotores registrados ante USCIS. Guarda el recibo; los centros regionales con los que trabajes pueden pedirte prueba de que tu registro está en trámite o aprobado."
+  },
+  "case-was-received-and-a-receipt-notice-was-sent": {
+    "en": "Your I-956K is logged and the paper receipt is on its way. If you registered as a company, check that the legal name and all listed individuals are correct, since the registration covers the entity and the people acting for it.",
+    "es": "Tu I-956K quedó registrado y el recibo en papel viene en camino. Si te registraste como empresa, revisa que el nombre legal y todas las personas incluidas estén correctos, porque el registro cubre a la entidad y a quienes actúan por ella."
+  },
+  "fingerprint-fee-was-received": {
+    "en": "USCIS logged a biometrics-related step on your I-956K. Background checks are part of EB-5 integrity rules, which aim to keep people with certain past violations out of the program. Watch for an appointment notice if USCIS needs fingerprints from you.",
+    "es": "USCIS registró un paso de biométricos en tu I-956K. Las revisiones de antecedentes son parte de las reglas de integridad de EB-5, que buscan dejar fuera a personas con ciertas violaciones pasadas. Espera un aviso de cita si USCIS necesita tus huellas."
+  },
+  "fingerprint-review-was-completed": {
+    "en": "USCIS finished a fingerprint check related to your promoter registration. EB-5 rules bar certain people, such as those with specific fraud or securities violations, from working as promoters. The officer can now continue reviewing your I-956K.",
+    "es": "USCIS terminó una revisión de huellas de tu registro de promotor. Las reglas de EB-5 prohíben que ciertas personas, como quienes tienen ciertas violaciones de fraude o de valores, actúen como promotores. El oficial ya puede seguir revisando tu I-956K."
+  },
+  "case-is-being-actively-reviewed-by-uscis": {
+    "en": "An officer is reviewing your I-956K. They check your identity, your role as a direct or third-party promoter, your compensation arrangements, and your history against EB-5 integrity rules. Your registration is decided by the USCIS office that handles EB-5 cases.",
+    "es": "Un oficial está revisando tu I-956K. Revisa tu identidad, tu papel como promotor directo o de terceros, cómo te pagan y tu historial frente a las reglas de integridad de EB-5. Tu registro lo decide la oficina de USCIS que maneja casos de EB-5."
+  },
+  "request-for-additional-evidence-was-sent": {
+    "en": "USCIS needs more information on your I-956K. Requests often ask about your compensation from regional centers, the countries where you promote, licenses you hold, or any past legal actions. Answer completely by the deadline; an attorney familiar with EB-5 compliance can help.",
+    "es": "USCIS necesita más información sobre tu I-956K. Suelen preguntar por tus pagos de los centros regionales, los países donde promueves, licencias que tienes o acciones legales pasadas. Responde completo antes del plazo; un abogado con experiencia en cumplimiento de EB-5 puede ayudarte."
+  },
+  "request-for-initial-evidence-was-sent": {
+    "en": "Something basic was missing from your I-956K, such as a signature, identity documents, or information about the regional centers you work with. Send exactly what the notice lists before the deadline so your registration is not denied.",
+    "es": "Faltó algo básico en tu I-956K, como una firma, documentos de identidad o información sobre los centros regionales con los que trabajas. Manda justo lo que dice el aviso antes del plazo para que no nieguen tu registro."
+  },
+  "response-to-uscis-request-for-evidence-was-received": {
+    "en": "USCIS received your reply for the I-956K. The officer will review it with the rest of your registration. If everything is in order, an approval of your promoter registration usually follows. Keep a full copy of what you sent.",
+    "es": "USCIS recibió tu respuesta para el I-956K. El oficial la revisará con el resto de tu registro. Si todo está en orden, normalmente sigue la aprobación de tu registro de promotor. Guarda una copia completa de lo que mandaste."
+  },
+  "case-was-transferred-and-a-new-office-has-jurisdiction": {
+    "en": "Your I-956K moved to another USCIS office. EB-5 filings are usually handled by a specialized investor program office, so a transfer may be part of routing. Your receipt number stays the same. The review continues where it left off.",
+    "es": "Tu I-956K pasó a otra oficina de USCIS. Los trámites de EB-5 suelen manejarse en una oficina especializada del programa de inversionistas, así que el traslado puede ser parte de esa ruta. Tu número de recibo no cambia."
+  },
+  "case-was-approved": {
+    "en": "Your I-956K was approved, so you are a registered EB-5 promoter. Regional centers you work with can now rely on your registration. Keep the approval notice, and update USCIS if your information or relationships with regional centers change.",
+    "es": "Aprobaron tu I-956K, así que ya eres promotor de EB-5 registrado. Los centros regionales con los que trabajes ya pueden apoyarse en tu registro. Guarda el aviso de aprobación y avisa a USCIS si cambian tus datos o tus relaciones con centros regionales."
+  },
+  "notice-explaining-uscis-actions-was-mailed": {
+    "en": "USCIS mailed a letter about your I-956K. It may request information, announce an intent to deny, or give a decision. Read it promptly, since regional centers depend on your registration being in good standing. Keep it in your compliance file.",
+    "es": "USCIS mandó una carta sobre tu I-956K. Puede pedir información, avisar que piensa negar o dar una decisión. Léela pronto, porque los centros regionales dependen de que tu registro esté en regla. Guárdala en tu archivo de cumplimiento."
+  },
+  "case-was-denied": {
+    "en": "Your I-956K was denied, so you are not a registered EB-5 promoter. Regional centers should not work with unregistered promoters. The notice explains the reasons and any options, such as a motion. Talk to an attorney experienced in EB-5 compliance.",
+    "es": "Te negaron el I-956K, así que no eres promotor de EB-5 registrado. Los centros regionales no deben trabajar con promotores sin registro. El aviso explica los motivos y las opciones, como una moción. Habla con un abogado con experiencia en cumplimiento de EB-5."
+  },
+  "case-was-reopened": {
+    "en": "USCIS reopened your I-956K, often after a motion or new information. Your promoter registration is pending again and will get a new decision. Let the regional centers you work with know the current status. Keep copies of every notice.",
+    "es": "USCIS reabrió tu I-956K, muchas veces por una moción o información nueva. Tu registro de promotor vuelve a estar pendiente y tendrá nueva decisión. Avisa a los centros regionales con los que trabajas cómo está ahora."
+  },
+  "case-rejected-because-i-sent-an-incorrect-fee": {
+    "en": "Your I-956K was returned because the fee was wrong. Check the current fee for promoter registration on uscis.gov, fix the payment and refile. Until it is accepted, you are not registered. Tell the regional centers you work with about the delay.",
+    "es": "Te regresaron el I-956K porque la cuota estaba mal. Revisa en uscis.gov la cuota actual del registro de promotor, corrige el pago y vuelve a presentarlo. Mientras no lo acepten, no estás registrado. Avisa del retraso a los centros regionales."
+  },
+  "expedite-request-received": {
+    "en": "USCIS logged your request to speed up your I-956K. Expedites are decided case by case and need strong proof of urgency. Business convenience alone is usually not enough. Keep working with the regional center on its compliance timeline.",
+    "es": "USCIS registró tu petición para acelerar tu I-956K. Las aceleraciones se deciden caso por caso y necesitan pruebas fuertes de urgencia. La conveniencia del negocio por sí sola casi nunca basta. Sigue coordinando con el centro regional sus tiempos de cumplimiento."
+  },
+  "withdrawal-acknowledgement-notice-was-sent": {
+    "en": "USCIS confirmed your I-956K was withdrawn. You are no longer registered as an EB-5 promoter through this filing. Regional centers should stop relying on it. If you plan to promote again, you would need to register again.",
+    "es": "USCIS confirmó que retiraste tu I-956K. Ya no estás registrado como promotor de EB-5 por este trámite. Los centros regionales deben dejar de apoyarse en él. Si planeas volver a promover, tendrías que registrarte otra vez."
+  },
+  "name-was-updated": {
+    "en": "USCIS updated a name on your I-956K, either an individual's or the company's legal name. Make sure it matches your business registration and identity documents, since regional centers will check your registration by name. Keep the updated notice on file.",
+    "es": "USCIS actualizó un nombre en tu I-956K, de una persona o el nombre legal de la empresa. Asegúrate de que coincida con tu registro mercantil y tus documentos de identidad, porque los centros regionales revisarán tu registro por nombre."
+  },
+  "case-was-received-and-a-receipt-notice-was-emailed": {
+    "en": "Your I-956K receipt is in your USCIS online account. Download it and share a copy with the regional centers you work with, as they may need proof that your promoter registration has been filed. Keep a copy in your records.",
+    "es": "El recibo de tu I-956K está en tu cuenta de USCIS. Descárgalo y comparte copia con los centros regionales con los que trabajas, porque pueden necesitar prueba de que presentaste tu registro de promotor. Guarda una copia en tus archivos."
+  },
+  "case-accepted-by-the-uscis-lockbox": {
+    "en": "Your I-956K was accepted at intake and payment processed. A receipt number comes next. If you registered as an entity, each listed individual's details will be reviewed as part of the same filing. Watch your online account and mail.",
+    "es": "Tu I-956K fue aceptado en la recepción y el pago se procesó. Lo siguiente es el número de recibo. Si te registraste como entidad, los datos de cada persona incluida se revisarán dentro del mismo trámite."
+  },
+  "fees-were-waived": {
+    "en": "This is unusual for an I-956K, because EB-5 related filings generally are not eligible for fee waivers. Confirm that the update belongs to this receipt number, and read the notice or check uscis.gov to understand it.",
+    "es": "Esto es raro en un I-956K, porque los trámites de EB-5 en general no aceptan exención de cuota. Confirma que la actualización sea de este número de recibo, y lee el aviso o revisa uscis.gov para entenderlo."
+  },
+  "case-was-rejected-because-it-was-improperly-filed": {
+    "en": "Your I-956K was returned without review. Common reasons are a missing signature, an old form edition, or incomplete information about the promoter or the regional centers involved. Fix the issue and refile soon. Until then, you are not registered.",
+    "es": "Te regresaron el I-956K sin revisarlo. Razones comunes: falta de firma, versión vieja del formulario o información incompleta del promotor o de los centros regionales. Corrige el problema y vuelve a presentarlo pronto. Mientras tanto, no estás registrado."
+  },
+  "biometrics-appointment-was-scheduled": {
+    "en": "You have a biometrics appointment linked to your I-956K. USCIS uses fingerprints for background checks under EB-5 integrity rules. Bring the notice and a photo ID. If you live abroad, follow the notice for where to go.",
+    "es": "Tienes cita de biométricos ligada a tu I-956K. USCIS usa las huellas para revisar antecedentes según las reglas de integridad de EB-5. Lleva el aviso y una identificación con foto. Si vives fuera del país, sigue el aviso para saber a dónde ir."
+  },
+  "case-was-updated-to-show-fingerprints-were-taken": {
+    "en": "Your biometrics for the I-956K are on file. USCIS can now complete the background checks for your promoter registration. The officer's review and decision come next. No action is needed unless you get a letter.",
+    "es": "Tus biométricos del I-956K ya están registrados. USCIS ya puede terminar las revisiones de antecedentes de tu registro de promotor. Lo siguiente es la revisión y decisión del oficial. No tienes que hacer nada salvo que llegue una carta."
+  },
+  "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+    "en": "USCIS recorded that you missed an in-person appointment for your I-956K. Without it, the background check cannot finish and the registration may be denied. Contact USCIS right away to reschedule. Keep proof of any reason you could not attend.",
+    "es": "USCIS registró que faltaste a una cita en persona de tu I-956K. Sin ella, la revisión de antecedentes no puede terminar y podrían negar el registro. Contacta a USCIS de inmediato para reprogramar. Guarda pruebas del motivo por el que faltaste."
+  },
+  "case-was-approved-and-my-decision-was-emailed": {
+    "en": "Your I-956K was approved and the notice is in your USCIS online account. Download it and share it with regional centers that need proof of your promoter registration. Keep your details updated with USCIS. Keep a printed copy too.",
+    "es": "Aprobaron tu I-956K y el aviso está en tu cuenta de USCIS. Descárgalo y compártelo con los centros regionales que necesiten prueba de tu registro de promotor. Mantén tus datos al día con USCIS. Guarda también una copia impresa."
+  },
+  "case-approval-was-certified-by-uscis": {
+    "en": "USCIS certified the approval of your I-956K. This works like an approval of your promoter registration. Keep the notice on file, since regional centers must keep records showing they work with registered promoters. Share a copy when asked.",
+    "es": "USCIS certificó la aprobación de tu I-956K. Funciona como una aprobación de tu registro de promotor. Guarda el aviso, porque los centros regionales deben tener registros que muestren que trabajan con promotores registrados. Comparte copia cuando te la pidan."
+  },
+  "case-was-sent-to-the-department-of-state": {
+    "en": "This status is not a normal part of promoter registration, which ends with a USCIS decision rather than a visa process. It may relate to a different EB-5 case. Check the receipt number and contact USCIS if it is truly your I-956K.",
+    "es": "Este estatus no es parte normal del registro de promotor, que termina con una decisión de USCIS y no con un trámite de visa. Puede ser de otro caso de EB-5. Revisa el número de recibo y contacta a USCIS si de verdad es tu I-956K."
+  },
+  "response-to-uscis-notice-of-intent-was-received": {
+    "en": "USCIS received your reply to its notice of intent to deny your I-956K. The officer will review it before deciding. Because a denial affects your ability to work with regional centers, get legal advice on EB-5 compliance if you have not.",
+    "es": "USCIS recibió tu respuesta al aviso de intención de negar tu I-956K. El oficial la revisará antes de decidir. Como una negación afecta tu capacidad de trabajar con centros regionales, busca asesoría legal sobre cumplimiento de EB-5 si aún no la tienes."
+  },
+  "case-is-pending-at-a-local-office": {
+    "en": "Your I-956K is listed at a local USCIS office. This is unusual, since EB-5 filings are typically handled by the specialized investor program office. It may involve an interview or site review. Watch your mail for instructions.",
+    "es": "Tu I-956K aparece en una oficina local de USCIS. Es raro, porque los trámites de EB-5 normalmente los maneja la oficina especializada de inversionistas. Puede implicar una entrevista o revisión en sitio. Revisa tu correo por instrucciones."
+  },
+  "duplicate-notice-was-mailed": {
+    "en": "USCIS mailed a copy of a notice from your I-956K. Duplicates are useful when several regional centers ask for proof of your registration. Keep digital and printed copies in your compliance files. Check that the details on it are still current.",
+    "es": "USCIS mandó una copia de un aviso de tu I-956K. Las copias sirven cuando varios centros regionales piden prueba de tu registro. Guarda copias digitales e impresas en tus archivos de cumplimiento. Revisa que los datos sigan al día."
+  },
+  "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+    "en": "A notice about your I-956K came back undelivered. It may have had a deadline. Update your address with USCIS and ask what the notice said, so your promoter registration is not denied for lack of response.",
+    "es": "Un aviso de tu I-956K regresó sin entregarse. Podía tener un plazo. Actualiza tu dirección con USCIS y pregunta qué decía el aviso, para que no nieguen tu registro de promotor por falta de respuesta."
+  },
+  "date-of-birth-was-updated": {
+    "en": "USCIS corrected a date of birth on your I-956K, for you or a listed individual. It must match identity documents, since background checks under EB-5 integrity rules rely on accurate personal data. Check the corrected notice carefully.",
+    "es": "USCIS corrigió una fecha de nacimiento en tu I-956K, tuya o de una persona incluida. Debe coincidir con los documentos de identidad, porque las revisiones de antecedentes de EB-5 dependen de datos personales correctos. Revisa bien el aviso corregido."
+  },
+  "continuation-notice-was-mailed": {
+    "en": "USCIS sent a continuation notice on your I-956K. This is uncommon. It may continue a review or relate to keeping your registration current. Read the dates closely and keep the notice in your compliance file.",
+    "es": "USCIS mandó un aviso de continuación de tu I-956K. No es común. Puede continuar una revisión o tener que ver con mantener tu registro al día. Lee bien las fechas y guarda el aviso en tu archivo de cumplimiento."
+  },
+  "termination-notice-sent": {
+    "en": "USCIS sent a notice ending your promoter registration. Regional centers should stop working with you as a promoter. Read the reason and effective date, and speak with an attorney experienced in EB-5 compliance about any options.",
+    "es": "USCIS mandó un aviso que termina tu registro de promotor. Los centros regionales deben dejar de trabajar contigo como promotor. Lee el motivo y la fecha en que aplica, y habla con un abogado con experiencia en cumplimiento de EB-5 sobre tus opciones."
+  },
+  "case-closed-benefit-received-by-other-means": {
+    "en": "USCIS closed your I-956K because the registration is no longer needed through this filing, for example because you are covered by another registration. Confirm with USCIS or your attorney that you remain properly registered. Keep the closing notice.",
+    "es": "USCIS cerró tu I-956K porque ya no se necesita el registro por este trámite, por ejemplo porque otro registro ya te cubre. Confirma con USCIS o tu abogado que sigues bien registrado. Guarda el aviso de cierre."
+  },
+  "expedite-request-denied": {
+    "en": "USCIS declined to speed up your I-956K. The registration stays in the regular queue, and this decision does not hurt it. Plan your work with regional centers around the typical range shown on this page.",
+    "es": "USCIS no aceptó acelerar tu I-956K. El registro sigue en la fila normal y esta decisión no lo perjudica. Planea tu trabajo con los centros regionales según el rango típico que muestra esta página. Guarda tus pruebas."
+  },
+  "correspondence-was-received-and-uscis-is-reviewing-it": {
+    "en": "USCIS received a letter or documents about your I-956K and is reviewing them. This may be an update to your information, new regional center relationships, or an address change. Wait for a written answer before resending.",
+    "es": "USCIS recibió una carta o documentos sobre tu I-956K y los está revisando. Puede ser una actualización de tus datos, nuevas relaciones con centros regionales o un cambio de dirección. Espera respuesta por escrito antes de volver a mandar."
+  }
+}

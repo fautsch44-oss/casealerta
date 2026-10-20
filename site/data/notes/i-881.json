@@ -1,0 +1,194 @@
+{
+ "case-was-received": {
+  "en": "USCIS logged your I-881 NACARA application. Cases filed with USCIS are handled by an asylum office, not a regular field office. The usual path is biometrics, then an interview where an officer looks at your continuous presence, good moral character and hardship. Keep your receipt with proof of your NACARA eligibility, such as ABC registration or an early asylum filing.",
+  "es": "USCIS registró tu solicitud NACARA I-881. Los casos presentados ante USCIS los maneja una oficina de asilo, no una oficina local normal. El camino usual es biométricos y luego una entrevista donde revisan tu presencia continua, buen carácter moral y el perjuicio. Guarda tu recibo con las pruebas de que calificas para NACARA, como el registro ABC o una solicitud de asilo antigua."
+ },
+ "case-was-received-and-a-receipt-notice-was-sent": {
+  "en": "Your I-881 receipt notice is in the mail. It confirms your NACARA filing with the asylum office. Family members included in the same case may be listed on it or get their own notices. Check that every name and birth date is correct.",
+  "es": "Tu aviso de recibo del I-881 ya va por correo. Confirma tu solicitud NACARA ante la oficina de asilo. Los familiares incluidos en el mismo caso pueden aparecer en el aviso o recibir los suyos. Revisa que todos los nombres y fechas de nacimiento estén bien."
+ },
+ "fingerprint-fee-was-received": {
+  "en": "USCIS applied the biometrics fee on your I-881. NACARA applicants need fingerprints for FBI and other background checks before the asylum office interview. Expect an appointment notice at an Application Support Center for you and any family members on the case.",
+  "es": "USCIS aplicó la cuota de biométricos de tu I-881. Quienes piden NACARA necesitan huellas para la revisión del FBI y otras antes de la entrevista en la oficina de asilo. Espera una cita en un Centro de Apoyo de Solicitudes para ti y para tus familiares en el caso."
+ },
+ "fingerprint-review-was-completed": {
+  "en": "The background check from your I-881 fingerprints came back. Good moral character is part of NACARA eligibility, so these results matter. The next usual step is being placed in line for an asylum office interview. This is progress, not a decision.",
+  "es": "Ya regresó la revisión de antecedentes de tus huellas del I-881. El buen carácter moral es parte de los requisitos de NACARA, así que estos resultados importan. Lo normal es que sigas a la fila para la entrevista en la oficina de asilo. Es un avance, no una decisión."
+ },
+ "case-is-being-actively-reviewed-by-uscis": {
+  "en": "An asylum officer is working on your I-881. They review your proof of NACARA eligibility, the years you have lived in the U.S., and background check results. The status can appear before and after the interview. Keep gathering documents that show continuous presence, like leases, pay stubs and tax records.",
+  "es": "Un oficial de asilo está trabajando en tu I-881. Revisa tus pruebas de que calificas para NACARA, los años que has vivido en EE.UU. y los resultados de antecedentes. Este estatus puede salir antes y después de la entrevista. Sigue juntando papeles que prueben tu presencia continua, como contratos de renta, recibos de pago e impuestos."
+ },
+ "case-is-ready-to-be-scheduled-for-an-interview": {
+  "en": "Your I-881 is in line for an interview at an asylum office. Scheduling depends on that office's workload. Use the time to organize proof of continuous presence year by year, evidence of good moral character, and documents about the hardship removal would cause to you or your family.",
+  "es": "Tu I-881 está en la fila para una entrevista en una oficina de asilo. La fecha depende de la carga de esa oficina. Aprovecha para ordenar pruebas de tu presencia continua año por año, de tu buen carácter moral y papeles sobre el perjuicio que la deportación causaría a ti o a tu familia."
+ },
+ "interview-was-scheduled": {
+  "en": "Your I-881 interview is set at an asylum office. Bring the notice, identity documents, originals of your evidence, and any family members listed on the case if the notice says so. Read the notice for interpreter rules. The officer will ask about your years in the U.S., your character and hardship.",
+  "es": "Tu entrevista del I-881 ya tiene fecha en una oficina de asilo. Lleva el aviso, tus documentos de identidad, los originales de tus pruebas y a los familiares del caso si el aviso lo pide. Lee en el aviso las reglas sobre intérpretes. El oficial te preguntará por tus años en EE.UU., tu carácter y el perjuicio."
+ },
+ "interview-was-completed-and-my-case-must-be-reviewed": {
+  "en": "Your NACARA interview is done but no decision was given. Asylum offices often mail decisions later, sometimes asking you to return to pick them up. The officer may need supervisor review or more background checks. The result can be a grant or, if not granted, a referral to immigration court.",
+  "es": "Ya tuviste tu entrevista NACARA pero no te dieron decisión. Las oficinas de asilo muchas veces mandan la decisión después, a veces pidiendo que regreses a recogerla. Puede faltar revisión de un supervisor o más antecedentes. El resultado puede ser una aprobación o, si no se aprueba, un envío a la corte de inmigración."
+ },
+ "request-for-additional-evidence-was-sent": {
+  "en": "The asylum office wants more evidence on your I-881. It often asks for proof of continuous presence for certain years, court records, tax filings, or proof of your NACARA class membership. Answer fully by the deadline. An immigration attorney or accredited representative can help, since your path to a green card depends on it.",
+  "es": "La oficina de asilo quiere más pruebas de tu I-881. Muchas veces pide prueba de presencia continua de ciertos años, récords de la corte, declaraciones de impuestos o prueba de que perteneces al grupo NACARA. Contesta todo antes del plazo. Un abogado de inmigración o representante acreditado puede ayudarte, porque de esto depende tu green card."
+ },
+ "request-for-initial-evidence-was-sent": {
+  "en": "Your I-881 was missing something required from the start, such as photos, copies of identity documents, or proof that you belong to a NACARA group. The notice lists what is needed. Send it before the deadline so the asylum office can schedule your case.",
+  "es": "A tu I-881 le faltó algo obligatorio desde el inicio, como fotos, copias de documentos de identidad o prueba de que perteneces a un grupo NACARA. El aviso dice qué falta. Mándalo antes del plazo para que la oficina de asilo pueda programar tu caso."
+ },
+ "response-to-uscis-request-for-evidence-was-received": {
+  "en": "USCIS received the evidence you sent for your I-881. The asylum office will add it to your file, and it may move the case toward an interview or a decision. Keep copies of everything, since you may be asked about these documents at the interview.",
+  "es": "USCIS recibió las pruebas que mandaste para tu I-881. La oficina de asilo las agregará a tu expediente y puede mover el caso hacia la entrevista o la decisión. Guarda copia de todo, porque te pueden preguntar por esos papeles en la entrevista."
+ },
+ "case-was-transferred-and-a-new-office-has-jurisdiction": {
+  "en": "Your I-881 moved to a different asylum office, usually because of where you live or to balance workloads. The new office will schedule your interview. If you moved recently, make sure USCIS has your current address so the interview notice reaches you.",
+  "es": "Tu I-881 pasó a otra oficina de asilo, casi siempre por donde vives o para repartir el trabajo. La nueva oficina programará tu entrevista. Si te mudaste hace poco, asegúrate de que USCIS tenga tu dirección actual para que te llegue el aviso de entrevista."
+ },
+ "case-was-approved": {
+  "en": "Your NACARA case was granted. Approval of the I-881 makes you a lawful permanent resident, and USCIS will produce your green card. Family members granted in the case follow the same steps. Your time as a resident starts counting toward citizenship from the date shown on the approval.",
+  "es": "Te aprobaron tu caso NACARA. La aprobación del I-881 te hace residente permanente y USCIS va a hacer tu green card. Los familiares aprobados en el caso siguen los mismos pasos. Tu tiempo como residente empieza a contar para la ciudadanía desde la fecha que dice la aprobación."
+ },
+ "new-card-is-being-produced": {
+  "en": "USCIS is printing your green card after granting your I-881. Make sure your mailing address is current. Until the card arrives, keep the approval notice as proof of your new permanent resident status. Family members granted with you get their own cards.",
+  "es": "USCIS está imprimiendo tu green card después de aprobar tu I-881. Asegúrate de que tu dirección esté al día. Mientras llega la tarjeta, guarda el aviso de aprobación como prueba de tu nueva residencia permanente."
+ },
+ "card-was-mailed-to-me": {
+  "en": "Your green card from the NACARA case is in the mail. Track it with the USPS number if one is shown. When it arrives, check the name, birth date and resident-since date. Keep the I-881 approval notice too.",
+  "es": "Tu green card del caso NACARA ya va por correo. Síguela con el número de USPS si aparece. Cuando llegue, revisa el nombre, la fecha de nacimiento y la fecha desde la que eres residente. Guarda también el aviso de aprobación del I-881."
+ },
+ "card-was-picked-up-by-the-united-states-postal-service": {
+  "en": "USPS has your green card from the I-881 approval and is delivering it. Use the tracking number to follow it. If you moved since your interview, update your address with USCIS and USPS right away.",
+  "es": "USPS tiene tu green card de la aprobación del I-881 y la está entregando. Usa el número de rastreo para seguirla. Si te mudaste después de la entrevista, actualiza tu dirección con USCIS y USPS de inmediato."
+ },
+ "card-was-delivered-to-me-by-the-post-office": {
+  "en": "Your green card was delivered after your NACARA approval. Check every detail, especially the resident-since date, because it affects when you can apply for citizenship. If something is wrong, USCIS has a process to correct it.",
+  "es": "Te entregaron tu green card después de la aprobación NACARA. Revisa cada dato, sobre todo la fecha desde la que eres residente, porque afecta cuándo puedes pedir la ciudadanía. Si algo está mal, USCIS tiene un proceso para corregirlo."
+ },
+ "document-was-mailed-to-me": {
+  "en": "USCIS mailed a document tied to your I-881. It is often the written decision from the asylum office, either a grant or a referral to immigration court. Read it carefully, since each outcome has very different next steps.",
+  "es": "USCIS te mandó un documento de tu I-881. Muchas veces es la decisión por escrito de la oficina de asilo, ya sea una aprobación o un envío a la corte de inmigración. Léelo con cuidado, porque cada resultado tiene pasos muy distintos."
+ },
+ "notice-explaining-uscis-actions-was-mailed": {
+  "en": "USCIS sent a letter about your I-881. It could be an interview notice, a request for evidence, a notice to pick up your decision, or a referral notice. Read it right away and note any dates you must attend.",
+  "es": "USCIS te mandó una carta sobre tu I-881. Puede ser un aviso de entrevista, una petición de pruebas, un aviso para recoger tu decisión o un aviso de envío a la corte. Léela de inmediato y anota cualquier fecha a la que debas ir."
+ },
+ "case-was-denied": {
+  "en": "Your I-881 was not granted. For NACARA, the asylum office often refers cases to immigration court rather than issuing a plain denial, and a judge can consider the application again. If you are in valid status, the outcome may differ. Speak with an immigration attorney or accredited representative quickly.",
+  "es": "Tu I-881 no fue aprobado. En NACARA, la oficina de asilo muchas veces manda el caso a la corte de inmigración en lugar de solo negarlo, y un juez puede revisar la solicitud otra vez. Si tienes un estatus válido, el resultado puede ser distinto. Habla pronto con un abogado de inmigración o un representante acreditado."
+ },
+ "case-was-reopened": {
+  "en": "Your I-881 is open again, often after a motion or a correction by the asylum office. The case may need new background checks or another interview. Watch for notices and keep your evidence of continuous presence up to date.",
+  "es": "Tu I-881 está abierto otra vez, muchas veces por una moción o una corrección de la oficina de asilo. El caso puede necesitar nuevos antecedentes u otra entrevista. Espera avisos y mantén al día tus pruebas de presencia continua."
+ },
+ "case-rejected-because-i-sent-an-incorrect-fee": {
+  "en": "Your I-881 was rejected because of a fee problem. NACARA fees depend on how many family members are included and where the case is filed. Check current fees on uscis.gov, correct the payment and refile, along with the biometrics fee if required.",
+  "es": "Tu I-881 fue rechazado por un problema con el pago. Las cuotas de NACARA dependen de cuántos familiares se incluyen y de dónde se presenta el caso. Revisa las cuotas actuales en uscis.gov, corrige el pago y vuelve a presentarlo, junto con la cuota de biométricos si aplica."
+ },
+ "expedite-request-received": {
+  "en": "USCIS received your request to speed up your I-881. Asylum offices have their own scheduling priorities, so expedites are reviewed case by case. Keep preparing for the interview while you wait for an answer. Not getting an answer quickly is normal.",
+  "es": "USCIS recibió tu solicitud para acelerar tu I-881. Las oficinas de asilo tienen sus propias prioridades para programar, así que revisan la aceleración caso por caso. Sigue preparándote para la entrevista mientras esperas la respuesta."
+ },
+ "withdrawal-acknowledgement-notice-was-sent": {
+  "en": "USCIS confirmed your I-881 was withdrawn. Withdrawing a NACARA application can have serious effects, especially if you have no other status. Talk with an immigration attorney about your situation and any remaining options. Keep this notice with your records.",
+  "es": "USCIS confirmó que tu I-881 fue retirado. Retirar una solicitud NACARA puede tener efectos serios, sobre todo si no tienes otro estatus. Habla con un abogado de inmigración sobre tu situación y las opciones que te quedan."
+ },
+ "name-was-updated": {
+  "en": "USCIS changed the name on your I-881 record. Your interview notice, decision and future green card will use this name. Make sure it matches your passport or other identity documents, and keep the paper that supports the change.",
+  "es": "USCIS cambió el nombre en tu expediente I-881. Tu aviso de entrevista, la decisión y tu futura green card usarán ese nombre. Asegúrate de que coincida con tu pasaporte u otros documentos, y guarda el papel que respalda el cambio."
+ },
+ "case-was-received-and-a-receipt-notice-was-emailed": {
+  "en": "Your I-881 receipt was sent electronically. Download and print it. Bring it to your biometrics appointment and later to the asylum office interview, along with your identity documents. Check that every family member on the case appears correctly, and keep the receipt number handy.",
+  "es": "Tu recibo del I-881 se mandó de forma electrónica. Descárgalo e imprímelo. Llévalo a tu cita de biométricos y después a la entrevista en la oficina de asilo, junto con tus documentos de identidad. Revisa que cada familiar del caso aparezca bien."
+ },
+ "case-accepted-by-the-uscis-lockbox": {
+  "en": "Your mailed I-881 was accepted at intake and the fees were processed. A receipt notice should follow, and the case will then go to an asylum office. Keep proof of mailing with your copy of the application.",
+  "es": "Tu I-881 por correo fue aceptado y se cobraron las cuotas. Pronto debe llegar el aviso de recibo y luego el caso pasará a una oficina de asilo. Guarda la prueba de envío con tu copia de la solicitud."
+ },
+ "fees-were-waived": {
+  "en": "USCIS approved a fee waiver on your I-881. Your NACARA case now continues like any other: biometrics, an asylum office interview, and a decision. Keep the waiver approval with your records in case it is asked for later.",
+  "es": "USCIS aprobó una exención de cuota en tu I-881. Tu caso NACARA ahora sigue como cualquier otro: biométricos, entrevista en la oficina de asilo y decisión. Guarda la aprobación de la exención por si te la piden después."
+ },
+ "case-was-rejected-because-it-was-improperly-filed": {
+  "en": "Your I-881 was not accepted. Common reasons include a missing signature, an outdated form edition, or filing with USCIS when your case belongs with the immigration court. Read the rejection notice and get advice before refiling.",
+  "es": "Tu I-881 no fue aceptado. Razones comunes son falta de firma, una edición vieja del formulario o presentarlo ante USCIS cuando tu caso le toca a la corte de inmigración. Lee el aviso de rechazo y busca asesoría antes de volver a presentarlo."
+ },
+ "biometrics-appointment-was-scheduled": {
+  "en": "You have a biometrics appointment for your I-881. Bring the notice and photo ID. Family members on the case may have separate appointments. Fingerprints are needed before the asylum office can interview you and decide.",
+  "es": "Tienes cita de biométricos para tu I-881. Lleva el aviso y una identificación con foto. Los familiares del caso pueden tener citas aparte. Las huellas son necesarias antes de que la oficina de asilo pueda entrevistarte y decidir."
+ },
+ "case-was-updated-to-show-fingerprints-were-taken": {
+  "en": "USCIS recorded your I-881 biometrics. Background checks can now run, which is required before your NACARA interview. Fingerprint results may need to be current at decision time, so you could be called again later. That is normal.",
+  "es": "USCIS registró tus biométricos del I-881. Ya puede correr la revisión de antecedentes, que es necesaria antes de tu entrevista NACARA. Los resultados de huellas pueden necesitar estar vigentes al decidir, así que te podrían volver a llamar."
+ },
+ "interview-was-rescheduled": {
+  "en": "Your I-881 interview at the asylum office moved to a new date. Watch for the new notice. Confirm whether family members must attend, and check the interpreter instructions again. Use the extra time to organize your evidence.",
+  "es": "Tu entrevista del I-881 en la oficina de asilo cambió de fecha. Espera el nuevo aviso. Confirma si tus familiares deben ir y vuelve a leer las instrucciones sobre intérpretes. Aprovecha el tiempo extra para ordenar tus pruebas."
+ },
+ "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+  "en": "USCIS recorded that you missed your I-881 biometrics or interview. For NACARA, a missed interview can lead to referral to immigration court or dismissal. Contact the asylum office right away with a written explanation, and get legal help.",
+  "es": "USCIS registró que faltaste a tus biométricos o entrevista del I-881. En NACARA, faltar a la entrevista puede llevar a que manden el caso a la corte o lo cierren. Contacta de inmediato a la oficina de asilo con una explicación por escrito y busca ayuda legal."
+ },
+ "case-was-approved-and-my-decision-was-emailed": {
+  "en": "Your I-881 approval was delivered electronically. Download and print it right away. It is your proof of permanent resident status until your green card arrives in the mail. Check that every family member granted in the case has an approval, and keep the notice safe.",
+  "es": "Tu aprobación del I-881 se mandó de forma electrónica. Descárgala e imprímela de inmediato. Es tu prueba de residencia permanente hasta que te llegue la green card por correo. Revisa que cada familiar aprobado en el caso tenga su aprobación y guarda el aviso."
+ },
+ "case-approval-was-certified-by-uscis": {
+  "en": "USCIS certified your I-881 approval. This can happen when another agency, such as the immigration court or the State Department, needs official proof that NACARA relief was granted. Check the notice for details and keep it safe.",
+  "es": "USCIS certificó tu aprobación del I-881. Puede pasar cuando otra agencia, como la corte de inmigración o el Departamento de Estado, necesita prueba oficial de que te dieron NACARA. Revisa el aviso y guárdalo bien."
+ },
+ "response-to-uscis-notice-of-intent-was-received": {
+  "en": "USCIS received your response to a notice of intent in your I-881 case. The asylum office will review it before deciding whether to grant or refer the case. An attorney or accredited representative can help you prepare for either outcome.",
+  "es": "USCIS recibió tu respuesta a un aviso de intención en tu caso I-881. La oficina de asilo la revisará antes de decidir si aprueba o manda el caso a la corte. Un abogado o representante acreditado puede ayudarte a prepararte para cualquier resultado."
+ },
+ "case-is-pending-at-a-local-office": {
+  "en": "Your I-881 is waiting at a local USCIS office, usually the asylum office that serves your area. Interviews and decisions for NACARA happen there. The wait depends on that office's backlog, so follow the typical range shown on this page.",
+  "es": "Tu I-881 está esperando en una oficina local de USCIS, normalmente la oficina de asilo de tu zona. Ahí se hacen las entrevistas y decisiones de NACARA. La espera depende de la carga de esa oficina, así que sigue el rango típico que muestra esta página."
+ },
+ "duplicate-notice-was-mailed": {
+  "en": "USCIS mailed a copy of an I-881 notice. It may be your receipt, an interview notice or the decision. If the original was lost, this replaces it. Keep it with your NACARA papers and proof of presence.",
+  "es": "USCIS mandó una copia de un aviso de tu I-881. Puede ser tu recibo, un aviso de entrevista o la decisión. Si perdiste el original, esta copia lo reemplaza. Guárdala con tus papeles NACARA y tus pruebas de presencia."
+ },
+ "card-is-being-returned-to-uscis-by-post-office": {
+  "en": "USPS could not deliver your green card from the I-881 approval and is sending it back. Update your address with USCIS online and contact USCIS to ask for redelivery. Keep using your approval notice as proof meanwhile.",
+  "es": "USPS no pudo entregar tu green card de la aprobación del I-881 y la está regresando. Actualiza tu dirección con USCIS en línea y contacta a USCIS para pedir que la vuelvan a mandar. Mientras tanto, usa tu aviso de aprobación como prueba."
+ },
+ "card-was-returned-to-uscis": {
+  "en": "Your green card from the NACARA case is back at USCIS because it could not be delivered. USCIS holds returned cards for a limited time. Confirm your correct address and request a new mailing as soon as possible.",
+  "es": "Tu green card del caso NACARA regresó a USCIS porque no se pudo entregar. USCIS guarda las tarjetas devueltas solo un tiempo. Confirma tu dirección correcta y pide que te la vuelvan a mandar lo antes posible."
+ },
+ "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+  "en": "An I-881 notice came back undelivered. It may have been your interview notice, and missing a NACARA interview can send the case to immigration court. Update your address with USCIS now and check your online account.",
+  "es": "Un aviso de tu I-881 regresó sin entregarse. Pudo ser tu aviso de entrevista, y faltar a la entrevista NACARA puede mandar el caso a la corte de inmigración. Actualiza ya tu dirección con USCIS y revisa tu cuenta en línea."
+ },
+ "card-was-received-by-uscis-along-with-my-letter": {
+  "en": "USCIS received the green card you sent back with a letter, usually to fix an error from your NACARA approval, such as a wrong date or misspelled name. USCIS will review it and may issue a corrected card.",
+  "es": "USCIS recibió la green card que regresaste con una carta, casi siempre para corregir un error de tu aprobación NACARA, como una fecha mal o un nombre mal escrito. USCIS lo revisará y puede darte una tarjeta corregida."
+ },
+ "date-of-birth-was-updated": {
+  "en": "USCIS corrected your date of birth on the I-881 record. This matters for your green card and for identity checks at the interview. Confirm it matches your passport or birth certificate, and contact USCIS if it still looks wrong.",
+  "es": "USCIS corrigió tu fecha de nacimiento en el expediente I-881. Importa para tu green card y para la revisión de identidad en la entrevista. Confirma que coincida con tu pasaporte o acta de nacimiento, y contacta a USCIS si sigue mal."
+ },
+ "continuation-notice-was-mailed": {
+  "en": "USCIS mailed a notice about your I-881 continuing. While a NACARA application is pending, you may be eligible for a work permit through a separate I-765. Check what this notice covers and keep it with your records.",
+  "es": "USCIS te mandó un aviso de que tu I-881 continúa. Mientras una solicitud NACARA está pendiente, quizá puedas tener permiso de trabajo con un I-765 aparte. Revisa qué cubre este aviso y guárdalo con tus papeles."
+ },
+ "termination-notice-sent": {
+  "en": "USCIS sent a termination notice in your I-881 case. This can end the NACARA application or a related benefit, and may lead to immigration court. Read the reasons carefully and speak with an immigration attorney or accredited representative right away.",
+  "es": "USCIS mandó un aviso de terminación en tu caso I-881. Puede terminar la solicitud NACARA o un beneficio relacionado, y puede llevar a la corte de inmigración. Lee las razones con cuidado y habla de inmediato con un abogado de inmigración o un representante acreditado."
+ },
+ "case-closed-benefit-received-by-other-means": {
+  "en": "USCIS closed your I-881 because you already got permanent residence or the same benefit another way, for example through a family petition or a decision by an immigration judge. Check that you have proof of that other approval.",
+  "es": "USCIS cerró tu I-881 porque ya obtuviste la residencia o el mismo beneficio por otra vía, por ejemplo por una petición familiar o una decisión de un juez de inmigración. Revisa que tengas prueba de esa otra aprobación."
+ },
+ "expedite-request-denied": {
+  "en": "USCIS will not expedite your I-881. Your case keeps its place in the asylum office queue. If your situation becomes more urgent, such as a serious medical need, you can ask again with new evidence.",
+  "es": "USCIS no va a acelerar tu I-881. Tu caso conserva su lugar en la fila de la oficina de asilo. Si tu situación se vuelve más urgente, como una necesidad médica seria, puedes pedirlo otra vez con pruebas nuevas."
+ },
+ "correspondence-was-received-and-uscis-is-reviewing-it": {
+  "en": "USCIS received something you sent about your I-881, such as new evidence of presence, an address change, or a request about your interview. An asylum officer will decide if any action is needed. Keep a copy and proof of delivery.",
+  "es": "USCIS recibió algo que mandaste sobre tu I-881, como nuevas pruebas de presencia, un cambio de dirección o una solicitud sobre tu entrevista. Un oficial de asilo decidirá si hace falta hacer algo. Guarda copia y prueba de entrega."
+ }
+}

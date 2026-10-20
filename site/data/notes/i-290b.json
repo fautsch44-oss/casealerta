@@ -1,0 +1,146 @@
+{
+ "case-was-received": {
+  "en": "USCIS logged your I-290B appeal or motion. Filing it does not by itself undo the earlier denial or restore any status you lost. If you filed an appeal, the deciding office first reviews it and may forward it to the Administrative Appeals Office. If you filed a motion, the same office that denied the case reviews it.",
+  "es": "USCIS registró tu apelación o moción I-290B. Presentarla no borra por sí sola la negación anterior ni te regresa el estatus que perdiste. Si es una apelación, la oficina que decidió la revisa primero y puede mandarla a la Oficina Administrativa de Apelaciones (AAO). Si es una moción, la revisa la misma oficina que negó el caso."
+ },
+ "case-was-received-and-a-receipt-notice-was-sent": {
+  "en": "Your I-290B receipt notice is in the mail. It proves you filed the appeal or motion and shows the date USCIS received it, which matters because these filings have strict deadlines after a denial. Keep it with the denial letter you are challenging.",
+  "es": "Tu aviso de recibo del I-290B ya va por correo. Prueba que presentaste la apelación o moción y muestra la fecha en que USCIS la recibió, algo importante porque estos trámites tienen plazos estrictos después de una negación. Guárdalo con la carta de negación que estás impugnando."
+ },
+ "fingerprint-fee-was-received": {
+  "en": "Biometrics are not a normal part of an I-290B. This update likely comes from the underlying case being reviewed again, such as a benefit that requires background checks. Watch for an appointment notice and confirm which receipt number it belongs to.",
+  "es": "Los biométricos no son parte normal de un I-290B. Este cambio probablemente viene del caso original que se está revisando otra vez, como un beneficio que pide revisión de antecedentes. Espera una cita y confirma a qué número de recibo pertenece."
+ },
+ "fingerprint-review-was-completed": {
+  "en": "A background check came back on a case tied to your I-290B. It is uncommon for appeals and motions, and it usually means the underlying benefit needed updated checks. It is not a decision on the appeal or motion itself.",
+  "es": "Regresó una revisión de antecedentes de un caso ligado a tu I-290B. Es poco común en apelaciones y mociones, y normalmente significa que el beneficio original necesitaba revisiones actualizadas. No es una decisión sobre la apelación o la moción."
+ },
+ "case-is-being-actively-reviewed-by-uscis": {
+  "en": "An officer or the Administrative Appeals Office is reviewing your I-290B. For a motion to reopen, they look at new facts; for a motion to reconsider, at whether the law was applied wrongly; for an appeal, at the whole record. Decisions can take a while, so follow the typical range shown on this page.",
+  "es": "Un oficial o la Oficina Administrativa de Apelaciones revisa tu I-290B. En una moción para reabrir revisan hechos nuevos; en una moción para reconsiderar, si aplicaron mal la ley; en una apelación, todo el expediente. Las decisiones pueden tardar, así que sigue el rango típico que muestra esta página."
+ },
+ "request-for-additional-evidence-was-sent": {
+  "en": "USCIS or the AAO asked for more evidence on your I-290B. This often concerns the original benefit, for example proof that was missing when the case was denied. Because an appeal is high stakes, answer fully by the deadline and consider help from an immigration attorney or accredited representative.",
+  "es": "USCIS o la AAO pidieron más pruebas sobre tu I-290B. Muchas veces es sobre el beneficio original, por ejemplo una prueba que faltaba cuando negaron el caso. Como una apelación es algo serio, contesta todo antes del plazo y considera ayuda de un abogado de inmigración o un representante acreditado."
+ },
+ "request-for-initial-evidence-was-sent": {
+  "en": "Your I-290B was missing something required, such as a copy of the decision being challenged, a brief, or a signature. The notice lists what is needed. Send it before the deadline. Without it, the appeal or motion can be dismissed without a review of the merits.",
+  "es": "A tu I-290B le faltó algo obligatorio, como la copia de la decisión que impugnas, el escrito de argumentos o una firma. El aviso dice qué falta. Mándalo antes del plazo. Sin eso, la apelación o moción puede desecharse sin revisar el fondo del caso."
+ },
+ "response-to-uscis-request-for-evidence-was-received": {
+  "en": "USCIS received the evidence you sent for your I-290B. The office or the AAO will now weigh it together with the original record. The outcome may be to sustain, dismiss, grant or deny. Keep a copy of everything you sent.",
+  "es": "USCIS recibió las pruebas que mandaste para tu I-290B. La oficina o la AAO las va a revisar junto con el expediente original. El resultado puede ser aceptar, desechar, conceder o negar. Guarda copia de todo lo que mandaste."
+ },
+ "case-was-transferred-and-a-new-office-has-jurisdiction": {
+  "en": "For an I-290B appeal, this often means the original office reviewed it and forwarded it to the Administrative Appeals Office. That is a normal step, not a decision. Later notices will come from the AAO or the office that now has the file.",
+  "es": "En una apelación I-290B, esto muchas veces significa que la oficina original la revisó y la mandó a la Oficina Administrativa de Apelaciones. Es un paso normal, no una decisión. Los avisos siguientes vendrán de la AAO o de la oficina que ahora tiene el expediente."
+ },
+ "case-was-approved": {
+  "en": "Your I-290B was successful: the appeal was sustained or the motion was granted. This does not always mean the original benefit is approved yet. Sometimes the case is sent back for a new decision. Read the notice to see whether the underlying application was approved or reopened.",
+  "es": "Tu I-290B tuvo éxito: aceptaron la apelación o concedieron la moción. Esto no siempre significa que ya aprobaron el beneficio original. A veces mandan el caso de regreso para una nueva decisión. Lee el aviso para saber si el trámite original fue aprobado o solo reabierto."
+ },
+ "document-was-mailed-to-me": {
+  "en": "USCIS mailed a document related to your I-290B, usually the written decision on the appeal or motion. AAO decisions explain the reasoning in detail. Read it carefully, because it tells you whether the original case was approved, reopened, or remains denied.",
+  "es": "USCIS te mandó un documento de tu I-290B, normalmente la decisión por escrito de la apelación o moción. Las decisiones de la AAO explican sus razones con detalle. Léela con cuidado, porque dice si el caso original fue aprobado, reabierto o sigue negado."
+ },
+ "notice-explaining-uscis-actions-was-mailed": {
+  "en": "USCIS sent a letter about your I-290B. It might confirm the transfer to the AAO, ask for a brief or evidence, or explain a decision. Some of these letters have short deadlines. Read it right away and check your online account for a copy.",
+  "es": "USCIS te mandó una carta sobre tu I-290B. Puede confirmar el envío a la AAO, pedir argumentos o pruebas, o explicar una decisión. Algunas de estas cartas tienen plazos cortos. Léela de inmediato y busca una copia en tu cuenta en línea."
+ },
+ "case-was-denied": {
+  "en": "Your I-290B was denied or dismissed, so the earlier denial stands. Depending on the case, options may include a new motion, filing the benefit again, or review in federal court. Time limits can be short. Speak with an immigration attorney or accredited representative soon.",
+  "es": "Tu I-290B fue negado o desechado, así que la negación anterior sigue. Según el caso, las opciones pueden ser otra moción, volver a presentar el beneficio o una revisión en la corte federal. Los plazos pueden ser cortos. Habla pronto con un abogado de inmigración o un representante acreditado."
+ },
+ "case-was-reopened": {
+  "en": "For an I-290B, this status often means your motion worked and the original case is reopened for a new look. The officer will review it again, possibly with your new evidence. Watch for requests and a fresh decision on the underlying benefit.",
+  "es": "En un I-290B, este estatus muchas veces significa que tu moción funcionó y el caso original se reabrió para revisarlo de nuevo. El oficial lo va a revisar otra vez, quizá con tus pruebas nuevas. Espera peticiones y una nueva decisión sobre el beneficio original."
+ },
+ "case-rejected-because-i-sent-an-incorrect-fee": {
+  "en": "Your I-290B was rejected for a fee problem. Because appeals and motions must be filed within a set time after the denial, a rejection can make you miss the deadline. Check the current fee on uscis.gov and refile at once; an attorney can advise if time has run out.",
+  "es": "Tu I-290B fue rechazado por un problema de pago. Como las apelaciones y mociones deben presentarse dentro de un plazo después de la negación, un rechazo puede hacerte perder la fecha. Revisa la cuota actual en uscis.gov y vuelve a presentarlo ya; un abogado puede orientarte si el plazo ya pasó."
+ },
+ "expedite-request-received": {
+  "en": "USCIS received a request to speed up your I-290B. Appeals at the AAO and motions at the deciding office can take time, so expedites are reviewed against USCIS criteria like urgent humanitarian need. Wait for the answer before planning around it.",
+  "es": "USCIS recibió una solicitud para acelerar tu I-290B. Las apelaciones en la AAO y las mociones en la oficina que decidió pueden tardar, así que la aceleración se revisa con los criterios de USCIS, como una necesidad humanitaria urgente. Espera la respuesta antes de hacer planes."
+ },
+ "withdrawal-acknowledgement-notice-was-sent": {
+  "en": "USCIS confirmed your I-290B was withdrawn. The original denial remains in place. If you withdrew because you refiled the benefit or chose another path, keep this notice. If not, ask an attorney about remaining options.",
+  "es": "USCIS confirmó que tu I-290B fue retirado. La negación original sigue igual. Si lo retiraste porque volviste a presentar el beneficio o elegiste otro camino, guarda este aviso. Si no, pregunta a un abogado qué opciones te quedan."
+ },
+ "name-was-updated": {
+  "en": "USCIS updated the name on your I-290B record. The appeal or motion continues as filed. If the underlying case is later approved, any new notice or card should use the updated name. Keep the document that supports the change.",
+  "es": "USCIS actualizó el nombre en tu expediente I-290B. La apelación o moción sigue igual. Si después aprueban el caso original, cualquier aviso o tarjeta nueva debe salir con el nombre actualizado. Guarda el documento que respalda el cambio."
+ },
+ "case-was-received-and-a-receipt-notice-was-emailed": {
+  "en": "Your I-290B receipt was sent electronically, which is common when you file online. Download it now. The receipt date matters, since it shows you filed the appeal or motion within the time allowed after the denial.",
+  "es": "Tu recibo del I-290B se mandó de forma electrónica, algo común cuando presentas en línea. Descárgalo ya. La fecha del recibo importa, porque muestra que presentaste la apelación o moción dentro del plazo después de la negación."
+ },
+ "case-accepted-by-the-uscis-lockbox": {
+  "en": "Your mailed I-290B was accepted at intake and the fee was processed. A receipt notice should follow. Keep proof of mailing and delivery, since the filing date matters for appeals and motions. If the deadline was close, that proof can be important.",
+  "es": "Tu I-290B por correo fue aceptado y se cobró la cuota. Pronto debe llegar el aviso de recibo. Guarda la prueba de envío y entrega, porque la fecha de presentación es importante en apelaciones y mociones."
+ },
+ "fees-were-waived": {
+  "en": "USCIS approved a fee waiver on your I-290B. Fee waivers are available for appeals and motions only in certain case types, such as some humanitarian cases. Your appeal or motion now goes forward like any other.",
+  "es": "USCIS aprobó una exención de cuota en tu I-290B. Las exenciones para apelaciones y mociones solo se dan en ciertos tipos de casos, como algunos humanitarios. Tu apelación o moción ahora sigue como cualquier otra."
+ },
+ "case-was-rejected-because-it-was-improperly-filed": {
+  "en": "Your I-290B was not accepted. Common reasons are filing it too late, sending it to the wrong place, or trying to appeal a decision that cannot be appealed this way. Some denials go to a different appeals body. Check the rejection and get legal advice quickly.",
+  "es": "Tu I-290B no fue aceptado. Razones comunes son presentarlo tarde, mandarlo al lugar equivocado o tratar de apelar una decisión que no se puede apelar así. Algunas negaciones van a otro órgano de apelación. Revisa el rechazo y busca asesoría legal pronto."
+ },
+ "biometrics-appointment-was-scheduled": {
+  "en": "A biometrics appointment is uncommon for an I-290B. It usually means the underlying case being reviewed needs new fingerprints. Go to the appointment with the notice and ID, and check which receipt number appears on it.",
+  "es": "Una cita de biométricos es poco común en un I-290B. Normalmente significa que el caso original que se está revisando necesita huellas nuevas. Ve a la cita con el aviso y tu identificación, y revisa qué número de recibo aparece."
+ },
+ "case-was-updated-to-show-fingerprints-were-taken": {
+  "en": "USCIS recorded fingerprints linked to your I-290B. This usually relates to the underlying benefit being reconsidered. Background checks can now run while the appeal or motion is reviewed. This is a routine step and not a sign of how the appeal or motion will be decided.",
+  "es": "USCIS registró huellas ligadas a tu I-290B. Normalmente tiene que ver con el beneficio original que se está reconsiderando. Ahora puede correr la revisión de antecedentes mientras se revisa la apelación o moción. Es un paso de rutina y no indica cómo se va a decidir."
+ },
+ "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+  "en": "USCIS recorded a missed appointment tied to your I-290B, likely biometrics for the underlying case. Missing it can hurt the appeal or motion. Contact USCIS right away to explain and reschedule, and keep proof of any reason you could not attend.",
+  "es": "USCIS registró una cita perdida ligada a tu I-290B, quizá biométricos del caso original. Faltar puede perjudicar la apelación o moción. Contacta a USCIS de inmediato para explicar y reprogramar, y guarda pruebas de por qué no pudiste ir."
+ },
+ "case-was-approved-and-my-decision-was-emailed": {
+  "en": "The decision on your I-290B was delivered electronically and it is favorable. Download it now. It explains whether the original benefit is approved or whether the case goes back for a new decision, and what you should expect next.",
+  "es": "La decisión de tu I-290B se mandó de forma electrónica y es favorable. Descárgala ya. Explica si el beneficio original quedó aprobado o si el caso regresa para una nueva decisión, y qué puedes esperar después."
+ },
+ "case-approval-was-certified-by-uscis": {
+  "en": "USCIS certified the favorable result on your I-290B. This can happen when another agency needs official proof that the earlier denial was overturned. Check your notice to see what was certified and why. Keep the certified notice with your other papers.",
+  "es": "USCIS certificó el resultado favorable de tu I-290B. Puede pasar cuando otra agencia necesita prueba oficial de que se revocó la negación anterior. Revisa tu aviso para ver qué se certificó y por qué. Guarda el aviso certificado con tus otros papeles."
+ },
+ "response-to-uscis-notice-of-intent-was-received": {
+  "en": "USCIS received your answer to a notice of intent in your I-290B case. The officer or the AAO will consider it before deciding. This is a sensitive stage; if you have no legal help yet, an attorney or accredited representative can review the decision once it comes.",
+  "es": "USCIS recibió tu respuesta a un aviso de intención en tu caso I-290B. El oficial o la AAO la tomará en cuenta antes de decidir. Es una etapa delicada; si aún no tienes ayuda legal, un abogado o representante acreditado puede revisar la decisión cuando llegue."
+ },
+ "duplicate-notice-was-mailed": {
+  "en": "USCIS mailed a copy of an I-290B notice, often the receipt or the decision. Keep it with the original denial and your appeal papers. A complete set of documents helps if you need further review later.",
+  "es": "USCIS mandó una copia de un aviso de tu I-290B, muchas veces el recibo o la decisión. Guárdala con la negación original y tus papeles de apelación. Tener todo completo ayuda si después necesitas otra revisión."
+ },
+ "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+  "en": "An I-290B notice came back undelivered. It might be a request for a brief, a request for evidence, or the decision itself, and deadlines may still run. Update your address with USCIS now and check your online account.",
+  "es": "Un aviso de tu I-290B regresó sin entregarse. Puede ser una petición de argumentos, de pruebas o la decisión misma, y los plazos pueden seguir corriendo. Actualiza ya tu dirección con USCIS y revisa tu cuenta en línea."
+ },
+ "date-of-birth-was-updated": {
+  "en": "USCIS corrected your date of birth on the I-290B record. If the underlying case is approved, the new notice or document should show the correct date. Check that it matches your identity documents. Contact USCIS if anything still looks wrong.",
+  "es": "USCIS corrigió tu fecha de nacimiento en el expediente I-290B. Si aprueban el caso original, el nuevo aviso o documento debe salir con la fecha correcta. Revisa que coincida con tus documentos de identidad. Contacta a USCIS si algo sigue mal."
+ },
+ "continuation-notice-was-mailed": {
+  "en": "USCIS mailed a notice that your I-290B is continuing. An appeal or motion pending usually does not, by itself, restore status or work permission lost with the denial. Read the notice for what it covers, and ask an attorney if you are unsure.",
+  "es": "USCIS te mandó un aviso de que tu I-290B continúa. Tener una apelación o moción pendiente normalmente no regresa por sí solo el estatus o el permiso de trabajo que perdiste con la negación. Lee qué cubre el aviso y pregunta a un abogado si tienes dudas."
+ },
+ "termination-notice-sent": {
+  "en": "USCIS sent a termination notice in your I-290B case. This may close the appeal or motion, for example if the underlying case was already resolved or the filing was abandoned. Read it carefully and speak with an immigration attorney about what remains open.",
+  "es": "USCIS mandó un aviso de terminación en tu caso I-290B. Puede cerrar la apelación o moción, por ejemplo si el caso original ya se resolvió o el trámite se abandonó. Léelo con cuidado y habla con un abogado de inmigración sobre qué sigue abierto."
+ },
+ "case-closed-benefit-received-by-other-means": {
+  "en": "USCIS closed your I-290B because you already received the benefit another way, for example after refiling and getting approved. Since the appeal or motion is no longer needed, keep the other approval as your main proof.",
+  "es": "USCIS cerró tu I-290B porque ya obtuviste el beneficio por otra vía, por ejemplo al volver a presentar y ser aprobado. Como ya no se necesita la apelación o moción, guarda esa otra aprobación como tu prueba principal."
+ },
+ "expedite-request-denied": {
+  "en": "USCIS will not expedite your I-290B. The appeal or motion keeps its place in line. If your circumstances become urgent, you can ask again with new supporting evidence. Meanwhile, keep your address current so you do not miss the decision.",
+  "es": "USCIS no va a acelerar tu I-290B. La apelación o moción conserva su lugar en la fila. Si tu situación se vuelve urgente, puedes pedirlo otra vez con nuevas pruebas que lo respalden. Mientras tanto, mantén tu dirección al día para no perder la decisión."
+ },
+ "correspondence-was-received-and-uscis-is-reviewing-it": {
+  "en": "USCIS received something you sent for your I-290B, often a brief or extra evidence filed after the form. Briefs sent later must usually go where the notice says. An officer or the AAO will add it to the review.",
+  "es": "USCIS recibió algo que mandaste para tu I-290B, muchas veces un escrito de argumentos o pruebas extra después del formulario. Los escritos posteriores normalmente deben mandarse a donde dice el aviso. Un oficial o la AAO lo agregará a la revisión."
+ }
+}

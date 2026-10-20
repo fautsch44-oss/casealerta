@@ -1,0 +1,174 @@
+{
+"case-was-received": {
+"en": "For an N-400, this means USCIS has your naturalization application and assigned a receipt number. Keep your green card valid and stay ready, because the next usual step is a biometrics appointment for your FBI background check. Nobody has looked at your eligibility yet, so a long quiet period here is normal.",
+"es": "En un N-400, esto quiere decir que USCIS ya tiene tu solicitud de ciudadanía y le dio un número de recibo. Mantén tu green card vigente, porque lo siguiente suele ser la cita de biométricos para revisar tus antecedentes con el FBI. Todavía nadie revisa si cumples los requisitos, así que es normal esperar aquí un buen tiempo."
+},
+"case-was-received-and-a-receipt-notice-was-sent": {
+"en": "USCIS mailed you the I-797C receipt for your citizenship application. Save it: it proves your N-400 is pending and shows your receipt number and priority date. If you travel abroad while waiting, keep the trip short and carry your green card, since long absences can affect the continuous residence the officer will review.",
+"es": "USCIS te mandó por correo el recibo I-797C de tu solicitud de ciudadanía. Guárdalo: prueba que tu N-400 está en trámite y trae tu número de recibo. Si viajas fuera mientras esperas, que sean viajes cortos y lleva tu green card, porque las ausencias largas pueden afectar la residencia continua que revisará el oficial."
+},
+"fingerprint-fee-was-received": {
+"en": "On an N-400, the biometrics cost is part of the filing fee, so this update simply confirms USCIS logged that payment. Next you should get an appointment notice to give fingerprints and a photo. Your photo and signature from this visit can later appear on your Certificate of Naturalization.",
+"es": "En el N-400, el costo de biométricos va incluido en la tarifa del trámite, así que esto solo confirma que USCIS registró ese pago. Lo siguiente es que te llegue la cita para tomar huellas y foto. La foto y la firma de esa cita pueden aparecer después en tu Certificado de Naturalización."
+},
+"fingerprint-review-was-completed": {
+"en": "The FBI name and fingerprint check for your naturalization case is back. That is one of the main pieces USCIS needs before it can schedule the citizenship interview. If you have any arrests or tickets in your past, bring court records to the interview even if this step cleared without issues.",
+"es": "Ya regresó la revisión de huellas y de nombre del FBI para tu caso de ciudadanía. Es una de las piezas principales que USCIS necesita antes de darte la entrevista. Si alguna vez tuviste un arresto o una multa importante, lleva los papeles de la corte a la entrevista, aunque este paso haya salido bien."
+},
+"case-is-being-actively-reviewed-by-uscis": {
+"en": "An officer is looking at your N-400 file. For citizenship cases this often happens shortly before an interview is set, though it can also show up after the interview while a decision is prepared. Use the time to study the civics questions and practice reading and writing simple English sentences.",
+"es": "Un oficial está revisando tu expediente del N-400. En ciudadanía esto suele pasar poco antes de que te den la entrevista, aunque también puede aparecer después de la entrevista, mientras preparan la decisión. Aprovecha para estudiar las preguntas de civismo y practicar leer y escribir oraciones sencillas en inglés."
+},
+"case-is-ready-to-be-scheduled-for-an-interview": {
+"en": "Your naturalization case passed the early checks and is waiting in line for an interview slot at your local field office. How fast the notice comes depends on that office's backlog. Start gathering your green card, passports, tax records and any documents about trips or legal issues you listed on the form.",
+"es": "Tu caso de ciudadanía pasó las primeras revisiones y está en fila para una cita de entrevista en tu oficina local. Qué tan rápido llegue depende de la carga de esa oficina. Empieza a juntar tu green card, pasaportes, declaraciones de impuestos y papeles de viajes o asuntos legales que pusiste en el formulario."
+},
+"interview-was-scheduled": {
+"en": "Your citizenship interview is set; the notice gives the date, time and office. At this interview an officer reviews your N-400 under oath and gives the English test (reading, writing, speaking) and the civics test. Bring the documents listed on the notice. If you cannot go, ask to reschedule right away instead of missing it.",
+"es": "Ya tienes cita para tu entrevista de ciudadanía; el aviso trae fecha, hora y oficina. Ahí un oficial revisa tu N-400 bajo juramento y te hace el examen de inglés (leer, escribir y hablar) y el de civismo. Lleva los documentos que pide el aviso. Si no puedes ir, pide cambio de cita de inmediato en vez de faltar."
+},
+"interview-was-completed-and-my-case-must-be-reviewed": {
+"en": "You had your N-400 interview but the officer did not decide on the spot. Check the N-652 results sheet you received: it says whether you passed the tests and if anything is missing. Common reasons for this status are a supervisor review, pending documents, or a retest of the English or civics part.",
+"es": "Ya tuviste tu entrevista del N-400, pero el oficial no decidió ese mismo día. Revisa la hoja de resultados N-652 que te dieron: dice si pasaste los exámenes y si falta algo. Este estatus suele salir por una revisión del supervisor, papeles pendientes o porque te toca repetir la parte de inglés o de civismo."
+},
+"request-for-additional-evidence-was-sent": {
+"en": "USCIS wants more proof before deciding your citizenship case. In N-400 cases the request is often for tax transcripts, proof of marriage for the 3-year path, court dispositions, or travel records. Answer by the deadline on the letter and send everything in one package. If the request touches criminal history, talk to an immigration attorney first.",
+"es": "USCIS quiere más pruebas antes de decidir tu ciudadanía. En el N-400 suelen pedir comprobantes de impuestos, prueba de matrimonio si vas por la vía de 3 años, resoluciones de la corte o registros de viajes. Responde antes de la fecha límite de la carta y manda todo en un solo paquete. Si tiene que ver con antecedentes penales, consulta primero con un abogado de inmigración."
+},
+"request-for-initial-evidence-was-sent": {
+"en": "Something basic was missing when you filed your N-400, such as a copy of your green card, the right photos, or a required document for military or disability cases. USCIS will hold the application until you send it. Read the letter closely, include the page it asks you to return, and mail it before the deadline.",
+"es": "Faltó algo básico cuando mandaste tu N-400, como la copia de tu green card, las fotos correctas o un documento requerido en casos militares o de discapacidad. USCIS detiene la solicitud hasta que lo mandes. Lee bien la carta, incluye la hoja que te piden regresar y envíalo antes de la fecha límite."
+},
+"response-to-uscis-request-for-evidence-was-received": {
+"en": "USCIS got the documents you sent for your naturalization case. The file now goes back to the officer, who may decide without seeing you again or call you back to finish the interview. If you still have the oath ceremony ahead, keep your address current so that notice reaches you.",
+"es": "USCIS recibió los documentos que mandaste para tu caso de ciudadanía. El expediente regresa al oficial, que puede decidir sin volver a verte o llamarte otra vez para terminar la entrevista. Como aún falta la ceremonia de juramento, mantén tu dirección al día para que te llegue ese aviso."
+},
+"case-was-transferred-and-a-new-office-has-jurisdiction": {
+"en": "Your N-400 moved to a different USCIS office. This often happens to balance workloads or because you moved, since the interview and oath are handled by the field office that covers your home address. If you moved, make sure your address change is on file so the interview notice goes to the right place.",
+"es": "Tu N-400 pasó a otra oficina de USCIS. Suele pasar para repartir la carga de trabajo o porque te mudaste, ya que la entrevista y el juramento los hace la oficina que cubre tu domicilio. Si cambiaste de casa, asegúrate de haber reportado tu nueva dirección para que el aviso de entrevista llegue bien."
+},
+"case-was-approved": {
+"en": "Your naturalization application was approved, but you are not a citizen yet. Citizenship begins only when you take the Oath of Allegiance at a ceremony. Watch for the oath notice, and until then keep using your green card and avoid long trips. Some offices hold the oath the same day as the interview.",
+"es": "Tu solicitud de ciudadanía fue aprobada, pero todavía no eres ciudadano. La ciudadanía empieza cuando haces el Juramento de Lealtad en una ceremonia. Espera el aviso del juramento y mientras tanto sigue usando tu green card y evita viajes largos. Algunas oficinas hacen el juramento el mismo día de la entrevista."
+},
+"document-was-mailed-to-me": {
+"en": "For an N-400, a mailed document is usually a notice tied to your case, such as an oath ceremony letter or a decision, because the Certificate of Naturalization itself is normally handed to you at the ceremony. Open the envelope as soon as it arrives and check every name and date for errors.",
+"es": "En un N-400, lo que te mandan por correo suele ser un aviso de tu caso, como la carta del juramento o una decisión, porque el Certificado de Naturalización normalmente te lo entregan en la ceremonia. Abre el sobre en cuanto llegue y revisa que nombres y fechas estén bien escritos."
+},
+"notice-explaining-uscis-actions-was-mailed": {
+"en": "USCIS sent you a letter about your citizenship case, and the status alone does not say what it contains. On an N-400 it could be an interview notice, a retest appointment, a request for documents, or a decision. Read it the day it arrives, because some of these letters come with short deadlines.",
+"es": "USCIS te mandó una carta sobre tu caso de ciudadanía y el estatus por sí solo no dice qué trae. En el N-400 puede ser un aviso de entrevista, una cita para repetir un examen, una petición de documentos o una decisión. Léela el mismo día que llegue, porque algunas traen plazos cortos."
+},
+"case-was-denied": {
+"en": "Your N-400 was denied. The letter explains why, for example failing the tests twice or a concern about good moral character. You can usually ask for a hearing with another officer by filing Form N-336 before the deadline on the notice. You keep your green card unless something else applies, so see an immigration attorney before acting.",
+"es": "Tu N-400 fue negado. La carta explica por qué, por ejemplo reprobar los exámenes dos veces o una duda sobre tu buena conducta moral. Por lo general puedes pedir una audiencia con otro oficial con el Formulario N-336 antes del plazo del aviso. Sigues con tu green card salvo que haya otro problema; consulta a un abogado de inmigración antes de actuar."
+},
+"case-was-reopened": {
+"en": "Your naturalization case is open again after a decision. This can follow an N-336 hearing request, a request to reopen a case closed for a missed interview, or USCIS correcting its own decision. Expect new notices, possibly another interview, and read each one carefully.",
+"es": "Tu caso de ciudadanía se abrió de nuevo después de una decisión. Puede pasar tras pedir una audiencia con el N-336, tras pedir reabrir un caso cerrado por faltar a la entrevista, o porque USCIS corrigió su propia decisión. Espera nuevos avisos, quizá otra entrevista, y lee cada uno con calma."
+},
+"case-rejected-because-i-sent-an-incorrect-fee": {
+"en": "USCIS returned your N-400 because the payment was wrong, so your application is not pending. Check the current N-400 fee on uscis.gov, including whether you filed online or on paper and whether you qualify for a reduced fee, then send a new complete application. Your filing date will be the date of the new one.",
+"es": "USCIS te regresó tu N-400 porque el pago no estaba bien, así que tu solicitud no está en trámite. Revisa en uscis.gov la tarifa actual del N-400, si es en línea o en papel y si calificas para tarifa reducida, y manda una solicitud nueva completa. Tu fecha de presentación será la de la nueva."
+},
+"expedite-request-received": {
+"en": "USCIS logged your request to speed up your citizenship case. For N-400s, expedites are granted only for strong reasons that fit USCIS criteria, such as certain military, medical or urgent humanitarian situations. Keep proof of the reason handy in case they ask, and keep checking this page for the answer.",
+"es": "USCIS registró tu petición para acelerar tu caso de ciudadanía. En el N-400 solo aprueban acelerar por razones fuertes que entren en los criterios de USCIS, como ciertos casos militares, médicos o humanitarios urgentes. Ten a la mano las pruebas de tu motivo por si las piden y sigue revisando esta página."
+},
+"withdrawal-acknowledgement-notice-was-sent": {
+"en": "USCIS confirmed it received your request to withdraw your N-400. In naturalization cases the officer may decide whether to accept the withdrawal, so read the notice to see if your case is closed. The filing fee is not refunded, and you can apply again later when you are ready.",
+"es": "USCIS confirmó que recibió tu petición para retirar tu N-400. En ciudadanía, el oficial puede decidir si acepta el retiro, así que lee el aviso para ver si tu caso quedó cerrado. La tarifa no se devuelve, y puedes volver a solicitar más adelante cuando estés listo."
+},
+"name-was-updated": {
+"en": "USCIS changed the name on your citizenship case. If you asked for a legal name change on your N-400, note that it generally becomes final only when you naturalize, and in some places it requires a court ceremony. Check that the name shown is exactly how you want it on your naturalization certificate.",
+"es": "USCIS cambió el nombre en tu caso de ciudadanía. Si pediste un cambio legal de nombre en tu N-400, normalmente solo queda firme cuando te naturalizas, y en algunos lugares requiere una ceremonia en la corte. Revisa que el nombre esté escrito tal como lo quieres en tu certificado de naturalización."
+},
+"case-was-received-and-a-receipt-notice-was-emailed": {
+"en": "You likely filed your N-400 online, so the receipt went to your USCIS online account and email. Download and save the PDF. Through that same account you can see notices for biometrics, the interview and the oath, and you can send documents if USCIS asks for more evidence.",
+"es": "Seguramente mandaste tu N-400 en línea, por eso el recibo llegó a tu cuenta de USCIS y a tu correo. Descarga el PDF y guárdalo. En esa misma cuenta vas a ver los avisos de biométricos, entrevista y juramento, y puedes mandar documentos si USCIS te pide más pruebas."
+},
+"case-accepted-by-the-uscis-lockbox": {
+"en": "Your paper N-400 passed the lockbox intake check: payment was processed and the basic fields were complete. Next it gets a receipt number and moves to a processing center. Watch your mail for the I-797C receipt, and watch for the biometrics notice that typically follows.",
+"es": "Tu N-400 en papel pasó la revisión de entrada en el lockbox: se cobró el pago y los datos básicos estaban completos. Lo siguiente es que le den número de recibo y pase a un centro de trámite. Espera por correo el recibo I-797C y después el aviso de biométricos."
+},
+"fees-were-waived": {
+"en": "USCIS approved your fee waiver for your citizenship application, so you will not pay the N-400 fee. Your case now moves forward just like a paid one, with biometrics, the interview and the tests. Keep copies of the income proof you sent in case the officer asks about it at the interview.",
+"es": "USCIS aprobó tu exención de pago, así que no vas a pagar la tarifa del N-400. Tu caso avanza igual que uno pagado: biométricos, entrevista y exámenes. Guarda copias de los comprobantes de ingresos que mandaste, por si el oficial te pregunta por ellos en la entrevista."
+},
+"case-was-rejected-because-it-was-improperly-filed": {
+"en": "Your N-400 was sent back and is not pending. Common causes include a missing signature, using an old edition of the form, or filing too early, more than 90 days before you meet the residence requirement. Fix the problem in the letter and file again; your case starts from the new filing date.",
+"es": "Te regresaron tu N-400 y no está en trámite. Causas comunes son que faltó la firma, usaste una edición vieja del formulario o lo mandaste demasiado pronto, más de 90 días antes de cumplir el tiempo de residencia. Corrige lo que dice la carta y vuelve a enviarlo; tu caso empieza con la nueva fecha."
+},
+"biometrics-appointment-was-scheduled": {
+"en": "Your fingerprint appointment for the N-400 is set at an Application Support Center. Bring the appointment notice and your green card. The prints are used for the FBI background check that must clear before your citizenship interview. If you need to change the date, request it before the appointment.",
+"es": "Ya tienes cita de huellas para tu N-400 en un Centro de Apoyo de Solicitudes. Lleva el aviso de la cita y tu green card. Las huellas sirven para la revisión de antecedentes del FBI, que debe salir antes de tu entrevista de ciudadanía. Si necesitas cambiar la fecha, pídelo antes de la cita."
+},
+"case-was-updated-to-show-fingerprints-were-taken": {
+"en": "Your biometrics for the naturalization case are recorded. Now the FBI check runs, and after that the case waits for an interview date at your local office. This is a good moment to start studying: the official civics questions and English vocabulary lists are free on uscis.gov.",
+"es": "Ya quedaron registrados tus biométricos del caso de ciudadanía. Ahora corre la revisión del FBI y luego el caso espera fecha de entrevista en tu oficina local. Es buen momento para empezar a estudiar: las preguntas oficiales de civismo y el vocabulario de inglés están gratis en uscis.gov."
+},
+"interview-was-rescheduled": {
+"en": "Your citizenship interview has a new date, either because you asked or because the office changed it. Read the new notice for the time and location. Keep studying for the English and civics tests, and be aware that missing a naturalization interview without notice can lead USCIS to close your case.",
+"es": "Tu entrevista de ciudadanía tiene nueva fecha, porque tú lo pediste o porque la oficina la cambió. Lee el nuevo aviso para ver hora y lugar. Sigue estudiando para los exámenes de inglés y civismo, y recuerda que faltar a la entrevista sin avisar puede hacer que USCIS cierre tu caso."
+},
+"case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+"en": "USCIS shows you missed a biometrics appointment or your naturalization interview. For an N-400, missing the interview without notice can lead to the case being closed administratively. Contact USCIS right away through your online account or the Contact Center, explain why, and ask for a new appointment.",
+"es": "USCIS indica que faltaste a la cita de biométricos o a tu entrevista de ciudadanía. En el N-400, faltar a la entrevista sin avisar puede hacer que el caso se cierre administrativamente. Comunícate con USCIS de inmediato por tu cuenta en línea o el Centro de Contacto, explica por qué y pide una nueva cita."
+},
+"oath-ceremony-will-be-scheduled": {
+"en": "Your N-400 is approved and USCIS is planning your oath ceremony. You become a citizen only after taking the oath there, where you also receive your Certificate of Naturalization. Until then, do not travel far, and be ready to answer the short questionnaire about events since your interview.",
+"es": "Tu N-400 está aprobado y USCIS está programando tu ceremonia de juramento. Te haces ciudadano solo después de jurar ahí mismo, donde también te dan tu Certificado de Naturalización. Mientras tanto no viajes lejos y prepárate para contestar el cuestionario corto sobre lo que pasó desde tu entrevista."
+},
+"oath-ceremony-notice-was-mailed": {
+"en": "Your oath ceremony notice, Form N-445, is on the way. Fill out the questions on the back, then bring the notice and your green card to the ceremony, where you hand in the card. After you take the oath you receive your Certificate of Naturalization and can apply for a U.S. passport.",
+"es": "Viene en camino tu aviso de juramento, el Formulario N-445. Contesta las preguntas de atrás y lleva el aviso y tu green card a la ceremonia, donde entregas la tarjeta. Después de jurar recibes tu Certificado de Naturalización y ya puedes sacar tu pasaporte estadounidense."
+},
+"case-was-approved-and-my-decision-was-emailed": {
+"en": "Your naturalization approval was sent to your USCIS online account. Open it to see if it includes oath ceremony details or if a separate notice will follow. Remember that approval is not the same as citizenship: you still need to attend the ceremony and take the oath.",
+"es": "La aprobación de tu ciudadanía llegó a tu cuenta en línea de USCIS. Ábrela para ver si trae los datos de la ceremonia de juramento o si llegará otro aviso aparte. Recuerda que aprobado no es lo mismo que ciudadano: todavía tienes que ir a la ceremonia y jurar."
+},
+"case-approval-was-certified-by-uscis": {
+"en": "This status is uncommon on an N-400. It usually shows an approval that passed a second internal review or was confirmed after a supervisor check. Your next step does not change: wait for the oath ceremony notice, since naturalization only takes effect once you take the oath.",
+"es": "Este estatus es poco común en un N-400. Suele indicar una aprobación que pasó una segunda revisión interna o que confirmó un supervisor. Tu siguiente paso no cambia: espera el aviso de la ceremonia de juramento, porque la ciudadanía solo cuenta cuando haces el juramento."
+},
+"response-to-uscis-notice-of-intent-was-received": {
+"en": "USCIS received your reply to its notice that it planned to deny your citizenship case. The officer will weigh what you sent against the concerns in the notice before making a final decision. Because this is a serious stage, keep working with an immigration attorney or accredited representative if you have one.",
+"es": "USCIS recibió tu respuesta al aviso de que pensaba negar tu caso de ciudadanía. El oficial va a comparar lo que mandaste con las dudas del aviso antes de decidir. Como es una etapa delicada, sigue trabajando con un abogado de inmigración o un representante acreditado si tienes uno."
+},
+"case-is-pending-at-a-local-office": {
+"en": "Your N-400 is at the field office that will interview you and hold your oath ceremony. Waiting here is normal for citizenship cases, because each office books interviews based on its own schedule. Check the office's processing time on uscis.gov and keep preparing for the English and civics tests.",
+"es": "Tu N-400 está en la oficina local que te va a entrevistar y donde será tu juramento. Esperar aquí es normal en ciudadanía, porque cada oficina da citas según su propia agenda. Revisa en uscis.gov el tiempo de esa oficina y sigue preparándote para los exámenes de inglés y civismo."
+},
+"duplicate-notice-was-mailed": {
+"en": "USCIS mailed another copy of a notice from your N-400 case, often because you asked for it or the first one went missing. Check which notice it is. If it is an interview or oath ceremony letter, confirm the date and place carefully, since missing either one delays your citizenship.",
+"es": "USCIS te mandó otra copia de un aviso de tu N-400, muchas veces porque la pediste o porque el primero se perdió. Revisa qué aviso es. Si es de entrevista o de juramento, confirma bien la fecha y el lugar, porque faltar a cualquiera retrasa tu ciudadanía."
+},
+"notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+"en": "A letter about your citizenship case bounced back to USCIS. In N-400 cases that letter may be an interview or oath notice, so this matters. Update your address with USCIS right away, then contact them to learn what was sent and ask for it to be resent.",
+"es": "Una carta de tu caso de ciudadanía regresó a USCIS sin entregarse. En el N-400 esa carta puede ser un aviso de entrevista o de juramento, así que es importante. Actualiza tu dirección con USCIS de inmediato y luego comunícate para saber qué te mandaron y pedir que lo reenvíen."
+},
+"date-of-birth-was-updated": {
+"en": "USCIS corrected your date of birth in your naturalization record. This matters because the date will be printed on your Certificate of Naturalization and later used for your passport. Confirm it matches your birth certificate and green card, and bring proof to the interview if there was any mix-up.",
+"es": "USCIS corrigió tu fecha de nacimiento en tu caso de ciudadanía. Es importante porque esa fecha va impresa en tu Certificado de Naturalización y luego se usa para tu pasaporte. Confirma que coincida con tu acta de nacimiento y tu green card, y lleva pruebas a la entrevista si hubo confusión."
+},
+"continuation-notice-was-mailed": {
+"en": "Your N-400 was continued, meaning the decision is on hold for a reason given in the notice. A common one is that you did not pass the English or civics test and get a second chance at only the part you missed. Another is that the officer needs documents, which you send by the date shown.",
+"es": "Tu N-400 quedó en pausa por la razón que dice el aviso. Una razón común es que no pasaste el examen de inglés o de civismo y te dan una segunda oportunidad solo en la parte que fallaste. Otra es que el oficial necesita documentos, que debes mandar antes de la fecha indicada."
+},
+"termination-notice-sent": {
+"en": "USCIS ended your naturalization case without approving it. This is rare for an N-400 and can happen, for example, if removal proceedings are involved or the application was treated as abandoned. Read the notice for the reason and talk to an immigration attorney or accredited representative before you file again.",
+"es": "USCIS terminó tu caso de ciudadanía sin aprobarlo. Es raro en el N-400 y puede pasar, por ejemplo, si hay un proceso de deportación de por medio o si consideraron abandonada la solicitud. Lee el aviso para ver la razón y habla con un abogado de inmigración o representante acreditado antes de volver a presentar."
+},
+"case-closed-benefit-received-by-other-means": {
+"en": "USCIS closed your N-400 because you already got citizenship another way. For example, you may have become a citizen automatically through a U.S. citizen parent, or another application covered it. Ask USCIS for the record that proves your citizenship, such as a Certificate of Citizenship, before you apply for a passport.",
+"es": "USCIS cerró tu N-400 porque ya obtuviste la ciudadanía de otra forma. Por ejemplo, pudiste hacerte ciudadano automáticamente por un padre o madre ciudadano, u otra solicitud ya lo cubrió. Pide a USCIS el documento que prueba tu ciudadanía, como el Certificado de Ciudadanía, antes de sacar tu pasaporte."
+},
+"expedite-request-denied": {
+"en": "USCIS will not speed up your citizenship case, but your N-400 keeps its place in line and nothing else changes. If your situation gets more urgent, you may ask again with new proof. Meanwhile, use the wait to prepare for the interview and the tests.",
+"es": "USCIS no va a acelerar tu caso de ciudadanía, pero tu N-400 sigue en su lugar en la fila y nada más cambia. Si tu situación se vuelve más urgente, puedes volver a pedirlo con pruebas nuevas. Mientras tanto aprovecha la espera para prepararte para la entrevista y los exámenes."
+},
+"correspondence-was-received-and-uscis-is-reviewing-it": {
+"en": "USCIS got a letter or documents you sent about your N-400, outside of a formal evidence request. It might be an address change, a travel record, or a court document you sent after the interview. The officer will add it to your file. You do not need to resend it unless USCIS asks.",
+"es": "USCIS recibió una carta o documentos que mandaste sobre tu N-400, aparte de una petición formal de pruebas. Puede ser un cambio de dirección, registros de viaje o un papel de la corte que enviaste después de la entrevista. El oficial lo agregará a tu expediente. No necesitas reenviarlo salvo que USCIS lo pida."
+}
+}

@@ -1,0 +1,150 @@
+{
+ "case-was-received": {
+  "en": "USCIS's Immigrant Investor Program Office has the regional center's I-956F for this EB-5 project. Investors do not file this form, but they can usually file their own I-526E petitions while the project application is pending. Investors should ask the regional center for the I-956F receipt number to track it.",
+  "es": "La Oficina del Programa de Inversionistas de USCIS tiene el I-956F del centro regional para este proyecto EB-5. Los inversionistas no presentan este formulario, pero normalmente pueden presentar su propio I-526E mientras el proyecto está en trámite. Si eres inversionista, pide al centro regional el número de recibo del I-956F para seguirlo."
+ },
+ "case-was-received-and-a-receipt-notice-was-sent": {
+  "en": "The I-797C receipt for the I-956F was mailed to the regional center. It confirms the project application is filed and shows its receipt number. Regional centers often share it with investors, who may cite it in their I-526E filings.",
+  "es": "El recibo I-797C del I-956F se envió por correo al centro regional. Confirma que la solicitud del proyecto está presentada y muestra su número de recibo. Los centros regionales muchas veces lo comparten con los inversionistas, que pueden mencionarlo en su I-526E."
+ },
+ "fingerprint-fee-was-received": {
+  "en": "This status is unusual for an I-956F, which is a project application filed by a company rather than a person. Biometrics in EB-5 regional center matters are more often tied to related filings on the people involved. Check the notice or ask USCIS what it covers.",
+  "es": "Este estatus es poco común en un I-956F, que es una solicitud de proyecto presentada por una empresa, no por una persona. En el programa de centros regionales EB-5, los biométricos suelen relacionarse con otros trámites sobre las personas involucradas. Revisa el aviso o pregunta a USCIS qué cubre."
+ },
+ "fingerprint-review-was-completed": {
+  "en": "A fingerprint check tied to this I-956F case is complete. That is not a standard step for a project application, so it likely relates to a person connected with the regional center or project. The review of the project documents continues.",
+  "es": "Terminó una revisión de huellas relacionada con este caso I-956F. No es un paso normal para una solicitud de proyecto, así que probablemente tiene que ver con una persona vinculada al centro regional o al proyecto. La revisión de los documentos del proyecto continúa."
+ },
+ "case-is-being-actively-reviewed-by-uscis": {
+  "en": "An officer is reviewing the I-956F. They look at the business plan, economic analysis for job creation, offering documents, and how investor funds are handled. A request for evidence is common for project applications, so a quick response plan helps.",
+  "es": "Un oficial está revisando el I-956F. Revisa el plan de negocios, el análisis económico de creación de empleos, los documentos de la oferta y cómo se manejan los fondos de los inversionistas. En proyectos es común una petición de evidencia, así que conviene tener un plan para responder rápido."
+ },
+ "request-for-additional-evidence-was-sent": {
+  "en": "USCIS wants more evidence for the I-956F. Typical topics are the business plan's credibility, job creation methodology, targeted employment area documentation, or offering and escrow terms. The regional center must answer by the deadline, usually with help from EB-5 counsel and economists.",
+  "es": "USCIS quiere más pruebas para el I-956F. Temas comunes: la credibilidad del plan de negocios, el método para calcular empleos, la documentación del área de empleo focalizado o los términos de la oferta y del depósito en garantía. El centro regional debe responder antes de la fecha límite, normalmente con abogados y economistas EB-5."
+ },
+ "request-for-initial-evidence-was-sent": {
+  "en": "The I-956F was missing required initial documents, such as the business plan, economic impact analysis, or organizational and offering documents. The regional center should send exactly what is listed before the deadline so the project can move to full review.",
+  "es": "Al I-956F le faltaron documentos iniciales obligatorios, como el plan de negocios, el análisis de impacto económico o los documentos de la organización y de la oferta. El centro regional debe mandar justo lo que se pide antes de la fecha límite para que el proyecto pase a revisión completa."
+ },
+ "response-to-uscis-request-for-evidence-was-received": {
+  "en": "USCIS has the regional center's response for the I-956F and the officer will continue the review. Investors with pending I-526E petitions may see their own cases wait on this project decision. Investors can ask the regional center for regular updates.",
+  "es": "USCIS ya tiene la respuesta del centro regional para el I-956F y el oficial seguirá la revisión. Los inversionistas con I-526E en trámite pueden ver que sus casos esperan esta decisión del proyecto. Pide al centro regional que te mantenga informado."
+ },
+ "case-was-transferred-and-a-new-office-has-jurisdiction": {
+  "en": "The I-956F moved within USCIS. EB-5 project applications are normally handled by the Immigrant Investor Program Office, so a move may reflect internal workload. The receipt number stays the same; watch for the transfer notice.",
+  "es": "El I-956F se movió dentro de USCIS. Las solicitudes de proyecto EB-5 normalmente las maneja la Oficina del Programa de Inversionistas, así que el traslado puede ser por carga interna de trabajo. El número de recibo no cambia; espera el aviso de traslado."
+ },
+ "case-was-approved": {
+  "en": "The I-956F was approved, so USCIS accepted this EB-5 project for the regional center program. This is a key step for investors: their I-526E petitions tied to the project can now be decided on their own merits, like source of funds. Approval of the project does not approve any investor petition.",
+  "es": "Aprobaron el I-956F, o sea que USCIS aceptó este proyecto EB-5 en el programa de centros regionales. Es un paso clave para los inversionistas: sus I-526E del proyecto ya pueden decidirse por sus propios méritos, como el origen de los fondos. La aprobación del proyecto no aprueba la petición de ningún inversionista."
+ },
+ "notice-explaining-uscis-actions-was-mailed": {
+  "en": "USCIS mailed a letter to the regional center about the I-956F. It may ask for information, explain a delay, or describe a decision or compliance issue. Investors should ask the regional center for a summary of what it says.",
+  "es": "USCIS mandó una carta al centro regional sobre el I-956F. Puede pedir información, explicar un retraso o describir una decisión o un tema de cumplimiento. Si eres inversionista, pide al centro regional un resumen de lo que dice."
+ },
+ "case-was-denied": {
+  "en": "The I-956F was denied, so USCIS did not approve this EB-5 project. This can directly affect investors' I-526E petitions tied to it. The regional center may appeal or file a motion with Form I-290B. Investors should speak with their own EB-5 attorney about their options.",
+  "es": "Negaron el I-956F, así que USCIS no aprobó este proyecto EB-5. Esto puede afectar directamente los I-526E de los inversionistas del proyecto. El centro regional puede apelar o presentar una moción con el Formulario I-290B. Si eres inversionista, habla con tu propio abogado EB-5 sobre tus opciones."
+ },
+ "case-was-reopened": {
+  "en": "USCIS reopened the I-956F, often after a motion or appeal by the regional center. The project application is pending again. Investors with I-526E petitions should ask the regional center about expected next steps. Keep the reopening notice with the project records.",
+  "es": "USCIS reabrió el I-956F, muchas veces después de una moción o apelación del centro regional. La solicitud del proyecto vuelve a estar en trámite. Los inversionistas con I-526E deben preguntar al centro regional cuáles son los siguientes pasos."
+ },
+ "case-rejected-because-i-sent-an-incorrect-fee": {
+  "en": "The I-956F was returned because the payment was wrong. Project application fees are substantial and set by USCIS fee rules. The regional center should check the current fee on uscis.gov/i-956f, correct it and refile. Until refiled, investors cannot rely on this filing.",
+  "es": "Regresaron el I-956F porque el pago estaba mal. La tarifa de solicitud del proyecto es alta y la fijan las reglas de USCIS. El centro regional debe revisar la tarifa actual en uscis.gov/i-956f, corregirla y volver a presentar. Hasta entonces, los inversionistas no pueden contar con este trámite."
+ },
+ "expedite-request-received": {
+  "en": "USCIS logged a request to speed up the I-956F. For EB-5 projects, USCIS has considered factors like projects in certain areas or significant job creation, as well as general expedite criteria. The regional center should keep supporting proof ready.",
+  "es": "USCIS registró una petición para acelerar el I-956F. Para proyectos EB-5, USCIS ha tomado en cuenta factores como proyectos en ciertas áreas o con creación importante de empleos, además de los criterios generales para acelerar. El centro regional debe tener listas las pruebas."
+ },
+ "withdrawal-acknowledgement-notice-was-sent": {
+  "en": "USCIS confirmed the regional center withdrew the I-956F. The project will not be approved through this filing. Investors who filed I-526E petitions based on it should speak with their own attorney right away about what happens to their case.",
+  "es": "USCIS confirmó que el centro regional retiró el I-956F. El proyecto no se aprobará con este trámite. Los inversionistas que presentaron I-526E basados en él deben hablar de inmediato con su propio abogado sobre qué pasa con su caso."
+ },
+ "name-was-updated": {
+  "en": "USCIS updated a name on the I-956F record, for example the project entity's or regional center's legal name. Check that it matches the offering and corporate documents, since investors' I-526E petitions refer to the same entity.",
+  "es": "USCIS actualizó un nombre en el expediente del I-956F, por ejemplo el nombre legal de la empresa del proyecto o del centro regional. Revisa que coincida con los documentos de la oferta y de la empresa, porque los I-526E de los inversionistas mencionan la misma entidad."
+ },
+ "case-was-received-and-a-receipt-notice-was-emailed": {
+  "en": "The I-956F receipt was delivered electronically to the regional center's USCIS account. Download the notice and keep it with the project file. Investors can use the receipt number to show the project application is pending.",
+  "es": "El recibo del I-956F llegó en forma electrónica a la cuenta de USCIS del centro regional. Descarga el aviso y guárdalo con el expediente del proyecto. Los inversionistas pueden usar el número de recibo para mostrar que el proyecto está en trámite."
+ },
+ "case-accepted-by-the-uscis-lockbox": {
+  "en": "USCIS accepted the I-956F filing and is processing the payment. A receipt notice should follow. Given the size of the project file, the regional center should keep a complete copy of everything submitted. Investors can ask when it arrives.",
+  "es": "USCIS aceptó el I-956F y está procesando el pago. Después debe llegar el aviso de recibo. Por el tamaño del expediente del proyecto, el centro regional debe guardar una copia completa de todo lo que mandó."
+ },
+ "fees-were-waived": {
+  "en": "This status is unusual for an I-956F, since business investment applications generally are not eligible for fee waivers. If it appears, check the notice carefully or ask USCIS which fee it refers to. Keep the notice with the project file.",
+  "es": "Este estatus es poco común en un I-956F, porque las solicitudes de inversión de negocios en general no pueden pedir exención de pago. Si aparece, revisa el aviso con cuidado o pregunta a USCIS a qué tarifa se refiere."
+ },
+ "case-was-rejected-because-it-was-improperly-filed": {
+  "en": "The I-956F was returned without review, perhaps for a missing signature, an outdated form or a filing from an entity that is not a designated regional center. The regional center should fix the issue and refile.",
+  "es": "Regresaron el I-956F sin revisarlo, quizá por falta de firma, una edición vieja del formulario o porque lo presentó una entidad que no es un centro regional designado. El centro regional debe corregir el problema y volver a presentar."
+ },
+ "biometrics-appointment-was-scheduled": {
+  "en": "A biometrics appointment appears in this I-956F case. That is not standard for a project application. It may relate to someone involved with the regional center or project. Read the notice to see who must attend and where.",
+  "es": "Aparece una cita de biométricos en este caso I-956F. No es normal en una solicitud de proyecto. Puede tener que ver con alguien vinculado al centro regional o al proyecto. Lee el aviso para ver quién debe ir y a dónde."
+ },
+ "case-was-updated-to-show-fingerprints-were-taken": {
+  "en": "USCIS recorded that biometrics were taken in this I-956F matter. Since project applications rarely involve biometrics, this likely relates to a person tied to the project. Review of the project itself continues. Keep any notice with the project file.",
+  "es": "USCIS registró que se tomaron biométricos en este asunto del I-956F. Como las solicitudes de proyecto casi nunca llevan biométricos, probablemente tiene que ver con una persona vinculada al proyecto. La revisión del proyecto sigue."
+ },
+ "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+  "en": "USCIS shows no one appeared for an in-person appointment in this I-956F case. Since that is unusual for a project application, the regional center should read the notice, contact USCIS quickly and arrange a new appointment if needed.",
+  "es": "USCIS indica que nadie se presentó a una cita en persona en este caso I-956F. Como eso es poco común en una solicitud de proyecto, el centro regional debe leer el aviso, comunicarse pronto con USCIS y pedir nueva cita si hace falta."
+ },
+ "case-was-approved-and-my-decision-was-emailed": {
+  "en": "The I-956F approval was delivered to the regional center's USCIS online account. Investors should ask for a copy, since their I-526E petitions depend on this project approval. Each investor petition is still decided separately. Keep the notice with the project file.",
+  "es": "La aprobación del I-956F llegó a la cuenta de USCIS del centro regional. Los inversionistas deben pedir una copia, porque sus I-526E dependen de esta aprobación del proyecto. Cada petición de inversionista se decide por separado."
+ },
+ "case-approval-was-certified-by-uscis": {
+  "en": "USCIS certified the approval of the I-956F. This is an internal confirmation step. The project stays approved, and investor I-526E petitions tied to it continue through their own review. Investors can ask the regional center for a copy of the approval notice.",
+  "es": "USCIS certificó la aprobación del I-956F. Es un paso interno de confirmación. El proyecto sigue aprobado, y los I-526E de los inversionistas vinculados continúan con su propia revisión. Los inversionistas pueden pedir al centro regional una copia del aviso de aprobación."
+ },
+ "case-was-sent-to-the-department-of-state": {
+  "en": "This status is unusual for an I-956F, because the State Department works with individual investor visas, not project approvals. It may reflect a related investor case. The regional center should check the notice or ask USCIS.",
+  "es": "Este estatus es poco común en un I-956F, porque el Departamento de Estado trabaja con visas de inversionistas individuales, no con aprobaciones de proyectos. Puede reflejar un caso de inversionista relacionado. El centro regional debe revisar el aviso o preguntar a USCIS."
+ },
+ "response-to-uscis-notice-of-intent-was-received": {
+  "en": "USCIS received the regional center's reply to a notice of intent on the I-956F. That notice means the officer was leaning toward denial. The outcome may affect every investor in the project, so investors should keep close contact with their attorney.",
+  "es": "USCIS recibió la respuesta del centro regional a un aviso de intención sobre el I-956F. Ese aviso significa que el oficial pensaba negar. El resultado puede afectar a todos los inversionistas del proyecto, así que deben estar en contacto con su abogado."
+ },
+ "case-is-pending-at-a-local-office": {
+  "en": "This status is unusual for an I-956F, which is normally handled centrally by the Immigrant Investor Program Office, not a local field office. It may mean a site visit or local step. The regional center should check with USCIS.",
+  "es": "Este estatus es poco común en un I-956F, que normalmente maneja de forma central la Oficina del Programa de Inversionistas y no una oficina local. Puede significar una visita al sitio u otro paso local. El centro regional debe consultar a USCIS."
+ },
+ "duplicate-notice-was-mailed": {
+  "en": "USCIS mailed a duplicate notice for the I-956F. It is a copy, not a new decision. The regional center should file it with the project records and can share it with investors who need proof of the project status.",
+  "es": "USCIS mandó un aviso duplicado del I-956F. Es una copia, no una nueva decisión. El centro regional debe guardarlo con el expediente del proyecto y puede compartirlo con inversionistas que necesiten prueba del estatus del proyecto."
+ },
+ "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+  "en": "A notice for the I-956F came back to USCIS undelivered. It may be a request for evidence with a deadline. The regional center should update its address with USCIS right away and ask for the notice to be resent.",
+  "es": "Un aviso del I-956F regresó a USCIS sin entregarse. Puede ser una petición de evidencia con fecha límite. El centro regional debe actualizar su dirección con USCIS de inmediato y pedir que reenvíen el aviso."
+ },
+ "date-of-birth-was-updated": {
+  "en": "This status is unusual for an I-956F, because the applicant is a company, not a person. It may relate to an individual listed in the filing, like a principal. The regional center should review the record for accuracy.",
+  "es": "Este estatus es poco común en un I-956F, porque quien presenta es una empresa, no una persona. Puede tener que ver con un individuo incluido en el trámite, como un directivo. El centro regional debe revisar que el registro esté correcto."
+ },
+ "continuation-notice-was-mailed": {
+  "en": "USCIS sent a continuation notice on the I-956F. It usually means the case is still open and more review or information is needed. It is not a decision. Investors waiting on their I-526E should ask the regional center for updates.",
+  "es": "USCIS mandó un aviso de continuación del I-956F. Normalmente significa que el caso sigue abierto y hace falta más revisión o información. No es una decisión. Los inversionistas que esperan su I-526E deben pedir novedades al centro regional."
+ },
+ "termination-notice-sent": {
+  "en": "USCIS sent a termination notice in this I-956F matter. This can relate to the project approval or the regional center's standing in the program. It can seriously affect investors, who should speak with their own EB-5 attorney right away.",
+  "es": "USCIS mandó un aviso de terminación en este asunto del I-956F. Puede tener que ver con la aprobación del proyecto o con la situación del centro regional en el programa. Puede afectar mucho a los inversionistas, que deben hablar de inmediato con su propio abogado EB-5."
+ },
+ "case-closed-benefit-received-by-other-means": {
+  "en": "USCIS closed this I-956F because the needed approval was obtained another way, for example through an earlier filing for the same project. The regional center should confirm which receipt number investors should reference. Keep the closing notice on file.",
+  "es": "USCIS cerró este I-956F porque la aprobación necesaria se obtuvo por otra vía, por ejemplo con un trámite anterior para el mismo proyecto. El centro regional debe confirmar qué número de recibo deben usar los inversionistas."
+ },
+ "expedite-request-denied": {
+  "en": "USCIS will not speed up the I-956F. The project application stays in the normal line, and linked I-526E petitions may wait as well. The regional center can request again if new qualifying facts appear. Keep the denial notice on file.",
+  "es": "USCIS no va a acelerar el I-956F. La solicitud del proyecto sigue en la fila normal, y los I-526E vinculados también pueden esperar. El centro regional puede volver a pedirlo si aparecen nuevos hechos que califiquen."
+ },
+ "correspondence-was-received-and-uscis-is-reviewing-it": {
+  "en": "USCIS received correspondence about the I-956F, such as an amendment notice or updated project information. An officer will review it and add it to the project file. The regional center should keep a copy for its records.",
+  "es": "USCIS recibió correspondencia sobre el I-956F, como un aviso de cambio o información actualizada del proyecto. Un oficial la revisará y la agregará al expediente. El centro regional debe guardar una copia para sus registros."
+ }
+}

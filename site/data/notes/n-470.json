@@ -1,0 +1,158 @@
+{
+ "case-was-received": {
+  "en": "USCIS logged your N-470. This form protects the continuous residence you need for citizenship while you work abroad for a qualifying employer. Timing matters: it must be filed before you have been outside the U.S. for a full year. Keep the receipt as proof you filed in time.",
+  "es": "USCIS registró tu N-470. Este formulario protege la residencia continua que necesitas para la ciudadanía mientras trabajas fuera para un empleador que califica. El momento importa: debe presentarse antes de que cumplas un año completo fuera de EE.UU. Guarda el recibo como prueba de que lo presentaste a tiempo."
+ },
+ "case-was-received-and-a-receipt-notice-was-sent": {
+  "en": "Your N-470 receipt notice is in the mail. The receipt date helps show you filed before reaching a year abroad. Keep it with your employer letter describing your overseas assignment, since you will rely on both when you later apply for naturalization.",
+  "es": "Tu aviso de recibo del N-470 ya va por correo. La fecha del recibo ayuda a mostrar que lo presentaste antes de cumplir un año fuera. Guárdalo con la carta de tu empleador sobre tu trabajo en el extranjero, porque vas a usar los dos cuando pidas la ciudadanía."
+ },
+ "fingerprint-fee-was-received": {
+  "en": "A biometrics step is uncommon for an N-470, which is mostly a document review of your job abroad and your residence history. This update may relate to another pending case. Confirm which receipt number it belongs to before planning an appointment.",
+  "es": "Los biométricos son poco comunes en un N-470, que es sobre todo una revisión de papeles de tu trabajo fuera y de tu historial de residencia. Este cambio puede ser de otro caso pendiente. Confirma a qué número de recibo pertenece antes de planear una cita."
+ },
+ "fingerprint-review-was-completed": {
+  "en": "A background check came back on a case tied to your N-470. Since this form rarely needs biometrics, it may involve another pending application. It is not a decision on whether your residence for naturalization is preserved.",
+  "es": "Regresó una revisión de antecedentes de un caso ligado a tu N-470. Como este formulario casi nunca pide biométricos, puede ser de otra solicitud pendiente. No es una decisión sobre si se protege tu residencia para la ciudadanía."
+ },
+ "case-is-being-actively-reviewed-by-uscis": {
+  "en": "An officer is reviewing your N-470. They check that your employer qualifies, such as the U.S. government, a qualifying American company or a religious group, and that you had the required uninterrupted residence before leaving. The decision is usually made from the documents.",
+  "es": "Un oficial está revisando tu N-470. Revisa que tu empleador califique, como el gobierno de EE.UU., una empresa estadounidense que califica o un grupo religioso, y que tuviste la residencia sin interrupción que se pide antes de salir. La decisión normalmente se toma con los papeles."
+ },
+ "request-for-additional-evidence-was-sent": {
+  "en": "USCIS wants more evidence for your N-470. It often asks for a detailed employer letter, proof the company qualifies, or records showing your residence in the U.S. before departure. Send everything listed by the deadline, since the form only helps if it is approved.",
+  "es": "USCIS quiere más pruebas para tu N-470. Muchas veces pide una carta detallada del empleador, prueba de que la empresa califica o registros de tu residencia en EE.UU. antes de salir. Manda todo lo que pide antes del plazo, porque el formulario solo te ayuda si lo aprueban."
+ },
+ "request-for-initial-evidence-was-sent": {
+  "en": "Your N-470 was missing something required from the start, such as a copy of your green card or the employer's statement about your assignment abroad. The notice lists what is needed. Respond before the deadline to keep the application moving.",
+  "es": "A tu N-470 le faltó algo obligatorio desde el inicio, como la copia de tu green card o la declaración del empleador sobre tu trabajo en el extranjero. El aviso dice qué falta. Contesta antes del plazo para que la solicitud siga avanzando."
+ },
+ "response-to-uscis-request-for-evidence-was-received": {
+  "en": "USCIS received your N-470 response. The officer will check whether the new documents show a qualifying employer and the residence needed before your departure. A decision usually follows from the file, without an interview. Keep copies of what you sent.",
+  "es": "USCIS recibió tu respuesta del N-470. El oficial revisará si los nuevos papeles muestran un empleador que califica y la residencia necesaria antes de tu salida. La decisión normalmente sale del expediente, sin entrevista. Guarda copia de lo que mandaste."
+ },
+ "case-was-transferred-and-a-new-office-has-jurisdiction": {
+  "en": "Your N-470 moved to another USCIS office, usually to balance workload. It does not affect the filing date that shows you applied before a year abroad. New notices will come from the office now handling it, so keep your mailing address current while overseas.",
+  "es": "Tu N-470 pasó a otra oficina de USCIS, casi siempre para repartir el trabajo. No cambia la fecha de presentación que muestra que lo pediste antes de cumplir un año fuera. Los avisos nuevos vendrán de la oficina que ahora lo lleva, así que mantén tu dirección al día estando fuera."
+ },
+ "case-was-approved": {
+  "en": "Your N-470 was approved. Your time working abroad for the qualifying employer will not break continuous residence for naturalization. It does not make you a citizen and does not by itself protect your green card from abandonment, so keep ties to the U.S. Later, file the N-400 and include this approval.",
+  "es": "Tu N-470 fue aprobado. Tu tiempo trabajando fuera para el empleador que califica no rompe la residencia continua para la ciudadanía. No te hace ciudadano ni protege por sí solo tu green card de abandono, así que mantén tus lazos con EE.UU. Después presenta el N-400 e incluye esta aprobación."
+ },
+ "document-was-mailed-to-me": {
+  "en": "USCIS mailed a document for your N-470, usually the approval notice. Keep the original safe. You will need to submit a copy with your future N-400 citizenship application to show your residence was preserved while abroad.",
+  "es": "USCIS te mandó un documento de tu N-470, normalmente el aviso de aprobación. Guarda el original en un lugar seguro. Vas a mandar una copia con tu futura solicitud de ciudadanía N-400 para mostrar que tu residencia se protegió mientras estabas fuera."
+ },
+ "notice-explaining-uscis-actions-was-mailed": {
+  "en": "USCIS sent a letter about your N-470. It may be a request for evidence, a notice of intent to deny, or an update on your case. Since you may be overseas, check your USCIS online account so you do not miss a deadline because of slow mail.",
+  "es": "USCIS te mandó una carta sobre tu N-470. Puede ser una petición de pruebas, un aviso de intención de negar o una actualización de tu caso. Como quizá estés fuera, revisa tu cuenta en línea de USCIS para no perder un plazo por el correo lento."
+ },
+ "case-was-denied": {
+  "en": "Your N-470 was denied, often because it was filed after a year abroad or the employer did not qualify. Your green card is not cancelled by this, but long absences may break continuous residence for citizenship. Talk with an immigration attorney about your naturalization timeline.",
+  "es": "Tu N-470 fue negado, muchas veces porque se presentó después de un año fuera o porque el empleador no calificaba. Esto no cancela tu green card, pero las ausencias largas pueden romper la residencia continua para la ciudadanía. Habla con un abogado de inmigración sobre tus tiempos para naturalizarte."
+ },
+ "case-was-reopened": {
+  "en": "Your N-470 is open again, often after a motion or a correction by USCIS. The officer will review your employer and residence evidence again. Watch for requests, and keep your overseas address and online account up to date.",
+  "es": "Tu N-470 está abierto otra vez, muchas veces por una moción o una corrección de USCIS. El oficial revisará de nuevo las pruebas de tu empleador y tu residencia. Espera peticiones y mantén al día tu dirección en el extranjero y tu cuenta en línea."
+ },
+ "case-rejected-because-i-sent-an-incorrect-fee": {
+  "en": "Your N-470 was rejected for a fee problem. This is time-sensitive because the form must be filed before you have been abroad a full year. Check the current fee on uscis.gov and refile right away.",
+  "es": "Tu N-470 fue rechazado por un problema de pago. Es urgente, porque el formulario debe presentarse antes de que cumplas un año completo fuera. Revisa la cuota actual en uscis.gov y vuelve a presentarlo de inmediato."
+ },
+ "expedite-request-received": {
+  "en": "USCIS received a request to speed up your N-470. People sometimes ask when an assignment abroad is about to start or extend. USCIS reviews expedites against its criteria. Meanwhile, the filing date already shows when you applied.",
+  "es": "USCIS recibió una solicitud para acelerar tu N-470. A veces se pide cuando un trabajo en el extranjero está por empezar o alargarse. USCIS revisa la aceleración con sus criterios. Mientras tanto, la fecha de presentación ya muestra cuándo lo pediste."
+ },
+ "withdrawal-acknowledgement-notice-was-sent": {
+  "en": "USCIS confirmed your N-470 was withdrawn. Without an approved N-470, long absences abroad may break the continuous residence required for citizenship. If your plans changed, keep this notice and check how your travel affects a future N-400.",
+  "es": "USCIS confirmó que tu N-470 fue retirado. Sin un N-470 aprobado, las ausencias largas pueden romper la residencia continua que pide la ciudadanía. Si cambiaron tus planes, guarda este aviso y revisa cómo afectan tus viajes a un futuro N-400."
+ },
+ "name-was-updated": {
+  "en": "USCIS updated the name on your N-470 record. The approval notice will show this name, and it should match the name you later use on your N-400. Keep the document that supports the change. Check your future notices for consistency.",
+  "es": "USCIS actualizó el nombre en tu expediente N-470. El aviso de aprobación saldrá con ese nombre, que debe coincidir con el que uses después en tu N-400. Guarda el documento que respalda el cambio. Revisa que los avisos futuros coincidan."
+ },
+ "case-was-received-and-a-receipt-notice-was-emailed": {
+  "en": "Your N-470 receipt was sent electronically. Download it and save it with your employer letter. Being able to see notices online is especially useful while you are living abroad and mail may be slow. Note the receipt date as well.",
+  "es": "Tu recibo del N-470 se mandó de forma electrónica. Descárgalo y guárdalo con la carta de tu empleador. Ver los avisos en línea es muy útil mientras vives fuera y el correo puede tardar. Anota también la fecha del recibo."
+ },
+ "case-accepted-by-the-uscis-lockbox": {
+  "en": "Your mailed N-470 was accepted at intake and the fee was processed. A receipt notice should follow. Keep proof of the date it was delivered, since filing before a full year abroad is a key requirement.",
+  "es": "Tu N-470 por correo fue aceptado y se cobró la cuota. Pronto debe llegar el aviso de recibo. Guarda la prueba de la fecha de entrega, porque presentarlo antes de cumplir un año fuera es un requisito clave."
+ },
+ "fees-were-waived": {
+  "en": "USCIS approved a fee waiver on your N-470. Your application now continues like any other: review of your employer and residence evidence, and a decision. Keep the waiver approval with your records. No interview is usually needed.",
+  "es": "USCIS aprobó una exención de cuota en tu N-470. Tu solicitud ahora sigue como cualquier otra: revisión de las pruebas de tu empleador y tu residencia, y una decisión. Guarda la aprobación de la exención con tus papeles."
+ },
+ "case-was-rejected-because-it-was-improperly-filed": {
+  "en": "Your N-470 was not accepted, for example because of a missing signature or an outdated form edition. A rejected filing does not count as filed on time. Fix the issue and refile quickly, before you reach a full year abroad.",
+  "es": "Tu N-470 no fue aceptado, por ejemplo por falta de firma o una edición vieja del formulario. Un trámite rechazado no cuenta como presentado a tiempo. Corrige el problema y vuelve a presentarlo pronto, antes de cumplir un año fuera."
+ },
+ "biometrics-appointment-was-scheduled": {
+  "en": "A biometrics appointment is unusual for an N-470. It may belong to another application, such as a reentry permit. Check the receipt number on the notice. If you are abroad, contact USCIS about rescheduling before the date.",
+  "es": "Una cita de biométricos es rara en un N-470. Puede ser de otra solicitud, como un permiso de reingreso. Revisa el número de recibo en el aviso. Si estás fuera, contacta a USCIS para cambiar la cita antes de la fecha."
+ },
+ "case-was-updated-to-show-fingerprints-were-taken": {
+  "en": "USCIS recorded fingerprints linked to your N-470 record. Since this form rarely needs them, this likely relates to another application such as a reentry permit. The N-470 review continues with your employer documents. It is not a decision.",
+  "es": "USCIS registró huellas ligadas a tu expediente N-470. Como este formulario casi nunca las pide, probablemente es de otra solicitud, como un permiso de reingreso. La revisión del N-470 sigue con los papeles de tu empleador."
+ },
+ "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+  "en": "USCIS recorded a missed appointment tied to your N-470, which is uncommon for this form. It may be a biometrics visit for a linked case. Contact USCIS soon to explain, especially if you were already abroad for work.",
+  "es": "USCIS registró una cita perdida ligada a tu N-470, algo poco común en este formulario. Puede ser una cita de biométricos de un caso ligado. Contacta pronto a USCIS para explicar, sobre todo si ya estabas fuera por trabajo."
+ },
+ "oath-ceremony-will-be-scheduled": {
+  "en": "An oath ceremony is not part of the N-470 process, because this form does not make you a citizen. If you see this status, it likely belongs to an N-400 you filed. Check the receipt number, since the oath step happens only in the citizenship case.",
+  "es": "La ceremonia de juramento no es parte del N-470, porque este formulario no te hace ciudadano. Si ves este estatus, probablemente es de un N-400 que presentaste. Revisa el número de recibo, porque el juramento solo pasa en el caso de ciudadanía."
+ },
+ "oath-ceremony-notice-was-mailed": {
+  "en": "Oath notices belong to the N-400 citizenship process, not the N-470. If this appears, confirm which receipt number it is tied to. If it is your N-400, attend the ceremony and bring your green card and the notice.",
+  "es": "Los avisos de juramento son del proceso de ciudadanía N-400, no del N-470. Si aparece, confirma a qué número de recibo está ligado. Si es tu N-400, ve a la ceremonia y lleva tu green card y el aviso."
+ },
+ "case-was-approved-and-my-decision-was-emailed": {
+  "en": "Your N-470 approval was delivered electronically. Download and print it. Keep it for your future N-400, where it helps show that your work abroad did not break continuous residence. The approval does not make you a citizen; that still requires the N-400, an interview and the oath.",
+  "es": "Tu aprobación del N-470 se mandó de forma electrónica. Descárgala e imprímela. Guárdala para tu futuro N-400, donde ayuda a mostrar que tu trabajo fuera no rompió la residencia continua. La aprobación no te hace ciudadano; para eso todavía hacen falta el N-400, la entrevista y el juramento."
+ },
+ "case-approval-was-certified-by-uscis": {
+  "en": "USCIS certified your N-470 approval. This may happen when another agency or office needs official confirmation that your residence was preserved. Keep the certified notice with your naturalization papers. You will still file the N-400 later to apply for citizenship.",
+  "es": "USCIS certificó tu aprobación del N-470. Puede pasar cuando otra agencia u oficina necesita confirmación oficial de que tu residencia se protegió. Guarda el aviso certificado con tus papeles de ciudadanía. Después todavía tendrás que presentar el N-400 para pedir la ciudadanía."
+ },
+ "response-to-uscis-notice-of-intent-was-received": {
+  "en": "USCIS received your response to a notice of intent to deny your N-470. The officer will decide based on your employer and residence evidence. If denied, your green card continues, but your path to citizenship may be delayed.",
+  "es": "USCIS recibió tu respuesta al aviso de intención de negar tu N-470. El oficial decidirá con las pruebas de tu empleador y tu residencia. Si lo niegan, tu green card sigue, pero tu camino a la ciudadanía puede retrasarse."
+ },
+ "case-is-pending-at-a-local-office": {
+  "en": "Your N-470 is at a local USCIS office. Some offices handle these residence applications, and it usually waits there for officer review. An interview is rare. Keep your overseas address current so you get any request.",
+  "es": "Tu N-470 está en una oficina local de USCIS. Algunas oficinas manejan estas solicitudes de residencia, y normalmente espera ahí la revisión de un oficial. La entrevista es rara. Mantén al día tu dirección en el extranjero para recibir cualquier petición."
+ },
+ "duplicate-notice-was-mailed": {
+  "en": "USCIS mailed a copy of an N-470 notice, such as the receipt or approval. Keep it with your employer letter. You will need the approval when you file the N-400 for citizenship. Store it somewhere safe.",
+  "es": "USCIS mandó una copia de un aviso de tu N-470, como el recibo o la aprobación. Guárdala con la carta de tu empleador. Vas a necesitar la aprobación cuando presentes el N-400 para la ciudadanía."
+ },
+ "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+  "en": "An N-470 notice came back undelivered, which is common when the applicant is abroad. It might be a request for evidence with a deadline. Update your address with USCIS and check your online account for the notice.",
+  "es": "Un aviso de tu N-470 regresó sin entregarse, algo común cuando la persona está fuera del país. Puede ser una petición de pruebas con plazo. Actualiza tu dirección con USCIS y busca el aviso en tu cuenta en línea."
+ },
+ "date-of-birth-was-updated": {
+  "en": "USCIS corrected your date of birth on the N-470 record. Make sure it matches your green card and passport, since the same details will appear in your N-400 citizenship file later. Contact USCIS if it still looks wrong.",
+  "es": "USCIS corrigió tu fecha de nacimiento en el expediente N-470. Asegúrate de que coincida con tu green card y tu pasaporte, porque los mismos datos aparecerán después en tu expediente de ciudadanía N-400. Contacta a USCIS si sigue mal."
+ },
+ "continuation-notice-was-mailed": {
+  "en": "USCIS mailed a notice that your N-470 is continuing. The pending application does not protect your green card from abandonment on its own. For long trips, a reentry permit is a separate filing. Check what this notice covers.",
+  "es": "USCIS te mandó un aviso de que tu N-470 continúa. Tener la solicitud pendiente no protege por sí solo tu green card de abandono. Para viajes largos, el permiso de reingreso es otro trámite aparte. Revisa qué cubre este aviso."
+ },
+ "termination-notice-sent": {
+  "en": "USCIS sent a termination notice on your N-470. This may end the application, for example if it was abandoned or no longer applies. Read the reasons carefully and ask an immigration attorney how it affects your plans to naturalize.",
+  "es": "USCIS mandó un aviso de terminación de tu N-470. Puede terminar la solicitud, por ejemplo si se abandonó o ya no aplica. Lee las razones con cuidado y pregunta a un abogado de inmigración cómo afecta tus planes de ciudadanía."
+ },
+ "case-closed-benefit-received-by-other-means": {
+  "en": "USCIS closed your N-470 because the benefit was received another way, for example you already naturalized or another N-470 was approved. Check that you have proof of that other result before you discard this case.",
+  "es": "USCIS cerró tu N-470 porque el beneficio se obtuvo por otra vía, por ejemplo ya te naturalizaste u otro N-470 fue aprobado. Revisa que tengas prueba de ese otro resultado antes de olvidarte de este caso."
+ },
+ "expedite-request-denied": {
+  "en": "USCIS will not expedite your N-470. Your application keeps its place in line, and your filing date still shows you applied before a year abroad. You can ask again if your assignment situation changes. Keep your address current.",
+  "es": "USCIS no va a acelerar tu N-470. Tu solicitud conserva su lugar en la fila, y tu fecha de presentación sigue mostrando que lo pediste antes de cumplir un año fuera. Puedes pedirlo otra vez si cambia tu situación de trabajo."
+ },
+ "correspondence-was-received-and-uscis-is-reviewing-it": {
+  "en": "USCIS received something you sent about your N-470, such as an updated employer letter or a new overseas address. An officer will decide if any action is needed. Keep a copy and proof of delivery.",
+  "es": "USCIS recibió algo que mandaste sobre tu N-470, como una carta actualizada del empleador o una nueva dirección en el extranjero. Un oficial decidirá si hace falta hacer algo. Guarda copia y prueba de entrega."
+ }
+}

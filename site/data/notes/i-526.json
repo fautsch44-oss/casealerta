@@ -1,0 +1,150 @@
+{
+ "case-was-received": {
+  "en": "USCIS logged your I-526 EB-5 petition. These petitions are handled by the Immigrant Investor Program Office, which reviews the investment, the business plan, the 10 full-time jobs it must create, and the lawful source of your funds. EB-5 reviews are document-heavy, so the first update can take a long time. Keep your receipt with your investment records.",
+  "es": "USCIS registró tu petición EB-5 I-526. La maneja la Oficina del Programa de Inversionistas Inmigrantes, que revisa la inversión, el plan de negocio, los 10 empleos de tiempo completo que debe crear y el origen legal de tu dinero. Las revisiones EB-5 llevan muchos documentos, así que la primera actualización puede tardar. Guarda tu recibo con tus registros de inversión."
+ },
+ "case-was-received-and-a-receipt-notice-was-sent": {
+  "en": "Your I-526 receipt notice is in the mail. The receipt date becomes your priority date, which decides when a visa number is available if your country has an EB-5 backlog. Keep the notice with your investment and source-of-funds documents.",
+  "es": "Tu aviso de recibo del I-526 ya va por correo. La fecha de recibo es tu fecha de prioridad, que decide cuándo hay número de visa si tu país tiene fila de espera en EB-5. Guarda el aviso con tus documentos de inversión y del origen de tus fondos."
+ },
+ "fingerprint-fee-was-received": {
+  "en": "Biometrics are not normally part of an I-526 petition, since background checks for investors happen later, at the visa or green card stage. This update may relate to a linked application such as an I-485 filed at the same time. Confirm which receipt number it belongs to.",
+  "es": "Los biométricos normalmente no son parte de una petición I-526, porque la revisión de antecedentes de inversionistas se hace después, en la etapa de visa o green card. Este cambio puede venir de otra solicitud ligada, como un I-485 presentado al mismo tiempo. Confirma a qué número de recibo pertenece."
+ },
+ "fingerprint-review-was-completed": {
+  "en": "A background check came back on a case tied to your I-526. Because the petition itself focuses on the investment, this likely relates to a concurrent I-485 or a family member's filing. It is not a decision on the EB-5 petition.",
+  "es": "Regresó una revisión de antecedentes de un caso ligado a tu I-526. Como la petición en sí se enfoca en la inversión, esto probablemente es de un I-485 presentado al mismo tiempo o del trámite de un familiar. No es una decisión sobre la petición EB-5."
+ },
+ "case-is-being-actively-reviewed-by-uscis": {
+  "en": "An officer at the Immigrant Investor Program Office is reviewing your I-526. They study the business plan, whether the money is at risk, how the jobs will be created, and the path of your funds from a lawful source. Expect careful questions; follow the typical range shown on this page.",
+  "es": "Un oficial de la Oficina del Programa de Inversionistas está revisando tu I-526. Estudia el plan de negocio, si el dinero está en riesgo, cómo se van a crear los empleos y el camino de tus fondos desde un origen legal. Espera preguntas detalladas; sigue el rango típico que muestra esta página."
+ },
+ "request-for-additional-evidence-was-sent": {
+  "en": "EB-5 RFEs commonly ask for more on the source of funds, bank transfers tracing the money, the business plan's job projections, or proof the capital is fully at risk. Responses often need accountants and business records. Given the money involved, work with an experienced EB-5 attorney and answer by the deadline.",
+  "es": "Las RFE de EB-5 muchas veces piden más sobre el origen de los fondos, las transferencias que muestran el camino del dinero, las proyecciones de empleo del plan de negocio o prueba de que el capital está en riesgo. Las respuestas suelen pedir contadores y registros del negocio. Por el dinero en juego, trabaja con un abogado con experiencia en EB-5 y contesta a tiempo."
+ },
+ "request-for-initial-evidence-was-sent": {
+  "en": "Your I-526 was missing something required from the start, such as proof the investment was made or committed, business formation papers, or source-of-funds documents. The notice lists what to send. Respond before the deadline to avoid a denial.",
+  "es": "A tu I-526 le faltó algo obligatorio desde el inicio, como prueba de que hiciste o comprometiste la inversión, papeles de creación del negocio o documentos del origen de tus fondos. El aviso dice qué mandar. Contesta antes del plazo para evitar una negación."
+ },
+ "response-to-uscis-request-for-evidence-was-received": {
+  "en": "USCIS received your I-526 RFE response. The Investor Program Office will review the new financial and business documents. The result may be an approval, another request, or a notice of intent to deny. EB-5 reviews after an RFE can still take time.",
+  "es": "USCIS recibió tu respuesta a la RFE del I-526. La Oficina del Programa de Inversionistas revisará los nuevos documentos financieros y del negocio. El resultado puede ser aprobación, otra petición o un aviso de intención de negar. Las revisiones EB-5 después de una RFE todavía pueden tardar."
+ },
+ "case-was-transferred-and-a-new-office-has-jurisdiction": {
+  "en": "Your I-526 moved to another office. EB-5 petitions are centralized at the Immigrant Investor Program Office, so a transfer may relate to file handling or a linked case. It does not change your priority date. New notices will show the office now handling it.",
+  "es": "Tu I-526 pasó a otra oficina. Las peticiones EB-5 se concentran en la Oficina del Programa de Inversionistas, así que el traslado puede ser por manejo del expediente o por un caso ligado. No cambia tu fecha de prioridad. Los avisos nuevos mostrarán la oficina que lo lleva."
+ },
+ "case-was-approved": {
+  "en": "Your I-526 was approved. If you are abroad, the case goes to the National Visa Center for an immigrant visa. If you are in the U.S., you can adjust status with an I-485 when a visa is available. Either way, you first get a 2-year conditional green card, later removed with Form I-829.",
+  "es": "Tu I-526 fue aprobado. Si estás fuera, el caso va al Centro Nacional de Visas para una visa de inmigrante. Si estás en EE.UU., puedes ajustar estatus con un I-485 cuando haya visa disponible. En ambos casos primero recibes una green card condicional de 2 años, y después quitas las condiciones con el Formulario I-829."
+ },
+ "notice-explaining-uscis-actions-was-mailed": {
+  "en": "USCIS sent a letter about your I-526. It could be a request for evidence, a notice of intent to deny, or an update tied to the business or project. EB-5 letters often have firm deadlines. Share it with your attorney right away.",
+  "es": "USCIS te mandó una carta sobre tu I-526. Puede ser una petición de pruebas, un aviso de intención de negar o una actualización sobre el negocio o proyecto. Las cartas de EB-5 suelen tener plazos firmes. Compártela con tu abogado de inmediato."
+ },
+ "case-was-denied": {
+  "en": "Your I-526 was denied. The letter explains the reasons, often source of funds, job creation, or whether the investment was truly at risk. Options may include an I-290B appeal or motion, or a new petition. With a large investment at stake, speak with an experienced EB-5 attorney soon.",
+  "es": "Tu I-526 fue negado. La carta explica las razones, muchas veces el origen de los fondos, la creación de empleos o si la inversión realmente estaba en riesgo. Las opciones pueden ser una apelación o moción I-290B, o una petición nueva. Con una inversión grande en juego, habla pronto con un abogado con experiencia en EB-5."
+ },
+ "case-was-reopened": {
+  "en": "Your I-526 is open again, often after a motion or a USCIS decision to review the case. The Investor Program Office may ask for updated business or financial documents. Your priority date usually remains tied to the original filing; confirm with your attorney.",
+  "es": "Tu I-526 está abierto otra vez, muchas veces por una moción o porque USCIS decidió revisarlo. La Oficina del Programa de Inversionistas puede pedir documentos del negocio o financieros actualizados. Tu fecha de prioridad normalmente sigue ligada a la presentación original; confírmalo con tu abogado."
+ },
+ "case-rejected-because-i-sent-an-incorrect-fee": {
+  "en": "Your I-526 was rejected for a fee problem. EB-5 filing fees are high and change with fee rules, so check the current amount on uscis.gov. A rejected petition has no receipt date, which means no priority date yet. Refile promptly to secure your place in line.",
+  "es": "Tu I-526 fue rechazado por un problema de pago. Las cuotas de EB-5 son altas y cambian con las reglas de cuotas, así que revisa el monto actual en uscis.gov. Una petición rechazada no tiene fecha de recibo, o sea, todavía no tiene fecha de prioridad. Vuelve a presentarla pronto para asegurar tu lugar."
+ },
+ "expedite-request-received": {
+  "en": "USCIS received a request to expedite your I-526. EB-5 expedites are sometimes considered when the project faces urgent business needs, like financing or job deadlines. The office reviews it against its criteria. Your case stays in line until a decision is made.",
+  "es": "USCIS recibió una solicitud para acelerar tu I-526. En EB-5 a veces se consideran por necesidades urgentes del proyecto, como financiamiento o fechas de empleos. La oficina la revisa con sus criterios. Tu caso sigue en la fila hasta que haya respuesta."
+ },
+ "withdrawal-acknowledgement-notice-was-sent": {
+  "en": "USCIS confirmed your I-526 was withdrawn. You lose this petition's place in the EB-5 process, and any family members relying on it are affected too. If you plan to invest again or refile, discuss timing and your priority date with an EB-5 attorney.",
+  "es": "USCIS confirmó que tu I-526 fue retirado. Pierdes el lugar de esta petición en el proceso EB-5, y también se afecta a los familiares que dependen de ella. Si piensas invertir otra vez o volver a presentar, habla con un abogado de EB-5 sobre los tiempos y tu fecha de prioridad."
+ },
+ "name-was-updated": {
+  "en": "USCIS updated the name on your I-526 record. Make sure it matches your passport and the investment documents, since the National Visa Center and later your conditional green card will rely on this record. Keep the document that supports the change.",
+  "es": "USCIS actualizó el nombre en tu expediente I-526. Asegúrate de que coincida con tu pasaporte y con los documentos de la inversión, porque el Centro Nacional de Visas y después tu green card condicional usarán este registro."
+ },
+ "case-was-received-and-a-receipt-notice-was-emailed": {
+  "en": "Your I-526 receipt was sent electronically. Download it and record the receipt date, because it sets your EB-5 priority date. You will need this number to follow the Visa Bulletin if your country has a backlog.",
+  "es": "Tu recibo del I-526 se mandó de forma electrónica. Descárgalo y anota la fecha de recibo, porque es tu fecha de prioridad EB-5. Vas a necesitar ese dato para seguir el Boletín de Visas si tu país tiene fila de espera."
+ },
+ "case-accepted-by-the-uscis-lockbox": {
+  "en": "Your I-526 package was accepted at intake and the fee was processed. A receipt notice should follow, and its date will become your priority date. Keep proof of filing with your investment and source-of-funds records.",
+  "es": "Tu paquete del I-526 fue aceptado y se cobró la cuota. Pronto debe llegar el aviso de recibo, y su fecha será tu fecha de prioridad. Guarda la prueba de presentación con tus registros de inversión y origen de los fondos."
+ },
+ "fees-were-waived": {
+  "en": "A fee waiver is very unusual for an I-526, since EB-5 investors must show substantial funds and fee waivers generally do not apply to this form. Check the notice carefully to see what was waived, and contact USCIS if it looks like an error.",
+  "es": "Una exención de cuota es muy rara en un I-526, porque los inversionistas EB-5 deben mostrar fondos importantes y en general las exenciones no aplican a este formulario. Revisa bien el aviso para ver qué se exentó y contacta a USCIS si parece un error."
+ },
+ "case-was-rejected-because-it-was-improperly-filed": {
+  "en": "Your I-526 was not accepted. Common causes include a missing signature, an outdated form edition, or filing the standalone I-526 when the investment is through a regional center, which uses Form I-526E. Fix the problem and refile to set your priority date.",
+  "es": "Tu I-526 no fue aceptado. Causas comunes son falta de firma, una edición vieja del formulario o presentar el I-526 independiente cuando la inversión es por un centro regional, que usa el Formulario I-526E. Corrige el problema y vuelve a presentarlo para fijar tu fecha de prioridad."
+ },
+ "biometrics-appointment-was-scheduled": {
+  "en": "A biometrics appointment is not typical for the I-526 itself. It usually belongs to a concurrent I-485 or related application. Go to the appointment with the notice and photo ID, and confirm which receipt number it is for.",
+  "es": "Una cita de biométricos no es normal en el I-526 en sí. Normalmente es de un I-485 presentado al mismo tiempo u otra solicitud ligada. Ve a la cita con el aviso y tu identificación con foto, y confirma a qué número de recibo corresponde."
+ },
+ "case-was-updated-to-show-fingerprints-were-taken": {
+  "en": "USCIS recorded fingerprints linked to your I-526 case, most likely for a concurrent green card application. The EB-5 petition review itself continues with your investment and business documents. This is a routine step, not a decision.",
+  "es": "USCIS registró huellas ligadas a tu caso I-526, lo más probable para una solicitud de green card presentada al mismo tiempo. La revisión de la petición EB-5 sigue con tus documentos de inversión y del negocio. Es un paso de rutina, no una decisión."
+ },
+ "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+  "en": "USCIS recorded a missed appointment linked to your I-526, likely biometrics for a related I-485. Missing it can lead to a denial of that application. Contact USCIS quickly to reschedule, and let your EB-5 attorney know.",
+  "es": "USCIS registró una cita perdida ligada a tu I-526, quizá biométricos de un I-485 relacionado. Faltar puede llevar a negar esa solicitud. Contacta pronto a USCIS para reprogramar y avisa a tu abogado de EB-5."
+ },
+ "case-was-approved-and-my-decision-was-emailed": {
+  "en": "Your I-526 approval was delivered electronically. Download the notice. It is the key document for the next step: consular processing through the National Visa Center if you are abroad, or an I-485 if you are in the U.S. and a visa is available.",
+  "es": "Tu aprobación del I-526 se mandó de forma electrónica. Descarga el aviso. Es el documento clave para el siguiente paso: el trámite consular por el Centro Nacional de Visas si estás fuera, o un I-485 si estás en EE.UU. y hay visa disponible."
+ },
+ "case-approval-was-certified-by-uscis": {
+  "en": "USCIS certified your I-526 approval, often so the State Department or a consulate can confirm it before your immigrant visa interview. This can help if the consulate cannot see the approval. Keep the certified notice with your EB-5 file.",
+  "es": "USCIS certificó tu aprobación del I-526, muchas veces para que el Departamento de Estado o un consulado la confirme antes de tu entrevista de visa de inmigrante. Ayuda si el consulado no ve la aprobación. Guarda el aviso certificado con tu expediente EB-5."
+ },
+ "case-was-sent-to-the-department-of-state": {
+  "en": "Your approved I-526 went to the National Visa Center. NVC will ask you to pay fees, submit the DS-260 and send civil documents for you and qualifying family members. When your priority date is current, a consulate schedules the immigrant visa interview.",
+  "es": "Tu I-526 aprobado se mandó al Centro Nacional de Visas (NVC). El NVC te pedirá pagar cuotas, llenar el DS-260 y mandar documentos civiles tuyos y de tus familiares que califican. Cuando tu fecha de prioridad esté vigente, un consulado programa la entrevista de visa de inmigrante."
+ },
+ "response-to-uscis-notice-of-intent-was-received": {
+  "en": "USCIS received your response to a notice of intent to deny or revoke your I-526. The Investor Program Office will weigh it before deciding. This is a high-stakes stage for your investment, so make sure an experienced EB-5 attorney is involved.",
+  "es": "USCIS recibió tu respuesta al aviso de intención de negar o revocar tu I-526. La Oficina del Programa de Inversionistas la va a revisar antes de decidir. Es una etapa crítica para tu inversión, así que asegúrate de tener a un abogado con experiencia en EB-5."
+ },
+ "case-is-pending-at-a-local-office": {
+  "en": "I-526 petitions are decided centrally by the Investor Program Office, so a local office status is unusual. It may reflect a concurrent I-485 or a site visit to the business. Ask your attorney, and check your account for any notice.",
+  "es": "Las peticiones I-526 se deciden en la Oficina del Programa de Inversionistas, así que este estatus es raro. Puede ser por un I-485 presentado al mismo tiempo o por una visita al negocio. Pregunta a tu abogado y revisa tu cuenta por si hay algún aviso."
+ },
+ "duplicate-notice-was-mailed": {
+  "en": "USCIS mailed a copy of an I-526 notice, often the receipt or approval. Keep it with your EB-5 records. The National Visa Center or a consulate may ask to see these notices later. Share a copy with your attorney too.",
+  "es": "USCIS mandó una copia de un aviso de tu I-526, muchas veces el recibo o la aprobación. Guárdala con tus registros de EB-5. El Centro Nacional de Visas o un consulado pueden pedir ver estos avisos después."
+ },
+ "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+  "en": "An I-526 notice came back undelivered. Many EB-5 investors live abroad, so mailing addresses often change. The notice could be an RFE with a deadline. Update your address or your attorney's, and check the online account.",
+  "es": "Un aviso de tu I-526 regresó sin entregarse. Muchos inversionistas EB-5 viven fuera, así que las direcciones cambian seguido. El aviso puede ser una RFE con plazo. Actualiza tu dirección o la de tu abogado y revisa la cuenta en línea."
+ },
+ "date-of-birth-was-updated": {
+  "en": "USCIS corrected your date of birth on the I-526 record. This record moves on to the National Visa Center or your I-485, and later to your conditional green card. Confirm it matches your passport. Contact USCIS if it still looks wrong.",
+  "es": "USCIS corrigió tu fecha de nacimiento en el expediente I-526. Este registro pasa al Centro Nacional de Visas o a tu I-485, y después a tu green card condicional. Confirma que coincida con tu pasaporte."
+ },
+ "continuation-notice-was-mailed": {
+  "en": "USCIS mailed a notice about your I-526 continuing. For EB-5, this may relate to the case staying pending while a business or project issue is reviewed. Read what the notice covers and share it with your attorney.",
+  "es": "USCIS te mandó un aviso de que tu I-526 continúa. En EB-5, puede tener que ver con que el caso sigue pendiente mientras se revisa algo del negocio o del proyecto. Lee qué cubre el aviso y compártelo con tu abogado."
+ },
+ "termination-notice-sent": {
+  "en": "For an I-526, a termination notice may mean the petition approval was revoked, for example because the business failed or the investment was withdrawn. This can stop the green card process for you and your family. Contact an experienced EB-5 attorney immediately.",
+  "es": "En un I-526, un aviso de terminación puede significar que se revocó la aprobación, por ejemplo porque el negocio fracasó o se retiró la inversión. Esto puede detener el proceso de green card para ti y tu familia. Contacta de inmediato a un abogado con experiencia en EB-5."
+ },
+ "case-closed-benefit-received-by-other-means": {
+  "en": "USCIS closed your I-526 because you already got the same benefit another way, for example a green card through another category or another approved EB-5 petition. Confirm the other approval covers you and your family before letting this one go.",
+  "es": "USCIS cerró tu I-526 porque ya obtuviste el mismo beneficio por otra vía, por ejemplo una green card por otra categoría u otra petición EB-5 aprobada. Confirma que esa otra aprobación te cubra a ti y a tu familia antes de dejar esta."
+ },
+ "expedite-request-denied": {
+  "en": "USCIS will not expedite your I-526. The petition keeps its normal place in the Investor Program Office queue. If the project's situation becomes more urgent, you can ask again with new evidence, such as financing deadlines.",
+  "es": "USCIS no va a acelerar tu I-526. La petición conserva su lugar normal en la fila de la Oficina del Programa de Inversionistas. Si la situación del proyecto se vuelve más urgente, puedes pedirlo otra vez con pruebas nuevas, como fechas límite de financiamiento."
+ },
+ "correspondence-was-received-and-uscis-is-reviewing-it": {
+  "en": "USCIS received something you sent about your I-526, such as updated business documents, a material change notice, or an address change. An officer will decide if it affects the petition. Keep a copy and proof of delivery.",
+  "es": "USCIS recibió algo que mandaste sobre tu I-526, como documentos del negocio actualizados, un aviso de cambio importante o un cambio de dirección. Un oficial decidirá si afecta la petición. Guarda copia y prueba de entrega."
+ }
+}

@@ -104,6 +104,7 @@ export function StatusPage({ lang, st, form }: { lang: Lang; st: Status; form?: 
       </div><div className="side"><Lookup lang={lang} plansHref={`${p.home}#planes`} compact /></div></div></section>
 
       <main className="wrap main-pull">
+        <div id="lookup-slot" />
         <div className="grid2" style={{ gap: 16 }}>
           <div className="main" style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
             <section className="card"><h2>{form ? l.meansFor(form.code) : l.means}</h2>
@@ -166,6 +167,7 @@ export function FormPage({ lang, form }: { lang: Lang; form: Form }) {
         <p className="lead">{pick(lang, form.what_es, form.what_en)}</p>
       </div><div className="side"><Lookup lang={lang} plansHref={`${p.home}#planes`} compact /></div></div></section>
       <main className="wrap main-pull">
+        <div id="lookup-slot" />
         <div className="grid2" style={{ gap: 16 }}>
           <section className="card main"><h2>{l.steps(form.code)}</h2><ol className="timeline">{pick(lang, form.milestones_es, form.milestones_en).map((m) => <li key={m} className="done">{m}</li>)}</ol>
             <p><a href={form.official_url} rel="noopener" target="_blank">{l.officialPage} ↗</a></p></section>
@@ -263,6 +265,7 @@ export function Home({ lang }: { lang: Lang }) {
         <div className="bubble" style={{ marginTop: 22 }}><span className="medal"><img src="/sello.png" alt="" width={44} height={44} /></span><div className="say">{es ? 'Pega tu número de recibo y te digo cómo va y qué sigue.' : 'Paste your receipt number and I will tell you how it is going and what is next.'}</div></div>
       </div><div className="side"><Lookup lang={lang} plansHref="#planes" /></div></div></section>
       <main className="wrap main-pull">
+        <div id="lookup-slot" />
         <div className="tiles">{tiles.map(({ I, bg, fg, a, b }) => <div className="tile" key={a}><span className="ic" style={{ background: bg, color: fg }}><I /></span><b>{a}</b><span>{b}</span></div>)}</div>
         <section className="sec"><h2>{es ? 'Cómo funciona' : 'How it works'}</h2><ol className="steps">{how.map((x) => <li key={x} style={{ background: '#fff' }}>{x}</li>)}</ol></section>
         <section className="sec"><h2>{es ? 'Elige tu formulario' : 'Choose your form'}</h2>

@@ -1,0 +1,150 @@
+{
+  "case-was-received": {
+    "en": "USCIS has your I-800 petition for a specific child from a Hague Convention country. It builds on your approved I-800A, which already found you suitable to adopt. Keep the receipt and share the number with your adoption service provider, who usually tracks the case with you.",
+    "es": "USCIS ya tiene tu petición I-800 para un niño o niña específico de un país del Convenio de La Haya. Se basa en tu I-800A aprobado, que ya te declaró apto para adoptar. Guarda el recibo y comparte el número con tu agencia de adopción, que normalmente sigue el caso contigo."
+  },
+  "case-was-received-and-a-receipt-notice-was-sent": {
+    "en": "Your I-800 is logged and the paper receipt is on its way. Check that the child's name and date of birth match the referral documents from the other country, since those details travel to the consulate later.",
+    "es": "Tu I-800 quedó registrado y el recibo en papel viene en camino. Revisa que el nombre y la fecha de nacimiento del niño coincidan con los documentos de asignación del otro país, porque esos datos pasan después al consulado."
+  },
+  "fingerprint-fee-was-received": {
+    "en": "Fingerprints for adoptive parents and adult household members are usually handled under the I-800A, not the I-800. If you see this status, check the receipt number. It may relate to updated biometrics if your earlier ones expired or your household changed.",
+    "es": "Las huellas de los padres adoptivos y adultos del hogar normalmente se toman en el I-800A, no en el I-800. Si ves este estatus, revisa el número de recibo. Puede tratarse de biométricos nuevos porque los anteriores vencieron o cambió tu hogar."
+  },
+  "fingerprint-review-was-completed": {
+    "en": "USCIS completed a fingerprint check tied to your adoption case. For Hague adoptions, these checks usually concern the adoptive parents and adults in the home. The officer can now continue reviewing whether this child qualifies as a Convention adoptee.",
+    "es": "USCIS terminó una revisión de huellas ligada a tu caso de adopción. En adopciones de La Haya, estas revisiones suelen ser de los padres adoptivos y adultos del hogar. El oficial ya puede seguir revisando si este niño califica como adoptado bajo el Convenio."
+  },
+  "case-is-being-actively-reviewed-by-uscis": {
+    "en": "An officer is reviewing your I-800. They check the child's information and the documents from the country of origin, including that the child is eligible for intercountry adoption under the Hague Convention. A provisional approval is the next major step. Compare with the typical range on this page.",
+    "es": "Un oficial está revisando tu I-800. Revisa los datos del niño y los documentos del país de origen, incluido que el niño pueda ser adoptado entre países bajo el Convenio de La Haya. El siguiente paso importante es la aprobación provisional. Compara con el rango típico de esta página."
+  },
+  "request-for-additional-evidence-was-sent": {
+    "en": "USCIS needs more information for your I-800. Requests often concern the child's background study, consent documents, medical information, or details from the other country's central authority. Work with your adoption service provider and an adoption attorney to answer before the deadline.",
+    "es": "USCIS necesita más información para tu I-800. Las peticiones suelen tratar del estudio de antecedentes del niño, los documentos de consentimiento, información médica o datos de la autoridad central del otro país. Trabaja con tu agencia de adopción y un abogado de adopción para responder antes del plazo."
+  },
+  "request-for-initial-evidence-was-sent": {
+    "en": "Something required was missing from your I-800, such as the child's background study, the proposed adoption or custody documents, or a copy of your I-800A approval. Send exactly what the notice lists before the deadline, coordinating with your adoption service provider.",
+    "es": "Faltó algo obligatorio en tu I-800, como el estudio de antecedentes del niño, los documentos de adopción o custodia propuestos o copia de la aprobación de tu I-800A. Manda justo lo que dice el aviso antes del plazo, coordinando con tu agencia de adopción."
+  },
+  "response-to-uscis-request-for-evidence-was-received": {
+    "en": "USCIS received your reply for the I-800. The officer will review it with the rest of the petition. If everything is in order, the next step is usually a provisional approval and transfer of the case toward the consulate.",
+    "es": "USCIS recibió tu respuesta para el I-800. El oficial la revisará con el resto de la petición. Si todo está en orden, lo siguiente suele ser una aprobación provisional y el envío del caso hacia el consulado."
+  },
+  "case-was-transferred-and-a-new-office-has-jurisdiction": {
+    "en": "Your I-800 moved to another USCIS office. Adoption cases are usually handled by a specialized team, and a transfer does not change your receipt number. Let your adoption service provider know so they can update their records.",
+    "es": "Tu I-800 pasó a otra oficina de USCIS. Los casos de adopción suelen manejarse por un equipo especializado, y un traslado no cambia tu número de recibo. Avisa a tu agencia de adopción para que actualice sus registros."
+  },
+  "case-was-approved": {
+    "en": "USCIS approved your I-800, usually as a provisional approval. The case then goes to the State Department and the consulate in the child's country. After the adoption or custody is finalized there, the consular officer reviews the case for final approval and the child's immigrant visa.",
+    "es": "USCIS aprobó tu I-800, normalmente como aprobación provisional. Luego el caso pasa al Departamento de Estado y al consulado del país del niño. Cuando allá se finaliza la adopción o la custodia, el oficial consular revisa el caso para la aprobación final y la visa de inmigrante del niño."
+  },
+  "notice-explaining-uscis-actions-was-mailed": {
+    "en": "USCIS mailed a letter about your I-800. It may request documents, explain a transfer, or share a decision. Open it right away and send a copy to your adoption service provider, as adoption timelines in the other country may depend on it.",
+    "es": "USCIS mandó una carta sobre tu I-800. Puede pedir documentos, explicar un traslado o dar una decisión. Ábrela de inmediato y manda copia a tu agencia de adopción, porque los tiempos de adopción en el otro país pueden depender de ella."
+  },
+  "case-was-denied": {
+    "en": "Your I-800 was denied. The notice explains the reasons, for example that the child does not meet the Convention adoptee definition. You may be able to file an appeal or motion with Form I-290B. This is a serious step for your adoption, so talk to an adoption-experienced immigration attorney quickly.",
+    "es": "Te negaron el I-800. El aviso explica los motivos, por ejemplo que el niño no cumple la definición de adoptado bajo el Convenio. Tal vez puedas apelar o pedir una moción con el formulario I-290B. Es un paso serio para tu adopción, así que habla pronto con un abogado de inmigración con experiencia en adopciones."
+  },
+  "case-was-reopened": {
+    "en": "USCIS reopened your I-800, often after a motion or new information from the other country. The petition is pending again. Stay in touch with your adoption service provider so any new documents reach USCIS quickly.",
+    "es": "USCIS reabrió tu I-800, muchas veces por una moción o información nueva del otro país. La petición vuelve a estar pendiente. Mantente en contacto con tu agencia de adopción para que cualquier documento nuevo llegue rápido a USCIS."
+  },
+  "case-rejected-because-i-sent-an-incorrect-fee": {
+    "en": "Your I-800 was returned because the fee was wrong. Note that the first I-800 filed during a valid I-800A approval period may be free, while extra petitions for children who are not siblings can require a fee. Check uscis.gov and refile.",
+    "es": "Te regresaron el I-800 porque la cuota estaba mal. El primer I-800 presentado durante la vigencia del I-800A aprobado puede no tener costo, mientras que peticiones extra para niños que no son hermanos pueden requerir cuota. Revisa uscis.gov y vuelve a presentarlo."
+  },
+  "expedite-request-received": {
+    "en": "USCIS logged your request to speed up your I-800. Adoption expedites may be considered, for example when the child has urgent medical needs or your I-800A approval is about to expire. Provide proof. USCIS decides case by case.",
+    "es": "USCIS registró tu petición para acelerar tu I-800. Se pueden considerar aceleraciones en adopciones, por ejemplo si el niño tiene necesidades médicas urgentes o tu aprobación del I-800A está por vencer. Presenta pruebas. USCIS decide caso por caso."
+  },
+  "withdrawal-acknowledgement-notice-was-sent": {
+    "en": "USCIS confirmed your I-800 was withdrawn. The petition for this child is closed. Your I-800A approval may still be valid for another child during its validity period. Talk to your adoption service provider about next steps.",
+    "es": "USCIS confirmó que retiraste tu I-800. La petición para este niño quedó cerrada. Tu aprobación del I-800A puede seguir vigente para otro niño durante su periodo. Habla con tu agencia de adopción sobre los siguientes pasos."
+  },
+  "name-was-updated": {
+    "en": "USCIS updated a name on your I-800, often the child's name after the adoption decree or a correction. Make sure it matches the foreign adoption or custody documents, because the consulate will compare them when issuing the visa.",
+    "es": "USCIS actualizó un nombre en tu I-800, muchas veces el del niño después del decreto de adopción o por una corrección. Asegúrate de que coincida con los documentos de adopción o custodia del otro país, porque el consulado los compara al emitir la visa."
+  },
+  "case-was-received-and-a-receipt-notice-was-emailed": {
+    "en": "Your I-800 receipt is in your USCIS online account. Download it and send a copy to your adoption service provider. The receipt number helps them coordinate with the other country's central authority. Keep a printed copy as well.",
+    "es": "El recibo de tu I-800 está en tu cuenta de USCIS. Descárgalo y manda copia a tu agencia de adopción. El número de recibo les ayuda a coordinar con la autoridad central del otro país."
+  },
+  "case-accepted-by-the-uscis-lockbox": {
+    "en": "Your I-800 was accepted at intake. A receipt number comes next. Keep track of your I-800A expiration date, since the I-800 must normally be filed while that approval is still valid. Watch your mail and online account for the receipt.",
+    "es": "Tu I-800 fue aceptado en la recepción. Lo siguiente es el número de recibo. Pendiente de la fecha de vencimiento de tu I-800A, porque el I-800 normalmente debe presentarse mientras esa aprobación siga vigente. Revisa tu correo y tu cuenta."
+  },
+  "fees-were-waived": {
+    "en": "USCIS shows no fee for your I-800. This is common when it is the first petition filed under a valid I-800A approval, or for a birth sibling. Your case now moves into normal review. Keep the notice in your adoption file.",
+    "es": "USCIS muestra que tu I-800 no paga cuota. Es común cuando es la primera petición bajo un I-800A aprobado y vigente, o para un hermano biológico. Tu caso ahora pasa a revisión normal. Guarda el aviso en tu expediente de adopción."
+  },
+  "case-was-rejected-because-it-was-improperly-filed": {
+    "en": "Your I-800 was returned without review. Common reasons: missing signature, filing after your I-800A approval expired, or missing required documents. Fix the issue and refile. If your I-800A expired, you may need to extend it first.",
+    "es": "Te regresaron el I-800 sin revisarlo. Razones comunes: falta de firma, presentarlo después de que venció tu I-800A o falta de documentos obligatorios. Corrige el problema y vuelve a presentarlo. Si tu I-800A venció, tal vez debas extenderlo primero."
+  },
+  "biometrics-appointment-was-scheduled": {
+    "en": "You have a biometrics appointment. In Hague adoptions, this usually covers the adoptive parents or adults in the household, often linked to the I-800A or to updating expired fingerprints. Bring the notice and photo ID.",
+    "es": "Tienes cita de biométricos. En adopciones de La Haya, normalmente es para los padres adoptivos o adultos del hogar, muchas veces ligada al I-800A o a actualizar huellas vencidas. Lleva el aviso y una identificación con foto."
+  },
+  "case-was-updated-to-show-fingerprints-were-taken": {
+    "en": "Biometrics for your adoption case are on file. USCIS can now complete background checks for the adults involved. The officer can then continue toward a provisional approval of your I-800. No action is needed unless a letter arrives.",
+    "es": "Los biométricos de tu caso de adopción ya están registrados. USCIS ya puede terminar las revisiones de antecedentes de los adultos involucrados. Después el oficial puede seguir hacia la aprobación provisional de tu I-800. No necesitas hacer nada por ahora."
+  },
+  "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+    "en": "USCIS recorded that someone missed a biometrics appointment in your adoption case. This can delay the I-800 or lead to denial. Contact USCIS right away to reschedule, and make sure every adult in the household attends.",
+    "es": "USCIS registró que alguien faltó a una cita de biométricos en tu caso de adopción. Esto puede retrasar el I-800 o llevar a una negación. Contacta a USCIS de inmediato para reprogramar y asegúrate de que todos los adultos del hogar acudan."
+  },
+  "case-was-approved-and-my-decision-was-emailed": {
+    "en": "USCIS approved your I-800, usually provisionally, and the notice is in your online account. Download it and share it with your adoption service provider. The case next goes to the National Visa Center and the consulate.",
+    "es": "USCIS aprobó tu I-800, normalmente de forma provisional, y el aviso está en tu cuenta en línea. Descárgalo y compártelo con tu agencia de adopción. Lo siguiente es que el caso pase al Centro Nacional de Visas y al consulado."
+  },
+  "case-approval-was-certified-by-uscis": {
+    "en": "USCIS certified the approval of your I-800. This works like an approval. In Hague adoptions, the final approval usually happens at the consulate after the adoption or custody is completed in the child's country. Keep the notice handy.",
+    "es": "USCIS certificó la aprobación de tu I-800. Funciona como una aprobación. En adopciones de La Haya, la aprobación final suele darse en el consulado después de completar la adopción o custodia en el país del niño."
+  },
+  "case-was-sent-to-the-department-of-state": {
+    "en": "Your provisionally approved I-800 was sent to the State Department. The National Visa Center forwards it to the consulate in the child's country, which reviews it and works with that country's authorities. Next come the adoption or custody steps abroad and the child's visa interview.",
+    "es": "Tu I-800 con aprobación provisional pasó al Departamento de Estado. El Centro Nacional de Visas lo envía al consulado del país del niño, que lo revisa y coordina con las autoridades de ese país. Siguen los pasos de adopción o custodia en el extranjero y la entrevista de visa del niño."
+  },
+  "response-to-uscis-notice-of-intent-was-received": {
+    "en": "USCIS received your reply to its notice of intent to deny your I-800. The officer will review it before deciding. This is a critical stage for your adoption; if an attorney did not prepare your reply, consider getting one now.",
+    "es": "USCIS recibió tu respuesta al aviso de intención de negar tu I-800. El oficial la revisará antes de decidir. Es una etapa crítica para tu adopción; si un abogado no preparó tu respuesta, considera buscar uno ya."
+  },
+  "case-is-pending-at-a-local-office": {
+    "en": "Your I-800 is listed at a local USCIS office. This is not the usual route, since adoption petitions are mostly handled by a central team. It may involve a home study update or an in-person review. Watch your mail for instructions.",
+    "es": "Tu I-800 aparece en una oficina local de USCIS. No es lo normal, porque las peticiones de adopción casi siempre las maneja un equipo central. Puede tener que ver con una actualización del estudio del hogar o una revisión en persona. Revisa tu correo por instrucciones."
+  },
+  "duplicate-notice-was-mailed": {
+    "en": "USCIS mailed a copy of a notice from your I-800. Duplicates help when your adoption service provider or the foreign authority needs proof of the provisional approval. Keep it with your adoption file. A digital copy is useful too.",
+    "es": "USCIS mandó una copia de un aviso de tu I-800. Las copias ayudan cuando tu agencia de adopción o la autoridad extranjera necesita prueba de la aprobación provisional. Guárdala con tu expediente de adopción. Una copia digital también ayuda."
+  },
+  "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+    "en": "A notice about your I-800 came back undelivered. It may have had a deadline that affects your adoption timeline. Update your address with USCIS and ask what the notice said. Tell your adoption service provider too.",
+    "es": "Un aviso de tu I-800 regresó sin entregarse. Podía tener un plazo que afecta los tiempos de tu adopción. Actualiza tu dirección con USCIS y pregunta qué decía el aviso. Avisa también a tu agencia de adopción."
+  },
+  "date-of-birth-was-updated": {
+    "en": "USCIS corrected a date of birth on your I-800, often the child's. It must match the birth certificate and adoption documents from the child's country, since the consulate will compare them when issuing the visa.",
+    "es": "USCIS corrigió una fecha de nacimiento en tu I-800, muchas veces la del niño. Debe coincidir con el acta de nacimiento y los documentos de adopción del país del niño, porque el consulado los compara al emitir la visa."
+  },
+  "continuation-notice-was-mailed": {
+    "en": "USCIS sent a continuation notice on your I-800. This is uncommon. It may relate to your I-800A validity or an ongoing review. Read the dates carefully and check with your adoption service provider about what it means for your timeline.",
+    "es": "USCIS mandó un aviso de continuación de tu I-800. No es común. Puede tener que ver con la vigencia de tu I-800A o una revisión en curso. Lee bien las fechas y pregunta a tu agencia de adopción qué significa para tus tiempos."
+  },
+  "termination-notice-sent": {
+    "en": "USCIS sent a termination notice on your adoption case. This may mean the I-800 or the underlying I-800A approval was ended, for example after it expired or was revoked. Read the reason and talk to an adoption attorney and your adoption service provider quickly.",
+    "es": "USCIS mandó un aviso de terminación en tu caso de adopción. Puede significar que terminaron el I-800 o la aprobación del I-800A, por ejemplo porque venció o la revocaron. Lee el motivo y habla pronto con un abogado de adopción y tu agencia de adopción."
+  },
+  "case-closed-benefit-received-by-other-means": {
+    "en": "USCIS closed your I-800 because the child's immigration was handled another way, or the petition is no longer needed. Confirm with your adoption service provider and attorney that the child's path to a visa is still clear.",
+    "es": "USCIS cerró tu I-800 porque la inmigración del niño se resolvió por otra vía o la petición ya no se necesita. Confirma con tu agencia de adopción y tu abogado que el camino del niño hacia la visa sigue claro."
+  },
+  "expedite-request-denied": {
+    "en": "USCIS declined to speed up your I-800. The petition stays in the regular queue and the decision does not hurt it. If the child's medical needs become more urgent or your I-800A is close to expiring, you can ask again with new proof.",
+    "es": "USCIS no aceptó acelerar tu I-800. La petición sigue en la fila normal y esa decisión no la perjudica. Si las necesidades médicas del niño se vuelven más urgentes o tu I-800A está por vencer, puedes pedirlo otra vez con pruebas nuevas."
+  },
+  "correspondence-was-received-and-uscis-is-reviewing-it": {
+    "en": "USCIS received a letter or documents about your I-800 and is reviewing them. This may be an updated home study, new documents from the other country, or an address change. Wait for a written answer before sending duplicates.",
+    "es": "USCIS recibió una carta o documentos sobre tu I-800 y los está revisando. Puede ser un estudio del hogar actualizado, documentos nuevos del otro país o un cambio de dirección. Espera respuesta por escrito antes de mandar copias repetidas."
+  }
+}

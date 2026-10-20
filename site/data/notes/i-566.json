@@ -1,0 +1,130 @@
+{
+ "case-was-received": {
+  "en": "USCIS has an I-566 record for an A, G or NATO request, such as work permission for a diplomat's dependent or a change into or out of that status. The I-566 is usually sent through the State Department or the international organization, which certifies it first. Keep the receipt with your mission or organization's records.",
+  "es": "USCIS tiene un registro I-566 para una solicitud A, G u OTAN, como permiso de trabajo para un dependiente de un diplomático o un cambio hacia o desde ese estatus. El I-566 normalmente pasa primero por el Departamento de Estado o el organismo internacional, que lo certifica. Guarda el recibo con los registros de tu misión u organismo."
+ },
+ "case-was-received-and-a-receipt-notice-was-sent": {
+  "en": "A receipt notice for the I-566 matter was mailed. If the I-566 went with another form, like an I-539 to change status or an I-485 to adjust status, each form may have its own receipt. Share copies with your mission or organization's HR or protocol office.",
+  "es": "Se envió por correo un aviso de recibo del asunto I-566. Si el I-566 acompañó a otro formulario, como un I-539 para cambiar de estatus o un I-485 para ajustar estatus, cada formulario puede tener su propio recibo. Comparte copias con la oficina de protocolo o de recursos humanos de tu misión u organismo."
+ },
+ "case-is-being-actively-reviewed-by-uscis": {
+  "en": "An officer is reviewing the I-566 together with any related form. They rely on the State Department's certification of your A, G or NATO position and your dependent relationship. A decision or request for more information may come next.",
+  "es": "Un oficial está revisando el I-566 junto con cualquier formulario relacionado. Se basa en la certificación del Departamento de Estado sobre tu cargo A, G u OTAN y tu relación de dependiente. Después puede llegar una decisión o una petición de más información."
+ },
+ "request-for-additional-evidence-was-sent": {
+  "en": "USCIS needs more information for the I-566 matter. Common requests involve proof of the family relationship, the principal's current position, or an updated certification from the State Department or the organization. Coordinate the reply with your protocol or HR office and meet the deadline.",
+  "es": "USCIS necesita más información para el asunto I-566. Suelen pedir prueba del parentesco, del cargo actual del titular o una certificación actualizada del Departamento de Estado o del organismo. Coordina la respuesta con tu oficina de protocolo o de recursos humanos y cumple la fecha límite."
+ },
+ "request-for-initial-evidence-was-sent": {
+  "en": "The I-566 package was missing something required, for example the certifying official's signature, a copy of the I-94 or the related form. Work with the mission or organization to send exactly what is listed before the deadline.",
+  "es": "Al paquete del I-566 le faltó algo obligatorio, por ejemplo la firma del funcionario que certifica, una copia del I-94 o el formulario relacionado. Trabaja con tu misión u organismo para mandar justo lo que se pide antes de la fecha límite."
+ },
+ "response-to-uscis-request-for-evidence-was-received": {
+  "en": "USCIS has the response in the I-566 matter and the officer will continue the review. Dependents waiting for work permission should keep following the rules of their current A, G or NATO status until a decision arrives.",
+  "es": "USCIS ya tiene la respuesta en el asunto I-566 y el oficial seguirá la revisión. Los dependientes que esperan permiso de trabajo deben seguir las reglas de su estatus A, G u OTAN actual hasta que llegue la decisión."
+ },
+ "case-was-transferred-and-a-new-office-has-jurisdiction": {
+  "en": "The I-566 matter moved to another USCIS office, often so it can be decided with a related I-539 or I-485. The receipt number stays the same. Let your protocol or HR office know about the move.",
+  "es": "El asunto I-566 pasó a otra oficina de USCIS, muchas veces para decidirlo junto con un I-539 o I-485 relacionado. El número de recibo no cambia. Avisa del traslado a tu oficina de protocolo o de recursos humanos."
+ },
+ "case-was-approved": {
+  "en": "The I-566 matter was approved. Depending on the request, this can mean work permission for an A, G or NATO dependent, or approval of a change into or out of that status. Check the approval notice for any new I-94 and keep copies with your mission.",
+  "es": "Aprobaron el asunto I-566. Según lo que pediste, puede significar permiso de trabajo para un dependiente A, G u OTAN, o la aprobación de un cambio hacia o desde ese estatus. Revisa el aviso por si trae un nuevo I-94 y guarda copias con tu misión."
+ },
+ "document-was-mailed-to-me": {
+  "en": "USCIS mailed a document for the I-566 matter, often the decision notice or a work authorization document for a dependent. When it arrives, check names and dates and share a copy with your protocol or HR office.",
+  "es": "USCIS mandó por correo un documento del asunto I-566, muchas veces el aviso de decisión o un documento de autorización de trabajo para un dependiente. Cuando llegue, revisa nombres y fechas y comparte una copia con tu oficina de protocolo o recursos humanos."
+ },
+ "notice-explaining-uscis-actions-was-mailed": {
+  "en": "USCIS mailed a letter about the I-566 matter. It may ask for documents, explain a delay or describe a decision. Because these cases involve the State Department, your mission's protocol office can help interpret it.",
+  "es": "USCIS mandó una carta sobre el asunto I-566. Puede pedir documentos, explicar un retraso o describir una decisión. Como estos casos involucran al Departamento de Estado, la oficina de protocolo de tu misión puede ayudarte a entenderla."
+ },
+ "case-was-denied": {
+  "en": "The I-566 matter was denied. This can affect a dependent's work permission or a requested change of status. Read the reason, talk with your mission or organization, and consult an immigration attorney or accredited representative about a motion or new filing.",
+  "es": "Negaron el asunto I-566. Esto puede afectar el permiso de trabajo de un dependiente o un cambio de estatus pedido. Lee el motivo, habla con tu misión u organismo y consulta a un abogado de inmigración o representante acreditado sobre una moción o un trámite nuevo."
+ },
+ "case-was-reopened": {
+  "en": "USCIS reopened the I-566 matter, often after a motion. The request is pending again. Keep your protocol or HR office informed and watch for new notices or evidence requests. Keep the reopening notice with your official records.",
+  "es": "USCIS reabrió el asunto I-566, muchas veces después de una moción. La solicitud vuelve a estar en trámite. Mantén informada a tu oficina de protocolo o recursos humanos y espera nuevos avisos o peticiones de evidencia."
+ },
+ "case-rejected-because-i-sent-an-incorrect-fee": {
+  "en": "The I-566 itself is generally filed without a USCIS fee, so a fee problem usually involves a companion form, such as an I-539 or I-485. Read the notice to see which form was rejected, fix the payment and refile.",
+  "es": "El I-566 en general se presenta sin tarifa de USCIS, así que un problema de pago normalmente tiene que ver con un formulario que lo acompaña, como un I-539 o I-485. Lee el aviso para ver cuál rechazaron, corrige el pago y vuelve a presentar."
+ },
+ "expedite-request-received": {
+  "en": "USCIS logged a request to speed up the I-566 matter. Requests tied to government or international organization interests can be considered, often with support from the State Department or the organization. Keep supporting letters ready.",
+  "es": "USCIS registró una petición para acelerar el asunto I-566. Pueden considerar peticiones relacionadas con intereses del gobierno o de organismos internacionales, muchas veces con apoyo del Departamento de Estado o del organismo. Ten listas las cartas de apoyo."
+ },
+ "withdrawal-acknowledgement-notice-was-sent": {
+  "en": "USCIS confirmed the I-566 request was withdrawn. No decision will be made on it. If a dependent still needs work permission or a status change later, the request would start again through the mission or organization.",
+  "es": "USCIS confirmó que se retiró la solicitud I-566. No habrá decisión sobre ella. Si después un dependiente necesita permiso de trabajo o un cambio de estatus, la solicitud empezaría de nuevo a través de la misión u organismo."
+ },
+ "name-was-updated": {
+  "en": "USCIS updated a name on the I-566 record. Check that it matches the passport and the State Department's records, since the certification and any work document must line up exactly. If anything is wrong, ask your protocol office to help correct it.",
+  "es": "USCIS actualizó un nombre en el expediente del I-566. Revisa que coincida con el pasaporte y los registros del Departamento de Estado, porque la certificación y cualquier documento de trabajo deben coincidir exactamente. Si algo está mal, pide ayuda a tu oficina de protocolo."
+ },
+ "case-was-received-and-a-receipt-notice-was-emailed": {
+  "en": "The receipt for the I-566 matter was delivered electronically. Download it and share a copy with your mission or organization. Later notices may also arrive in the USCIS online account linked to the filing. Keep the PDF safe.",
+  "es": "El recibo del asunto I-566 llegó en forma electrónica. Descárgalo y comparte una copia con tu misión u organismo. Otros avisos también pueden llegar a la cuenta de USCIS en línea vinculada al trámite. Guarda bien el PDF."
+ },
+ "case-accepted-by-the-uscis-lockbox": {
+  "en": "USCIS accepted the paper filing tied to the I-566. A receipt notice comes next. If the I-566 came through the State Department, your mission's protocol office can confirm when it was forwarded. Keep copies of the full package.",
+  "es": "USCIS aceptó el trámite en papel relacionado con el I-566. Lo siguiente es el aviso de recibo. Si el I-566 llegó por el Departamento de Estado, la oficina de protocolo de tu misión puede confirmar cuándo se envió."
+ },
+ "fees-were-waived": {
+  "en": "USCIS approved a fee waiver in the I-566 matter. Since the I-566 itself generally has no fee, the waiver likely applies to a companion form. Check the notice to confirm which one. Keep the notice with your records.",
+  "es": "USCIS aprobó una exención de pago en el asunto I-566. Como el I-566 en general no tiene tarifa, la exención seguramente aplica a un formulario que lo acompaña. Revisa el aviso para confirmar cuál y guárdalo."
+ },
+ "case-was-rejected-because-it-was-improperly-filed": {
+  "en": "The I-566 package was returned without review. A common cause is that it was not certified by the State Department or the organization, or was sent to the wrong place. Work with your protocol office to fix and resend it.",
+  "es": "Regresaron el paquete del I-566 sin revisarlo. Una causa común es que no lo certificó el Departamento de Estado o el organismo, o que se mandó al lugar equivocado. Trabaja con tu oficina de protocolo para corregirlo y reenviarlo."
+ },
+ "case-was-approved-and-my-decision-was-emailed": {
+  "en": "The I-566 decision was delivered to the USCIS online account. Download the approval and share a copy with your mission or organization. Check for any new I-94 or work authorization details. Keep the approval with your official records.",
+  "es": "La decisión del I-566 llegó a la cuenta de USCIS en línea. Descarga la aprobación y comparte una copia con tu misión u organismo. Revisa si trae un nuevo I-94 o detalles del permiso de trabajo."
+ },
+ "case-approval-was-certified-by-uscis": {
+  "en": "USCIS certified the approval in the I-566 matter. This is an internal confirmation step. The approved work permission or status change stands. Keep the approval with your official records. Let your protocol or HR office know.",
+  "es": "USCIS certificó la aprobación en el asunto I-566. Es un paso interno de confirmación. El permiso de trabajo o cambio de estatus aprobado se mantiene. Guarda la aprobación con tus registros oficiales y avisa a tu oficina de protocolo."
+ },
+ "case-was-sent-to-the-department-of-state": {
+  "en": "The I-566 matter was sent to the State Department. That fits this form, because the State Department certifies A, G and NATO requests and is often involved before or after the USCIS decision. Your mission's protocol office can follow up with them.",
+  "es": "El asunto I-566 se envió al Departamento de Estado. Esto es normal en este formulario, porque el Departamento de Estado certifica las solicitudes A, G y OTAN y suele participar antes o después de la decisión de USCIS. La oficina de protocolo de tu misión puede darle seguimiento."
+ },
+ "response-to-uscis-notice-of-intent-was-received": {
+  "en": "USCIS received the reply to its notice of intent in the I-566 matter. That notice means the officer was leaning toward denial. Coordinate with your mission or organization, and consider an immigration attorney or accredited representative.",
+  "es": "USCIS recibió la respuesta a su aviso de intención en el asunto I-566. Ese aviso significa que el oficial pensaba negar. Coordina con tu misión u organismo y considera un abogado de inmigración o representante acreditado."
+ },
+ "duplicate-notice-was-mailed": {
+  "en": "USCIS mailed a copy of a notice in the I-566 matter. It is a duplicate, not a new decision. Keep it with your records and give a copy to your protocol or HR office if needed.",
+  "es": "USCIS mandó una copia de un aviso en el asunto I-566. Es un duplicado, no una nueva decisión. Guárdalo con tus registros y da una copia a tu oficina de protocolo o recursos humanos si hace falta."
+ },
+ "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+  "en": "A notice in the I-566 matter came back to USCIS undelivered. Diplomatic and organization staff often move, so update your address with USCIS and ask for the notice to be resent. It may contain a deadline.",
+  "es": "Un aviso del asunto I-566 regresó a USCIS sin entregarse. El personal diplomático y de organismos se muda seguido, así que actualiza tu dirección con USCIS y pide que reenvíen el aviso. Puede traer una fecha límite."
+ },
+ "date-of-birth-was-updated": {
+  "en": "USCIS corrected a date of birth on the I-566 record. This can matter for dependents, since some A, G or NATO dependent categories depend on age. Check that the correction matches the passport. If not, ask for a fix.",
+  "es": "USCIS corrigió una fecha de nacimiento en el expediente del I-566. Puede importar para dependientes, porque algunas categorías de dependientes A, G u OTAN dependen de la edad. Revisa que la corrección coincida con el pasaporte."
+ },
+ "continuation-notice-was-mailed": {
+  "en": "USCIS sent a continuation notice in the I-566 matter. It usually means the case is still open and more review is coming. It is not a decision. Share it with your protocol or HR office.",
+  "es": "USCIS mandó un aviso de continuación en el asunto I-566. Normalmente significa que el caso sigue abierto y viene más revisión. No es una decisión. Compártelo con tu oficina de protocolo o de recursos humanos."
+ },
+ "termination-notice-sent": {
+  "en": "USCIS sent a termination notice in the I-566 matter. This can happen when the principal's A, G or NATO position ends, which may end a dependent's work permission. Read it carefully and seek advice from an immigration attorney or accredited representative.",
+  "es": "USCIS mandó un aviso de terminación en el asunto I-566. Puede pasar cuando termina el cargo A, G u OTAN del titular, lo que puede terminar el permiso de trabajo de un dependiente. Léelo con cuidado y busca consejo de un abogado de inmigración o representante acreditado."
+ },
+ "case-closed-benefit-received-by-other-means": {
+  "en": "USCIS closed the I-566 matter because the benefit was obtained another way, for example a different status or a green card. Check your current status documents and keep the closing notice with your records. Inform your protocol office.",
+  "es": "USCIS cerró el asunto I-566 porque el beneficio se obtuvo por otra vía, por ejemplo otro estatus o una green card. Revisa tus documentos de estatus actuales y guarda el aviso de cierre con tus registros."
+ },
+ "expedite-request-denied": {
+  "en": "USCIS will not speed up the I-566 matter. It stays in normal processing. If there is new urgent information, your mission or organization can submit another request with fresh support. Keep the denial notice in your records.",
+  "es": "USCIS no va a acelerar el asunto I-566. Sigue en el trámite normal. Si hay información urgente nueva, tu misión u organismo puede mandar otra petición con nuevo apoyo y cartas que expliquen la urgencia."
+ },
+ "correspondence-was-received-and-uscis-is-reviewing-it": {
+  "en": "USCIS received correspondence in the I-566 matter, such as an updated certification or a new address. An officer will review it and add it to the file. Keep a copy, and let your protocol office know.",
+  "es": "USCIS recibió correspondencia en el asunto I-566, como una certificación actualizada o una nueva dirección. Un oficial la revisará y la agregará al expediente. Guarda una copia y avisa a tu oficina de protocolo. No hace falta reenviarla."
+ }
+}

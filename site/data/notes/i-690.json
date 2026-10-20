@@ -1,0 +1,146 @@
+{
+ "case-was-received": {
+  "en": "USCIS logged your I-690. This waiver is tied to the 1986 legalization programs, either the Section 245A legalization or the Special Agricultural Worker program under Section 210. It is rarely filed today, so it usually moves together with the legalization application it supports. Keep the receipt with those papers.",
+  "es": "USCIS registró tu I-690. Esta dispensa está ligada a los programas de legalización de 1986, ya sea la legalización de la Sección 245A o el programa de Trabajadores Agrícolas Especiales de la Sección 210. Hoy casi no se presenta, así que normalmente avanza junto con la solicitud de legalización que apoya. Guarda el recibo con esos papeles."
+ },
+ "case-was-received-and-a-receipt-notice-was-sent": {
+  "en": "Your I-690 receipt notice is in the mail. Because this waiver depends on a legalization or agricultural worker application, check that the receipt references the right related case. Keep both notices together, since the officer reviews them side by side.",
+  "es": "Tu aviso de recibo del I-690 ya va por correo. Como esta dispensa depende de una solicitud de legalización o de trabajador agrícola, revisa que el recibo mencione el caso relacionado correcto. Guarda los dos avisos juntos, porque el oficial los revisa lado a lado."
+ },
+ "fingerprint-fee-was-received": {
+  "en": "USCIS applied a biometrics payment in your I-690 case. Legalization-related filings may require fingerprints for background checks, which matter when deciding whether to waive a ground of inadmissibility. Watch for an appointment notice and confirm which receipt number it belongs to.",
+  "es": "USCIS aplicó un pago de biométricos en tu caso I-690. Los trámites de legalización pueden pedir huellas para la revisión de antecedentes, que importan al decidir si se perdona una causa de inadmisibilidad. Espera una cita y confirma a qué número de recibo pertenece."
+ },
+ "fingerprint-review-was-completed": {
+  "en": "The background check linked to your I-690 came back. The officer can now weigh those results against your reasons for a waiver, such as humanitarian need, family unity or the public interest. This is a routine step, not a decision on the waiver.",
+  "es": "Ya regresó la revisión de antecedentes ligada a tu I-690. Ahora el oficial puede comparar esos resultados con tus razones para la dispensa, como necesidad humanitaria, unidad familiar o interés público. Es un paso de rutina, no una decisión sobre la dispensa."
+ },
+ "case-is-being-actively-reviewed-by-uscis": {
+  "en": "An officer is reviewing your I-690 together with the legalization or agricultural worker case it supports. Because these filings are uncommon now, review can take longer and may involve older records. Some grounds of inadmissibility cannot be waived; the decision letter will explain which apply.",
+  "es": "Un oficial está revisando tu I-690 junto con el caso de legalización o de trabajador agrícola que apoya. Como estos trámites hoy son poco comunes, la revisión puede tardar más y usar registros antiguos. Algunas causas de inadmisibilidad no se pueden perdonar; la carta de decisión dirá cuáles aplican."
+ },
+ "request-for-additional-evidence-was-sent": {
+  "en": "USCIS wants more evidence for your I-690. It may ask for court or police records, proof of family ties, or documents from the 1980s showing your eligibility for the legalization program. Old records can be hard to find, so start early and consider help from an attorney or accredited representative.",
+  "es": "USCIS quiere más pruebas para tu I-690. Puede pedir récords de la corte o la policía, prueba de tus lazos familiares o documentos de los años 80 que muestren que calificas para la legalización. Los papeles viejos pueden ser difíciles de encontrar, así que empieza pronto y considera ayuda de un abogado o representante acreditado."
+ },
+ "request-for-initial-evidence-was-sent": {
+  "en": "Your I-690 was missing something required from the start, such as a signature, identity documents, or a copy of the related legalization application. The notice lists what is needed. Send it before the deadline so the waiver can be reviewed.",
+  "es": "A tu I-690 le faltó algo obligatorio desde el inicio, como una firma, documentos de identidad o una copia de la solicitud de legalización relacionada. El aviso dice qué falta. Mándalo antes del plazo para que se pueda revisar la dispensa."
+ },
+ "response-to-uscis-request-for-evidence-was-received": {
+  "en": "USCIS received the evidence you sent for your I-690. The officer will review it together with your legalization file. Because these cases are rare, the next update may take some time. Keep copies of every document you sent.",
+  "es": "USCIS recibió las pruebas que mandaste para tu I-690. El oficial las revisará junto con tu expediente de legalización. Como estos casos son raros, la siguiente actualización puede tardar. Guarda copia de cada documento que mandaste."
+ },
+ "case-was-transferred-and-a-new-office-has-jurisdiction": {
+  "en": "Your I-690 moved to another office, possibly to stay with the related legalization case or an older file. The transfer does not change the waiver request. New notices will come from the office now handling it, so keep your address current.",
+  "es": "Tu I-690 pasó a otra oficina, quizá para quedarse con el caso de legalización relacionado o con un expediente antiguo. El traslado no cambia la solicitud de dispensa. Los avisos nuevos llegarán de la oficina que ahora lo lleva, así que mantén tu dirección al día."
+ },
+ "case-was-approved": {
+  "en": "Your I-690 waiver was approved, so the ground of inadmissibility listed in the notice no longer blocks your legalization or agricultural worker case. That related application still needs its own decision. Read the approval carefully and keep it with your legalization papers.",
+  "es": "Aprobaron tu dispensa I-690, así que la causa de inadmisibilidad que dice el aviso ya no bloquea tu caso de legalización o de trabajador agrícola. Esa solicitud relacionada todavía necesita su propia decisión. Lee la aprobación con cuidado y guárdala con tus papeles de legalización."
+ },
+ "document-was-mailed-to-me": {
+  "en": "USCIS mailed a document for your I-690, usually the written decision on the waiver. Keep the original safe with your legalization papers. If approved, watch for the decision on the related application; if not, the letter explains the reasons.",
+  "es": "USCIS te mandó un documento de tu I-690, normalmente la decisión por escrito sobre la dispensa. Guarda el original con tus papeles de legalización. Si la aprobaron, espera la decisión de la solicitud relacionada; si no, la carta explica las razones."
+ },
+ "notice-explaining-uscis-actions-was-mailed": {
+  "en": "USCIS sent a letter about your I-690. It might ask for evidence, schedule an appointment for the related legalization case, or explain a decision. Read it right away and note any deadline, since missing one can end the waiver request.",
+  "es": "USCIS te mandó una carta sobre tu I-690. Puede pedir pruebas, darte una cita por el caso de legalización relacionado o explicar una decisión. Léela de inmediato y anota cualquier plazo, porque perder uno puede terminar la solicitud de dispensa."
+ },
+ "case-was-denied": {
+  "en": "Your I-690 was denied. Without the waiver, the related legalization or agricultural worker application may also be denied. Legalization cases follow special appeal rules, and the letter should explain your options. Speak with an immigration attorney or accredited representative soon.",
+  "es": "Tu I-690 fue negado. Sin la dispensa, también pueden negar la solicitud de legalización o de trabajador agrícola relacionada. Los casos de legalización tienen reglas especiales de apelación, y la carta debe explicar tus opciones. Habla pronto con un abogado de inmigración o un representante acreditado."
+ },
+ "case-was-reopened": {
+  "en": "Your I-690 is open again, often after a motion, a court settlement affecting legalization cases, or a USCIS correction. The officer will review the waiver again and may ask for updated evidence. Watch for notices on both related receipt numbers.",
+  "es": "Tu I-690 está abierto otra vez, muchas veces por una moción, un acuerdo de la corte sobre casos de legalización o una corrección de USCIS. El oficial revisará de nuevo la dispensa y puede pedir pruebas actualizadas. Espera avisos en los dos números de recibo relacionados."
+ },
+ "case-rejected-because-i-sent-an-incorrect-fee": {
+  "en": "Your I-690 was rejected for a fee problem. Fee rules for legalization-related forms can be unusual, so check the current amount for the I-690 on uscis.gov before refiling. A rejected filing is not reviewed, so correct the payment and send it again.",
+  "es": "Tu I-690 fue rechazado por un problema de pago. Las cuotas de formularios de legalización pueden ser poco comunes, así que revisa en uscis.gov el monto actual del I-690 antes de volver a presentarlo. Un trámite rechazado no se revisa, así que corrige el pago y mándalo otra vez."
+ },
+ "expedite-request-received": {
+  "en": "USCIS received a request to speed up your I-690. Since the waiver is tied to a legalization case, an expedite helps most if both can move together. USCIS reviews it against its criteria, such as urgent humanitarian need.",
+  "es": "USCIS recibió una solicitud para acelerar tu I-690. Como la dispensa está ligada a un caso de legalización, acelerarla ayuda más si los dos pueden avanzar juntos. USCIS la revisa con sus criterios, como una necesidad humanitaria urgente."
+ },
+ "withdrawal-acknowledgement-notice-was-sent": {
+  "en": "USCIS confirmed your I-690 was withdrawn. If you still face a ground of inadmissibility, the related legalization or agricultural worker application may not be approvable without it. Ask an attorney or accredited representative whether any option remains.",
+  "es": "USCIS confirmó que tu I-690 fue retirado. Si todavía tienes una causa de inadmisibilidad, quizá la solicitud de legalización o de trabajador agrícola relacionada no se pueda aprobar sin ella. Pregunta a un abogado o representante acreditado si queda alguna opción."
+ },
+ "name-was-updated": {
+  "en": "USCIS updated the name on your I-690 record. Legalization files are often decades old, so names may have changed through marriage or corrections. Make sure the new name matches your current identity documents and keep the paper that supports it.",
+  "es": "USCIS actualizó el nombre en tu expediente I-690. Los expedientes de legalización muchas veces tienen décadas, así que los nombres pueden haber cambiado por matrimonio o correcciones. Asegúrate de que el nombre nuevo coincida con tus documentos actuales y guarda el papel que lo respalda."
+ },
+ "case-was-received-and-a-receipt-notice-was-emailed": {
+  "en": "Your I-690 receipt was sent electronically. Download and print it, and keep it with the receipt for the related legalization application. Tracking both receipt numbers here helps you see when the waiver and the main case move.",
+  "es": "Tu recibo del I-690 se mandó de forma electrónica. Descárgalo e imprímelo, y guárdalo con el recibo de la solicitud de legalización relacionada. Seguir aquí los dos números de recibo te ayuda a ver cuándo avanzan la dispensa y el caso principal."
+ },
+ "case-accepted-by-the-uscis-lockbox": {
+  "en": "Your mailed I-690 was accepted at intake and any fee was processed. A receipt notice should follow. Because this form is rarely filed, keep proof of mailing and a full copy of what you sent, including the related legalization papers.",
+  "es": "Tu I-690 por correo fue aceptado y se procesó la cuota que aplicara. Pronto debe llegar el aviso de recibo. Como este formulario casi no se presenta, guarda la prueba de envío y una copia completa de lo que mandaste, incluyendo los papeles de legalización relacionados."
+ },
+ "fees-were-waived": {
+  "en": "USCIS approved a fee waiver connected to your I-690. Your waiver request now continues like any other: review together with the related legalization case, possible requests for evidence, and a decision. Keep the waiver approval with your records.",
+  "es": "USCIS aprobó una exención de cuota ligada a tu I-690. Tu solicitud de dispensa ahora sigue como cualquier otra: revisión junto con el caso de legalización relacionado, posibles peticiones de pruebas y una decisión. Guarda la aprobación de la exención con tus papeles."
+ },
+ "case-was-rejected-because-it-was-improperly-filed": {
+  "en": "Your I-690 was not accepted. Common causes are a missing signature, an old form edition, or filing it without a qualifying legalization or agricultural worker application. Read the rejection notice carefully and get advice before refiling.",
+  "es": "Tu I-690 no fue aceptado. Causas comunes son falta de firma, una edición vieja del formulario o presentarlo sin una solicitud de legalización o de trabajador agrícola que califique. Lee con cuidado el aviso de rechazo y busca asesoría antes de volver a presentarlo."
+ },
+ "biometrics-appointment-was-scheduled": {
+  "en": "You have a biometrics appointment linked to your I-690 or its related legalization case. Bring the notice and photo ID, and go on the date shown. Your fingerprints are used for the background checks the officer needs before deciding the waiver.",
+  "es": "Tienes cita de biométricos ligada a tu I-690 o al caso de legalización relacionado. Lleva el aviso y una identificación con foto, y ve el día indicado. Tus huellas se usan para la revisión de antecedentes que el oficial necesita antes de decidir la dispensa."
+ },
+ "case-was-updated-to-show-fingerprints-were-taken": {
+  "en": "USCIS recorded your biometrics for the I-690 case. Background checks can now run, and the officer can review the results together with your waiver reasons and the legalization file. This is a routine step, not a decision.",
+  "es": "USCIS registró tus biométricos del caso I-690. Ya puede correr la revisión de antecedentes y el oficial puede ver los resultados junto con tus razones para la dispensa y el expediente de legalización. Es un paso de rutina, no una decisión."
+ },
+ "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+  "en": "USCIS recorded a missed appointment tied to your I-690, such as biometrics or an interview for the related legalization case. Missing it can lead to denial. Contact USCIS right away to explain and reschedule, and keep proof of your reason.",
+  "es": "USCIS registró una cita perdida ligada a tu I-690, como biométricos o una entrevista del caso de legalización relacionado. Faltar puede llevar a una negación. Contacta a USCIS de inmediato para explicar y reprogramar, y guarda pruebas de tu razón."
+ },
+ "case-was-approved-and-my-decision-was-emailed": {
+  "en": "Your I-690 approval was delivered electronically. Download and print it, and keep it with your legalization papers. With the waiver granted, the related legalization or agricultural worker application can move toward its own decision. Watch for that decision.",
+  "es": "Tu aprobación del I-690 se mandó de forma electrónica. Descárgala e imprímela, y guárdala con tus papeles de legalización. Con la dispensa aprobada, la solicitud de legalización o de trabajador agrícola relacionada puede avanzar hacia su propia decisión."
+ },
+ "case-approval-was-certified-by-uscis": {
+  "en": "USCIS certified your I-690 approval. This can happen when another agency or office needs official proof that the waiver was granted, especially for older legalization files. Check the notice for details and keep it with your approval.",
+  "es": "USCIS certificó tu aprobación del I-690. Puede pasar cuando otra agencia u oficina necesita prueba oficial de que se dio la dispensa, sobre todo en expedientes de legalización antiguos. Revisa el aviso y guárdalo con tu aprobación."
+ },
+ "response-to-uscis-notice-of-intent-was-received": {
+  "en": "USCIS received your response to a notice of intent to deny your I-690. The officer will weigh your humanitarian, family unity or public interest reasons before deciding. Because the related legalization case may depend on it, an attorney or accredited representative can help you plan next steps.",
+  "es": "USCIS recibió tu respuesta al aviso de intención de negar tu I-690. El oficial va a pesar tus razones humanitarias, de unidad familiar o de interés público antes de decidir. Como el caso de legalización relacionado puede depender de esto, un abogado o representante acreditado puede ayudarte a planear."
+ },
+ "duplicate-notice-was-mailed": {
+  "en": "USCIS mailed a copy of an I-690 notice, such as the receipt or the decision. If the original was lost, this replaces it. Keep it with your legalization records, which may be needed again years from now for citizenship.",
+  "es": "USCIS mandó una copia de un aviso de tu I-690, como el recibo o la decisión. Si perdiste el original, esta copia lo reemplaza. Guárdala con tus registros de legalización, que quizá necesites otra vez en algunos años para la ciudadanía."
+ },
+ "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+  "en": "An I-690 notice came back undelivered. It might be a request for evidence or an appointment with a deadline. Older legalization files may still carry an old address, so update yours with USCIS now and check your online account.",
+  "es": "Un aviso de tu I-690 regresó sin entregarse. Puede ser una petición de pruebas o una cita con plazo. Los expedientes de legalización antiguos pueden tener una dirección vieja, así que actualiza la tuya con USCIS ya y revisa tu cuenta en línea."
+ },
+ "date-of-birth-was-updated": {
+  "en": "USCIS corrected your date of birth on the I-690 record. Older legalization files sometimes carry errors, so check that it now matches your birth certificate and passport. Contact USCIS if anything still looks wrong. Keep the corrected notice.",
+  "es": "USCIS corrigió tu fecha de nacimiento en el expediente I-690. Los expedientes de legalización antiguos a veces tienen errores, así que revisa que ahora coincida con tu acta de nacimiento y tu pasaporte. Contacta a USCIS si algo sigue mal."
+ },
+ "continuation-notice-was-mailed": {
+  "en": "USCIS mailed a notice that your I-690 is continuing. For legalization cases, related notices can affect work permission while the main application is pending. Read what this notice covers, check any dates, and keep it with your records.",
+  "es": "USCIS te mandó un aviso de que tu I-690 continúa. En casos de legalización, los avisos relacionados pueden afectar el permiso de trabajo mientras la solicitud principal está pendiente. Lee qué cubre este aviso, revisa las fechas y guárdalo con tus papeles."
+ },
+ "termination-notice-sent": {
+  "en": "USCIS sent a termination notice in your I-690 case. It may end the waiver request or relate to the legalization status it supports. Either can seriously affect your path to permanent residence. Read the reasons and talk with an immigration attorney or accredited representative right away.",
+  "es": "USCIS mandó un aviso de terminación en tu caso I-690. Puede terminar la solicitud de dispensa o tener que ver con el estatus de legalización que apoya. Cualquiera puede afectar mucho tu camino a la residencia. Lee las razones y habla de inmediato con un abogado de inmigración o un representante acreditado."
+ },
+ "case-closed-benefit-received-by-other-means": {
+  "en": "USCIS closed your I-690 because the result was reached another way, for example you already became a permanent resident through a different path or the waiver was no longer needed. Check that you have proof of that other approval.",
+  "es": "USCIS cerró tu I-690 porque el resultado se logró por otra vía, por ejemplo ya eres residente permanente por otro camino o la dispensa ya no hacía falta. Revisa que tengas prueba de esa otra aprobación."
+ },
+ "expedite-request-denied": {
+  "en": "USCIS will not expedite your I-690. The waiver keeps its normal place in line along with the related legalization case. If your circumstances become urgent, you can ask again with new supporting evidence. Keep your address current meanwhile.",
+  "es": "USCIS no va a acelerar tu I-690. La dispensa conserva su lugar normal en la fila junto con el caso de legalización relacionado. Si tu situación se vuelve urgente, puedes pedirlo otra vez con nuevas pruebas que lo respalden."
+ },
+ "correspondence-was-received-and-uscis-is-reviewing-it": {
+  "en": "USCIS received something you sent about your I-690, such as old employment or residence records, new hardship evidence, or an address change. An officer will decide if it changes anything in the review. Keep a copy and proof of delivery.",
+  "es": "USCIS recibió algo que mandaste sobre tu I-690, como registros antiguos de trabajo o residencia, nuevas pruebas de perjuicio o un cambio de dirección. Un oficial decidirá si cambia algo en la revisión. Guarda copia y prueba de entrega."
+ }
+}

@@ -1,0 +1,146 @@
+{
+  "case-was-received": {
+    "en": "USCIS has your I-192 waiver request. Most I-192 cases at USCIS are filed together with a T visa (I-914) or U visa (I-918) application, and the waiver is usually decided alongside that main case. Keep the receipt with the receipt for your T or U application.",
+    "es": "USCIS ya tiene tu solicitud de perdón I-192. La mayoría de los I-192 en USCIS se presentan junto con una solicitud de visa T (I-914) o visa U (I-918), y el perdón normalmente se decide junto con ese caso principal. Guarda el recibo con el de tu solicitud T o U."
+  },
+  "case-was-received-and-a-receipt-notice-was-sent": {
+    "en": "Your I-192 is logged and the paper receipt is on its way. If you filed it with a T or U visa case, you will get separate receipt numbers for each form. If you use a safe mailing address for privacy, confirm USCIS has that address.",
+    "es": "Tu I-192 quedó registrado y el recibo en papel viene en camino. Si lo presentaste con un caso de visa T o U, recibirás números de recibo distintos para cada formulario. Si usas una dirección segura por privacidad, confirma que USCIS tenga esa dirección."
+  },
+  "fingerprint-fee-was-received": {
+    "en": "The I-192 does not normally have its own fingerprint appointment; biometrics are usually collected for the related T or U visa application. If you see this, check the receipt number and watch for an appointment notice that covers your main case.",
+    "es": "El I-192 normalmente no tiene su propia cita de huellas; los biométricos suelen tomarse para la solicitud de visa T o U relacionada. Si ves esto, revisa el número de recibo y espera un aviso de cita que cubra tu caso principal."
+  },
+  "fingerprint-review-was-completed": {
+    "en": "USCIS finished a fingerprint check connected to your waiver. For an I-192, background results matter because the waiver may cover grounds such as past immigration violations or certain criminal records. The officer still needs to decide whether to grant the waiver.",
+    "es": "USCIS terminó una revisión de huellas ligada a tu perdón. En el I-192 los antecedentes importan, porque el perdón puede cubrir causas como violaciones migratorias pasadas o ciertos antecedentes penales. El oficial todavía debe decidir si concede el perdón."
+  },
+  "case-is-being-actively-reviewed-by-uscis": {
+    "en": "An officer is reviewing your I-192. The waiver is usually looked at together with your T or U visa application, and the officer weighs the reasons you are inadmissible against humanitarian factors and the public interest. These reviews can take a long time.",
+    "es": "Un oficial está revisando tu I-192. El perdón suele revisarse junto con tu solicitud de visa T o U, y el oficial compara las causas de inadmisibilidad con los factores humanitarios y el interés público. Estas revisiones pueden tardar mucho."
+  },
+  "request-for-additional-evidence-was-sent": {
+    "en": "USCIS needs more proof for your I-192. Requests often ask for court records, explanations of past immigration violations, or evidence of rehabilitation and hardship. Because this waiver is tied to a T or U case, work with an immigration attorney or accredited representative on the reply.",
+    "es": "USCIS necesita más pruebas para tu I-192. Suelen pedir papeles de la corte, explicaciones de violaciones migratorias pasadas o pruebas de rehabilitación y dificultad. Como este perdón está ligado a un caso T o U, trabaja la respuesta con un abogado de inmigración o un representante acreditado."
+  },
+  "request-for-initial-evidence-was-sent": {
+    "en": "Something basic was missing from your I-192, such as a signature, a required statement, or documents about the ground of inadmissibility. Send exactly what the notice lists by the deadline, because a missing waiver can hold up your T or U visa decision.",
+    "es": "Faltó algo básico en tu I-192, como una firma, una declaración obligatoria o documentos sobre la causa de inadmisibilidad. Manda justo lo que pide el aviso antes del plazo, porque si falta el perdón se puede detener la decisión de tu visa T o U."
+  },
+  "response-to-uscis-request-for-evidence-was-received": {
+    "en": "USCIS received your reply on the I-192. The officer will review the new documents together with your T or U visa application. A decision on the waiver usually comes with or close to the decision on the main case.",
+    "es": "USCIS recibió tu respuesta sobre el I-192. El oficial revisará los documentos nuevos junto con tu solicitud de visa T o U. La decisión del perdón suele llegar con la del caso principal o cerca de ella."
+  },
+  "case-was-transferred-and-a-new-office-has-jurisdiction": {
+    "en": "Your I-192 moved to another USCIS office, often so it stays with your T or U visa case. The receipt number does not change. Confidentiality protections for T and U applicants still apply wherever the file goes.",
+    "es": "Tu I-192 pasó a otra oficina de USCIS, muchas veces para que quede junto a tu caso de visa T o U. El número de recibo no cambia. Las protecciones de confidencialidad para solicitantes T y U siguen aplicando a donde vaya el expediente."
+  },
+  "case-was-approved": {
+    "en": "Your I-192 waiver was approved. This removes the listed grounds of inadmissibility so your T or U visa can be approved, if everything else is in order. Keep the decision; you may need it later, for example when applying for a green card.",
+    "es": "Aprobaron tu perdón I-192. Esto quita las causas de inadmisibilidad indicadas para que tu visa T o U pueda aprobarse, si todo lo demás está en orden. Guarda la decisión; puedes necesitarla después, por ejemplo al pedir la green card."
+  },
+  "document-was-mailed-to-me": {
+    "en": "USCIS mailed a document on your I-192, usually the written decision. Check which grounds of inadmissibility the waiver covers. Keep it together with your T or U visa approval or pending case papers. You may need it again later.",
+    "es": "USCIS mandó un documento de tu I-192, normalmente la decisión por escrito. Revisa qué causas de inadmisibilidad cubre el perdón. Guárdalo junto con la aprobación de tu visa T o U o con los papeles de tu caso pendiente."
+  },
+  "notice-explaining-uscis-actions-was-mailed": {
+    "en": "USCIS mailed a letter about your waiver. It may request documents, announce an intent to deny, or give a decision. Open it quickly, and if you share a home with someone who could harm you, make sure mail goes to your safe address.",
+    "es": "USCIS mandó una carta sobre tu perdón. Puede pedir documentos, avisar que piensa negar o dar una decisión. Ábrela pronto y, si vives con alguien que podría hacerte daño, asegúrate de que el correo llegue a tu dirección segura."
+  },
+  "case-was-denied": {
+    "en": "Your I-192 waiver was denied. Generally, this kind of waiver decision cannot be appealed, though a motion to reopen or reconsider may be possible. A denial can also block the T or U visa. Talk to an immigration attorney or accredited representative right away about your options.",
+    "es": "Te negaron el perdón I-192. En general, esta decisión no se puede apelar, aunque tal vez se pueda pedir una moción para reabrir o reconsiderar. Una negación también puede bloquear la visa T o U. Habla de inmediato con un abogado de inmigración o un representante acreditado sobre tus opciones."
+  },
+  "case-was-reopened": {
+    "en": "USCIS reopened your I-192, often after a motion or new information. The waiver is pending again and will receive a new decision, which can also affect your T or U visa application. Watch for requests for documents.",
+    "es": "USCIS reabrió tu I-192, muchas veces por una moción o información nueva. El perdón vuelve a estar pendiente y tendrá nueva decisión, que también puede afectar tu solicitud de visa T o U. Está atento a peticiones de documentos."
+  },
+  "case-rejected-because-i-sent-an-incorrect-fee": {
+    "en": "Your I-192 was returned because the payment was wrong. For T and U applicants, a fee waiver or exemption may be available instead of paying. Check the current rules on uscis.gov and refile so the waiver can be reviewed with your main case.",
+    "es": "Te regresaron el I-192 porque el pago estaba mal. Para solicitantes T y U puede haber exención de cuota en lugar de pagar. Revisa las reglas actuales en uscis.gov y vuelve a presentarlo para que el perdón se revise junto con tu caso principal."
+  },
+  "expedite-request-received": {
+    "en": "USCIS logged your request to speed up your I-192. Expedites are considered case by case, for example for urgent safety or medical reasons. Since the waiver usually moves with the T or U case, an expedite may need to cover both.",
+    "es": "USCIS registró tu petición para acelerar tu I-192. Las aceleraciones se ven caso por caso, por ejemplo por razones urgentes de seguridad o médicas. Como el perdón suele avanzar con el caso T o U, quizá la petición deba cubrir ambos."
+  },
+  "withdrawal-acknowledgement-notice-was-sent": {
+    "en": "USCIS confirmed your I-192 was withdrawn. Without the waiver, any ground of inadmissibility stays in place, which may prevent approval of your T or U visa. If you did not mean to withdraw it, talk to your attorney right away.",
+    "es": "USCIS confirmó que retiraste tu I-192. Sin el perdón, cualquier causa de inadmisibilidad sigue, lo que puede impedir que aprueben tu visa T o U. Si no querías retirarlo, habla de inmediato con tu abogado."
+  },
+  "name-was-updated": {
+    "en": "USCIS updated your name on the I-192. It should match the name on your T or U visa application so both cases stay linked. Check the new spelling and keep any notice that confirms the change.",
+    "es": "USCIS actualizó tu nombre en el I-192. Debe coincidir con el nombre de tu solicitud de visa T o U para que ambos casos sigan ligados. Revisa cómo quedó escrito y guarda cualquier aviso que confirme el cambio."
+  },
+  "case-was-received-and-a-receipt-notice-was-emailed": {
+    "en": "Your I-192 receipt is in your USCIS online account. Download it and store it with your T or U visa documents. Online notices can be safer than paper mail if you are worried about someone else seeing your letters.",
+    "es": "El recibo de tu I-192 está en tu cuenta de USCIS. Descárgalo y guárdalo con tus documentos de visa T o U. Los avisos en línea pueden ser más seguros que el correo en papel si te preocupa que alguien más vea tus cartas."
+  },
+  "case-accepted-by-the-uscis-lockbox": {
+    "en": "Your I-192 was accepted at intake. A receipt number comes next. Note that I-192 forms filed with CBP, such as by some Canadian travelers, follow a different process and usually do not appear in USCIS case status.",
+    "es": "Tu I-192 fue aceptado en la recepción. Lo siguiente es el número de recibo. Ojo: los I-192 que se presentan ante CBP, como los de algunos viajeros canadienses, siguen otro proceso y normalmente no aparecen en el estatus de USCIS."
+  },
+  "fees-were-waived": {
+    "en": "USCIS approved a fee waiver for your I-192. This is common for T and U visa applicants who cannot pay. Your waiver now moves forward with your main case without the filing fee. Keep the notice in your file.",
+    "es": "USCIS aprobó una exención de cuota para tu I-192. Es común para solicitantes de visa T y U que no pueden pagar. Tu perdón ahora avanza con tu caso principal sin pagar la cuota de presentación."
+  },
+  "case-was-rejected-because-it-was-improperly-filed": {
+    "en": "Your I-192 was returned without review. Common reasons: missing signature, old form edition, or filing at the wrong place, since some I-192 requests go to CBP rather than USCIS. Check the instructions for your situation and refile.",
+    "es": "Te regresaron el I-192 sin revisarlo. Razones comunes: falta de firma, versión vieja del formulario, o enviarlo al lugar equivocado, porque algunos I-192 van a CBP y no a USCIS. Revisa las instrucciones para tu caso y vuelve a presentarlo."
+  },
+  "biometrics-appointment-was-scheduled": {
+    "en": "You have a biometrics appointment. For I-192 filers this is usually tied to the T or U visa application. Bring the notice and photo ID. If the appointment date or place is unsafe for you, follow the notice to reschedule.",
+    "es": "Tienes cita de biométricos. Para quien presenta el I-192, normalmente está ligada a la solicitud de visa T o U. Lleva el aviso y una identificación con foto. Si la fecha o el lugar no son seguros para ti, sigue el aviso para reprogramar."
+  },
+  "case-was-updated-to-show-fingerprints-were-taken": {
+    "en": "Your biometrics are on file. USCIS can now complete background checks used for both the I-192 waiver and the related T or U visa case. The next step is the officer's review and decision. No action is needed for now.",
+    "es": "Tus biométricos ya están registrados. USCIS ya puede terminar las revisiones de antecedentes que sirven para el perdón I-192 y para el caso de visa T o U relacionado. Lo siguiente es la revisión y decisión del oficial."
+  },
+  "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+    "en": "USCIS recorded that you missed an in-person appointment linked to your waiver. This can stall both the I-192 and your T or U visa case. Contact USCIS right away using the notice to reschedule, and explain if there was a safety reason.",
+    "es": "USCIS registró que faltaste a una cita en persona ligada a tu perdón. Esto puede detener el I-192 y tu caso de visa T o U. Contacta a USCIS de inmediato con el aviso para reprogramar, y explica si hubo una razón de seguridad."
+  },
+  "case-was-approved-and-my-decision-was-emailed": {
+    "en": "Your I-192 waiver was approved and the decision is in your USCIS online account. Download and save it. Check your T or U visa case for its own decision, since the two may be posted separately.",
+    "es": "Aprobaron tu perdón I-192 y la decisión está en tu cuenta de USCIS. Descárgala y guárdala. Revisa tu caso de visa T o U para ver su propia decisión, porque pueden publicarse por separado. Guarda copia impresa."
+  },
+  "case-approval-was-certified-by-uscis": {
+    "en": "USCIS certified the approval of your I-192. This works like an approval and confirms the waiver covers the listed grounds. Your T or U visa case can now move forward if nothing else is pending.",
+    "es": "USCIS certificó la aprobación de tu I-192. Funciona como una aprobación y confirma que el perdón cubre las causas indicadas. Tu caso de visa T o U ya puede avanzar si no queda nada pendiente."
+  },
+  "response-to-uscis-notice-of-intent-was-received": {
+    "en": "USCIS received your reply to its notice of intent to deny the waiver. The officer will review it before deciding. Because the waiver decision can decide the T or U visa as well, get help from an attorney or accredited representative if you have not already.",
+    "es": "USCIS recibió tu respuesta al aviso de intención de negar el perdón. El oficial la revisará antes de decidir. Como la decisión del perdón también puede definir la visa T o U, busca ayuda de un abogado o representante acreditado si aún no la tienes."
+  },
+  "duplicate-notice-was-mailed": {
+    "en": "USCIS mailed a copy of a notice from your I-192 case. Duplicates help if the original was lost or sent to an unsafe address. Store it with your T or U visa papers in a safe place.",
+    "es": "USCIS mandó una copia de un aviso de tu I-192. Las copias ayudan si el original se perdió o llegó a una dirección insegura. Guárdala con tus papeles de visa T o U en un lugar seguro."
+  },
+  "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+    "en": "A notice about your I-192 came back undelivered. It may have had a deadline. Update your address, using a safe mailing address if needed, and ask USCIS what the notice said so your waiver is not denied for lack of response.",
+    "es": "Un aviso de tu I-192 regresó sin entregarse. Podía tener un plazo. Actualiza tu dirección, usando una dirección segura si hace falta, y pregunta a USCIS qué decía el aviso para que no nieguen tu perdón por falta de respuesta."
+  },
+  "date-of-birth-was-updated": {
+    "en": "USCIS corrected your date of birth on the I-192. It should match your T or U visa application and your identity documents so that the waiver and the main case stay correctly linked. Keep the updated notice.",
+    "es": "USCIS corrigió tu fecha de nacimiento en el I-192. Debe coincidir con tu solicitud de visa T o U y tus documentos de identidad, para que el perdón y el caso principal sigan bien ligados."
+  },
+  "continuation-notice-was-mailed": {
+    "en": "USCIS sent a continuation notice on your I-192. This is uncommon for a waiver. Read it closely; it may continue a review or relate to your T or U visa case. Ask your representative if anything is unclear.",
+    "es": "USCIS mandó un aviso de continuación de tu I-192. No es común en un perdón. Léelo con cuidado; puede continuar una revisión o tener que ver con tu caso de visa T o U. Pregunta a tu representante si algo no está claro."
+  },
+  "termination-notice-sent": {
+    "en": "USCIS sent a termination notice related to your I-192. This is unusual and may mean the waiver or the T or U status it supports was ended or revoked. Read the reason and effective date, and contact an immigration attorney right away.",
+    "es": "USCIS mandó un aviso de terminación ligado a tu I-192. Es raro y puede significar que terminaron o revocaron el perdón o el estatus T o U que apoya. Lee el motivo y la fecha, y contacta de inmediato a un abogado de inmigración."
+  },
+  "case-closed-benefit-received-by-other-means": {
+    "en": "USCIS closed your I-192 because the waiver is no longer needed, for example because the ground of inadmissibility was resolved another way or you got status through a different path. Confirm with your attorney that your T or U case is not affected.",
+    "es": "USCIS cerró tu I-192 porque ya no se necesita el perdón, por ejemplo porque la causa se resolvió de otra forma o conseguiste estatus por otro camino. Confirma con tu abogado que tu caso T o U no se afecta."
+  },
+  "expedite-request-denied": {
+    "en": "USCIS declined to speed up your I-192. The waiver stays in the regular queue with your T or U visa case, and the decision does not hurt either case. If the urgency grows, you can ask again with new proof.",
+    "es": "USCIS no aceptó acelerar tu I-192. El perdón sigue en la fila normal junto con tu caso de visa T o U, y esa decisión no perjudica ninguno. Si la urgencia crece, puedes pedirlo otra vez con pruebas nuevas."
+  },
+  "correspondence-was-received-and-uscis-is-reviewing-it": {
+    "en": "USCIS received a letter or documents about your I-192 and is reviewing them. This may be a safe address update, new court records, or added evidence. Wait for a written answer before sending the same papers again.",
+    "es": "USCIS recibió una carta o documentos sobre tu I-192 y los está revisando. Puede ser un cambio a una dirección segura, nuevos papeles de la corte o pruebas adicionales. Espera respuesta por escrito antes de mandar los mismos papeles otra vez."
+  }
+}

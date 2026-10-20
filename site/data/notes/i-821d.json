@@ -1,0 +1,178 @@
+{
+"case-was-received": {
+"en": "USCIS has your DACA request on Form I-821D. Your work permit request on Form I-765 has its own receipt number, so track both. Until a decision comes, your protection depends on the dates of your current grant, which is why USCIS suggests filing renewals well before they expire.",
+"es": "USCIS ya tiene tu solicitud de DACA en el Formulario I-821D. Tu permiso de trabajo en el I-765 tiene otro número de recibo, así que sigue los dos. Mientras llega la decisión, tu protección depende de las fechas de tu DACA actual; por eso USCIS recomienda renovar con buena anticipación."
+},
+"case-was-received-and-a-receipt-notice-was-sent": {
+"en": "Your I-797C receipt for the DACA request is in the mail. Keep it with the separate receipt for your I-765 work permit. The receipt alone does not extend your deferred action or your EAD, so if your current dates are close to ending, plan for that gap with your employer.",
+"es": "Viene por correo tu recibo I-797C de la solicitud de DACA. Guárdalo junto con el recibo aparte de tu permiso de trabajo I-765. El recibo por sí solo no extiende tu acción diferida ni tu permiso de trabajo; si tus fechas actuales están por vencer, prevé esa pausa con tu empleador."
+},
+"fingerprint-fee-was-received": {
+"en": "USCIS logged the payment that covers biometrics for your DACA request. DACA requestors normally give fingerprints and a photo for each renewal, so expect an appointment notice next. Sometimes USCIS reuses earlier biometrics, in which case you may skip the visit.",
+"es": "USCIS registró el pago que cubre los biométricos de tu solicitud de DACA. En cada renovación normalmente te toman huellas y foto, así que espera un aviso de cita. A veces USCIS reutiliza tus biométricos anteriores y entonces no tienes que ir."
+},
+"fingerprint-review-was-completed": {
+"en": "The background check tied to your DACA fingerprints is finished. For DACA, USCIS looks closely at arrests and criminal history, so this is an important step. After it, the officer can finish reviewing the I-821D and decide the I-765 work permit that goes with it.",
+"es": "Ya terminó la revisión de antecedentes de tus huellas de DACA. En DACA, USCIS revisa con cuidado arrestos y antecedentes penales, así que es un paso importante. Después de esto, el oficial puede terminar de revisar el I-821D y decidir el permiso de trabajo I-765 que va junto."
+},
+"case-is-being-actively-reviewed-by-uscis": {
+"en": "An officer is reviewing your DACA request. For renewals, this usually means checking continuous residence since your last grant, any new arrests, and any trips abroad. Keep your address current, since the approval notice and the new work permit card will be mailed to you.",
+"es": "Un oficial está revisando tu solicitud de DACA. En renovaciones suelen revisar que sigas viviendo aquí desde tu último periodo, si hubo arrestos nuevos y si saliste del país. Mantén tu dirección al día, porque la aprobación y la nueva tarjeta de permiso de trabajo llegan por correo."
+},
+"request-for-additional-evidence-was-sent": {
+"en": "USCIS needs more proof to decide your DACA request. Common requests are school records, proof you lived in the U.S. during key periods, or court records for any arrest. Answer by the deadline in the letter, because a missing answer can lead to denial. If it involves criminal history, talk to an immigration attorney first.",
+"es": "USCIS necesita más pruebas para decidir tu DACA. Suelen pedir constancias de la escuela, pruebas de que viviste aquí en ciertos periodos o papeles de la corte de algún arresto. Responde antes de la fecha límite, porque si no contestas te lo pueden negar. Si tiene que ver con antecedentes, consulta primero a un abogado de inmigración."
+},
+"request-for-initial-evidence-was-sent": {
+"en": "Your DACA package was missing something basic, such as the I-765WS worksheet, a copy of your last EAD, or proof of identity. USCIS will not move forward until you send it. Read the list in the letter, return the page it asks for, and mail everything before the deadline.",
+"es": "A tu paquete de DACA le faltó algo básico, como la hoja I-765WS, copia de tu último permiso de trabajo o prueba de identidad. USCIS no avanza hasta que lo mandes. Lee la lista de la carta, regresa la hoja que piden y envía todo antes de la fecha límite."
+},
+"response-to-uscis-request-for-evidence-was-received": {
+"en": "USCIS received the documents you sent for your DACA request. The officer will now finish the review. If approved, you get an approval notice for deferred action and, through the I-765, a new work permit card. Keep watching both receipt numbers.",
+"es": "USCIS recibió los documentos que mandaste para tu DACA. Ahora el oficial termina la revisión. Si lo aprueban, recibes un aviso de aprobación de la acción diferida y, por el I-765, una nueva tarjeta de permiso de trabajo. Sigue vigilando los dos números de recibo."
+},
+"case-was-transferred-and-a-new-office-has-jurisdiction": {
+"en": "Your DACA request moved to another USCIS office, usually to balance workloads between service centers. It does not mean anything is wrong. Your receipt number stays the same, and your I-765 work permit request often moves with it.",
+"es": "Tu solicitud de DACA pasó a otra oficina de USCIS, casi siempre para repartir el trabajo entre centros. No quiere decir que haya un problema. Tu número de recibo sigue igual y tu permiso de trabajo I-765 muchas veces se mueve junto con ella."
+},
+"case-was-approved": {
+"en": "Your DACA request was approved, which gives you deferred action for the period shown on the approval notice, usually 2 years. Your work permit is decided on the I-765, so check that receipt for card updates. Mark your calendar to file the next renewal several months before this grant ends.",
+"es": "Aprobaron tu DACA, lo que te da acción diferida por el periodo que dice el aviso de aprobación, normalmente 2 años. Tu permiso de trabajo se decide en el I-765, así que revisa ese recibo para ver lo de la tarjeta. Anota en tu calendario renovar varios meses antes de que termine este periodo."
+},
+"new-card-is-being-produced": {
+"en": "Your new DACA-based work permit card, the EAD, is being printed. This card comes from the I-765 filed with your I-821D. It will show your category code and the new valid dates. Make sure your mailing address is correct so it does not get lost.",
+"es": "Están imprimiendo tu nueva tarjeta de permiso de trabajo (EAD) por DACA. Esta tarjeta sale del I-765 que mandaste con tu I-821D. Va a mostrar tu código de categoría y las nuevas fechas de validez. Revisa que tu dirección esté bien para que no se pierda."
+},
+"card-was-mailed-to-me": {
+"en": "USCIS mailed your DACA work permit card. Look for the tracking number in this status or your online account. When it arrives, check that your name, date of birth and dates are correct, then give your employer the new card for an updated I-9 if they ask.",
+"es": "USCIS te mandó por correo tu tarjeta de permiso de trabajo por DACA. Busca el número de rastreo en este estatus o en tu cuenta en línea. Cuando llegue, revisa nombre, fecha de nacimiento y fechas, y dale la nueva tarjeta a tu empleador si te pide actualizar el I-9."
+},
+"card-was-picked-up-by-the-united-states-postal-service": {
+"en": "The Postal Service now has your DACA work permit card. Use the tracking number to follow it. If you are not usually home, consider USPS Informed Delivery or ask a trusted person to watch for it, because a returned card has to be requested again from USCIS.",
+"es": "El Correo (USPS) ya tiene tu tarjeta de permiso de trabajo por DACA. Usa el número de rastreo para seguirla. Si casi no estás en casa, activa Informed Delivery de USPS o pídele a alguien de confianza que esté pendiente, porque si la tarjeta regresa tendrás que pedirla otra vez a USCIS."
+},
+"card-was-delivered-to-me-by-the-post-office": {
+"en": "The post office says your DACA work permit card was delivered. Check the dates match your approval notice and keep the card safe. If you did not get it, contact USCIS quickly; there are time limits for reporting a card that was never received.",
+"es": "El correo dice que entregó tu tarjeta de permiso de trabajo por DACA. Revisa que las fechas coincidan con tu aviso de aprobación y guarda bien la tarjeta. Si no te llegó, comunícate rápido con USCIS; hay un plazo para reportar una tarjeta que nunca recibiste."
+},
+"document-was-mailed-to-me": {
+"en": "For a DACA request, the mailed document is usually the approval notice showing your deferred action start and end dates, or another decision notice. Keep it with your records; it is your proof of DACA, separate from the work permit card that comes through the I-765.",
+"es": "En DACA, el documento que te mandan suele ser el aviso de aprobación con las fechas de inicio y fin de tu acción diferida, u otro aviso de decisión. Guárdalo con tus papeles; es tu prueba de DACA, aparte de la tarjeta de permiso de trabajo que llega por el I-765."
+},
+"notice-explaining-uscis-actions-was-mailed": {
+"en": "USCIS mailed a letter about your DACA request, and the status does not say what it is. It could be a biometrics appointment, an evidence request, an approval or a decision you need to act on. Open it right away, since DACA letters can have short response windows.",
+"es": "USCIS te mandó una carta sobre tu DACA y el estatus no dice qué es. Puede ser una cita de biométricos, una petición de pruebas, una aprobación o una decisión en la que debes actuar. Ábrela de inmediato, porque las cartas de DACA pueden tener plazos cortos."
+},
+"case-was-denied": {
+"en": "Your DACA request was denied. There is no formal appeal or motion for a DACA denial, but in limited cases you can ask USCIS to review a mistake, and sometimes you can file a new request. Read the reason carefully and speak with an immigration attorney or accredited representative before your next step.",
+"es": "Te negaron el DACA. No hay apelación formal ni moción para una negación de DACA, pero en casos limitados puedes pedir a USCIS que revise un error, y a veces puedes presentar una nueva solicitud. Lee bien la razón y habla con un abogado de inmigración o representante acreditado antes de dar el siguiente paso."
+},
+"case-was-reopened": {
+"en": "Your DACA case is open again. This usually happens when USCIS agrees it made a mistake in a denial or when it is correcting a decision on its own. Expect new letters, possibly an evidence request, and check the I-765 receipt too, since the work permit decision may also change.",
+"es": "Tu caso de DACA se abrió de nuevo. Suele pasar cuando USCIS acepta que se equivocó al negarlo o cuando corrige una decisión por su cuenta. Espera cartas nuevas, quizá una petición de pruebas, y revisa también el recibo del I-765, porque la decisión del permiso de trabajo también puede cambiar."
+},
+"case-rejected-because-i-sent-an-incorrect-fee": {
+"en": "Your DACA package came back because of the payment, so it is not pending. The DACA fee is tied to the I-765 filed with it and can differ for online and paper filing. Confirm the current amount on uscis.gov and resend quickly, especially if your current grant is close to expiring.",
+"es": "Te regresaron tu paquete de DACA por el pago, así que no está en trámite. La tarifa de DACA va ligada al I-765 que lo acompaña y puede ser distinta en línea o en papel. Confirma el monto actual en uscis.gov y vuelve a mandarlo pronto, sobre todo si tu DACA está por vencer."
+},
+"expedite-request-received": {
+"en": "USCIS logged your request to speed up your DACA case. Expedites are approved only for reasons that meet USCIS criteria, such as severe financial loss or urgent humanitarian situations. Have proof ready, and know that a late renewal alone is often not enough on its own.",
+"es": "USCIS registró tu petición para acelerar tu caso de DACA. Solo aprueban acelerar por razones que cumplen sus criterios, como una pérdida económica grave o una situación humanitaria urgente. Ten tus pruebas listas y ten en cuenta que haber renovado tarde, por sí solo, muchas veces no basta."
+},
+"withdrawal-acknowledgement-notice-was-sent": {
+"en": "USCIS confirmed you withdrew your DACA request. The case is closed and the fee is not returned. If you withdrew by mistake or your plans change, you would need to file a new I-821D, and a long gap since your last grant may mean it is treated like an initial request.",
+"es": "USCIS confirmó que retiraste tu solicitud de DACA. El caso quedó cerrado y la tarifa no se devuelve. Si fue un error o cambian tus planes, tendrías que mandar un nuevo I-821D, y si pasa mucho tiempo desde tu último DACA puede tratarse como solicitud inicial."
+},
+"name-was-updated": {
+"en": "USCIS updated your name on the DACA case. Because the same name prints on your work permit card, check that the I-765 record shows it too. Bring or send proof of the legal name change, such as a marriage certificate or court order, if USCIS has not seen it.",
+"es": "USCIS actualizó tu nombre en el caso de DACA. Como ese mismo nombre se imprime en tu tarjeta de permiso de trabajo, revisa que el I-765 también lo muestre. Si USCIS no lo ha visto, manda prueba del cambio legal de nombre, como acta de matrimonio u orden de la corte."
+},
+"case-was-received-and-a-receipt-notice-was-emailed": {
+"en": "You filed your DACA renewal online, so the receipt is in your USCIS online account. Download it and save it with your I-765 receipt. Through that account you will see your biometrics notice, any evidence request, and the approval when it comes.",
+"es": "Mandaste tu renovación de DACA en línea, así que el recibo está en tu cuenta de USCIS. Descárgalo y guárdalo con el recibo del I-765. En esa cuenta vas a ver el aviso de biométricos, cualquier petición de pruebas y la aprobación cuando llegue."
+},
+"case-accepted-by-the-uscis-lockbox": {
+"en": "Your paper DACA package passed the lockbox check: the fee went through and the forms were complete enough to accept. Next, the I-821D and the I-765 each get a receipt number. Watch your mail for the two I-797C receipts.",
+"es": "Tu paquete de DACA en papel pasó la revisión del lockbox: se cobró el pago y los formularios estaban completos para aceptarlos. Ahora el I-821D y el I-765 reciben cada uno su número de recibo. Espera por correo los dos recibos I-797C."
+},
+"fees-were-waived": {
+"en": "USCIS approved a fee exemption for your DACA request. DACA does not use the normal fee waiver form; exemptions are granted only in a few narrow situations that you show before filing. Your case now continues like any other, with biometrics and review.",
+"es": "USCIS aprobó una exención de pago para tu DACA. DACA no usa el formulario normal de exención de tarifas; solo se aprueba en pocas situaciones muy específicas que demuestras antes de presentar. Tu caso sigue como cualquier otro, con biométricos y revisión."
+},
+"case-was-rejected-because-it-was-improperly-filed": {
+"en": "Your DACA request came back and is not pending. Common causes are a missing signature, a missing I-765 or I-765WS, or an old form edition. Correct what the letter lists and file again soon, since your new filing date is what counts for any renewal timing.",
+"es": "Te regresaron tu solicitud de DACA y no está en trámite. Causas comunes: faltó la firma, faltó el I-765 o la hoja I-765WS, o usaste una edición vieja. Corrige lo que dice la carta y vuelve a mandarlo pronto, porque cuenta la nueva fecha de presentación para tu renovación."
+},
+"biometrics-appointment-was-scheduled": {
+"en": "Your DACA biometrics appointment is set. Bring the notice and a photo ID, such as your current work permit or passport. Your fingerprints are used for the background check and your photo for the new EAD card, so going on time keeps the renewal moving.",
+"es": "Ya tienes cita de biométricos para tu DACA. Lleva el aviso y una identificación con foto, como tu permiso de trabajo actual o pasaporte. Tus huellas sirven para la revisión de antecedentes y tu foto para la nueva tarjeta de trabajo, así que ir a tiempo ayuda a que avance la renovación."
+},
+"case-was-updated-to-show-fingerprints-were-taken": {
+"en": "Your DACA biometrics are recorded. The background check now runs, and the photo you gave will be used on your new work permit card. Most DACA renewals then move to review without an interview, so the next update is often a decision or an evidence request.",
+"es": "Ya quedaron registrados tus biométricos de DACA. Ahora corre la revisión de antecedentes y la foto que tomaron se usará en tu nueva tarjeta de permiso de trabajo. Casi todas las renovaciones pasan a revisión sin entrevista, así que lo siguiente suele ser una decisión o una petición de pruebas."
+},
+"case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+"en": "USCIS shows you missed your DACA biometrics appointment. Without fingerprints and a photo, your request cannot be decided and may be denied as abandoned. Contact USCIS right away to explain and ask for a new appointment, and keep any proof of why you missed it.",
+"es": "USCIS indica que faltaste a tu cita de biométricos de DACA. Sin huellas ni foto no pueden decidir tu solicitud y podrían negarla por abandono. Comunícate con USCIS de inmediato para explicar y pedir una cita nueva, y guarda cualquier prueba de por qué faltaste."
+},
+"case-was-approved-and-my-decision-was-emailed": {
+"en": "Your DACA approval was posted to your USCIS online account. Download the notice: it shows your new deferred action period. The work permit card is tracked under the I-765 receipt, so check there for when the card is produced and mailed.",
+"es": "Tu aprobación de DACA se publicó en tu cuenta en línea de USCIS. Descarga el aviso: muestra tu nuevo periodo de acción diferida. La tarjeta de permiso de trabajo se sigue con el recibo del I-765, así que revisa ahí cuándo la imprimen y la mandan."
+},
+"case-approval-was-certified-by-uscis": {
+"en": "This is an unusual status for a DACA request. It generally means an approval was confirmed through an extra internal review. Nothing extra is needed from you; keep the approval notice and watch the I-765 receipt for your work permit card.",
+"es": "Es un estatus poco común en DACA. Por lo general indica que una aprobación se confirmó con una revisión interna adicional. No tienes que hacer nada más; guarda el aviso de aprobación y vigila el recibo del I-765 para tu tarjeta de permiso de trabajo."
+},
+"response-to-uscis-notice-of-intent-was-received": {
+"en": "USCIS received your answer to its notice that it intended to deny or end your DACA. The officer will compare your evidence with its concerns before deciding. This is a high-stakes moment, so keep an immigration attorney or accredited representative involved if you can.",
+"es": "USCIS recibió tu respuesta al aviso de que pensaba negar o terminar tu DACA. El oficial va a comparar tus pruebas con sus dudas antes de decidir. Es un momento delicado, así que de ser posible trabaja con un abogado de inmigración o representante acreditado."
+},
+"case-is-pending-at-a-local-office": {
+"en": "Your DACA request is at a local field office, which is not the usual path for DACA. It can happen when an officer wants to verify something in person, such as identity or a past record. Watch your mail for an appointment and bring every document the letter lists.",
+"es": "Tu solicitud de DACA está en una oficina local, lo que no es lo normal en DACA. Puede pasar cuando un oficial quiere confirmar algo en persona, como tu identidad o un antecedente. Espera por correo una cita y lleva todos los documentos que pida la carta."
+},
+"duplicate-notice-was-mailed": {
+"en": "USCIS sent another copy of a notice for your DACA request, often because you asked for one. Check which notice it is. A duplicate approval notice is useful proof of your deferred action dates for school or work.",
+"es": "USCIS te mandó otra copia de un aviso de tu DACA, muchas veces porque la pediste. Revisa qué aviso es. Una copia de la aprobación sirve como prueba de tus fechas de acción diferida para la escuela o el trabajo."
+},
+"card-is-being-returned-to-uscis-by-post-office": {
+"en": "Your DACA work permit card could not be delivered and is going back to USCIS. Update your address with USCIS right away and ask them to resend the card. Without it, you may not be able to show proof of work authorization to your employer.",
+"es": "No pudieron entregarte tu tarjeta de permiso de trabajo por DACA y va de regreso a USCIS. Actualiza tu dirección con USCIS de inmediato y pide que te la reenvíen. Sin ella, puede que no tengas cómo probar a tu empleador que puedes trabajar."
+},
+"card-was-returned-to-uscis": {
+"en": "USCIS got your DACA work permit card back from the post office. Contact USCIS to confirm your correct address and request that it be mailed again. Act soon, because returned cards are not held forever and you may otherwise need to file for a replacement.",
+"es": "USCIS recibió de regreso tu tarjeta de permiso de trabajo por DACA. Comunícate con USCIS para confirmar tu dirección correcta y pedir que te la vuelvan a mandar. Hazlo pronto, porque no guardan las tarjetas devueltas para siempre y podrías tener que pedir un reemplazo."
+},
+"notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+"en": "A DACA letter could not be delivered and went back to USCIS. It might be a biometrics notice or an evidence request with a deadline, which can put your renewal at risk. Update your address and contact USCIS to find out what was sent.",
+"es": "Una carta de tu DACA no se pudo entregar y regresó a USCIS. Puede ser un aviso de biométricos o una petición de pruebas con fecha límite, lo que podría afectar tu renovación. Actualiza tu dirección y comunícate con USCIS para saber qué te mandaron."
+},
+"card-was-received-by-uscis-along-with-my-letter": {
+"en": "USCIS received a DACA work permit card you sent back with a letter, usually to fix a printing error such as a misspelled name or wrong date. They will review the request and send a corrected card if the error was theirs. Keep a copy of the letter you sent.",
+"es": "USCIS recibió una tarjeta de permiso de trabajo de DACA que regresaste con una carta, casi siempre para corregir un error como un nombre mal escrito o una fecha equivocada. Van a revisar y mandarte una tarjeta corregida si el error fue de ellos. Guarda copia de tu carta."
+},
+"date-of-birth-was-updated": {
+"en": "USCIS corrected your date of birth on the DACA record. Age matters in DACA eligibility, and the date also prints on your work permit card, so confirm it matches your birth certificate. If a card was already printed with the old date, ask for a corrected one.",
+"es": "USCIS corrigió tu fecha de nacimiento en DACA. La edad importa para calificar a DACA y esa fecha también sale en tu tarjeta de permiso de trabajo, así que confirma que coincida con tu acta de nacimiento. Si ya imprimieron una tarjeta con la fecha vieja, pide que la corrijan."
+},
+"continuation-notice-was-mailed": {
+"en": "USCIS put your DACA request on hold for a reason explained in the notice. It may be waiting on records, a background check, or a policy update from court rulings on DACA. Read the notice for any action you need to take and keep your address current.",
+"es": "USCIS dejó en pausa tu solicitud de DACA por una razón que explica el aviso. Puede estar esperando registros, una revisión de antecedentes o cambios por decisiones de la corte sobre DACA. Lee el aviso por si debes hacer algo y mantén tu dirección al día."
+},
+"termination-notice-sent": {
+"en": "USCIS ended your DACA. This can happen, for example, after certain arrests or convictions, or after travel abroad without advance parole. When DACA ends, the work permit tied to it usually ends too. Contact an immigration attorney or accredited representative as soon as possible.",
+"es": "USCIS terminó tu DACA. Puede pasar, por ejemplo, después de ciertos arrestos o condenas, o por viajar fuera sin permiso de viaje (advance parole). Cuando termina el DACA, normalmente también termina el permiso de trabajo ligado a él. Busca cuanto antes a un abogado de inmigración o representante acreditado."
+},
+"case-closed-benefit-received-by-other-means": {
+"en": "USCIS closed your DACA request because you already have another status or benefit, such as a green card or a different status that replaces the need for deferred action. Check your other case records and keep proof of your current status, since DACA papers no longer apply.",
+"es": "USCIS cerró tu solicitud de DACA porque ya tienes otro estatus o beneficio, como una green card u otro estatus que ya no hace necesaria la acción diferida. Revisa tus otros casos y guarda la prueba de tu estatus actual, porque los papeles de DACA ya no aplican."
+},
+"expedite-request-denied": {
+"en": "USCIS will not speed up your DACA case, but it stays in line as before. If your work permit is about to end, talk with your employer early. You can ask again only if your situation changes and you have new proof that meets the criteria.",
+"es": "USCIS no va a acelerar tu caso de DACA, pero sigue en la fila igual que antes. Si tu permiso de trabajo está por vencer, habla con tu empleador con tiempo. Solo puedes volver a pedirlo si cambia tu situación y tienes pruebas nuevas que cumplan los criterios."
+},
+"correspondence-was-received-and-uscis-is-reviewing-it": {
+"en": "USCIS received a letter or documents you sent about your DACA request, for example an address change or an added school record. An officer will add it to your file. If you also changed details for the work permit, mention the I-765 receipt number in any follow-up.",
+"es": "USCIS recibió una carta o papeles que mandaste sobre tu DACA, por ejemplo un cambio de dirección o una constancia escolar adicional. Un oficial lo agregará a tu expediente. Si también cambiaste datos del permiso de trabajo, menciona el número de recibo del I-765 en cualquier seguimiento."
+}
+}

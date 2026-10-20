@@ -1,0 +1,174 @@
+{
+ "case-was-received": {
+  "en": "USCIS has your N-600 for a Certificate of Citizenship. Remember, the certificate only proves citizenship you already have through a U.S. citizen parent; it does not make you a citizen. While you wait, a U.S. passport can also serve as proof of citizenship if you qualify.",
+  "es": "USCIS tiene tu N-600 para el Certificado de Ciudadanía. Recuerda: el certificado solo prueba la ciudadanía que ya tienes por tu padre o madre ciudadano; no te convierte en ciudadano. Mientras esperas, un pasaporte estadounidense también puede servir como prueba de ciudadanía si calificas."
+ },
+ "case-was-received-and-a-receipt-notice-was-sent": {
+  "en": "Your I-797C receipt for the N-600 is in the mail. Keep it with your parent's birth or naturalization records and your own birth certificate, since the officer may ask to see originals later. If you file for more than one child, each child gets a separate receipt.",
+  "es": "Tu recibo I-797C del N-600 viene por correo. Guárdalo junto con el acta de nacimiento o naturalización de tu padre o madre y tu propia acta, porque el oficial puede pedir los originales después. Si presentas por varios hijos, cada uno recibe su propio recibo."
+ },
+ "fingerprint-fee-was-received": {
+  "en": "USCIS recorded the biometrics part of your N-600 payment. Biometrics are not needed in every N-600; when requested, they are used to confirm identity before the certificate is issued. Watch your mail for an appointment notice.",
+  "es": "USCIS registró la parte de biométricos de tu pago del N-600. No todos los casos N-600 necesitan biométricos; cuando los piden, sirven para confirmar tu identidad antes de emitir el certificado. Espera por correo el aviso de cita y guarda tu recibo."
+ },
+ "fingerprint-review-was-completed": {
+  "en": "The fingerprint check on your N-600 is complete. The officer can now focus on the main question: whether you met the legal rules to get citizenship through your parent, such as age, custody and residence. An interview or decision may come next.",
+  "es": "La revisión de huellas de tu N-600 terminó. Ahora el oficial puede enfocarse en lo principal: si cumpliste las reglas para obtener la ciudadanía por tu padre o madre, como edad, custodia y residencia. Después puede venir una entrevista o la decisión."
+ },
+ "case-is-being-actively-reviewed-by-uscis": {
+  "en": "An officer is reviewing your N-600. They compare your parent's citizenship proof, your birth record, and, if relevant, your green card and custody documents against the law in force when you were born or turned 18. They may decide without an interview or schedule one.",
+  "es": "Un oficial está revisando tu N-600. Compara la prueba de ciudadanía de tu padre o madre, tu acta de nacimiento y, si aplica, tu green card y documentos de custodia con la ley vigente cuando naciste o cumpliste 18. Puede decidir sin entrevista o darte cita."
+ },
+ "case-is-ready-to-be-scheduled-for-an-interview": {
+  "en": "Your N-600 is waiting for an interview date at a local USCIS office. Not every N-600 needs one; the officer has decided to meet in person. Start gathering original documents now: your parent's citizenship proof, birth certificates and any marriage or custody papers.",
+  "es": "Tu N-600 espera fecha de entrevista en una oficina local de USCIS. No todos los N-600 la necesitan; el oficial decidió verte en persona. Empieza a juntar los originales: prueba de ciudadanía de tu padre o madre, actas de nacimiento y papeles de matrimonio o custodia."
+ },
+ "interview-was-scheduled": {
+  "en": "Your N-600 interview is set. Unlike naturalization, there is no English or civics test; the officer checks how you got citizenship through your parent. Bring every original listed on the notice. A U.S. citizen parent may need to come, especially if you are under 18.",
+  "es": "Ya tienes cita de entrevista del N-600. A diferencia de la naturalización, no hay examen de inglés ni de civismo; el oficial revisa cómo obtuviste la ciudadanía por tu padre o madre. Lleva todos los originales del aviso. Si eres menor de 18, tu padre o madre ciudadano quizá deba ir."
+ },
+ "interview-was-completed-and-my-case-must-be-reviewed": {
+  "en": "Your N-600 interview is done, but the officer needs more time, maybe to check records or wait for documents. If approved, applicants 14 and older usually take the Oath of Allegiance before receiving the certificate. Watch for a request for evidence or an oath notice.",
+  "es": "Tu entrevista del N-600 terminó, pero el oficial necesita más tiempo, quizá para revisar registros o esperar documentos. Si lo aprueban, los solicitantes de 14 años o más normalmente hacen el Juramento de Lealtad antes de recibir el certificado. Espera una petición de evidencia o un aviso de juramento."
+ },
+ "request-for-additional-evidence-was-sent": {
+  "en": "USCIS needs more proof for your N-600. Common requests are evidence of your parent's physical presence in the U.S. before your birth, such as school or tax records, or proof of legal custody. Answer by the deadline with the RFE cover sheet on top.",
+  "es": "USCIS necesita más pruebas para tu N-600. Suelen pedir evidencia de que tu padre o madre vivió físicamente en EE.UU. antes de tu nacimiento, como registros escolares o de impuestos, o prueba de custodia legal. Responde antes de la fecha límite con la hoja del RFE encima."
+ },
+ "request-for-initial-evidence-was-sent": {
+  "en": "Your N-600 was missing a basic document, such as your birth certificate, your parent's proof of citizenship, or translations of foreign records. Send exactly what the notice lists before the deadline so the case can move to review.",
+  "es": "A tu N-600 le faltó un documento básico, como tu acta de nacimiento, la prueba de ciudadanía de tu padre o madre o traducciones de documentos extranjeros. Manda justo lo que pide el aviso antes de la fecha límite para que el caso pase a revisión."
+ },
+ "response-to-uscis-request-for-evidence-was-received": {
+  "en": "USCIS has your evidence for the N-600 and the officer will continue the review. Next comes a decision, or an interview if the officer still has questions about how citizenship passed to you. Keep copies of everything you sent.",
+  "es": "USCIS ya tiene tus pruebas del N-600 y el oficial seguirá con la revisión. Después viene una decisión, o una entrevista si el oficial todavía tiene dudas sobre cómo recibiste la ciudadanía de tu padre o madre. Guarda copia de todo lo que mandaste."
+ },
+ "case-was-transferred-and-a-new-office-has-jurisdiction": {
+  "en": "Your N-600 moved to another USCIS office, often the field office closest to you, which will handle any interview and oath. Your receipt number stays the same. Make sure your address is current so the interview notice reaches you.",
+  "es": "Tu N-600 pasó a otra oficina de USCIS, muchas veces la oficina local más cercana, que se encargará de la entrevista y del juramento si hacen falta. Tu número de recibo no cambia. Verifica que tu dirección esté al día para recibir el aviso."
+ },
+ "case-was-approved": {
+  "en": "Your N-600 was approved. Next comes your Certificate of Citizenship. If you are 14 or older, you are usually scheduled to take the Oath of Allegiance first; children under 14 typically receive the certificate without it. Keep the certificate safe, since replacing it takes a separate application.",
+  "es": "Aprobaron tu N-600. Lo que sigue es tu Certificado de Ciudadanía. Si tienes 14 años o más, normalmente te citan primero para el Juramento de Lealtad; los menores de 14 suelen recibir el certificado sin juramento. Cuida mucho el certificado: reponerlo requiere otra solicitud."
+ },
+ "document-was-mailed-to-me": {
+  "en": "USCIS mailed a document for your N-600, often the Certificate of Citizenship or a related notice. When the certificate arrives, check every detail, including name and date of birth. You can use it to apply for a U.S. passport and Social Security updates.",
+  "es": "USCIS mandó por correo un documento de tu N-600, muchas veces el Certificado de Ciudadanía o un aviso relacionado. Cuando llegue el certificado, revisa cada dato, incluido nombre y fecha de nacimiento. Puedes usarlo para sacar pasaporte y actualizar tus datos en el Seguro Social."
+ },
+ "notice-explaining-uscis-actions-was-mailed": {
+  "en": "USCIS mailed a letter about your N-600. It may set an interview, ask for documents, explain a delay or give a decision. Because N-600 cases depend on old family records, read it quickly in case you need time to gather papers.",
+  "es": "USCIS mandó una carta sobre tu N-600. Puede darte cita, pedir documentos, explicar un retraso o dar una decisión. Como el N-600 depende de documentos familiares antiguos, léela rápido por si necesitas tiempo para conseguir papeles."
+ },
+ "case-was-denied": {
+  "en": "Your N-600 was denied. This means USCIS did not find enough proof that you acquired citizenship, not necessarily that you are not a citizen. You can usually appeal with Form I-290B or file again with stronger evidence. An immigration attorney or accredited representative can help weigh the options.",
+  "es": "Te negaron el N-600. Esto significa que USCIS no encontró pruebas suficientes de que adquiriste la ciudadanía, no necesariamente que no seas ciudadano. Normalmente puedes apelar con el Formulario I-290B o presentar de nuevo con mejores pruebas. Un abogado de inmigración o representante acreditado puede ayudarte a decidir."
+ },
+ "case-was-reopened": {
+  "en": "USCIS reopened your N-600, often after a motion or appeal. Your certificate request is pending again. Watch for a new interview notice or a request for evidence. Keep your parent's citizenship proof and your birth record handy, since the officer may ask to see them again.",
+  "es": "USCIS reabrió tu N-600, muchas veces después de una moción o apelación. Tu solicitud de certificado vuelve a estar en trámite. Espera un nuevo aviso de entrevista o una petición de evidencia, y ten a mano los documentos de tu padre o madre."
+ },
+ "case-rejected-because-i-sent-an-incorrect-fee": {
+  "en": "Your N-600 was returned for a wrong payment. The N-600 fee is set by USCIS and some applicants, like certain military members, pay no fee. Check uscis.gov/n-600 for the current amount, fix the payment and refile.",
+  "es": "Te regresaron el N-600 por un pago incorrecto. USCIS fija la tarifa del N-600 y algunos solicitantes, como ciertos militares, no pagan. Revisa la cantidad actual en uscis.gov/n-600, corrige el pago y vuelve a presentarlo."
+ },
+ "expedite-request-received": {
+  "en": "USCIS logged your request to speed up the N-600. Expedites are considered for urgent needs, such as a job or benefit that requires proof of citizenship soon. Have documents ready that show the urgency. A letter from the employer or agency helps.",
+  "es": "USCIS registró tu petición para acelerar el N-600. Consideran acelerar por necesidades urgentes, como un trabajo o beneficio que pide prueba de ciudadanía pronto. Ten listos documentos que muestren la urgencia, como una carta del empleador."
+ },
+ "withdrawal-acknowledgement-notice-was-sent": {
+  "en": "USCIS confirmed you withdrew your N-600. Withdrawing does not take away citizenship you already have; it only stops this certificate request. You can file again later, or use a U.S. passport as proof instead. The fee is not refunded.",
+  "es": "USCIS confirmó que retiraste tu N-600. Retirarlo no te quita la ciudadanía que ya tienes; solo detiene esta solicitud de certificado. Puedes presentar de nuevo después o usar un pasaporte estadounidense como prueba. La tarifa no se reembolsa."
+ },
+ "name-was-updated": {
+  "en": "USCIS updated your name on the N-600 record. The Certificate of Citizenship will be printed with the name on file, so check it matches your legal documents. Fixing a printed certificate later requires a separate request.",
+  "es": "USCIS actualizó tu nombre en el expediente del N-600. El Certificado de Ciudadanía se imprimirá con el nombre registrado, así que revisa que coincida con tus documentos legales. Corregir un certificado ya impreso requiere otra solicitud."
+ },
+ "case-was-received-and-a-receipt-notice-was-emailed": {
+  "en": "You filed the N-600 online and the receipt is in your USCIS account. Upload any later documents through the account. Interview or oath notices will also show up there, so check it regularly. Download the receipt as a PDF.",
+  "es": "Presentaste el N-600 en línea y el recibo está en tu cuenta de USCIS. Sube ahí cualquier documento posterior. Los avisos de entrevista o juramento también aparecerán en tu cuenta, así que revísala seguido. Descarga el recibo en PDF."
+ },
+ "case-accepted-by-the-uscis-lockbox": {
+  "en": "The USCIS lockbox accepted your paper N-600 and is processing payment. A receipt notice comes next. Keep copies of everything you sent, since N-600 evidence like old family records can be hard to replace. Never send originals unless asked.",
+  "es": "El lockbox de USCIS aceptó tu N-600 en papel y está procesando el pago. Lo siguiente es el aviso de recibo. Guarda copias de todo, porque las pruebas del N-600, como documentos familiares antiguos, pueden ser difíciles de reponer."
+ },
+ "fees-were-waived": {
+  "en": "USCIS approved your fee waiver for the N-600. This form is one of those where a fee waiver can be requested if you qualify based on income or hardship. Your case now moves into regular processing.",
+  "es": "USCIS aprobó la exención de pago de tu N-600. Este es uno de los formularios donde puedes pedir exención si calificas por ingresos o dificultades económicas. Tu caso sigue ahora el trámite normal y llegará tu aviso de recibo."
+ },
+ "case-was-rejected-because-it-was-improperly-filed": {
+  "en": "Your N-600 was returned without review. Common reasons include a missing signature, a parent signing for an adult applicant, or an outdated form edition. Fix the problem shown on the notice and file again. The fee is usually returned with it.",
+  "es": "Te regresaron el N-600 sin revisarlo. Razones comunes: falta de firma, que el padre firme por un solicitante adulto o una edición vieja del formulario. Corrige lo que dice el aviso y preséntalo de nuevo."
+ },
+ "biometrics-appointment-was-scheduled": {
+  "en": "USCIS scheduled a biometrics appointment for your N-600. This is not required in every N-600 case. Bring the appointment notice and a photo ID; for a child, a parent should come along with the child's documents.",
+  "es": "USCIS programó una cita de biométricos para tu N-600. No se pide en todos los casos N-600. Lleva el aviso de cita y una identificación con foto; si es un niño, el padre o madre debe acompañarlo con sus documentos."
+ },
+ "case-was-updated-to-show-fingerprints-were-taken": {
+  "en": "USCIS recorded that your biometrics for the N-600 were taken. The officer will continue reviewing your citizenship evidence. An interview, a request for evidence or a decision may follow. Keep the stamped appointment notice as proof you attended.",
+  "es": "USCIS registró que ya te tomaron biométricos para el N-600. El oficial seguirá revisando tus pruebas de ciudadanía. Después puede venir una entrevista, una petición de evidencia o la decisión. Guarda el comprobante de tu cita."
+ },
+ "interview-was-rescheduled": {
+  "en": "Your N-600 interview has a new date. Read the new notice for the time and office. Bring the same original documents, and if a parent was meant to attend, make sure they can make the new date.",
+  "es": "Tu entrevista del N-600 tiene una nueva fecha. Lee el nuevo aviso para ver la hora y la oficina. Lleva los mismos documentos originales y, si tu padre o madre debía ir, confirma que pueda asistir en la nueva fecha."
+ },
+ "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+  "en": "USCIS shows no one came to the N-600 appointment. Missing it can lead to denial for abandonment. Contact USCIS right away to explain and ask for a new date, and keep any proof of why you could not attend.",
+  "es": "USCIS indica que nadie fue a la cita del N-600. Faltar puede llevar a negación por abandono. Comunícate con USCIS de inmediato para explicar y pedir nueva fecha, y guarda cualquier prueba de por qué no pudiste ir."
+ },
+ "oath-ceremony-will-be-scheduled": {
+  "en": "Your N-600 is approved and USCIS will set an oath appointment. For N-600 applicants 14 and older, taking the Oath of Allegiance is usually the step where you receive your Certificate of Citizenship. Watch for the notice with the date and place.",
+  "es": "Tu N-600 está aprobado y USCIS te dará cita para el juramento. Para solicitantes del N-600 de 14 años o más, el Juramento de Lealtad suele ser el paso donde recibes tu Certificado de Ciudadanía. Espera el aviso con fecha y lugar."
+ },
+ "oath-ceremony-notice-was-mailed": {
+  "en": "Your N-600 oath notice is in the mail. Bring the notice and photo ID. After you take the Oath of Allegiance, you normally receive your Certificate of Citizenship the same day. Review it before you leave in case something needs fixing.",
+  "es": "Tu aviso de juramento del N-600 viene por correo. Lleva el aviso y una identificación con foto. Después del Juramento de Lealtad, normalmente recibes tu Certificado de Ciudadanía ese mismo día. Revísalo antes de salir por si algo necesita corrección."
+ },
+ "case-was-approved-and-my-decision-was-emailed": {
+  "en": "Your N-600 approval is in your USCIS online account. Next comes the certificate step: an oath appointment if you are 14 or older, or the certificate itself if you are younger. Watch your account and mail for the next notice.",
+  "es": "Tu aprobación del N-600 está en tu cuenta de USCIS en línea. Lo que sigue es el paso del certificado: una cita de juramento si tienes 14 años o más, o el certificado directamente si eres menor."
+ },
+ "case-approval-was-certified-by-uscis": {
+  "en": "USCIS certified the approval of your N-600. This is an internal confirmation step. Your Certificate of Citizenship will be issued as approved, after the oath if one is required for your age. Watch for the oath or mailing notice.",
+  "es": "USCIS certificó la aprobación de tu N-600. Es un paso interno de confirmación. Tu Certificado de Ciudadanía se emitirá como se aprobó, después del juramento si por tu edad te corresponde hacerlo. Espera el aviso de juramento o de envío."
+ },
+ "response-to-uscis-notice-of-intent-was-received": {
+  "en": "USCIS received your reply to its notice of intent on the N-600. That notice means the officer was leaning toward denial, often over proof of your parent's time in the U.S. An immigration attorney or accredited representative can help if more steps follow.",
+  "es": "USCIS recibió tu respuesta al aviso de intención sobre tu N-600. Ese aviso significa que el oficial pensaba negar, muchas veces por la prueba del tiempo que tu padre o madre vivió en EE.UU. Un abogado de inmigración o representante acreditado puede ayudarte si hay más pasos."
+ },
+ "case-is-pending-at-a-local-office": {
+  "en": "Your N-600 is at a local USCIS field office. This is where interviews and oath ceremonies for certificates usually happen. Keep your address current and watch for an interview or oath notice. Have your original documents ready.",
+  "es": "Tu N-600 está en una oficina local de USCIS. Ahí normalmente se hacen las entrevistas y los juramentos para los certificados. Mantén tu dirección al día y espera un aviso de entrevista o de juramento."
+ },
+ "duplicate-notice-was-mailed": {
+  "en": "USCIS mailed a copy of a notice for your N-600. It is a duplicate, not a new decision or a certificate. Compare it with your earlier notices and keep it in your file. Keep the newest copy on top.",
+  "es": "USCIS mandó una copia de un aviso de tu N-600. Es un duplicado, no una nueva decisión ni un certificado. Compáralo con tus avisos anteriores y guárdalo en tu expediente junto con tus pruebas de ciudadanía."
+ },
+ "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+  "en": "A notice for your N-600 came back to USCIS undelivered. It may be an interview or oath appointment. Update your address online or with Form AR-11 and ask USCIS to resend it, so you do not miss a date.",
+  "es": "Un aviso de tu N-600 regresó a USCIS sin entregarse. Puede ser una cita de entrevista o de juramento. Actualiza tu dirección en línea o con el Formulario AR-11 y pide que lo reenvíen, para no perder una fecha."
+ },
+ "date-of-birth-was-updated": {
+  "en": "USCIS corrected your date of birth on the N-600 record. Your age matters a lot in this form, since citizenship through a parent depends on being under 18 at key moments. Check that the certificate shows the right date.",
+  "es": "USCIS corrigió tu fecha de nacimiento en el expediente del N-600. Tu edad importa mucho en este formulario, porque la ciudadanía por un padre depende de tener menos de 18 en momentos clave. Revisa que el certificado muestre la fecha correcta."
+ },
+ "continuation-notice-was-mailed": {
+  "en": "USCIS sent a continuation notice for your N-600. It usually means the case is still open and more steps are coming, such as an interview. It is not a decision. Keep your original documents ready.",
+  "es": "USCIS mandó un aviso de continuación de tu N-600. Normalmente significa que el caso sigue abierto y vienen más pasos, como una entrevista. No es una decisión. Ten listos tus documentos originales por si te citan."
+ },
+ "termination-notice-sent": {
+  "en": "USCIS sent a termination notice on your N-600. This is uncommon for a certificate request. Read the notice carefully to see why the case was ended, and speak with an immigration attorney or accredited representative about your next step.",
+  "es": "USCIS mandó un aviso de terminación sobre tu N-600. Esto es poco común en una solicitud de certificado. Lee el aviso con cuidado para saber por qué terminaron el caso y habla con un abogado de inmigración o representante acreditado sobre el siguiente paso."
+ },
+ "case-closed-benefit-received-by-other-means": {
+  "en": "USCIS closed your N-600 because you already have proof of citizenship another way, for example a certificate issued earlier or an N-600K. Keep that document safe; you do not need a second certificate. A replacement uses Form N-565.",
+  "es": "USCIS cerró tu N-600 porque ya tienes prueba de ciudadanía por otra vía, por ejemplo un certificado emitido antes o un N-600K. Cuida bien ese documento; no necesitas un segundo certificado de ciudadanía. Para reponerlo se usa el Formulario N-565."
+ },
+ "expedite-request-denied": {
+  "en": "USCIS will not speed up your N-600. The case stays in the normal line. If you need proof of citizenship sooner, ask whether a U.S. passport application could meet that need while you wait. Keep your address current.",
+  "es": "USCIS no va a acelerar tu N-600. El caso sigue en la fila normal. Si necesitas prueba de ciudadanía antes, pregunta si una solicitud de pasaporte estadounidense podría servirte mientras esperas el certificado. Mantén tu dirección al día."
+ },
+ "correspondence-was-received-and-uscis-is-reviewing-it": {
+  "en": "USCIS received a letter or documents you sent about your N-600, such as a new address or extra family records. An officer will review them and add them to your file. Keep a copy of what you sent.",
+  "es": "USCIS recibió una carta o documentos que mandaste sobre tu N-600, como una nueva dirección o más documentos familiares. Un oficial los revisará y los agregará a tu expediente. Guarda una copia de lo que enviaste."
+ }
+}

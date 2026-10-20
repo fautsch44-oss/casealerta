@@ -1,0 +1,174 @@
+{
+  "case-was-received": {
+    "en": "USCIS has your I-765 and logged it under a receipt number. Keep the I-797C receipt notice: it shows your eligibility category, such as (c)(9) for a pending green card or (c)(8) for asylum. For some renewal categories, the receipt plus your old EAD may help prove work permission for a while; check uscis.gov for your category.",
+    "es": "USCIS ya tiene tu I-765 y le dio un número de recibo. Guarda el aviso de recibo I-797C: ahí aparece tu categoría, como (c)(9) si tienes una green card en trámite o (c)(8) si es por asilo. En algunas renovaciones, el recibo junto con tu EAD anterior puede ayudarte a probar que puedes trabajar; revisa uscis.gov para tu categoría."
+  },
+  "case-was-received-and-a-receipt-notice-was-sent": {
+    "en": "Your work permit request is logged and the paper I-797C receipt is in the mail. When it arrives, check that your name, date of birth and eligibility category are correct, because the EAD card will be printed from that data. Next, USCIS may schedule biometrics or reuse fingerprints already on file.",
+    "es": "Tu solicitud de permiso de trabajo quedó registrada y el recibo I-797C en papel viene por correo. Cuando llegue, revisa que tu nombre, fecha de nacimiento y categoría estén bien, porque la tarjeta EAD se imprime con esos datos. Después, USCIS puede citarte a biométricos o usar huellas que ya tenga."
+  },
+  "fingerprint-fee-was-received": {
+    "en": "This status is uncommon on a stand-alone I-765, since the work permit filing usually has no separate biometrics fee. It often appears when the I-765 travels with an I-485 or a TPS filing that does carry one. Watch your mail: an appointment notice for photos, signature and fingerprints for the EAD card may follow.",
+    "es": "Este estatus no es tan común en un I-765 solo, porque el permiso de trabajo casi nunca lleva cuota aparte de biométricos. Suele salir cuando el I-765 va junto con un I-485 o un TPS que sí la incluye. Revisa tu correo: puede llegar una cita para foto, firma y huellas para la tarjeta EAD."
+  },
+  "fingerprint-review-was-completed": {
+    "en": "USCIS finished checking the fingerprints tied to your work permit request. For an I-765, those prints and the photo are also used to make the EAD card itself. The next step is the officer's decision on eligibility; after approval, card production usually follows on its own.",
+    "es": "USCIS terminó de revisar las huellas ligadas a tu solicitud de permiso de trabajo. En el I-765, esas huellas y la foto también sirven para fabricar la tarjeta EAD. Lo que sigue es la decisión del oficial sobre tu elegibilidad; si la aprueban, la producción de la tarjeta suele empezar sola."
+  },
+  "case-is-being-actively-reviewed-by-uscis": {
+    "en": "An officer is reviewing your I-765. Many work permit cases sit in this status for a long time, and it does not signal a problem. If the EAD is based on a pending case, such as an I-485 or asylum, the officer also confirms that case is still open. Compare your wait with the typical range shown on this page.",
+    "es": "Un oficial está revisando tu I-765. Muchos permisos de trabajo se quedan mucho tiempo en este estatus y eso no indica un problema. Si tu EAD depende de otro caso en trámite, como un I-485 o un asilo, el oficial también revisa que siga abierto. Compara tu espera con el rango típico de esta página."
+  },
+  "request-for-additional-evidence-was-sent": {
+    "en": "USCIS wants more proof before deciding your work permit. Common I-765 requests ask for a passport-style photo, proof of your eligibility category, or proof of the underlying case, like an asylum receipt. Answer by the deadline on the letter, send everything in one package, and include the RFE cover page on top.",
+    "es": "USCIS pide más pruebas antes de decidir tu permiso de trabajo. En el I-765 suelen pedir fotos tipo pasaporte, prueba de tu categoría o prueba del caso del que depende, como un recibo de asilo. Responde antes de la fecha límite de la carta, manda todo en un solo paquete y pon la hoja del RFE encima."
+  },
+  "request-for-initial-evidence-was-sent": {
+    "en": "Something basic was missing from your I-765 filing. Often it is the photos, a copy of a prior EAD or ID, or the document that proves your category. Send exactly what the notice lists before the deadline. If you do not answer, USCIS can deny the work permit and you would need to file again.",
+    "es": "Faltó algo básico en tu I-765. Muchas veces son las fotos, copia de tu EAD anterior o identificación, o el documento que prueba tu categoría. Manda justo lo que dice el aviso antes de la fecha límite. Si no respondes, USCIS puede negar el permiso de trabajo y tendrías que presentarlo otra vez."
+  },
+  "response-to-uscis-request-for-evidence-was-received": {
+    "en": "USCIS has the documents you sent for your work permit request. The officer will now look at them together with the rest of your I-765. If everything checks out, the next status is usually an approval followed by EAD card production. Keep your mailing receipt in case you need to show when you replied.",
+    "es": "USCIS ya tiene los documentos que mandaste para tu permiso de trabajo. El oficial los revisará junto con el resto de tu I-765. Si todo está bien, lo siguiente suele ser la aprobación y luego la producción de la tarjeta EAD. Guarda el comprobante de envío por si necesitas probar cuándo respondiste."
+  },
+  "case-was-transferred-and-a-new-office-has-jurisdiction": {
+    "en": "Your I-765 moved to another USCIS office, which is common when work permit cases are rebalanced between service centers. Your receipt number stays the same. If your EAD is tied to an I-485, the two cases are sometimes moved together so one office can decide both.",
+    "es": "Tu I-765 pasó a otra oficina de USCIS. Es común cuando reparten permisos de trabajo entre centros de servicio. Tu número de recibo no cambia. Si tu EAD está ligado a un I-485, a veces mueven los dos casos juntos para que una sola oficina los decida."
+  },
+  "case-was-approved": {
+    "en": "Your work permit was approved. The next statuses should show the EAD card being produced and then mailed. The validity dates are printed on the card and depend on your category. If you filed for a combo card with advance parole, it may serve as both work and travel permission.",
+    "es": "Tu permiso de trabajo fue aprobado. Los siguientes estatus deben mostrar que la tarjeta EAD se está fabricando y luego que la enviaron. Las fechas de validez vienen en la tarjeta y dependen de tu categoría. Si pediste la tarjeta combinada con permiso de viaje, puede servir para trabajar y para viajar."
+  },
+  "new-card-is-being-produced": {
+    "en": "USCIS is printing your Employment Authorization Document. This step usually comes right after approval. When the card arrives, check your name, birth date and category code on the front. If something is wrong due to a USCIS error, you can ask for a corrected card.",
+    "es": "USCIS está imprimiendo tu Documento de Autorización de Empleo. Este paso suele venir justo después de la aprobación. Cuando llegue la tarjeta, revisa tu nombre, fecha de nacimiento y código de categoría. Si hay un error que fue culpa de USCIS, puedes pedir una tarjeta corregida."
+  },
+  "card-was-mailed-to-me": {
+    "en": "Your EAD work permit card is in the mail to the address USCIS has on file. A USPS tracking number often appears in your online account. Once it arrives, you can show it to an employer for the I-9 form. Sign up for USPS Informed Delivery to see when it is coming.",
+    "es": "Tu tarjeta de permiso de trabajo EAD va en camino a la dirección que USCIS tiene registrada. Muchas veces aparece un número de rastreo de USPS en tu cuenta en línea. Cuando llegue, puedes mostrarla a tu empleador para el formulario I-9. Inscríbete en Informed Delivery de USPS para ver cuándo llega."
+  },
+  "card-was-picked-up-by-the-united-states-postal-service": {
+    "en": "The post office now has your EAD card. Use the USPS tracking number from your case to follow it. Work permit cards travel in a plain USCIS envelope, so check your mailbox carefully and make sure your name is on it. Delivery usually takes a few days.",
+    "es": "El correo ya tiene tu tarjeta EAD. Usa el número de rastreo de USPS de tu caso para seguirla. Las tarjetas de permiso de trabajo vienen en un sobre sencillo de USCIS, así que revisa bien tu buzón y que tu nombre esté puesto. La entrega suele tardar pocos días."
+  },
+  "card-was-delivered-to-me-by-the-post-office": {
+    "en": "USPS reports your EAD card as delivered. Check your mailbox, neighbors and building office. If you cannot find it, ask the post office first. USCIS has a process for cards that were not received, but there is a time limit to request a replacement without a new fee.",
+    "es": "USPS dice que tu tarjeta EAD fue entregada. Revisa tu buzón, con vecinos y en la oficina del edificio. Si no la encuentras, pregunta primero en el correo. USCIS tiene un proceso para tarjetas no recibidas, pero hay un plazo para pedir reemplazo sin pagar otra vez."
+  },
+  "document-was-mailed-to-me": {
+    "en": "For an I-765, the main item is a card, so this status usually means a paper notice was mailed, such as an approval, denial or other decision letter. If your case was approved, look for separate card statuses. Read the notice as soon as it arrives.",
+    "es": "En el I-765 lo principal es una tarjeta, así que este estatus normalmente significa que enviaron un aviso en papel, como una aprobación, una negación u otra carta de decisión. Si te aprobaron, busca estatus aparte sobre la tarjeta. Lee el aviso en cuanto llegue."
+  },
+  "notice-explaining-uscis-actions-was-mailed": {
+    "en": "USCIS mailed you a letter about your work permit request. It could be about a missing item, a transfer, or a decision. Read it carefully the day it arrives, because some I-765 notices have short deadlines. If you do not understand it, ask an accredited representative.",
+    "es": "USCIS te mandó una carta sobre tu permiso de trabajo. Puede tratarse de algo que falta, un traslado o una decisión. Léela con calma el mismo día que llegue, porque algunos avisos del I-765 tienen plazos cortos. Si no la entiendes, pregunta a un representante acreditado."
+  },
+  "case-was-denied": {
+    "en": "Your work permit request was denied. The letter explains why. An I-765 denial usually cannot be appealed, but you may be able to file a motion to reopen or reconsider, or file a new I-765 if you still qualify. Stop working if your current permission has ended, and talk to an immigration attorney or accredited representative.",
+    "es": "Te negaron el permiso de trabajo. La carta explica el motivo. La negación de un I-765 casi nunca se puede apelar, pero tal vez puedas pedir que reabran o reconsideren, o presentar un nuevo I-765 si sigues calificando. Deja de trabajar si tu permiso actual ya venció y habla con un abogado de inmigración o un representante acreditado."
+  },
+  "case-was-reopened": {
+    "en": "USCIS reopened your I-765, often after a motion or on its own after finding an error. The work permit request is pending again and will get a new decision. Keep any notice you receive, and watch for requests for documents.",
+    "es": "USCIS reabrió tu I-765, muchas veces después de una moción o por su cuenta al notar un error. Tu solicitud de permiso de trabajo vuelve a estar pendiente y tendrá una nueva decisión. Guarda los avisos que te lleguen y está atento por si te piden documentos."
+  },
+  "case-rejected-because-i-sent-an-incorrect-fee": {
+    "en": "Your I-765 was returned because the fee was wrong. Work permit fees differ by category, and some categories pay nothing on first filing. Check the current fee for your exact category on uscis.gov, fix the payment and file again. A rejected filing does not hold your place in line.",
+    "es": "Te regresaron el I-765 porque la cuota estaba mal. El costo del permiso de trabajo cambia según la categoría, y algunas no pagan la primera vez. Revisa en uscis.gov la cuota actual para tu categoría exacta, corrige el pago y vuelve a presentarlo. Un caso rechazado no guarda tu lugar en la fila."
+  },
+  "expedite-request-received": {
+    "en": "USCIS logged your request to speed up the work permit. Expedites for an I-765 are sometimes granted for severe financial loss, like losing a job without an EAD, or urgent humanitarian reasons. Proof matters a lot. USCIS decides case by case.",
+    "es": "USCIS registró tu solicitud para acelerar el permiso de trabajo. A veces aceptan acelerar un I-765 por pérdida económica grave, como perder el empleo por no tener EAD, o por razones humanitarias urgentes. Las pruebas importan mucho. USCIS decide caso por caso."
+  },
+  "withdrawal-acknowledgement-notice-was-sent": {
+    "en": "USCIS confirmed that your I-765 was withdrawn. The work permit request is closed and no card will be made. Fees are usually not returned. If you still need to work legally later, you would have to file a new I-765 under a category you qualify for.",
+    "es": "USCIS confirmó que retiraste tu I-765. La solicitud de permiso de trabajo quedó cerrada y no harán tarjeta. Normalmente no devuelven la cuota. Si más adelante necesitas trabajar legalmente, tendrías que presentar un nuevo I-765 en una categoría para la que califiques."
+  },
+  "name-was-updated": {
+    "en": "USCIS updated the name on your work permit case. This matters because the EAD card prints the name in the system. If a card was already made with the old name, you may need to request a corrected card. Check the spelling the next time you log in.",
+    "es": "USCIS actualizó el nombre en tu caso de permiso de trabajo. Esto importa porque la tarjeta EAD imprime el nombre que está en el sistema. Si ya hicieron una tarjeta con el nombre anterior, tal vez debas pedir una corregida. Revisa cómo quedó escrito la próxima vez que entres."
+  },
+  "case-was-received-and-a-receipt-notice-was-emailed": {
+    "en": "You filed your I-765 online and the receipt notice is in your USCIS online account. Download it. For many work permit renewals, this receipt plus your expiring EAD is the document employers ask about, so save it where you can find it fast.",
+    "es": "Presentaste tu I-765 en línea y el aviso de recibo está en tu cuenta de USCIS. Descárgalo. En muchas renovaciones de permiso de trabajo, este recibo junto con tu EAD por vencer es lo que preguntan los empleadores, así que guárdalo donde lo encuentres rápido."
+  },
+  "case-accepted-by-the-uscis-lockbox": {
+    "en": "The USCIS lockbox accepted your paper I-765 and processed the payment. A receipt number is next. If you mailed the I-765 together with an I-485, each form gets its own receipt number, so expect more than one notice.",
+    "es": "El lockbox de USCIS aceptó tu I-765 en papel y procesó el pago. Lo siguiente es el número de recibo. Si mandaste el I-765 junto con un I-485, cada formulario recibe su propio número, así que espera más de un aviso."
+  },
+  "fees-were-waived": {
+    "en": "USCIS approved your fee waiver for the work permit request. Your I-765 now moves forward like any other case. Fee waivers apply to certain categories only, so a future renewal under a different category might still require payment.",
+    "es": "USCIS aprobó la exención de cuota para tu permiso de trabajo. Tu I-765 ahora sigue como cualquier otro caso. Las exenciones solo aplican a ciertas categorías, así que una renovación futura en otra categoría podría requerir pago."
+  },
+  "case-was-rejected-because-it-was-improperly-filed": {
+    "en": "Your I-765 was returned without review. Common reasons are a missing signature, an old form edition, the wrong category code, or filing too early for a renewal. Read the rejection notice, fix the problem and file again. Your earlier filing date does not carry over.",
+    "es": "Te regresaron el I-765 sin revisarlo. Razones comunes: falta de firma, versión vieja del formulario, código de categoría equivocado o renovar demasiado pronto. Lee el aviso de rechazo, corrige el problema y preséntalo de nuevo. La fecha de tu envío anterior no cuenta."
+  },
+  "biometrics-appointment-was-scheduled": {
+    "en": "You have an appointment at an Application Support Center for your work permit. They will take your photo, signature and fingerprints, which go on the EAD card. Bring the appointment notice and a photo ID. If you already gave biometrics for another case, USCIS sometimes reuses them instead.",
+    "es": "Tienes cita en un Centro de Apoyo de Solicitudes para tu permiso de trabajo. Te tomarán foto, firma y huellas, que van en la tarjeta EAD. Lleva la carta de la cita y una identificación con foto. Si ya diste biométricos para otro caso, a veces USCIS los reutiliza."
+  },
+  "case-was-updated-to-show-fingerprints-were-taken": {
+    "en": "Your biometrics for the I-765 are on file. USCIS now has the photo and signature it needs to print an EAD card if you are approved. The next step is the officer's review. No action is needed unless you get a letter.",
+    "es": "Tus biométricos para el I-765 ya están registrados. USCIS ya tiene la foto y la firma que necesita para imprimir la tarjeta EAD si te aprueban. Lo que sigue es la revisión del oficial. No tienes que hacer nada salvo que te llegue una carta."
+  },
+  "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+    "en": "USCIS recorded that you missed your biometrics appointment for the work permit. Without photo and fingerprints, it cannot print an EAD card, and the case may be treated as abandoned. Follow the notice right away to reschedule, or explain why you missed it.",
+    "es": "USCIS registró que no fuiste a tu cita de biométricos para el permiso de trabajo. Sin foto ni huellas no pueden imprimir la tarjeta EAD, y el caso podría darse por abandonado. Sigue el aviso de inmediato para reprogramar o explicar por qué faltaste."
+  },
+  "case-was-approved-and-my-decision-was-emailed": {
+    "en": "Your work permit was approved and the approval notice is in your USCIS online account. The physical EAD card still comes by mail, so watch for card production and mailing statuses next. Download the notice and keep a copy.",
+    "es": "Te aprobaron el permiso de trabajo y el aviso de aprobación está en tu cuenta de USCIS. La tarjeta EAD física llega por correo, así que espera los estatus de producción y envío de la tarjeta. Descarga el aviso y guarda una copia."
+  },
+  "case-approval-was-certified-by-uscis": {
+    "en": "This status is rare for an I-765. It means USCIS formally certified the approval on your work permit request. Your next steps are the usual ones: card production and mailing. Check your online account or mail for the notice.",
+    "es": "Este estatus es raro en un I-765. Significa que USCIS certificó formalmente la aprobación de tu permiso de trabajo. Lo que sigue es lo normal: fabricación y envío de la tarjeta. Revisa tu cuenta en línea o tu correo para ver el aviso."
+  },
+  "response-to-uscis-notice-of-intent-was-received": {
+    "en": "USCIS received your reply to a notice saying it planned to deny or end your work permit. The officer will weigh your answer before deciding. Notices of intent on an I-765 are less common, so if you have not already, consider having an attorney review your file.",
+    "es": "USCIS recibió tu respuesta a un aviso donde decía que pensaba negar o terminar tu permiso de trabajo. El oficial revisará tu respuesta antes de decidir. Estos avisos son poco comunes en el I-765, así que, si no lo has hecho, considera que un abogado revise tu expediente."
+  },
+  "duplicate-notice-was-mailed": {
+    "en": "USCIS mailed a copy of a notice from your work permit case. This often happens after you ask for one, or when the first notice was lost. A duplicate receipt notice can help when an employer asks for proof that your I-765 is pending.",
+    "es": "USCIS mandó una copia de un aviso de tu caso de permiso de trabajo. Pasa cuando lo pides o cuando el primero se perdió. Una copia del recibo puede ayudarte cuando un empleador te pide prueba de que tu I-765 está en trámite."
+  },
+  "card-is-being-returned-to-uscis-by-post-office": {
+    "en": "The post office could not deliver your EAD card and is sending it back to USCIS. This usually means an address problem. Update your address with USCIS right away using the online change of address tool, and contact USCIS about resending the card.",
+    "es": "El correo no pudo entregar tu tarjeta EAD y la está regresando a USCIS. Casi siempre es un problema de dirección. Actualiza tu dirección con USCIS de inmediato en la herramienta de cambio de domicilio en línea y contacta a USCIS para que la reenvíen."
+  },
+  "card-was-returned-to-uscis": {
+    "en": "Your EAD card is back at USCIS because it could not be delivered. Without it, you cannot show the card to an employer. Make sure your address is correct with USCIS, then contact them to request that the card be mailed again.",
+    "es": "Tu tarjeta EAD regresó a USCIS porque no se pudo entregar. Sin ella no puedes mostrarla a tu empleador. Asegúrate de que tu dirección esté correcta con USCIS y luego contáctalos para pedir que la vuelvan a enviar."
+  },
+  "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+    "en": "A letter about your work permit came back to USCIS undelivered. It might be an appointment, a request for evidence or a decision. Update your address and ask USCIS what the notice was, since missing a deadline on an I-765 can lead to denial.",
+    "es": "Una carta sobre tu permiso de trabajo regresó a USCIS sin entregarse. Podría ser una cita, una petición de pruebas o una decisión. Actualiza tu dirección y pregunta a USCIS qué decía, porque perder un plazo en un I-765 puede llevar a una negación."
+  },
+  "card-was-received-by-uscis-along-with-my-letter": {
+    "en": "USCIS received the EAD card you sent back with your letter, usually to fix an error on the card. The officer will review your request and, if it was a USCIS mistake, issue a corrected work permit card. Keep copies of what you mailed.",
+    "es": "USCIS recibió la tarjeta EAD que regresaste con tu carta, normalmente para corregir un error. El oficial revisará tu petición y, si fue error de USCIS, emitirá una tarjeta de permiso de trabajo corregida. Guarda copias de lo que mandaste."
+  },
+  "date-of-birth-was-updated": {
+    "en": "USCIS corrected the date of birth in your work permit case. That date prints on the EAD card and must match your other IDs for the I-9 and Social Security. If a card was already printed with the wrong date, ask about a corrected card.",
+    "es": "USCIS corrigió la fecha de nacimiento en tu caso de permiso de trabajo. Esa fecha va en la tarjeta EAD y debe coincidir con tus otras identificaciones para el I-9 y el Seguro Social. Si ya imprimieron una tarjeta con la fecha mal, pregunta por una corregida."
+  },
+  "continuation-notice-was-mailed": {
+    "en": "USCIS mailed a notice that continues or extends something in your work permit case. For some I-765 categories, such notices have been used to extend EAD validity. Read the dates on it carefully and keep it with your current card for your employer.",
+    "es": "USCIS mandó un aviso que continúa o extiende algo en tu caso de permiso de trabajo. En algunas categorías del I-765 estos avisos se han usado para extender la validez de la EAD. Lee bien las fechas y guárdalo junto a tu tarjeta para tu empleador."
+  },
+  "termination-notice-sent": {
+    "en": "USCIS sent a notice ending your work permission. This can happen when the case your EAD depends on, like an asylum or green card application, is denied or closed. Read the notice carefully, stop working if it says so, and talk to an immigration attorney or accredited representative quickly.",
+    "es": "USCIS mandó un aviso que termina tu permiso de trabajo. Puede pasar cuando el caso del que depende tu EAD, como un asilo o una green card, se niega o se cierra. Lee el aviso con cuidado, deja de trabajar si así lo indica y habla pronto con un abogado de inmigración o un representante acreditado."
+  },
+  "case-closed-benefit-received-by-other-means": {
+    "en": "USCIS closed your I-765 because you got work permission another way. Most often this means your green card was approved, which already lets you work. In that case you no longer need a separate EAD card.",
+    "es": "USCIS cerró tu I-765 porque ya tienes permiso para trabajar por otra vía. Lo más común es que te aprobaron la green card, que ya te permite trabajar. En ese caso ya no necesitas una tarjeta EAD aparte."
+  },
+  "expedite-request-denied": {
+    "en": "USCIS decided not to speed up your work permit request. Your I-765 stays in the normal line, and the denial of the expedite does not hurt the case. You can ask again later only if you have new, stronger proof of urgency.",
+    "es": "USCIS decidió no acelerar tu permiso de trabajo. Tu I-765 sigue en la fila normal, y negar la aceleración no perjudica el caso. Puedes pedirlo otra vez más adelante solo si tienes pruebas nuevas y más fuertes de urgencia."
+  },
+  "correspondence-was-received-and-uscis-is-reviewing-it": {
+    "en": "USCIS received a letter or document you sent about your work permit and is reviewing it. This could be an address change, a photo, or an update about the case your EAD depends on. Wait for a reply before sending the same thing again.",
+    "es": "USCIS recibió una carta o documento que mandaste sobre tu permiso de trabajo y lo está revisando. Puede ser un cambio de dirección, una foto o una novedad del caso del que depende tu EAD. Espera respuesta antes de mandar lo mismo otra vez."
+  }
+}

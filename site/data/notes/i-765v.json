@@ -1,0 +1,178 @@
+{
+  "case-was-received": {
+    "en": "USCIS has your I-765V, the work permit request for abused spouses of A, E-3, G or H visa holders. There is no filing fee for this form. Federal confidentiality rules protect information in this type of case, and USCIS should not contact your abuser about it. Keep the receipt in a safe place.",
+    "es": "USCIS ya tiene tu I-765V, la solicitud de permiso de trabajo para cónyuges maltratados de personas con visa A, E-3, G o H. Este formulario no tiene cuota. Reglas federales de confidencialidad protegen la información de este tipo de caso, y USCIS no debe contactar a tu agresor sobre él. Guarda el recibo en un lugar seguro."
+  },
+  "case-was-received-and-a-receipt-notice-was-sent": {
+    "en": "Your I-765V is logged and the paper receipt is in the mail. Make sure it goes to a safe address that your abuser cannot reach. If you need to change the address, update it with USCIS right away, since the EAD card will be mailed there too.",
+    "es": "Tu I-765V quedó registrado y el recibo en papel viene por correo. Asegúrate de que vaya a una dirección segura donde tu agresor no tenga acceso. Si necesitas cambiarla, actualízala de inmediato con USCIS, porque ahí también enviarán la tarjeta EAD."
+  },
+  "fingerprint-fee-was-received": {
+    "en": "This status is unusual for an I-765V, because the form has no filing fee and fingerprints are taken only if USCIS asks for them. If you see it, check that the receipt number is yours and watch your safe mailing address for an appointment notice.",
+    "es": "Este estatus es raro en el I-765V, porque el formulario no tiene cuota y solo toman huellas si USCIS las pide. Si lo ves, revisa que el número de recibo sea tuyo y pendiente de tu dirección segura por si llega una cita."
+  },
+  "fingerprint-review-was-completed": {
+    "en": "USCIS finished checking your fingerprints for the I-765V. Those prints and the photo may also be used to make your EAD card. The next step is the officer's decision on whether you qualify as an abused spouse of an A, E-3, G or H visa holder.",
+    "es": "USCIS terminó de revisar tus huellas para el I-765V. Esas huellas y la foto también pueden servir para hacer tu tarjeta EAD. Lo siguiente es que el oficial decida si calificas como cónyuge maltratado de alguien con visa A, E-3, G o H."
+  },
+  "case-is-being-actively-reviewed-by-uscis": {
+    "en": "An officer is reviewing your I-765V. They check that you entered as the spouse of an A, E-3, G or H visa holder and that you suffered battery or extreme cruelty during the marriage. Your own statement and any reports or letters help. Compare your wait with the typical range on this page.",
+    "es": "Un oficial está revisando tu I-765V. Revisa que entraste como cónyuge de alguien con visa A, E-3, G o H y que sufriste maltrato o crueldad extrema durante el matrimonio. Tu propia declaración y cualquier reporte o carta ayudan. Compara tu espera con el rango típico de esta página."
+  },
+  "request-for-additional-evidence-was-sent": {
+    "en": "USCIS needs more proof for your I-765V. It may ask for evidence of the marriage, of your spouse's A, E-3, G or H status, or of the abuse, such as police reports, protective orders, medical records, or letters from shelters or counselors. A legal aid group or attorney can help you reply safely and on time.",
+    "es": "USCIS necesita más pruebas para tu I-765V. Puede pedir prueba del matrimonio, del estatus A, E-3, G o H de tu cónyuge o del maltrato, como reportes de policía, órdenes de protección, expedientes médicos o cartas de refugios o consejeros. Una organización de ayuda legal o un abogado te pueden ayudar a responder a tiempo y con seguridad."
+  },
+  "request-for-initial-evidence-was-sent": {
+    "en": "Something basic was missing from your I-765V, such as photos, a copy of your I-94, or your spouse's visa information. Send exactly what the notice lists before the deadline. If some documents are held by your abuser, explain that and send what you can.",
+    "es": "Faltó algo básico en tu I-765V, como fotos, copia de tu I-94 o datos de la visa de tu cónyuge. Manda justo lo que dice el aviso antes del plazo. Si tu agresor tiene algunos documentos, explícalo y manda lo que puedas."
+  },
+  "response-to-uscis-request-for-evidence-was-received": {
+    "en": "USCIS received the documents you sent for your I-765V. The officer will review them with the rest of your request. If they are enough, the next updates are usually an approval and then production of your EAD work permit card.",
+    "es": "USCIS recibió los documentos que mandaste para tu I-765V. El oficial los revisará con el resto de tu solicitud. Si son suficientes, lo siguiente suele ser la aprobación y luego la fabricación de tu tarjeta de permiso de trabajo EAD."
+  },
+  "case-was-transferred-and-a-new-office-has-jurisdiction": {
+    "en": "Your I-765V moved to another USCIS office. The receipt number stays the same, and confidentiality protections for abuse survivors follow the file. You do not need to do anything unless you receive a new notice.",
+    "es": "Tu I-765V pasó a otra oficina de USCIS. El número de recibo no cambia, y las protecciones de confidencialidad para sobrevivientes de maltrato siguen con el expediente. No tienes que hacer nada salvo que te llegue un nuevo aviso."
+  },
+  "case-was-approved": {
+    "en": "Your I-765V was approved, which means you can work legally in the U.S. without depending on your spouse. The next statuses should show the EAD card being produced and mailed. The validity dates are printed on the card. Ask a legal aid group about other long-term options you may have.",
+    "es": "Aprobaron tu I-765V, lo que significa que puedes trabajar legalmente en EE.UU. sin depender de tu cónyuge. Los siguientes estatus deben mostrar que fabrican y envían la tarjeta EAD. Las fechas de validez vienen en la tarjeta. Pregunta a una organización de ayuda legal por otras opciones a largo plazo."
+  },
+  "new-card-is-being-produced": {
+    "en": "USCIS is printing your EAD work permit card from your I-765V. When it arrives, check your name, birth date and dates of validity. This card lets you show an employer that you can work, without needing your spouse's documents.",
+    "es": "USCIS está imprimiendo tu tarjeta de permiso de trabajo EAD por tu I-765V. Cuando llegue, revisa tu nombre, fecha de nacimiento y fechas de validez. Esta tarjeta te permite mostrar a un empleador que puedes trabajar, sin necesitar los documentos de tu cónyuge."
+  },
+  "card-was-mailed-to-me": {
+    "en": "Your EAD card was mailed to the address USCIS has on file. If that address is not safe anymore, act now: update your address with USCIS and contact the post office. Use the tracking number in your case to follow delivery.",
+    "es": "Enviaron tu tarjeta EAD a la dirección que USCIS tiene registrada. Si esa dirección ya no es segura, actúa ya: actualiza tu dirección con USCIS y contacta al correo. Usa el número de rastreo de tu caso para seguir la entrega."
+  },
+  "card-was-picked-up-by-the-united-states-postal-service": {
+    "en": "The post office has your EAD card from your I-765V. Use the USPS tracking number to follow it. If you are worried someone else might take your mail, you can ask the post office about holding it for pickup.",
+    "es": "El correo ya tiene tu tarjeta EAD del I-765V. Usa el número de rastreo de USPS para seguirla. Si te preocupa que alguien más tome tu correo, puedes preguntar en el correo si te la guardan para recogerla."
+  },
+  "card-was-delivered-to-me-by-the-post-office": {
+    "en": "USPS says your EAD card was delivered. If you did not get it, or you think your abuser may have taken it, contact the post office and USCIS quickly. There is a limited time to report a card that was not received.",
+    "es": "USPS dice que entregó tu tarjeta EAD. Si no la recibiste, o crees que tu agresor pudo tomarla, contacta rápido al correo y a USCIS. Hay un tiempo limitado para reportar una tarjeta no recibida."
+  },
+  "document-was-mailed-to-me": {
+    "en": "USCIS mailed a document on your I-765V. Since the main benefit is a card, this is usually a notice, such as an approval or denial letter. Look for separate card statuses if you were approved, and keep the notice somewhere safe.",
+    "es": "USCIS mandó un documento de tu I-765V. Como el beneficio principal es una tarjeta, normalmente es un aviso, como una carta de aprobación o negación. Si te aprobaron, busca estatus aparte sobre la tarjeta, y guarda el aviso en un lugar seguro."
+  },
+  "notice-explaining-uscis-actions-was-mailed": {
+    "en": "USCIS mailed a letter about your I-765V. It may ask for documents, explain a transfer, or give a decision. Make sure it reaches your safe address and read it right away, since some notices have short deadlines.",
+    "es": "USCIS mandó una carta sobre tu I-765V. Puede pedir documentos, explicar un traslado o dar una decisión. Asegúrate de que llegue a tu dirección segura y léela de inmediato, porque algunos avisos tienen plazos cortos."
+  },
+  "case-was-denied": {
+    "en": "Your I-765V was denied. The notice explains why, for example that USCIS could not confirm your spouse's visa status or the abuse. You may be able to file a motion or a new request with more evidence. Contact a legal aid group, immigration attorney or accredited representative, ideally one experienced with abuse survivors.",
+    "es": "Te negaron el I-765V. El aviso explica por qué, por ejemplo que USCIS no pudo confirmar la visa de tu cónyuge o el maltrato. Tal vez puedas pedir una moción o una nueva solicitud con más pruebas. Contacta a una organización de ayuda legal, un abogado de inmigración o un representante acreditado, de preferencia con experiencia en sobrevivientes de maltrato."
+  },
+  "case-was-reopened": {
+    "en": "USCIS reopened your I-765V, often after a motion or new evidence. The work permit request is pending again and will get a new decision. Keep your safe address updated so you receive any new notices.",
+    "es": "USCIS reabrió tu I-765V, muchas veces por una moción o pruebas nuevas. Tu solicitud de permiso de trabajo vuelve a estar pendiente y tendrá nueva decisión. Mantén tu dirección segura actualizada para recibir nuevos avisos."
+  },
+  "case-rejected-because-i-sent-an-incorrect-fee": {
+    "en": "The I-765V normally has no filing fee, so a fee-based rejection is unusual. You may have sent payment that was not needed, or used a different form by mistake. Read the rejection notice carefully, check the form instructions on uscis.gov, and refile.",
+    "es": "El I-765V normalmente no tiene cuota, así que un rechazo por cuota es raro. Tal vez mandaste un pago que no hacía falta o usaste otro formulario por error. Lee bien el aviso de rechazo, revisa las instrucciones en uscis.gov y vuelve a presentarlo."
+  },
+  "expedite-request-received": {
+    "en": "USCIS logged your request to speed up your I-765V. Urgent safety needs or severe financial hardship after leaving an abusive home can be reasons for an expedite. Include proof if you can. USCIS decides case by case.",
+    "es": "USCIS registró tu petición para acelerar tu I-765V. Necesidades urgentes de seguridad o una dificultad económica grave después de salir de un hogar violento pueden ser razones para acelerar. Incluye pruebas si puedes. USCIS decide caso por caso."
+  },
+  "withdrawal-acknowledgement-notice-was-sent": {
+    "en": "USCIS confirmed your I-765V was withdrawn. No work permit will be issued from this request. If you did not withdraw it yourself, or someone pressured you to, contact USCIS and a legal aid group right away.",
+    "es": "USCIS confirmó que retiraste tu I-765V. No emitirán permiso de trabajo por esta solicitud. Si tú no lo retiraste, o alguien te presionó para hacerlo, contacta a USCIS y a una organización de ayuda legal de inmediato."
+  },
+  "name-was-updated": {
+    "en": "USCIS updated your name on the I-765V. This name will be printed on your EAD card. If you changed your name after leaving the marriage, make sure the update matches your new ID documents. Check the spelling next time you log in.",
+    "es": "USCIS actualizó tu nombre en el I-765V. Ese nombre saldrá en tu tarjeta EAD. Si cambiaste tu nombre al dejar el matrimonio, asegúrate de que la actualización coincida con tus nuevas identificaciones. Revisa cómo quedó escrito la próxima vez que entres."
+  },
+  "case-was-received-and-a-receipt-notice-was-emailed": {
+    "en": "Your I-765V receipt is in your USCIS online account. Download it and keep it somewhere private. An online account can be safer than paper mail if your abuser might see your letters, as long as your password is secure.",
+    "es": "El recibo de tu I-765V está en tu cuenta de USCIS. Descárgalo y guárdalo en un lugar privado. Una cuenta en línea puede ser más segura que el correo en papel si tu agresor podría ver tus cartas, siempre que tu contraseña sea segura."
+  },
+  "case-accepted-by-the-uscis-lockbox": {
+    "en": "Your I-765V was accepted at intake. Since there is no fee, no payment was processed. A receipt number comes next, sent to the mailing address on your form, so make sure that address is safe for you.",
+    "es": "Tu I-765V fue aceptado en la recepción. Como no tiene cuota, no se procesó ningún pago. Lo siguiente es un número de recibo que llegará a la dirección de tu formulario, así que asegúrate de que sea segura para ti."
+  },
+  "fees-were-waived": {
+    "en": "The I-765V already has no filing fee, so this status is unusual. It may reflect a fee that was waived for biometrics or another linked form. Read the notice to confirm which receipt number it applies to.",
+    "es": "El I-765V ya no tiene cuota, así que este estatus es raro. Puede tratarse de una cuota de biométricos u otro formulario ligado que te exentaron. Lee el aviso para confirmar a qué número de recibo aplica."
+  },
+  "case-was-rejected-because-it-was-improperly-filed": {
+    "en": "Your I-765V was returned without review. Common reasons are a missing signature, an old form edition, or filing the regular I-765 instead of the I-765V. Fix the problem and refile. Remember this form has no fee.",
+    "es": "Te regresaron el I-765V sin revisarlo. Razones comunes: falta de firma, versión vieja del formulario o usar el I-765 normal en vez del I-765V. Corrige el problema y vuelve a presentarlo. Recuerda que este formulario no tiene cuota."
+  },
+  "biometrics-appointment-was-scheduled": {
+    "en": "You have a biometrics appointment for your I-765V. They will take your photo, signature and fingerprints, which may be used for your EAD card. Bring the notice and photo ID. If the date is unsafe, follow the notice to reschedule.",
+    "es": "Tienes cita de biométricos para tu I-765V. Te tomarán foto, firma y huellas, que pueden usarse para tu tarjeta EAD. Lleva el aviso y una identificación con foto. Si la fecha no es segura para ti, sigue el aviso para reprogramar."
+  },
+  "case-was-updated-to-show-fingerprints-were-taken": {
+    "en": "Your biometrics for the I-765V are on file. USCIS now has the photo and signature needed to print your EAD card if you are approved. The next step is the officer's review. No action is needed unless a letter arrives.",
+    "es": "Tus biométricos del I-765V ya están registrados. USCIS ya tiene la foto y la firma para imprimir tu tarjeta EAD si te aprueban. Lo siguiente es la revisión del oficial. No tienes que hacer nada salvo que llegue una carta."
+  },
+  "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+    "en": "USCIS recorded that you missed your appointment for the I-765V. Without biometrics, USCIS may not be able to finish your case or print the card. Contact USCIS right away to reschedule, and explain if safety kept you from going.",
+    "es": "USCIS registró que faltaste a tu cita del I-765V. Sin biométricos, quizá no puedan terminar tu caso ni imprimir la tarjeta. Contacta a USCIS de inmediato para reprogramar y explica si fue por razones de seguridad."
+  },
+  "case-was-approved-and-my-decision-was-emailed": {
+    "en": "Your I-765V was approved and the approval notice is in your USCIS online account. Download it. The physical EAD card still comes by mail, so watch for card statuses and make sure your safe address is current.",
+    "es": "Aprobaron tu I-765V y el aviso de aprobación está en tu cuenta de USCIS. Descárgalo. La tarjeta EAD física llega por correo, así que espera los estatus de la tarjeta y asegúrate de que tu dirección segura esté al día."
+  },
+  "case-approval-was-certified-by-uscis": {
+    "en": "USCIS certified the approval of your I-765V. This is rare but works like an approval. Your EAD card should be produced and mailed next. Keep the notice as proof that your work permission was granted.",
+    "es": "USCIS certificó la aprobación de tu I-765V. Es raro, pero funciona como una aprobación. Lo siguiente es que fabriquen y envíen tu tarjeta EAD. Guarda el aviso como prueba de que te dieron permiso de trabajo."
+  },
+  "response-to-uscis-notice-of-intent-was-received": {
+    "en": "USCIS received your reply to a notice saying it planned to deny your I-765V. The officer will review it before deciding. If you have not already, ask a legal aid group or attorney experienced with abuse cases to look at your file.",
+    "es": "USCIS recibió tu respuesta a un aviso donde decía que pensaba negar tu I-765V. El oficial la revisará antes de decidir. Si aún no lo has hecho, pide a una organización de ayuda legal o un abogado con experiencia en casos de maltrato que revise tu expediente."
+  },
+  "case-is-pending-at-a-local-office": {
+    "en": "Your I-765V is at a local USCIS office. This is not the usual route for this form. It may mean the office needs to check something. Watch your safe mailing address for a letter or appointment.",
+    "es": "Tu I-765V está en una oficina local de USCIS. No es el camino normal de este formulario. Puede significar que la oficina necesita revisar algo. Revisa tu dirección segura por si llega una carta o una cita."
+  },
+  "duplicate-notice-was-mailed": {
+    "en": "USCIS mailed a copy of a notice from your I-765V. Duplicates are helpful if your original was lost or kept by your abuser. Store it in a safe place with your other important papers. Consider keeping a digital copy too.",
+    "es": "USCIS mandó una copia de un aviso de tu I-765V. Las copias ayudan si el original se perdió o lo guardó tu agresor. Guárdala en un lugar seguro con tus otros papeles importantes. Considera guardar también una copia digital."
+  },
+  "card-is-being-returned-to-uscis-by-post-office": {
+    "en": "The post office could not deliver your EAD card and is sending it back to USCIS. This often happens after a move to a new, safer address. Update your address with USCIS now and ask them to resend the card.",
+    "es": "El correo no pudo entregar tu tarjeta EAD y la está regresando a USCIS. Pasa seguido después de mudarte a una dirección nueva y más segura. Actualiza tu dirección con USCIS ya y pide que reenvíen la tarjeta."
+  },
+  "card-was-returned-to-uscis": {
+    "en": "Your EAD card from the I-765V is back at USCIS because it could not be delivered. Confirm your current safe address with USCIS, then request that the card be mailed again. Keep your approval notice as proof meanwhile.",
+    "es": "Tu tarjeta EAD del I-765V regresó a USCIS porque no se pudo entregar. Confirma con USCIS tu dirección segura actual y luego pide que la vuelvan a enviar. Mientras, guarda tu aviso de aprobación como prueba."
+  },
+  "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+    "en": "A notice about your I-765V came back undelivered. It may have had a deadline. Update your address with USCIS and ask what the notice said, so your work permit request is not denied for lack of a response.",
+    "es": "Un aviso de tu I-765V regresó sin entregarse. Podía tener un plazo. Actualiza tu dirección con USCIS y pregunta qué decía el aviso, para que no nieguen tu permiso de trabajo por falta de respuesta."
+  },
+  "card-was-received-by-uscis-along-with-my-letter": {
+    "en": "USCIS received the EAD card you returned with your letter, usually to fix an error. If the mistake was USCIS's, it should issue a corrected card. Make sure the new card will go to your current safe address.",
+    "es": "USCIS recibió la tarjeta EAD que regresaste con tu carta, casi siempre para corregir un error. Si el error fue de USCIS, debe emitir una tarjeta corregida. Asegúrate de que la nueva llegue a tu dirección segura actual."
+  },
+  "date-of-birth-was-updated": {
+    "en": "USCIS corrected your date of birth on the I-765V. The date prints on your EAD card and must match your other IDs for employers and Social Security. If a card was already made with the wrong date, ask about a corrected one.",
+    "es": "USCIS corrigió tu fecha de nacimiento en el I-765V. La fecha sale en tu tarjeta EAD y debe coincidir con tus otras identificaciones para empleadores y el Seguro Social. Si ya hicieron una tarjeta con la fecha mal, pregunta por una corregida."
+  },
+  "continuation-notice-was-mailed": {
+    "en": "USCIS sent a continuation notice on your I-765V. This is not common for this form. Read the dates and details carefully; it may continue a review or extend something in your case. Ask a legal aid group if it is unclear.",
+    "es": "USCIS mandó un aviso de continuación de tu I-765V. No es común en este formulario. Lee con cuidado las fechas y los detalles; puede continuar una revisión o extender algo en tu caso. Pregunta a una organización de ayuda legal si no está claro."
+  },
+  "termination-notice-sent": {
+    "en": "USCIS sent a notice ending your work permission under the I-765V. Read the reason and the date it takes effect. Stop working if the notice says so, and contact an immigration attorney, accredited representative or legal aid group quickly about other options.",
+    "es": "USCIS mandó un aviso que termina tu permiso de trabajo del I-765V. Lee el motivo y la fecha en que aplica. Deja de trabajar si el aviso lo indica y contacta rápido a un abogado de inmigración, un representante acreditado o una organización de ayuda legal sobre otras opciones."
+  },
+  "case-closed-benefit-received-by-other-means": {
+    "en": "USCIS closed your I-765V because you got work permission another way, for example through a different immigration case. You no longer need this EAD. If you are unsure what status you hold now, check your notices or ask a legal aid group.",
+    "es": "USCIS cerró tu I-765V porque conseguiste permiso de trabajo por otra vía, por ejemplo por otro caso migratorio. Ya no necesitas esta EAD. Si no sabes qué estatus tienes ahora, revisa tus avisos o pregunta a una organización de ayuda legal."
+  },
+  "expedite-request-denied": {
+    "en": "USCIS declined to speed up your I-765V. The request stays in the normal queue, and this decision does not hurt your case. If your safety or finances get worse, you can ask again with new proof.",
+    "es": "USCIS no aceptó acelerar tu I-765V. La solicitud sigue en la fila normal y esta decisión no perjudica tu caso. Si tu seguridad o tu situación económica empeoran, puedes pedirlo otra vez con pruebas nuevas."
+  },
+  "correspondence-was-received-and-uscis-is-reviewing-it": {
+    "en": "USCIS received a letter or documents about your I-765V and is reviewing them. This might be a safe address update or new evidence of the abuse. Wait for a written reply before sending the same papers again.",
+    "es": "USCIS recibió una carta o documentos sobre tu I-765V y los está revisando. Puede ser un cambio a una dirección segura o pruebas nuevas del maltrato. Espera respuesta por escrito antes de mandar los mismos papeles otra vez."
+  }
+}

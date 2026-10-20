@@ -1,0 +1,150 @@
+{
+"case-was-received": {
+"en": "USCIS has the fiancé(e) petition and opened a file. At this point no one has reviewed your proof that you met in person or that you both intend to marry. The foreign fiancé(e) does nothing with USCIS yet; their part comes later at the consulate.",
+"es": "USCIS tiene la petición de prometido(a) y abrió un expediente. Por ahora nadie ha revisado tus pruebas de que se conocieron en persona ni de que los dos quieren casarse. Tu prometido(a) en el extranjero no hace nada con USCIS todavía; su parte viene después en el consulado."
+},
+"case-was-received-and-a-receipt-notice-was-sent": {
+"en": "The I-797C receipt for your I-129F is in the mail. Send a copy to your fiancé(e), since it is handy for tracking and later for the consulate. Keep in mind that a fiancé(e) petition is reviewed by USCIS only on paper; the interview happens abroad.",
+"es": "El recibo I-797C de tu I-129F viene por correo. Mándale una copia a tu prometido(a), porque sirve para dar seguimiento y después en el consulado. Ten en cuenta que USCIS revisa la petición de prometido(a) solo en papel; la entrevista se hace en el extranjero."
+},
+"fingerprint-fee-was-received": {
+"en": "Fingerprints are not a normal step for an I-129F, because the foreign fiancé(e) gives biometrics at the consulate, not to USCIS. If this appears, read the notice to see if it belongs to another form or if USCIS asked the U.S. petitioner for a background check.",
+"es": "Las huellas no son un paso normal del I-129F, porque tu prometido(a) da sus datos biométricos en el consulado, no ante USCIS. Si aparece esto, lee el aviso para ver si es de otro formulario o si USCIS le pidió al peticionario en EE.UU. un chequeo de antecedentes."
+},
+"fingerprint-review-was-completed": {
+"en": "A fingerprint check finished, which is uncommon on a fiancé(e) petition. It most likely relates to the U.S. petitioner, whose criminal history matters for fiancé(e) cases under the IMBRA rules. It is not an approval; the officer still reviews your relationship evidence.",
+"es": "Terminó una revisión de huellas, algo poco común en una petición de prometido(a). Lo más probable es que sea del peticionario en EE.UU., cuyos antecedentes penales importan en estos casos por las reglas de IMBRA. No es una aprobación; el oficial todavía revisa las pruebas de la relación."
+},
+"case-is-being-actively-reviewed-by-uscis": {
+"en": "An officer is checking your I-129F file: that the petitioner is a U.S. citizen, that you are both free to marry, that you met in person within the required period, and the IMBRA disclosures. Most fiancé(e) cases are decided from the paperwork, without an interview in the U.S.",
+"es": "Un oficial está revisando tu I-129F: que el peticionario es ciudadano, que los dos están libres para casarse, que se vieron en persona dentro del periodo exigido y las declaraciones de IMBRA. La mayoría de los casos de prometido(a) se deciden con los papeles, sin entrevista en EE.UU."
+},
+"request-for-additional-evidence-was-sent": {
+"en": "Fiancé(e) RFEs often ask for better proof that you met in person, proof that a prior divorce is final, or details about the petitioner's criminal history or earlier fiancé(e) petitions. Answer every point on the notice before the deadline. If the RFE involves IMBRA waivers, legal help is wise.",
+"es": "Las RFE de prometido(a) suelen pedir mejores pruebas de que se vieron en persona, prueba de que un divorcio anterior es final, o detalles de antecedentes penales del peticionario o de peticiones de prometido(a) anteriores. Contesta cada punto antes de la fecha límite. Si la RFE trata de exenciones de IMBRA, conviene ayuda legal."
+},
+"request-for-initial-evidence-was-sent": {
+"en": "Something required was missing when you filed the I-129F, such as proof of citizenship, signed statements of intent to marry from both of you, or passport photos. Send the missing items with the notice on top, before the deadline, so the petition keeps moving.",
+"es": "Faltó algo obligatorio cuando presentaste el I-129F, como prueba de ciudadanía, las declaraciones firmadas de ambos de que quieren casarse, o las fotos tipo pasaporte. Manda lo que falta con el aviso encima, antes de la fecha límite, para que la petición siga avanzando."
+},
+"response-to-uscis-request-for-evidence-was-received": {
+"en": "USCIS received your answer and the fiancé(e) petition is back with the officer. If the response covered everything, the next change is often an approval. Keep your fiancé(e) informed, and keep their passport valid so the consulate step is not delayed later.",
+"es": "USCIS recibió tu respuesta y la petición de prometido(a) volvió con el oficial. Si la respuesta cubrió todo, el siguiente cambio suele ser una aprobación. Mantén informado a tu prometido(a) y que su pasaporte siga vigente para no atrasar después el paso en el consulado."
+},
+"case-was-transferred-and-a-new-office-has-jurisdiction": {
+"en": "USCIS moved your I-129F to another service center to balance workload. Fiancé(e) petitions are decided at service centers, so this is not a sign of an interview. The petition keeps its original filing date, and the transfer notice names the new office.",
+"es": "USCIS movió tu I-129F a otro centro de servicio para repartir el trabajo. Las peticiones de prometido(a) se deciden en centros de servicio, así que no es señal de entrevista. La petición conserva su fecha original, y el aviso de transferencia dice cuál es la nueva oficina."
+},
+"case-was-approved": {
+"en": "Your fiancé(e) petition is approved. USCIS sends it to the National Visa Center, which forwards it to the U.S. consulate for the K-1 visa interview. The approval is valid for a limited time, so your fiancé(e) should start the consulate forms as soon as they get instructions.",
+"es": "Tu petición de prometido(a) fue aprobada. USCIS la manda al Centro Nacional de Visas, que la reenvía al consulado de EE.UU. para la entrevista de la visa K-1. La aprobación tiene vigencia limitada, así que tu prometido(a) debe empezar los formularios del consulado en cuanto reciba instrucciones."
+},
+"notice-explaining-uscis-actions-was-mailed": {
+"en": "USCIS sent a letter about your I-129F. It may explain an IMBRA issue, ask for something, or warn of an intent to deny if the meeting requirement was not shown. Read it right away and note any reply deadline, since fiancé(e) cases are decided mostly on paper.",
+"es": "USCIS mandó una carta sobre tu I-129F. Puede explicar un tema de IMBRA, pedir algo, o avisar una intención de negar si no se demostró el requisito de haberse visto en persona. Léela de inmediato y anota cualquier fecha límite, porque estos casos se deciden casi solo con papeles."
+},
+"case-was-denied": {
+"en": "USCIS denied the fiancé(e) petition. Common reasons are not proving you met in person, one of you not being free to marry, or IMBRA limits. The letter explains your options; many couples file a new petition, or marry and file a different petition instead. An immigration attorney can help you choose.",
+"es": "USCIS negó la petición de prometido(a). Razones comunes son no probar que se vieron en persona, que uno no estaba libre para casarse, o límites de IMBRA. La carta explica tus opciones; muchas parejas presentan una petición nueva, o se casan y presentan otra petición. Un abogado de inmigración puede ayudarte a elegir."
+},
+"case-was-reopened": {
+"en": "Your I-129F is open again after a decision or closure, often after a motion or a USCIS correction. A reopened case can also happen when the consulate returns an approved fiancé(e) petition to USCIS for another look. The officer will decide it again.",
+"es": "Tu I-129F está abierto otra vez después de una decisión o cierre, muchas veces tras una moción o una corrección de USCIS. También pasa cuando el consulado le regresa a USCIS una petición de prometido(a) aprobada para revisarla de nuevo. El oficial la va a decidir otra vez."
+},
+"case-rejected-because-i-sent-an-incorrect-fee": {
+"en": "The I-129F was rejected over the fee and was not reviewed. Fiancé(e) petitions have no fee waiver, so check the current fee on uscis.gov and refile the complete package. Your filing date will be the date the new package is accepted.",
+"es": "El I-129F fue rechazado por el pago y no se revisó. Las peticiones de prometido(a) no tienen exención de cuota, así que revisa el costo actual en uscis.gov y vuelve a mandar el paquete completo. Tu fecha de presentación será la del nuevo paquete aceptado."
+},
+"expedite-request-received": {
+"en": "USCIS received your request to speed up the fiancé(e) petition. It will only be expedited if it meets USCIS criteria, such as a serious medical emergency. Even if approved faster, your fiancé(e) still has to complete the consulate process, which has its own wait.",
+"es": "USCIS recibió tu solicitud para acelerar la petición de prometido(a). Solo se acelera si cumple los criterios de USCIS, como una emergencia médica grave. Aunque se apruebe más rápido, tu prometido(a) todavía tiene que completar el proceso en el consulado, que tiene su propia espera."
+},
+"withdrawal-acknowledgement-notice-was-sent": {
+"en": "USCIS confirmed that the I-129F was withdrawn. The fiancé(e) case is closed and no K-1 visa can come from it. Some couples withdraw after marrying abroad, then use a spouse petition instead. To restart, you would file a new petition.",
+"es": "USCIS confirmó que se retiró el I-129F. El caso de prometido(a) está cerrado y ya no puede dar una visa K-1. Algunas parejas lo retiran después de casarse en el extranjero y usan una petición de cónyuge en su lugar. Para empezar de nuevo tendrías que presentar otra petición."
+},
+"name-was-updated": {
+"en": "USCIS updated a name on your I-129F record. Make sure your fiancé(e)'s name matches their passport exactly, because the consulate issues the K-1 visa in the passport name. Any mismatch is easier to fix now than at the visa interview.",
+"es": "USCIS actualizó un nombre en el registro de tu I-129F. Asegúrate de que el nombre de tu prometido(a) coincida exactamente con su pasaporte, porque el consulado emite la visa K-1 con ese nombre. Cualquier diferencia es más fácil de arreglar ahora que en la entrevista de visa."
+},
+"case-was-received-and-a-receipt-notice-was-emailed": {
+"en": "Your I-129F receipt notice arrived by email or in your USCIS online account. Save the PDF and share it with your fiancé(e). Watch the account for any evidence request, since answering quickly is one of the few things that keeps a fiancé(e) case moving.",
+"es": "El aviso de recibo de tu I-129F llegó por correo electrónico o a tu cuenta en línea de USCIS. Guarda el PDF y compártelo con tu prometido(a). Revisa la cuenta por si piden evidencia, porque contestar rápido es de las pocas cosas que mantienen avanzando un caso de prometido(a)."
+},
+"case-accepted-by-the-uscis-lockbox": {
+"en": "The lockbox accepted your mailed I-129F and cashed the payment. A receipt notice should follow. Check your bank statement to confirm the charge, and keep your mailing proof together with a full copy of the petition you sent.",
+"es": "La oficina de recepción (lockbox) aceptó tu I-129F enviado por correo y cobró el pago. Debe llegar un aviso de recibo. Revisa tu estado de cuenta para confirmar el cargo, y guarda tu comprobante de envío junto con una copia completa de la petición que mandaste."
+},
+"fees-were-waived": {
+"en": "This is unexpected on an I-129F, because fiancé(e) petitions normally cannot get a fee waiver. Read the notice to see which form it refers to. If it seems to be an error, contact USCIS so your petition is not held up later for a fee problem.",
+"es": "Esto es inesperado en un I-129F, porque las peticiones de prometido(a) normalmente no pueden tener exención de cuota. Lee el aviso para ver a qué formulario se refiere. Si parece un error, comunícate con USCIS para que tu petición no se detenga después por un problema de pago."
+},
+"case-was-rejected-because-it-was-improperly-filed": {
+"en": "The fiancé(e) petition came back unreviewed. Typical causes are a missing signature, an outdated form edition, or a missing page. Fix the problem in the notice and refile; if a long time has passed, update the proof that you met in person within the required period.",
+"es": "La petición de prometido(a) regresó sin revisar. Las causas típicas son falta de firma, una edición vieja del formulario o una hoja faltante. Corrige lo que dice el aviso y vuelve a presentarla; si pasó mucho tiempo, actualiza la prueba de que se vieron en persona dentro del periodo exigido."
+},
+"biometrics-appointment-was-scheduled": {
+"en": "A biometrics appointment is not usual for an I-129F, since the fiancé(e) does not visit a USCIS center. If you received one, check the name and receipt number; it may be for the U.S. petitioner or for another form. Attend with the notice and photo ID.",
+"es": "Una cita de datos biométricos no es común en un I-129F, porque tu prometido(a) no va a un centro de USCIS. Si te llegó una, revisa el nombre y el número de recibo; puede ser para el peticionario en EE.UU. o para otro formulario. Ve con el aviso y una identificación con foto."
+},
+"case-was-updated-to-show-fingerprints-were-taken": {
+"en": "USCIS recorded fingerprints on this case, which is uncommon for a fiancé(e) petition. It usually means the petitioner gave biometrics for a background check. The case now continues to officer review, and if approved, on to the consulate.",
+"es": "USCIS registró huellas en este caso, algo poco común en una petición de prometido(a). Normalmente significa que el peticionario dio sus datos biométricos para un chequeo de antecedentes. El caso sigue ahora a revisión del oficial y, si se aprueba, al consulado."
+},
+"case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+"en": "USCIS says nobody came to an in-person appointment on this I-129F, most likely a biometrics visit for the petitioner. Missing it can lead to denial for abandonment. Contact USCIS quickly, explain the reason, and ask for a new appointment.",
+"es": "USCIS dice que nadie fue a una cita en persona de este I-129F, lo más seguro una cita de biométricos del peticionario. Faltar puede terminar en negación por abandono. Comunícate rápido con USCIS, explica la razón y pide una cita nueva."
+},
+"case-was-approved-and-my-decision-was-emailed": {
+"en": "The I-129F approval notice is in your online account. Download it and send a copy to your fiancé(e). The next stop is the National Visa Center, then the consulate, where your fiancé(e) will complete the visa application and medical exam.",
+"es": "El aviso de aprobación del I-129F está en tu cuenta en línea. Descárgalo y mándale una copia a tu prometido(a). La siguiente parada es el Centro Nacional de Visas, luego el consulado, donde tu prometido(a) llenará la solicitud de visa y hará el examen médico."
+},
+"case-approval-was-certified-by-uscis": {
+"en": "USCIS certified the approval of your fiancé(e) petition for the Department of State. This lets the consulate rely on it, for example when the approval period needs to be extended for the visa interview. No action is required from you.",
+"es": "USCIS certificó la aprobación de tu petición de prometido(a) para el Departamento de Estado. Así el consulado puede usarla, por ejemplo cuando hay que extender el periodo de la aprobación para la entrevista de visa. No tienes que hacer nada."
+},
+"case-was-sent-to-the-department-of-state": {
+"en": "Your approved I-129F went to the National Visa Center, which forwards it to the U.S. embassy or consulate in your fiancé(e)'s country. Your fiancé(e) will fill out the online visa application and attend the K-1 interview. After entry, you must marry within 90 days.",
+"es": "Tu I-129F aprobado pasó al Centro Nacional de Visas, que lo reenvía a la embajada o consulado de EE.UU. en el país de tu prometido(a). Tu prometido(a) llenará la solicitud de visa en línea e irá a la entrevista K-1. Después de entrar, deben casarse dentro de 90 días."
+},
+"response-to-uscis-notice-of-intent-was-received": {
+"en": "USCIS has your reply to a notice of intent on the fiancé(e) petition, often about the in-person meeting or IMBRA filing limits. The officer will review your answer before deciding. If a denial still follows, an immigration attorney can explain whether to refile or change strategy.",
+"es": "USCIS tiene tu respuesta a un aviso de intención sobre la petición de prometido(a), muchas veces sobre el requisito de verse en persona o los límites de IMBRA. El oficial revisará tu respuesta antes de decidir. Si aun así la niegan, un abogado de inmigración puede explicarte si conviene volver a presentar o cambiar de estrategia."
+},
+"case-is-pending-at-a-local-office": {
+"en": "It is unusual for an I-129F to sit at a local field office, since fiancé(e) petitions are normally decided at service centers. It may mean an officer wants an extra review. Watch your mail for any request and keep your address current with USCIS.",
+"es": "Es raro que un I-129F esté en una oficina local, porque las peticiones de prometido(a) normalmente se deciden en centros de servicio. Puede significar que un oficial quiere revisarlo más. Revisa tu correo por si llega alguna solicitud y mantén tu dirección al día con USCIS."
+},
+"duplicate-notice-was-mailed": {
+"en": "USCIS mailed another copy of an I-129F notice. A spare approval notice is useful because your fiancé(e) may be asked to show a copy at the consulate. The duplicate does not change your case or restart any time period.",
+"es": "USCIS mandó otra copia de un aviso del I-129F. Tener otra copia de la aprobación sirve, porque a tu prometido(a) le pueden pedir una copia en el consulado. La copia no cambia tu caso ni reinicia ningún periodo."
+},
+"notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+"en": "A notice about your fiancé(e) petition came back to USCIS. If it was an evidence request, missing the deadline could mean denial. Update your address with USCIS right away and ask for the notice to be resent, or check your online account for a copy.",
+"es": "Un aviso de tu petición de prometido(a) regresó a USCIS. Si era una solicitud de evidencia, perder el plazo podría significar una negación. Actualiza tu dirección con USCIS de inmediato y pide que reenvíen el aviso, o revisa tu cuenta en línea por si hay una copia."
+},
+"date-of-birth-was-updated": {
+"en": "USCIS fixed a date of birth on your I-129F. Confirm it now matches your fiancé(e)'s passport and birth certificate. The consulate will compare these documents at the K-1 interview, and a clean record avoids delays there.",
+"es": "USCIS corrigió una fecha de nacimiento en tu I-129F. Confirma que ahora coincida con el pasaporte y el acta de nacimiento de tu prometido(a). El consulado va a comparar esos documentos en la entrevista K-1, y un registro limpio evita retrasos allá."
+},
+"continuation-notice-was-mailed": {
+"en": "This notice is rare for a fiancé(e) petition, which does not extend anyone's status in the U.S. Read it closely to see what it continues; it may relate to another filing. If it is unclear, contact USCIS with your receipt number.",
+"es": "Este aviso es raro en una petición de prometido(a), que no extiende el estatus de nadie en EE.UU. Léelo con cuidado para ver qué continúa; puede ser de otro trámite. Si no queda claro, comunícate con USCIS con tu número de recibo."
+},
+"termination-notice-sent": {
+"en": "USCIS ended your fiancé(e) case. This can happen after a withdrawal, abandonment, or if the relationship ended. An approved I-129F can also be revoked if facts change. If you still plan to marry, ask an immigration attorney or accredited representative about filing again.",
+"es": "USCIS terminó tu caso de prometido(a). Puede pasar después de un retiro, abandono, o si la relación terminó. Un I-129F aprobado también se puede revocar si cambian los hechos. Si todavía piensan casarse, pregunta a un abogado de inmigración o representante acreditado sobre presentar otra vez."
+},
+"case-closed-benefit-received-by-other-means": {
+"en": "USCIS closed the I-129F because the benefit came another way. For K-3 spouse filings this often happens when the I-130 is approved first, so the spouse visa moves on the I-130 instead. Follow the National Visa Center instructions for the remaining case.",
+"es": "USCIS cerró el I-129F porque el beneficio llegó por otra vía. En casos K-3 de cónyuge, esto suele pasar cuando el I-130 se aprueba primero, y la visa de cónyuge sigue con el I-130. Sigue las instrucciones del Centro Nacional de Visas para el caso que queda."
+},
+"expedite-request-denied": {
+"en": "USCIS will not speed up the fiancé(e) petition, but it stays in the normal line. Compare your wait with the typical range shown on this page. Meanwhile, your fiancé(e) can gather documents for the consulate, like police certificates, so that step goes faster later.",
+"es": "USCIS no va a acelerar la petición de prometido(a), pero sigue en la fila normal. Compara tu espera con el rango típico de esta página. Mientras tanto, tu prometido(a) puede juntar documentos para el consulado, como cartas de antecedentes policiales, para que ese paso sea más rápido después."
+},
+"correspondence-was-received-and-uscis-is-reviewing-it": {
+"en": "USCIS received something you sent about the I-129F, such as new photos of your visits, a divorce decree, or an address change. An officer will decide if it affects the case. Keep a dated copy of everything you send.",
+"es": "USCIS recibió algo que mandaste sobre el I-129F, como fotos nuevas de sus visitas, una sentencia de divorcio o un cambio de dirección. Un oficial decidirá si afecta el caso. Guarda una copia con fecha de todo lo que mandes."
+}
+}

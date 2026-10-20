@@ -1,0 +1,170 @@
+{
+  "case-was-received": {
+    "en": "Your I-90 is in line. Remember that your permanent resident status does not expire with the card; only the plastic card is being renewed or replaced. The receipt notice, together with your old card, usually works as temporary proof of status. Check the notice for how long that extension lasts.",
+    "es": "Tu I-90 ya está en fila. Recuerda que tu residencia permanente no vence con la tarjeta; solo se renueva o reemplaza la tarjeta de plástico. El recibo, junto con tu tarjeta vieja, normalmente sirve como prueba temporal de estatus. Revisa en el aviso cuánto tiempo dura esa extensión."
+  },
+  "case-was-received-and-a-receipt-notice-was-sent": {
+    "en": "The I-797C for your I-90 is coming by mail, and it is more useful than most receipts: carried with your expiring or expired green card, it can serve as proof of status for work and travel. Read the exact extension period printed on it and keep both documents together.",
+    "es": "El I-797C de tu I-90 viene por correo, y sirve más que otros recibos: junto con tu green card vencida o por vencer, puede servirte como prueba de estatus para trabajar y viajar. Lee el periodo exacto de extensión que trae impreso y guarda ambos documentos juntos."
+  },
+  "fingerprint-fee-was-received": {
+    "en": "For an I-90, the biometrics charge pays for a fresh photo and fingerprints for your new green card. In some cases USCIS reuses biometrics it already has and skips the appointment. Otherwise, expect a notice to visit an Application Support Center.",
+    "es": "En un I-90, el cobro de biométricos paga la foto y las huellas nuevas para tu green card. En algunos casos USCIS reutiliza los biométricos que ya tiene y no te cita. Si no, espera un aviso para ir a un Centro de Apoyo de Solicitudes (ASC)."
+  },
+  "fingerprint-review-was-completed": {
+    "en": "The background check from your I-90 fingerprints is done. For a simple renewal or replacement, this often comes shortly before card production. If USCIS finds something to clarify about your residence history, it may ask for evidence instead.",
+    "es": "Terminó la revisión de antecedentes de las huellas de tu I-90. En una renovación o reemplazo sencillo, esto muchas veces llega poco antes de que produzcan la tarjeta. Si USCIS encuentra algo que aclarar sobre tu historial de residencia, puede pedirte pruebas."
+  },
+  "case-is-being-actively-reviewed-by-uscis": {
+    "en": "An officer is looking at your I-90. Most renewals and replacements are decided on paper without an interview. The officer checks your identity, that you are still a resident, and the reason for the new card, such as a lost card or a name change.",
+    "es": "Un oficial está revisando tu I-90. La mayoría de las renovaciones y reemplazos se deciden con los papeles, sin entrevista. El oficial verifica tu identidad, que sigues siendo residente y la razón de la tarjeta nueva, como pérdida o cambio de nombre."
+  },
+  "request-for-additional-evidence-was-sent": {
+    "en": "I-90 RFEs often ask for proof of a legal name change, a copy of the old card, or evidence you have kept living in the U.S., especially after long trips abroad. Send each item listed before the deadline. If USCIS questions whether you abandoned residence, speak with an immigration attorney.",
+    "es": "En el I-90 el RFE suele pedir prueba de cambio legal de nombre, copia de la tarjeta vieja o pruebas de que has seguido viviendo en EE.UU., sobre todo tras viajes largos. Manda cada punto antes del plazo. Si USCIS duda que hayas abandonado tu residencia, habla con un abogado de inmigración."
+  },
+  "request-for-initial-evidence-was-sent": {
+    "en": "Your I-90 was missing something it needed from the start, often a copy of your current green card, ID, or the document behind the change you requested, like a marriage certificate. Send exactly what the notice lists, with the notice on top, before the deadline.",
+    "es": "A tu I-90 le faltó algo desde el principio, muchas veces copia de tu green card actual, una identificación o el documento que respalda el cambio que pediste, como un acta de matrimonio. Manda exactamente lo que pide el aviso, con el aviso encima, antes del plazo."
+  },
+  "response-to-uscis-request-for-evidence-was-received": {
+    "en": "USCIS has your evidence for the I-90. If it answers the officer's question, the next steps are usually approval and card production. Keep carrying your receipt notice with your old card as proof of status while you wait.",
+    "es": "USCIS ya tiene tus pruebas para el I-90. Si responden la duda del oficial, lo que suele seguir es la aprobación y la producción de la tarjeta. Mientras esperas, sigue cargando tu recibo con tu tarjeta vieja como prueba de estatus."
+  },
+  "case-was-transferred-and-a-new-office-has-jurisdiction": {
+    "en": "Most I-90s are handled without a field office, so a transfer can mean USCIS wants a closer look, for example at your residence history, or it is simply balancing workload. Check the notice or your online account for the new office and watch for any request.",
+    "es": "La mayoría de los I-90 se resuelven sin oficina local, así que un traslado puede significar que USCIS quiere revisar más de cerca, por ejemplo tu historial de residencia, o solo que está repartiendo el trabajo. Revisa el aviso o tu cuenta en línea para ver la nueva oficina y pendiente de cualquier solicitud."
+  },
+  "case-was-approved": {
+    "en": "Your I-90 was approved, so a new green card will be printed. A renewal gives you a new 10-year card; a replacement keeps your status and fixes the problem you reported. Your resident since date stays the same, which matters for citizenship later.",
+    "es": "Aprobaron tu I-90, así que van a imprimir una green card nueva. Una renovación te da una tarjeta nueva de 10 años; un reemplazo mantiene tu estatus y corrige el problema que reportaste. Tu fecha de residente desde no cambia, lo cual importa para la ciudadanía más adelante."
+  },
+  "new-card-is-being-produced": {
+    "en": "Your replacement or renewed green card is being printed. This is usually the last step before mailing. Confirm that USCIS has your current address, because a returned card can mean extra delays and, in some cases, filing again.",
+    "es": "Tu green card de reemplazo o renovación se está imprimiendo. Normalmente es el último paso antes del envío. Confirma que USCIS tenga tu dirección actual, porque una tarjeta devuelta puede causar más retraso y, en algunos casos, tener que presentar de nuevo."
+  },
+  "card-was-mailed-to-me": {
+    "en": "Your new green card from the I-90 is in the mail. Once it arrives, check that the name, birth date and photo are right; errors made by USCIS can be fixed without a fee. Keep the old card's receipt notice until the new card is in your hands.",
+    "es": "Tu green card nueva del I-90 va por correo. Cuando llegue, revisa que el nombre, la fecha de nacimiento y la foto estén bien; los errores de USCIS se corrigen sin pagar. Guarda el recibo del I-90 hasta tener la tarjeta nueva en tus manos."
+  },
+  "card-was-picked-up-by-the-united-states-postal-service": {
+    "en": "USPS has your I-90 green card and it is moving through the mail. Track it with the number on your status. If you move during this time, file a change of address with both USPS and USCIS so the card is not returned.",
+    "es": "USPS tiene tu green card del I-90 y va en camino. Rastréala con el número que aparece en tu estatus. Si te mudas en estos días, haz el cambio de dirección tanto con USPS como con USCIS para que no regresen la tarjeta."
+  },
+  "card-was-delivered-to-me-by-the-post-office": {
+    "en": "Your new green card should be at your address. Once you have it, your I-90 receipt is no longer needed as proof. If you replaced a lost card and later find the old one, it is no longer valid; keep only the new card.",
+    "es": "Tu green card nueva ya debería estar en tu domicilio. Cuando la tengas, ya no necesitas el recibo del I-90 como prueba. Si reemplazaste una tarjeta perdida y luego encuentras la vieja, esa ya no es válida; quédate solo con la nueva."
+  },
+  "notice-explaining-uscis-actions-was-mailed": {
+    "en": "For an I-90 this letter may say your biometrics will be reused, extend the time your receipt counts as proof of status, or raise a question about your residence. Read it as soon as it arrives. If it is a notice of intent to deny, get legal help before answering.",
+    "es": "En un I-90 esta carta puede decir que reutilizarán tus biométricos, ampliar el tiempo en que tu recibo vale como prueba de estatus, o plantear una duda sobre tu residencia. Léela en cuanto llegue. Si es aviso de intención de negar, busca ayuda legal antes de responder."
+  },
+  "case-was-denied": {
+    "en": "A denied I-90 usually cannot be appealed, though you may be able to file a motion to reopen or reconsider with Form I-290B. A denial for the card does not by itself end your permanent residence, but the reason matters. Talk to an immigration attorney or accredited representative.",
+    "es": "Un I-90 negado normalmente no se puede apelar, aunque tal vez puedas pedir reabrir o reconsiderar con el formulario I-290B. Que nieguen la tarjeta no termina por sí solo tu residencia permanente, pero la razón importa. Habla con un abogado de inmigración o un representante acreditado."
+  },
+  "case-was-reopened": {
+    "en": "Your I-90 is active again after being decided or closed. This often follows a motion you filed or a correction by USCIS. The officer will review the card request again and may ask for new documents. Keep using your receipt and old card as proof meanwhile.",
+    "es": "Tu I-90 está activo de nuevo después de haberse decidido o cerrado. Muchas veces pasa por una moción que presentaste o una corrección de USCIS. El oficial revisará otra vez la petición de tarjeta y puede pedir documentos nuevos. Mientras, sigue usando tu recibo y tu tarjeta vieja como prueba."
+  },
+  "case-rejected-because-i-sent-an-incorrect-fee": {
+    "en": "Your I-90 was not accepted because of the fee, so you have no receipt to use as proof of status. Check the current amount on uscis.gov; if the card error was caused by USCIS, no fee is required. Filing online can help avoid payment mistakes.",
+    "es": "No aceptaron tu I-90 por el pago, así que no tienes recibo para usar como prueba de estatus. Revisa el monto actual en uscis.gov; si el error de la tarjeta fue culpa de USCIS, no se paga. Presentarlo en línea ayuda a evitar errores de pago."
+  },
+  "expedite-request-received": {
+    "en": "USCIS is reviewing your request to rush your green card replacement. If you need proof of status urgently, for a job or travel, you can also ask for an appointment at a field office to get a temporary stamp in your passport while the I-90 is pending.",
+    "es": "USCIS está revisando tu petición de acelerar el reemplazo de tu green card. Si necesitas prueba de estatus urgente, por trabajo o viaje, también puedes pedir una cita en una oficina local para que te pongan un sello temporal en tu pasaporte mientras el I-90 sigue pendiente."
+  },
+  "withdrawal-acknowledgement-notice-was-sent": {
+    "en": "Your I-90 was withdrawn, so no new card will come from it. Your permanent resident status itself is not affected. If you still need a valid card, for example because yours expired, you will have to file a new I-90.",
+    "es": "Tu I-90 quedó retirado, así que no llegará una tarjeta nueva por este caso. Tu estatus de residente permanente no se ve afectado. Si todavía necesitas una tarjeta vigente, por ejemplo porque la tuya venció, tendrás que presentar un I-90 nuevo."
+  },
+  "name-was-updated": {
+    "en": "A legal name change is one of the main reasons people file an I-90, and USCIS has now updated your record. The new green card should print with this name. Compare it with your court order or marriage certificate before the card is produced.",
+    "es": "Un cambio legal de nombre es una de las razones principales para presentar el I-90, y USCIS ya actualizó tu expediente. La green card nueva debería salir con este nombre. Compáralo con tu orden judicial o acta de matrimonio antes de que produzcan la tarjeta."
+  },
+  "case-was-received-and-a-receipt-notice-was-emailed": {
+    "en": "Many I-90s are filed online, so the receipt often arrives in your USCIS account. Print it: with your old green card, it can serve as proof of status for the period written on the notice. Biometrics notices may also appear there.",
+    "es": "Muchos I-90 se presentan en línea, así que el recibo suele llegar a tu cuenta de USCIS. Imprímelo: junto con tu green card vieja, puede servirte como prueba de estatus por el periodo que dice el aviso. Los avisos de biométricos también pueden aparecer ahí."
+  },
+  "case-accepted-by-the-uscis-lockbox": {
+    "en": "Your paper I-90 was accepted at the lockbox and payment went through. A receipt notice comes next, and that receipt is what extends your proof of status. Keep your old card safe until the new one arrives.",
+    "es": "Tu I-90 en papel fue aceptado en el lockbox y el pago pasó. Lo siguiente es el recibo, y ese recibo es el que extiende tu prueba de estatus. Guarda bien tu tarjeta vieja hasta que llegue la nueva."
+  },
+  "fees-were-waived": {
+    "en": "USCIS approved your fee waiver for the I-90, so you pay nothing for the new green card. The rest works as usual: biometrics if needed, a decision, then the card by mail. Keep the waiver approval with your records.",
+    "es": "USCIS aprobó tu exención de pago para el I-90, así que no pagas nada por la green card nueva. Lo demás sigue igual: biométricos si hacen falta, una decisión y luego la tarjeta por correo. Guarda la aprobación de la exención con tus papeles."
+  },
+  "case-was-rejected-because-it-was-improperly-filed": {
+    "en": "Your I-90 was returned without review. Common reasons include a missing signature or an old form edition. Also note that people with a 2-year conditional card generally should not use the I-90 to renew it; they file Form I-751 instead. Fix the issue and refile.",
+    "es": "Te regresaron el I-90 sin revisarlo. Razones comunes: falta de firma o una edición vieja del formulario. Ojo: quien tiene tarjeta condicional de 2 años por lo general no usa el I-90 para renovarla; presenta el formulario I-751. Corrige el error y vuelve a presentarlo."
+  },
+  "biometrics-appointment-was-scheduled": {
+    "en": "Your I-90 needs new fingerprints and a photo for the replacement card. Bring the appointment notice and your green card or other photo ID. If your card was lost or stolen, bring another ID such as a passport or driver's license.",
+    "es": "Tu I-90 necesita huellas y foto nuevas para la tarjeta de reemplazo. Lleva el aviso de cita y tu green card u otra identificación con foto. Si tu tarjeta se perdió o te la robaron, lleva otra identificación, como pasaporte o licencia de manejo."
+  },
+  "case-was-updated-to-show-fingerprints-were-taken": {
+    "en": "USCIS recorded your biometrics for the I-90. The photo taken today is the one likely to appear on your new green card. After background checks, many renewals move to approval and card production without anything more from you.",
+    "es": "USCIS registró tus biométricos para el I-90. La foto que te tomaron es la que probablemente saldrá en tu green card nueva. Después de la revisión de antecedentes, muchas renovaciones pasan a aprobación y producción de tarjeta sin que tengas que hacer nada más."
+  },
+  "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+    "en": "You missed your I-90 biometrics appointment. Without it, USCIS may deny the card request as abandoned. Contact USCIS right away to reschedule, and explain why you could not attend. Your residence is not lost because of this, but you could be left without a valid card.",
+    "es": "Faltaste a la cita de biométricos de tu I-90. Sin ella, USCIS puede negar la petición de tarjeta por abandono. Comunícate de inmediato con USCIS para cambiar la cita y explica por qué no pudiste ir. No pierdes tu residencia por esto, pero podrías quedarte sin tarjeta vigente."
+  },
+  "case-was-approved-and-my-decision-was-emailed": {
+    "en": "Your I-90 approval is in your online account. The new green card is printed and mailed separately. Until it arrives, keep the receipt and your old card, since the approval notice alone is not usually enough as proof of status.",
+    "es": "La aprobación de tu I-90 está en tu cuenta en línea. La green card nueva se imprime y se manda aparte. Hasta que llegue, guarda el recibo y tu tarjeta vieja, porque el aviso de aprobación solo normalmente no basta como prueba de estatus."
+  },
+  "case-approval-was-certified-by-uscis": {
+    "en": "This status is rare on an I-90. It usually means USCIS confirmed the approval for another agency or record system. Your new card is not affected. If you did not expect it, look in your online account for a related notice.",
+    "es": "Este estatus es raro en un I-90. Normalmente quiere decir que USCIS confirmó la aprobación para otra agencia o sistema de registros. Tu tarjeta nueva no se ve afectada. Si no lo esperabas, busca en tu cuenta en línea un aviso relacionado."
+  },
+  "response-to-uscis-notice-of-intent-was-received": {
+    "en": "USCIS received your answer to a notice of intent on your I-90. Such notices are uncommon for a card renewal and often point to a question about your status, for example long time abroad. Have an immigration attorney review your answer if you can.",
+    "es": "USCIS recibió tu respuesta a un aviso de intención sobre tu I-90. Estos avisos no son comunes en una renovación de tarjeta y suelen indicar una duda sobre tu estatus, por ejemplo mucho tiempo fuera del país. Si puedes, que un abogado de inmigración revise tu respuesta."
+  },
+  "duplicate-notice-was-mailed": {
+    "en": "A copy of an I-90 notice is on its way, often the receipt. Since the receipt is your proof of status with your old card, a duplicate is useful if the first one was lost. Store it with your green card.",
+    "es": "Viene en camino una copia de un aviso de tu I-90, muchas veces el recibo. Como el recibo es tu prueba de estatus junto con tu tarjeta vieja, una copia sirve si se perdió la primera. Guárdala con tu green card."
+  },
+  "card-is-being-returned-to-uscis-by-post-office": {
+    "en": "Your replacement green card could not be delivered and is headed back to USCIS. Update your address with USCIS right away so it can be resent. Until it arrives, keep using your I-90 receipt and old card as proof of status.",
+    "es": "No pudieron entregar tu green card de reemplazo y va de regreso a USCIS. Actualiza tu dirección con USCIS de inmediato para que la reenvíen. Hasta que llegue, sigue usando tu recibo del I-90 y tu tarjeta vieja como prueba de estatus."
+  },
+  "card-was-returned-to-uscis": {
+    "en": "USCIS has your undelivered I-90 card. Returned cards are kept only for a limited time; after that, you might have to file another I-90 and pay again. Contact USCIS soon to confirm your address and ask for the card to be mailed.",
+    "es": "USCIS tiene la tarjeta de tu I-90 que no se entregó. Las tarjetas devueltas se guardan solo por tiempo limitado; después podrías tener que presentar otro I-90 y pagar de nuevo. Comunícate pronto con USCIS para confirmar tu dirección y pedir que la manden."
+  },
+  "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+    "en": "An I-90 notice came back undelivered. It could be your receipt, a biometrics appointment or an RFE. Missing an appointment or deadline could get the request denied. Update your address and check your online account for the notice.",
+    "es": "Un aviso de tu I-90 regresó sin entregarse. Puede ser tu recibo, una cita de biométricos o un RFE. Perder una cita o un plazo podría hacer que nieguen la petición. Actualiza tu dirección y busca el aviso en tu cuenta en línea."
+  },
+  "card-was-received-by-uscis-along-with-my-letter": {
+    "en": "USCIS received the green card you sent back with your letter, usually because of a mistake on it. If the error came from USCIS, a corrected card should be issued without a new fee. Keep copies of your letter and the card you returned.",
+    "es": "USCIS recibió la green card que devolviste con tu carta, normalmente por un error en ella. Si el error fue de USCIS, deberían emitir una tarjeta corregida sin cobrarte de nuevo. Guarda copias de tu carta y de la tarjeta que devolviste."
+  },
+  "date-of-birth-was-updated": {
+    "en": "Fixing a wrong birth date is a common reason to file an I-90. USCIS has now corrected it in your record, and your new green card should show the right date. Compare it with your birth certificate when the card arrives.",
+    "es": "Corregir una fecha de nacimiento equivocada es una razón común para presentar el I-90. USCIS ya la corrigió en tu expediente y tu green card nueva debería mostrar la fecha correcta. Compárala con tu acta de nacimiento cuando llegue la tarjeta."
+  },
+  "continuation-notice-was-mailed": {
+    "en": "For an I-90 this notice usually extends the validity of your current green card while the replacement is pending. Keep it together with your card; the pair works as proof of status for work and travel. Check the notice for the exact period.",
+    "es": "En un I-90 este aviso normalmente extiende la validez de tu green card actual mientras está pendiente el reemplazo. Guárdalo junto con tu tarjeta; juntos sirven como prueba de estatus para trabajar y viajar. Revisa en el aviso el periodo exacto."
+  },
+  "termination-notice-sent": {
+    "en": "A termination notice on an I-90 case is rare and may mean USCIS believes your permanent residence ended, for example through abandonment. This is serious, since it goes beyond the card. Read the notice carefully and talk to an immigration attorney soon.",
+    "es": "Un aviso de terminación en un I-90 es raro y puede significar que USCIS cree que tu residencia terminó, por ejemplo por abandono. Es serio, porque va más allá de la tarjeta. Lee el aviso con cuidado y consulta pronto a un abogado de inmigración."
+  },
+  "case-closed-benefit-received-by-other-means": {
+    "en": "Your I-90 was closed because the goal was met another way, for example you became a U.S. citizen or a new green card was issued through another case. If you now have a valid card or citizenship, nothing more is needed here.",
+    "es": "Cerraron tu I-90 porque el objetivo se cumplió por otra vía, por ejemplo te hiciste ciudadano o te dieron una green card nueva por otro caso. Si ya tienes tarjeta vigente o la ciudadanía, no necesitas hacer nada más aquí."
+  },
+  "expedite-request-denied": {
+    "en": "Your I-90 keeps its normal place in line. If you need proof of status sooner, your receipt notice plus old card usually works, and a field office appointment for a temporary passport stamp is another route to ask about.",
+    "es": "Tu I-90 conserva su lugar normal en la fila. Si necesitas prueba de estatus antes, normalmente sirve tu recibo junto con la tarjeta vieja, y otra opción es pedir cita en una oficina local para un sello temporal en tu pasaporte."
+  },
+  "correspondence-was-received-and-uscis-is-reviewing-it": {
+    "en": "USCIS got something you sent about your I-90, such as a new address or a document for your name change. It will be added to your file. You will usually hear back only if they need more, or when the new card is produced.",
+    "es": "USCIS recibió algo que mandaste sobre tu I-90, como una dirección nueva o un documento de tu cambio de nombre. Lo agregarán a tu expediente. Normalmente solo te contestan si necesitan algo más o cuando producen la tarjeta nueva."
+  }
+}

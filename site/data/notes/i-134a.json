@@ -1,0 +1,150 @@
+{
+ "case-was-received": {
+  "en": "USCIS received the I-134A you filed online as a supporter. At this stage USCIS checks you, the supporter: your identity, background and ability to support the person you named. The beneficiary cannot take any step until the supporter is confirmed. Because several parole processes changed in 2025, check uscis.gov for which ones are open now.",
+  "es": "USCIS recibió el I-134A que presentaste en línea como patrocinador. En esta etapa USCIS te revisa a ti: tu identidad, tus antecedentes y tu capacidad para apoyar a la persona que nombraste. El beneficiario no puede dar ningún paso hasta que confirmen al patrocinador. Como varios procesos de parole cambiaron en 2025, revisa en uscis.gov cuáles siguen abiertos."
+ },
+ "case-was-received-and-a-receipt-notice-was-sent": {
+  "en": "Your receipt for the I-134A is available. Since this form is filed only online, the receipt usually lives in your USCIS online account. Save it and share the receipt number with the beneficiary so they know the case exists, but never share your account password.",
+  "es": "Ya está disponible el recibo de tu I-134A. Como este formulario solo se presenta en línea, el recibo normalmente está en tu cuenta de USCIS. Guárdalo y comparte el número de recibo con el beneficiario para que sepa que existe el caso, pero nunca compartas la contraseña de tu cuenta."
+ },
+ "fingerprint-fee-was-received": {
+  "en": "This is an unusual status for an I-134A, because the form has no filing fee and supporters usually do not attend a fingerprint appointment. It may be a system update linked to identity checks. Look in your online account for any notice that explains the next step.",
+  "es": "Es un estatus raro en el I-134A, porque este formulario no tiene tarifa y los patrocinadores normalmente no van a cita de huellas. Puede ser una actualización del sistema ligada a revisiones de identidad. Busca en tu cuenta en línea algún aviso que explique el siguiente paso."
+ },
+ "fingerprint-review-was-completed": {
+  "en": "A background check related to your I-134A is finished. For this form, USCIS screens the supporter for security and fraud concerns before confirming the case. After that, the officer reviews whether your income and documents show you can support the beneficiary.",
+  "es": "Terminó una revisión de antecedentes de tu I-134A. En este formulario USCIS revisa al patrocinador por temas de seguridad y fraude antes de confirmar el caso. Después, el oficial ve si tus ingresos y documentos muestran que puedes apoyar al beneficiario."
+ },
+ "case-is-being-actively-reviewed-by-uscis": {
+  "en": "An officer is reviewing your I-134A. They look at your immigration status, identity and financial evidence such as tax returns, pay stubs or bank statements. If more is needed, the request will appear in your online account, so check it often.",
+  "es": "Un oficial está revisando tu I-134A. Revisa tu estatus migratorio, tu identidad y tus pruebas económicas, como declaraciones de impuestos, talones de pago o estados de cuenta. Si necesitan algo más, la petición aparecerá en tu cuenta en línea, así que revísala seguido."
+ },
+ "request-for-additional-evidence-was-sent": {
+  "en": "USCIS wants more proof from you as the supporter. For the I-134A this is usually financial evidence, proof of your status in the U.S., or details about other people you are supporting. Upload the documents through your online account before the deadline.",
+  "es": "USCIS quiere más pruebas de ti como patrocinador. En el I-134A suelen ser pruebas económicas, prueba de tu estatus en EE.UU. o datos de otras personas que estás apoyando. Sube los documentos en tu cuenta en línea antes de la fecha límite."
+ },
+ "request-for-initial-evidence-was-sent": {
+  "en": "Your I-134A was missing something basic, such as proof of income, a copy of your ID or status document, or required information about the beneficiary. Upload exactly what the request lists in your online account before the deadline, or the case may not move forward.",
+  "es": "A tu I-134A le faltó algo básico, como prueba de ingresos, copia de tu identificación o documento de estatus, o datos requeridos del beneficiario. Sube exactamente lo que pide la solicitud en tu cuenta en línea antes de la fecha límite, o el caso podría no avanzar."
+ },
+ "response-to-uscis-request-for-evidence-was-received": {
+  "en": "USCIS received the documents you uploaded for your I-134A. The officer will now decide whether to confirm you as a supporter. If confirmed, the beneficiary receives an email with instructions to continue the process online.",
+  "es": "USCIS recibió los documentos que subiste para tu I-134A. El oficial decidirá si te confirma como patrocinador. Si te confirman, el beneficiario recibe un correo con instrucciones para seguir el proceso en línea. Revisa tu cuenta seguido para ver la decisión."
+ },
+ "case-was-transferred-and-a-new-office-has-jurisdiction": {
+  "en": "Your I-134A moved to another USCIS office, usually to balance the workload. Nothing changes for you: keep the same receipt number and check your online account for updates. You do not need to file the form again, and the supporter review continues where it left off.",
+  "es": "Tu I-134A pasó a otra oficina de USCIS, casi siempre para repartir el trabajo. Para ti no cambia nada: conserva el mismo número de recibo y revisa tu cuenta en línea para ver novedades. No necesitas presentar el formulario otra vez."
+ },
+ "case-was-approved": {
+  "en": "USCIS confirmed you as the supporter. This does not give the beneficiary parole yet. Next, the beneficiary should get an email to set up their own USCIS online account, confirm their information and complete the required steps, and then seek travel authorization. Parole is decided later, at the time of arrival.",
+  "es": "USCIS te confirmó como patrocinador. Esto todavía no le da parole al beneficiario. Lo siguiente es que el beneficiario reciba un correo para abrir su propia cuenta de USCIS, confirmar sus datos y completar los pasos requeridos, y después pedir autorización de viaje. El parole se decide después, al llegar."
+ },
+ "document-was-mailed-to-me": {
+  "en": "For an I-134A, documents are normally sent through the online account rather than by mail. If something was mailed, it is likely a notice about your supporter decision. Open it and compare it with what you see online.",
+  "es": "En el I-134A, los documentos normalmente llegan por la cuenta en línea y no por correo. Si te mandaron algo por correo, es probable que sea un aviso sobre la decisión de tu patrocinio. Ábrelo y compáralo con lo que ves en línea."
+ },
+ "notice-explaining-uscis-actions-was-mailed": {
+  "en": "USCIS sent a notice about your I-134A. Check your online account, where most notices for this form appear. It might be an evidence request, a confirmation or a non-confirmation. Read it right away so you do not miss a deadline.",
+  "es": "USCIS mandó un aviso sobre tu I-134A. Revisa tu cuenta en línea, donde aparecen casi todos los avisos de este formulario. Puede ser una petición de pruebas, una confirmación o una no confirmación. Léelo de inmediato para no perder una fecha límite."
+ },
+ "case-was-denied": {
+  "en": "USCIS did not confirm you as a supporter, so the beneficiary cannot continue with this I-134A. There is usually no appeal for this form. Depending on the reason and whether the parole process is still open, another supporter or a new filing may be possible; check uscis.gov or ask an accredited representative.",
+  "es": "USCIS no te confirmó como patrocinador, así que el beneficiario no puede seguir con este I-134A. Normalmente no hay apelación para este formulario. Según la razón y si el proceso de parole sigue abierto, quizá pueda presentarlo otro patrocinador o hacerse uno nuevo; revisa uscis.gov o consulta a un representante acreditado."
+ },
+ "case-was-reopened": {
+  "en": "Your I-134A is open again after a decision. This can happen when USCIS corrects an error or resumes review after a policy change. Check your online account for new requests and keep your financial documents current.",
+  "es": "Tu I-134A se abrió de nuevo después de una decisión. Puede pasar cuando USCIS corrige un error o retoma la revisión tras un cambio de política. Revisa tu cuenta en línea por si hay peticiones nuevas y mantén tus documentos económicos al día."
+ },
+ "case-rejected-because-i-sent-an-incorrect-fee": {
+  "en": "This status is unusual for an I-134A because the form has no filing fee. It may refer to a different form tied to your account. Check which receipt number it belongs to and look for an explanation in your online account.",
+  "es": "Este estatus es raro en el I-134A, porque el formulario no tiene tarifa. Puede referirse a otro formulario ligado a tu cuenta. Revisa a qué número de recibo pertenece y busca una explicación en tu cuenta en línea antes de volver a presentar algo."
+ },
+ "expedite-request-received": {
+  "en": "USCIS logged a request to speed up your I-134A. Expedites are approved only for urgent reasons that meet USCIS criteria, such as a serious medical need or danger to the beneficiary. Keep proof ready in case they ask.",
+  "es": "USCIS registró una petición para acelerar tu I-134A. Solo aprueban acelerar por razones urgentes que cumplen sus criterios, como una necesidad médica grave o peligro para el beneficiario. Ten tus pruebas listas por si las piden."
+ },
+ "withdrawal-acknowledgement-notice-was-sent": {
+  "en": "USCIS confirmed that you withdrew your I-134A. As the supporter, withdrawing ends this case, so the beneficiary can no longer move forward with it. If you change your mind, a new filing would be needed, if the process is still open.",
+  "es": "USCIS confirmó que retiraste tu I-134A. Como patrocinador, al retirarlo se termina este caso y el beneficiario ya no puede seguir con él. Si cambias de opinión, habría que presentar uno nuevo, siempre que el proceso siga abierto."
+ },
+ "name-was-updated": {
+  "en": "USCIS updated a name on your I-134A. It may be yours or the beneficiary's. The beneficiary's name must match their passport exactly for later travel steps, so check the spelling carefully in your online account.",
+  "es": "USCIS actualizó un nombre en tu I-134A. Puede ser el tuyo o el del beneficiario. El nombre del beneficiario debe coincidir exactamente con su pasaporte para los pasos de viaje que siguen, así que revisa bien cómo quedó escrito en tu cuenta en línea."
+ },
+ "case-was-received-and-a-receipt-notice-was-emailed": {
+  "en": "Your I-134A receipt was sent to your email and online account, which is the normal path for this online-only form. Save the receipt number. All later notices, including any evidence request and the confirmation, will appear in that same account.",
+  "es": "Tu recibo del I-134A llegó a tu correo y a tu cuenta en línea, que es lo normal en este formulario que solo se presenta en línea. Guarda el número de recibo. Los avisos que sigan, incluida cualquier petición de pruebas y la confirmación, aparecerán en esa misma cuenta."
+ },
+ "case-accepted-by-the-uscis-lockbox": {
+  "en": "This status is uncommon for an I-134A, since the form is filed online and not through a lockbox. If you see it, double-check the receipt number belongs to this form and look for details in your online account.",
+  "es": "Este estatus es poco común en el I-134A, porque el formulario se presenta en línea y no por lockbox. Si lo ves, confirma que el número de recibo sea de este formulario y busca detalles en tu cuenta en línea antes de hacer otra cosa."
+ },
+ "fees-were-waived": {
+  "en": "The I-134A has no filing fee, so a fee waiver is not normally needed. If you see this status, it may relate to another form, or simply confirm no payment is due. Your supporter review continues as usual.",
+  "es": "El I-134A no tiene tarifa, así que normalmente no hace falta exención de pago. Si ves este estatus, puede tener que ver con otro formulario o solo confirmar que no debes pagar. La revisión de tu patrocinio sigue como siempre."
+ },
+ "case-was-rejected-because-it-was-improperly-filed": {
+  "en": "Your I-134A was rejected and is not pending. Possible causes include filing for a process that was not accepting new cases, or missing required information. Check uscis.gov for which parole processes are open before you try again.",
+  "es": "Rechazaron tu I-134A y no está en trámite. Puede ser porque lo presentaste para un proceso que no estaba aceptando casos nuevos o porque faltaron datos requeridos. Revisa en uscis.gov qué procesos de parole están abiertos antes de intentar de nuevo."
+ },
+ "biometrics-appointment-was-scheduled": {
+  "en": "USCIS scheduled a biometrics appointment in your I-134A case. This is not typical for supporters, so read the notice carefully to see who must attend and why. Bring the notice and photo ID. If you cannot attend, ask to reschedule before the date.",
+  "es": "USCIS programó una cita de biométricos en tu caso I-134A. No es lo normal para patrocinadores, así que lee bien el aviso para ver quién debe ir y por qué. Lleva el aviso y una identificación con foto el día de la cita."
+ },
+ "case-was-updated-to-show-fingerprints-were-taken": {
+  "en": "Your biometrics for the I-134A case are recorded. This extra check is not common for supporters but can be used to confirm identity. After the check, the officer can decide whether to confirm you as the supporter.",
+  "es": "Ya quedaron registrados tus biométricos del caso I-134A. Esta revisión extra no es común para patrocinadores, pero puede usarse para confirmar identidad. Después, el oficial puede decidir si te confirma como patrocinador. Revisa tu cuenta en línea para ver el resultado."
+ },
+ "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+  "en": "USCIS shows that no one came to an in-person appointment linked to your I-134A. Contact USCIS soon to explain and ask for a new date, since missing it can stop the supporter review. Without it, the beneficiary cannot move forward either.",
+  "es": "USCIS indica que nadie fue a una cita en persona ligada a tu I-134A. Comunícate pronto con USCIS para explicar y pedir una nueva fecha, porque faltar puede detener la revisión del patrocinio y el beneficiario no podría avanzar."
+ },
+ "case-was-approved-and-my-decision-was-emailed": {
+  "en": "Your supporter confirmation was emailed. Let the beneficiary know to watch their email, including spam folders, for instructions to create their USCIS account and complete their part. Without that step, the process stops there. Keep a copy of the confirmation for your records.",
+  "es": "Te mandaron por correo la confirmación como patrocinador. Avisa al beneficiario que revise su correo, incluida la carpeta de spam, para recibir instrucciones de abrir su cuenta de USCIS y completar su parte. Sin ese paso, el proceso se queda ahí."
+ },
+ "case-approval-was-certified-by-uscis": {
+  "en": "This status is rare for an I-134A. It usually reflects a confirmation that passed an extra internal review. The next step is still the beneficiary's: they need to finish their online steps and request travel authorization.",
+  "es": "Este estatus es raro en el I-134A. Suele reflejar una confirmación que pasó una revisión interna adicional. El siguiente paso sigue siendo del beneficiario: debe terminar sus pasos en línea y pedir autorización de viaje."
+ },
+ "response-to-uscis-notice-of-intent-was-received": {
+  "en": "USCIS received your reply to a notice that it planned not to confirm you as a supporter. The officer will review your explanation and evidence before deciding. If the notice raised fraud or security concerns, consult an immigration attorney or accredited representative.",
+  "es": "USCIS recibió tu respuesta a un aviso de que pensaba no confirmarte como patrocinador. El oficial revisará tu explicación y tus pruebas antes de decidir. Si el aviso mencionaba fraude o seguridad, consulta a un abogado de inmigración o representante acreditado."
+ },
+ "case-is-pending-at-a-local-office": {
+  "en": "Your I-134A is listed at a local office, which is unusual for this online form. It may need an in-person identity check or extra review. Watch your account and mail for an appointment and bring the documents requested.",
+  "es": "Tu I-134A aparece en una oficina local, algo poco usual para este formulario en línea. Puede necesitar una revisión de identidad en persona o una revisión extra. Revisa tu cuenta y tu correo por si llega una cita, y lleva los documentos que pidan."
+ },
+ "duplicate-notice-was-mailed": {
+  "en": "USCIS sent another copy of a notice from your I-134A case. Check which notice it is. Most I-134A notices are also downloadable from your online account, which is the easiest place to keep them  and share with the beneficiary when needed.",
+  "es": "USCIS mandó otra copia de un aviso de tu caso I-134A. Revisa qué aviso es. La mayoría de los avisos del I-134A también se pueden descargar de tu cuenta en línea, que es el lugar más fácil para guardarlos y compartirlos con el beneficiario."
+ },
+ "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+  "en": "A mailed notice for your I-134A came back to USCIS. Update your address in your online account and check there for the same notice. Supporters also need a current address because it is part of showing you can support the beneficiary.",
+  "es": "Un aviso por correo de tu I-134A regresó a USCIS. Actualiza tu dirección en tu cuenta en línea y busca ahí el mismo aviso. El patrocinador también necesita una dirección al día, porque forma parte de mostrar que puede apoyar al beneficiario."
+ },
+ "date-of-birth-was-updated": {
+  "en": "USCIS corrected a date of birth on your I-134A, yours or the beneficiary's. Make sure it matches the beneficiary's passport exactly, because mismatches can block the later travel authorization step. Review the record in your online account and report any remaining error.",
+  "es": "USCIS corrigió una fecha de nacimiento en tu I-134A, la tuya o la del beneficiario. Asegúrate de que coincida exactamente con el pasaporte del beneficiario, porque si no coincide puede bloquear el paso de autorización de viaje que viene después."
+ },
+ "continuation-notice-was-mailed": {
+  "en": "USCIS paused your I-134A for a reason given in the notice. It may be waiting on security checks or on a policy decision about the parole process. Read the notice and your online account for any action you need to take.",
+  "es": "USCIS pausó tu I-134A por una razón que da el aviso. Puede estar esperando revisiones de seguridad o una decisión de política sobre el proceso de parole. Lee el aviso y tu cuenta en línea por si debes hacer algo."
+ },
+ "termination-notice-sent": {
+  "en": "USCIS ended your I-134A case. This can happen if the parole process it belongs to was ended or paused, or if USCIS found a problem with the supporter. Read the notice for the reason, and consult an immigration attorney or accredited representative about other options for the beneficiary.",
+  "es": "USCIS terminó tu caso I-134A. Puede pasar si el proceso de parole al que pertenece terminó o se pausó, o si USCIS encontró un problema con el patrocinador. Lee la razón en el aviso y consulta a un abogado de inmigración o representante acreditado sobre otras opciones para el beneficiario."
+ },
+ "case-closed-benefit-received-by-other-means": {
+  "en": "USCIS closed your I-134A because the beneficiary already received a benefit another way, for example through a different supporter or a different immigration process. Confirm with the beneficiary which case is active so you do not duplicate efforts.",
+  "es": "USCIS cerró tu I-134A porque el beneficiario ya obtuvo un beneficio por otra vía, por ejemplo con otro patrocinador o por otro proceso migratorio. Confirma con el beneficiario cuál caso está activo para no duplicar esfuerzos."
+ },
+ "expedite-request-denied": {
+  "en": "USCIS will not speed up your I-134A, but the case keeps its place in line. If the beneficiary's situation becomes more urgent, you may ask again with new proof. Useful proof includes medical letters or reports showing danger to the beneficiary.",
+  "es": "USCIS no va a acelerar tu I-134A, pero el caso sigue en su lugar en la fila. Si la situación del beneficiario se vuelve más urgente, puedes volver a pedirlo con pruebas nuevas, como cartas médicas o reportes de peligro."
+ },
+ "correspondence-was-received-and-uscis-is-reviewing-it": {
+  "en": "USCIS received a message or documents you sent about your I-134A, such as updated financial evidence or a correction. An officer will add it to your file. You do not need to resend it unless asked.",
+  "es": "USCIS recibió un mensaje o documentos que mandaste sobre tu I-134A, como pruebas económicas actualizadas o una corrección. Un oficial lo agregará a tu expediente. No necesitas reenviarlo salvo que te lo pidan. Revisa tu cuenta en línea para ver novedades."
+ }
+}

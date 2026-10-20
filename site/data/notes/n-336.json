@@ -1,0 +1,174 @@
+{
+ "case-was-received": {
+  "en": "USCIS has your request for a hearing on the denied N-400. Because the N-336 has a strict filing deadline after the denial, this receipt is important proof that you filed in time. A different officer from the one who denied your case will handle the review.",
+  "es": "USCIS tiene tu solicitud de audiencia sobre el N-400 negado. Como el N-336 tiene un plazo estricto después de la negación, este recibo es una prueba importante de que lo presentaste a tiempo. Un oficial distinto al que negó tu caso hará la revisión."
+ },
+ "case-was-received-and-a-receipt-notice-was-sent": {
+  "en": "Your N-336 receipt notice is in the mail. Keep it with your N-400 denial letter, since the two together show the timeline of your appeal. The next step is usually a hearing notice from the USCIS office that will review the denial.",
+  "es": "Tu aviso de recibo del N-336 viene por correo. Guárdalo con tu carta de negación del N-400, porque juntos muestran las fechas de tu apelación. El siguiente paso suele ser un aviso de audiencia de la oficina de USCIS que revisará la negación."
+ },
+ "fingerprint-fee-was-received": {
+  "en": "USCIS applied a biometrics-related payment to your citizenship appeal. Fingerprints for naturalization must be current, so if earlier ones are old, USCIS may need new ones before the N-336 hearing. Watch for an appointment notice.",
+  "es": "USCIS aplicó un pago relacionado con biométricos a tu apelación de ciudadanía. Las huellas para naturalización deben estar vigentes, así que si las anteriores son viejas, USCIS puede necesitar unas nuevas antes de la audiencia del N-336. Espera un aviso de cita."
+ },
+ "fingerprint-review-was-completed": {
+  "en": "Your updated background check came back for the N-336. Current fingerprint results are needed before USCIS can approve citizenship, even on appeal. It does not mean the denial was overturned; the reviewing officer still decides after the hearing.",
+  "es": "Regresó tu chequeo de antecedentes actualizado para el N-336. Se necesitan resultados de huellas vigentes antes de que USCIS apruebe la ciudadanía, aun en apelación. No significa que se revocó la negación; el oficial revisor todavía decide después de la audiencia."
+ },
+ "case-is-being-actively-reviewed-by-uscis": {
+  "en": "A reviewing officer is looking at your N-400 file, the denial and the arguments in your N-336. The officer can decide on the record or call you for a hearing. Gather any new evidence that answers the reasons given in the denial letter.",
+  "es": "Un oficial revisor está viendo tu expediente del N-400, la negación y los argumentos de tu N-336. El oficial puede decidir con los papeles o citarte a una audiencia. Junta nuevas pruebas que respondan a las razones de la carta de negación."
+ },
+ "case-is-ready-to-be-scheduled-for-an-interview": {
+  "en": "Your N-336 is waiting for a hearing date. At the hearing, a new officer reviews the denial and may interview you again. If you were denied for failing the English or civics test, you may be retested, so keep studying.",
+  "es": "Tu N-336 espera fecha de audiencia. En la audiencia, un oficial nuevo revisa la negación y puede volver a entrevistarte. Si te negaron por no pasar el examen de inglés o de civismo, te pueden examinar otra vez, así que sigue estudiando."
+ },
+ "interview-was-scheduled": {
+  "en": "Your N-336 hearing is set. A different officer will review why your N-400 was denied and may ask questions, review new documents, or retest English and civics. Bring the notice, your green card, ID and evidence that answers the denial reasons.",
+  "es": "Tu audiencia del N-336 está programada. Un oficial distinto revisará por qué negaron tu N-400 y puede hacer preguntas, revisar documentos nuevos o volver a examinarte de inglés y civismo. Lleva el aviso, tu green card, identificación y pruebas que respondan a las razones de la negación."
+ },
+ "interview-was-completed-and-my-case-must-be-reviewed": {
+  "en": "Your N-336 hearing is over but no decision was made that day. The officer may need to review new documents, check records, or get supervisor approval. The next update is usually either a decision or a request for more evidence.",
+  "es": "Tu audiencia del N-336 terminó, pero no hubo decisión ese día. El oficial puede necesitar revisar documentos nuevos, checar registros o tener la aprobación de un supervisor. La siguiente actualización suele ser una decisión o una solicitud de más evidencia."
+ },
+ "request-for-additional-evidence-was-sent": {
+  "en": "The reviewing officer needs more evidence before deciding your citizenship appeal, often about good moral character, taxes, travel or residence. Answer every item before the deadline. Since a second denial has limited options left, an immigration attorney or accredited representative can help.",
+  "es": "El oficial revisor necesita más pruebas antes de decidir tu apelación de ciudadanía, muchas veces sobre buena conducta moral, impuestos, viajes o residencia. Contesta cada punto antes de la fecha límite. Como una segunda negación deja pocas opciones, un abogado de inmigración o representante acreditado puede ayudarte."
+ },
+ "request-for-initial-evidence-was-sent": {
+  "en": "Your N-336 was missing something basic, such as a copy of the denial notice or a brief explaining why the denial was wrong. Send what is listed with the notice on top, before the deadline, so the appeal stays active.",
+  "es": "A tu N-336 le faltó algo básico, como copia del aviso de negación o un escrito que explique por qué la negación fue un error. Manda lo que se pide con el aviso encima, antes de la fecha límite, para que la apelación siga activa."
+ },
+ "response-to-uscis-request-for-evidence-was-received": {
+  "en": "USCIS received your evidence for the N-336. The reviewing officer will consider it together with the original N-400 file and any hearing notes. The next step is often a decision or, if needed, a hearing.",
+  "es": "USCIS recibió tus pruebas para el N-336. El oficial revisor las va a considerar junto con el expediente original del N-400 y las notas de la audiencia. El siguiente paso suele ser una decisión o, si hace falta, una audiencia."
+ },
+ "case-was-transferred-and-a-new-office-has-jurisdiction": {
+  "en": "Your N-336 moved to another USCIS office. Hearings on citizenship denials are usually held at a field office, and transfers can follow a move or workload changes. The new office will send the hearing notice.",
+  "es": "Tu N-336 pasó a otra oficina de USCIS. Las audiencias por negación de ciudadanía suelen hacerse en una oficina local, y las transferencias pueden pasar por una mudanza o por carga de trabajo. La nueva oficina mandará el aviso de audiencia."
+ },
+ "case-was-approved": {
+  "en": "Your N-336 was approved, which means the reviewing officer overturned the N-400 denial. Your naturalization moves forward and the next step is the Oath of Allegiance ceremony. You are not a citizen until you take the oath.",
+  "es": "Tu N-336 fue aprobado, lo que significa que el oficial revisor revocó la negación del N-400. Tu naturalización avanza y el siguiente paso es la ceremonia del Juramento de Lealtad. No eres ciudadano hasta que hagas el juramento."
+ },
+ "document-was-mailed-to-me": {
+  "en": "USCIS mailed a document on your citizenship appeal. After a successful N-336 and oath, this may be your Certificate of Naturalization if it was not handed to you at the ceremony. Otherwise it may be a decision or notice; open it right away.",
+  "es": "USCIS mandó un documento de tu apelación de ciudadanía. Después de un N-336 exitoso y el juramento, puede ser tu Certificado de Naturalización si no te lo dieron en la ceremonia. Si no, puede ser una decisión o aviso; ábrelo de inmediato."
+ },
+ "notice-explaining-uscis-actions-was-mailed": {
+  "en": "USCIS sent a letter about your N-336. It could schedule your hearing, ask for evidence, explain a transfer, or give the decision. Read it right away; if it is a denial, it will explain the deadline for asking a federal court to review your case.",
+  "es": "USCIS mandó una carta sobre tu N-336. Puede programar tu audiencia, pedir pruebas, explicar una transferencia o dar la decisión. Léela de inmediato; si es una negación, explicará el plazo para pedir que una corte federal revise tu caso."
+ },
+ "case-was-denied": {
+  "en": "The reviewing officer upheld the N-400 denial. The next option is usually asking a U.S. district court to review the decision, with a strict deadline stated in the letter. Some people instead file a new N-400 once eligible. Talk to an immigration attorney right away.",
+  "es": "El oficial revisor confirmó la negación del N-400. La siguiente opción suele ser pedir que una corte federal de distrito revise la decisión, con un plazo estricto indicado en la carta. Otras personas presentan un nuevo N-400 cuando son elegibles. Habla de inmediato con un abogado de inmigración."
+ },
+ "case-was-reopened": {
+  "en": "Your N-336 is open again after a decision, often following a motion or a USCIS correction. A reopened citizenship appeal may need a new hearing or updated fingerprints. Watch your mail for notices. Keep your original denial letter and N-336 receipt together.",
+  "es": "Tu N-336 está abierto otra vez después de una decisión, muchas veces tras una moción o una corrección de USCIS. Una apelación de ciudadanía reabierta puede necesitar una nueva audiencia o huellas actualizadas. Revisa tu correo por si llegan avisos."
+ },
+ "case-rejected-because-i-sent-an-incorrect-fee": {
+  "en": "Your N-336 was rejected over the fee and does not count as filed. This is urgent, because the N-336 must be filed within a short time after the N-400 denial. Check the current fee or waiver rules on uscis.gov and refile immediately.",
+  "es": "Tu N-336 fue rechazado por el pago y no cuenta como presentado. Es urgente, porque el N-336 debe presentarse poco tiempo después de la negación del N-400. Revisa el costo actual o las reglas de exención en uscis.gov y vuelve a presentarlo de inmediato."
+ },
+ "expedite-request-received": {
+  "en": "USCIS received your request to speed up the N-336 hearing. It will be judged under USCIS expedite criteria, such as urgent humanitarian reasons. Send any proof you have, and keep preparing for the hearing in the meantime.",
+  "es": "USCIS recibió tu solicitud para acelerar la audiencia del N-336. Se va a evaluar con los criterios de USCIS para acelerar, como razones humanitarias urgentes. Manda las pruebas que tengas, y sigue preparándote para la audiencia mientras tanto."
+ },
+ "withdrawal-acknowledgement-notice-was-sent": {
+  "en": "USCIS confirmed your N-336 was withdrawn. The N-400 denial now stands. Withdrawing may also affect your ability to ask a federal court to review the denial. If you still want citizenship, you can generally file a new N-400 when eligible.",
+  "es": "USCIS confirmó que se retiró tu N-336. La negación del N-400 queda firme. Retirarlo también puede afectar tu posibilidad de pedir que una corte federal revise la negación. Si todavía quieres la ciudadanía, en general puedes presentar un nuevo N-400 cuando seas elegible."
+ },
+ "name-was-updated": {
+  "en": "USCIS updated your name on the N-336 record. If the appeal succeeds, this is the name that will appear on your Certificate of Naturalization. If you plan a legal name change at the oath, check the current USCIS process for that.",
+  "es": "USCIS actualizó tu nombre en el registro del N-336. Si la apelación tiene éxito, este es el nombre que saldrá en tu Certificado de Naturalización. Si piensas cambiar tu nombre legal en el juramento, revisa el proceso actual de USCIS para eso."
+ },
+ "case-was-received-and-a-receipt-notice-was-emailed": {
+  "en": "Your N-336 receipt arrived in your USCIS online account. Download it right away, since it proves you filed within the appeal deadline. Watch the account for a hearing notice, which may also appear there. Print a copy for your records as well.",
+  "es": "Tu recibo del N-336 llegó a tu cuenta en línea de USCIS. Descárgalo de inmediato, porque prueba que lo presentaste dentro del plazo de apelación. Revisa la cuenta por si llega el aviso de audiencia, que también puede aparecer ahí."
+ },
+ "case-accepted-by-the-uscis-lockbox": {
+  "en": "The intake site accepted your mailed N-336 and processed the payment. Keep proof of the mailing and delivery dates, because the timing of an N-336 matters. A receipt notice should follow. Keep a full copy of the N-336 and any brief you attached.",
+  "es": "El centro de recepción aceptó tu N-336 enviado por correo y procesó el pago. Guarda prueba de las fechas de envío y entrega, porque los tiempos del N-336 importan. Debe llegar un aviso de recibo."
+ },
+ "fees-were-waived": {
+  "en": "USCIS approved a fee waiver for your N-336. You do not pay the filing fee for this appeal. Keep the notice; your request for a hearing now moves forward like any other. The waiver does not change the strict timing rules of the appeal.",
+  "es": "USCIS aprobó una exención de cuota para tu N-336. No pagas la cuota de esta apelación. Guarda el aviso; tu solicitud de audiencia ahora avanza como cualquier otra. La exención no cambia las reglas estrictas de tiempo de la apelación, así que sigue pendiente de tu correo."
+ },
+ "case-was-rejected-because-it-was-improperly-filed": {
+  "en": "Your N-336 was returned unprocessed, for example for a missing signature, an old form edition, or filing after the deadline. A rejected N-336 does not stop the clock. Fix the problem and refile at once; if the deadline has passed, ask an attorney about your options.",
+  "es": "Tu N-336 fue devuelto sin procesar, por ejemplo por falta de firma, una edición vieja o presentarlo fuera de plazo. Un N-336 rechazado no detiene el reloj. Corrige el problema y preséntalo de inmediato; si ya pasó el plazo, pregunta a un abogado por tus opciones."
+ },
+ "biometrics-appointment-was-scheduled": {
+  "en": "USCIS scheduled new biometrics for your N-336. This usually happens when earlier fingerprints from the N-400 are no longer current. Go with the notice and your green card; missing it can delay or harm your appeal.",
+  "es": "USCIS programó nuevos biométricos para tu N-336. Suele pasar cuando las huellas anteriores del N-400 ya no están vigentes. Ve con el aviso y tu green card; faltar puede atrasar o perjudicar tu apelación. Si no puedes ir, pide otra cita cuanto antes."
+ },
+ "case-was-updated-to-show-fingerprints-were-taken": {
+  "en": "Your fingerprints for the N-336 were recorded. An updated background check can now run, which USCIS needs before granting citizenship. The next step is usually the hearing or the reviewing officer's decision. Keep your stamped appointment notice.",
+  "es": "Se registraron tus huellas para el N-336. Ahora puede correr un chequeo de antecedentes actualizado, que USCIS necesita antes de dar la ciudadanía. El siguiente paso suele ser la audiencia o la decisión del oficial revisor."
+ },
+ "interview-was-rescheduled": {
+  "en": "Your N-336 hearing has a new date. Read the new notice for time and place. Use the extra time to prepare answers and documents on the exact reasons your N-400 was denied, and to keep practicing English and civics if those were an issue.",
+  "es": "Tu audiencia del N-336 tiene fecha nueva. Lee el nuevo aviso para la hora y el lugar. Usa el tiempo extra para preparar respuestas y documentos sobre las razones exactas de la negación de tu N-400, y para seguir practicando inglés y civismo si fueron un problema."
+ },
+ "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
+  "en": "USCIS recorded that you missed your N-336 hearing or biometrics. Missing it can lead to the appeal being decided without you or dismissed. Contact USCIS right away with your reason, and talk to an attorney about protecting your right to court review.",
+  "es": "USCIS registró que faltaste a tu audiencia o biométricos del N-336. Faltar puede hacer que decidan la apelación sin ti o que la cierren. Comunícate de inmediato con USCIS con tu razón, y habla con un abogado para proteger tu derecho a revisión en corte."
+ },
+ "oath-ceremony-will-be-scheduled": {
+  "en": "Your appeal worked: after the N-336 review, your case is moving to the oath stage. USCIS will send a ceremony notice. Until you take the oath you are still a permanent resident, so keep your green card and avoid long trips abroad.",
+  "es": "Tu apelación funcionó: después de la revisión del N-336, tu caso pasa a la etapa del juramento. USCIS te mandará el aviso de ceremonia. Hasta que hagas el juramento sigues siendo residente permanente, así que guarda tu green card y evita viajes largos."
+ },
+ "oath-ceremony-notice-was-mailed": {
+  "en": "Your oath ceremony notice is on its way after the successful N-336. Read it, fill out the questions on the back, and bring your green card to the ceremony. After the oath you receive your Certificate of Naturalization and become a U.S. citizen.",
+  "es": "Tu aviso de ceremonia de juramento viene en camino después del N-336 exitoso. Léelo, contesta las preguntas al reverso y lleva tu green card a la ceremonia. Después del juramento recibes tu Certificado de Naturalización y te vuelves ciudadano de EE.UU."
+ },
+ "case-was-approved-and-my-decision-was-emailed": {
+  "en": "The N-336 approval is in your online account. The N-400 denial was overturned. Download the decision and watch for your oath ceremony notice, which is the final step to citizenship. Keep your green card until the ceremony, where you turn it in.",
+  "es": "La aprobación del N-336 está en tu cuenta en línea. Se revocó la negación del N-400. Descarga la decisión y espera tu aviso de ceremonia de juramento, que es el último paso para la ciudadanía."
+ },
+ "case-approval-was-certified-by-uscis": {
+  "en": "USCIS certified the approval of your N-336 for another agency or court. This can happen when official proof of the decision is needed, for example if a court case was involved. No action is needed from you.",
+  "es": "USCIS certificó la aprobación de tu N-336 para otra agencia o corte. Puede pasar cuando se necesita prueba oficial de la decisión, por ejemplo si hubo un caso en corte. No necesitas hacer nada. Tu caso de ciudadanía sigue su curso."
+ },
+ "response-to-uscis-notice-of-intent-was-received": {
+  "en": "USCIS received your reply to a notice of intent on your citizenship appeal. The reviewing officer will weigh it before the final decision. Because this decision can only be challenged in federal court, keep working with your attorney.",
+  "es": "USCIS recibió tu respuesta a un aviso de intención sobre tu apelación de ciudadanía. El oficial revisor la va a considerar antes de la decisión final. Como esta decisión solo se puede impugnar en una corte federal, sigue trabajando con tu abogado."
+ },
+ "case-is-pending-at-a-local-office": {
+  "en": "Your N-336 is at a USCIS field office, where the hearing on your denied N-400 will take place. The office will send a hearing notice when a date is set. Keep your address current. Start preparing documents that answer each denial reason.",
+  "es": "Tu N-336 está en una oficina local de USCIS, donde será la audiencia sobre tu N-400 negado. La oficina mandará el aviso de audiencia cuando haya fecha. Mantén tu dirección al día. Empieza a preparar documentos que respondan a cada razón de la negación."
+ },
+ "duplicate-notice-was-mailed": {
+  "en": "USCIS mailed another copy of an N-336 notice, often the receipt or the hearing notice. A spare copy of the receipt is useful as proof of timely filing. It does not change the appeal. Keep it with your denial letter.",
+  "es": "USCIS mandó otra copia de un aviso del N-336, muchas veces el recibo o el aviso de audiencia. Tener otra copia del recibo sirve como prueba de que lo presentaste a tiempo. No cambia la apelación."
+ },
+ "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
+  "en": "A notice about your N-336 could not be delivered. If it was the hearing notice, missing the hearing could hurt your appeal. Update your address with USCIS now and ask what the notice said. Act quickly.",
+  "es": "Un aviso de tu N-336 no se pudo entregar. Si era el aviso de audiencia, faltar a la audiencia podría perjudicar tu apelación. Actualiza tu dirección con USCIS ya y pregunta qué decía el aviso."
+ },
+ "date-of-birth-was-updated": {
+  "en": "USCIS corrected your date of birth on the N-336 record. Check it against your green card and passport, because this date will appear on your Certificate of Naturalization if the appeal succeeds. Tell USCIS if anything is still wrong.",
+  "es": "USCIS corrigió tu fecha de nacimiento en el registro del N-336. Revísala contra tu green card y tu pasaporte, porque esta fecha saldrá en tu Certificado de Naturalización si la apelación tiene éxito. Avísale a USCIS si algo sigue mal."
+ },
+ "continuation-notice-was-mailed": {
+  "en": "A continuation notice is unusual on an N-336, since the appeal does not extend any status. Your permanent residence is shown by your green card. Read the notice to see what it refers to, and contact USCIS if unclear.",
+  "es": "Un aviso de continuación es raro en un N-336, porque la apelación no extiende ningún estatus. Tu residencia permanente se demuestra con tu green card. Lee el aviso para ver a qué se refiere, y comunícate con USCIS si no queda claro."
+ },
+ "termination-notice-sent": {
+  "en": "USCIS ended your N-336 case, for example for abandonment or after a withdrawal. The N-400 denial then stands. Ask an immigration attorney quickly whether federal court review or a new N-400 is still possible for you.",
+  "es": "USCIS terminó tu caso del N-336, por ejemplo por abandono o después de un retiro. Entonces la negación del N-400 queda firme. Pregunta pronto a un abogado de inmigración si todavía puedes pedir revisión en corte federal o presentar un nuevo N-400."
+ },
+ "case-closed-benefit-received-by-other-means": {
+  "en": "USCIS closed your N-336 because you already received citizenship another way, for example through a new approved N-400. Make sure you have your Certificate of Naturalization, and you can stop tracking this appeal. Keep the closure notice with your citizenship papers.",
+  "es": "USCIS cerró tu N-336 porque ya obtuviste la ciudadanía por otra vía, por ejemplo con un nuevo N-400 aprobado. Asegúrate de tener tu Certificado de Naturalización, y puedes dejar de seguir esta apelación. Guarda el aviso de cierre con tus papeles de ciudadanía."
+ },
+ "expedite-request-denied": {
+  "en": "USCIS will not speed up your N-336, but it keeps its normal place. Compare your wait with the typical range shown on this page. Use the time to build a strong response to each reason in the denial.",
+  "es": "USCIS no va a acelerar tu N-336, pero conserva su lugar normal. Compara tu espera con el rango típico de esta página. Usa el tiempo para preparar una buena respuesta a cada razón de la negación."
+ },
+ "correspondence-was-received-and-uscis-is-reviewing-it": {
+  "en": "USCIS received something you sent about your N-336, such as a legal brief, new evidence or an address change. The reviewing officer will consider it. Keep a dated copy for your records. It may be used at your hearing.",
+  "es": "USCIS recibió algo que mandaste sobre tu N-336, como un escrito legal, pruebas nuevas o un cambio de dirección. El oficial revisor lo va a considerar. Guarda una copia con fecha para tus registros. Puede usarse en tu audiencia."
+ }
+}
