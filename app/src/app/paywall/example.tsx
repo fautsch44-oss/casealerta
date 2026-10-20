@@ -1,5 +1,7 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { router } from 'expo-router';
-import React from 'react';
+import React, { useEffect } from 'react';
+import { PAYWALL_SEEN_KEY } from '../index';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import Svg, { Path, Rect } from 'react-native-svg';
@@ -9,6 +11,7 @@ import { colors, fonts, radius, space, touch } from '../../theme/tokens';
 
 export default function PaywallExample() {
   const { t } = useT();
+  useEffect(() => { AsyncStorage.setItem(PAYWALL_SEEN_KEY, '1').catch(() => {}); }, []);
   const close = () => router.replace('/(tabs)/cases');
   const Feat = ({ text }: { text: string }) => (
     <View style={{ flexDirection: 'row', gap: 12, alignItems: 'flex-start' }}>

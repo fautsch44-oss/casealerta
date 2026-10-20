@@ -6,10 +6,12 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import Svg, { Path } from 'react-native-svg';
 import { Celebration } from '../../../components/Celebration';
 import { HuespedSheet } from '../../../components/Huesped';
+import { CaseDates } from '../../../components/CaseDates';
+import { NvcCard } from '../../../components/NvcCard';
 import { Button, Card, Label, ReceiptBadge } from '../../../components/ui';
 import { useT } from '../../../i18n';
 import { addCase, getCase, getExplanation, listEvents, lookupReceipt, type CaseEvent, type CaseRow, type Explanation } from '../../../lib/api';
-import { bucketFor, daysSince, uscisUrl } from '../../../lib/receipt';
+import { bucketFor, checkedLabel, daysSince, uscisDate, uscisUrl } from '../../../lib/receipt';
 import { supabase } from '../../../lib/supabase';
 import { colors, fonts, radius, semaphore, space, touch } from '../../../theme/tokens';
 
@@ -49,11 +51,11 @@ export default function CaseDetail() {
       const text = s.status_en ?? s.status_es;
       if (text && text !== row.last_status_text) {
         const { data: session } = await supabase.auth.getSession();
-        await supabase.from('case_events').insert({ case_id: row.id, owner_id: session.session?.user.id, status_code: text, status_text: text, status_date: s.modified?.slice(0, 10) ?? null, source: 'manual' });
-        await supabase.from('cases').update({ last_status_code: text, last_status_text: text, last_checked_at: new Date().toISOString(), last_changed_at: new Date().toISOString(), form_type: row.form_type ?? s.form_type }).eq('id', row.id);
+        await supabase.from('case_events').insert({ case_id: row.id, owner_id: session.session?.user.id, status_code: text, status_text: text, status_date: uscisDate(s.modified), source: 'manual' });
+        await supabase.from('cases').update({ last_status_code: text, last_status_text: text, last_checked_at: new Date().toISOString(), last_changed_at: new Date().toISOString(), last_status_date: uscisDate(s.modified), form_type: row.form_type ?? s.form_type, received_date: row.received_date ?? uscisDate(s.submitted) }).eq('id', row.id);
         await AsyncStorage.removeItem(CELEBRATED(row.id, text));
       } else {
-        await supabase.from('cases').update({ last_checked_at: new Date().toISOString() }).eq('id', row.id);
+        await supabase.from('cases').update({ last_checked_at: new Date().toISOString(), received_date: row.received_date ?? uscisDate(s.submitted), form_type: row.form_type ?? s.form_type }).eq('id', row.id);
       }
       await load();
     } catch { /* se mantiene lo guardado */ } finally { setBusy(false); }
@@ -90,6 +92,10 @@ export default function CaseDetail() {
                 <View style={{ width: 14, height: 14, borderRadius: 7, backgroundColor: sem.fg }} />
                 <Text style={{ fontFamily: fonts.black, fontSize: 20, color: sem.fg, flex: 1 }}>{ex?.status_title ?? row.last_status_text ?? t.statusBucket.neutral}</Text>
               </View>
+              <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6, backgroundColor: daysSince(row.last_checked_at) <= 1 ? colors.greenSoft : colors.bg, borderRadius: 10, paddingVertical: 6, paddingHorizontal: 10 }}>
+                <View style={{ width: 8, height: 8, borderRadius: 4, backgroundColor: daysSince(row.last_checked_at) <= 1 ? colors.green : colors.line }} />
+                <Text style={{ fontFamily: fonts.bold, fontSize: 12, color: daysSince(row.last_checked_at) <= 1 ? colors.green : colors.muted, flex: 1 }}>{checkedLabel(row.last_checked_at, lang)}</Text>
+              </View>
               <Label>{t.a2_official}{row.last_status_date ? ` · ${row.last_status_date}` : ''}</Label>
               <Text style={{ fontFamily: fonts.semibold, fontSize: 13, color: colors.ink }}>{row.last_status_text ?? '—'}</Text>
               <Pressable accessibilityRole="link" onPress={() => Linking.openURL(uscisUrl())} style={{ flexDirection: 'row', gap: 6, alignItems: 'center', paddingVertical: 6 }}>
@@ -118,6 +124,10 @@ export default function CaseDetail() {
               <Text style={{ fontFamily: fonts.regular, fontSize: 11, color: colors.muted }}>{t.a2_ai}</Text>
             </Card>
 
+            <CaseDates row={row} />
+
+            <NvcCard row={row} onSaved={load} />
+
             <Card>
               <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
                 <Label>{t.a2_history}</Label>
@@ -127,7 +137,7 @@ export default function CaseDetail() {
               {events.map((e) => (
                 <View key={e.id} style={{ flexDirection: 'row', gap: 10, alignItems: 'center' }}>
                   <View style={{ width: 10, height: 10, borderRadius: 5, backgroundColor: semaphore[bucketFor(e.status_text)].fg }} />
-                  <Text style={{ fontFamily: fonts.bold, fontSize: 13, color: colors.ink, flex: 1 }}>{e.status_text}</Text>
+                  <Text style={{ fontFamily: fonts.bold, fontSize: 13, color: colors.ink, flex: 1 }}>{e.status_text?.startsWith('NVC: ') ? `NVC · ${t.nvc_status[e.status_text.slice(5)] ?? e.status_text.slice(5)}` : e.status_text}</Text>
                   <Text style={{ fontFamily: fonts.regular, fontSize: 12, color: colors.muted }}>{(e.status_date ?? e.detected_at).slice(0, 10)}</Text>
                 </View>
               ))}

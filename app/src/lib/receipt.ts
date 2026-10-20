@@ -44,6 +44,26 @@ export function daysSince(iso: string | null | undefined) {
   return Math.max(0, Math.floor(ms / 86400000));
 }
 
+// "Revisado hoy 8:25 am" / "Revisado ayer" / "Revisado hace N días" — la prueba diaria de que vigilamos.
+export function checkedLabel(iso: string | null | undefined, lang: 'es' | 'en') {
+  if (!iso) return lang === 'es' ? 'Aún no revisado' : 'Not checked yet';
+  const d = daysSince(iso);
+  if (d === 0) {
+    const time = new Date(iso).toLocaleTimeString(lang === 'es' ? 'es-MX' : 'en-US', { hour: 'numeric', minute: '2-digit' });
+    return lang === 'es' ? `Revisado hoy ${time} · sin cambios · todo en orden` : `Checked today ${time} · no changes · all in order`;
+  }
+  if (d === 1) return lang === 'es' ? 'Revisado ayer · sin cambios' : 'Checked yesterday · no changes';
+  return lang === 'es' ? `Revisado hace ${d} días` : `Checked ${d} days ago`;
+}
+
 export function uscisUrl() {
   return 'https://egov.uscis.gov/casestatus/landing.do';
+}
+
+// USCIS entrega fechas como "09-05-2023 14:28:46" (MM-DD-YYYY) o ISO. Devolvemos "YYYY-MM-DD" o null.
+export function uscisDate(v: string | null | undefined): string | null {
+  if (!v) return null;
+  const iso = v.match(/^(\d{4})-(\d{2})-(\d{2})/); if (iso) return `${iso[1]}-${iso[2]}-${iso[3]}`;
+  const us = v.match(/^(\d{1,2})[-/](\d{1,2})[-/](\d{4})/); if (us) return `${us[3]}-${us[1].padStart(2, '0')}-${us[2].padStart(2, '0')}`;
+  const d = new Date(v); return isNaN(d.getTime()) ? null : d.toISOString().slice(0, 10);
 }

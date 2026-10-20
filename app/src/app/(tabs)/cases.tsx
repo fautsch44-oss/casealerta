@@ -7,7 +7,7 @@ import { HuespedBubble, HuespedSheet } from '../../components/Huesped';
 import { Button, FlagBar, Seal, Wordmark } from '../../components/ui';
 import { useT } from '../../i18n';
 import { listCases, type CaseRow } from '../../lib/api';
-import { bucketFor, daysSince } from '../../lib/receipt';
+import { bucketFor, checkedLabel, daysSince } from '../../lib/receipt';
 import { colors, fonts, radius, semaphore, shadow, space, touch } from '../../theme/tokens';
 
 export default function CasesScreen() {
@@ -39,12 +39,17 @@ export default function CasesScreen() {
         <View style={{ flex: 1, gap: 6 }}>
           <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
             <Text style={styles.cardTitle} numberOfLines={1}>{item.label || item.receipt_number}</Text>
-            <Text style={{ fontFamily: fonts.bold, fontSize: 11, color: colors.muted }}>{item.form_type ?? ''}</Text>
+            <Text style={{ fontFamily: fonts.bold, fontSize: 11, color: colors.muted }}>{[item.form_type, item.nvc_case_number ? 'NVC' : null].filter(Boolean).join(' · ')}</Text>
           </View>
           <Text style={{ fontFamily: fonts.semibold, fontSize: 13, color: colors.ink }} numberOfLines={2}>{item.last_status_text ?? t.statusBucket.neutral}</Text>
+          {item.nvc_status && <Text style={{ fontFamily: fonts.semibold, fontSize: 12, color: colors.blue }} numberOfLines={1}>NVC · {t.nvc_status[item.nvc_status]}</Text>}
           <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
             <Text style={[styles.pill, { color: s.fg, backgroundColor: s.bg }]}>{t.statusBucket[b]}</Text>
             <Text style={{ fontFamily: fonts.regular, fontSize: 11, color: colors.muted }}>{t.a1_lastChange(daysSince(item.last_changed_at ?? item.created_at))}</Text>
+          </View>
+          <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6 }}>
+            <View style={{ width: 8, height: 8, borderRadius: 4, backgroundColor: daysSince(item.last_checked_at) <= 1 ? colors.green : colors.line }} />
+            <Text style={{ fontFamily: fonts.semibold, fontSize: 11, color: daysSince(item.last_checked_at) <= 1 ? colors.green : colors.muted }}>{checkedLabel(item.last_checked_at, lang)}</Text>
           </View>
         </View>
       </Pressable>

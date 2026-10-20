@@ -12,8 +12,7 @@
       "bundleIdentifier": "com.vargergroup.casealerta",
       "supportsTablet": false,
       "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false,
-        "NSUserTrackingUsageDescription": "CaseAlerta nunca rastrea entre apps."
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {

@@ -1,5 +1,5 @@
 import { ensureSession, supabase } from './supabase';
-import { normalizeReceipt } from './receipt';
+import { normalizeReceipt, uscisDate } from './receipt';
 import type { Lang } from '../i18n/strings';
 
 export type UscisStatus = {
@@ -26,7 +26,28 @@ export type CaseRow = {
   last_changed_at: string | null;
   response_deadline: string | null;
   created_at: string;
+  received_date: string | null;
+  priority_date: string | null;
+  nvc_case_number: string | null;
+  nvc_invoice_id: string | null;
+  nvc_status: NvcStatus | null;
+  nvc_status_date: string | null;
+  nvc_updated_at: string | null;
 };
+
+export type NvcStatus = 'at_nvc' | 'fees_paid' | 'ds260_submitted' | 'documents_submitted' | 'documentarily_qualified' | 'interview_scheduled' | 'administrative_processing' | 'visa_issued' | 'refused';
+export const NVC_STATUSES: NvcStatus[] = ['at_nvc', 'fees_paid', 'ds260_submitted', 'documents_submitted', 'documentarily_qualified', 'interview_scheduled', 'administrative_processing', 'visa_issued', 'refused'];
+
+/** Guarda o actualiza el tracker NVC del caso. Registra el cambio en la historia. */
+export async function saveNvc(caseId: string, p: { nvc_case_number: string; nvc_invoice_id: string | null; nvc_status: NvcStatus; nvc_status_date: string | null }) {
+  const session = await ensureSession();
+  const prev = await getCase(caseId);
+  const { error } = await supabase.from('cases').update({ ...p, nvc_updated_at: new Date().toISOString() }).eq('id', caseId);
+  if (error) throw error;
+  if (prev?.nvc_status !== p.nvc_status) {
+    await supabase.from('case_events').insert({ case_id: caseId, owner_id: session.user.id, status_code: `NVC_${p.nvc_status.toUpperCase()}`, status_text: `NVC: ${p.nvc_status}`, status_date: p.nvc_status_date, source: 'manual' });
+  }
+}
 
 export type CaseEvent = { id: string; status_text: string; status_date: string | null; detected_at: string };
 
@@ -64,7 +85,7 @@ export async function listCases(): Promise<CaseRow[]> {
   await ensureSession();
   const { data, error } = await supabase
     .from('cases')
-    .select('id, receipt_number, form_type, label, last_status_code, last_status_text, last_status_date, last_checked_at, last_changed_at, response_deadline, created_at')
+    .select('id, receipt_number, form_type, label, last_status_code, last_status_text, last_status_date, last_checked_at, last_changed_at, response_deadline, created_at, received_date, priority_date, nvc_case_number, nvc_invoice_id, nvc_status, nvc_status_date, nvc_updated_at')
     .eq('active', true)
     .order('last_changed_at', { ascending: false, nullsFirst: false });
   if (error) throw error;
@@ -104,17 +125,26 @@ export async function addCase(status: UscisStatus, label: string | null): Promis
       label,
       last_status_code: statusText,
       last_status_text: statusText,
-      last_status_date: status.modified ? status.modified.slice(0, 10) : null,
+      last_status_date: uscisDate(status.modified),
+      received_date: uscisDate(status.submitted),
       last_checked_at: new Date().toISOString(),
-      last_changed_at: status.modified ?? new Date().toISOString(),
+      last_changed_at: uscisDate(status.modified) ? `${uscisDate(status.modified)}T12:00:00Z` : new Date().toISOString(),
     })
     .select('*')
     .single();
   if (error) throw error;
-  if (statusText) {
+  // Historia oficial de USCIS → cada paso con su fecha, visible desde el primer día.
+  const hist = (status.history as { date?: string; completed_text_en?: string; completed_text_es?: string }[]).filter((h) => h?.date);
+  if (hist.length) {
+    await supabase.from('case_events').insert(hist.map((h) => ({
+      case_id: data.id, owner_id, status_code: h.completed_text_en ?? statusText, status_text: h.completed_text_en ?? statusText,
+      status_date: uscisDate(h.date), source: 'uscis_api',
+    }))).then(() => null, () => null);
+  }
+  if (statusText && !hist.length) {
     await supabase.from('case_events').insert({
       case_id: data.id, owner_id, status_code: statusText, status_text: statusText,
-      status_date: status.modified ? status.modified.slice(0, 10) : null, source: 'manual',
+      status_date: uscisDate(status.modified), source: 'manual',
     });
   }
   return data as CaseRow;
