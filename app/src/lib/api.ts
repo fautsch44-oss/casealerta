@@ -1,5 +1,5 @@
 import { ensureSession, supabase } from './supabase';
-import { normalizeReceipt } from './receipt';
+import { normalizeReceipt, uscisDate } from './receipt';
 import type { Lang } from '../i18n/strings';
 
 export type UscisStatus = {
@@ -125,18 +125,26 @@ export async function addCase(status: UscisStatus, label: string | null): Promis
       label,
       last_status_code: statusText,
       last_status_text: statusText,
-      last_status_date: status.modified ? status.modified.slice(0, 10) : null,
-      received_date: status.submitted ? status.submitted.slice(0, 10) : null,
+      last_status_date: uscisDate(status.modified),
+      received_date: uscisDate(status.submitted),
       last_checked_at: new Date().toISOString(),
-      last_changed_at: status.modified ?? new Date().toISOString(),
+      last_changed_at: uscisDate(status.modified) ? `${uscisDate(status.modified)}T12:00:00Z` : new Date().toISOString(),
     })
     .select('*')
     .single();
   if (error) throw error;
-  if (statusText) {
+  // Historia oficial de USCIS → cada paso con su fecha, visible desde el primer día.
+  const hist = (status.history as { date?: string; completed_text_en?: string; completed_text_es?: string }[]).filter((h) => h?.date);
+  if (hist.length) {
+    await supabase.from('case_events').insert(hist.map((h) => ({
+      case_id: data.id, owner_id, status_code: h.completed_text_en ?? statusText, status_text: h.completed_text_en ?? statusText,
+      status_date: uscisDate(h.date), source: 'uscis_api',
+    }))).then(() => null, () => null);
+  }
+  if (statusText && !hist.length) {
     await supabase.from('case_events').insert({
       case_id: data.id, owner_id, status_code: statusText, status_text: statusText,
-      status_date: status.modified ? status.modified.slice(0, 10) : null, source: 'manual',
+      status_date: uscisDate(status.modified), source: 'manual',
     });
   }
   return data as CaseRow;

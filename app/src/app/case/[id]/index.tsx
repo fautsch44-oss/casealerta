@@ -11,7 +11,7 @@ import { NvcCard } from '../../../components/NvcCard';
 import { Button, Card, Label, ReceiptBadge } from '../../../components/ui';
 import { useT } from '../../../i18n';
 import { addCase, getCase, getExplanation, listEvents, lookupReceipt, type CaseEvent, type CaseRow, type Explanation } from '../../../lib/api';
-import { bucketFor, checkedLabel, daysSince, uscisUrl } from '../../../lib/receipt';
+import { bucketFor, checkedLabel, daysSince, uscisDate, uscisUrl } from '../../../lib/receipt';
 import { supabase } from '../../../lib/supabase';
 import { colors, fonts, radius, semaphore, space, touch } from '../../../theme/tokens';
 
@@ -51,11 +51,11 @@ export default function CaseDetail() {
       const text = s.status_en ?? s.status_es;
       if (text && text !== row.last_status_text) {
         const { data: session } = await supabase.auth.getSession();
-        await supabase.from('case_events').insert({ case_id: row.id, owner_id: session.session?.user.id, status_code: text, status_text: text, status_date: s.modified?.slice(0, 10) ?? null, source: 'manual' });
-        await supabase.from('cases').update({ last_status_code: text, last_status_text: text, last_checked_at: new Date().toISOString(), last_changed_at: new Date().toISOString(), form_type: row.form_type ?? s.form_type }).eq('id', row.id);
+        await supabase.from('case_events').insert({ case_id: row.id, owner_id: session.session?.user.id, status_code: text, status_text: text, status_date: uscisDate(s.modified), source: 'manual' });
+        await supabase.from('cases').update({ last_status_code: text, last_status_text: text, last_checked_at: new Date().toISOString(), last_changed_at: new Date().toISOString(), last_status_date: uscisDate(s.modified), form_type: row.form_type ?? s.form_type, received_date: row.received_date ?? uscisDate(s.submitted) }).eq('id', row.id);
         await AsyncStorage.removeItem(CELEBRATED(row.id, text));
       } else {
-        await supabase.from('cases').update({ last_checked_at: new Date().toISOString() }).eq('id', row.id);
+        await supabase.from('cases').update({ last_checked_at: new Date().toISOString(), received_date: row.received_date ?? uscisDate(s.submitted), form_type: row.form_type ?? s.form_type }).eq('id', row.id);
       }
       await load();
     } catch { /* se mantiene lo guardado */ } finally { setBusy(false); }
