@@ -5,6 +5,7 @@ import { Linking, Pressable, ScrollView, Share, StyleSheet, Text, View } from 'r
 import { SafeAreaView } from 'react-native-safe-area-context';
 import Svg, { Path } from 'react-native-svg';
 import { Celebration } from '../../../components/Celebration';
+import { HuespedSheet } from '../../../components/Huesped';
 import { Button, Card, Label, ReceiptBadge } from '../../../components/ui';
 import { useT } from '../../../i18n';
 import { addCase, getCase, getExplanation, listEvents, lookupReceipt, type CaseEvent, type CaseRow, type Explanation } from '../../../lib/api';
@@ -23,6 +24,7 @@ export default function CaseDetail() {
   const [err, setErr] = useState(false);
   const [busy, setBusy] = useState(false);
   const [party, setParty] = useState(false);
+  const [guest, setGuest] = useState(false);
 
   const load = useCallback(async () => {
     try {
@@ -131,6 +133,11 @@ export default function CaseDetail() {
               ))}
             </Card>
 
+            <Pressable accessibilityRole="button" onPress={() => setGuest(true)} style={[styles.lawyer, { backgroundColor: colors.blue, borderColor: colors.blue, flexDirection: 'row', gap: 10, justifyContent: 'center' }]}>
+              <Svg width={20} height={20} viewBox="0 0 24 24" fill="none" stroke={colors.onDark} strokeWidth={2.2} strokeLinecap="round" strokeLinejoin="round"><Path d="M4 5h16v11H9l-5 4z" /></Svg>
+              <Text style={{ fontFamily: fonts.bold, fontSize: 14, color: colors.onDark }}>{t.h_ask}</Text>
+            </Pressable>
+
             <Pressable accessibilityRole="button" onPress={() => router.push({ pathname: '/case/[id]/bulletin', params: { id: row.id } })} style={[styles.lawyer, { borderColor: colors.gold, flexDirection: 'row', gap: 10, justifyContent: 'center' }]}>
               <Svg width={20} height={20} viewBox="0 0 24 24" fill="none" stroke={colors.amber} strokeWidth={2.2} strokeLinecap="round" strokeLinejoin="round"><Path d="M4 5h16v14H4z" /><Path d="M4 10h16M9 5v14" /></Svg>
               <Text style={{ fontFamily: fonts.bold, fontSize: 14, color: colors.ink }}>{t.a2_bulletin}</Text>
@@ -142,6 +149,8 @@ export default function CaseDetail() {
           </>
         )}
       </ScrollView>
+
+      <HuespedSheet visible={guest} onClose={() => setGuest(false)} focus={row} />
 
       {party && row && (
         <Celebration label={label} days={days} shareText={shareText} onNext={() => setParty(false)} onDismiss={() => setParty(false)} />

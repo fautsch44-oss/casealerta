@@ -3,6 +3,7 @@ import React, { useCallback, useState } from 'react';
 import { FlatList, Pressable, RefreshControl, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import Svg, { Path } from 'react-native-svg';
+import { HuespedBubble, HuespedSheet } from '../../components/Huesped';
 import { Button, FlagBar, Seal, Wordmark } from '../../components/ui';
 import { useT } from '../../i18n';
 import { listCases, type CaseRow } from '../../lib/api';
@@ -14,6 +15,7 @@ export default function CasesScreen() {
   const [rows, setRows] = useState<CaseRow[] | null>(null);
   const [err, setErr] = useState(false);
   const [refreshing, setRefreshing] = useState(false);
+  const [guest, setGuest] = useState(false);
 
   const load = useCallback(async () => {
     try { setRows(await listCases()); setErr(false); } catch { setErr(true); if (!rows) setRows([]); }
@@ -72,6 +74,7 @@ export default function CasesScreen() {
         renderItem={renderItem}
         contentContainerStyle={{ padding: space.lg, gap: 12, paddingBottom: 100 }}
         refreshControl={<RefreshControl refreshing={refreshing} onRefresh={refresh} tintColor={colors.blue} />}
+        ListFooterComponent={rows && rows.length ? <HuespedBubble cases={rows} onPress={() => setGuest(true)} /> : undefined}
         ListEmptyComponent={
           <View style={styles.empty}>
             <Text style={{ fontFamily: fonts.bold, fontSize: 15, color: colors.ink, textAlign: 'center' }}>{rows === null ? t.a1_loading : err ? t.a1_error : t.a1_empty}</Text>
@@ -80,6 +83,8 @@ export default function CasesScreen() {
           </View>
         }
       />
+
+      <HuespedSheet visible={guest} onClose={() => setGuest(false)} focus={(rows ?? []).find((r) => bucketFor(r.last_status_text) === 'action') ?? rows?.[0] ?? null} />
 
       <Pressable accessibilityRole="button" accessibilityLabel={t.a1_add} onPress={() => router.push({ pathname: '/onboarding/receipt', params: { from: 'tabs' } })} style={styles.fab}>
         <Svg width={28} height={28} viewBox="0 0 24 24" fill="none" stroke={colors.onDark} strokeWidth={3} strokeLinecap="round"><Path d="M12 5v14M5 12h14" /></Svg>
