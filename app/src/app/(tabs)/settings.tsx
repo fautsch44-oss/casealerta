@@ -2,9 +2,10 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import Constants from 'expo-constants';
 import { router, useFocusEffect } from 'expo-router';
 import React, { useCallback, useState } from 'react';
-import { Alert, Linking, Pressable, ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
+import { Alert, Linking, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { Card, Label } from '../../components/ui';
+import { Icon, type IconName } from '../../components/Journey';
+import { FlagBar, Label, Seal, Wordmark } from '../../components/ui';
 import { useT } from '../../i18n';
 import { hasProEntitlement, saveProfile } from '../../lib/api';
 import { supabase } from '../../lib/supabase';
@@ -34,43 +35,84 @@ export default function SettingsScreen() {
     { text: t.ok, style: 'destructive', onPress: async () => { await supabase.auth.signOut(); await AsyncStorage.removeItem(ONBOARDED_KEY); router.replace('/'); } },
   ]);
 
-  const Row = ({ title, sub, right }: { title: string; sub?: string; right: React.ReactNode }) => (
-    <View style={styles.row}><View style={{ flex: 1 }}><Text style={styles.rowT}>{title}</Text>{sub && <Text style={styles.rowS}>{sub}</Text>}</View>{right}</View>
+  const es = lang === 'es';
+  const Tile = ({ on, icon, label, onPress }: { on: boolean; icon: IconName; label: string; onPress: () => void }) => (
+    <Pressable accessibilityRole="checkbox" accessibilityState={{ checked: on }} onPress={onPress} style={[styles.tile, on && styles.tileOn]}>
+      <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+        <View style={[styles.tileIcon, { backgroundColor: on ? '#E6EEFA' : colors.bg }]}><Icon name={icon} size={22} color={on ? colors.blue : colors.muted} sw={2.2} /></View>
+        <View style={[styles.box, on && { backgroundColor: colors.blue, borderColor: colors.blue }]}>{on && <Icon name="check" size={16} color={colors.onDark} sw={3} />}</View>
+      </View>
+      <Text style={{ fontFamily: fonts.bold, fontSize: 14, color: colors.ink }}>{label}</Text>
+    </Pressable>
   );
   const Seg = ({ v, label }: { v: 'es' | 'en'; label: string }) => (
     <Pressable accessibilityRole="button" onPress={() => changeLang(v)} style={[styles.seg, lang === v && styles.segOn]}>
-      <Text style={{ fontFamily: fonts.bold, fontSize: 13, color: lang === v ? colors.onDark : colors.ink }}>{label}</Text>
+      <Text style={[styles.badge, lang === v && { backgroundColor: 'rgba(255,255,255,0.2)', color: colors.onDark }]}>{v.toUpperCase()}</Text>
+      <Text style={{ fontFamily: fonts.bold, fontSize: 14, color: lang === v ? colors.onDark : colors.ink }}>{label}</Text>
     </Pressable>
+  );
+  const Chip = ({ text }: { text: string }) => (
+    <View style={styles.chip}><Icon name="check" size={12} color={colors.green} sw={3} /><Text style={{ fontFamily: fonts.bold, fontSize: 11, color: colors.green }}>{text}</Text></View>
   );
 
   return (
     <SafeAreaView style={styles.root} edges={['top']}>
-      <ScrollView contentContainerStyle={{ padding: space.lg, gap: 14, paddingBottom: 40 }}>
-        <Text style={styles.h1}>{t.a3_title}</Text>
-        <Card>
-          <Label>{t.a3_lang}</Label>
-          <View style={{ flexDirection: 'row', gap: 8 }}><Seg v="es" label="Español" /><Seg v="en" label="English" /></View>
-        </Card>
-        <Card>
-          <Label>{t.a3_channels}</Label>
-          <Row title={t.o3_push} sub={t.o3_pushSub} right={<Switch value={push} onValueChange={(v) => toggle('push_enabled', v)} trackColor={{ true: colors.green, false: colors.line }} thumbColor={colors.card} />} />
-          <Row title={t.o3_email} sub={t.o3_emailSub} right={<Switch value={email} onValueChange={(v) => toggle('email_enabled', v)} trackColor={{ true: colors.green, false: colors.line }} thumbColor={colors.card} />} />
-        </Card>
-        <Card>
-          <Label>{t.a3_plan}</Label>
-          <Row title={pro === null ? '…' : pro ? t.a3_planPro : t.a3_planFree}
-            right={<Pressable accessibilityRole="button" onPress={() => (pro ? Linking.openSettings() : router.push('/paywall/example'))} style={styles.linkBtn}><Text style={styles.linkTxt}>{pro ? t.a3_manage : t.p1_cta}</Text></Pressable>} />
-        </Card>
-        <Card>
-          <Label>{t.a3_privacy}</Label>
-          <Text style={{ fontFamily: fonts.semibold, fontSize: 14, color: colors.ink }}>{t.a3_privacyBody}</Text>
-          <Pressable onPress={() => Linking.openURL('https://casealerta.com/privacidad')}><Text style={styles.linkTxt}>{t.p2_privacy}</Text></Pressable>
-        </Card>
-        <Card>
-          <Row title={t.a3_support} right={<Pressable onPress={() => Linking.openURL('mailto:sales@vargersoft.com?subject=CaseAlerta')}><Text style={styles.linkTxt}>sales@vargersoft.com</Text></Pressable>} />
-          <Row title={t.a3_version} right={<Text style={{ fontFamily: fonts.bold, color: colors.muted }}>{Constants.expoConfig?.version ?? '1.0.0'}</Text>} />
-        </Card>
-        <Pressable onPress={erase} style={{ alignItems: 'center', padding: 12 }}><Text style={{ fontFamily: fonts.semibold, fontSize: 13, color: colors.red }}>{t.a3_signout}</Text></Pressable>
+      <ScrollView contentContainerStyle={{ paddingBottom: 40 }}>
+        <View style={styles.header}>
+          <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+            <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+              <Seal size={56} />
+              <View style={{ gap: 4 }}><Wordmark size={18} /><FlagBar width={120} /></View>
+            </View>
+            <View style={styles.avatar}><Icon name="family" size={22} color={colors.navy} sw={2.2} /></View>
+          </View>
+          <View style={styles.plan}>
+            <View style={styles.crown}><Icon name={pro ? 'shield' : 'bell'} size={22} color={colors.amber} sw={2.2} /></View>
+            <View style={{ flex: 1 }}>
+              <Text style={{ fontFamily: fonts.black, fontSize: 16, color: colors.ink }}>{pro === null ? '…' : pro ? t.a3_planPro : t.a3_planFree}</Text>
+              <Text style={{ fontFamily: fonts.semibold, fontSize: 12, color: colors.muted }}>{pro ? (es ? 'Vigilancia diaria · hasta 5 casos' : 'Daily monitoring · up to 5 cases') : (es ? 'Activa avisos al minuto' : 'Turn on instant alerts')}</Text>
+            </View>
+            <Pressable accessibilityRole="button" onPress={() => (pro ? Linking.openSettings() : router.push('/paywall/example'))} style={styles.planBtn}>
+              <Text style={{ fontFamily: fonts.black, fontSize: 13, color: colors.onDark }}>{pro ? (es ? 'Administrar' : 'Manage') : (es ? 'Ver Pro' : 'See Pro')}</Text>
+            </Pressable>
+          </View>
+        </View>
+
+        <View style={{ padding: space.lg, gap: 14 }}>
+          <Label>{es ? 'CÓMO TE AVISO' : 'HOW I ALERT YOU'}</Label>
+          <View style={{ flexDirection: 'row', gap: 12 }}>
+            <Tile on={push} icon="bell" label={es ? 'Celular' : 'Phone'} onPress={() => toggle('push_enabled', !push)} />
+            <Tile on={email} icon="mail" label={es ? 'Correo' : 'Email'} onPress={() => toggle('email_enabled', !email)} />
+          </View>
+
+          <Label>{t.a3_lang.toUpperCase()}</Label>
+          <View style={{ flexDirection: 'row', gap: 10 }}><Seg v="es" label="Español" /><Seg v="en" label="English" /></View>
+
+          <Pressable accessibilityRole="link" onPress={() => Linking.openURL('https://casealerta.com/abogados')} style={styles.lawyer}>
+            <View style={[styles.tileIcon, { backgroundColor: colors.goldSoft }]}><Icon name="review" size={22} color={colors.amber} sw={2.2} /></View>
+            <View style={{ flex: 1 }}>
+              <Text style={{ fontFamily: fonts.bold, fontSize: 15, color: colors.ink }}>{es ? 'Abogado en mi ciudad' : 'Lawyer in my city'}</Text>
+              <Text style={{ fontFamily: fonts.semibold, fontSize: 12, color: colors.muted }}>{es ? 'Solo si tú lo pides' : 'Only if you ask'}</Text>
+            </View>
+            <Text style={{ fontFamily: fonts.black, fontSize: 22, color: colors.muted }}>›</Text>
+          </Pressable>
+
+          <View style={{ flexDirection: 'row', gap: 10, alignItems: 'flex-end' }}>
+            <Seal size={34} border={2} />
+            <Pressable onPress={() => Linking.openURL(es ? 'https://casealerta.com/privacidad' : 'https://casealerta.com/privacy')} style={styles.priv}>
+              <Text style={{ fontFamily: fonts.black, fontSize: 13, color: colors.ink }}>{es ? 'Tu privacidad, primero' : 'Your privacy first'}</Text>
+              <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 6 }}>
+                <Chip text={es ? 'Sin anuncios' : 'No ads'} /><Chip text={es ? 'No vendemos datos' : 'No data selling'} /><Chip text={es ? 'Cifrado' : 'Encrypted'} />
+              </View>
+            </Pressable>
+          </View>
+
+          <View style={{ flexDirection: 'row', justifyContent: 'center', gap: 16, marginTop: 8 }}>
+            <Pressable onPress={() => Linking.openURL('mailto:sales@vargersoft.com?subject=CaseAlerta')}><Text style={styles.linkTxt}>{t.a3_support}</Text></Pressable>
+            <Text style={{ fontFamily: fonts.semibold, fontSize: 12, color: colors.muted }}>v{Constants.expoConfig?.version ?? '1.0.0'}</Text>
+            <Pressable onPress={erase}><Text style={{ fontFamily: fonts.semibold, fontSize: 13, color: colors.red }}>{t.a3_signout}</Text></Pressable>
+          </View>
+        </View>
       </ScrollView>
     </SafeAreaView>
   );
@@ -78,12 +120,20 @@ export default function SettingsScreen() {
 
 const styles = StyleSheet.create({
   root: { flex: 1, backgroundColor: colors.bg },
-  h1: { fontFamily: fonts.black, fontSize: 26, color: colors.ink },
-  row: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingVertical: 6 },
-  rowT: { fontFamily: fonts.bold, fontSize: 15, color: colors.ink },
-  rowS: { fontFamily: fonts.regular, fontSize: 12, color: colors.muted },
-  seg: { flex: 1, height: 44, borderRadius: radius.sm, borderWidth: 2, borderColor: colors.line, alignItems: 'center', justifyContent: 'center' },
+  header: { backgroundColor: colors.blue, padding: 18, paddingBottom: 22, borderBottomLeftRadius: 28, borderBottomRightRadius: 28, gap: 16 },
+  avatar: { width: 44, height: 44, borderRadius: 22, backgroundColor: colors.gold, alignItems: 'center', justifyContent: 'center' },
+  plan: { backgroundColor: colors.card, borderRadius: 20, padding: 14, flexDirection: 'row', alignItems: 'center', gap: 12 },
+  crown: { width: 44, height: 44, borderRadius: 14, backgroundColor: colors.goldSoft, alignItems: 'center', justifyContent: 'center' },
+  planBtn: { backgroundColor: colors.blue, borderRadius: 14, paddingVertical: 10, paddingHorizontal: 14 },
+  tile: { flex: 1, backgroundColor: colors.card, borderRadius: 18, padding: 14, gap: 10, borderWidth: 2, borderColor: colors.line },
+  tileOn: { borderColor: colors.blue },
+  tileIcon: { width: 44, height: 44, borderRadius: 14, alignItems: 'center', justifyContent: 'center' },
+  box: { width: 26, height: 26, borderRadius: 7, borderWidth: 2, borderColor: colors.line, alignItems: 'center', justifyContent: 'center' },
+  seg: { flex: 1, height: 52, borderRadius: radius.md, borderWidth: 2, borderColor: colors.line, backgroundColor: colors.card, flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 8 },
   segOn: { backgroundColor: colors.blue, borderColor: colors.blue },
-  linkBtn: { paddingVertical: 8 },
+  badge: { fontFamily: fonts.black, fontSize: 11, color: colors.blue, backgroundColor: '#E6EEFA', borderRadius: 6, paddingHorizontal: 6, paddingVertical: 2, overflow: 'hidden' },
+  lawyer: { backgroundColor: colors.card, borderRadius: 18, padding: 14, flexDirection: 'row', alignItems: 'center', gap: 12 },
+  priv: { flex: 1, backgroundColor: colors.card, borderWidth: 1.5, borderColor: colors.gold, borderRadius: 18, borderBottomLeftRadius: 4, padding: 12, gap: 8 },
+  chip: { flexDirection: 'row', alignItems: 'center', gap: 4, backgroundColor: colors.greenSoft, borderRadius: 10, paddingVertical: 4, paddingHorizontal: 8 },
   linkTxt: { fontFamily: fonts.bold, fontSize: 13, color: colors.blue },
 });

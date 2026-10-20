@@ -7,6 +7,7 @@ import Svg, { Path } from 'react-native-svg';
 import { Celebration } from '../../../components/Celebration';
 import { HuespedSheet } from '../../../components/Huesped';
 import { CaseDates, fmtDate } from '../../../components/CaseDates';
+import { Bubble, DaysRing, Icon, journeyFor, NextTiles, Stepper } from '../../../components/Journey';
 import { NvcCard } from '../../../components/NvcCard';
 import { Button, Card, Label, ReceiptBadge } from '../../../components/ui';
 import { useT } from '../../../i18n';
@@ -62,6 +63,8 @@ export default function CaseDetail() {
   };
 
   const b = bucketFor(row?.last_status_text);
+  const j = journeyFor(row?.last_status_text, row?.form_type, lang);
+  const left = row?.response_deadline ? Math.max(0, Math.ceil((new Date(row.response_deadline).getTime() - Date.now()) / 86400000)) : null;
   const sem = semaphore[b];
   const label = row?.label || row?.form_type || row?.receipt_number || '';
   const days = daysSince(row?.created_at);
@@ -81,6 +84,7 @@ export default function CaseDetail() {
           <Svg width={20} height={20} viewBox="0 0 24 24" fill="none" stroke={colors.onDark} strokeWidth={2.4} strokeLinecap="round"><Path d="M20 12a8 8 0 1 1-2.3-5.7" /><Path d="M20 4v5h-5" /></Svg>
         </Pressable>
       </View>
+      {row && <View style={styles.stepper}><Stepper j={j} /></View>}
 
       <ScrollView contentContainerStyle={{ padding: space.lg, gap: 12, paddingBottom: 40 }}>
         {!row && !err && <Text style={styles.muted}>{t.a1_loading}</Text>}
@@ -96,33 +100,34 @@ export default function CaseDetail() {
                 <View style={{ width: 8, height: 8, borderRadius: 4, backgroundColor: daysSince(row.last_checked_at) <= 1 ? colors.green : colors.line }} />
                 <Text style={{ fontFamily: fonts.bold, fontSize: 12, color: daysSince(row.last_checked_at) <= 1 ? colors.green : colors.muted, flex: 1 }}>{checkedLabel(row.last_checked_at, lang)}</Text>
               </View>
-              <Label>{t.a2_official}{row.last_status_date ? ` · ${row.last_status_date}` : ''}</Label>
-              <Text style={{ fontFamily: fonts.semibold, fontSize: 13, color: colors.ink }}>{row.last_status_text ?? '—'}</Text>
-              <Pressable accessibilityRole="link" onPress={() => Linking.openURL(uscisUrl())} style={{ flexDirection: 'row', gap: 6, alignItems: 'center', paddingVertical: 6 }}>
-                <Svg width={16} height={16} viewBox="0 0 24 24" fill="none" stroke={colors.blue} strokeWidth={2.2} strokeLinecap="round"><Path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18z" /><Path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18" /></Svg>
-                <Text style={styles.link}>{t.a2_viewOnline}</Text>
-              </Pressable>
             </Card>
 
-            <Card>
-              <Label>{t.a2_meaning}</Label>
-              <Text style={styles.body}>{ex?.meaning ?? t.a2_noExplain}</Text>
-              {ex && ex.next_steps.length > 0 && (
-                <>
-                  <Label>{t.a2_next}</Label>
-                  {ex.next_steps.map((s, i) => (
-                    <View key={i} style={{ flexDirection: 'row', gap: 10 }}>
-                      <View style={styles.num}><Text style={{ fontFamily: fonts.black, fontSize: 12, color: colors.onDark }}>{i + 1}</Text></View>
-                      <Text style={[styles.body, { flex: 1 }]}>{s}</Text>
-                    </View>
-                  ))}
-                </>
-              )}
-              {ex?.typical_days_min != null && ex?.typical_days_max != null && (
-                <><Label>{t.a2_typical}</Label><Text style={styles.body}>{t.a2_typicalDays(ex.typical_days_min, ex.typical_days_max)}</Text></>
-              )}
-              <Text style={{ fontFamily: fonts.regular, fontSize: 11, color: colors.muted }}>{t.a2_ai}</Text>
-            </Card>
+            <View style={{ flexDirection: 'row', gap: 12, alignItems: 'stretch' }}>
+              {left != null
+                ? <DaysRing days={left} total={90} color={colors.red} caption={lang === 'es' ? 'días|para responder' : 'days|to respond'} />
+                : <DaysRing days={daysSince(row.last_changed_at ?? row.created_at)} total={ex?.typical_days_max ?? null} color={sem.fg} caption={lang === 'es' ? 'días|en este paso' : 'days|at this step'} />}
+              <Bubble label={lang === 'es' ? 'Te lo explico' : 'Let me explain'} text={ex?.meaning ?? t.a2_noExplain} />
+            </View>
+
+            {ex && ex.next_steps.length > 0 && (
+              <>
+                <Label>{t.a2_next}</Label>
+                <NextTiles steps={ex.next_steps} />
+              </>
+            )}
+            {ex?.typical_days_min != null && ex?.typical_days_max != null && (
+              <Text style={{ fontFamily: fonts.semibold, fontSize: 12, color: colors.body, textAlign: 'center' }}>{t.a2_typical}: {t.a2_typicalDays(ex.typical_days_min, ex.typical_days_max)}</Text>
+            )}
+
+            <View style={[styles.official]}>
+              <View style={{ width: 34, height: 34, borderRadius: 10, backgroundColor: '#E6EEFA', alignItems: 'center', justifyContent: 'center' }}><Icon name="doc" size={18} color={colors.blue} sw={2.2} /></View>
+              <View style={{ flex: 1, minWidth: 0 }}>
+                <Text style={{ fontFamily: fonts.black, fontSize: 10, letterSpacing: 0.5, color: colors.muted }}>{t.a2_official}{row.last_status_date ? ` · ${fmtDate(row.last_status_date, lang)}` : ''}</Text>
+                <Text style={{ fontFamily: fonts.semibold, fontSize: 13, color: colors.ink }} numberOfLines={2}>{row.last_status_text ?? '—'}</Text>
+              </View>
+              <Pressable accessibilityRole="link" accessibilityLabel={t.a2_viewOnline} onPress={() => Linking.openURL(uscisUrl())} style={{ padding: 8 }}><Text style={styles.link}>{t.a2_viewOnline}</Text></Pressable>
+            </View>
+            <Text style={{ fontFamily: fonts.regular, fontSize: 11, color: colors.muted, textAlign: 'center' }}>{t.a2_ai}</Text>
 
             <CaseDates row={row} />
 
@@ -172,6 +177,8 @@ export default function CaseDetail() {
 const styles = StyleSheet.create({
   root: { flex: 1, backgroundColor: colors.bg },
   header: { backgroundColor: colors.blue, paddingHorizontal: 18, paddingVertical: 14, flexDirection: 'row', alignItems: 'center', gap: 12 },
+  stepper: { backgroundColor: colors.blue, paddingHorizontal: 14, paddingTop: 4, paddingBottom: 20, borderBottomLeftRadius: 28, borderBottomRightRadius: 28 },
+  official: { backgroundColor: colors.card, borderRadius: 16, padding: 10, flexDirection: 'row', alignItems: 'center', gap: 10 },
   round: { width: touch, height: touch, borderRadius: touch / 2, backgroundColor: 'rgba(255,255,255,0.16)', alignItems: 'center', justifyContent: 'center' },
   hTitle: { fontFamily: fonts.black, fontSize: 18, color: colors.onDark },
   body: { fontFamily: fonts.regular, fontSize: 14, lineHeight: 21, color: colors.ink },

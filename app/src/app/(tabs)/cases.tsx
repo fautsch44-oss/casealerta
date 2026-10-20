@@ -4,6 +4,7 @@ import { FlatList, Pressable, RefreshControl, StyleSheet, Text, View } from 'rea
 import { SafeAreaView } from 'react-native-safe-area-context';
 import Svg, { Path } from 'react-native-svg';
 import { HuespedBubble, HuespedSheet } from '../../components/Huesped';
+import { FormTile, Icon, journeyFor, Segments, type IconName } from '../../components/Journey';
 import { Button, FlagBar, Seal, Wordmark } from '../../components/ui';
 import { useT } from '../../i18n';
 import { listCases, type CaseRow } from '../../lib/api';
@@ -27,29 +28,38 @@ export default function CasesScreen() {
   (rows ?? []).forEach((r) => { const b = bucketFor(r.last_status_text); if (b in counts) (counts as any)[b]++; });
 
   const Stat = ({ n, label, k }: { n: number; label: string; k: 'action' | 'waiting' | 'approved' }) => (
-    <View style={styles.stat}><Text style={{ fontFamily: fonts.black, fontSize: 24, color: semaphore[k].fg }}>{n}</Text><Text style={{ fontFamily: fonts.bold, fontSize: 11, color: colors.ink }}>{label}</Text></View>
+    <View style={styles.stat}><View style={{ width: 38, height: 38, borderRadius: 19, backgroundColor: semaphore[k].bg, alignItems: 'center', justifyContent: 'center' }}><Icon name={k === 'action' ? 'bell' : k === 'waiting' ? 'clock' : 'check'} size={20} color={semaphore[k].fg} sw={2.2} /></View><Text style={{ fontFamily: fonts.black, fontSize: 24, color: semaphore[k].fg }}>{n}</Text><Text style={{ fontFamily: fonts.bold, fontSize: 11, color: colors.ink }}>{label}</Text></View>
   );
 
   const renderItem = ({ item }: { item: CaseRow }) => {
     const b = bucketFor(item.last_status_text);
     const s = semaphore[b];
+    const j = journeyFor(item.last_status_text, item.form_type, lang);
+    const es = lang === 'es';
+    const dayN = daysSince(item.received_date ?? item.created_at);
+    const left = item.response_deadline ? Math.max(0, Math.ceil((new Date(item.response_deadline).getTime() - Date.now()) / 86400000)) : null;
+    const chip: { icon: IconName; text: string } =
+      j.action ? { icon: 'evidence', text: left != null ? (es ? `Piden pruebas · ${left} días` : `Evidence requested · ${left} days`) : (es ? 'Piden algo · toca para ver' : 'Action needed · tap to see') }
+      : j.denied ? { icon: 'x', text: es ? 'Decisión: ver qué sigue' : 'Decision: see next steps' }
+      : j.current === 4 ? { icon: /card|tarjeta/i.test(item.last_status_text ?? '') ? 'mail' : 'check', text: /card|tarjeta/i.test(item.last_status_text ?? '') ? (es ? 'Tarjeta en camino' : 'Card on the way') : (es ? 'Aprobado' : 'Approved') }
+      : { icon: 'clock', text: es ? `Día ${dayN} · ${j.labels[j.current]}` : `Day ${dayN} · ${j.labels[j.current]}` };
     return (
       <Pressable accessibilityRole="button" onPress={() => router.push({ pathname: '/case/[id]', params: { id: item.id } })} style={styles.card}>
-        <View style={[styles.bar, { backgroundColor: s.fg }]} />
-        <View style={{ flex: 1, gap: 6 }}>
+        <FormTile form={item.form_type} tone={s} alert={j.action} />
+        <View style={{ flex: 1, minWidth: 0, gap: 7 }}>
           <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
             <Text style={styles.cardTitle} numberOfLines={1}>{item.label || item.receipt_number}</Text>
             <Text style={{ fontFamily: fonts.bold, fontSize: 11, color: colors.muted }}>{[item.form_type, item.nvc_case_number ? 'NVC' : null].filter(Boolean).join(' · ')}</Text>
           </View>
-          <Text style={{ fontFamily: fonts.semibold, fontSize: 13, color: colors.ink }} numberOfLines={2}>{item.last_status_text ?? t.statusBucket.neutral}</Text>
-          {item.nvc_status && <Text style={{ fontFamily: fonts.semibold, fontSize: 12, color: colors.blue }} numberOfLines={1}>NVC · {t.nvc_status[item.nvc_status]}</Text>}
-          <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
-            <Text style={[styles.pill, { color: s.fg, backgroundColor: s.bg }]}>{t.statusBucket[b]}</Text>
-            <Text style={{ fontFamily: fonts.regular, fontSize: 11, color: colors.muted }}>{t.a1_lastChange(daysSince(item.last_changed_at ?? item.created_at))}</Text>
+          <Segments j={j} />
+          <View style={{ flexDirection: 'row', alignItems: 'center', gap: 5, alignSelf: 'flex-start', backgroundColor: s.bg, borderRadius: 12, paddingVertical: 4, paddingHorizontal: 10 }}>
+            <Icon name={chip.icon} size={14} color={s.fg} sw={2.4} />
+            <Text style={{ fontFamily: fonts.bold, fontSize: 12, color: s.fg }} numberOfLines={1}>{chip.text}</Text>
           </View>
+          {item.nvc_status && <Text style={{ fontFamily: fonts.semibold, fontSize: 12, color: colors.blue }} numberOfLines={1}>NVC · {t.nvc_status[item.nvc_status]}</Text>}
           <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6 }}>
             <View style={{ width: 8, height: 8, borderRadius: 4, backgroundColor: daysSince(item.last_checked_at) <= 1 ? colors.green : colors.line }} />
-            <Text style={{ fontFamily: fonts.semibold, fontSize: 11, color: daysSince(item.last_checked_at) <= 1 ? colors.green : colors.muted }}>{checkedLabel(item.last_checked_at, lang)}</Text>
+            <Text style={{ fontFamily: fonts.semibold, fontSize: 11, color: daysSince(item.last_checked_at) <= 1 ? colors.green : colors.muted }} numberOfLines={1}>{checkedLabel(item.last_checked_at, lang, true)}</Text>
           </View>
         </View>
       </Pressable>
@@ -103,7 +113,7 @@ const styles = StyleSheet.create({
   header: { backgroundColor: colors.blue, padding: 18, paddingBottom: 22, borderBottomLeftRadius: 28, borderBottomRightRadius: 28, gap: 16 },
   round: { width: touch, height: touch, borderRadius: touch / 2, backgroundColor: 'rgba(255,255,255,0.16)', alignItems: 'center', justifyContent: 'center' },
   stat: { flex: 1, backgroundColor: colors.card, borderRadius: 18, paddingVertical: 12, alignItems: 'center', gap: 2 },
-  card: { backgroundColor: colors.card, borderRadius: radius.lg, padding: 14, flexDirection: 'row', gap: 12, ...shadow.card },
+  card: { backgroundColor: colors.card, borderRadius: radius.lg, padding: 14, flexDirection: 'row', alignItems: 'center', gap: 12, ...shadow.card },
   bar: { width: 6, borderRadius: 3 },
   cardTitle: { fontFamily: fonts.bold, fontSize: 16, color: colors.ink, flex: 1, marginRight: 8 },
   pill: { fontFamily: fonts.bold, fontSize: 12, paddingVertical: 4, paddingHorizontal: 10, borderRadius: 12, overflow: 'hidden' },

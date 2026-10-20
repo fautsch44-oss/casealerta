@@ -45,11 +45,12 @@ export function daysSince(iso: string | null | undefined) {
 }
 
 // "Revisado hoy 8:25 am" / "Revisado ayer" / "Revisado hace N días" — la prueba diaria de que vigilamos.
-export function checkedLabel(iso: string | null | undefined, lang: 'es' | 'en') {
+export function checkedLabel(iso: string | null | undefined, lang: 'es' | 'en', short = false) {
   if (!iso) return lang === 'es' ? 'Aún no revisado' : 'Not checked yet';
   const d = daysSince(iso);
   if (d === 0) {
     const time = new Date(iso).toLocaleTimeString(lang === 'es' ? 'es-MX' : 'en-US', { hour: 'numeric', minute: '2-digit' });
+    if (short) return lang === 'es' ? `Revisado hoy ${time} · todo en orden` : `Checked today ${time} · all in order`;
     return lang === 'es' ? `Revisado hoy ${time} · sin cambios · todo en orden` : `Checked today ${time} · no changes · all in order`;
   }
   if (d === 1) return lang === 'es' ? 'Revisado ayer · sin cambios' : 'Checked yesterday · no changes';
