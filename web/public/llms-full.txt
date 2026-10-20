@@ -1,5 +1,37 @@
 # CaseAlerta — full reference
 
+## USCIS change of address (AR-11): how to do it online and not miss your mail
+Date: 2026-10-20 · URL: https://casealerta.com/en/news/uscis-change-of-address-ar-11/
+
+If you move, USCIS needs your new address. That is where it sends biometrics appointments, Requests for Evidence (RFE), interview notices and even your card. A wrong address can mean a missed appointment or a lost document.
+## The basic rule
+- Noncitizens in the U.S. must report a change of address to USCIS within 10 days of moving.
+- If you have a pending case, report it as soon as possible.
+- This does not apply to A and G visa holders or Visa Waiver Program visitors.
+- USCIS does not list any fee for changing your address.
+## How to do it online (the fastest way)
+- Sign in to your USCIS online account and open the change-of-address tool from the account menu.
+- Enter the receipt number of EACH pending case so USCIS updates the address on all of them.
+- It works even if you filed your case by mail.
+- If you change it online, do NOT also mail a paper Form AR-11.
+## By mail
+- You can also mail a paper Form AR-11 to the address listed on the form.
+- Sign it: USCIS rejects unsigned AR-11 forms.
+## The most common mistake
+- Changing your address with the Postal Service (USPS) does NOT change it with USCIS, and USPS will not forward USCIS mail. Update both.
+## Special cases
+- If you sponsored someone with an affidavit of support, file Form I-865 within 30 days of your move.
+- VAWA, T, U cases and I-751 abuse waivers have their own procedure. Check the official page before acting.
+- If your case moved to the National Visa Center (NVC) or a consulate, also notify the Department of State.
+## What to do
+- If you moved in the last 10 days, change your address today in your USCIS account.
+- Have all your receipt numbers ready.
+- Save the confirmation.
+- Keep tracking your cases for new notices. CaseAlerta alerts you when your status changes.
+- If your situation is complex or you have an appointment coming up, talk to an immigration attorney. This is not legal advice.
+
+Sources: https://www.uscis.gov/addresschange; https://www.uscis.gov/ar-11
+
 ## My USCIS case is not moving: is that normal? How to check processing times
 Date: 2026-10-19 · URL: https://casealerta.com/en/news/my-uscis-case-is-not-moving-is-that-normal/
 
