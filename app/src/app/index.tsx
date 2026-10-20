@@ -40,6 +40,8 @@ export default function Splash() {
   const { t, ready } = useT();
   useEffect(() => {
     if (!ready) return;
+    // Solo web: ?hold=1 deja quieto el splash (capturas de tienda). En iOS/Android no aplica.
+    if (typeof window !== 'undefined' && (window as any).location?.search?.includes('hold=1')) return;
     let alive = true;
     (async () => {
       const started = Date.now();

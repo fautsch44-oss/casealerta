@@ -167,7 +167,7 @@ const es = {
   h_disclaimer: 'Asistente con IA · No es asesoría legal',
   h_upsellCta: 'Ver Pro',
   h_nudgeAction: (name: string) => `Tu ${name} necesita algo. Toca la tarjeta roja y te digo qué hacer.`,
-  h_nudgeApproved: (name: string) => `¡Buenas noticias con tu ${name}! Toca la tarjeta verde para ver qué sigue.`,
+  h_nudgeApproved: (name: string) => `¡Buenas noticias! Aprobaron «${name}». Toca su tarjeta para ver qué sigue.`,
   h_nudgeWaiting: 'Todo en orden. Revisamos tus casos todos los días y te aviso si algo cambia.',
   // V1
   v1_title: 'Boletín de visas',
@@ -374,7 +374,7 @@ const en: typeof es = {
   h_disclaimer: 'AI assistant · Not legal advice',
   h_upsellCta: 'See Pro',
   h_nudgeAction: (name) => `Your ${name} needs something. Tap the red card and I'll tell you what to do.`,
-  h_nudgeApproved: (name) => `Good news on your ${name}! Tap the green card to see what's next.`,
+  h_nudgeApproved: (name) => `Good news! "${name}" was approved. Tap its card to see what's next.`,
   h_nudgeWaiting: "All good. We check your cases every day and I'll tell you if anything changes.",
   v1_title: 'Visa bulletin',
   v1_setup: 'Enter your priority date and category to see if it is current.',
