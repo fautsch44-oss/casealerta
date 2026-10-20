@@ -67,6 +67,7 @@ export default function Lookup({ lang, plansHref, compact = false }: { lang: Lan
   const [recent, setRecent] = useState<string[]>([]);
   const [banner, setBanner] = useState<string | null>(null);
   const [slot, setSlot] = useState<HTMLElement | null>(null);
+  const [specific, setSpecific] = useState<string | null>(null);
 
   useEffect(() => {
     setRecent(store.get<string[]>('ca-recent', []));
@@ -91,7 +92,9 @@ export default function Lookup({ lang, plansHref, compact = false }: { lang: Lan
       const { status, data } = await fn('casealerta-uscis-status', { receipt_number: r });
       if (status === 429) { setErr(s.limited); return; }
       if (status >= 400 || !data?.ok) { setErr((lang === 'es' && data?.message_es) || data?.message || s.net); return; }
-      setC(data.case as Case);
+      setC(data.case as Case); setSpecific(null);
+      const cc = data.case as Case;
+      if (cc.status_en) fetch(`/api/v1/status-meaning/?lang=${lang}&status=${encodeURIComponent(cc.status_en)}${cc.form_type ? `&form=${encodeURIComponent(cc.form_type)}` : ''}`).then((r) => r.ok ? r.json() : null).then((j) => { if (j?.form && j.meaning) setSpecific(j.meaning); }).catch(() => null);
       const next = [r, ...store.get<string[]>('ca-recent', []).filter((x) => x !== r)].slice(0, 5);
       store.set('ca-recent', next); setRecent(next);
       setTimeout(() => document.getElementById('resultado')?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 60);
@@ -171,7 +174,7 @@ export default function Lookup({ lang, plansHref, compact = false }: { lang: Lan
             </div>
             <div className="muted small" style={{ fontWeight: 700 }}>{[c.form_type, fm?.short, center].filter(Boolean).join(' · ')}</div>
             <h2 style={{ margin: 0, fontSize: 24 }}>{st?.title ?? (lang === 'es' ? c.status_es ?? c.status_en : c.status_en)}</h2>
-            {st && <div className="bubble"><span className="medal"><img src="/sello.png" alt="" width={44} height={44} /></span><div className="say" style={{ fontSize: 16 }}>{st.meaning}</div></div>}
+            {st && <div className="bubble"><span className="medal"><img src="/sello.png" alt="" width={44} height={44} /></span><div className="say" style={{ fontSize: 16 }}>{specific ?? st.meaning}</div></div>}
             {st && st.next.length > 0 && <div><b>{s.next}</b><ol className="steps" style={{ marginTop: 8 }}>{st.next.map((x) => <li key={x}>{x}</li>)}</ol></div>}
             {(lang === 'es' ? c.desc_es ?? c.desc_en : c.desc_en) && (
               <details><summary style={{ fontWeight: 700, cursor: 'pointer' }}>{s.official}</summary><p className="small" style={{ color: '#3B4663' }}>{lang === 'es' ? c.desc_es ?? c.desc_en : c.desc_en}</p></details>
