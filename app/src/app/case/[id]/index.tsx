@@ -6,6 +6,8 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import Svg, { Path } from 'react-native-svg';
 import { Celebration } from '../../../components/Celebration';
 import { HuespedSheet } from '../../../components/Huesped';
+import { CaseDates } from '../../../components/CaseDates';
+import { NvcCard } from '../../../components/NvcCard';
 import { Button, Card, Label, ReceiptBadge } from '../../../components/ui';
 import { useT } from '../../../i18n';
 import { addCase, getCase, getExplanation, listEvents, lookupReceipt, type CaseEvent, type CaseRow, type Explanation } from '../../../lib/api';
@@ -122,6 +124,10 @@ export default function CaseDetail() {
               <Text style={{ fontFamily: fonts.regular, fontSize: 11, color: colors.muted }}>{t.a2_ai}</Text>
             </Card>
 
+            <CaseDates row={row} />
+
+            <NvcCard row={row} onSaved={load} />
+
             <Card>
               <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
                 <Label>{t.a2_history}</Label>
@@ -131,7 +137,7 @@ export default function CaseDetail() {
               {events.map((e) => (
                 <View key={e.id} style={{ flexDirection: 'row', gap: 10, alignItems: 'center' }}>
                   <View style={{ width: 10, height: 10, borderRadius: 5, backgroundColor: semaphore[bucketFor(e.status_text)].fg }} />
-                  <Text style={{ fontFamily: fonts.bold, fontSize: 13, color: colors.ink, flex: 1 }}>{e.status_text}</Text>
+                  <Text style={{ fontFamily: fonts.bold, fontSize: 13, color: colors.ink, flex: 1 }}>{e.status_text?.startsWith('NVC: ') ? `NVC · ${t.nvc_status[e.status_text.slice(5)] ?? e.status_text.slice(5)}` : e.status_text}</Text>
                   <Text style={{ fontFamily: fonts.regular, fontSize: 12, color: colors.muted }}>{(e.status_date ?? e.detected_at).slice(0, 10)}</Text>
                 </View>
               ))}
