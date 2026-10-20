@@ -76,8 +76,8 @@
   "es": "El centro de recepción aceptó el informe anual y procesó el pago. Guarda el registro del envío con la fecha, porque lo que cuenta es presentarlo antes de la fecha límite anual. Debe llegar un aviso de recibo."
  },
  "fees-were-waived": {
-  "en": "This should not normally appear on an I-956G, because regional center filings are not eligible for fee waivers. Read the notice to see which filing it refers to, and contact USCIS if it looks like an error.",
-  "es": "Esto normalmente no debería aparecer en un I-956G, porque los trámites de centros regionales no pueden tener exención de cuota. Lee el aviso para ver a qué trámite se refiere, y comunícate con USCIS si parece un error."
+  "en": "A fee waiver is not expected on an annual statement: every designated regional center pays the I-956G filing fee, and EB-5 filings do not qualify for waivers. Check whether the notice belongs to a different receipt number. If not, ask USCIS to confirm, so the statement is not later treated as unpaid.",
+  "es": "No se espera una exención en un informe anual: cada centro regional designado paga la cuota del I-956G, y los trámites de EB-5 no califican para exención. Revisa si el aviso es de otro número de recibo. Si no, pide a USCIS que lo confirme, para que después no se trate el informe como no pagado."
  },
  "case-was-rejected-because-it-was-improperly-filed": {
   "en": "The annual statement was returned unprocessed, for example for a missing signature, an outdated form, or a missing required section. A rejected I-956G does not count as filed, so correct it and refile before the yearly deadline.",
@@ -93,7 +93,7 @@
  },
  "case-was-updated-to-show-that-no-one-appeared-for-in-person-processing": {
   "en": "USCIS recorded a missed in-person appointment on this I-956G case, likely biometrics for a person involved with the center. This can raise compliance concerns. Contact USCIS quickly to reschedule, and tell EB-5 counsel. Keep proof of the reason.",
-  "es": "USCIS registró una cita en persona faltada en este caso del I-956G, seguramente de biométricos de una persona involucrada con el centro. Esto puede causar dudas de cumplimiento. Comunícate rápido con USCIS para pedir otra cita, y avísale a tu abogado de EB-5."
+  "es": "Según USCIS, alguien no se presentó a una cita en persona en este I-956G, probablemente de huellas para una persona del centro. Para un informe de cumplimiento, esto puede verse mal. Llama pronto a USCIS para reprogramar, guarda prueba de la razón y avisa a tu abogado de EB-5."
  },
  "case-was-approved-and-my-decision-was-emailed": {
   "en": "The decision on the annual statement is in the online account. Download it and keep it with the year's I-956G and supporting records. Start planning the data you will need for next year's statement. Share it with project partners.",
@@ -120,16 +120,16 @@
   "es": "USCIS mandó otra copia de un aviso del I-956G, muchas veces el recibo. Tener otra copia ayuda a mostrar a inversionistas y auditores que el informe anual se presentó. No cambia nada en el caso."
  },
  "notice-was-returned-to-uscis-because-the-post-office-could-not-deliver-it": {
-  "en": "A notice on the annual statement could not be delivered. If it was a request or a notice of intent, missing the deadline could lead to sanctions. Update the center's address with USCIS and ask for the notice to be resent.",
+  "en": "Mail about this year's I-956G bounced back to USCIS. An unanswered request on an annual statement can turn into sanctions against the center. File the new address of the regional center with USCIS, check the online account for a copy, and ask USCIS to send the notice again.",
   "es": "Un aviso del informe anual no se pudo entregar. Si era una solicitud o un aviso de intención, perder el plazo podría traer sanciones. Actualiza la dirección del centro con USCIS y pide que reenvíen el aviso."
  },
  "date-of-birth-was-updated": {
   "en": "USCIS corrected a date of birth on this case, likely for a person listed in the annual statement as involved with the center. Check that it matches the person's passport and other filings. Report any remaining error to USCIS.",
-  "es": "USCIS corrigió una fecha de nacimiento en este caso, seguramente de una persona que aparece en el informe anual como involucrada con el centro. Revisa que coincida con el pasaporte de esa persona y otros trámites."
+  "es": "USCIS cambió una fecha de nacimiento en el registro de este informe anual. Seguramente es de un directivo o persona reportada en el I-956G. Compárala con su pasaporte y con lo que dice el informe, y avisa a USCIS si algo sigue sin coincidir."
  },
  "continuation-notice-was-mailed": {
-  "en": "A continuation notice is not typical for an annual statement. Read it to see what it refers to; it may relate to the center's designation or another filing. Contact USCIS with the receipt number if it is unclear.",
-  "es": "Un aviso de continuación no es típico en un informe anual. Léelo para ver a qué se refiere; puede tener que ver con la designación del centro u otro trámite. Comunícate con USCIS con el número de recibo si no queda claro."
+  "en": "Annual statements do not usually generate continuation notices. Check whether this one concerns the center's ongoing designation or a different filing under the same organization. If the purpose is not clear from the text, call USCIS with the I-956G receipt number and keep the notice on file.",
+  "es": "Los informes anuales normalmente no generan avisos de continuación. Revisa si este se refiere a la designación vigente del centro o a otro trámite de la misma organización. Si el texto no lo aclara, llama a USCIS con el número de recibo del I-956G y guarda el aviso en el archivo."
  },
  "termination-notice-sent": {
   "en": "USCIS sent a termination notice connected to the annual statement. Failing to file the I-956G, or serious compliance problems it reveals, can end a regional center's designation, which affects every investor relying on it. Involve experienced EB-5 counsel right away.",
