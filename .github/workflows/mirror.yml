@@ -1,0 +1,18 @@
+# Espejo automático → ferrefast-jpg/casealerta-app (la cuenta GitHub que Expo ve).
+# Requiere el secreto MIRROR_TOKEN: un token clásico de ferrefast-jpg con alcance "repo".
+name: Espejo a casealerta-app
+on:
+  push:
+    branches: [main]
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: Push a ferrefast-jpg/casealerta-app
+        env:
+          TOKEN: ${{ secrets.MIRROR_TOKEN }}
+        run: |
+          if [ -z "$TOKEN" ]; then echo "Falta MIRROR_TOKEN"; exit 1; fi
+          git push --force "https://x-access-token:${TOKEN}@github.com/ferrefast-jpg/casealerta-app.git" HEAD:main
