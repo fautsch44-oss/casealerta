@@ -9,11 +9,11 @@ export const INDEXNOW_KEY = 'c4a5e1a7f0b84d2c9e3a6b1d8f2e7c41';
 export const P = {
   es: {
     home: '/', status: '/estatus/', forms: '/formularios/', form: '/formulario/', news: '/noticias/',
-    bulletin: '/boletin-de-visas/', privacy: '/privacidad/', terms: '/terminos/', employers: '/empleadores/', employer: '/empleador/',
+    bulletin: '/boletin-de-visas/', privacy: '/privacidad/', terms: '/terminos/', employers: '/empleadores/', employer: '/empleador/', dashboard: '/tablero/',
   },
   en: {
     home: '/en/', status: '/status/', forms: '/forms/', form: '/form/', news: '/en/news/',
-    bulletin: '/en/visa-bulletin/', privacy: '/privacy/', terms: '/terms/', employers: '/en/employers/', employer: '/en/employer/',
+    bulletin: '/en/visa-bulletin/', privacy: '/privacy/', terms: '/terms/', employers: '/en/employers/', employer: '/en/employer/', dashboard: '/en/dashboard/',
   },
 } as const;
 

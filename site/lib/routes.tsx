@@ -6,6 +6,7 @@ import { P, other } from './i18n';
 import { meta } from './meta';
 import { FormPage, FormsIndex, Home, StatusIndex, StatusPage } from '@/components/Pages';
 import { NewsArticle, NewsIndex } from '@/components/News';
+import { W1 } from '@/components/W1';
 import { Bulletin } from '@/components/Bulletin';
 import { Legal } from '@/components/Legal';
 
@@ -45,7 +46,7 @@ export function statusMeta(lang: Lang, slug: string[]): Metadata {
 export function StatusRoute({ lang, slug }: { lang: Lang; slug: string[] }) {
   const r = resolve(lang, slug);
   if (!r) notFound();
-  return <StatusPage lang={lang} st={r.st} form={r.form} />;
+  return <W1 lang={lang} st={r.st} form={r.form} />;
 }
 
 export const formParams = () => FORMS.map((f) => ({ form: f.slug }));
