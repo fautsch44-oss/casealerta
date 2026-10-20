@@ -33,7 +33,7 @@ export function centerFor(receipt: string, lang: 'es' | 'en') {
 export function bucketFor(statusText: string | null | undefined): Semaphore {
   const s = (statusText ?? '').toLowerCase();
   if (!s) return 'neutral';
-  if (/approved|card was mailed|card was delivered|new card is being produced|was issued|naturalization ceremony/.test(s)) return 'approved';
+  if (/approved|card was mailed|card was delivered|new card is being produced|was issued|naturalization ceremony|priority date is current/.test(s)) return 'approved';
   if (/request for (additional |initial )?evidence|intent to deny|rejected|denied|returned|fee was declined|biometrics|interview/.test(s)) return 'action';
   return 'waiting';
 }
