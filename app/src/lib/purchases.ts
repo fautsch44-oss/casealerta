@@ -3,7 +3,8 @@ import { Platform } from 'react-native';
 import Purchases, { LOG_LEVEL, type PurchasesPackage } from 'react-native-purchases';
 import { ensureSession } from './supabase';
 
-const IOS_KEY = process.env.EXPO_PUBLIC_RC_IOS_KEY ?? '';
+// Llaves PÚBLICAS del SDK de RevenueCat (proyecto CaseAlerta 60f1b981); no son secretos.
+const IOS_KEY = process.env.EXPO_PUBLIC_RC_IOS_KEY ?? 'appl_ZMlGwbXDNoZDhIngiCtIwWKLdBM';
 const ANDROID_KEY = process.env.EXPO_PUBLIC_RC_ANDROID_KEY ?? 'goog_lLEnFJNWFbqamziRrgWqQlBlTle';
 export const ENTITLEMENT = 'pro';
 
