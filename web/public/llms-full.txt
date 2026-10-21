@@ -1,5 +1,28 @@
 # CaseAlerta — full reference
 
+## USCIS changes filing deadlines that fall on a weekend or holiday starting October 23, 2026
+Date: 2026-10-21 · URL: https://casealerta.com/en/news/uscis-filing-deadlines-weekend-holiday-october-23-2026/
+
+USCIS updated its Policy Manual to clarify what happens when a filing deadline falls on a Saturday, Sunday or federal holiday. The alert is PA-2026-15, published September 23, 2026, and it applies starting October 23, 2026.
+## What still moves to the next business day
+- Deadlines counted in a number of days. For example, the 30 days to answer a Request for Evidence (RFE) or a Notice of Intent to Deny (NOID), or the deadline to file an appeal or motion.
+- If the last day falls on a weekend or holiday, USCIS treats a filing received by the end of the next business day as on time.
+## What NO LONGER moves to the next business day
+- Deadlines that are not counted in days but depend on a fact: your age, the date your status expires, or another eligibility requirement.
+- Example: if a child must file before turning 21 and the birthday is a Sunday, Monday is too late.
+- Example: if your I-94 expires on a Saturday, the extension must be filed before it expires. Do not count on Monday.
+- This reverses 2023 guidance that had moved these deadlines to the next business day.
+## If you file online
+- According to immigration attorneys' analysis, the next-business-day rule applies to paper filings. Online filings are treated as received when you submit them.
+## What to do
+- Check your dates: does your deadline depend on an age or on your status expiring? Then treat that day as the real limit and file earlier.
+- If you mail it, leave extra days: what counts is the date USCIS RECEIVES it, not the date you send it.
+- If you file online, do not wait until the last night.
+- If an important deadline is near a weekend, talk to an attorney or accredited representative.
+This is general information, not legal advice.
+
+Sources: https://www.uscis.gov/sites/default/files/document/policy-manual-updates/20260923-DefinitionOfDay.pdf; https://www.uscis.gov/policy-manual/updates; https://www.rnlawgroup.com/uscis-changes-how-filing-deadlines-are-calculated-what-employers-and-foreign-workers-need-to-know/
+
 ## USCIS change of address (AR-11): how to do it online and not miss your mail
 Date: 2026-10-20 · URL: https://casealerta.com/en/news/uscis-change-of-address-ar-11/
 
