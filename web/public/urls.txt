@@ -53,6 +53,7 @@ https://casealerta.com/status/expedite-request-received/
 https://casealerta.com/status/withdrawal-acknowledgement-notice-was-sent/
 https://casealerta.com/status/name-was-updated/
 https://casealerta.com/noticias/
+https://casealerta.com/noticias/uscis-sube-tarifas-permiso-de-trabajo-tps-asilo-parole-octubre-2026/
 https://casealerta.com/noticias/uscis-plazos-fin-de-semana-feriado-23-octubre-2026/
 https://casealerta.com/noticias/cambio-de-direccion-uscis-ar-11/
 https://casealerta.com/noticias/mi-caso-de-uscis-no-se-mueve-es-normal/
@@ -62,6 +63,7 @@ https://casealerta.com/noticias/fin-extension-automatica-permiso-de-trabajo-ead/
 https://casealerta.com/noticias/uscis-propone-quitar-deferencia-en-extensiones/
 https://casealerta.com/noticias/boletin-de-visas-octubre-2026/
 https://casealerta.com/en/news/
+https://casealerta.com/en/news/uscis-fee-increase-work-permit-tps-asylum-parole-october-2026/
 https://casealerta.com/en/news/uscis-filing-deadlines-weekend-holiday-october-23-2026/
 https://casealerta.com/en/news/uscis-change-of-address-ar-11/
 https://casealerta.com/en/news/my-uscis-case-is-not-moving-is-that-normal/

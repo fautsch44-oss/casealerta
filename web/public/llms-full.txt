@@ -1,5 +1,35 @@
 # CaseAlerta — full reference
 
+## USCIS raises work permit, TPS, asylum and parole fees starting October 16, 2026
+Date: 2026-10-22 · URL: https://casealerta.com/en/news/uscis-fee-increase-work-permit-tps-asylum-parole-october-2026/
+
+USCIS adjusted some fees created by the H.R. 1 law for inflation. The notice ran in the Federal Register on October 1, 2026, and applies to anything postmarked on or after October 16, 2026.
+This is not an increase to every fee. Only some asylum, TPS (Temporary Protected Status), parole and related work permit fees change.
+## Fees that go up
+- I-765, initial work permit (EAD) for asylum applicants: from $560 to $570.
+- I-765, initial parole EAD: from $560 to $570.
+- I-765, initial TPS EAD: from $560 to $570.
+- I-821, TPS fee: from $510 to $520.
+- I-589, annual pending asylum application fee: from $102 to $105.
+- I-131, immigration parole fee: from $1,020 to $1,050.
+## Fees that stay the same
+- I-589, initial asylum fee: $100.
+- Asylum EAD renewal or extension: $275.
+- Parole or TPS EAD renewal or extension, and re-parole EAD: $280.
+- I-360, Special Immigrant Juvenile (SIJ) fee: $250.
+- I-94 fee: $24.
+## Key point
+- If your filing is postmarked October 16 or later and you pay the old amount, USCIS will reject it. You would have to file again.
+- These amounts are only the H.R. 1 fee. Your form may carry other fees too.
+## What to do
+- Before you pay, check the exact amount in the official USCIS fee calculator and fee schedule (G-1055).
+- If you already wrote a check or money order for the old amount, redo it.
+- If you get rejected for the fee, refile with the right payment as soon as you can, especially if a deadline is close.
+- Track your case with CaseAlerta to know when USCIS receives it.
+This is general information, not legal advice. If your case is complex, talk to an immigration attorney.
+
+Sources: https://www.federalregister.gov/documents/2026/10/01/2026-20187/fiscal-year-2027-inflation-adjustment-to-hr-1-immigration-fees; https://www.uscis.gov/newsroom/alerts/uscis-announces-fy-2027-inflation-increase-for-certain-immigration-related-fees; https://www.uscis.gov/g-1055
+
 ## USCIS changes filing deadlines that fall on a weekend or holiday starting October 23, 2026
 Date: 2026-10-21 · URL: https://casealerta.com/en/news/uscis-filing-deadlines-weekend-holiday-october-23-2026/
 
