@@ -1,4 +1,7 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { router, useLocalSearchParams } from 'expo-router';
+import { track } from '../../lib/analytics';
+import { STEP_KEY } from '../../lib/onboarding';
 import React, { useMemo, useState } from 'react';
 import { KeyboardAvoidingView, Platform, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -21,6 +24,7 @@ export default function ReceiptScreen() {
   const valid = isValidReceipt(receipt);
   const center = useMemo(() => centerFor(receipt, lang), [receipt, lang]);
   const fromTabs = params.from === 'tabs';
+  React.useEffect(() => { if (!fromTabs) AsyncStorage.setItem(STEP_KEY, 'receipt').catch(() => {}); track('onboarding_step_viewed', { step: 'receipt', from: fromTabs ? 'tabs' : 'onboarding' }); }, [fromTabs]);
 
   const next = (id: string) => {
     if (fromTabs) router.replace({ pathname: '/case/[id]', params: { id } });
@@ -32,8 +36,10 @@ export default function ReceiptScreen() {
     try {
       const status = await lookupReceipt(receipt);
       const row = await addCase(status, label.trim() || null);
+      track('first_value_shown', { form: status.form_type ?? 'unknown', has_status: !!(status.status_en ?? status.status_es) });
       next(row.id);
     } catch (e: any) {
+      track('error_shown', { where: 'receipt_lookup', code: e?.code ?? String(e?.status ?? 'unknown') });
       if (e instanceof ApiError && (e.status === 404 || e.code === 'invalid_receipt')) setErr(t.o2_notFound);
       else { setErr(t.o2_error); setCanSaveAnyway(true); }
     } finally { setBusy(false); }

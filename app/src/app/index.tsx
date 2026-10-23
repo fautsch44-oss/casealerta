@@ -7,6 +7,7 @@ import Svg, { G, Path } from 'react-native-svg';
 import { FlagBar, Seal, Wordmark } from '../components/ui';
 import { useT } from '../i18n';
 import { listCases } from '../lib/api';
+import { ROUTE, resume, STEP_KEY } from '../lib/onboarding';
 import { colors, fonts } from '../theme/tokens';
 
 export const ONBOARDED_KEY = 'casealerta.onboarded';
@@ -45,21 +46,27 @@ export default function Splash() {
     let alive = true;
     (async () => {
       const started = Date.now();
-      let target = '/onboarding/language';
+      // Máquina de estados (lib/onboarding): reanuda en el paso guardado; el paywall se abre ENCIMA de Mis casos.
+      let target: string = ROUTE.intro;
+      let paywallOnTop = false;
       try {
-        const [onboarded, paywallSeen] = await Promise.all([AsyncStorage.getItem(ONBOARDED_KEY), AsyncStorage.getItem(PAYWALL_SEEN_KEY)]);
+        const [onboarded, paywallSeen, saved] = await Promise.all([AsyncStorage.getItem(ONBOARDED_KEY), AsyncStorage.getItem(PAYWALL_SEEN_KEY), AsyncStorage.getItem(STEP_KEY)]);
         if (onboarded) {
-          // Cerró la app en el paywall: se lo volvemos a mostrar una vez, nadie se escapa sin verlo.
-          if (!paywallSeen) target = '/paywall/example';
-          else {
-            // Sin red (null) no lo regresamos al onboarding: a sus casos.
-            const cases = await listCases().catch(() => null);
-            target = cases === null || cases.length ? '/(tabs)/cases' : '/onboarding/receipt';
-          }
+          const cases = await listCases().catch(() => null);
+          target = cases === null || cases.length ? '/(tabs)/cases' : ROUTE.receipt;
+          // Cerró la app en el paywall: se lo volvemos a mostrar una vez, sobre una pantalla real.
+          if (!paywallSeen && target === '/(tabs)/cases') paywallOnTop = true;
+        } else {
+          const cases = saved === 'alerts' ? await listCases().catch(() => []) : [];
+          target = ROUTE[resume(saved, (cases ?? []).length > 0)];
         }
-      } catch { /* sin red: onboarding */ }
+      } catch { /* sin red: intro */ }
       const wait = Math.max(0, 900 - (Date.now() - started));
-      setTimeout(() => { if (alive) router.replace(target as any); }, wait);
+      setTimeout(() => {
+        if (!alive) return;
+        router.replace(target as any);
+        if (paywallOnTop) setTimeout(() => router.push({ pathname: '/paywall/example', params: { reason: 'resume' } }), 50);
+      }, wait);
     })();
     return () => { alive = false; };
   }, [ready]);

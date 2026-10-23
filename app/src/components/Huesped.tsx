@@ -100,7 +100,7 @@ export function HuespedSheet({ visible, onClose, focus }: { visible: boolean; on
                   <View style={styles.upsell}>
                     <Text style={{ fontFamily: fonts.black, fontSize: 14, color: colors.navy }}>{m.upsell.title}</Text>
                     {m.upsell.perks.map((p) => <Text key={p} style={{ fontFamily: fonts.regular, fontSize: 13, color: colors.ink }}>• {p}</Text>)}
-                    <Button title={t.h_upsellCta} variant="navy" onPress={() => { onClose(); router.push('/paywall/example'); }} style={{ height: 44, marginTop: 4 }} />
+                    <Button title={t.h_upsellCta} variant="navy" onPress={() => { onClose(); router.push({ pathname: '/paywall/example', params: { reason: 'huesped' } }); }} style={{ height: 44, marginTop: 4 }} />
                   </View>
                 )}
                 {m.offerTicket && (

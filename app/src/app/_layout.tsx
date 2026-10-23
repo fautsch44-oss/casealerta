@@ -7,6 +7,7 @@ import { useEffect } from 'react';
 import { View, useWindowDimensions } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { LangProvider } from '../i18n';
+import { initAnalytics, track } from '../lib/analytics';
 import { colors } from '../theme/tokens';
 
 SplashScreen.preventAutoHideAsync().catch(() => {});
@@ -17,6 +18,7 @@ export default function RootLayout() {
   const wide = width > 760;
   const [loaded] = useFonts({ Cinzel_700Bold, PublicSans_500Medium, PublicSans_600SemiBold, PublicSans_700Bold, PublicSans_800ExtraBold });
   useEffect(() => { if (loaded) SplashScreen.hideAsync().catch(() => {}); }, [loaded]);
+  useEffect(() => { initAnalytics(); track('app_opened'); }, []);
   if (!loaded) return null;
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
@@ -26,11 +28,13 @@ export default function RootLayout() {
         <View style={{ flex: 1, width: '100%', maxWidth: wide ? 720 : undefined, overflow: 'hidden', borderRadius: wide ? 28 : 0, marginVertical: wide ? 24 : 0 }}>
         <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: colors.bg } }}>
           <Stack.Screen name="index" />
+          <Stack.Screen name="onboarding/intro" />
           <Stack.Screen name="onboarding/language" />
           <Stack.Screen name="onboarding/receipt" />
           <Stack.Screen name="onboarding/alerts" />
           <Stack.Screen name="paywall/example" options={{ presentation: 'modal' }} />
           <Stack.Screen name="paywall/plans" />
+          <Stack.Screen name="paywall/thanks" options={{ gestureEnabled: false }} />
           <Stack.Screen name="(tabs)" />
           <Stack.Screen name="case/[id]/index" />
           <Stack.Screen name="case/[id]/bulletin" />

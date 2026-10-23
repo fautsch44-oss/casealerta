@@ -1,3 +1,4 @@
+import { Analytics } from './Analytics';
 import Link from 'next/link';
 import type { Lang } from '@/lib/types';
 import { P, T, other } from '@/lib/i18n';
@@ -53,7 +54,7 @@ export function RootDoc({ lang, children }: { lang: Lang; children: React.ReactN
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700;800&family=Cinzel:wght@700&display=swap" />
         <link rel="alternate" type="application/rss+xml" title="CaseAlerta" href={`${P[lang].news}rss.xml`} />
       </head>
-      <body>{children}</body>
+      <body>{children}<Analytics lang={lang} /></body>
     </html>
   );
 }

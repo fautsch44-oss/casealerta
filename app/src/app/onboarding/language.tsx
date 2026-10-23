@@ -1,4 +1,7 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { router } from 'expo-router';
+import { track } from '../../lib/analytics';
+import { STEP_KEY } from '../../lib/onboarding';
 import React from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -9,6 +12,7 @@ import { colors, fonts, radius, space } from '../../theme/tokens';
 
 export default function LanguageScreen() {
   const { t, lang, setLang } = useT();
+  React.useEffect(() => { AsyncStorage.setItem(STEP_KEY, 'language').catch(() => {}); track('onboarding_step_viewed', { step: 'language' }); }, []);
   const Option = ({ code, label }: { code: Lang; label: string }) => {
     const on = lang === code;
     return (

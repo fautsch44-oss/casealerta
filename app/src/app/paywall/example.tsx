@@ -1,5 +1,6 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { router } from 'expo-router';
+import { router, useLocalSearchParams } from 'expo-router';
+import { track } from '../../lib/analytics';
 import React, { useEffect } from 'react';
 import { PAYWALL_SEEN_KEY } from '../index';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
@@ -11,8 +12,10 @@ import { colors, fonts, radius, space, touch } from '../../theme/tokens';
 
 export default function PaywallExample() {
   const { t } = useT();
-  useEffect(() => { AsyncStorage.setItem(PAYWALL_SEEN_KEY, '1').catch(() => {}); }, []);
-  const close = () => router.replace('/(tabs)/cases');
+  const { reason } = useLocalSearchParams<{ reason?: string }>();
+  useEffect(() => { AsyncStorage.setItem(PAYWALL_SEEN_KEY, '1').catch(() => {}); track('paywall_viewed', { reason: reason ?? 'menu', step: 1 }); }, [reason]);
+  // Cerrar = regresar a la pantalla real de abajo; nunca un candado.
+  const close = () => { track('paywall_closed', { reason: reason ?? 'menu' }); if (router.canGoBack()) router.back(); else router.replace('/(tabs)/cases'); };
   const Feat = ({ text }: { text: string }) => (
     <View style={{ flexDirection: 'row', gap: 12, alignItems: 'flex-start' }}>
       <View style={styles.tick}><Svg width={16} height={16} viewBox="0 0 24 24" fill="none" stroke={colors.onDark} strokeWidth={3} strokeLinecap="round" strokeLinejoin="round"><Path d="M5 12l5 5 9-10" /></Svg></View>
@@ -56,7 +59,7 @@ export default function PaywallExample() {
             <Svg width={16} height={16} viewBox="0 0 24 24" fill="none" stroke={colors.gold} strokeWidth={2.5} strokeLinecap="round"><Rect x={4} y={10} width={16} height={11} rx={2} /><Path d="M8 10V7a4 4 0 0 1 8 0v3" /></Svg>
             <Text style={{ fontFamily: fonts.regular, fontSize: 13, color: colors.onDarkMuted }}>{t.p1_trial}</Text>
           </View>
-          <Button title={t.p1_cta} onPress={() => router.push('/paywall/plans')} />
+          <Button title={t.p1_cta} onPress={() => router.push({ pathname: '/paywall/plans', params: { reason: reason ?? 'menu' } })} />
           <Pressable onPress={close} style={{ padding: 8, alignItems: 'center' }}><Text style={{ fontFamily: fonts.semibold, fontSize: 13, color: colors.onDarkMuted }}>{t.p1_skip}</Text></Pressable>
         </View>
       </ScrollView>

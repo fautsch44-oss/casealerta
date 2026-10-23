@@ -12,11 +12,14 @@ import { getCase, getExplanation, linkEmail, saveProfile, savePushToken, type Ca
 import { bucketFor } from '../../lib/receipt';
 import { colors, fonts, radius, semaphore, space, touch } from '../../theme/tokens';
 import { ONBOARDED_KEY } from '../index';
+import { track } from '../../lib/analytics';
+import { STEP_KEY } from '../../lib/onboarding';
 
 async function registerPush(): Promise<string | null> {
   if (!Device.isDevice) return null;
-  const { status } = await Notifications.requestPermissionsAsync();
-  if (status !== 'granted') return null;
+  const res = await Notifications.requestPermissionsAsync();
+  track('permission_result', { permission: 'notifications', granted: res.status === 'granted', can_ask_again: res.canAskAgain });
+  if (res.status !== 'granted') return null;
   if (Platform.OS === 'android') await Notifications.setNotificationChannelAsync('case', { name: 'Caso', importance: Notifications.AndroidImportance.HIGH });
   const token = await Notifications.getExpoPushTokenAsync();
   return token.data;
@@ -32,6 +35,7 @@ export default function AlertsScreen() {
   const [addr, setAddr] = useState('');
   const [busy, setBusy] = useState(false);
 
+  useEffect(() => { AsyncStorage.setItem(STEP_KEY, 'alerts').catch(() => {}); track('onboarding_step_viewed', { step: 'alerts' }); }, []);
   useEffect(() => {
     (async () => {
       const c = await getCase(String(id)).catch(() => null);
@@ -50,7 +54,11 @@ export default function AlertsScreen() {
       }
       if (email && addr.trim()) await linkEmail(addr.trim()).catch(() => {});
       await AsyncStorage.setItem(ONBOARDED_KEY, '1');
-      router.replace('/paywall/example');
+      await AsyncStorage.removeItem(STEP_KEY);
+      track('onboarding_completed', { push, email: email && !!addr.trim() });
+      // El paywall nunca es la única pantalla: casa primero, paywall encima.
+      router.replace('/(tabs)/cases');
+      setTimeout(() => router.push({ pathname: '/paywall/example', params: { reason: 'onboarding' } }), 50);
     } finally { setBusy(false); }
   };
 

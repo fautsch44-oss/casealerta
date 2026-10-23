@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useMemo, useState } from 'react';
+import { track } from './Analytics';
 import { createPortal } from 'react-dom';
 import type { Kind, Lang } from '@/lib/types';
 import { KIND_COLOR, KIND_LABEL, VAPID_PUBLIC } from '@/lib/i18n';
@@ -57,6 +58,7 @@ export default function Lookup({ lang, plansHref, compact = false }: { lang: Lan
   const s = S[lang];
   const [cat, setCat] = useState<Cat>({ statuses: [], forms: [] });
   const [v, setV] = useState('');
+  const [sending, setSending] = useState(false);
   const [busy, setBusy] = useState(false);
   const [err, setErr] = useState<string | null>(null);
   const [c, setC] = useState<Case | null>(null);
@@ -90,31 +92,36 @@ export default function Lookup({ lang, plansHref, compact = false }: { lang: Lan
     setBusy(true); setC(null);
     try {
       const { status, data } = await fn('casealerta-uscis-status', { receipt_number: r });
-      if (status === 429) { setErr(s.limited); return; }
-      if (status >= 400 || !data?.ok) { setErr((lang === 'es' && data?.message_es) || data?.message || s.net); return; }
+      if (status === 429) { setErr(s.limited); track('error_shown', { where: 'lookup', code: '429' }); return; }
+      if (status >= 400 || !data?.ok) { setErr((lang === 'es' && data?.message_es) || data?.message || s.net); track('error_shown', { where: 'lookup', code: String(status) }); return; }
       setC(data.case as Case); setSpecific(null);
+      track('first_value_shown', { form: data.case?.form_type ?? 'unknown' });
       const cc = data.case as Case;
       if (cc.status_en) fetch(`/api/v1/status-meaning/?lang=${lang}&status=${encodeURIComponent(cc.status_en)}${cc.form_type ? `&form=${encodeURIComponent(cc.form_type)}` : ''}`).then((r) => r.ok ? r.json() : null).then((j) => { if (j?.form && j.meaning) setSpecific(j.meaning); }).catch(() => null);
       const next = [r, ...store.get<string[]>('ca-recent', []).filter((x) => x !== r)].slice(0, 5);
       store.set('ca-recent', next); setRecent(next);
       setTimeout(() => document.getElementById('resultado')?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 60);
-    } catch { setErr(s.net); } finally { setBusy(false); }
+    } catch { setErr(s.net); track('error_shown', { where: 'lookup', code: 'network' }); } finally { setBusy(false); }
   }
 
   async function subscribe(e: React.FormEvent) {
     e.preventDefault();
-    if (!c) return;
-    setAlert(null);
+    if (!c || sending) return;
+    setAlert(null); setSending(true);
     try {
       const { status, data } = await fn('casealerta-web-alerts', { action: 'subscribe', email, lang, case: c });
-      setAlert(status < 400 && data.ok ? { ok: true, text: s.alertsOk } : { ok: false, text: data?.message ?? s.alertsErr });
-    } catch { setAlert({ ok: false, text: s.alertsErr }); }
+      const ok = status < 400 && data.ok;
+      setAlert(ok ? { ok: true, text: s.alertsOk } : { ok: false, text: data?.message ?? s.alertsErr });
+      track(ok ? 'alert_subscribed' : 'error_shown', ok ? { channel: 'email' } : { where: 'alert_subscribe', code: String(status) });
+    } catch { setAlert({ ok: false, text: s.alertsErr }); track('error_shown', { where: 'alert_subscribe', code: 'network' }); }
+    finally { setSending(false); }
   }
 
   async function push() {
     try {
       if (!('serviceWorker' in navigator) || !('PushManager' in window) || !('Notification' in window)) { setPushMsg(s.pushNo); return; }
       const perm = await Notification.requestPermission();
+      track('permission_result', { permission: 'web_push', granted: perm === 'granted' });
       if (perm !== 'granted') { setPushMsg(s.pushNo); return; }
       const reg = await navigator.serviceWorker.register('/sw.js');
       await navigator.serviceWorker.ready;
@@ -163,7 +170,7 @@ export default function Lookup({ lang, plansHref, compact = false }: { lang: Lan
       </div>
 
       {(() => { const extra = (<>{c && (
-        <div id="resultado" style={{ display: 'flex', flexDirection: 'column', gap: 16, scrollMarginTop: 90 }}>
+        <div id="resultado" style={{ display: 'flex', flexDirection: 'column', gap: 16, scrollMarginTop: 170 }}>
           <div className="card" style={{ display: 'flex', flexDirection: 'column', gap: 12, borderTop: `6px solid ${KIND_COLOR[kind].fg}` }}>
             <div className="row" style={{ justifyContent: 'space-between' }}>
               <span className="badge" style={{ background: KIND_COLOR[kind].bg, color: KIND_COLOR[kind].fg }}>{KIND_LABEL[lang][kind]}</span>
@@ -205,7 +212,7 @@ export default function Lookup({ lang, plansHref, compact = false }: { lang: Lan
             <form className="row" onSubmit={subscribe}>
               <label className="skip" htmlFor="al-email">{s.email}</label>
               <input id="al-email" className="input" type="email" required autoComplete="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder={s.email} />
-              <button className="btn red" type="submit">{s.alertsGo}</button>
+              <button className="btn red" type="submit" disabled={sending} aria-busy={sending}>{sending ? '…' : s.alertsGo}</button>
             </form>
             <span className="small" style={{ color: '#D6E0F2' }}>{s.consent}</span>
             {alert && <p className={alert.ok ? 'ok' : 'err'} style={{ background: '#fff', borderRadius: 10, padding: '8px 12px', margin: 0 }} role="status">{alert.text}</p>}

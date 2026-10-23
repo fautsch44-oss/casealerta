@@ -1,8 +1,10 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import Constants from 'expo-constants';
 import { router, useFocusEffect } from 'expo-router';
-import React, { useCallback, useState } from 'react';
-import { Alert, Linking, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import * as Notifications from 'expo-notifications';
+import React, { useCallback, useEffect, useState } from 'react';
+import { Alert, AppState, Linking, Platform, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { track } from '../../lib/analytics';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Icon, type IconName } from '../../components/Journey';
 import { FlagBar, Label, Seal, Wordmark } from '../../components/ui';
@@ -17,6 +19,20 @@ export default function SettingsScreen() {
   const [push, setPush] = useState(true);
   const [email, setEmail] = useState(true);
   const [pro, setPro] = useState<boolean | null>(null);
+  const [osPush, setOsPush] = useState<'granted' | 'denied' | 'undetermined'>('undetermined');
+  // Re-lee el permiso al volver de Ajustes (AppState → active); el usuario cae en el mismo lugar.
+  const readPerm = useCallback(() => { Notifications.getPermissionsAsync().then((r) => setOsPush(r.status as any)).catch(() => {}); }, []);
+  useEffect(() => { readPerm(); const sub = AppState.addEventListener('change', (st) => { if (st === 'active') readPerm(); }); return () => sub.remove(); }, [readPerm]);
+  const tapPush = async () => {
+    if (!push) {
+      // Pre-permiso: la tarjeta explica para qué; el diálogo del sistema sale solo tras el toque.
+      const r = osPush === 'granted' ? { status: 'granted', canAskAgain: true } : await Notifications.requestPermissionsAsync().catch(() => ({ status: 'denied', canAskAgain: false } as any));
+      track('permission_result', { permission: 'notifications', granted: r.status === 'granted', can_ask_again: !!r.canAskAgain, where: 'settings' });
+      setOsPush(r.status as any);
+      if (r.status !== 'granted') return;
+    }
+    toggle('push_enabled', !push);
+  };
 
   useFocusEffect(useCallback(() => {
     hasProEntitlement().then(setPro).catch(() => setPro(false));
@@ -72,7 +88,7 @@ export default function SettingsScreen() {
               <Text style={{ fontFamily: fonts.black, fontSize: 16, color: colors.ink }}>{pro === null ? '…' : pro ? t.a3_planPro : t.a3_planFree}</Text>
               <Text style={{ fontFamily: fonts.semibold, fontSize: 12, color: colors.muted }}>{pro ? (es ? 'Vigilancia diaria · hasta 5 casos' : 'Daily monitoring · up to 5 cases') : (es ? 'Activa avisos al minuto' : 'Turn on instant alerts')}</Text>
             </View>
-            <Pressable accessibilityRole="button" onPress={() => (pro ? Linking.openSettings() : router.push('/paywall/example'))} style={styles.planBtn}>
+            <Pressable accessibilityRole="button" onPress={() => (pro ? Linking.openURL(Platform.OS === 'ios' ? 'https://apps.apple.com/account/subscriptions' : 'https://play.google.com/store/account/subscriptions') : router.push({ pathname: '/paywall/example', params: { reason: 'settings' } }))} style={styles.planBtn}>
               <Text style={{ fontFamily: fonts.black, fontSize: 13, color: colors.onDark }}>{pro ? (es ? 'Administrar' : 'Manage') : (es ? 'Ver Pro' : 'See Pro')}</Text>
             </Pressable>
           </View>
@@ -81,10 +97,17 @@ export default function SettingsScreen() {
         <View style={{ padding: space.lg, gap: 14 }}>
           <Label>{es ? 'CÓMO TE AVISO' : 'HOW I ALERT YOU'}</Label>
           <View style={{ flexDirection: 'row', gap: 12 }}>
-            <Tile on={push} icon="bell" label={es ? 'Celular' : 'Phone'} onPress={() => toggle('push_enabled', !push)} />
+            <Tile on={push && osPush !== 'denied'} icon="bell" label={es ? 'Celular' : 'Phone'} onPress={tapPush} />
             <Tile on={email} icon="mail" label={es ? 'Correo' : 'Email'} onPress={() => toggle('email_enabled', !email)} />
           </View>
 
+          {osPush === 'denied' && (
+            <Pressable accessibilityRole="button" onPress={() => Linking.openSettings()} style={styles.permOff}>
+              <Icon name="bell" size={18} color={colors.red} sw={2.4} />
+              <Text style={{ flex: 1, fontFamily: fonts.bold, fontSize: 13, color: colors.red }}>{t.perm_off}</Text>
+              <Text style={{ fontFamily: fonts.black, fontSize: 13, color: colors.blue }}>{t.perm_open}</Text>
+            </Pressable>
+          )}
           <Label>{t.a3_lang.toUpperCase()}</Label>
           <View style={{ flexDirection: 'row', gap: 10 }}><Seg v="es" label="Español" /><Seg v="en" label="English" /></View>
 
@@ -135,5 +158,6 @@ const styles = StyleSheet.create({
   lawyer: { backgroundColor: colors.card, borderRadius: 18, padding: 14, flexDirection: 'row', alignItems: 'center', gap: 12 },
   priv: { flex: 1, backgroundColor: colors.card, borderWidth: 1.5, borderColor: colors.gold, borderRadius: 18, borderBottomLeftRadius: 4, padding: 12, gap: 8 },
   chip: { flexDirection: 'row', alignItems: 'center', gap: 4, backgroundColor: colors.greenSoft, borderRadius: 10, paddingVertical: 4, paddingHorizontal: 8 },
+  permOff: { backgroundColor: colors.redSoft, borderRadius: 14, padding: 12, flexDirection: 'row', alignItems: 'center', gap: 8 },
   linkTxt: { fontFamily: fonts.bold, fontSize: 13, color: colors.blue },
 });
