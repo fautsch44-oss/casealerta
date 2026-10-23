@@ -1,9 +1,10 @@
 import { router, useFocusEffect } from 'expo-router';
 import React, { useCallback, useState } from 'react';
-import { FlatList, Pressable, RefreshControl, StyleSheet, Text, View } from 'react-native';
+import { FlatList, Pressable, RefreshControl, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import Svg, { Path } from 'react-native-svg';
 import { HuespedBubble, HuespedSheet } from '../../components/Huesped';
+import { MenuSheet } from '../../components/Menu';
 import { FormTile, Icon, journeyFor, Segments, type IconName } from '../../components/Journey';
 import { Button, FlagBar, Seal, Wordmark } from '../../components/ui';
 import { useT } from '../../i18n';
@@ -13,12 +14,14 @@ import { bucketFor, checkedLabel, daysSince } from '../../lib/receipt';
 import { colors, fonts, radius, semaphore, shadow, space, touch } from '../../theme/tokens';
 
 export default function CasesScreen() {
-  const { t, lang, setLang } = useT();
+  const { t, lang } = useT();
   const [rows, setRows] = useState<CaseRow[] | null>(null);
   const [err, setErr] = useState(false);
   const [refreshing, setRefreshing] = useState(false);
   const [guest, setGuest] = useState(false);
   const [pro, setPro] = useState<boolean | null>(null);
+  const [menu, setMenu] = useState(false);
+  const narrow = useWindowDimensions().width < 380;
 
   const load = useCallback(async () => {
     try { setRows(await listCases()); setErr(false); } catch { setErr(true); if (!rows) setRows([]); }
@@ -73,15 +76,15 @@ export default function CasesScreen() {
       <View style={styles.header}>
         <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
           <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
-            <Seal size={56} />
-            <View style={{ gap: 4 }}><Wordmark size={18} /><FlagBar width={120} /></View>
+            <Pressable accessibilityRole="button" accessibilityLabel={lang === 'es' ? 'Abrir menú' : 'Open menu'} onPress={() => { track('menu_opened'); setMenu(true); }} style={styles.round}>
+              <Icon name="menu" size={22} color={colors.onDark} sw={2.6} />
+            </Pressable>
+            <Seal size={46} />
+            <View style={{ gap: 4 }}><Wordmark size={16} /><FlagBar width={104} /></View>
           </View>
           {pro !== null && (pro
             ? <View style={styles.proChip}><Icon name="shield" size={14} color={colors.navy} sw={2.6} /><Text style={styles.proTxt}>PRO</Text></View>
-            : <Pressable accessibilityRole="button" onPress={() => router.push({ pathname: '/paywall/example', params: { reason: 'home' } })} style={styles.proBtn}><Icon name="bell" size={14} color={colors.onDark} sw={2.6} /><Text style={[styles.proTxt, { color: colors.onDark }]}>{lang === 'es' ? 'Activar Pro' : 'Get Pro'}</Text></Pressable>)}
-          <Pressable accessibilityRole="button" accessibilityLabel={t.a3_lang} onPress={() => setLang(lang === 'es' ? 'en' : 'es')} style={styles.round}>
-            <Text style={{ fontFamily: fonts.black, fontSize: 13, color: colors.onDark }}>{lang.toUpperCase()}</Text>
-          </Pressable>
+            : <Pressable accessibilityRole="button" onPress={() => router.push({ pathname: '/paywall/example', params: { reason: 'home' } })} style={styles.proBtn}><Icon name="bell" size={14} color={colors.onDark} sw={2.6} /><Text style={[styles.proTxt, { color: colors.onDark }]}>{narrow ? 'Pro' : lang === 'es' ? 'Activar Pro' : 'Get Pro'}</Text></Pressable>)}
         </View>
         <View style={{ flexDirection: 'row', gap: 10 }}>
           <Stat n={counts.action} label={t.a1_act} k="action" /><Stat n={counts.waiting} label={t.a1_wait} k="waiting" /><Stat n={counts.approved} label={t.a1_done} k="approved" />
@@ -104,6 +107,8 @@ export default function CasesScreen() {
         }
       />
 
+      <MenuSheet visible={menu} onClose={() => setMenu(false)} pro={pro} onHelp={() => setGuest(true)} />
+
       <HuespedSheet visible={guest} onClose={() => setGuest(false)} focus={(rows ?? []).find((r) => bucketFor(r.last_status_text) === 'action') ?? rows?.[0] ?? null} />
 
       <Pressable accessibilityRole="button" accessibilityLabel={t.a1_add} onPress={() => router.push({ pathname: '/onboarding/receipt', params: { from: 'tabs' } })} style={styles.fab}>
@@ -116,8 +121,8 @@ export default function CasesScreen() {
 const styles = StyleSheet.create({
   root: { flex: 1, backgroundColor: colors.bg },
   header: { backgroundColor: colors.blue, padding: 18, paddingBottom: 22, borderBottomLeftRadius: 28, borderBottomRightRadius: 28, gap: 16 },
-  proChip: { flexDirection: 'row', alignItems: 'center', gap: 4, backgroundColor: colors.gold, borderRadius: 12, paddingVertical: 6, paddingHorizontal: 10, marginLeft: 'auto', marginRight: 8 },
-  proBtn: { flexDirection: 'row', alignItems: 'center', gap: 4, backgroundColor: colors.red, borderRadius: 12, paddingVertical: 6, paddingHorizontal: 10, marginLeft: 'auto', marginRight: 8 },
+  proChip: { flexDirection: 'row', alignItems: 'center', gap: 4, backgroundColor: colors.gold, borderRadius: 12, paddingVertical: 6, paddingHorizontal: 10, marginLeft: 'auto' },
+  proBtn: { flexDirection: 'row', alignItems: 'center', gap: 4, backgroundColor: colors.red, borderRadius: 12, paddingVertical: 6, paddingHorizontal: 10, marginLeft: 'auto' },
   proTxt: { fontFamily: fonts.black, fontSize: 12, letterSpacing: 1, color: colors.navy },
   round: { width: touch, height: touch, borderRadius: touch / 2, backgroundColor: 'rgba(255,255,255,0.16)', alignItems: 'center', justifyContent: 'center' },
   stat: { flex: 1, backgroundColor: colors.card, borderRadius: 18, paddingVertical: 12, alignItems: 'center', gap: 2 },

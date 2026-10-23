@@ -17,7 +17,7 @@ export function Icon({ name, size = 24, color = colors.blue, sw = 2 }: { name: I
     </Svg>
   );
 }
-export type IconName = 'home' | 'family' | 'briefcase' | 'plane' | 'flag' | 'doc' | 'inbox' | 'finger' | 'review' | 'evidence' | 'chat' | 'card' | 'check' | 'mail' | 'folder' | 'send' | 'clock' | 'bell' | 'x' | 'shield' | 'calendar';
+export type IconName = 'home' | 'family' | 'briefcase' | 'plane' | 'flag' | 'doc' | 'inbox' | 'finger' | 'review' | 'evidence' | 'chat' | 'card' | 'check' | 'mail' | 'folder' | 'send' | 'clock' | 'bell' | 'x' | 'shield' | 'calendar' | 'menu' | 'lock' | 'help' | 'grid' | 'gear' | 'star';
 const ICONS: Record<IconName, React.ReactNode> = {
   home: <><P d="M3 11l9-7 9 7" /><P d="M5 10v10h14V10" /><P d="M10 20v-6h4v6" /></>,
   family: <><Circle cx={9} cy={8} r={3} /><P d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6" /><Circle cx={17} cy={9} r={2.5} /><P d="M15.5 14.2c3 .3 5.5 2.6 5.5 5.8" /></>,
@@ -40,6 +40,12 @@ const ICONS: Record<IconName, React.ReactNode> = {
   x: <><Circle cx={12} cy={12} r={9} /><P d="M9 9l6 6M15 9l-6 6" /></>,
   shield: <><P d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6z" /><P d="M8.5 12l2.5 2.5 4.5-5" /></>,
   calendar: <><Rect x={3} y={5} width={18} height={16} rx={2} /><P d="M3 10h18M8 3v4M16 3v4" /></>,
+  menu: <P d="M4 7h16M4 12h16M4 17h16" />,
+  lock: <><Rect x={5} y={11} width={14} height={10} rx={2} /><P d="M8 11V8a4 4 0 0 1 8 0v3" /></>,
+  help: <><Circle cx={12} cy={12} r={9} /><P d="M9.5 9.5a2.5 2.5 0 0 1 4.8 1c0 1.7-2.3 2-2.3 3.5M12 17h.01" /></>,
+  grid: <><Rect x={4} y={4} width={7} height={7} rx={1.5} /><Rect x={13} y={4} width={7} height={7} rx={1.5} /><Rect x={4} y={13} width={7} height={7} rx={1.5} /><Rect x={13} y={13} width={7} height={7} rx={1.5} /></>,
+  gear: <><Circle cx={12} cy={12} r={3} /><P d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1" /></>,
+  star: <P d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z" />,
 };
 
 // ── Tipo de caso → ícono y nombre corto ─────────────────────────────────────────────────────

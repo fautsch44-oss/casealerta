@@ -1,5 +1,6 @@
 import { Tabs } from 'expo-router';
 import React from 'react';
+import { Platform } from 'react-native';
 import Svg, { Circle, Path, Rect } from 'react-native-svg';
 import { useT } from '../../i18n';
 import { colors, fonts } from '../../theme/tokens';
@@ -18,8 +19,8 @@ export default function TabsLayout() {
       headerShown: false,
       tabBarActiveTintColor: colors.blue,
       tabBarInactiveTintColor: colors.muted,
-      tabBarLabelStyle: { fontFamily: fonts.bold, fontSize: 11 },
-      tabBarStyle: { backgroundColor: colors.card, borderTopColor: colors.lineSoft },
+      tabBarLabelStyle: { fontFamily: fonts.bold, fontSize: 11, lineHeight: 15, paddingBottom: 2 },
+      tabBarStyle: { backgroundColor: colors.card, borderTopColor: colors.lineSoft, ...(Platform.OS === 'web' ? { height: 62, paddingBottom: 8 } : null) },
     }}>
       <Tabs.Screen name="cases" options={{ title: t.tab_cases, tabBarIcon: ({ color }) => <CasesIcon color={String(color ?? colors.muted)} /> }} />
       <Tabs.Screen name="settings" options={{ title: t.tab_settings, tabBarIcon: ({ color }) => <GearIcon color={String(color ?? colors.muted)} /> }} />
