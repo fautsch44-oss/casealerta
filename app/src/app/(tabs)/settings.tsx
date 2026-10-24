@@ -7,7 +7,7 @@ import { Alert, AppState, Linking, Platform, Pressable, ScrollView, StyleSheet, 
 import { track } from '../../lib/analytics';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Icon, type IconName } from '../../components/Journey';
-import { FlagBar, Label, Seal, Wordmark } from '../../components/ui';
+import { Brand, Label, Seal } from '../../components/ui';
 import { useT } from '../../i18n';
 import { hasProEntitlement, saveProfile } from '../../lib/api';
 import { supabase } from '../../lib/supabase';
@@ -78,7 +78,7 @@ export default function SettingsScreen() {
           <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
             <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
               <Seal size={56} />
-              <View style={{ gap: 4 }}><Wordmark size={18} /><FlagBar width={120} /></View>
+              <Brand size={18} />
             </View>
             <View style={styles.avatar}><Icon name="family" size={22} color={colors.navy} sw={2.2} /></View>
           </View>

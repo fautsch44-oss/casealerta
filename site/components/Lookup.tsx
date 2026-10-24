@@ -62,6 +62,7 @@ export default function Lookup({ lang, plansHref, compact = false }: { lang: Lan
   const [busy, setBusy] = useState(false);
   const [err, setErr] = useState<string | null>(null);
   const [errDetail, setErrDetail] = useState<string | null>(null);
+  const [staleAt, setStaleAt] = useState<string | null>(null);
   const [c, setC] = useState<Case | null>(null);
   const [copied, setCopied] = useState(false);
   const [email, setEmail] = useState('');
@@ -95,7 +96,7 @@ export default function Lookup({ lang, plansHref, compact = false }: { lang: Lan
       const { status, data } = await fn('casealerta-uscis-status', { receipt_number: r });
       if (status === 429) { setErr(s.limited); track('error_shown', { where: 'lookup', code: '429' }); return; }
       if (status >= 400 || !data?.ok) { setErr((lang === 'es' && data?.message_es) || data?.message || s.net); setErrDetail(data?.uscis_message ?? null); track('error_shown', { where: 'lookup', code: String(status), upstream: data?.upstream_status ?? null }); return; }
-      setC(data.case as Case); setSpecific(null);
+      setC(data.case as Case); setSpecific(null); setStaleAt(data?.stale ? data.cached_at ?? null : null);
       track('first_value_shown', { form: data.case?.form_type ?? 'unknown' });
       const cc = data.case as Case;
       if (cc.status_en) fetch(`/api/v1/status-meaning/?lang=${lang}&status=${encodeURIComponent(cc.status_en)}${cc.form_type ? `&form=${encodeURIComponent(cc.form_type)}` : ''}`).then((r) => r.ok ? r.json() : null).then((j) => { if (j?.form && j.meaning) setSpecific(j.meaning); }).catch(() => null);
@@ -173,6 +174,7 @@ export default function Lookup({ lang, plansHref, compact = false }: { lang: Lan
 
       {(() => { const extra = (<>{c && (
         <div id="resultado" style={{ display: 'flex', flexDirection: 'column', gap: 16, scrollMarginTop: 170 }}>
+          {staleAt && <p className="muted small" role="status" style={{ margin: 0 }}>{lang === 'es' ? `USCIS no responde en este momento. Te mostramos su última respuesta oficial (${new Date(staleAt).toLocaleDateString('es-MX', { day: 'numeric', month: 'long', year: 'numeric' })}).` : `USCIS isn't responding right now. This is its last official response (${new Date(staleAt).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}).`}</p>}
           <div className="card" style={{ display: 'flex', flexDirection: 'column', gap: 12, borderTop: `6px solid ${KIND_COLOR[kind].fg}` }}>
             <div className="row" style={{ justifyContent: 'space-between' }}>
               <span className="badge" style={{ background: KIND_COLOR[kind].bg, color: KIND_COLOR[kind].fg }}>{KIND_LABEL[lang][kind]}</span>

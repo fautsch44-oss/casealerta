@@ -19,7 +19,17 @@ export function Wordmark({ size = 18, color = colors.onDark }: { size?: number; 
   return <Text style={{ fontFamily: fonts.display, fontSize: size, letterSpacing: size / 9, color }}>CASEALERTA</Text>;
 }
 
-export function FlagBar({ width = 200 }: { width?: number }) {
+/** Marca con subrayado de bandera que mide EXACTAMENTE lo mismo que la palabra (el contenedor se ajusta al texto). */
+export function Brand({ size = 18, color = colors.onDark, gap = 4 }: { size?: number; color?: string; gap?: number }) {
+  return (
+    <View style={{ alignSelf: 'flex-start', gap }}>
+      <Wordmark size={size} color={color} />
+      <FlagBar width="100%" />
+    </View>
+  );
+}
+
+export function FlagBar({ width = 200 }: { width?: number | '100%' }) {
   return (
     <View style={{ width, height: 8, borderRadius: 2, overflow: 'hidden' }}>
       <View style={{ flex: 3, backgroundColor: colors.red }} />

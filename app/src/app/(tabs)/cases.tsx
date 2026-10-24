@@ -6,7 +6,7 @@ import Svg, { Path } from 'react-native-svg';
 import { HuespedBubble, HuespedSheet } from '../../components/Huesped';
 import { MenuSheet } from '../../components/Menu';
 import { FormTile, Icon, journeyFor, Segments, type IconName } from '../../components/Journey';
-import { Button, FlagBar, Seal, Wordmark } from '../../components/ui';
+import { Brand, Button, Seal } from '../../components/ui';
 import { useT } from '../../i18n';
 import { hasProEntitlement, listCases, type CaseRow } from '../../lib/api';
 import { track } from '../../lib/analytics';
@@ -80,7 +80,7 @@ export default function CasesScreen() {
               <Icon name="menu" size={22} color={colors.onDark} sw={2.6} />
             </Pressable>
             <Seal size={46} />
-            <View style={{ gap: 4 }}><Wordmark size={16} /><FlagBar width={104} /></View>
+            <Brand size={16} />
           </View>
           {pro !== null && (pro
             ? <View style={styles.proChip}><Icon name="shield" size={14} color={colors.navy} sw={2.6} /><Text style={styles.proTxt}>PRO</Text></View>

@@ -77,9 +77,8 @@ export default function Splash() {
       <View style={styles.center}>
         <View style={styles.sealRing}><Seal size={176} border={6} /></View>
         <View style={styles.textBox}>
-          <Wordmark size={36} />
+          <View style={{ alignSelf: 'center', gap: 6 }}><Wordmark size={36} /><FlagBar width="100%" /></View>
           <Text style={styles.es}>{t.tagline.toUpperCase()}</Text>
-          <FlagBar width={200} />
         </View>
       </View>
       <View style={styles.foot}>

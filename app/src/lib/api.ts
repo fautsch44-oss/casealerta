@@ -3,6 +3,8 @@ import { normalizeReceipt, uscisDate } from './receipt';
 import type { Lang } from '../i18n/strings';
 
 export type UscisStatus = {
+  /** Si USCIS no respondió: fecha de la última respuesta oficial guardada (la caché del backend). */
+  stale_at?: string | null;
   receipt_number: string;
   form_type: string | null;
   status_en: string | null;
@@ -79,7 +81,7 @@ export async function lookupReceipt(raw: string): Promise<UscisStatus> {
     // detail = error.message original de USCIS (criterio del demo: se muestra al usuario, además del mensaje claro).
     throw new ApiError(body?.code ?? 'uscis_error', body?.message ?? error.message, status, body?.uscis_message ?? null, body?.message_es ?? null);
   }
-  return data.case as UscisStatus;
+  return { ...(data.case as UscisStatus), stale_at: data?.stale ? data.cached_at ?? null : null };
 }
 
 export async function listCases(): Promise<CaseRow[]> {
@@ -128,7 +130,7 @@ export async function addCase(status: UscisStatus, label: string | null): Promis
       last_status_text: statusText,
       last_status_date: uscisDate(status.modified),
       received_date: uscisDate(status.submitted),
-      last_checked_at: new Date().toISOString(),
+      last_checked_at: status.stale_at ?? new Date().toISOString(),
       last_changed_at: uscisDate(status.modified) ? `${uscisDate(status.modified)}T12:00:00Z` : new Date().toISOString(),
     })
     .select('*')

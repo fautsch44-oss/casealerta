@@ -60,14 +60,14 @@ export function slugify(s: string) {
 
 export const T = {
   es: {
-    tagline: 'ALERTAS DE TU CASO USCIS Y CORTE',
+    tagline: 'ALERTAS DE TU CASO USCIS Y NVC',
     nav_status: 'Estatus explicados', nav_forms: 'Formularios', nav_news: 'Noticias y guías', nav_bulletin: 'Boletín de visas',
     check: 'Consultar', home: 'Inicio', cta: 'Avísame cuando cambie',
     footer: 'No somos USCIS ni un despacho de abogados. Explicaciones con IA, no es asesoría legal.',
     privacy: 'Privacidad', terms: 'Términos', ai_note: 'Explicación preparada con IA a partir del estatus oficial de USCIS y revisada por CaseAlerta. No es asesoría legal. Los tiempos son rangos típicos, nunca una fecha exacta.',
   },
   en: {
-    tagline: 'USCIS & COURT CASE ALERTS',
+    tagline: 'USCIS & NVC CASE ALERTS',
     nav_status: 'Status explained', nav_forms: 'Forms', nav_news: 'News & guides', nav_bulletin: 'Visa bulletin',
     check: 'Check', home: 'Home', cta: 'Alert me when it changes',
     footer: 'We are not USCIS or a law firm. AI-assisted explanations, not legal advice.',

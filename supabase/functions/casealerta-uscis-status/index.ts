@@ -5,6 +5,8 @@
 //  POST {"mode":"sandbox_traffic"}                       -> tráfico diario de prueba con recibos staging (solo sandbox)
 //  POST {"mode":"demo_check"}  (x-cron-key o service role) -> casos de prueba del demo USCIS: éxito, 404, 400 y estado del demo_id
 // Demo USCIS (producción): si existe CASEALERTA_USCIS_DEMO_ID se manda el encabezado `demo_id: ####` en cada llamada.
+// Caché: cada respuesta 200 se guarda en casealerta.uscis_cache. Si USCIS no responde (5xx/429, p. ej. el sandbox
+// cerrado en fin de semana), se devuelve la ÚLTIMA respuesta oficial con stale=true y cached_at — nunca un dato inventado.
 // Errores: se normalizan al formato RFC 9457 de USCIS (code, message, category, reference, status, traceId),
 // se registran en el log del backend y se devuelven a la app/web con un mensaje claro en ES/EN.
 import "jsr:@supabase/functions-js/edge-runtime.d.ts";
@@ -121,12 +123,24 @@ async function lookup(receipt: string, tag = "uscis_case_status"): Promise<Looku
     return { ok: false, status: r.status, error: err };
   }
   const c = body.case_status ?? {};
-  return { ok: true, data: {
+  const data: Status = {
     receipt_number: c.receiptNumber ?? receipt, form_type: c.formType ?? null,
     status_en: c.current_case_status_text_en ?? null, status_es: c.current_case_status_text_es ?? null,
     desc_en: c.current_case_status_desc_en ?? null, desc_es: c.current_case_status_desc_es ?? null,
     submitted: c.submittedDate ?? null, modified: c.modifiedDate ?? null, history: c.hist_case_status ?? [],
-  } };
+  };
+  try {
+    await sql`insert into casealerta.uscis_cache (receipt_number, payload, fetched_at) values (${receipt}, ${sql.json(data as any)}, now())
+              on conflict (receipt_number) do update set payload = excluded.payload, fetched_at = now()`;
+  } catch (_e) { /* la caché nunca rompe la consulta */ }
+  return { ok: true, data };
+}
+
+async function cached(receipt: string): Promise<{ data: Status; at: string } | null> {
+  try {
+    const r = await sql`select payload, fetched_at from casealerta.uscis_cache where receipt_number = ${receipt} limit 1`;
+    return r[0] ? { data: r[0].payload as Status, at: new Date(r[0].fetched_at).toISOString() } : null;
+  } catch (_e) { return null; }
 }
 
 async function sandboxTraffic() {
@@ -212,7 +226,19 @@ Deno.serve(async (req) => {
     if (!RECEIPT_RE.test(receipt)) {
       return json({ code: "invalid_receipt", message: FRIENDLY["400"].en, message_es: FRIENDLY["400"].es }, 400);
     }
-    const res = await lookup(receipt);
+    let res: Lookup;
+    try { res = await lookup(receipt); }
+    catch (e: any) {
+      const hit = await cached(receipt);
+      if (hit) return json({ ok: true, case: hit.data, stale: true, cached_at: hit.at, uscis_message: e?.uscis?.message ?? null,
+        disclaimer: "Last official USCIS response (USCIS is not responding right now). Not legal advice." });
+      throw e;
+    }
+    if (!res.ok && (res.status >= 500 || res.status === 429)) {
+      const hit = await cached(receipt);
+      if (hit) return json({ ok: true, case: hit.data, stale: true, cached_at: hit.at, uscis_message: res.error.message,
+        disclaimer: "Last official USCIS response (USCIS is not responding right now). Not legal advice." });
+    }
     if (!res.ok) {
       const f = friendly(res.status);
       return json({
