@@ -21,6 +21,10 @@ const config: NextConfig = {
     return [
       ...(redirects as { source: string; destination: string; permanent: boolean }[]),
       { source: '/en/status/:path*', destination: '/status/:path*', permanent: true },
+      { source: '/precios', destination: '/#planes', permanent: false },
+      { source: '/pricing', destination: '/en/#planes', permanent: false },
+      { source: '/en/pricing', destination: '/en/#planes', permanent: false },
+      { source: '/en/lawyers', destination: '/lawyers', permanent: true },
     ];
   },
 };

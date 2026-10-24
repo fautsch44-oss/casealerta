@@ -111,7 +111,7 @@ export default function SettingsScreen() {
           <Label>{t.a3_lang.toUpperCase()}</Label>
           <View style={{ flexDirection: 'row', gap: 10 }}><Seg v="es" label="Español" /><Seg v="en" label="English" /></View>
 
-          <Pressable accessibilityRole="link" onPress={() => Linking.openURL('https://casealerta.com/abogados')} style={styles.lawyer}>
+          <Pressable accessibilityRole="link" onPress={() => Linking.openURL(es ? 'https://casealerta.com/abogados' : 'https://casealerta.com/lawyers')} style={styles.lawyer}>
             <View style={[styles.tileIcon, { backgroundColor: colors.goldSoft }]}><Icon name="review" size={22} color={colors.amber} sw={2.2} /></View>
             <View style={{ flex: 1 }}>
               <Text style={{ fontFamily: fonts.bold, fontSize: 15, color: colors.ink }}>{es ? 'Abogado en mi ciudad' : 'Lawyer in my city'}</Text>

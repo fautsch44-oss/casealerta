@@ -7,6 +7,7 @@ export function GET() {
     '> Bilingual (English/Spanish) USCIS case status lookups, alerts and plain-language explanations by form. By VARGER Group LLC. No ads, no data sales. Not legal advice.',
     '',
     `Citable API: ${SITE}/api/v1/status-meaning?form=I-485&status=Case%20Was%20Received&lang=en`,
+    `MCP server (Streamable HTTP, protocol 2025-06-18, read-only): ${SITE}/mcp/ — tools: explicar_estatus, tiempo_tipico, buscar_formulario`,
     `Visa bulletin explained: ${SITE}/en/visa-bulletin/ · ${SITE}/boletin-de-visas/`,
     '',
     '## USCIS forms (English)',
