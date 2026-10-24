@@ -61,6 +61,7 @@ export default function Lookup({ lang, plansHref, compact = false }: { lang: Lan
   const [sending, setSending] = useState(false);
   const [busy, setBusy] = useState(false);
   const [err, setErr] = useState<string | null>(null);
+  const [errDetail, setErrDetail] = useState<string | null>(null);
   const [c, setC] = useState<Case | null>(null);
   const [copied, setCopied] = useState(false);
   const [email, setEmail] = useState('');
@@ -87,13 +88,13 @@ export default function Lookup({ lang, plansHref, compact = false }: { lang: Lan
 
   async function look(raw: string) {
     const r = raw.replace(/[\s-]/g, '').toUpperCase();
-    setErr(null); setAlert(null);
+    setErr(null); setErrDetail(null); setAlert(null);
     if (!/^[A-Z]{3}[0-9]{10}$/.test(r)) { setErr(s.bad); return; }
     setBusy(true); setC(null);
     try {
       const { status, data } = await fn('casealerta-uscis-status', { receipt_number: r });
       if (status === 429) { setErr(s.limited); track('error_shown', { where: 'lookup', code: '429' }); return; }
-      if (status >= 400 || !data?.ok) { setErr((lang === 'es' && data?.message_es) || data?.message || s.net); track('error_shown', { where: 'lookup', code: String(status) }); return; }
+      if (status >= 400 || !data?.ok) { setErr((lang === 'es' && data?.message_es) || data?.message || s.net); setErrDetail(data?.uscis_message ?? null); track('error_shown', { where: 'lookup', code: String(status), upstream: data?.upstream_status ?? null }); return; }
       setC(data.case as Case); setSpecific(null);
       track('first_value_shown', { form: data.case?.form_type ?? 'unknown' });
       const cc = data.case as Case;
@@ -163,6 +164,7 @@ export default function Lookup({ lang, plansHref, compact = false }: { lang: Lan
         </form>
         <div className="chips">{s.chips.map((x) => <span className="chip" key={x}>{x}</span>)}</div>
         {err && <p id="rcpt-err" className="err" role="alert">{err}</p>}
+        {err && errDetail && <p className="muted" style={{ fontSize: 12, marginTop: 4 }}>USCIS: {errDetail}</p>}
         {!c && recent.length > 0 && (
           <div style={{ marginTop: 12 }}><div className="muted small" style={{ fontWeight: 700 }}>{s.recent}</div>
             <div className="chips">{recent.map((r) => <button key={r} className="copy" onClick={() => { setV(r); look(r); }}>{r}</button>)}</div></div>

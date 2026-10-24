@@ -60,7 +60,7 @@ export type Explanation = {
 };
 
 export class ApiError extends Error {
-  constructor(public code: string, message: string, public status = 0) {
+  constructor(public code: string, message: string, public status = 0, public detail: string | null = null, public messageEs: string | null = null) {
     super(message);
   }
 }
@@ -76,7 +76,8 @@ export async function lookupReceipt(raw: string): Promise<UscisStatus> {
     let body: any = null;
     try { body = ctx ? await ctx.json() : null; } catch { /* sin cuerpo */ }
     const status = ctx?.status ?? 0;
-    throw new ApiError(body?.code ?? 'uscis_error', body?.message ?? error.message, status);
+    // detail = error.message original de USCIS (criterio del demo: se muestra al usuario, además del mensaje claro).
+    throw new ApiError(body?.code ?? 'uscis_error', body?.message ?? error.message, status, body?.uscis_message ?? null, body?.message_es ?? null);
   }
   return data.case as UscisStatus;
 }

@@ -19,6 +19,7 @@ export default function ReceiptScreen() {
   const [label, setLabel] = useState('');
   const [busy, setBusy] = useState(false);
   const [err, setErr] = useState<string | null>(null);
+  const [errDetail, setErrDetail] = useState<string | null>(null);
   const [canSaveAnyway, setCanSaveAnyway] = useState(false);
   const receipt = normalizeReceipt(raw);
   const valid = isValidReceipt(receipt);
@@ -32,7 +33,7 @@ export default function ReceiptScreen() {
   };
 
   const go = async () => {
-    setBusy(true); setErr(null); setCanSaveAnyway(false);
+    setBusy(true); setErr(null); setErrDetail(null); setCanSaveAnyway(false);
     try {
       const status = await lookupReceipt(receipt);
       const row = await addCase(status, label.trim() || null);
@@ -40,8 +41,9 @@ export default function ReceiptScreen() {
       next(row.id);
     } catch (e: any) {
       track('error_shown', { where: 'receipt_lookup', code: e?.code ?? String(e?.status ?? 'unknown') });
+      if (e instanceof ApiError && e.detail) setErrDetail(e.detail);
       if (e instanceof ApiError && (e.status === 404 || e.code === 'invalid_receipt')) setErr(t.o2_notFound);
-      else { setErr(t.o2_error); setCanSaveAnyway(true); }
+      else { setErr((e instanceof ApiError && e.status >= 400 && (lang === 'es' ? e.messageEs : e.message)) || t.o2_error); setCanSaveAnyway(true); }
     } finally { setBusy(false); }
   };
 
@@ -103,6 +105,7 @@ export default function ReceiptScreen() {
           </View>
 
           {err && <Text style={styles.err}>{err}</Text>}
+          {err && errDetail && <Text style={styles.errDetail} numberOfLines={3}>USCIS: {errDetail}</Text>}
           <View style={{ flex: 1 }} />
           <View style={{ gap: 12 }}>
             <Button title={busy ? t.o2_checking : t.o2_cta} onPress={go} loading={busy} disabled={!valid} />
@@ -133,5 +136,6 @@ const styles = StyleSheet.create({
   hint: { borderRadius: radius.md, padding: 12, flexDirection: 'row', gap: 10, alignItems: 'center' },
   notice: { borderWidth: 2, borderStyle: 'dashed', borderColor: colors.line, borderRadius: 12, padding: 12, gap: 6 },
   err: { fontFamily: fonts.bold, fontSize: 14, color: colors.red, textAlign: 'center' },
+  errDetail: { fontFamily: fonts.semibold, fontSize: 11, color: colors.muted, textAlign: 'center' },
   note: { fontFamily: fonts.regular, fontSize: 12, color: colors.muted, textAlign: 'center' },
 });
