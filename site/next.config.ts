@@ -14,6 +14,7 @@ const config: NextConfig = {
   async headers() {
     return [
       { source: '/(.*)', headers: security },
+      { source: '/review/:path*', headers: [{ key: 'Access-Control-Allow-Origin', value: '*' }, { key: 'X-Robots-Tag', value: 'noindex' }] },
       { source: '/sw.js', headers: [{ key: 'Cache-Control', value: 'no-cache' }, { key: 'Service-Worker-Allowed', value: '/' }] },
     ];
   },
