@@ -35,6 +35,7 @@ const T = {
     workers: 'TRABAJADORES', all: 'Todos', searchPh: 'Buscar', sendsTo: (n: number) => `${n} ${n === 1 ? 'persona recibe' : 'personas reciben'} un correo en menos de 5 minutos`, noAds: 'Sin anuncios · sin compartir datos', manage: 'Administrar equipo',
     startT: 'Crea tu tablero', startS: 'Escribe el nombre de tu empresa o despacho. Luego pega tus números de recibo.', company: 'Nombre de la empresa', kind: 'Tipo', employer: 'Empleador', firm: 'Despacho de abogados', create: 'Crear tablero',
     impT: 'Pega tus recibos', impS: 'Uno por línea: recibo, nombre del trabajador, programa (opcional). Hasta 50 por vez.', impGo: 'Importar', importing: (a: number, b: number) => `Consultando a USCIS… ${a} de ${b}`, impDone: (n: number, e: number) => `Listo: ${n} importados${e ? `, ${e} con error` : ''}.`, cancel: 'Cerrar',
+    capped: (n: number) => `Importamos ${n}. Tu tablero de muestra tiene 3 peticiones. Activa la prueba de 14 días para cargar hasta 50.`,
     payT: 'Activa tu prueba de 14 días', payS: (y: boolean) => `$0 hoy. Luego $99 al mes${y ? ' (o $990 al año)' : ''}. Cancela cuando quieras desde tu portal.`, payGo: 'Empezar prueba gratis', payYear: 'Prefiero pagar anual: $990', opening: 'Abriendo pago seguro…', payErr: 'No pudimos abrir el pago. Intenta de nuevo.',
     planOn: (p: string, d: string | null) => d ? `Plan ${p} · prueba hasta el ${d}` : `Plan ${p} activo`, manageBill: 'Administrar pago',
     empty: 'Aún no hay peticiones. Toca «Importar recibos» para empezar.', day: (n: number) => `día ${n}`, trial: 'Prueba de 14 días · luego $99/mes',
@@ -47,6 +48,7 @@ const T = {
     workers: 'WORKERS', all: 'All', searchPh: 'Search', sendsTo: (n: number) => `${n} ${n === 1 ? 'person gets' : 'people get'} an email in under 5 minutes`, noAds: 'No ads · no data sharing', manage: 'Manage team',
     startT: 'Create your dashboard', startS: 'Type your company or law firm name. Then paste your receipt numbers.', company: 'Company name', kind: 'Type', employer: 'Employer', firm: 'Law firm', create: 'Create dashboard',
     impT: 'Paste your receipts', impS: 'One per line: receipt, worker name, program (optional). Up to 50 at a time.', impGo: 'Import', importing: (a: number, b: number) => `Checking with USCIS… ${a} of ${b}`, impDone: (n: number, e: number) => `Done: ${n} imported${e ? `, ${e} with errors` : ''}.`, cancel: 'Close',
+    capped: (n: number) => `Imported ${n}. Your sample dashboard holds 3 petitions. Start the 14-day trial to load up to 50.`,
     payT: 'Start your 14-day trial', payS: (y: boolean) => `$0 today. Then $99 a month${y ? ' (or $990 a year)' : ''}. Cancel anytime from your portal.`, payGo: 'Start free trial', payYear: 'I prefer yearly: $990', opening: 'Opening secure checkout…', payErr: 'We could not open checkout. Try again.',
     planOn: (p: string, d: string | null) => d ? `${p} plan · trial until ${d}` : `${p} plan active`, manageBill: 'Manage billing',
     empty: 'No petitions yet. Tap “Import receipts” to start.', day: (n: number) => `day ${n}`, trial: '14-day trial · then $99/mo',
@@ -74,6 +76,7 @@ export default function B1({ lang }: { lang: Lang }) {
   const [sub, setSub] = useState<MySub | null>(null);
   const [paying, setPaying] = useState(false);
   const [payErr, setPayErr] = useState<string | null>(null);
+  const [capped, setCapped] = useState(false);
 
   const load = useCallback(async () => {
     const s = await session();
@@ -138,7 +141,7 @@ export default function B1({ lang }: { lang: Lang }) {
     if (!org) return;
     const s = await session();
     const lines = text.split(/\n+/).map((l) => l.trim()).filter(Boolean).slice(0, 50);
-    let ok = 0, bad = 0;
+    let ok = 0, bad = 0, hitCap = false;
     for (let i = 0; i < lines.length; i++) {
       setProg(t.importing(i + 1, lines.length));
       const [rc, nm, pg] = lines[i].split(/[,;\t]/).map((x) => x.trim());
@@ -151,10 +154,12 @@ export default function B1({ lang }: { lang: Lang }) {
           owner_id: s.user.id, org_id: org.id, receipt_number: receipt, beneficiary_name: nm || null, program: pg || null,
           form_type: c?.form_type ?? null, last_status_code: c?.status_en ?? null, last_status_text: c?.status_en ?? null, last_checked_at: new Date().toISOString(),
         });
+        if (error && /plan_limit/.test(error.message)) { hitCap = true; break; }
         if (error) bad++; else ok++;
       } catch { bad++; }
     }
-    setProg(t.impDone(ok, bad)); setText('');
+    setProg(hitCap ? t.capped(ok) : t.impDone(ok, bad)); setCapped(hitCap); if (!hitCap) setText('');
+    if (hitCap) track('paywall_viewed', { reason: 'b2b_case_limit' });
     await load();
   }
 
@@ -233,7 +238,7 @@ export default function B1({ lang }: { lang: Lang }) {
             {rows.length > 0 && payBar}
             <div className="row" style={{ alignItems: 'stretch', gap: 16 }}>
               <div className="tile" style={{ flex: '1 1 300px', flexDirection: 'row', alignItems: 'center', gap: 22 }}>
-                <div className="ring" style={{ width: 150, height: 150, minWidth: 150, borderRadius: 75, background: donut }}><div style={{ width: 104, height: 104, borderRadius: 52 }}><span style={{ fontSize: 34, fontWeight: 800, lineHeight: 1 }}>{total}</span><span className="ringSmall">{t.of(50)}</span></div></div>
+                <div className="ring" style={{ width: 150, height: 150, minWidth: 150, borderRadius: 75, background: donut }}><div style={{ width: 104, height: 104, borderRadius: 52 }}><span style={{ fontSize: 34, fontWeight: 800, lineHeight: 1 }}>{total}</span><span className="ringSmall">{t.of(sub ? (sub.plan === 'employer_250' || sub.plan === 'law_firm_3' ? 250 : 50) : 3)}</span></div></div>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: 10, fontSize: 14, fontWeight: 700 }}>
                   {[['#1E7A46', counts.approved, t.approved], ['#D4A84B', counts.waiting, t.waiting], ['#E8A33D', counts.changed, t.changed], ['#C8102E', counts.act, t.act]].map(([c, n, l]) => <span key={String(l)} className="row" style={{ gap: 8 }}><span style={{ width: 12, height: 12, borderRadius: 6, background: String(c) }} />{n} {l}</span>)}
                 </div>
@@ -288,6 +293,7 @@ export default function B1({ lang }: { lang: Lang }) {
             <label htmlFor="imp-x" className="skip">{t.impT}</label>
             <textarea id="imp-x" className="input" style={{ height: 200, padding: 12, fontFamily: 'ui-monospace,monospace', fontSize: 14, textTransform: 'none' }} value={text} onChange={(e) => setText(e.target.value)} placeholder={'EAC9999103403, Luis Hernández, H-2A\nLIN9999106498, Rosa Pérez, H-2A'} />
             {prog && <span className="ok" role="status">{prog}</span>}
+            {capped && payBar}
             <div className="row" style={{ justifyContent: 'flex-end' }}>
               <button className="btn ghost small" onClick={() => setShowImp(false)}>{t.cancel}</button>
               <button className="btn red small" onClick={runImport} disabled={!text.trim()}>{t.impGo}</button>

@@ -135,6 +135,8 @@ export async function addCase(status: UscisStatus, label: string | null): Promis
     })
     .select('*')
     .single();
+  // Candado del servidor (trigger cases_plan_limit): Gratis 1 caso, Pro 5, Familia 15.
+  if (error && /plan_limit/.test(error.message)) throw new ApiError('plan_limit', error.message, 402);
   if (error) throw error;
   // Historia oficial de USCIS → cada paso con su fecha, visible desde el primer día.
   const hist = (status.history as { date?: string; completed_text_en?: string; completed_text_es?: string }[]).filter((h) => h?.date);

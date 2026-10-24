@@ -7,7 +7,7 @@ import { KIND_COLOR, KIND_LABEL, VAPID_PUBLIC } from '@/lib/i18n';
 import { fn, sb, session, store } from '@/lib/sb';
 import type { WebCase } from './Guest';
 import Guest from './Guest';
-import { checkout } from '@/lib/billing';
+import { checkout, mySubs } from '@/lib/billing';
 
 type Cat = {
   statuses: { code: string; kind: Kind; stage: string; title: string; meaning: string; next: string[]; path: string; slug: string }[];
@@ -30,7 +30,7 @@ const S = {
     hist: 'Historia de tu caso', full: (f: string) => `Ver explicación completa para tu ${f}`, fullAny: 'Ver explicación completa', range: (r: string) => `Rango típico de este formulario: ${r}.`,
     alertsT: 'Avísame cuando cambie', alertsS: 'Te escribo solo cuando cambie tu caso. Sin anuncios.', email: 'Tu correo', alertsGo: 'Avísame',
     alertsOk: 'Listo. Revisa tu correo y toca «Sí, avísame» para confirmar.', alertsErr: 'No pudimos activar el aviso. Revisa tu correo e intenta de nuevo.',
-    push: 'Activar globo en este navegador', pushOk: 'Globo activado en este navegador.', pushNo: 'Tu navegador no permite globos. Usa el aviso por correo.',
+    push: 'Globo en este navegador (Pro)', pushOk: 'Globo activado en este navegador.', pushNo: 'Tu navegador no permite globos. Usa el aviso por correo.',
     recent: 'Tus consultas en este navegador', confirmed: '¡Correo confirmado! Te avisamos en cuanto cambie tu caso.', off: 'Listo, apagamos los avisos por correo.',
     milestones: 'Pasos típicos de este trámite', stageNow: 'Vas aquí', consent: 'Al activar aceptas recibir correos sobre tu caso. Puedes darte de baja cuando quieras.',
     limited: 'Hicimos muchas consultas seguidas. Espera un minuto e intenta de nuevo.',
@@ -42,7 +42,7 @@ const S = {
     hist: 'Your case history', full: (f: string) => `See the full explanation for your ${f}`, fullAny: 'See the full explanation', range: (r: string) => `Typical range for this form: ${r}.`,
     alertsT: 'Alert me when it changes', alertsS: 'I only write when your case changes. No ads.', email: 'Your email', alertsGo: 'Alert me',
     alertsOk: 'Done. Check your email and tap “Yes, alert me” to confirm.', alertsErr: 'We could not turn on the alert. Check your email and try again.',
-    push: 'Turn on browser notifications', pushOk: 'Notifications on in this browser.', pushNo: 'Your browser does not allow notifications. Use email alerts.',
+    push: 'Browser notifications (Pro)', pushOk: 'Notifications on in this browser.', pushNo: 'Your browser does not allow notifications. Use email alerts.',
     recent: 'Your lookups in this browser', confirmed: 'Email confirmed! We will alert you as soon as your case changes.', off: 'Done, email alerts are off.',
     milestones: 'Typical steps of this process', stageNow: 'You are here', consent: 'By turning this on you agree to receive emails about your case. Unsubscribe anytime.',
     limited: 'Too many lookups in a row. Wait a minute and try again.',
@@ -131,6 +131,12 @@ export default function Lookup({ lang, plansHref, compact = false }: { lang: Lan
   }
 
   async function push() {
+    // El globo en el navegador es de Pro: sin plan vigente no se pide permiso ni se guarda nada.
+    if (!(await mySubs()).length) {
+      setLimit({ text: lang === 'es' ? 'El globo en tu navegador es de Pro. Gratis te avisamos por correo de 1 caso.' : 'Browser notifications are part of Pro. Free includes email alerts for 1 case.', plan: 'free' });
+      track('paywall_viewed', { reason: 'web_push' });
+      return;
+    }
     try {
       if (!('serviceWorker' in navigator) || !('PushManager' in window) || !('Notification' in window)) { setPushMsg(s.pushNo); return; }
       const perm = await Notification.requestPermission();

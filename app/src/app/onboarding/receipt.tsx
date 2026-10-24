@@ -32,6 +32,13 @@ export default function ReceiptScreen() {
     else router.push({ pathname: '/onboarding/alerts', params: { id } });
   };
 
+  // Ya vigila los casos que su plan permite: se le muestra el plan, sin perder lo que escribió.
+  const planLimit = () => {
+    setErr(lang === 'es' ? 'Tu plan ya vigila todos los casos que incluye. Con Pro vigilas hasta 5 y con Familia hasta 15.' : 'Your plan already watches all the cases it includes. Pro watches up to 5 and Family up to 15.');
+    track('paywall_viewed', { reason: 'case_limit', step: 0 });
+    router.push({ pathname: '/paywall/example', params: { reason: 'case_limit' } });
+  };
+
   const go = async () => {
     setBusy(true); setErr(null); setErrDetail(null); setCanSaveAnyway(false);
     try {
@@ -40,6 +47,7 @@ export default function ReceiptScreen() {
       track('first_value_shown', { form: status.form_type ?? 'unknown', has_status: !!(status.status_en ?? status.status_es) });
       next(row.id);
     } catch (e: any) {
+      if (e instanceof ApiError && e.code === 'plan_limit') { planLimit(); return; }
       track('error_shown', { where: 'receipt_lookup', code: e?.code ?? String(e?.status ?? 'unknown') });
       if (e instanceof ApiError && e.detail) setErrDetail(e.detail);
       if (e instanceof ApiError && (e.status === 404 || e.code === 'invalid_receipt')) setErr(t.o2_notFound);
@@ -53,7 +61,7 @@ export default function ReceiptScreen() {
     try {
       const row = await addCase({ receipt_number: receipt, form_type: null, status_en: null, status_es: null, desc_en: null, desc_es: null, submitted: null, modified: null, history: [] }, label.trim() || null);
       next(row.id);
-    } catch { setErr(t.o2_error); }
+    } catch (e: any) { if (e instanceof ApiError && e.code === 'plan_limit') planLimit(); else setErr(t.o2_error); }
     finally { setBusy(false); }
   };
 
