@@ -158,7 +158,7 @@ export default function CaseDetail() {
               <Text style={{ fontFamily: fonts.bold, fontSize: 14, color: colors.ink }}>{t.a2_bulletin}</Text>
             </Pressable>
 
-            <Pressable accessibilityRole="button" onPress={() => Linking.openURL('https://casealerta.com/abogados')} style={styles.lawyer}>
+            <Pressable accessibilityRole="button" onPress={() => Linking.openURL(lang === 'es' ? 'https://casealerta.com/abogados' : 'https://casealerta.com/lawyers')} style={styles.lawyer}>
               <Text style={{ fontFamily: fonts.bold, fontSize: 14, color: colors.blue }}>{t.a2_lawyer}</Text>
             </Pressable>
           </>
