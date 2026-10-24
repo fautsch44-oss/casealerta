@@ -68,17 +68,23 @@ async function subscribe(req: Request) {
   const [{ n }] = await sql`select count(*)::int n from casealerta.web_alert_signups where owner_id = ${uid} and created_at > now() - interval '1 day'`;
   if (n >= 5) return json({ code: "rate_limited" }, 429);
 
+  // Los avisos son de Pro: sin plan vigente no se guarda nada ni se manda correo de confirmación.
+  const [{ plan: anyPlan }] = await sql`select casealerta.active_plan(${uid}) as plan`;
+  if (!anyPlan) return json({ code: "plan_limit", plan: "free", limit: 0, used: 0,
+    message: lang === "es" ? "Los avisos cuando cambia tu caso son de Pro." : "Alerts when your case changes are part of Pro." }, 402);
+
   const status = c.status_en ?? null;
   const existing = await sql`select id from casealerta.cases where owner_id = ${uid} and receipt_number = ${receipt} limit 1`;
   let caseId = existing[0]?.id;
   if (!caseId) {
     // Límite por plan (plan maestro §4.1): Gratis 1 caso · Pro 5 · Familia 15. El plan sale de casealerta.subscriptions (Stripe o RevenueCat).
     const [{ plan }] = await sql`select casealerta.active_plan(${uid}) as plan`;
-    const limit = plan === "family" ? 15 : plan === "pro" ? 5 : 1;
+    const limit = plan === "family" ? 15 : plan === "pro" ? 5 : 0; // gratis: los avisos son de Pro
     const [{ used }] = await sql`select count(*)::int used from casealerta.cases where owner_id = ${uid} and org_id is null and coalesce(active, true)`;
     if (used >= limit) {
       return json({ code: "plan_limit", plan: plan ?? "free", limit, used,
-        message: lang === "es" ? `Tu plan ${plan ? (plan === "family" ? "Familia" : "Pro") : "gratis"} vigila ${limit} ${limit === 1 ? "caso" : "casos"}. Sube de plan para vigilar este también.` : `Your ${plan ? (plan === "family" ? "Family" : "Pro") : "free"} plan watches ${limit} ${limit === 1 ? "case" : "cases"}. Upgrade to watch this one too.` }, 402);
+        message: !plan ? (lang === "es" ? "Los avisos cuando cambia tu caso son de Pro." : "Alerts when your case changes are part of Pro.")
+        : lang === "es" ? `Tu plan ${plan === "family" ? "Familia" : "Pro"} vigila ${limit} casos. Sube de plan para vigilar este también.` : `Your ${plan === "family" ? "Family" : "Pro"} plan watches ${limit} cases. Upgrade to watch this one too.` }, 402);
     }
     const mod = usDate(c.modified);
     const ins = await sql`insert into casealerta.cases (owner_id, receipt_number, form_type, last_status_code, last_status_text, last_status_date, received_date, last_checked_at, last_changed_at)

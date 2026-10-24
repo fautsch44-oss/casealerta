@@ -75,11 +75,15 @@ export default function Lookup({ lang, plansHref, compact = false }: { lang: Lan
   const [specific, setSpecific] = useState<string | null>(null);
   const [limit, setLimit] = useState<{ text: string; plan: string } | null>(null);
   const [paying, setPaying] = useState(false);
+  const [hasPlan, setHasPlan] = useState<boolean | null>(null);
+  const [errPro, setErrPro] = useState(false);
+  const goPro = async (reason: string, plan: 'pro' | 'family' = 'pro') => { setPaying(true); const ok = await checkout(plan, 'year', { lang, from: `${location.pathname}#consulta`, reason }); if (!ok) setPaying(false); };
 
   useEffect(() => {
     setRecent(store.get<string[]>('ca-recent', []));
     setSlot(document.getElementById('lookup-slot'));
     fetch(`/catalog-${lang}.json`).then((r) => r.json()).then(setCat).catch(() => null);
+    mySubs().then((x) => setHasPlan(x.length > 0)).catch(() => setHasPlan(false));
     const reset = () => setPaying(false);
     window.addEventListener('pageshow', reset);
     const q = new URLSearchParams(location.search).get('alertas');
@@ -95,11 +99,12 @@ export default function Lookup({ lang, plansHref, compact = false }: { lang: Lan
 
   async function look(raw: string) {
     const r = raw.replace(/[\s-]/g, '').toUpperCase();
-    setErr(null); setErrDetail(null); setAlert(null);
+    setErr(null); setErrDetail(null); setAlert(null); setErrPro(false);
     if (!/^[A-Z]{3}[0-9]{10}$/.test(r)) { setErr(s.bad); return; }
     setBusy(true); setC(null);
     try {
       const { status, data } = await fn('casealerta-uscis-status', { receipt_number: r });
+      if (status === 402 && data?.code === 'lookup_limit') { setErr((lang === 'es' && data?.message_es) || data?.message); setErrPro(true); track('paywall_viewed', { reason: 'lookup_limit' }); return; }
       if (status === 429) { setErr(s.limited); track('error_shown', { where: 'lookup', code: '429' }); return; }
       if (status >= 400 || !data?.ok) { setErr((lang === 'es' && data?.message_es) || data?.message || s.net); setErrDetail(data?.uscis_message ?? null); track('error_shown', { where: 'lookup', code: String(status), upstream: data?.upstream_status ?? null }); return; }
       setC(data.case as Case); setSpecific(null); setStaleAt(data?.stale ? data.cached_at ?? null : null);
@@ -182,6 +187,7 @@ export default function Lookup({ lang, plansHref, compact = false }: { lang: Lan
         </form>
         <div className="chips">{s.chips.map((x) => <span className="chip" key={x}>{x}</span>)}</div>
         {err && <p id="rcpt-err" className="err" role="alert">{err}</p>}
+        {errPro && <div className="row" style={{ marginTop: 8 }}><button type="button" className="btn red small" disabled={paying} aria-busy={paying} onClick={() => goPro('lookup_limit')}>{paying ? '…' : lang === 'es' ? 'Activar Pro · $69.99 al año' : 'Get Pro · $69.99/year'}</button><a className="btn ghost small" href={plansHref}>{lang === 'es' ? 'Ver planes' : 'See plans'}</a></div>}
         {err && errDetail && <p className="muted" style={{ fontSize: 12, marginTop: 4 }}>USCIS: {errDetail}</p>}
         {!c && recent.length > 0 && (
           <div style={{ marginTop: 12 }}><div className="muted small" style={{ fontWeight: 700 }}>{s.recent}</div>
@@ -229,7 +235,15 @@ export default function Lookup({ lang, plansHref, compact = false }: { lang: Lan
           )}
 
           <div className="card navy" style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
-            <b style={{ fontSize: 20 }}>{s.alertsT}</b><span style={{ color: '#D6E0F2' }}>{s.alertsS}</span>
+            <b style={{ fontSize: 20 }}>{s.alertsT}</b>
+            {hasPlan === false ? (<>
+              <span style={{ color: '#D6E0F2' }}>{lang === 'es' ? 'Los avisos son de Pro: globo al instante en tu celular y navegador, y correo, para hasta 5 casos. $69.99 al año (equivale a $5.83/mes). Sin anuncios.' : 'Alerts are part of Pro: instant phone and browser notifications plus email, for up to 5 cases. $69.99 a year (just $5.83/mo). No ads.'}</span>
+              <div className="row">
+                <button type="button" className="btn red" disabled={paying} aria-busy={paying} onClick={() => { track('paywall_viewed', { reason: 'alerts_card' }); goPro('alerts_card'); }}>{paying ? '…' : lang === 'es' ? 'Activar avisos con Pro' : 'Turn on alerts with Pro'}</button>
+                <a className="btn ghost small" style={{ background: '#fff' }} href={plansHref}>{lang === 'es' ? 'Ver planes' : 'See plans'}</a>
+              </div>
+            </>) : (<>
+            <span style={{ color: '#D6E0F2' }}>{s.alertsS}</span>
             <form className="row" onSubmit={subscribe}>
               <label className="skip" htmlFor="al-email">{s.email}</label>
               <input id="al-email" className="input" type="email" required autoComplete="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder={s.email} />
@@ -241,13 +255,14 @@ export default function Lookup({ lang, plansHref, compact = false }: { lang: Lan
                 <b>{limit.text}</b>
                 <span className="small">{lang === 'es' ? (limit.plan === 'pro' ? 'Familia vigila hasta 15 casos. $99.99 al año.' : 'Pro vigila hasta 5 casos con aviso por correo y en tu navegador. $69.99 al año (equivale a $5.83/mes).') : (limit.plan === 'pro' ? 'Family watches up to 15 cases. $99.99 a year.' : 'Pro watches up to 5 cases with email and browser alerts. $69.99 a year (just $5.83/mo).')}</span>
                 <div className="row">
-                  <button type="button" className="btn red small" disabled={paying} aria-busy={paying} onClick={async () => { setPaying(true); const ok = await checkout(limit.plan === 'pro' ? 'family' : 'pro', 'year', { lang, from: `${location.pathname}#consulta`, reason: 'case_limit' }); if (!ok) setPaying(false); }}>{paying ? '…' : lang === 'es' ? (limit.plan === 'pro' ? 'Pasar a Familia' : 'Activar Pro') : (limit.plan === 'pro' ? 'Upgrade to Family' : 'Get Pro')}</button>
+                  <button type="button" className="btn red small" disabled={paying} aria-busy={paying} onClick={() => goPro('case_limit', limit.plan === 'pro' ? 'family' : 'pro')}>{paying ? '…' : lang === 'es' ? (limit.plan === 'pro' ? 'Pasar a Familia' : 'Activar Pro') : (limit.plan === 'pro' ? 'Upgrade to Family' : 'Get Pro')}</button>
                   <a className="btn ghost small" href={plansHref}>{lang === 'es' ? 'Ver planes' : 'See plans'}</a>
                 </div>
               </div>
             )}
             {alert && <p className={alert.ok ? 'ok' : 'err'} style={{ background: '#fff', borderRadius: 10, padding: '8px 12px', margin: 0 }} role="status">{alert.text}</p>}
             <button className="btn ghost small" style={{ alignSelf: 'flex-start' }} onClick={push} type="button">{s.push}</button>
+            </>)}
             {pushMsg && <span className="small" role="status">{pushMsg}</span>}
           </div>
         </div>

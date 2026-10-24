@@ -7,15 +7,15 @@ import { createClient } from "jsr:@supabase/supabase-js@2";
 import postgres from "npm:postgres@3.4.4";
 
 const sql = postgres(Deno.env.get("SUPABASE_DB_URL")!, { prepare: false, max: 2 });
-const LIMIT_FREE = 10, LIMIT_PRO = 40;
+const LIMIT_FREE = 3, LIMIT_PRO = 40;
 const cors = { "Access-Control-Allow-Origin": "*", "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type", "Access-Control-Allow-Methods": "POST, OPTIONS" };
 const json = (b: unknown, s = 200) => new Response(JSON.stringify(b), { status: s, headers: { ...cors, "Content-Type": "application/json" } });
 
 const PRODUCT = `CÓMO SE USA CASEALERTA (para guiar a la persona):
-- Web casealerta.com: pegar el número de recibo (3 letras + 10 números, viene en el aviso I-797C) y tocar «Ver mi estatus». Consulta gratis, sin cuenta. Aviso por correo gratis para 1 caso: escribir el correo en «Avísame cuando cambie» y confirmar desde el correo.
+- Web casealerta.com: pegar el número de recibo (3 letras + 10 números, viene en el aviso I-797C) y tocar «Ver mi estatus». Consulta gratis, sin cuenta (5 recibos al día). Los avisos cuando cambia el caso son de Pro.
 - Cada estatus tiene su página explicada por formulario en casealerta.com/estatus/ (inglés: /status/). Boletín de visas en casealerta.com/boletin-de-visas/.
 - App: botón + para agregar recibos, semáforo por caso, Detalle con qué significa y qué sigue, historia, Boletín de visas con fecha de prioridad, seguimiento NVC/consulado, Ajustes para idioma y avisos.
-- Planes: Gratis (consulta y aviso por correo de 1 caso). Pro $9.99/mes o $69.99/año: globo al instante en celular y navegador, correo, hasta 5 casos y asistente con IA. Familia $14.99/mes o $99.99/año: hasta 15 casos. Empresas y despachos: tablero de peticiones, 14 días de prueba, luego $99/mes.
+- Planes: Gratis (consulta manual, 5 recibos al día, asistente básico 3 preguntas al día). Pro $9.99/mes o $69.99/año: globo al instante en celular y navegador, correo, hasta 5 casos y asistente con IA. Familia $14.99/mes o $99.99/año: hasta 15 casos. Empresas y despachos: tablero de peticiones, 14 días de prueba, luego $99/mes.
 - Sin anuncios y sin venta de datos. Abogado solo si la persona lo pide.`;
 
 const SYSTEM = (lang: string, surface: string) => `Eres el asistente de CaseAlerta, una app de VARGER Group LLC que avisa cuando cambia un caso migratorio ante USCIS y explica qué significa y qué sigue.
@@ -77,9 +77,9 @@ function cached(msg: string, c: Ctx, lang: string, surface: string) {
   const m = msg.toLowerCase();
   const ex = c.explanation;
   const name = c.focus ? (c.focus.label || c.focus.form_type || c.focus.receipt_number) : null;
-  if (/\bapp\b|aplicaci[oó]n|descarg|download|instal/.test(m)) return es ? "La app de CaseAlerta llega a App Store y Google Play. Mientras, aquí en la web consultas gratis y activas el aviso por correo de 1 caso con «Avísame cuando cambie»." : "The CaseAlerta app is coming to the App Store and Google Play. Meanwhile, check for free here and turn on the email alert for 1 case with “Alert me when it changes”.";
-  if (/avis|alert|correo|email|notific|globo|push/.test(m)) return es ? "Gratis: escribe tu correo en «Avísame cuando cambie» y te aviso por correo de 1 caso. Con Pro te llega el globo al instante en tu celular y navegador, para hasta 5 casos." : "Free: type your email in “Alert me when it changes” and I email you about 1 case. With Pro you get instant phone and browser notifications for up to 5 cases.";
-  if (/precio|cuesta|cost|price|pro\b|plan/.test(m)) return es ? "Consultar es gratis y el aviso por correo de 1 caso también. Pro: $9.99 al mes o $69.99 al año, globo al instante, hasta 5 casos y asistente con IA. Familia: $14.99 al mes, hasta 15 casos." : "Checking is free, and so is the email alert for 1 case. Pro: $9.99/month or $69.99/year, instant notifications, up to 5 cases and AI assistant. Family: $14.99/month, up to 15 cases.";
+  if (/\bapp\b|aplicaci[oó]n|descarg|download|instal/.test(m)) return es ? "La app de CaseAlerta llega a App Store y Google Play. Mientras, aquí en la web consultas tu caso gratis." : "The CaseAlerta app is coming to the App Store and Google Play. Meanwhile, check your case for free here.";
+  if (/avis|alert|correo|email|notific|globo|push/.test(m)) return es ? "Los avisos son de Pro: globo al instante en tu celular y navegador, y correo, para hasta 5 casos. Gratis puedes consultar tu caso cuando quieras." : "Alerts are part of Pro: instant phone and browser notifications plus email, for up to 5 cases. Free lets you check your case anytime.";
+  if (/precio|cuesta|cost|price|pro\b|plan/.test(m)) return es ? "Consultar es gratis. Pro: $9.99 al mes o $69.99 al año, globo al instante, hasta 5 casos y asistente con IA. Familia: $14.99 al mes, hasta 15 casos." : "Checking is free. Pro: $9.99/month or $69.99/year, instant notifications, up to 5 cases and AI assistant. Family: $14.99/month, up to 15 cases.";
   if (!c.focus) return es ? (surface === "web" ? "Pega tu número de recibo arriba (3 letras y 10 números, viene en tu aviso I-797C) y te explico tu estatus." : "Aún no tienes casos. Pega tu número de recibo con el botón + y te explico tu estatus.")
     : (surface === "web" ? "Paste your receipt number above (3 letters and 10 digits, on your I-797C notice) and I'll explain your status." : "You have no cases yet. Paste your receipt number with the + button and I'll explain your status.");
   if (/abogad|lawyer|attorney|legal/.test(m)) return es ? "No doy asesoría legal. Para decisiones sobre tu caso habla con un abogado de inmigración o un representante acreditado." : "I can't give legal advice. For decisions about your case, talk to an immigration attorney or accredited representative.";

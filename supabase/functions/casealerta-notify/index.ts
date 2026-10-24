@@ -1,7 +1,7 @@
 // CaseAlerta · YUNQUE · avisos de cambio de estatus: globo app (Expo), globo web (Web Push) y correo (Resend)
 // POST {"mode":"dispatch"} con header x-cron-key = vault.casealerta_cron_key
 // Candado de cobro (24 oct 2026): lo que se paga se entrega solo a quien paga.
-//   Gratis (persona) → solo correo y solo su primer caso. Pro → globo + correo, 5 casos. Familia → 15.
+//   Gratis (persona) → sin avisos (solo consulta manual). Pro → globo + correo, 5 casos. Familia → 15.
 //   Organización → solo con plan vigente (prueba o pagado), hasta 50 / 250 peticiones.
 import "jsr:@supabase/functions-js/edge-runtime.d.ts";
 import postgres from "npm:postgres@3.4.4";
@@ -55,7 +55,7 @@ function entitlement(ev: { org_id: string | null; plan: string | null; rank: num
   }
   if (ev.plan === "family") return { email: ev.rank < 15, push: ev.rank < 15, free: false };
   if (ev.plan === "pro") return { email: ev.rank < 5, push: ev.rank < 5, free: false };
-  return { email: ev.rank < 1, push: false, free: true }; // gratis: correo de 1 caso
+  return { email: false, push: false, free: true }; // gratis: sin avisos, los avisos son de Pro
 }
 
 async function dispatch() {

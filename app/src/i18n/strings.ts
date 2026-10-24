@@ -89,7 +89,7 @@ const es = {
   o3_push: 'Globo en el teléfono',
   o3_pushSub: 'Al instante · Pro',
   o3_email: 'Correo',
-  o3_emailSub: 'Con la explicación completa',
+  o3_emailSub: 'Con la explicación completa · Pro',
   o3_emailLabel: 'TU CORREO',
   o3_cta: 'Activar mis alertas',
   // Paywall
@@ -327,7 +327,7 @@ const en: typeof es = {
   o3_push: 'Phone notification',
   o3_pushSub: 'Instantly · Pro',
   o3_email: 'Email',
-  o3_emailSub: 'With the full explanation',
+  o3_emailSub: 'With the full explanation · Pro',
   o3_emailLabel: 'YOUR EMAIL',
   o3_cta: 'Turn on my alerts',
   p1_badge: 'STEP 1 OF 2 · PRO',

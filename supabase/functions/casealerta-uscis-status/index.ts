@@ -200,6 +200,43 @@ async function poll(limit: number) {
   return { checked, changed, errors };
 }
 
+// ── Candado de cobro: consultas manuales gratis por día (24 oct 2026) ────────────────────────
+// Gratis: 5 recibos distintos al día por persona (20 por IP). Repetir el mismo recibo o consultar uno propio guardado no cuenta.
+// Pro, Familia y organizaciones con plan: sin tope. Recibos de prueba de USCIS (demo) nunca cuentan.
+const FREE_PER_USER = 5, FREE_PER_IP = 20;
+function jwtSub(req: Request): string | null {
+  try {
+    const t = (req.headers.get("Authorization") ?? "").replace(/^Bearer\s+/i, "").split(".")[1];
+    const p = JSON.parse(atob(t.replace(/-/g, "+").replace(/_/g, "/").padEnd(Math.ceil(t.length / 4) * 4, "=")));
+    return typeof p.sub === "string" && /^[0-9a-f-]{36}$/i.test(p.sub) ? p.sub : null;
+  } catch { return null; }
+}
+async function lookupGate(req: Request, receipt: string) {
+  if (STAGING.includes(receipt) || NOT_FOUND.includes(receipt)) return null;
+  if (await isTrusted(req)) return null;
+  const uid = jwtSub(req);
+  const ip = (req.headers.get("x-forwarded-for") ?? "").split(",")[0].trim() || null;
+  if (uid) {
+    const [{ paid }] = await sql`select (casealerta.active_plan(${uid}) is not null)
+      or exists (select 1 from casealerta.org_members m where m.owner_id = ${uid} and casealerta.org_plan(m.org_id) is not null)
+      or exists (select 1 from casealerta.orgs o where o.owner_id = ${uid} and casealerta.org_plan(o.id) is not null) as paid`;
+    if (paid) return null;
+    const own = await sql`select 1 from casealerta.cases where owner_id = ${uid} and receipt_number = ${receipt} limit 1`;
+    if (own.length) return null;
+  }
+  const [{ byUser, byIp }] = await sql`select
+      count(distinct receipt_number) filter (where ${uid}::uuid is not null and owner_id = ${uid}::uuid)::int as "byUser",
+      count(distinct receipt_number) filter (where ${ip}::text is not null and ip = ${ip}::text)::int as "byIp"
+    from casealerta.lookup_log where at > now() - interval '1 day' and receipt_number <> ${receipt}`;
+  if (byUser >= FREE_PER_USER || byIp >= FREE_PER_IP) {
+    return { code: "lookup_limit", limit: FREE_PER_USER,
+      message: "Free checks for today are used up (5 receipts). With Pro you check without limits and get instant alerts.",
+      message_es: "Ya usaste las consultas gratis de hoy (5 recibos). Con Pro consultas sin límite y te avisamos al instante." };
+  }
+  await sql`insert into casealerta.lookup_log (owner_id, ip, receipt_number) values (${uid}, ${ip}, ${receipt})`;
+  return null;
+}
+
 async function isTrusted(req: Request) {
   const auth = req.headers.get("Authorization") ?? "";
   const cronKey = req.headers.get("x-cron-key");
@@ -226,6 +263,8 @@ Deno.serve(async (req) => {
     if (!RECEIPT_RE.test(receipt)) {
       return json({ code: "invalid_receipt", message: FRIENDLY["400"].en, message_es: FRIENDLY["400"].es }, 400);
     }
+    const gate = await lookupGate(req, receipt);
+    if (gate) return json(gate, 402);
     let res: Lookup;
     try { res = await lookup(receipt); }
     catch (e: any) {
