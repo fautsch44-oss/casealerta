@@ -22,7 +22,11 @@ export function initAnalytics() {
     try {
       if (Platform.OS === 'web' || !POSTHOG_KEY) return null;
       const { PostHog } = await import('posthog-react-native');
-      client = new PostHog(POSTHOG_KEY, { host: POSTHOG_HOST, captureAppLifecycleEvents: true });
+      // Registro de errores (reemplaza a Sentry): excepciones no atrapadas, promesas rechazadas y console.error van a PostHog Error Tracking.
+      client = new PostHog(POSTHOG_KEY, {
+        host: POSTHOG_HOST, captureAppLifecycleEvents: true,
+        errorTracking: { autocapture: { uncaughtExceptions: true, unhandledRejections: true, console: ['error'] } },
+      });
       client.register(base());
       return client;
     } catch { client = null; return null; }
@@ -35,6 +39,15 @@ export function track(event: string, props: Props = {}) {
     const p = { ...base(), ...props };
     if (client) client.capture(event, p);
     else initAnalytics().then((c) => { try { c?.capture(event, p); } catch {} });
+  } catch {}
+}
+
+/** Error atrapado a mano (pantalla rota, falla de red importante). Nunca rompe la app. */
+export function captureError(error: unknown, where: string, props: Props = {}) {
+  try {
+    const p = { ...base(), where, ...props };
+    if (client) client.captureException(error, p);
+    else initAnalytics().then((c) => { try { c?.captureException(error, p); } catch {} });
   } catch {}
 }
 

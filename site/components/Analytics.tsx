@@ -10,7 +10,7 @@ let started = false;
 function start(lang: string) {
   if (started || typeof window === 'undefined') return;
   try {
-    posthog.init(KEY, { api_host: 'https://us.i.posthog.com', capture_pageview: true, autocapture: true, persistence: 'localStorage+cookie' });
+    posthog.init(KEY, { api_host: 'https://us.i.posthog.com', capture_pageview: true, autocapture: true, persistence: 'localStorage+cookie', capture_exceptions: true });
     posthog.register({ app: 'casealerta', platform: 'web', lang });
     started = true;
   } catch { /* la analítica nunca rompe la web */ }
