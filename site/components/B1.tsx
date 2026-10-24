@@ -2,8 +2,10 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import type { Kind, Lang } from '@/lib/types';
 import { fn, sb, session } from '@/lib/sb';
+import { PLAN_NAME, PORTAL, checkout, mySubs, type MySub } from '@/lib/billing';
+import { track } from './Analytics';
 
-type Org = { id: string; name: string };
+type Org = { id: string; name: string; kind: 'employer' | 'law_firm' };
 type Row = { id: string; receipt_number: string; form_type: string | null; beneficiary_name: string | null; program: string | null; last_status_text: string | null; last_changed_at: string | null; created_at: string };
 type Cat = { statuses: { code: string; kind: Kind; title: string }[] };
 type Bucket = 'act' | 'changed' | 'approved' | 'waiting';
@@ -33,6 +35,8 @@ const T = {
     workers: 'TRABAJADORES', all: 'Todos', searchPh: 'Buscar', sendsTo: (n: number) => `${n} ${n === 1 ? 'persona recibe' : 'personas reciben'} un correo en menos de 5 minutos`, noAds: 'Sin anuncios · sin compartir datos', manage: 'Administrar equipo',
     startT: 'Crea tu tablero', startS: 'Escribe el nombre de tu empresa o despacho. Luego pega tus números de recibo.', company: 'Nombre de la empresa', kind: 'Tipo', employer: 'Empleador', firm: 'Despacho de abogados', create: 'Crear tablero',
     impT: 'Pega tus recibos', impS: 'Uno por línea: recibo, nombre del trabajador, programa (opcional). Hasta 50 por vez.', impGo: 'Importar', importing: (a: number, b: number) => `Consultando a USCIS… ${a} de ${b}`, impDone: (n: number, e: number) => `Listo: ${n} importados${e ? `, ${e} con error` : ''}.`, cancel: 'Cerrar',
+    payT: 'Activa tu prueba de 14 días', payS: (y: boolean) => `$0 hoy. Luego $99 al mes${y ? ' (o $990 al año)' : ''}. Cancela cuando quieras desde tu portal.`, payGo: 'Empezar prueba gratis', payYear: 'Prefiero pagar anual: $990', opening: 'Abriendo pago seguro…', payErr: 'No pudimos abrir el pago. Intenta de nuevo.',
+    planOn: (p: string, d: string | null) => d ? `Plan ${p} · prueba hasta el ${d}` : `Plan ${p} activo`, manageBill: 'Administrar pago',
     empty: 'Aún no hay peticiones. Toca «Importar recibos» para empezar.', day: (n: number) => `día ${n}`, trial: 'Prueba de 14 días · luego $99/mes',
     note: 'Datos oficiales de USCIS. Explicaciones con IA, no es asesoría legal.', waitingDay: (n: number) => `En espera · día ${n}`, changedOn: 'Cambió', approvedOn: 'Aprobada',
   },
@@ -43,6 +47,8 @@ const T = {
     workers: 'WORKERS', all: 'All', searchPh: 'Search', sendsTo: (n: number) => `${n} ${n === 1 ? 'person gets' : 'people get'} an email in under 5 minutes`, noAds: 'No ads · no data sharing', manage: 'Manage team',
     startT: 'Create your dashboard', startS: 'Type your company or law firm name. Then paste your receipt numbers.', company: 'Company name', kind: 'Type', employer: 'Employer', firm: 'Law firm', create: 'Create dashboard',
     impT: 'Paste your receipts', impS: 'One per line: receipt, worker name, program (optional). Up to 50 at a time.', impGo: 'Import', importing: (a: number, b: number) => `Checking with USCIS… ${a} of ${b}`, impDone: (n: number, e: number) => `Done: ${n} imported${e ? `, ${e} with errors` : ''}.`, cancel: 'Close',
+    payT: 'Start your 14-day trial', payS: (y: boolean) => `$0 today. Then $99 a month${y ? ' (or $990 a year)' : ''}. Cancel anytime from your portal.`, payGo: 'Start free trial', payYear: 'I prefer yearly: $990', opening: 'Opening secure checkout…', payErr: 'We could not open checkout. Try again.',
+    planOn: (p: string, d: string | null) => d ? `${p} plan · trial until ${d}` : `${p} plan active`, manageBill: 'Manage billing',
     empty: 'No petitions yet. Tap “Import receipts” to start.', day: (n: number) => `day ${n}`, trial: '14-day trial · then $99/mo',
     note: 'Official USCIS data. AI-assisted explanations, not legal advice.', waitingDay: (n: number) => `Waiting · day ${n}`, changedOn: 'Changed', approvedOn: 'Approved',
   },
@@ -65,10 +71,13 @@ export default function B1({ lang }: { lang: Lang }) {
   const [name, setName] = useState('');
   const [kind, setKind] = useState<'employer' | 'law_firm'>('employer');
   const [team, setTeam] = useState(1);
+  const [sub, setSub] = useState<MySub | null>(null);
+  const [paying, setPaying] = useState(false);
+  const [payErr, setPayErr] = useState<string | null>(null);
 
   const load = useCallback(async () => {
     const s = await session();
-    const { data: orgs } = await sb().from('orgs').select('id,name').order('created_at').limit(1);
+    const { data: orgs } = await sb().from('orgs').select('id,name,kind').order('created_at').limit(1);
     const o = (orgs?.[0] as Org | undefined) ?? null;
     setOrg(o);
     if (o) {
@@ -76,6 +85,7 @@ export default function B1({ lang }: { lang: Lang }) {
       setRows((data as Row[]) ?? []);
       const { count } = await sb().from('org_members').select('owner_id', { count: 'exact', head: true }).eq('org_id', o.id).eq('receives_alerts', true);
       setTeam(Math.max(1, count ?? 1));
+      setSub((await mySubs(o.id))[0] ?? null);
     }
     void s;
     setLoading(false);
@@ -84,8 +94,11 @@ export default function B1({ lang }: { lang: Lang }) {
   useEffect(() => {
     load().catch(() => setLoading(false));
     fetch(`/catalog-${lang}.json`).then((r) => r.json()).then(setCat).catch(() => null);
+    const reset = () => setPaying(false);
+    window.addEventListener('pageshow', reset);
     const pre = new URLSearchParams(location.search).get('empresa');
     if (pre) setName(pre.replace(/-[a-z]{2}$/, '').replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase()));
+    return () => window.removeEventListener('pageshow', reset);
   }, [load, lang]);
 
   const kindOf = useCallback((txt: string | null): Kind => cat.statuses.find((s) => s.code.toLowerCase() === (txt ?? '').toLowerCase())?.kind ?? 'ok', [cat]);
@@ -117,7 +130,7 @@ export default function B1({ lang }: { lang: Lang }) {
   async function createOrg(e: React.FormEvent) {
     e.preventDefault();
     const s = await session();
-    const { data, error } = await sb().from('orgs').insert({ owner_id: s.user.id, name: name.trim().slice(0, 120), kind }).select('id,name').single();
+    const { data, error } = await sb().from('orgs').insert({ owner_id: s.user.id, name: name.trim().slice(0, 120), kind }).select('id,name,kind').single();
     if (!error && data) { setOrg(data as Org); setShowImp(true); }
   }
 
@@ -152,6 +165,27 @@ export default function B1({ lang }: { lang: Lang }) {
     const url = URL.createObjectURL(new Blob([csv], { type: 'text/csv' }));
     const aEl = document.createElement('a'); aEl.href = url; aEl.download = 'casealerta-peticiones.csv'; aEl.click(); URL.revokeObjectURL(url);
   }
+
+  const planKey = org?.kind === 'law_firm' ? 'law_firm' as const : 'employer' as const;
+  async function startTrial(interval: 'month' | 'year') {
+    if (!org || paying) return;
+    setPayErr(null); setPaying(true);
+    const ok = await checkout(planKey, interval, { lang, from: location.pathname, orgId: org.id, reason: 'b2b_dashboard' });
+    if (!ok) { setPaying(false); setPayErr(t.payErr); }
+  }
+  const trialDate = sub?.trial_ends_at ? new Date(sub.trial_ends_at).toLocaleDateString(lang === 'es' ? 'es-MX' : 'en-US', { day: 'numeric', month: 'long' }) : null;
+  const payBar = org && !sub ? (
+    <div id="pago" className="trialBar" role="region" aria-label={t.billing}>
+      <span className="ic" style={{ width: 44, height: 44, minWidth: 44, background: 'var(--gold)', color: 'var(--navy)' }}>{ic.bill}</span>
+      <span style={{ display: 'flex', flexDirection: 'column', flex: '1 1 240px' }}><b style={{ fontSize: 17 }}>{t.payT}</b><span className="small">{t.payS(planKey === 'employer')}</span></span>
+      <span className="row" style={{ gap: 8 }}>
+        <button type="button" className="btn red small" disabled={paying} aria-busy={paying} onClick={() => startTrial('month')}>{paying ? t.opening : t.payGo}</button>
+        {planKey === 'employer' && <button type="button" className="btn ghost small" disabled={paying} onClick={() => startTrial('year')}>{t.payYear}</button>}
+      </span>
+      {payErr && <span className="err" role="alert" style={{ width: '100%' }}>{payErr}</span>}
+    </div>
+  ) : null;
+  useEffect(() => { if (payBar && rows.length > 0) track('paywall_viewed', { reason: 'b2b_dashboard', rows: rows.length }); }, [!!payBar, rows.length > 0]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const kpi = [
     { k: 'act' as const, n: counts.act, label: t.evidence, icon: ic.alert, fg: '#C8102E', bg: '#FCE8EB', dot: '#C8102E' },
@@ -196,6 +230,7 @@ export default function B1({ lang }: { lang: Lang }) {
           </form>
         ) : (
           <>
+            {rows.length > 0 && payBar}
             <div className="row" style={{ alignItems: 'stretch', gap: 16 }}>
               <div className="tile" style={{ flex: '1 1 300px', flexDirection: 'row', alignItems: 'center', gap: 22 }}>
                 <div className="ring" style={{ width: 150, height: 150, minWidth: 150, borderRadius: 75, background: donut }}><div style={{ width: 104, height: 104, borderRadius: 52 }}><span style={{ fontSize: 34, fontWeight: 800, lineHeight: 1 }}>{total}</span><span className="ringSmall">{t.of(50)}</span></div></div>
@@ -236,8 +271,11 @@ export default function B1({ lang }: { lang: Lang }) {
               <span className="ic" style={{ width: 44, height: 44, minWidth: 44, background: '#E6EEFA', color: 'var(--blue)' }}>{ic.mail}</span>
               <b style={{ fontSize: 14 }}>{t.sendsTo(team)}</b>
               <span className="chip" style={{ display: 'inline-flex', gap: 6, alignItems: 'center' }}>{ic.shield}{t.noAds}</span>
-              <span id="pago" className="muted small" style={{ marginLeft: 'auto' }}>{t.trial}</span>
+              {sub
+                ? <span className="row" style={{ marginLeft: 'auto', gap: 8 }}><span id="pago" className="pill g">{t.planOn(PLAN_NAME[lang][sub.plan] ?? sub.plan, sub.status === 'trialing' ? trialDate : null)}</span><a className="btn ghost small" href={PORTAL} target="_blank" rel="noopener">{t.manageBill}</a></span>
+                : <span className="muted small" style={{ marginLeft: 'auto' }}>{t.trial}</span>}
             </div>
+            {rows.length === 0 && payBar}
             <p className="muted small">{t.note}</p>
           </>
         )}

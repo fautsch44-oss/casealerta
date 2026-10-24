@@ -7,6 +7,7 @@ import { KIND_COLOR, KIND_LABEL, VAPID_PUBLIC } from '@/lib/i18n';
 import { fn, sb, session, store } from '@/lib/sb';
 import type { WebCase } from './Guest';
 import Guest from './Guest';
+import { checkout } from '@/lib/billing';
 
 type Cat = {
   statuses: { code: string; kind: Kind; stage: string; title: string; meaning: string; next: string[]; path: string; slug: string }[];
@@ -72,13 +73,18 @@ export default function Lookup({ lang, plansHref, compact = false }: { lang: Lan
   const [banner, setBanner] = useState<string | null>(null);
   const [slot, setSlot] = useState<HTMLElement | null>(null);
   const [specific, setSpecific] = useState<string | null>(null);
+  const [limit, setLimit] = useState<{ text: string; plan: string } | null>(null);
+  const [paying, setPaying] = useState(false);
 
   useEffect(() => {
     setRecent(store.get<string[]>('ca-recent', []));
     setSlot(document.getElementById('lookup-slot'));
     fetch(`/catalog-${lang}.json`).then((r) => r.json()).then(setCat).catch(() => null);
+    const reset = () => setPaying(false);
+    window.addEventListener('pageshow', reset);
     const q = new URLSearchParams(location.search).get('alertas');
     if (q === 'ok') setBanner(s.confirmed); else if (q === 'off') setBanner(s.off);
+    return () => window.removeEventListener('pageshow', reset);
   }, [s.confirmed, s.off, lang]);
 
   const st = useMemo(() => (c?.status_en ? cat.statuses.find((x) => x.code.toLowerCase() === c.status_en!.toLowerCase()) : undefined), [c, cat]);
@@ -109,9 +115,14 @@ export default function Lookup({ lang, plansHref, compact = false }: { lang: Lan
   async function subscribe(e: React.FormEvent) {
     e.preventDefault();
     if (!c || sending) return;
-    setAlert(null); setSending(true);
+    setAlert(null); setLimit(null); setSending(true);
     try {
       const { status, data } = await fn('casealerta-web-alerts', { action: 'subscribe', email, lang, case: c });
+      if (status === 402 && data?.code === 'plan_limit') {
+        setLimit({ text: data.message ?? s.alertsErr, plan: data.plan ?? 'free' });
+        track('paywall_viewed', { reason: 'case_limit', plan: data.plan ?? 'free', used: data.used ?? null });
+        return;
+      }
       const ok = status < 400 && data.ok;
       setAlert(ok ? { ok: true, text: s.alertsOk } : { ok: false, text: data?.message ?? s.alertsErr });
       track(ok ? 'alert_subscribed' : 'error_shown', ok ? { channel: 'email' } : { where: 'alert_subscribe', code: String(status) });
@@ -219,6 +230,16 @@ export default function Lookup({ lang, plansHref, compact = false }: { lang: Lan
               <button className="btn red" type="submit" disabled={sending} aria-busy={sending}>{sending ? '…' : s.alertsGo}</button>
             </form>
             <span className="small" style={{ color: '#D6E0F2' }}>{s.consent}</span>
+            {limit && (
+              <div className="upsell2" role="status">
+                <b>{limit.text}</b>
+                <span className="small">{lang === 'es' ? (limit.plan === 'pro' ? 'Familia vigila hasta 15 casos. $99.99 al año.' : 'Pro vigila hasta 5 casos con aviso por correo y en tu navegador. $69.99 al año (equivale a $5.83/mes).') : (limit.plan === 'pro' ? 'Family watches up to 15 cases. $99.99 a year.' : 'Pro watches up to 5 cases with email and browser alerts. $69.99 a year (just $5.83/mo).')}</span>
+                <div className="row">
+                  <button type="button" className="btn red small" disabled={paying} aria-busy={paying} onClick={async () => { setPaying(true); const ok = await checkout(limit.plan === 'pro' ? 'family' : 'pro', 'year', { lang, from: `${location.pathname}#consulta`, reason: 'case_limit' }); if (!ok) setPaying(false); }}>{paying ? '…' : lang === 'es' ? (limit.plan === 'pro' ? 'Pasar a Familia' : 'Activar Pro') : (limit.plan === 'pro' ? 'Upgrade to Family' : 'Get Pro')}</button>
+                  <a className="btn ghost small" href={plansHref}>{lang === 'es' ? 'Ver planes' : 'See plans'}</a>
+                </div>
+              </div>
+            )}
             {alert && <p className={alert.ok ? 'ok' : 'err'} style={{ background: '#fff', borderRadius: 10, padding: '8px 12px', margin: 0 }} role="status">{alert.text}</p>}
             <button className="btn ghost small" style={{ alignSelf: 'flex-start' }} onClick={push} type="button">{s.push}</button>
             {pushMsg && <span className="small" role="status">{pushMsg}</span>}

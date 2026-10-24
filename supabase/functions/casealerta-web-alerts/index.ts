@@ -72,6 +72,14 @@ async function subscribe(req: Request) {
   const existing = await sql`select id from casealerta.cases where owner_id = ${uid} and receipt_number = ${receipt} limit 1`;
   let caseId = existing[0]?.id;
   if (!caseId) {
+    // Límite por plan (plan maestro §4.1): Gratis 1 caso · Pro 5 · Familia 15. El plan sale de casealerta.subscriptions (Stripe o RevenueCat).
+    const [{ plan }] = await sql`select casealerta.active_plan(${uid}) as plan`;
+    const limit = plan === "family" ? 15 : plan === "pro" ? 5 : 1;
+    const [{ used }] = await sql`select count(*)::int used from casealerta.cases where owner_id = ${uid} and org_id is null and coalesce(active, true)`;
+    if (used >= limit) {
+      return json({ code: "plan_limit", plan: plan ?? "free", limit, used,
+        message: lang === "es" ? `Tu plan ${plan ? (plan === "family" ? "Familia" : "Pro") : "gratis"} vigila ${limit} ${limit === 1 ? "caso" : "casos"}. Sube de plan para vigilar este también.` : `Your ${plan ? (plan === "family" ? "Family" : "Pro") : "free"} plan watches ${limit} ${limit === 1 ? "case" : "cases"}. Upgrade to watch this one too.` }, 402);
+    }
     const mod = usDate(c.modified);
     const ins = await sql`insert into casealerta.cases (owner_id, receipt_number, form_type, last_status_code, last_status_text, last_status_date, received_date, last_checked_at, last_changed_at)
       values (${uid}, ${receipt}, ${c.form_type ?? null}, ${status}, ${status}, ${mod}, ${usDate(c.submitted)}, now(), ${mod ? `${mod}T12:00:00Z` : new Date().toISOString()})
@@ -96,6 +104,7 @@ async function subscribe(req: Request) {
     body: JSON.stringify({ from: FROM, to: email, subject: lang === "es" ? "Confirma tus avisos de CaseAlerta" : "Confirm your CaseAlerta alerts",
       html: confirmHtml(lang, receipt, `${FN}?confirm=${row.token}`) }),
   });
+  if (!r.ok) console.error("resend", r.status, await r.text());
   return json({ ok: true, case_id: caseId, email_sent: r.ok });
 }
 
@@ -116,7 +125,7 @@ async function confirm(token: string) {
     await sql`update casealerta.web_alert_signups set confirmed_at = now(), merged_into = ${to} where token = ${token}`;
   } else {
     const { error } = await admin.auth.admin.updateUserById(s.owner_id, { email: s.email, email_confirm: true });
-    if (error) return redirect(`${home}?alertas=error`);
+    if (error) { console.error(error); return redirect(`${home}?alertas=error`); }
     await sql`update casealerta.web_alert_signups set confirmed_at = now() where token = ${token}`;
   }
   return redirect(`${home}?alertas=ok`);

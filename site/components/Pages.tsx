@@ -8,6 +8,7 @@ import {
 import { Shell, crumbs } from './Shell';
 import { Bell, Doc, KindBadge, KindIcon, Shield, Spark } from './Icons';
 import Lookup from './Lookup';
+import Plans from './Plans';
 import { NewsCards } from './News';
 
 const L = {
@@ -245,16 +246,11 @@ export function Home({ lang }: { lang: Lang }) {
   const how = es
     ? ['Pega tu número de recibo (viene en tu aviso I-797C).', 'Te mostramos el estatus oficial y qué significa para tu formulario.', 'Activa el aviso: te escribimos solo cuando cambie.', 'Pregúntale al asistente lo que no entiendas.']
     : ['Paste your receipt number (on your I-797C notice).', 'See the official status and what it means for your form.', 'Turn on alerts: we only write when it changes.', 'Ask the assistant anything you do not understand.'];
-  const plans = [
-    { n: es ? 'Gratis' : 'Free', pr: '$0', d: es ? ['Consulta tu caso en la web', 'Explicación por formulario', 'Aviso por correo de 1 caso', 'Asistente con respuestas base'] : ['Check your case on the web', 'Explanation by form', 'Email alert for 1 case', 'Assistant with base answers'] },
-    { n: 'Pro', pr: es ? '$9.99/mes' : '$9.99/mo', s: es ? 'o $69.99 al año' : 'or $69.99/year', d: es ? ['Avisos al instante en la app', 'Hasta 5 casos', 'Historia y boletín de visas', 'Asistente con IA'] : ['Instant alerts in the app', 'Up to 5 cases', 'History and visa bulletin', 'AI assistant'], hl: true },
-    { n: es ? 'Familia' : 'Family', pr: es ? '$14.99/mes' : '$14.99/mo', s: es ? 'o $99.99 al año' : 'or $99.99/year', d: es ? ['Todo Pro', 'Hasta 15 casos', '3 dispositivos'] : ['Everything in Pro', 'Up to 15 cases', '3 devices'] },
-  ];
   const jsonld = {
     '@context': 'https://schema.org',
     '@graph': [
       { '@type': 'WebSite', name: 'CaseAlerta', url: 'https://casealerta.com', inLanguage: lang, publisher: { '@type': 'Organization', name: 'VARGER Group LLC', url: 'https://casealerta.com', logo: 'https://casealerta.com/sello.png' } },
-      { '@type': 'SoftwareApplication', name: 'CaseAlerta', applicationCategory: 'UtilitiesApplication', operatingSystem: 'Web, Android, iOS', offers: [{ '@type': 'Offer', price: '0', priceCurrency: 'USD' }, { '@type': 'Offer', price: '9.99', priceCurrency: 'USD', name: 'Pro' }] },
+      { '@type': 'SoftwareApplication', name: 'CaseAlerta', applicationCategory: 'UtilitiesApplication', operatingSystem: 'Web, Android, iOS', offers: [{ '@type': 'Offer', price: '0', priceCurrency: 'USD', name: es ? 'Gratis' : 'Free' }, { '@type': 'Offer', price: '9.99', priceCurrency: 'USD', name: 'Pro' }, { '@type': 'Offer', price: '69.99', priceCurrency: 'USD', name: es ? 'Pro anual' : 'Pro yearly' }, { '@type': 'Offer', price: '14.99', priceCurrency: 'USD', name: es ? 'Familia' : 'Family' }] },
     ],
   };
   return (
@@ -280,11 +276,9 @@ export function Home({ lang }: { lang: Lang }) {
           <Link className="btn" href={p.bulletin}>{es ? 'Ver boletín' : 'See bulletin'}</Link></div></section>
         <section className="sec" id="app"><div className="card ctaBox" style={{ alignItems: 'center' }}>
           <span className="ic" style={{ width: 64, height: 64, background: '#FCE8EB', color: 'var(--red)' }}><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2" /><path d="M11 18h2" /></svg></span>
-          <div style={{ flex: '1 1 300px' }}><b style={{ fontSize: 20 }}>{es ? 'La app de CaseAlerta' : 'The CaseAlerta app'}</b><br /><span className="muted">{es ? 'Globo al instante en tu celular, tus casos en un solo lugar y el boletín de visas con tu fecha. Llega a App Store y Google Play en los próximos días.' : 'Instant phone notifications, all your cases in one place and the visa bulletin with your date. Coming to the App Store and Google Play in the next few days.'}</span></div>
+          <div style={{ flex: '1 1 300px' }}><b style={{ fontSize: 20 }}>{es ? 'La app de CaseAlerta' : 'The CaseAlerta app'}</b><br /><span className="muted">{es ? 'Globo al instante en tu celular, tus casos en un solo lugar y el boletín de visas con tu fecha. Muy pronto en App Store y Google Play.' : 'Instant phone notifications, all your cases in one place and the visa bulletin with your date. Coming soon to the App Store and Google Play.'}</span></div>
           <a className="btn red" href="#consulta">{es ? 'Mientras, activa tus avisos aquí' : 'Meanwhile, turn on alerts here'}</a></div></section>
-        <section className="sec" id="planes"><h2>{es ? 'Planes' : 'Plans'}</h2>
-          <div className="price">{plans.map((x) => <div key={x.n} className={`card${x.hl ? ' hl' : ''}`}><b style={{ fontSize: 18 }}>{x.n}</b><div><b className="p">{x.pr}</b> {x.s && <span className="muted small">{x.s}</span>}</div><ul className="bul" style={{ marginTop: 10 }}>{x.d.map((d) => <li key={d}>{d}</li>)}</ul></div>)}</div>
-          <p className="muted small">{es ? 'Los planes Pro y Familia se contratan dentro de la app (Android en pruebas, iPhone muy pronto). Sin anuncios en ningún plan.' : 'Pro and Family are purchased in the app (Android in testing, iPhone very soon). No ads on any plan.'}</p></section>
+        <Plans lang={lang} />
         {NEWS.length > 0 && <section className="sec"><h2>{t.nav_news}</h2><NewsCards lang={lang} items={NEWS.slice(0, 3)} /><p><Link href={p.news}>{es ? 'Ver todas las noticias y guías →' : 'See all news and guides →'}</Link></p></section>}
       </main>
     </Shell>
