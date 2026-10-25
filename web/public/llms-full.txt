@@ -1,5 +1,61 @@
 # CaseAlerta — full reference
 
+## OPT for F-1 students: DHS proposes a $70,000 fee (not in effect yet; comments due November 9)
+Date: 2026-10-25 · URL: https://casealerta.com/en/news/proposed-opt-fee-70000-f1-students-comments-november-9-2026/
+
+On October 8, 2026, the Department of Homeland Security (DHS), through ICE, published a proposed rule in the Federal Register called "Optional Practical Training Fees."
+OPT (Optional Practical Training) lets F-1 students work in their field of study.
+## What it proposes, in plain words
+- $70,000 per student the first time the school recommends OPT (before or after graduation).
+- $30,000 for each later OPT recommendation, including the STEM OPT extension.
+- The SEVP-certified school pays. The proposal does not stop the school from passing the cost to the student or employer.
+- Payment would be due before the DSO (school official) enters the recommendation in SEVIS. Without payment, USCIS would not grant work authorization.
+## Most important: it does not apply yet
+- This is a proposal. It is not a final rule.
+- Per the text, the fee would apply only to recommendations dated on or after the final rule's effective date, proposed as 60 days after the final rule is published.
+- You do not have to pay anything new for your OPT today.
+## Key dates
+- Public comments: through November 9, 2026, at regulations.gov, docket ICEB-2026-0100.
+- Comments on the information collection (Paperwork Reduction Act): through December 7, 2026.
+- DHS will not consider comments sent by email, letter or hand delivery. Use the portal only.
+## What to do
+- Do not cancel or rush your OPT application out of fear. Talk to your school's DSO first.
+- If you want to weigh in, comment at regulations.gov using ICEB-2026-0100 before November 9, 2026.
+- If you already filed your Form I-765 for OPT, track it with your receipt number. CaseAlerta alerts you when it changes.
+- Watch the Federal Register for a final rule and its effective date.
+This is general information, not legal advice. For your case, talk to an immigration attorney or your school's DSO.
+
+Sources: https://www.federalregister.gov/documents/2026/10/08/2026-20660/optional-practical-training-fees; https://iso.mit.edu/news/dhs-proposed-rule-to-establish-new-f-1-optional-practical-training-fees/
+
+## USCIS Form I-797C (Notice of Action): what it means and what to do when you get one
+Date: 2026-10-25 · URL: https://casealerta.com/en/news/form-i-797c-notice-of-action-what-it-means/
+
+Form I-797C, Notice of Action, is a letter USCIS mails you to tell you something about your request.
+## What USCIS uses it for
+- Receipt: confirms USCIS received your request.
+- Rejection: your package was not accepted (for example, missing fee or signature).
+- Transfer: your case moved to another office.
+- Reopening: USCIS reopened your case.
+- Appointments: fingerprints or biometrics, interview, or a rescheduled appointment.
+## What Form I-797C is NOT
+- It is not an approval. USCIS says it is "only a receipt" proving you submitted your request.
+- It does not give you status or a benefit. USCIS has not yet decided if you qualify.
+- Some state, local, public or private agencies may accept it as supporting evidence for their own benefits.
+## How to read it fast
+- Look at the top for the notice type (for example, "Receipt Notice" or "Appointment Notice").
+- Copy your receipt number: 3 letters and 10 digits. You use it to track your case.
+- If it is an appointment, check the date, time and center address.
+- If it is a rejection, read the reason before you file again.
+## What to do
+- Read and follow the instructions. USCIS warns that ignoring them might delay your case.
+- Keep the original in a safe place and a digital copy. Older notices on sealed bond paper remain valid too.
+- Add your receipt number to CaseAlerta to get an alert when your status changes.
+- If you move, update your address with USCIS so you do not miss the next notice.
+- To see how long your case may take, check USCIS's official processing times. They are ranges, not exact dates.
+This is general information, not legal advice.
+
+Sources: https://www.uscis.gov/forms/all-forms/form-i-797c-notice-of-action; https://egov.uscis.gov/processing-times/
+
 ## Ukraine and Sudan TPS after October 19, 2026: work permits remain valid for now
 Date: 2026-10-24 · URL: https://casealerta.com/en/news/ukraine-sudan-tps-work-permit-after-october-19-2026/
 

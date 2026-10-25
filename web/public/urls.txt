@@ -53,6 +53,8 @@ https://casealerta.com/status/expedite-request-received/
 https://casealerta.com/status/withdrawal-acknowledgement-notice-was-sent/
 https://casealerta.com/status/name-was-updated/
 https://casealerta.com/noticias/
+https://casealerta.com/noticias/propuesta-tarifa-opt-70000-estudiantes-f1-comentarios-9-noviembre-2026/
+https://casealerta.com/noticias/formulario-i-797c-aviso-de-accion-que-significa/
 https://casealerta.com/noticias/tps-ucrania-sudan-permiso-de-trabajo-despues-19-octubre-2026/
 https://casealerta.com/noticias/boletin-de-visas-noviembre-2026/
 https://casealerta.com/noticias/uscis-sube-tarifas-permiso-de-trabajo-tps-asilo-parole-octubre-2026/
@@ -65,6 +67,8 @@ https://casealerta.com/noticias/fin-extension-automatica-permiso-de-trabajo-ead/
 https://casealerta.com/noticias/uscis-propone-quitar-deferencia-en-extensiones/
 https://casealerta.com/noticias/boletin-de-visas-octubre-2026/
 https://casealerta.com/en/news/
+https://casealerta.com/en/news/proposed-opt-fee-70000-f1-students-comments-november-9-2026/
+https://casealerta.com/en/news/form-i-797c-notice-of-action-what-it-means/
 https://casealerta.com/en/news/ukraine-sudan-tps-work-permit-after-october-19-2026/
 https://casealerta.com/en/news/visa-bulletin-november-2026/
 https://casealerta.com/en/news/uscis-fee-increase-work-permit-tps-asylum-parole-october-2026/
