@@ -1,5 +1,39 @@
 # CaseAlerta — full reference
 
+## USCIS biometrics (fingerprint) appointment: what to bring, what happens and how to reschedule
+Date: 2026-10-26 · URL: https://casealerta.com/en/news/uscis-biometrics-appointment-what-to-bring-and-how-to-reschedule/
+
+After you file, USCIS may need your fingerprints, photo and signature. This is called a biometrics appointment. It happens at an Application Support Center (ASC).
+The date, time and address are on a Form I-797C notice that USCIS mails you.
+## What to bring
+- Your appointment notice (I-797C). If you got more than one, bring them all.
+- A valid photo ID, such as a Green Card, passport or driver's license.
+- A printed or saved copy of the application you filed. USCIS cannot give you a copy at the appointment.
+- An interpreter if you don't understand spoken English, such as a family member. Your attorney does not need to come.
+## What happens at the appointment
+- Staff take your fingerprints, photo and, for some forms, a digital signature.
+- With that signature you confirm that what you filed was complete and true.
+- USCIS uses biometrics to confirm your identity and run background checks.
+- If you applied for a work permit (I-765) or Green Card replacement (I-90), they are also used to print your card.
+- Your name and personal details cannot be changed at the appointment.
+- Applicants 14 and older must sign. A parent or legal guardian may sign for a younger child.
+## How to reschedule
+- Call the USCIS Contact Center: 800-375-5283 (TTY 800-767-1833). Help is available in English and Spanish.
+- Call before the date and time of your original appointment.
+- You must show a good reason. If you are sick, follow these same steps.
+- If you miss it without rescheduling in time, USCIS may treat your case as abandoned and deny it.
+- If a medical condition keeps you at home, see the section for people with disabilities on your notice.
+## What to do
+- Check your I-797C today and write down the date, time and address.
+- Get your ID, the notice and your application copy ready the night before.
+- If you can't go, call USCIS before the appointment to reschedule.
+- If you moved, update your address with USCIS so you don't miss notices.
+- Add your receipt number in CaseAlerta to know when your status changes after the appointment.
+- To see how long the next step may take, check the official USCIS processing times. They are ranges, not exact dates.
+This is general information, not legal advice.
+
+Sources: https://www.uscis.gov/forms/filing-guidance/preparing-for-your-biometric-services-appointment; https://www.uscis.gov/policy-manual/volume-1-part-c-chapter-2; https://egov.uscis.gov/processing-times/; https://www.uscis.gov/addresschange
+
 ## OPT for F-1 students: DHS proposes a $70,000 fee (not in effect yet; comments due November 9)
 Date: 2026-10-25 · URL: https://casealerta.com/en/news/proposed-opt-fee-70000-f1-students-comments-november-9-2026/
 
