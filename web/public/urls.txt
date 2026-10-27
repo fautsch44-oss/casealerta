@@ -53,6 +53,8 @@ https://casealerta.com/status/expedite-request-received/
 https://casealerta.com/status/withdrawal-acknowledgement-notice-was-sent/
 https://casealerta.com/status/name-was-updated/
 https://casealerta.com/noticias/
+https://casealerta.com/noticias/green-card-por-empleo-perm-multas-instacart-cloudera/
+https://casealerta.com/noticias/formulario-i-130-peticion-familiar-green-card-guia/
 https://casealerta.com/noticias/cita-de-biometricos-uscis-que-llevar-y-como-reprogramar/
 https://casealerta.com/noticias/propuesta-tarifa-opt-70000-estudiantes-f1-comentarios-9-noviembre-2026/
 https://casealerta.com/noticias/formulario-i-797c-aviso-de-accion-que-significa/
@@ -68,6 +70,8 @@ https://casealerta.com/noticias/fin-extension-automatica-permiso-de-trabajo-ead/
 https://casealerta.com/noticias/uscis-propone-quitar-deferencia-en-extensiones/
 https://casealerta.com/noticias/boletin-de-visas-octubre-2026/
 https://casealerta.com/en/news/
+https://casealerta.com/en/news/employment-green-card-perm-settlements-instacart-cloudera/
+https://casealerta.com/en/news/form-i-130-family-petition-green-card-guide/
 https://casealerta.com/en/news/uscis-biometrics-appointment-what-to-bring-and-how-to-reschedule/
 https://casealerta.com/en/news/proposed-opt-fee-70000-f1-students-comments-november-9-2026/
 https://casealerta.com/en/news/form-i-797c-notice-of-action-what-it-means/

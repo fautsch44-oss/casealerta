@@ -1,5 +1,59 @@
 # CaseAlerta — full reference
 
+## Employment green card (PERM): what the Instacart and Cloudera settlements mean
+Date: 2026-10-27 · URL: https://casealerta.com/en/news/employment-green-card-perm-settlements-instacart-cloudera/
+
+In October 2026, the Department of Justice announced two settlements with companies over how they recruited workers in the PERM process.
+PERM is the Department of Labor's labor certification. It is the first step of many employment-based green cards. Before sponsoring a worker, the company must make a good-faith effort to find U.S. workers for the job.
+## What happened
+- Instacart (October 19): settlement with the Justice Department's Immigrant and Employee Rights Section (IER) and the EEOC. According to the government, it required mailed applications for PERM jobs, while it accepted electronic applications for its other jobs.
+- Instacart will pay up to $4 million into a fund for affected people and $1 million in civil penalties. It will have 3 years of training and monitoring.
+- Cloudera (October 13): settlement with IER and the Department of Labor. According to the government, it used a non-working email address to receive applications for PERM jobs.
+- Cloudera will pay $600,000 in civil penalties and up to $1.4 million into a back-pay fund. It will also have 3 years of training and monitoring, and the settlement resolves the suspension of its PERM certifications.
+- Instacart said its practices complied with the law and that it settled to stay focused on its business.
+## What it means for you
+- These settlements are about how companies recruit. They do not change green card rules or USCIS forms.
+- The agencies expect PERM recruiting to use the same channels and methods the company uses for its other jobs.
+- If your employer sponsors you, recruiting that follows these practices makes your process stronger.
+## What to do
+- If your company sponsors you, ask its immigration attorney whether its PERM recruiting follows normal hiring practices.
+- If you already have an I-140 or I-485 pending, track it with your receipt number. CaseAlerta alerts you when it changes.
+- Check the Visa Bulletin each month to see if your priority date is current.
+- If you are an employer, make sure your PERM ads accept applications the same way as your other jobs.
+This is general information, not legal advice. For your case, talk to an immigration attorney.
+
+Sources: https://www.justice.gov/crt/settlements-and-lawsuits; https://www.justice.gov/crt/media/1466996/dl?inline; https://www.justice.gov/opa/pr/us-departments-justice-and-labor-secure-settlement-cloudera-enforce-two-year-perm-debarment; https://www.justice.gov/opa/pr/civil-rights-division-and-equal-employment-opportunity-commission-secure-5000000-joint; https://www.envoyglobal.com/news-alert/doj-dol-settle-perm-recruitment-discrimination-case/
+
+## Form I-130 (family petition): who can sponsor a relative and what happens next
+Date: 2026-10-27 · URL: https://casealerta.com/en/news/form-i-130-family-petition-green-card-guide/
+
+Form I-130, Petition for Alien Relative, is the first step for a relative to get a green card through you.
+With this form you prove to USCIS that the family relationship exists. You file one I-130 for each relative.
+## Who can file
+- U.S. citizens: for their spouse, children (unmarried or married), parents (if the citizen is 21 or older) and siblings (if the citizen is 21 or older).
+- Permanent residents (green card holders): for their spouse and unmarried children.
+- If you file for your spouse, Form I-130A with your spouse's information usually goes with it. Check the official instructions.
+## What approval means
+- I-130 approval is only the first step. By itself it does not give a green card or work permit.
+- Immediate relatives of citizens (spouse, unmarried children under 21 and parents) do not wait for a visa number.
+- Other relatives are in preference categories (F1, F2A, F2B, F3, F4). They must wait until their priority date is current in the Visa Bulletin.
+- Then the relative applies for the green card with Form I-485 if they are in the U.S. and eligible, or with an immigrant visa at a consulate.
+## Common mistakes
+- Sign the form. An unsigned form is rejected.
+- Use the correct edition and pay the current fee. Check both on uscis.gov before you send it.
+- Send proof of the relationship, such as birth or marriage certificates, with English translations if they are in another language.
+## How long it takes
+- It depends on the type of relationship and the office. USCIS posts ranges on its processing times page. There is no exact decision date.
+## What to do
+- Read the official I-130 page and instructions before you fill it out.
+- Keep a full copy of everything you send.
+- When your receipt notice (I-797C) arrives, add the number to CaseAlerta to know when your status changes.
+- If your relative is in a preference category, check the Visa Bulletin each month.
+- Keep your address up to date with USCIS so you do not miss notices.
+This is general information, not legal advice. For your case, talk to an immigration attorney or an accredited representative.
+
+Sources: https://www.uscis.gov/i-130; https://www.uscis.gov/sites/default/files/document/forms/i-130instr.pdf; https://www.uscis.gov/i-130-addresses; https://www.uscis.gov/green-card/green-card-processes-and-procedures/visa-availability-priority-dates/adjustment-of-status-filing-charts-from-the-visa-bulletin; https://egov.uscis.gov/processing-times/
+
 ## USCIS biometrics (fingerprint) appointment: what to bring, what happens and how to reschedule
 Date: 2026-10-26 · URL: https://casealerta.com/en/news/uscis-biometrics-appointment-what-to-bring-and-how-to-reschedule/
 
