@@ -1,5 +1,36 @@
 # CaseAlerta — full reference
 
+## Form I-765 (work permit): who files it, how to renew and what to expect
+Date: 2026-10-28 · URL: https://casealerta.com/en/news/form-i-765-work-permit-ead-guide/
+
+Form I-765, Application for Employment Authorization, is the form you use to ask USCIS for a work permit.
+If USCIS approves it, you get a card called an EAD (Employment Authorization Document, Form I-766). The card shows its expiration date.
+## Who files it
+- People whose status already allows work do not need an EAD. For example, permanent residents use their green card.
+- Others must apply. For example: people with a pending I-485 (adjustment of status), eligible asylum applicants, TPS beneficiaries and F-1 students applying for OPT.
+- Each case uses an eligibility category, a code such as (c)(9) or (a)(12). The official I-765 instructions list them all.
+## How to file
+- Use the current form edition and pay the fee for your category. Some categories pay no fee or can ask for a waiver. Check everything on the official I-765 page.
+- Depending on your category, you file online or by mail. The official page shows the option and the correct address.
+- Sign the form and include the evidence the instructions ask for, such as a copy of your previous EAD or your receipt notice.
+## Renewal
+- USCIS lets you file a renewal up to 180 days before your EAD expires.
+- Automatic extension rules changed in 2026. For many new renewals, the card ends on its printed date. That is why filing early helps.
+- TPS-related extensions depend on the Federal Register notices for your country.
+## What happens next
+- You get a receipt notice (I-797C) with your case number.
+- You may be scheduled for biometrics (fingerprints and photo).
+- USCIS approves, asks for more evidence (RFE) or denies. If approved, it produces and mails the card.
+- Timing depends on the category and the office. USCIS publishes ranges on its processing times page. There is no exact decision date.
+## What to do
+- Check your EAD expiration date today and note the day you can renew (180 days before).
+- Read the official I-765 page and instructions before you fill it out.
+- When your receipt notice arrives, add the number to CaseAlerta to know when your status changes.
+- Keep your address up to date with USCIS so the card reaches your home.
+This is general information, not legal advice. For your case, talk to an immigration attorney or an accredited representative.
+
+Sources: https://www.uscis.gov/i-765; https://www.uscis.gov/sites/default/files/document/forms/i-765instr.pdf; https://www.uscis.gov/green-card/green-card-processes-and-procedures/employment-authorization-document; https://www.federalregister.gov/documents/2026/10/14/2026-20955/removal-of-automatic-extensions-for-certain-employment-authorization-documents
+
 ## Employment green card (PERM): what the Instacart and Cloudera settlements mean
 Date: 2026-10-27 · URL: https://casealerta.com/en/news/employment-green-card-perm-settlements-instacart-cloudera/
 
