@@ -9,7 +9,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Icon, type IconName } from '../../components/Journey';
 import { Brand, Label, Seal } from '../../components/ui';
 import { useT } from '../../i18n';
-import { hasProEntitlement, saveProfile } from '../../lib/api';
+import { deleteAccount, hasProEntitlement, saveProfile } from '../../lib/api';
 import { supabase } from '../../lib/supabase';
 import { colors, fonts, radius, space } from '../../theme/tokens';
 import { ONBOARDED_KEY } from '../index';
@@ -46,9 +46,22 @@ export default function SettingsScreen() {
     await saveProfile({ [k]: v }).catch(() => {});
   };
   const changeLang = async (l: 'es' | 'en') => { await setLang(l); await saveProfile({ lang: l }).catch(() => {}); };
-  const erase = () => Alert.alert(t.a3_signout, '', [
+  // Borrar mi cuenta: borra en el servidor (casos, avisos, historial) y luego en este teléfono. La suscripción de la tienda se cancela aparte.
+  const erase = () => Alert.alert(t.a3_signout, lang === 'es'
+    ? 'Se borran para siempre tus casos, avisos e historial. Si tienes Pro, cancélalo también en tu cuenta de Apple o Google para que no se cobre.'
+    : 'Your cases, alerts and history are deleted forever. If you have Pro, also cancel it in your Apple or Google account so you are not charged.', [
     { text: t.cancel, style: 'cancel' },
-    { text: t.ok, style: 'destructive', onPress: async () => { await supabase.auth.signOut(); await AsyncStorage.removeItem(ONBOARDED_KEY); router.replace('/'); } },
+    { text: lang === 'es' ? 'Borrar todo' : 'Delete everything', style: 'destructive', onPress: async () => {
+      try {
+        await deleteAccount();
+        track('account_deleted', {});
+      } catch {
+        track('error_shown', { where: 'delete_account', code: 'delete_failed' });
+        Alert.alert(lang === 'es' ? 'No pudimos borrar tu cuenta' : 'We could not delete your account', lang === 'es' ? 'Revisa tu conexión e intenta de nuevo, o escríbenos a sales@vargersoft.com.' : 'Check your connection and try again, or email sales@vargersoft.com.');
+        return;
+      }
+      await supabase.auth.signOut(); await AsyncStorage.removeItem(ONBOARDED_KEY); router.replace('/');
+    } },
   ]);
 
   const es = lang === 'es';

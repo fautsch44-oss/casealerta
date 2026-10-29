@@ -235,7 +235,7 @@ const es = {
   a3_privacyBody: 'Nunca anuncios. Nunca venta de datos. Nunca rastreo entre apps.',
   a3_support: 'Ayuda',
   a3_version: 'Versión',
-  a3_signout: 'Borrar mis datos de este teléfono',
+  a3_signout: 'Borrar mi cuenta',
   // genéricos
   retry: 'Reintentar',
   cancel: 'Cancelar',
@@ -466,7 +466,7 @@ const en: typeof es = {
   a3_privacyBody: 'Never ads. Never selling data. Never cross-app tracking.',
   a3_support: 'Help',
   a3_version: 'Version',
-  a3_signout: 'Erase my data from this phone',
+  a3_signout: 'Delete my account',
   retry: 'Retry',
   cancel: 'Cancel',
   ok: 'Got it',

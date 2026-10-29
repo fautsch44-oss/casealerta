@@ -199,3 +199,11 @@ export async function hasProEntitlement(): Promise<boolean> {
     .eq('owner_id', session.user.id).in('status', ['trialing', 'active']).limit(1);
   return !!data?.length;
 }
+
+/** Borra la cuenta y todos sus datos en el servidor (App Store 5.1.1(v)). Devuelve el plan que tenía, si había. */
+export async function deleteAccount(): Promise<{ hadPlan: string | null }> {
+  await ensureSession();
+  const { data, error } = await supabase.functions.invoke('casealerta-delete-account', { body: {} });
+  if (error || !data?.ok) throw new ApiError('delete_failed', 'delete_failed', 500);
+  return { hadPlan: data.had_plan ?? null };
+}

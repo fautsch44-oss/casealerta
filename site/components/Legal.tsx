@@ -14,7 +14,7 @@ export function Legal({ k }: { k: 'privacidad' | 'privacy' | 'terminos' | 'terms
     <Shell lang={lang} alt={`/${d.other}/`}>
       <main className="wrap"><article className="legal card" style={{ marginTop: 28 }}>
         <h1 style={{ marginTop: 0 }}>{d.title}</h1>
-        <p className="muted">{lang === 'es' ? 'Última actualización: 20 de octubre de 2026' : 'Last updated: October 20, 2026'}</p>
+        <p className="muted">{lang === 'es' ? 'Última actualización: 29 de octubre de 2026' : 'Last updated: October 29, 2026'}</p>
         {d.secs.map((s) => <section key={s.h}><h2>{s.h}</h2><p>{s.p}</p></section>)}
       </article></main>
     </Shell>

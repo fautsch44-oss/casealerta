@@ -1,214 +1,238 @@
 {
- "privacidad": {
-  "lang": "es",
-  "title": "Política de privacidad",
-  "other": "privacy",
-  "secs": [
-   {
-    "h": "Quiénes somos",
-    "p": "CaseAlerta es un servicio de VARGER Group LLC, empresa de Texas, EE.UU. Contacto: sales@vargersoft.com."
-   },
-   {
-    "h": "Qué datos recopilamos",
-    "p": "Solo lo necesario para el servicio: tu correo electrónico, los números de recibo que tú agregas, el estatus oficial que devuelve USCIS para esos recibos, tus preferencias de idioma y de avisos, y los tokens técnicos para enviarte notificaciones. Si eres empresa, el nombre de la organización y de los beneficiarios que tú capturas. En la consulta gratis de la web no guardamos tu número de recibo."
-   },
-   {
-    "h": "Para qué los usamos",
-    "p": "Únicamente para consultar el estatus de tus casos por el canal oficial de USCIS, avisarte cuando cambien (globo en tu celular o computadora y correo) y explicarte el estatus. No usamos tus datos para publicidad."
-   },
-   {
-    "h": "No vendemos tus datos",
-    "p": "No vendemos, rentamos ni compartimos tus datos personales ni los de tus casos con terceros, tampoco en forma agregada o anónima, salvo que tú des tu consentimiento activo y por separado. No mostramos anuncios ni usamos rastreo entre apps o sitios."
-   },
-   {
-    "h": "Proveedores que nos ayudan",
-    "p": "Usamos proveedores de infraestructura que procesan datos solo por cuenta nuestra y bajo contrato: alojamiento y base de datos (Supabase, Vercel), envío de correo (Resend), notificaciones (Expo y los servicios de notificación de tu navegador) y cobros (Stripe, Apple, Google y RevenueCat). Ninguno puede usar tus datos para sus propios fines."
-   },
-   {
-    "h": "Abogados",
-    "p": "Solo compartimos tus datos con un abogado si tú lo pides con el botón \"Quiero hablar con un abogado\". Antes de enviar algo te mostramos qué se compartirá."
-   },
-   {
-    "h": "Inteligencia artificial",
-    "p": "Las explicaciones de los estatus se generan con apoyo de IA a partir del texto oficial de USCIS. No usamos tus datos personales para entrenar modelos. Las explicaciones no son asesoría legal."
-   },
-   {
-    "h": "Asistente y avisos desde la web",
-    "p": "Si usas el asistente, guardamos tus preguntas y respuestas para darte contexto y mejorar el servicio, nunca para publicidad. Si activas avisos desde la web, guardamos tu correo y el número de recibo que nos diste, y te pedimos confirmar el correo antes de escribirte. Puedes darte de baja desde cualquier correo."
-   },
-   {
-    "h": "Cuánto tiempo los guardamos",
-    "p": "Mientras tu cuenta esté activa. Si borras tu cuenta, borramos tus datos y casos en un plazo de 30 días, salvo lo que la ley nos obligue a conservar (por ejemplo, registros de pago)."
-   },
-   {
-    "h": "Tus derechos",
-    "p": "Puedes ver, corregir, descargar o borrar tus datos en cualquier momento desde la app o escribiendo a sales@vargersoft.com. Puedes apagar los avisos cuando quieras."
-   },
-   {
-    "h": "Seguridad",
-    "p": "Usamos conexiones cifradas (HTTPS), control de acceso por usuario en la base de datos y llaves guardadas en bóvedas cifradas. Si ocurriera un incidente que afecte tus datos, te avisaremos sin demora indebida."
-   },
-   {
-    "h": "Menores",
-    "p": "CaseAlerta no está dirigido a menores de 13 años y no recopilamos sus datos a sabiendas."
-   },
-   {
-    "h": "Relación con USCIS",
-    "p": "CaseAlerta no es una agencia de gobierno ni está afiliado a USCIS. Consultamos el estatus mediante la API oficial de USCIS (programa Torch)."
-   },
-   {
-    "h": "Cambios",
-    "p": "Si cambiamos esta política, publicaremos la nueva versión aquí con su fecha y te avisaremos en la app si el cambio es importante."
-   }
-  ]
- },
- "privacy": {
-  "lang": "en",
-  "title": "Privacy policy",
-  "other": "privacidad",
-  "secs": [
-   {
-    "h": "Who we are",
-    "p": "CaseAlerta is a service of VARGER Group LLC, a Texas, USA company. Contact: sales@vargersoft.com."
-   },
-   {
-    "h": "What we collect",
-    "p": "Only what the service needs: your email, the receipt numbers you add, the official status USCIS returns for them, your language and alert preferences, and technical tokens to send you notifications. For businesses, the organization name and beneficiary names you enter. The free web lookup does not store your receipt number."
-   },
-   {
-    "h": "How we use it",
-    "p": "Only to check your cases through the official USCIS channel, alert you when they change (push on your phone or computer and email) and explain the status. We do not use your data for advertising."
-   },
-   {
-    "h": "We do not sell your data",
-    "p": "We do not sell, rent or share your personal or case data with third parties, including in aggregated or anonymized form, unless you give separate, active consent. We show no ads and use no cross-app or cross-site tracking."
-   },
-   {
-    "h": "Service providers",
-    "p": "We use infrastructure providers that process data only on our behalf under contract: hosting and database (Supabase, Vercel), email (Resend), notifications (Expo and your browser's push service) and payments (Stripe, Apple, Google, RevenueCat). None may use your data for their own purposes."
-   },
-   {
-    "h": "Attorneys",
-    "p": "We share your data with an attorney only if you request it with the \"Talk to an attorney\" button. We show you what will be shared before sending anything."
-   },
-   {
-    "h": "Artificial intelligence",
-    "p": "Status explanations are generated with AI assistance from the official USCIS text. We do not use your personal data to train models. Explanations are not legal advice."
-   },
-   {
-    "h": "Assistant and web alerts",
-    "p": "If you use the assistant, we store your questions and answers to give you context and improve the service, never for advertising. If you turn on alerts on the web, we store your email and the receipt number you gave us, and we ask you to confirm your email before writing to you. You can unsubscribe from any email."
-   },
-   {
-    "h": "Retention",
-    "p": "While your account is active. If you delete your account, we delete your data and cases within 30 days, except records the law requires us to keep (such as payment records)."
-   },
-   {
-    "h": "Your rights",
-    "p": "You can view, correct, download or delete your data at any time in the app or by writing to sales@vargersoft.com. You can turn alerts off whenever you want."
-   },
-   {
-    "h": "Security",
-    "p": "We use encrypted connections (HTTPS), per-user access control in the database and keys stored in encrypted vaults. If an incident affects your data, we will notify you without undue delay."
-   },
-   {
-    "h": "Children",
-    "p": "CaseAlerta is not directed to children under 13 and we do not knowingly collect their data."
-   },
-   {
-    "h": "Relationship with USCIS",
-    "p": "CaseAlerta is not a government agency and is not affiliated with USCIS. We check status through the official USCIS API (Torch program)."
-   },
-   {
-    "h": "Changes",
-    "p": "If we change this policy we will post the new version here with its date and notify you in the app if the change is material."
-   }
-  ]
- },
- "terminos": {
-  "lang": "es",
-  "title": "Términos de uso",
-  "other": "terms",
-  "secs": [
-   {
-    "h": "Aceptación",
-    "p": "Al usar CaseAlerta aceptas estos términos. El servicio lo presta VARGER Group LLC (Texas, EE.UU.)."
-   },
-   {
-    "h": "Qué es CaseAlerta",
-    "p": "Una herramienta que consulta el estatus de casos por la API oficial de USCIS, te avisa de cambios y te explica el estatus en lenguaje claro. No es un despacho de abogados, no da asesoría legal y no está afiliada a USCIS."
-   },
-   {
-    "h": "Sin garantía de resultados",
-    "p": "Mostramos la información que entrega USCIS. Puede haber retrasos o errores en la fuente. Los rangos de tiempo son típicos, no promesas. Para decisiones legales, consulta a un abogado."
-   },
-   {
-    "h": "Tu cuenta",
-    "p": "Eres responsable de la información que agregas y de mantener tu acceso seguro. Solo agrega números de recibo de casos propios o que tengas autorización para seguir."
-   },
-   {
-    "h": "Pagos y suscripciones",
-    "p": "Los planes de pago se cobran por adelantado según el periodo elegido. En la app, los cobros los procesa Apple o Google; en la web, Stripe. Puedes cancelar cuando quieras; el acceso sigue hasta el fin del periodo pagado."
-   },
-   {
-    "h": "Uso aceptable",
-    "p": "No se permite usar el servicio para fines ilegales, consultar casos sin autorización, intentar vulnerar la seguridad ni extraer datos de forma automatizada sin permiso."
-   },
-   {
-    "h": "Limitación de responsabilidad",
-    "p": "En la medida que permita la ley, VARGER Group LLC no responde por daños indirectos derivados del uso del servicio o de retrasos de USCIS."
-   },
-   {
-    "h": "Ley aplicable",
-    "p": "Estos términos se rigen por las leyes del estado de Texas, EE.UU."
-   },
-   {
-    "h": "Contacto",
-    "p": "sales@vargersoft.com"
-   }
-  ]
- },
- "terms": {
-  "lang": "en",
-  "title": "Terms of use",
-  "other": "terminos",
-  "secs": [
-   {
-    "h": "Acceptance",
-    "p": "By using CaseAlerta you accept these terms. The service is provided by VARGER Group LLC (Texas, USA)."
-   },
-   {
-    "h": "What CaseAlerta is",
-    "p": "A tool that checks case status through the official USCIS API, alerts you to changes and explains the status in plain language. It is not a law firm, does not give legal advice and is not affiliated with USCIS."
-   },
-   {
-    "h": "No guarantee of outcomes",
-    "p": "We show the information USCIS provides. The source may have delays or errors. Time ranges are typical, not promises. For legal decisions, consult an attorney."
-   },
-   {
-    "h": "Your account",
-    "p": "You are responsible for the information you add and for keeping your access secure. Only add receipt numbers for your own cases or cases you are authorized to follow."
-   },
-   {
-    "h": "Payments and subscriptions",
-    "p": "Paid plans are billed in advance for the chosen period. In the app, Apple or Google process payments; on the web, Stripe. You can cancel anytime; access continues until the end of the paid period."
-   },
-   {
-    "h": "Acceptable use",
-    "p": "You may not use the service for unlawful purposes, look up cases without authorization, attempt to breach security or scrape data without permission."
-   },
-   {
-    "h": "Limitation of liability",
-    "p": "To the extent permitted by law, VARGER Group LLC is not liable for indirect damages arising from use of the service or from USCIS delays."
-   },
-   {
-    "h": "Governing law",
-    "p": "These terms are governed by the laws of the State of Texas, USA."
-   },
-   {
-    "h": "Contact",
-    "p": "sales@vargersoft.com"
-   }
-  ]
- }
+  "privacidad": {
+    "lang": "es",
+    "title": "Política de privacidad",
+    "other": "privacy",
+    "secs": [
+      {
+        "h": "Quiénes somos",
+        "p": "CaseAlerta es un servicio de VARGER Group LLC, empresa de Texas, EE.UU. Contacto: sales@vargersoft.com."
+      },
+      {
+        "h": "Qué datos recopilamos",
+        "p": "Solo lo que el servicio necesita: tu correo, los números de recibo que agregas, el estatus oficial que USCIS devuelve, tu idioma y tus preferencias de avisos, y los datos técnicos para mandarte notificaciones. Para empresas, el nombre de la organización y los nombres de beneficiarios que escribes. No recopilamos ubicación, contactos, datos de salud ni de cuentas financieras. Los pagos los procesan Stripe, Apple o Google; nunca vemos tu número de tarjeta completo. Cuando usas la consulta gratis en la web, guardamos el número de recibo y tu dirección IP hasta 48 horas solo para aplicar el límite diario gratis, y luego los borramos."
+      },
+      {
+        "h": "Para qué los usamos",
+        "p": "Únicamente para consultar el estatus de tus casos por el canal oficial de USCIS, avisarte cuando cambien (globo en tu celular o computadora y correo) y explicarte el estatus. No usamos tus datos para publicidad."
+      },
+      {
+        "h": "No vendemos tus datos",
+        "p": "No vendemos, rentamos ni compartimos tus datos personales ni los de tus casos con terceros, tampoco en forma agregada o anónima, salvo que tú des tu consentimiento activo y por separado. No mostramos anuncios ni usamos rastreo entre apps o sitios."
+      },
+      {
+        "h": "Tus opciones para compartir",
+        "p": "Por defecto, tus datos no se comparten con nadie fuera de los proveedores de arriba. Solo se comparten si tú lo eliges, por ejemplo con el botón \"Hablar con un abogado\". La ventaja es que un abogado revisa tu caso más rápido. El riesgo es que el abogado verá los datos de tu caso. Tú decides cada vez y puedes retirar ese permiso escribiéndonos. Compartir tu caso no expone datos de tus familiares, salvo que tú los incluyas."
+      },
+      {
+        "h": "Si la empresa cambia de dueño",
+        "p": "Si VARGER Group LLC se vende, se fusiona o cierra, te avisaremos por correo antes de transferir tus datos. El nuevo dueño debe cumplir esta política. Si no lo hace, puedes descargar tus datos o pedirnos que los borremos de forma segura antes de la transferencia."
+      },
+      {
+        "h": "Residentes de California (CCPA)",
+        "p": "Si vives en California, tienes derecho a saber qué datos personales recopilamos, a pedir que los borremos, a corregirlos y a no ser discriminado por usar estos derechos. No vendemos ni compartimos datos personales según la definición de la CCPA. Para usar estos derechos, escribe a sales@vargersoft.com."
+      },
+      {
+        "h": "Proveedores que nos ayudan",
+        "p": "Usamos proveedores que procesan datos solo por encargo nuestro: hospedaje y base de datos (Supabase, Vercel), correo (Resend), notificaciones (Expo y el servicio de tu navegador), analítica y registro de errores (PostHog) y pagos (Stripe, Apple, Google, RevenueCat). Cada uno está obligado por contrato a cumplir esta política y no puede usar, vender ni revelar tus datos para fines propios."
+      },
+      {
+        "h": "Abogados",
+        "p": "Solo compartimos tus datos con un abogado si tú lo pides con el botón \"Quiero hablar con un abogado\". Antes de enviar algo te mostramos qué se compartirá."
+      },
+      {
+        "h": "Inteligencia artificial",
+        "p": "Las explicaciones de los estatus se generan con apoyo de IA a partir del texto oficial de USCIS. No usamos tus datos personales para entrenar modelos. Las explicaciones no son asesoría legal."
+      },
+      {
+        "h": "Asistente y avisos desde la web",
+        "p": "Si usas el asistente, guardamos tus preguntas y respuestas para darte contexto y mejorar el servicio, nunca para publicidad. Si activas los avisos (plan Pro), guardamos tu correo y tus números de recibo, y te pedimos confirmar tu correo antes de escribirte. Puedes darte de baja desde cualquier correo."
+      },
+      {
+        "h": "Cuánto tiempo los guardamos",
+        "p": "Guardamos tus datos mientras tu cuenta esté activa. Si tu cuenta no tiene actividad en 24 meses, te escribimos por correo, y si no respondes en 30 días la borramos. Si borras tu cuenta, eliminamos de forma permanente tus datos y casos en un máximo de 30 días, salvo los registros que la ley nos obliga a guardar (como los de pagos)."
+      },
+      {
+        "h": "Tus derechos",
+        "p": "Puedes ver, corregir, descargar o borrar de forma permanente tus datos cuando quieras. Para borrarlos: en la app, entra a Ajustes > Borrar mi cuenta; en la web, escribe a sales@vargersoft.com con el asunto \"Borrar mis datos\" desde el correo que usaste. Confirmamos la solicitud y la completamos en un máximo de 30 días. Para cerrar tu cuenta sigue los mismos pasos. Puedes apagar los avisos cuando quieras."
+      },
+      {
+        "h": "Seguridad",
+        "p": "Usamos conexiones cifradas (HTTPS), control de acceso por usuario en la base de datos y llaves guardadas en bóvedas cifradas. Si una filtración afecta tu información, te avisamos por correo sin demora, te decimos qué pasó y qué datos estuvieron involucrados, y te damos pasos claros para protegerte."
+      },
+      {
+        "h": "Menores",
+        "p": "CaseAlerta no está dirigido a menores de 13 años y no recopilamos sus datos a sabiendas."
+      },
+      {
+        "h": "Relación con USCIS",
+        "p": "CaseAlerta no es una agencia de gobierno ni está afiliado a USCIS. Consultamos el estatus mediante la API oficial de USCIS (programa Torch)."
+      },
+      {
+        "h": "Cambios",
+        "p": "Si cambiamos esta política, publicamos aquí la nueva versión con su fecha y un resumen en palabras sencillas de lo que cambió. Para cualquier cambio importante te pedimos tu consentimiento activo en la app o por correo antes de aplicarlo a tus datos. Si no aceptas, puedes borrar tu cuenta y tus datos."
+      }
+    ]
+  },
+  "privacy": {
+    "lang": "en",
+    "title": "Privacy policy",
+    "other": "privacidad",
+    "secs": [
+      {
+        "h": "Who we are",
+        "p": "CaseAlerta is a service of VARGER Group LLC, a Texas, USA company. Contact: sales@vargersoft.com."
+      },
+      {
+        "h": "What we collect",
+        "p": "Only what the service needs: your email, the receipt numbers you add, the official status USCIS returns for them, your language and alert preferences, and technical tokens to send you notifications. For businesses, the organization name and beneficiary names you enter. We do not collect geolocation, contacts, health or financial account data. Payments are processed by Stripe, Apple or Google; we never see your full card number. When you use the free web lookup, we keep the receipt number and your IP address for up to 48 hours only to apply the daily free limit, and then we delete them."
+      },
+      {
+        "h": "How we use it",
+        "p": "Only to check your cases through the official USCIS channel, alert you when they change (push on your phone or computer and email) and explain the status. We do not use your data for advertising."
+      },
+      {
+        "h": "We do not sell your data",
+        "p": "We do not sell, rent or share your personal or case data with third parties, including in aggregated or anonymized form, unless you give separate, active consent. We show no ads and use no cross-app or cross-site tracking."
+      },
+      {
+        "h": "Your sharing choices",
+        "p": "By default, your data is not shared with anyone outside the providers above. Sharing only happens if you choose it, for example with the \"Talk to an attorney\" button. The benefit is that an attorney can review your case faster. The risk is that the attorney will see your case details. You decide each time, and you can withdraw that permission by writing to us. Sharing your case does not expose data about your family members unless you include it."
+      },
+      {
+        "h": "If the company changes ownership",
+        "p": "If VARGER Group LLC is sold, merges or closes, we will notify you by email before your data is transferred. The new owner must follow this policy. If it does not, you can download your data or ask us to securely delete it before the transfer."
+      },
+      {
+        "h": "California residents (CCPA)",
+        "p": "If you live in California, you have the right to know what personal information we collect, to request its deletion, to correct it, and to not be discriminated against for using these rights. We do not sell or share personal information as defined by the CCPA. To use these rights, email sales@vargersoft.com."
+      },
+      {
+        "h": "Service providers",
+        "p": "We use infrastructure providers that process data only on our behalf: hosting and database (Supabase, Vercel), email (Resend), notifications (Expo and your browser's push service), analytics and error logs (PostHog) and payments (Stripe, Apple, Google, RevenueCat). Each one is bound by contract to the terms of this policy and may not use, sell or disclose your data for its own purposes."
+      },
+      {
+        "h": "Attorneys",
+        "p": "We share your data with an attorney only if you request it with the \"Talk to an attorney\" button. We show you what will be shared before sending anything."
+      },
+      {
+        "h": "Artificial intelligence",
+        "p": "Status explanations are generated with AI assistance from the official USCIS text. We do not use your personal data to train models. Explanations are not legal advice."
+      },
+      {
+        "h": "Assistant and web alerts",
+        "p": "If you use the assistant, we store your questions and answers to give you context and improve the service, never for advertising. If you turn on alerts (Pro plan), we store your email and your receipt numbers, and we ask you to confirm your email before writing to you. You can unsubscribe from any email."
+      },
+      {
+        "h": "Retention",
+        "p": "We keep your data while your account is active. If your account has no activity for 24 months, we email you, and if you do not reply within 30 days we delete it. If you delete your account, we permanently delete your data and cases within 30 days, except records the law requires us to keep (such as payment records)."
+      },
+      {
+        "h": "Your rights",
+        "p": "You can view, correct, download or permanently delete your data at any time. To delete it: in the app, go to Settings > Delete my account; on the web, email sales@vargersoft.com with the subject \"Delete my data\" from the email you used. We confirm the request and complete it within 30 days. To close your account, use the same steps. You can turn alerts off whenever you want."
+      },
+      {
+        "h": "Security",
+        "p": "We use encrypted connections (HTTPS), per-user access control in the database and keys stored in encrypted vaults. If a data breach affects your information, we will notify you by email without undue delay, tell you what happened and what data was involved, and give you clear steps you can take to protect yourself."
+      },
+      {
+        "h": "Children",
+        "p": "CaseAlerta is not directed to children under 13 and we do not knowingly collect their data."
+      },
+      {
+        "h": "Relationship with USCIS",
+        "p": "CaseAlerta is not a government agency and is not affiliated with USCIS. We check status through the official USCIS API (Torch program)."
+      },
+      {
+        "h": "Changes",
+        "p": "If we change this policy, we post the new version here with its date and a plain-language summary of what changed. For any material change, we ask for your active consent in the app or by email before it applies to your data. If you do not accept, you can delete your account and data."
+      }
+    ]
+  },
+  "terminos": {
+    "lang": "es",
+    "title": "Términos de uso",
+    "other": "terms",
+    "secs": [
+      {
+        "h": "Aceptación",
+        "p": "Al usar CaseAlerta aceptas estos términos. El servicio lo presta VARGER Group LLC (Texas, EE.UU.)."
+      },
+      {
+        "h": "Qué es CaseAlerta",
+        "p": "Una herramienta que consulta el estatus de casos por la API oficial de USCIS, te avisa de cambios y te explica el estatus en lenguaje claro. No es un despacho de abogados, no da asesoría legal y no está afiliada a USCIS."
+      },
+      {
+        "h": "Sin garantía de resultados",
+        "p": "Mostramos la información que entrega USCIS. Puede haber retrasos o errores en la fuente. Los rangos de tiempo son típicos, no promesas. Para decisiones legales, consulta a un abogado."
+      },
+      {
+        "h": "Tu cuenta",
+        "p": "Eres responsable de la información que agregas y de mantener tu acceso seguro. Solo agrega números de recibo de casos propios o que tengas autorización para seguir."
+      },
+      {
+        "h": "Pagos y suscripciones",
+        "p": "Los planes de pago se cobran por adelantado según el periodo elegido. En la app, los cobros los procesa Apple o Google; en la web, Stripe. Puedes cancelar cuando quieras; el acceso sigue hasta el fin del periodo pagado."
+      },
+      {
+        "h": "Uso aceptable",
+        "p": "No se permite usar el servicio para fines ilegales, consultar casos sin autorización, intentar vulnerar la seguridad ni extraer datos de forma automatizada sin permiso."
+      },
+      {
+        "h": "Limitación de responsabilidad",
+        "p": "En la medida que permita la ley, VARGER Group LLC no responde por daños indirectos derivados del uso del servicio o de retrasos de USCIS."
+      },
+      {
+        "h": "Ley aplicable",
+        "p": "Estos términos se rigen por las leyes del estado de Texas, EE.UU."
+      },
+      {
+        "h": "Contacto",
+        "p": "sales@vargersoft.com"
+      }
+    ]
+  },
+  "terms": {
+    "lang": "en",
+    "title": "Terms of use",
+    "other": "terminos",
+    "secs": [
+      {
+        "h": "Acceptance",
+        "p": "By using CaseAlerta you accept these terms. The service is provided by VARGER Group LLC (Texas, USA)."
+      },
+      {
+        "h": "What CaseAlerta is",
+        "p": "A tool that checks case status through the official USCIS API, alerts you to changes and explains the status in plain language. It is not a law firm, does not give legal advice and is not affiliated with USCIS."
+      },
+      {
+        "h": "No guarantee of outcomes",
+        "p": "We show the information USCIS provides. The source may have delays or errors. Time ranges are typical, not promises. For legal decisions, consult an attorney."
+      },
+      {
+        "h": "Your account",
+        "p": "You are responsible for the information you add and for keeping your access secure. Only add receipt numbers for your own cases or cases you are authorized to follow."
+      },
+      {
+        "h": "Payments and subscriptions",
+        "p": "Paid plans are billed in advance for the chosen period. In the app, Apple or Google process payments; on the web, Stripe. You can cancel anytime; access continues until the end of the paid period."
+      },
+      {
+        "h": "Acceptable use",
+        "p": "You may not use the service for unlawful purposes, look up cases without authorization, attempt to breach security or scrape data without permission."
+      },
+      {
+        "h": "Limitation of liability",
+        "p": "To the extent permitted by law, VARGER Group LLC is not liable for indirect damages arising from use of the service or from USCIS delays."
+      },
+      {
+        "h": "Governing law",
+        "p": "These terms are governed by the laws of the State of Texas, USA."
+      },
+      {
+        "h": "Contact",
+        "p": "sales@vargersoft.com"
+      }
+    ]
+  }
 }
