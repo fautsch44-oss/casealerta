@@ -6,6 +6,7 @@ import type { Lang } from '@/lib/types';
 import { P } from '@/lib/i18n';
 import { PLAN_NAME, PORTAL, mySubs, pending, type MySub, type Pending } from '@/lib/billing';
 import { track } from './Analytics';
+import AccountBox from './AccountBox';
 
 const S = {
   es: {
@@ -79,6 +80,7 @@ export default function PayReturn({ lang }: { lang: Lang }) {
           <h1 style={{ margin: 0, fontSize: 28 }}>{sub.status === 'trialing' ? s.trialT : s.okT(planName)}</h1>
           <p className="muted" style={{ margin: 0 }}>{s.okS}</p>
           <ul className="ticks" style={{ textAlign: 'left' }}>{(s.perks[sub.plan] ?? s.perks.pro).map((x) => <li key={x}><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1E7A46" strokeWidth="3" strokeLinecap="round" aria-hidden="true"><path d="M5 12l5 5 9-10" /></svg>{x}</li>)}</ul>
+          <AccountBox lang={lang} mode="save" />
           <a className="btn red full" href={back}>{isOrg ? s.goBoard : s.goCases}</a>
           <a className="small" href={PORTAL} target="_blank" rel="noopener">{s.manage}</a>
         </>}

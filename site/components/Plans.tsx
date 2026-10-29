@@ -5,6 +5,7 @@ import type { Lang } from '@/lib/types';
 import { P } from '@/lib/i18n';
 import { PLAN_NAME, PORTAL, checkout, mySubs, type Interval, type MySub, type PlanKey } from '@/lib/billing';
 import { track } from './Analytics';
+import AccountBox from './AccountBox';
 
 const S = {
   es: {
@@ -39,6 +40,7 @@ export default function Plans({ lang }: { lang: Lang }) {
   const [busy, setBusy] = useState<PlanKey | null>(null);
   const [err, setErr] = useState<string | null>(null);
   const [mine, setMine] = useState<MySub | null>(null);
+  const [signin, setSignin] = useState(false);
   const ref = useRef<HTMLElement>(null);
   const seen = useRef(false);
 
@@ -110,8 +112,9 @@ export default function Plans({ lang }: { lang: Lang }) {
       {err && <p className="err" role="alert">{err}</p>}
       <div className="chips" style={{ marginTop: 12 }}>{s.trust.map((x) => <span className="chip" key={x}>{x}</span>)}</div>
       <p className="muted small" style={{ marginTop: 8 }}>
-        {s.paid} <a href={PORTAL} target="_blank" rel="noopener">{s.manage}</a> · <a href={p.terms}>{s.terms}</a> · <a href={p.privacy}>{s.privacy}</a>
+        {s.paid} <button type="button" className="linkBtn" onClick={() => setSignin((x) => !x)}>{lang === 'es' ? 'Entra con tu correo' : 'Sign in with your email'}</button> · <a href={p.terms}>{s.terms}</a> · <a href={p.privacy}>{s.privacy}</a>
       </p>
+      {signin && !mine && <div style={{ maxWidth: 560 }}><AccountBox lang={lang} mode="signin" onDone={() => mySubs().then((x) => setMine(x[0] ?? null))} /></div>}
       <p style={{ margin: '4px 0 0' }}><a href={p.dashboard} style={{ fontWeight: 700 }}>{s.b2b}</a></p>
     </section>
   );
