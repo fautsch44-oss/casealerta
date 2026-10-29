@@ -1,5 +1,43 @@
 # CaseAlerta — full reference
 
+## Form N-400 (citizenship): requirements, when to apply and the steps
+Date: 2026-10-29 · URL: https://casealerta.com/en/news/form-n-400-citizenship-naturalization-guide/
+
+Form N-400, Application for Naturalization, is the form you use to ask USCIS for U.S. citizenship.
+It is filed by permanent residents (green card holders) who already meet the requirements. This guide explains the general 5-year rule.
+## General requirements (5-year rule)
+- Be at least 18 years old when you file the N-400.
+- Be a permanent resident for at least 5 years.
+- Continuous residence in the U.S. for those 5 years, right before you file.
+- Physical presence in the U.S. for at least 30 months within those 5 years.
+- Live at least 3 months in the state or USCIS district where you file.
+- Good moral character and attachment to the principles of the Constitution.
+- Read, write and speak basic English, and know U.S. history and government (civics test). Some older applicants with many years of residence have exceptions.
+Other cases have different rules, for example spouses of U.S. citizens or military members. USCIS explains them on its citizenship pages.
+## You can file 90 days early
+- Under the 5-year rule, you can file the N-400 up to 90 days before you complete 5 years as a permanent resident.
+- Filing early does not make you eligible sooner. You still must complete the 5 years.
+## How to file
+- You can file online with a USCIS account or on paper. Use the current edition of the form.
+- Check the current fee in the USCIS Fee Schedule (G-1055) before you pay. Fees change.
+- Keep a copy of everything and write down your receipt number.
+## What happens next
+- You get a receipt notice (I-797C) with your case number.
+- USCIS schedules biometrics (fingerprints and photo), if needed.
+- You have an interview. The English and civics tests happen there.
+- USCIS decides: it approves, asks for more evidence or denies. If approved, it schedules your oath ceremony.
+- You become a citizen when you take the oath. You then receive your Certificate of Naturalization.
+- Timing varies by office. USCIS posts ranges on its processing times page. There is no exact decision date.
+## What to do
+- Check your green card date and find when you reach 5 years. Subtract 90 days: that is the first day you can file.
+- Count your trips outside the U.S. to confirm the 30 months of physical presence.
+- Read the official N-400 page and its instructions before you fill it out.
+- Study for the civics test with free USCIS materials.
+- When your receipt notice arrives, add the number in CaseAlerta to know when your status changes.
+This is general information, not legal advice. For your case, talk to an immigration attorney or an accredited representative.
+
+Sources: https://www.uscis.gov/n-400; https://www.uscis.gov/citizenship/learn-about-citizenship/citizenship-and-naturalization/i-am-a-lawful-permanent-resident-of-5-years; https://www.uscis.gov/policy-manual/volume-12-part-d-chapter-6; https://www.uscis.gov/sites/default/files/document/forms/n-400instr.pdf; https://www.uscis.gov/g-1055; https://egov.uscis.gov/processing-times/
+
 ## Form I-765 (work permit): who files it, how to renew and what to expect
 Date: 2026-10-28 · URL: https://casealerta.com/en/news/form-i-765-work-permit-ead-guide/
 
