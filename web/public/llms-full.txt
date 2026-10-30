@@ -1,5 +1,42 @@
 # CaseAlerta — full reference
 
+## Form I-485 (adjustment of status): how to apply for a green card inside the U.S.
+Date: 2026-10-30 · URL: https://casealerta.com/en/news/form-i-485-adjustment-of-status-green-card-guide/
+
+Form I-485 is the application to register permanent residence or adjust status. In plain words: it is how you apply for a green card without leaving the United States.
+If you are outside the U.S., the usual path is consular processing, not the I-485.
+## Who files
+- People who are already in the U.S. and have an immigrant category (for example, family or employment).
+- Most people need a petition from a sponsor: Form I-130 (family) or I-140 (employment). Some categories do not.
+- A qualifying spouse and children can file their own I-485 as derivatives.
+## When you can file
+- In general, only when a visa is available in your category. That depends on your priority date and that month's Visa Bulletin.
+- Each month USCIS says which Visa Bulletin chart to use for adjustment of status.
+- Some categories let you file the I-485 together with the petition or while it is pending (concurrent filing). Others require the petition to be approved first.
+## How to file
+- Use the current edition listed on the official I-485 page. Old editions are rejected.
+- Sign the form. USCIS rejects unsigned forms.
+- Mail it to the address for your category (USCIS filing addresses page).
+- Check the current fee in the USCIS Fee Schedule (G-1055) or the fee calculator. The fee depends on your age. If you also ask for a work permit (I-765) or travel permit (I-131), check the fee for each one.
+- Some cases need supplements, like Supplement A (section 245(i)) or Supplement J (employment cases).
+## What happens next
+- You get a receipt notice (I-797C) with your case number.
+- USCIS schedules biometrics (fingerprints, photo and signature). Missing it without rescheduling can lead to a denial.
+- USCIS decides if you need an interview. If so, bring the originals of your documents, including your passport and I-94.
+- If USCIS asks for more evidence (RFE), answer before the deadline.
+- Decision: if approved, the card arrives by mail later. If denied, you may be able to file a motion to reopen or reconsider with Form I-290B.
+- If you move, tell USCIS within 10 days.
+- Timing varies by office and category. USCIS posts ranges on its processing times page. There is no exact decision date.
+## What to do
+- Confirm your category and check whether your priority date is current in this month's Visa Bulletin.
+- Read the official I-485 page and instructions before you fill it out.
+- Gather copies of your passport, I-94, birth certificate and the petition notice (I-130 or I-140).
+- Keep a copy of everything you send.
+- When your receipt notice arrives, add the number to CaseAlerta to know right away when your status changes.
+This is general information, not legal advice. For your case, talk to an immigration attorney or an accredited representative.
+
+Sources: https://www.uscis.gov/i-485; https://www.uscis.gov/green-card/green-card-processes-and-procedures/adjustment-of-status; https://www.uscis.gov/green-card/green-card-processes-and-procedures/visa-availability-priority-dates/adjustment-of-status-filing-charts-from-the-visa-bulletin; https://www.uscis.gov/g-1055; https://egov.uscis.gov/processing-times/
+
 ## Form N-400 (citizenship): requirements, when to apply and the steps
 Date: 2026-10-29 · URL: https://casealerta.com/en/news/form-n-400-citizenship-naturalization-guide/
 
