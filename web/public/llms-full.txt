@@ -1,5 +1,70 @@
 # CaseAlerta — full reference
 
+## USCIS reports 2.2 million enforcement actions: what it means for your case
+Date: 2026-10-31 · URL: https://casealerta.com/en/news/uscis-2-2-million-enforcement-actions-what-it-means/
+
+On October 29, 2026, USCIS issued a news release. It says that since January 20, 2025, it has taken about 2.2 million enforcement actions to revoke or terminate the status of people in the U.S.
+USCIS compares that figure with the last two years of the previous administration and says it is nearly seven times higher.
+## What the figure includes
+- Ending TPS (Temporary Protected Status) designations for several countries. Some of those terminations are still in court.
+- Denials of nonimmigrant extension or change-of-status requests.
+- Notices to Appear (NTAs) before an immigration judge.
+- Ending the automatic extension for certain work permit (EAD) renewals.
+- Ending certain categorical humanitarian parole programs.
+## What it does NOT mean
+- It is not a deportation count. Removals are handled by ICE, not USCIS.
+- It is not a count of revoked visas. That is the State Department.
+- According to press coverage, the figure does not necessarily mean 2.2 million people lost status. It is a count of actions.
+## How to check whether your case changed
+- Check your case with your receipt number on the official USCIS site or in your online account.
+- Read every USCIS letter in full. A denial or an NTA always arrives in writing.
+- If you have TPS, check your country's page on uscis.gov. It shows whether your work permit is still valid.
+## What to do
+- Keep your address current with USCIS (Form AR-11) so you don't miss letters.
+- Keep copies of your receipts (I-797), work permits and approvals.
+- If you get a denial, a notice of intent to revoke or an NTA, talk to an immigration attorney or accredited organization quickly. Response deadlines are short.
+- Don't pay "notarios" who promise results.
+This article is informational and is not legal advice.
+
+Sources: https://uscis.gov/newsroom/news-releases/under-president-trumps-leadership-uscis-takes-unprecedented-22-million-enforcement-actions; https://www.dhs.gov/news/2026/10/29/under-president-trumps-leadership-uscis-takes-unprecedented-22-million-enforcement; https://www.business-standard.com/immigration/us-agency-has-revoked-status-of-2-2-mn-undocumented-immigrants-since-2025-126103000587_1.html
+
+## Form I-90: how to renew or replace your green card (and the 36-month extension)
+Date: 2026-10-31 · URL: https://casealerta.com/en/news/form-i-90-renew-green-card-guide/
+
+Form I-90 is the application to replace a Permanent Resident Card (green card). Use it to renew the card when it expires or to replace it if something is wrong.
+Note: renewing the card is not renewing your residence. Your permanent residence does not expire; the card that proves it does.
+## When to use it
+- Your card expires within the next 6 months or has already expired.
+- It was lost, stolen or destroyed.
+- It was issued but you never received it.
+- It is damaged or has a data error.
+- You legally changed your name or other details.
+## Who should NOT use it
+- If you are a conditional resident (2-year card) and want to remove conditions, the I-90 is not your form. That uses a different form (I-751 or I-829, depending on your case).
+## How to file
+- Online, with a USCIS account, or by mail on paper.
+- If you request a fee waiver, you must file on paper.
+- Fees change over time. Check the current amount on the official I-90 page or the USCIS fee calculator before you pay.
+- If your card never arrived or has a USCIS error, in some cases there is no fee.
+## What happens next
+- You get a receipt notice (Form I-797C).
+- You may be scheduled for biometrics (fingerprints and photo).
+- USCIS reviews the case and mails your new card.
+## The 36-month extension
+- Since September 10, 2024, the I-90 receipt notice extends your green card's validity for 36 months from the expiration date printed on the card.
+- Show the receipt with your expired card as proof of status and work authorization.
+- If you no longer have the card and need proof of status, you can request a field office appointment through the USCIS Contact Center. They may give you an ADIT stamp.
+## How long it takes
+We don't give exact dates. Check the current range on the official USCIS processing times page for Form I-90.
+## What to do
+- Check your card's date today. If it expires in 6 months or less, file the I-90.
+- Keep the I-797C receipt safe and carry a copy when traveling or starting a job.
+- If you move, update your address in your USCIS account so the card reaches you.
+- If your case is complex (criminal history, long trips abroad), talk to a lawyer before filing.
+This guide is informational and is not legal advice.
+
+Sources: https://www.uscis.gov/i-90; https://www.uscis.gov/newsroom/alerts/uscis-extends-green-card-validity-extension-to-36-months-for-green-card-renewals; https://content.govdelivery.com/accounts/USDHSCIS/bulletins/3b688d0; https://egov.uscis.gov/processing-times/
+
 ## Form I-485 (adjustment of status): how to apply for a green card inside the U.S.
 Date: 2026-10-30 · URL: https://casealerta.com/en/news/form-i-485-adjustment-of-status-green-card-guide/
 

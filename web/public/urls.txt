@@ -53,6 +53,8 @@ https://casealerta.com/status/expedite-request-received/
 https://casealerta.com/status/withdrawal-acknowledgement-notice-was-sent/
 https://casealerta.com/status/name-was-updated/
 https://casealerta.com/noticias/
+https://casealerta.com/noticias/uscis-2-2-millones-acciones-de-cumplimiento-que-significa/
+https://casealerta.com/noticias/formulario-i-90-renovar-green-card-guia/
 https://casealerta.com/noticias/formulario-i-485-ajuste-de-estatus-green-card-guia/
 https://casealerta.com/noticias/formulario-n-400-ciudadania-guia/
 https://casealerta.com/noticias/formulario-i-765-permiso-de-trabajo-guia/
@@ -73,6 +75,8 @@ https://casealerta.com/noticias/fin-extension-automatica-permiso-de-trabajo-ead/
 https://casealerta.com/noticias/uscis-propone-quitar-deferencia-en-extensiones/
 https://casealerta.com/noticias/boletin-de-visas-octubre-2026/
 https://casealerta.com/en/news/
+https://casealerta.com/en/news/uscis-2-2-million-enforcement-actions-what-it-means/
+https://casealerta.com/en/news/form-i-90-renew-green-card-guide/
 https://casealerta.com/en/news/form-i-485-adjustment-of-status-green-card-guide/
 https://casealerta.com/en/news/form-n-400-citizenship-naturalization-guide/
 https://casealerta.com/en/news/form-i-765-work-permit-ead-guide/
