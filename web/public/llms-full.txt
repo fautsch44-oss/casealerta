@@ -1,5 +1,66 @@
 # CaseAlerta — full reference
 
+## Investor green card (EB-5): new USCIS fees start November 30, 2026
+Date: 2026-11-01 · URL: https://casealerta.com/en/news/eb-5-new-fees-november-30-2026/
+
+USCIS published a final rule that changes fees for the EB-5 program, the investor green card. The rule appeared in the Federal Register on September 30, 2026, and takes effect on November 30, 2026.
+The rule is clear: any application or petition postmarked on or after November 30, 2026, must pay the new fees.
+## Which fees change
+Based on the rule's fee table as summarized by Envoy Global (always confirm on the official form page):
+- I-526 (standalone investor): from $3,675 to $7,615.
+- I-526E (regional center investor): from $3,675 to $7,850.
+- I-829 (remove conditions on residence): from $3,750 to $5,000.
+- I-956 (regional center designation): from $17,795 to $44,115.
+- I-956F (project or enterprise): from $17,795 to $42,675.
+- Some fees go down: the I-956 amendment and the I-956G annual statement.
+## A new form and other charges
+- New Form I-527 (amendment to a legacy I-526), with a $10,330 fee. It is for certain pre-2022-reform investors whose regional center was terminated or whose project was debarred.
+- A $75 technology fee applies to Form I-526 and initial Form I-526E filings.
+- Integrity Fund fees rise about 10%: from $1,000 to $1,100 for the I-526E, and from $10,000 to $11,000 (or $20,000 to $22,000) for regional centers.
+## Who it affects
+- Investors filing an I-526, I-526E, or I-829.
+- EB-5 regional centers and projects.
+- It does not change fees for other filings, such as work permits or citizenship.
+## What to do
+- If you were about to file, ask your attorney whether to send it before November 30, 2026. The postmark date counts.
+- Before paying, confirm the amount on the official form page or the USCIS fee calculator. A wrong payment can get your package rejected.
+- If your case is already pending, this rule does not make you pay again.
+- Track your case with your receipt number. CaseAlerta alerts you when the status changes.
+This is general information, not legal advice.
+
+Sources: https://www.uscis.gov/newsroom/alerts/uscis-adjusts-eb-5-fees-to-cover-program-costs-and-strengthen-integrity-measures; https://www.govinfo.gov/content/pkg/FR-2026-09-30/pdf/2026-20016.pdf; https://www.envoyglobal.com/news-alert/uscis-finalizes-new-eb-5-fee-schedule-and-integrity-fund-changes/
+
+## "Card Was Mailed To Me": USCIS sent your green card or work permit. How to track it and what to do if it doesn't arrive
+Date: 2026-11-01 · URL: https://casealerta.com/en/news/uscis-card-was-mailed-guide/
+
+When your case changes to "Card Was Mailed To Me," USCIS has printed your card and handed it to the U.S. Postal Service (USPS). It may be your green card, your work permit (EAD), or another document.
+Before that you usually see "Card Is Being Produced." That is good news: your case was approved.
+## Where it goes
+- USCIS mails the card by USPS to the address on your case.
+- If your attorney asked for it, it can go to your attorney's or representative's office.
+- USCIS generally mails only to U.S. addresses.
+## How to track it
+- Create a USCIS Case Status Online account. It shows your USPS tracking number.
+- Use that number to follow the package on the USPS website.
+- Sign up for USPS Informed Delivery to preview your mail before it arrives.
+- Delivery can take several days after the notice.
+## If you moved
+- You must tell USCIS your new address within 10 days of moving.
+- Update it online with USCIS and with USPS, for every pending case.
+- Write the full address in USPS format (use the USPS ZIP Code lookup).
+## If it doesn't arrive
+- Check USPS tracking and ask at your local post office.
+- If it still can't be found, use the USCIS "Non-Delivery of Card" e-Request. Don't send it if you were just approved: give the mail time.
+- If the card is truly lost, you may need to request a replacement (I-90 for a green card, I-765 for a work permit).
+## What to do
+- Confirm today that your address with USCIS is correct.
+- Find your tracking number and turn on Informed Delivery.
+- When it arrives, check your name, date of birth, and card dates. If USCIS made an error, ask for a correction.
+- Turn on CaseAlerta alerts to know the moment your case changes.
+This is general information, not legal advice.
+
+Sources: https://www.uscis.gov/policy-manual/volume-11-part-a-chapter-2; https://www.uscis.gov/forms/filing-guidance/how-to-track-delivery-of-your-notice-or-secure-identity-document-or-card; https://egov.uscis.gov/e-request/ndc
+
 ## USCIS reports 2.2 million enforcement actions: what it means for your case
 Date: 2026-10-31 · URL: https://casealerta.com/en/news/uscis-2-2-million-enforcement-actions-what-it-means/
 
