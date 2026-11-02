@@ -1,5 +1,62 @@
 # CaseAlerta — full reference
 
+## DV-2027 green card lottery still closed after an appeals court pause
+Date: 2026-11-02 · URL: https://casealerta.com/en/news/dv-2027-green-card-lottery-still-closed-court-pause/
+
+The Diversity Visa (DV) program, known as the green card lottery, is still not open for DV-2027.
+The State Department says it is changing the entry process and will announce the start date as soon as practicable. As of today, it has not given a date.
+## What happened in court
+- On October 14, 2026, a federal court in San Diego ordered the State Department to open registration on November 1.
+- On October 29, 2026, the Ninth Circuit Court of Appeals granted the government's request and paused that order while the appeal continues.
+- That is why registration did not open on November 1.
+- The court will set a briefing schedule later. No hearing date has been set.
+## Who this affects
+- People from eligible countries who planned to enter DV-2027.
+- It does not change other cases: family petitions, employment green cards, work permits and citizenship keep moving as usual.
+## Watch out for scams
+- Entry is free and only happens on the official State Department site: dvprogram.state.gov.
+- No one can enter you in DV-2027 today. If someone charges you to do it, it is a scam.
+- The government does not email or text you to say you won.
+## What to do
+- Do not pay anyone who promises to enter you in DV-2027.
+- Check only official State Department pages for the registration date.
+- Keep your details and a photo that meets the rules ready, so you can enter fast when it opens.
+- If you already have a USCIS case, add your receipt number to CaseAlerta to know the moment it changes.
+This is general information, not legal advice.
+
+Sources: https://travel.state.gov/content/travel/en/News/visas-news/changes-to-2027-dv-program-entry-period.html; https://cdn.ca9.uscourts.gov/datastore/opinions/2026/10/29/26-6943.pdf; https://blog.wego.com/dv-lottery-2027/
+
+## USCIS green card interview (I-485): what to bring, what happens and what comes next
+Date: 2026-11-02 · URL: https://casealerta.com/en/news/uscis-green-card-interview-what-to-bring-and-what-to-expect/
+
+When you apply for a green card from inside the U.S. with Form I-485, USCIS reviews your case and decides whether it needs to interview you.
+If there is an interview, you get a notice with the date, time and office. In CaseAlerta you will see it as a status change, for example "Interview Was Scheduled".
+## What to bring
+- Your interview notice.
+- The originals of every document you sent with your I-485.
+- Your passports, travel documents and your I-94, even if they are expired.
+- A photo ID.
+- If your case is family-based, the relative who filed the petition should also attend, if it applies.
+- Check your notice: it may ask for extra documents.
+## What happens at the interview
+- You go to a USCIS office.
+- You answer questions under oath about your I-485 application.
+- The officer may ask for more evidence. A request for evidence comes with a deadline to respond.
+## What comes next
+- You usually do not get a written decision that day. USCIS mails you the decision.
+- If approved, you usually get an approval notice first and the green card later.
+- If denied, the notice explains why. In general you cannot appeal, but sometimes you can ask to reopen or reconsider with Form I-290B.
+## What to do
+- Read your interview notice today and write down the date, time and address.
+- Gather the originals of everything you sent, plus passports and I-94.
+- Review your application so you remember your answers.
+- If you moved, change your address with USCIS so you do not miss notices.
+- Add your receipt number to CaseAlerta to know the moment your status changes.
+- To see how long it may take, check USCIS processing times. They are ranges, not exact dates.
+This is general information, not legal advice.
+
+Sources: https://www.uscis.gov/green-card/green-card-processes-and-procedures/adjustment-of-status; https://www.uscis.gov/sites/default/files/document/forms/i-485instr.pdf; https://egov.uscis.gov/processing-times/
+
 ## Investor green card (EB-5): new USCIS fees start November 30, 2026
 Date: 2026-11-01 · URL: https://casealerta.com/en/news/eb-5-new-fees-november-30-2026/
 
