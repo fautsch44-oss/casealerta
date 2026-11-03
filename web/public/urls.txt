@@ -53,6 +53,7 @@ https://casealerta.com/status/expedite-request-received/
 https://casealerta.com/status/withdrawal-acknowledgement-notice-was-sent/
 https://casealerta.com/status/name-was-updated/
 https://casealerta.com/noticias/
+https://casealerta.com/noticias/formulario-i-751-remover-condiciones-green-card-guia/
 https://casealerta.com/noticias/loteria-de-visas-dv-2027-sigue-cerrada-corte-pausa/
 https://casealerta.com/noticias/entrevista-de-green-card-uscis-que-llevar-y-que-esperar/
 https://casealerta.com/noticias/eb-5-nuevas-tarifas-30-noviembre-2026/
@@ -79,6 +80,7 @@ https://casealerta.com/noticias/fin-extension-automatica-permiso-de-trabajo-ead/
 https://casealerta.com/noticias/uscis-propone-quitar-deferencia-en-extensiones/
 https://casealerta.com/noticias/boletin-de-visas-octubre-2026/
 https://casealerta.com/en/news/
+https://casealerta.com/en/news/form-i-751-remove-conditions-green-card-guide/
 https://casealerta.com/en/news/dv-2027-green-card-lottery-still-closed-court-pause/
 https://casealerta.com/en/news/uscis-green-card-interview-what-to-bring-and-what-to-expect/
 https://casealerta.com/en/news/eb-5-new-fees-november-30-2026/
