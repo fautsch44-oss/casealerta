@@ -1,11 +1,12 @@
-import { formByCode, note, pick, rangeText, statusByCode, statusPath, w1Path, applies } from '@/lib/catalog';
+import { formByCode, note, pick, rangeText, statusPath, w1Path, applies } from '@/lib/catalog';
 import { SITE } from '@/lib/i18n';
+import { findStatus } from '@/lib/mcp';
 
 /** API citable: qué significa un estatus de USCIS (opcionalmente para un formulario). */
 export function GET(req: Request) {
   const u = new URL(req.url);
   const lang = u.searchParams.get('lang') === 'es' ? 'es' : 'en';
-  const st = statusByCode(u.searchParams.get('status') ?? '');
+  const st = findStatus(u.searchParams.get('status') ?? '');
   if (!st) return Response.json({ error: 'unknown_status', hint: 'Pass the exact USCIS status text, e.g. status=Case Was Received' }, { status: 404 });
   const form = formByCode(u.searchParams.get('form'));
   const useForm = form && applies(form, st) ? form : undefined;

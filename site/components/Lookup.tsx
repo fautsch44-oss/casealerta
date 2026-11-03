@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useMemo, useState } from 'react';
+import { CENTERS, RECEIPT_RE, cleanReceipt } from '@/lib/centers';
 import { track } from './Analytics';
 import { createPortal } from 'react-dom';
 import type { Kind, Lang } from '@/lib/types';
@@ -16,11 +17,6 @@ type Cat = {
 type Hist = { date?: string; completed_text_en?: string; completed_text_es?: string };
 type Case = { receipt_number: string; form_type: string | null; status_en: string | null; status_es: string | null; desc_en: string | null; desc_es: string | null; submitted: string | null; modified: string | null; history: Hist[] };
 
-const CENTERS: Record<string, [string, string]> = {
-  SRC: ['Centro de Texas', 'Texas Service Center'], LIN: ['Centro de Nebraska', 'Nebraska Service Center'], WAC: ['Centro de California', 'California Service Center'],
-  EAC: ['Centro de Vermont', 'Vermont Service Center'], MSC: ['Centro Nacional de Beneficios', 'National Benefits Center'], NBC: ['Centro Nacional de Beneficios', 'National Benefits Center'],
-  IOE: ['Sistema en línea (ELIS)', 'Online system (ELIS)'], YSC: ['Centro de Potomac', 'Potomac Service Center'],
-};
 
 const S = {
   es: {
@@ -94,19 +90,20 @@ export default function Lookup({ lang, plansHref, compact = false }: { lang: Lan
   const st = useMemo(() => (c?.status_en ? cat.statuses.find((x) => x.code.toLowerCase() === c.status_en!.toLowerCase()) : undefined), [c, cat]);
   const fm = useMemo(() => (c?.form_type ? cat.forms.find((f) => f.code.toUpperCase() === c.form_type!.toUpperCase().replace(/\s+/g, '')) : undefined), [c, cat]);
   const kind: Kind = st?.kind ?? 'ok';
-  const center = c ? CENTERS[c.receipt_number.slice(0, 3)]?.[lang === 'es' ? 0 : 1] : null;
+  const center = c ? CENTERS[c.receipt_number.slice(0, 3)]?.[lang] ?? null : null;
   const webCase: WebCase = c ? { receipt_number: c.receipt_number, form_type: c.form_type, status_en: c.status_en } : null;
 
-  async function look(raw: string) {
-    const r = raw.replace(/[\s-]/g, '').toUpperCase();
+  /** Consulta el recibo y devuelve un resumen corto (lo usa también la herramienta WebMCP consultar_recibo). */
+  async function look(raw: string): Promise<string> {
+    const r = cleanReceipt(raw);
     setErr(null); setErrDetail(null); setAlert(null); setErrPro(false);
-    if (!/^[A-Z]{3}[0-9]{10}$/.test(r)) { setErr(s.bad); return; }
+    if (!RECEIPT_RE.test(r)) { setErr(s.bad); return s.bad; }
     setBusy(true); setC(null);
     try {
       const { status, data } = await fn('casealerta-uscis-status', { receipt_number: r });
-      if (status === 402 && data?.code === 'lookup_limit') { setErr((lang === 'es' && data?.message_es) || data?.message); setErrPro(true); track('paywall_viewed', { reason: 'lookup_limit' }); return; }
-      if (status === 429) { setErr(s.limited); track('error_shown', { where: 'lookup', code: '429' }); return; }
-      if (status >= 400 || !data?.ok) { setErr((lang === 'es' && data?.message_es) || data?.message || s.net); setErrDetail(data?.uscis_message ?? null); track('error_shown', { where: 'lookup', code: String(status), upstream: data?.upstream_status ?? null }); return; }
+      if (status === 402 && data?.code === 'lookup_limit') { setErr((lang === 'es' && data?.message_es) || data?.message); setErrPro(true); track('paywall_viewed', { reason: 'lookup_limit' }); return (lang === 'es' && data?.message_es) || data?.message || 'lookup_limit'; }
+      if (status === 429) { setErr(s.limited); track('error_shown', { where: 'lookup', code: '429' }); return s.limited; }
+      if (status >= 400 || !data?.ok) { setErr((lang === 'es' && data?.message_es) || data?.message || s.net); setErrDetail(data?.uscis_message ?? null); track('error_shown', { where: 'lookup', code: String(status), upstream: data?.upstream_status ?? null }); return [(lang === 'es' && data?.message_es) || data?.message || s.net, data?.uscis_message].filter(Boolean).join(' · USCIS: '); }
       setC(data.case as Case); setSpecific(null); setStaleAt(data?.stale ? data.cached_at ?? null : null);
       track('first_value_shown', { form: data.case?.form_type ?? 'unknown' });
       const cc = data.case as Case;
@@ -114,7 +111,9 @@ export default function Lookup({ lang, plansHref, compact = false }: { lang: Lan
       const next = [r, ...store.get<string[]>('ca-recent', []).filter((x) => x !== r)].slice(0, 5);
       store.set('ca-recent', next); setRecent(next);
       setTimeout(() => document.getElementById('resultado')?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 60);
-    } catch { setErr(s.net); track('error_shown', { where: 'lookup', code: 'network' }); } finally { setBusy(false); }
+      const official = (lang === 'es' ? cc.status_es : null) ?? cc.status_en ?? '';
+      return [`${r}${cc.form_type ? ` (${cc.form_type})` : ''}: ${official}`, (lang === 'es' ? cc.desc_es : cc.desc_en) ?? '', CENTERS[r.slice(0, 3)]?.[lang] ?? '', cc.modified ? `${lang === 'es' ? 'Último cambio' : 'Last change'}: ${cc.modified}` : '', data?.stale ? (lang === 'es' ? 'Dato guardado; USCIS no respondió en este momento.' : 'Cached; USCIS did not respond right now.') : '', `${location.origin}${location.pathname}#resultado`].filter(Boolean).join('\n');
+    } catch { setErr(s.net); track('error_shown', { where: 'lookup', code: 'network' }); return s.net; } finally { setBusy(false); }
   }
 
   async function subscribe(e: React.FormEvent) {
@@ -180,9 +179,21 @@ export default function Lookup({ lang, plansHref, compact = false }: { lang: Lan
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="M20 20l-4-4" /></svg>
           </span>{s.title}
         </div>
-        <form onSubmit={(e) => { e.preventDefault(); look(v); }} noValidate>
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
+            const ne = e.nativeEvent as SubmitEvent & { agentInvoked?: boolean; respondWith?: (p: Promise<unknown>) => void };
+            const raw = String(new FormData(e.currentTarget).get('receipt_number') ?? v);
+            if (raw !== v) setV(raw);
+            const run = look(raw);
+            if (ne.agentInvoked && ne.respondWith) { track('webmcp_tool', { tool: 'consultar_recibo' }); ne.respondWith(run); }
+          }}
+          noValidate
+          {...{ toolname: 'consultar_recibo', tooldescription: lang === 'es' ? 'Consulta el estatus oficial de un caso de USCIS con su número de recibo y explica qué significa. Gratis, sin cuenta.' : 'Checks the official status of a USCIS case by its receipt number and explains what it means. Free, no account.' }}
+        >
           <label htmlFor="rcpt">{s.label}</label>
-          <input id="rcpt" className="input rcpt" value={v} onChange={(e) => setV(e.target.value)} inputMode="text" autoComplete="off" placeholder="IOE0912345678" maxLength={16} aria-describedby="rcpt-err" />
+          <input id="rcpt" name="receipt_number" className="input rcpt" value={v} onChange={(e) => setV(e.target.value)}
+            {...{ toolparamdescription: lang === 'es' ? 'Número de recibo de USCIS: 3 letras y 10 números, por ejemplo IOE0912345678 (viene en el aviso I-797C).' : 'USCIS receipt number: 3 letters + 10 digits, e.g. IOE0912345678 (on the I-797C notice).' }} inputMode="text" autoComplete="off" placeholder="IOE0912345678" maxLength={16} aria-describedby="rcpt-err" />
           <button className="btn full" type="submit" disabled={busy}>{busy ? s.busy : s.go}</button>
         </form>
         <div className="chips">{s.chips.map((x) => <span className="chip" key={x}>{x}</span>)}</div>

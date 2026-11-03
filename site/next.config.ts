@@ -14,7 +14,9 @@ const config: NextConfig = {
   async headers() {
     return [
       { source: '/(.*)', headers: security },
+      { source: '/((?!api/|mcp/|_next/|\\.well-known/).*)', headers: [{ key: 'Link', value: '</llms.txt>; rel="describedby"; type="text/plain", </openapi.json>; rel="service-desc"; type="application/vnd.oai.openapi+json", </.well-known/ai-catalog.json>; rel="ai-catalog"; type="application/ai-catalog+json"' }] },
       { source: '/review/:path*', headers: [{ key: 'Access-Control-Allow-Origin', value: '*' }, { key: 'X-Robots-Tag', value: 'noindex' }] },
+      { source: '/.well-known/mcp-registry-auth', headers: [{ key: 'Content-Type', value: 'text/plain; charset=utf-8' }, { key: 'Access-Control-Allow-Origin', value: '*' }] },
       { source: '/sw.js', headers: [{ key: 'Cache-Control', value: 'no-cache' }, { key: 'Service-Worker-Allowed', value: '/' }] },
     ];
   },
