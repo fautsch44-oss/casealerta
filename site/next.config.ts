@@ -8,6 +8,11 @@ const security = [
   { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' },
 ];
 
+// MCP y API citable viven en Cloudflare Workers (worker/). Con MCP_WORKER_ORIGIN definido en Vercel
+// (p. ej. https://casealerta-mcp.<cuenta>.workers.dev), estas rutas se reenvían al Worker sin cambiar las URLs públicas.
+// Sin la variable, responden las rutas de Next (mismo código, respaldo).
+const WORKER = process.env.MCP_WORKER_ORIGIN?.replace(/\/+$/, '');
+
 const config: NextConfig = {
   trailingSlash: true,
   poweredByHeader: false,
@@ -19,6 +24,18 @@ const config: NextConfig = {
       { source: '/.well-known/mcp-registry-auth', headers: [{ key: 'Content-Type', value: 'text/plain; charset=utf-8' }, { key: 'Access-Control-Allow-Origin', value: '*' }] },
       { source: '/sw.js', headers: [{ key: 'Cache-Control', value: 'no-cache' }, { key: 'Service-Worker-Allowed', value: '/' }] },
     ];
+  },
+  async rewrites() {
+    if (!WORKER) return { beforeFiles: [], afterFiles: [], fallback: [] };
+    return {
+      beforeFiles: [
+        { source: '/:path*', has: [{ type: 'host', value: 'mcp.casealerta.com' }], destination: `${WORKER}/:path*` },
+        { source: '/mcp/:path*', destination: `${WORKER}/mcp/:path*` },
+        { source: '/api/v1/:path*', destination: `${WORKER}/api/v1/:path*` },
+      ],
+      afterFiles: [],
+      fallback: [],
+    };
   },
   async redirects() {
     return [

@@ -1,0 +1,15 @@
+{
+  "name": "casealerta-mcp",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "gen": "node scripts/gen-data.mjs",
+    "check": "npm run gen && wrangler deploy --dry-run --outdir dist",
+    "test": "npm run check && node scripts/test.mjs",
+    "deploy": "npm run gen && wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

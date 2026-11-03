@@ -1,23 +1,11 @@
-import 'server-only';
-import fs from 'node:fs';
-import path from 'node:path';
-import type { Form, Lang, NewsItem, Note, Status } from './types';
+// Catálogo de formularios, estatus y noticias: lógica pura (corre en Vercel y en el Worker de Cloudflare).
+import type { Form, Lang, NewsItem, Status } from './types';
 import { P, STAGES } from './i18n';
+import { FORMS_RAW, NEWS_RAW, NOTES_RAW, STATUSES_RAW } from '@/lib/catalog-data';
 
-const DATA = path.join(process.cwd(), 'data');
-const readJson = <T,>(p: string, fallback: T): T => {
-  try { return JSON.parse(fs.readFileSync(p, 'utf8')) as T; } catch { return fallback; }
-};
-
-export const FORMS: Form[] = readJson<Form[]>(path.join(DATA, 'forms.json'), []).sort((a, b) => a.popularity - b.popularity);
-export const STATUSES: Status[] = readJson<Status[]>(path.join(DATA, 'statuses.json'), []);
-
-const NOTES: Record<string, Record<string, Note>> = {};
-try {
-  for (const f of fs.readdirSync(path.join(DATA, 'notes'))) {
-    if (f.endsWith('.json')) NOTES[f.replace(/\.json$/, '')] = readJson(path.join(DATA, 'notes', f), {});
-  }
-} catch { /* sin notas aún */ }
+export const FORMS: Form[] = [...FORMS_RAW].sort((a, b) => a.popularity - b.popularity);
+export const STATUSES: Status[] = STATUSES_RAW;
+const NOTES = NOTES_RAW;
 
 export function note(form: Form, st: Status, lang: Lang): string | null {
   return NOTES[form.slug]?.[st.slug_en]?.[lang] ?? null;
@@ -66,18 +54,7 @@ export function rangeText(lang: Lang, f: Form) {
     : `${f.typical_months_min} to ${f.typical_months_max} months`;
 }
 
-/** Noticias: la fuente de verdad sigue siendo web/src/news/*.json (otras sesiones publican ahí). */
-function loadNews(): NewsItem[] {
-  const dirs = [path.join(process.cwd(), '..', 'web', 'src', 'news'), path.join(process.cwd(), 'content', 'news')];
-  for (const d of dirs) {
-    try {
-      const items = fs.readdirSync(d).filter((f) => f.endsWith('.json')).map((f) => readJson<NewsItem>(path.join(d, f), null as unknown as NewsItem)).filter(Boolean);
-      if (items.length) return items.sort((a, b) => (a.date === b.date ? (a.type === 'news' ? -1 : 1) : a.date < b.date ? 1 : -1));
-    } catch { /* siguiente */ }
-  }
-  return [];
-}
-export const NEWS = loadNews();
+export const NEWS: NewsItem[] = [...NEWS_RAW].sort((a, b) => (a.date === b.date ? (a.type === 'news' ? -1 : 1) : a.date < b.date ? 1 : -1));
 export const newsPath = (lang: Lang, a: NewsItem) => `${P[lang].news}${lang === 'es' ? a.slug_es : a.slug_en}/`;
 
 /** Mapa compacto para el cliente (consulta en vivo). */
