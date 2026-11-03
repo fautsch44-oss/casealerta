@@ -4,7 +4,7 @@
 //  POST {"mode":"poll","limit":50}  (x-cron-key o Bearer service role) -> revisa casos activos y registra cambios
 //  POST {"mode":"sandbox_traffic"}                       -> tráfico diario de prueba con recibos staging (solo sandbox)
 //  POST {"mode":"demo_check"}  (x-cron-key o service role) -> casos de prueba del demo USCIS: éxito, 404, 400 y estado del demo_id
-// Demo USCIS (producción): si existe CASEALERTA_USCIS_DEMO_ID se manda el encabezado `demo_id: ####` en cada llamada.
+// Demo USCIS (producción): si existe CASEALERTA_USCIS_DEMO_ID (o el secreto de Vault casealerta_uscis_demo_id) se manda el encabezado `demo_id: ####` en cada llamada.
 // Caché: cada respuesta 200 se guarda en casealerta.uscis_cache. Si USCIS no responde (5xx/429, p. ej. el sandbox
 // cerrado en fin de semana), se devuelve la ÚLTIMA respuesta oficial con stale=true y cached_at — nunca un dato inventado.
 // Errores: se normalizan al formato RFC 9457 de USCIS (code, message, category, reference, status, traceId),
@@ -16,7 +16,16 @@ const BASE = Deno.env.get("CASEALERTA_USCIS_BASE") ?? "https://api-int.uscis.gov
 const TOKEN_URL = Deno.env.get("CASEALERTA_USCIS_TOKEN_URL") ?? "https://api-int.uscis.gov/oauth/accesstoken";
 const CLIENT_ID = Deno.env.get("CASEALERTA_USCIS_CLIENT_ID");
 const CLIENT_SECRET = Deno.env.get("CASEALERTA_USCIS_CLIENT_SECRET");
-const DEMO_ID = (Deno.env.get("CASEALERTA_USCIS_DEMO_ID") ?? "").trim();
+const DEMO_ENV = (Deno.env.get("CASEALERTA_USCIS_DEMO_ID") ?? "").trim();
+// demo_id de USCIS: variable de entorno o, si no existe, secreto de Vault `casealerta_uscis_demo_id` (se lee una vez cada 5 min).
+let demoCache: { v: string; at: number } | null = null;
+async function demoId(): Promise<string> {
+  if (DEMO_ENV) return DEMO_ENV;
+  if (demoCache && Date.now() - demoCache.at < 300000) return demoCache.v;
+  const v = ((await vaultSecret("casealerta_uscis_demo_id").catch(() => null)) ?? "").trim();
+  demoCache = { v, at: Date.now() };
+  return v;
+}
 const SERVICE_KEY = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY");
 const sql = postgres(Deno.env.get("SUPABASE_DB_URL")!, { prepare: false, max: 2 });
 const IS_SANDBOX = BASE.includes("api-int.uscis.gov");
@@ -77,6 +86,7 @@ let token: { value: string; exp: number } | null = null;
 async function getToken(force = false): Promise<string> {
   if (!force && token && Date.now() < token.exp) return token.value;
   if (!CLIENT_ID || !CLIENT_SECRET) throw { status: 503, code: "credentials_missing", message: "USCIS credentials not configured" };
+  const DEMO_ID = await demoId();
   const r = await fetch(TOKEN_URL, {
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded", ...(DEMO_ID ? { demo_id: DEMO_ID } : {}) },
@@ -101,6 +111,7 @@ type Lookup = { ok: true; data: Status } | { ok: false; status: number; error: U
 
 async function callUscis(receipt: string, t: string) {
   const headers: Record<string, string> = { Authorization: `Bearer ${t}`, Accept: "application/json" };
+  const DEMO_ID = await demoId();
   if (DEMO_ID) headers.demo_id = DEMO_ID;
   return await fetch(`${BASE}/${encodeURIComponent(receipt)}`, { headers });
 }
@@ -156,7 +167,7 @@ async function sandboxTraffic() {
 
 // Guion del demo: un éxito, un no encontrado y un recibo mal escrito (validación local, sin llamar a USCIS).
 async function demoCheck() {
-  const out: Record<string, unknown> = { environment: IS_SANDBOX ? "sandbox" : "production", demo_id_header: DEMO_ID ? `set (${DEMO_ID.length} digits)` : "not set" };
+  const out: Record<string, unknown> = { environment: IS_SANDBOX ? "sandbox" : "production", demo_id_header: (await demoId()) ? `set (${(await demoId()).length} digits)` : "not set" };
   const ok = await lookup(IS_SANDBOX ? "EAC9999103403" : (await vaultSecret("casealerta_demo_receipt")) ?? "EAC9999103403", "uscis_demo_check");
   out.success = ok.ok ? { status: 200, form: ok.data.form_type, text: ok.data.status_en } : { status: ok.status, error: ok.error };
   const nf = await lookup("EAC0000000001", "uscis_demo_check");
