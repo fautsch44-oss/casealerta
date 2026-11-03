@@ -1,141 +1,137 @@
-// Servidor MCP público de CaseAlerta (Streamable HTTP sin estado, protocolo 2025-06-18).
-// Herramientas de solo lectura sobre el catálogo público: qué significa un estatus, tiempo típico de un formulario y búsqueda de formularios.
-// No consulta casos personales ni llama a USCIS: solo contenido explicativo citable. No es asesoría legal.
-import { FORMS, STATUSES, applies, fName, fShort, formByCode, formPath, note, pick, rangeText, statusByCode, statusPath, w1Path } from '@/lib/catalog';
-import { SITE } from '@/lib/i18n';
-import type { Lang } from '@/lib/types';
+// Servidor MCP público de CaseAlerta — transporte Streamable HTTP.
+// Vigente: 2026-07-28 (sin estado). Compatible: 2025-11-25, 2025-06-18, 2025-03-26 (saludo `initialize`).
+// Solo lectura, sin autenticación, sin sesiones, sin datos personales. No es asesoría legal.
+import { llmsTxt } from '@/lib/llms';
+import {
+  CARD_URL, INSTRUCTIONS, LATEST, LEGACY, MCP_URL, PROMPTS, RESOURCES, RESOURCE_TEMPLATES, SERVER_INFO, SUPPORTED, TOOLS,
+  callTool, getPrompt, readResource,
+} from '@/lib/mcp';
 
-const PROTOCOL = '2025-06-18';
-const SOURCE = 'CaseAlerta (casealerta.com) · AI-assisted, reviewed · Not legal advice · Typical ranges, never an exact date.';
+const META = 'io.modelcontextprotocol/';
 const cors = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Methods': 'POST, GET, OPTIONS',
-  'Access-Control-Allow-Headers': 'content-type, mcp-protocol-version, mcp-session-id, accept',
+  'Access-Control-Allow-Headers': 'Content-Type, Accept, MCP-Protocol-Version, Mcp-Method, Mcp-Name, Mcp-Session-Id, Last-Event-ID, traceparent, tracestate',
+  'Access-Control-Expose-Headers': 'MCP-Protocol-Version',
+  'Access-Control-Max-Age': '86400',
 };
-const langOf = (v: unknown): Lang => (v === 'es' ? 'es' : 'en');
+const CAPS = { tools: { listChanged: false }, resources: { subscribe: false, listChanged: false }, prompts: { listChanged: false } };
+const serverInfoMeta = { name: SERVER_INFO.name, version: SERVER_INFO.version };
 
-const TOOLS = [
-  {
-    name: 'explicar_estatus',
-    title: 'Explain a USCIS case status / Explicar un estatus de USCIS',
-    description: 'Explains in plain language what an official USCIS case status means and what to do next, optionally for a specific form. Bilingual (en/es).',
-    inputSchema: {
-      type: 'object',
-      properties: {
-        status: { type: 'string', description: 'Exact USCIS status text, e.g. "Case Was Received" or "Request for Evidence Was Sent".' },
-        form: { type: 'string', description: 'Optional form code, e.g. "I-485".' },
-        lang: { type: 'string', enum: ['en', 'es'], default: 'en' },
-      },
-      required: ['status'],
-    },
-    annotations: { readOnlyHint: true, openWorldHint: false },
-  },
-  {
-    name: 'tiempo_tipico',
-    title: 'Typical processing range / Tiempo típico',
-    description: 'Returns the typical processing range (never an exact date) and the usual milestones for a USCIS form.',
-    inputSchema: {
-      type: 'object',
-      properties: { form: { type: 'string', description: 'Form code, e.g. "I-130".' }, lang: { type: 'string', enum: ['en', 'es'], default: 'en' } },
-      required: ['form'],
-    },
-    annotations: { readOnlyHint: true, openWorldHint: false },
-  },
-  {
-    name: 'buscar_formulario',
-    title: 'Find a USCIS form / Buscar formulario',
-    description: 'Searches USCIS forms by code or words (e.g. "green card", "permiso de trabajo") and returns matching forms with links.',
-    inputSchema: {
-      type: 'object',
-      properties: { query: { type: 'string' }, lang: { type: 'string', enum: ['en', 'es'], default: 'en' } },
-      required: ['query'],
-    },
-    annotations: { readOnlyHint: true, openWorldHint: false },
-  },
-];
+type Reply = { status: number; body: object | null };
+const ok = (body: object | null, status = 200): Reply => ({ status, body });
+const rpcErr = (id: unknown, code: number, message: string, data?: unknown) => ({ jsonrpc: '2.0', id: id ?? null, error: data === undefined ? { code, message } : { code, message, data } });
 
-type Out = { text: string; data: Record<string, unknown>; isError?: boolean };
-
-function explicar(args: any): Out {
-  const lang = langOf(args?.lang);
-  const st = statusByCode(String(args?.status ?? ''));
-  if (!st) return { isError: true, text: `Unknown status. Use the exact USCIS text. Catalog: ${SITE}/api/v1/statuses`, data: { error: 'unknown_status' } };
-  const form = formByCode(args?.form);
-  const useForm = form && applies(form, st) ? form : undefined;
-  const url = `${SITE}${useForm ? w1Path(lang, useForm, st) : statusPath(lang, st)}`;
-  const data = {
-    status: st.code, title: lang === 'es' ? st.title_es : st.code, form: useForm?.code ?? null,
-    meaning: (useForm && note(useForm, st, lang)) || pick(lang, st.meaning_es, st.meaning_en),
-    next_steps: pick(lang, st.next_es, st.next_en), typical_range: useForm ? rangeText(lang, useForm) : null, url, source: SOURCE,
-  };
-  const next = Array.isArray(data.next_steps) ? (data.next_steps as string[]).map((x) => `- ${x}`).join('\n') : String(data.next_steps ?? '');
-  return { data, text: `${data.title}${data.form ? ` (${data.form})` : ''}\n\n${data.meaning}\n\n${lang === 'es' ? 'Qué sigue' : 'What to do next'}:\n${next}${data.typical_range ? `\n\n${lang === 'es' ? 'Rango típico' : 'Typical range'}: ${data.typical_range}` : ''}\n\n${url}\n${SOURCE}` };
+/** Decodifica el centinela =?base64?...?= que permite la especificación en Mcp-Name. */
+function headerValue(v: string | null) {
+  if (v == null) return null;
+  const m = /^=\?base64\?(.*)\?=$/.exec(v.trim());
+  if (!m) return v.trim();
+  try { return new TextDecoder().decode(Uint8Array.from(atob(m[1]), (c) => c.charCodeAt(0))); } catch { return null; }
 }
 
-function tiempo(args: any): Out {
-  const lang = langOf(args?.lang);
-  const f = formByCode(args?.form);
-  if (!f) return { isError: true, text: 'Unknown form code. Try buscar_formulario first.', data: { error: 'unknown_form' } };
-  const url = `${SITE}${formPath(lang, f)}`;
-  const data = { form: f.code, name: fName(lang, f), typical_range: rangeText(lang, f), milestones: pick(lang, f.milestones_es, f.milestones_en), url, source: SOURCE };
-  return { data, text: `${f.code} · ${data.name}\n${lang === 'es' ? 'Rango típico' : 'Typical range'}: ${data.typical_range ?? (lang === 'es' ? 'USCIS no publica un rango único' : 'USCIS does not publish a single range')}\n${(data.milestones as string[]).map((m, i) => `${i + 1}. ${m}`).join('\n')}\n\n${url}\n${SOURCE}` };
-}
+function dispatch(id: unknown, method: string, params: any, modern: boolean): Reply {
+  const done = (result: Record<string, unknown>, cacheable = false) => ok({
+    jsonrpc: '2.0', id,
+    result: modern
+      ? { resultType: 'complete', ...result, ...(cacheable ? { ttlMs: 6 * 60 * 60 * 1000, cacheScope: 'public' } : {}), _meta: { [`${META}serverInfo`]: serverInfoMeta } }
+      : result,
+  });
+  const notFound = () => ok(rpcErr(id, -32601, `Method not found: ${method}`), modern ? 404 : 200);
 
-function buscar(args: any): Out {
-  const lang = langOf(args?.lang);
-  const q = String(args?.query ?? '').toLowerCase().trim();
-  if (!q) return { isError: true, text: 'Empty query.', data: { error: 'empty_query' } };
-  const hits = FORMS.filter((f) => [f.code, f.name_en, f.name_es, f.short_en, f.short_es].some((s) => s.toLowerCase().includes(q))).slice(0, 8)
-    .map((f) => ({ form: f.code, name: fName(lang, f), short: fShort(lang, f), typical_range: rangeText(lang, f), url: `${SITE}${formPath(lang, f)}` }));
-  return { data: { results: hits, source: SOURCE }, text: hits.length ? hits.map((h) => `${h.form} · ${h.short} — ${h.url}`).join('\n') : (lang === 'es' ? 'Sin resultados.' : 'No results.') };
-}
-
-const rpc = (id: unknown, result: unknown) => ({ jsonrpc: '2.0', id, result });
-const rpcErr = (id: unknown, code: number, message: string) => ({ jsonrpc: '2.0', id: id ?? null, error: { code, message } });
-
-function handle(msg: any): object | null {
-  const { id, method, params } = msg ?? {};
-  if (typeof method !== 'string') return rpcErr(id, -32600, 'Invalid Request');
-  if (method.startsWith('notifications/')) return null;
   switch (method) {
-    case 'initialize':
-      return rpc(id, {
-        protocolVersion: PROTOCOL,
-        capabilities: { tools: { listChanged: false } },
-        serverInfo: { name: 'casealerta', title: 'CaseAlerta — USCIS case status explained', version: '1.0.0' },
-        instructions: `Bilingual (en/es) explanations of USCIS case statuses and forms. ${STATUSES.length} statuses, ${FORMS.length} forms. Read-only. Not legal advice.`,
-      });
-    case 'ping': return rpc(id, {});
-    case 'tools/list': return rpc(id, { tools: TOOLS });
+    case 'server/discover':
+      return done({ supportedVersions: SUPPORTED, capabilities: CAPS, instructions: INSTRUCTIONS }, true);
+    case 'ping':
+      return modern ? notFound() : done({});
+    case 'tools/list':
+      return done({ tools: TOOLS }, true);
     case 'tools/call': {
-      const name = params?.name; const args = params?.arguments ?? {};
-      const fn = name === 'explicar_estatus' ? explicar : name === 'tiempo_tipico' ? tiempo : name === 'buscar_formulario' ? buscar : null;
-      if (!fn) return rpcErr(id, -32602, `Unknown tool: ${name}`);
-      const out = fn(args);
-      return rpc(id, { content: [{ type: 'text', text: out.text }], structuredContent: out.data, isError: !!out.isError });
+      const name = params?.name;
+      const out = typeof name === 'string' ? callTool(name, params?.arguments) : null;
+      if (!out) return ok(rpcErr(id, -32602, `Unknown tool: ${name}. Available: ${TOOLS.map((t) => t.name).join(', ')}`));
+      return done(out);
     }
-    case 'resources/list': return rpc(id, { resources: [] });
-    case 'prompts/list': return rpc(id, { prompts: [] });
-    default: return rpcErr(id, -32601, `Method not found: ${method}`);
+    case 'resources/list':
+      return done({ resources: RESOURCES }, true);
+    case 'resources/templates/list':
+      return done({ resourceTemplates: RESOURCE_TEMPLATES }, true);
+    case 'resources/read': {
+      const c = typeof params?.uri === 'string' ? readResource(params.uri, llmsTxt) : null;
+      return c ? done({ contents: [c] }, true) : ok(rpcErr(id, modern ? -32602 : -32002, `Resource not found: ${params?.uri}`, { uri: params?.uri }));
+    }
+    case 'prompts/list':
+      return done({ prompts: PROMPTS }, true);
+    case 'prompts/get': {
+      const p = typeof params?.name === 'string' ? getPrompt(params.name, params?.arguments) : null;
+      return p ? done(p) : ok(rpcErr(id, -32602, `Unknown prompt or missing "status" argument: ${params?.name}`));
+    }
+    case 'completion/complete':
+      return done({ completion: { values: [], hasMore: false } });
+    default:
+      return notFound();
   }
+}
+
+function handle(msg: any, h: Headers, single: boolean): Reply {
+  if (!msg || typeof msg !== 'object' || msg.jsonrpc !== '2.0' || typeof msg.method !== 'string') return ok(rpcErr(msg?.id, -32600, 'Invalid Request'), 400);
+  const { id, method, params } = msg;
+  const isNotification = id === undefined;
+  const meta = params?._meta ?? {};
+  const reqVersion = meta[`${META}protocolVersion`];
+
+  // Era anterior: saludo `initialize`.
+  if (method === 'initialize') {
+    const asked = params?.protocolVersion;
+    const protocolVersion = LEGACY.includes(asked) ? asked : LEGACY[0];
+    return ok({ jsonrpc: '2.0', id, result: { protocolVersion, capabilities: CAPS, serverInfo: SERVER_INFO, instructions: INSTRUCTIONS } });
+  }
+  if (isNotification) return ok(null, 202);
+
+  // Era vigente: cada petición trae su versión y capacidades en _meta.
+  if (typeof reqVersion === 'string') {
+    if (!SUPPORTED.includes(reqVersion)) return ok(rpcErr(id, -32022, `Unsupported protocol version: ${reqVersion}`, { supported: SUPPORTED, requested: reqVersion }), 400);
+    if (single) {
+      const hv = h.get('mcp-protocol-version'), hm = h.get('mcp-method');
+      if (!hv || hv.trim() !== reqVersion) return ok(rpcErr(id, -32020, `Header mismatch: MCP-Protocol-Version header '${hv ?? ''}' does not match body value '${reqVersion}'`), 400);
+      if (!hm || hm.trim() !== method) return ok(rpcErr(id, -32020, `Header mismatch: Mcp-Method header '${hm ?? ''}' does not match body value '${method}'`), 400);
+      if (['tools/call', 'prompts/get', 'resources/read'].includes(method)) {
+        const want = method === 'resources/read' ? params?.uri : params?.name;
+        const got = headerValue(h.get('mcp-name'));
+        if (got !== want) return ok(rpcErr(id, -32020, `Header mismatch: Mcp-Name header '${got ?? ''}' does not match body value '${want ?? ''}'`), 400);
+      }
+    }
+    if (meta[`${META}clientCapabilities`] === undefined) return ok(rpcErr(id, -32602, `Invalid params: missing _meta["${META}clientCapabilities"]`), 400);
+    return dispatch(id, method, params, true);
+  }
+
+  // Petición de un cliente de la era anterior después del saludo.
+  return dispatch(id, method, params, false);
 }
 
 export async function POST(req: Request) {
   let body: any;
   try { body = await req.json(); } catch { return Response.json(rpcErr(null, -32700, 'Parse error'), { status: 400, headers: cors }); }
-  if (Array.isArray(body)) {
-    const out = body.map(handle).filter(Boolean);
+  if (Array.isArray(body)) { // lotes: solo la era anterior los usaba
+    const out = body.map((m) => handle(m, req.headers, false).body).filter(Boolean);
     return out.length ? Response.json(out, { headers: cors }) : new Response(null, { status: 202, headers: cors });
   }
-  const out = handle(body);
-  return out ? Response.json(out, { headers: { ...cors, 'MCP-Protocol-Version': PROTOCOL } }) : new Response(null, { status: 202, headers: cors });
+  const { status, body: out } = handle(body, req.headers, true);
+  const v = body?.params?._meta?.[`${META}protocolVersion`] ?? (body?.method === 'initialize' ? (out as any)?.result?.protocolVersion : req.headers.get('mcp-protocol-version'));
+  const headers = { ...cors, ...(typeof v === 'string' && SUPPORTED.includes(v) ? { 'MCP-Protocol-Version': v } : {}) };
+  return out ? Response.json(out, { status, headers }) : new Response(null, { status, headers });
 }
 
-export function GET() {
+// GET: sin flujo SSE (servidor sin estado) → 405 para clientes MCP; ficha legible para personas y rastreadores.
+export function GET(req: Request) {
+  if ((req.headers.get('accept') ?? '').includes('text/event-stream')) return new Response(null, { status: 405, headers: { ...cors, Allow: 'POST, OPTIONS' } });
   return Response.json({
-    name: 'casealerta', protocol: PROTOCOL, transport: 'streamable-http (POST JSON-RPC)', endpoint: `${SITE}/mcp`,
-    tools: TOOLS.map((t) => t.name), docs: `${SITE}/llms.txt`, note: 'Read-only. Not legal advice.',
-  }, { headers: cors });
+    name: SERVER_INFO.name, title: SERVER_INFO.title, description: SERVER_INFO.description, version: SERVER_INFO.version,
+    endpoint: MCP_URL, transport: 'streamable-http (POST JSON-RPC 2.0)', protocol: LATEST, supportedProtocolVersions: SUPPORTED,
+    auth: 'none', tools: TOOLS.map((t) => ({ name: t.name, title: t.title })), serverCard: CARD_URL,
+    aiCatalog: 'https://casealerta.com/.well-known/ai-catalog.json', docs: 'https://casealerta.com/llms.txt', note: 'Read-only. Not legal advice. Not affiliated with USCIS.',
+  }, { headers: { ...cors, Link: `<${CARD_URL}>; rel="describedby"; type="application/mcp-server-card+json"` } });
 }
 
+export function DELETE() { return new Response(null, { status: 405, headers: { ...cors, Allow: 'POST, OPTIONS' } }); }
 export function OPTIONS() { return new Response(null, { status: 204, headers: cors }); }

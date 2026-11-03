@@ -1,4 +1,5 @@
 import { Analytics } from './Analytics';
+import { WebMCP } from './WebMCP';
 import Link from 'next/link';
 import type { Lang } from '@/lib/types';
 import { P, T, other } from '@/lib/i18n';
@@ -53,8 +54,13 @@ export function RootDoc({ lang, children }: { lang: Lang; children: React.ReactN
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700;800&family=Cinzel:wght@700&display=swap" />
         <link rel="alternate" type="application/rss+xml" title="CaseAlerta" href={`${P[lang].news}rss.xml`} />
+        <link rel="alternate" type="text/plain" title="llms.txt" href="/llms.txt" />
+        <link rel="service-desc" type="application/vnd.oai.openapi+json" href="/openapi.json" />
+        <link rel="ai-catalog" type="application/ai-catalog+json" href="/.well-known/ai-catalog.json" />
+        <link rel="mcp-server-card" type="application/mcp-server-card+json" href="/mcp/server-card/" />
+        {process.env.NEXT_PUBLIC_WEBMCP_OT && <meta httpEquiv="origin-trial" content={process.env.NEXT_PUBLIC_WEBMCP_OT} />}
       </head>
-      <body>{children}<Analytics lang={lang} /></body>
+      <body>{children}<Analytics lang={lang} /><WebMCP lang={lang} /></body>
     </html>
   );
 }

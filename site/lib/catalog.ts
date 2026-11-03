@@ -26,13 +26,16 @@ export function note(form: Form, st: Status, lang: Lang): string | null {
 export const formBySlug = (s: string) => FORMS.find((f) => f.slug === s);
 export const statusBySlug = (lang: Lang, s: string) => STATUSES.find((x) => (lang === 'es' ? x.slug_es : x.slug_en) === s);
 export const statusByCode = (code: string) => {
-  const c = code.trim().toLowerCase();
-  return STATUSES.find((x) => x.code.toLowerCase() === c);
+  const k = (x: string) => x.trim().toLowerCase().replace(/[.\s]+$/, '').replace(/\s+/g, ' ');
+  const c = k(code);
+  return STATUSES.find((x) => k(x.code) === c) ?? STATUSES.find((x) => k(x.title_es) === c); // también acepta el título en español
 };
 export const formByCode = (code: string | null | undefined) => {
   if (!code) return undefined;
   const c = code.toUpperCase().replace(/\s+/g, '');
-  return FORMS.find((f) => f.code.toUpperCase() === c);
+  const key = (x: string) => x.toUpperCase().replace(/[^A-Z0-9]/g, '');
+  return FORMS.find((f) => f.code.toUpperCase() === c) ?? FORMS.find((f) => key(f.code) === key(c)); // "n400", "I 485", "i485"
+
 };
 
 export function applies(form: Form, st: Status) {

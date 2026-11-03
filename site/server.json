@@ -1,0 +1,10 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.casealerta/casealerta",
+  "title": "CaseAlerta — USCIS case status explained",
+  "description": "Bilingual (EN/ES) USCIS case status explanations, forms and typical processing ranges.",
+  "version": "2.0.0",
+  "websiteUrl": "https://casealerta.com",
+  "icons": [{ "src": "https://casealerta.com/sello.png", "mimeType": "image/png", "sizes": ["512x512"] }],
+  "remotes": [{ "type": "streamable-http", "url": "https://casealerta.com/mcp/" }]
+}
