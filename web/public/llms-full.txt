@@ -1,5 +1,41 @@
 # CaseAlerta — full reference
 
+## Form I-131 (travel permit / advance parole): how to leave the U.S. without losing your case
+Date: 2026-11-04 · URL: https://casealerta.com/en/news/form-i-131-travel-permit-advance-parole-guide/
+
+Form I-131 is USCIS's application for a travel document. You use it to get permission before leaving the United States so you can come back.
+Many people search for it as a "travel permit" or "advance parole."
+## What Form I-131 is for
+- Advance parole: for people with a pending green card (I-485) or TPS (I-821) application who need to travel.
+- Reentry permit: for permanent residents who will be away 1 year or more.
+- Refugee travel document: for people with refugee or asylee status who don't have a green card yet.
+- Humanitarian parole: for people outside the U.S. with an urgent reason (filed with Form I-134).
+## Advance parole while your green card is pending
+If you have a pending I-485 and leave the U.S. without advance parole, USCIS generally treats your green card application as abandoned. There are exceptions, for example some people in valid H-1B or L-1 status.
+- Request advance parole before you travel and wait until you have it in hand.
+- If you leave before it is approved, USCIS treats your I-131 as abandoned.
+- Many people get it together with their work permit on one card (combo EAD/AP).
+- Advance parole does not guarantee entry: the CBP officer at the airport or border makes the final decision.
+## Reentry permit for green card holders
+If you have a green card and plan to be away 1 year or more, a reentry permit lets you return without applying for a returning resident visa at a consulate.
+- You must be in the U.S. when you file and attend your biometrics appointment before you leave.
+## Before you file
+- Sign the form. Unsigned forms are rejected.
+- Fill in your name, physical address and date of birth. If they are blank, the form is rejected.
+- Check the current fee on the official I-131 page or the USCIS fee calculator. Some people with a pending I-485 pay no extra fee.
+- Use the correct filing address for your case.
+- Include certified English translations of documents in other languages.
+## How long it takes
+It depends on the document type and the office. Check the ranges on the USCIS processing times page. If you have an emergency, you can request an emergency appointment or an expedite.
+## What to do
+- If your green card is pending, don't travel without an approved advance parole.
+- File Form I-131 early, before you buy tickets.
+- Keep your receipt number and track your case in CaseAlerta to know when it changes.
+- If you have immigration history (for example, time without status), talk to a lawyer before leaving.
+This guide is for information only and is not legal advice.
+
+Sources: https://www.uscis.gov/i-131; https://www.uscis.gov/green-card/green-card-processes-and-procedures/travel-documents; https://www.uscis.gov/sites/default/files/document/forms/i-131instr.pdf; https://egov.uscis.gov/processing-times/
+
 ## Form I-751: how to remove conditions on your 2-year green card (marriage)
 Date: 2026-11-03 · URL: https://casealerta.com/en/news/form-i-751-remove-conditions-green-card-guide/
 
