@@ -1,5 +1,33 @@
 # CaseAlerta — full reference
 
+## 60-day grace period for H-1B, L-1, O-1 and TN: DHS proposes to remove it (comments due November 10)
+Date: 2026-11-05 · URL: https://casealerta.com/en/news/60-day-grace-period-h1b-dhs-proposal/
+
+The Department of Homeland Security (DHS) published a proposal to remove the grace period of up to 60 days for certain visa workers.
+It is only a proposal. Nothing changes today. The grace period stays in place unless a final rule is published.
+## What the 60-day grace period is
+Since 2017, if you lose your job in certain work visas, USCIS may give you up to 60 days (or until your I-94 expires, whichever comes first) to stay in the U.S.
+During that time you can find a new sponsoring employer, request a change of status or plan your departure.
+## Who the proposal affects
+- Workers in E-1, E-2, E-3, H-1B, H-1B1, L-1, O-1 and TN status.
+- Their dependents (for example, a spouse and children in H-4 or L-2).
+- Employers that sponsor these workers.
+## What would change
+DHS proposes to return to the pre-2017 policy: no grace period when employment ends.
+Under the text, a person would need to leave the U.S. immediately upon failing to maintain the employment or activity.
+## Key dates
+- Published in the Federal Register: September 11, 2026 (document 2026-18631).
+- Public comments: until November 10, 2026.
+- Effective date: none yet. DHS must first review comments and publish a final rule.
+## What to do
+- If you lose your job today, the current grace period still applies. Act fast: look for a new employer or review your options.
+- If you want to weigh in, you can submit a comment at Regulations.gov (docket USCIS-2026-0364) before November 10.
+- Keep copies of your I-94, your approval notice (I-797) and your last pay stub.
+- Track your case with CaseAlerta to see any status change right away.
+This is general information, not legal advice. For your case, talk to an immigration attorney.
+
+Sources: https://www.federalregister.gov/documents/2026/09/11/2026-18631/eliminating-the-discretionary-60-day-grace-period; https://www.regulations.gov/commenton/USCIS-2026-0364-0001
+
 ## Form I-131 (travel permit / advance parole): how to leave the U.S. without losing your case
 Date: 2026-11-04 · URL: https://casealerta.com/en/news/form-i-131-travel-permit-advance-parole-guide/
 
