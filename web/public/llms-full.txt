@@ -1,5 +1,51 @@
 # CaseAlerta — full reference
 
+## Form I-864 Affidavit of Support for a green card: a simple guide
+Date: 2026-11-06 · URL: https://casealerta.com/en/news/form-i-864-affidavit-of-support-guide/
+
+If a family member is petitioning for your green card, you almost always need Form I-864, Affidavit of Support.
+With this form, a person promises the government that they will support you financially so you do not rely on certain public benefits.
+## Who needs it
+- Most family-based immigrants (for example, through Form I-130).
+- Some employment-based cases, when a relative files the petition or owns a significant part of the petitioning company.
+- There are exceptions. For example, if the immigrant already has 40 quarters of work in the U.S. That exemption is claimed with Form I-864W or as the instructions explain.
+## Who can be a sponsor
+- A U.S. citizen, U.S. national, or lawful permanent resident.
+- At least 18 years old.
+- Domiciled (living) in the U.S. or a U.S. territory.
+- In family cases, the main sponsor is the person who filed the petition.
+## The income requirement
+- The sponsor must show income of at least 125% of the Federal Poverty Guidelines for their household size.
+- Active-duty military members sponsoring a spouse or child only need 100%.
+- The guidelines change every year. Always use the current chart, Form I-864P.
+- If income falls short, assets (savings, property) can count under the rules in the instructions.
+## Joint sponsors and Form I-864A
+- If the main sponsor does not meet the income level, another person can be a joint sponsor. They file their own I-864 and must meet the same requirements and the income level on their own.
+- A relative in the same household can combine income using Form I-864A. That relative also becomes legally bound.
+- Form I-864EZ is a short version for simple cases; the instructions explain when it can be used.
+## What documents to include
+- Proof of income, such as the most recent federal tax return (or an IRS transcript) and W-2s.
+- Proof of the sponsor's status (citizenship or permanent residence).
+- The form instructions have the full list. Check it before you send.
+## When the obligation ends
+The sponsor's obligation continues even after a divorce. It ends when the immigrant:
+- Becomes a U.S. citizen.
+- Earns 40 quarters of work (about 10 years).
+- Gives up permanent residence and leaves the U.S. permanently.
+- Dies. It also ends if the sponsor dies (though debts already owed may remain).
+## Where it is filed
+- If you adjust status inside the U.S., it goes with your Form I-485.
+- If you process through a consulate, it goes to the State Department's National Visa Center (NVC).
+## What to do
+- Always download the current edition of the form and instructions at uscis.gov/i-864.
+- Check this year's I-864P income chart before filling it out.
+- If you are below 125%, find a joint sponsor or add a household member's income with Form I-864A.
+- Sign by hand where required and keep a copy of everything.
+- Track your case with your receipt number in CaseAlerta to know when its status changes.
+This guide is for information only and is not legal advice. If your case is complex, talk to an immigration attorney or accredited representative.
+
+Sources: https://www.uscis.gov/i-864; https://www.uscis.gov/green-card/green-card-processes-and-procedures/affidavit-of-support; https://www.uscis.gov/sites/default/files/document/forms/i-864instr.pdf; https://www.uscis.gov/policy-manual/volume-8-part-g-chapter-6; https://travel.state.gov/content/travel/en/us-visas/immigrate/i-864-affidavit-faqs.html
+
 ## 60-day grace period for H-1B, L-1, O-1 and TN: DHS proposes to remove it (comments due November 10)
 Date: 2026-11-05 · URL: https://casealerta.com/en/news/60-day-grace-period-h1b-dhs-proposal/
 
