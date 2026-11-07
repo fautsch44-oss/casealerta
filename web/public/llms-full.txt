@@ -1,5 +1,40 @@
 # CaseAlerta — full reference
 
+## Form I-693 medical exam for a green card: who does it, when, and what to bring
+Date: 2026-11-07 · URL: https://casealerta.com/en/news/form-i-693-medical-exam-green-card-guide/
+
+If you apply for a green card inside the U.S. with Form I-485, you almost always need Form I-693, Report of Immigration Medical Examination and Vaccination Record.
+This form shows USCIS that you meet the health requirements to become a permanent resident.
+## Who does the exam
+- Only a USCIS-designated civil surgeon can perform the exam and sign Form I-693.
+- Your regular doctor will not work unless USCIS has designated them.
+- Find a civil surgeon near you with the official USCIS "Find a Doctor" tool.
+## When to file it
+- USCIS requires Form I-693 to be submitted together with your Form I-485. This rule applies to applications filed on or after December 2, 2024.
+- If the I-693 is missing, USCIS may reject your I-485 and send the package back.
+- The civil surgeon's signature must be dated no more than 60 days before you file your I-485. Plan the exam with that in mind.
+## What to bring
+- A valid photo ID (for example, a passport).
+- Your vaccination record, if you have one.
+- A list of medicines you take and papers about major medical treatments.
+- Payment for the doctor. USCIS charges no fee for Form I-693, but the civil surgeon charges for the exam and prices vary by office.
+## What they check
+- A general physical exam and questions about your health history.
+- Tests required by CDC rules, such as tuberculosis screening and some blood tests depending on your age.
+- Your vaccines. If you are missing any, the doctor can give them or tell you where to get them.
+## Common mistakes
+- Doing the exam too early, so the signature is older than 60 days when you file.
+- Opening or changing the form the doctor gives you. Follow their exact instructions on how to submit it.
+- Choosing a doctor who is not designated by USCIS.
+## What to do
+- Find your civil surgeon with the official USCIS tool and book the appointment shortly before you file your I-485.
+- Check that your name and date of birth are correct on the form.
+- Keep a copy for yourself if the doctor gives you one.
+- Turn on CaseAlerta alerts so you know as soon as your I-485 status changes.
+This is general information, not legal advice. For your specific case, talk to an immigration attorney or an accredited representative.
+
+Sources: https://www.uscis.gov/i-693; https://my.uscis.gov/findadoctor; https://www.uscis.gov/i-485; https://egov.uscis.gov/processing-times/
+
 ## Form I-864 Affidavit of Support for a green card: a simple guide
 Date: 2026-11-06 · URL: https://casealerta.com/en/news/form-i-864-affidavit-of-support-guide/
 
