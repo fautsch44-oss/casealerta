@@ -1,5 +1,32 @@
 # CaseAlerta — full reference
 
+## Citizenship (N-400): new USCIS memo on good moral character, public benefits, child support and sponsorship
+Date: 2026-11-08 · URL: https://casealerta.com/en/news/good-moral-character-citizenship-n-400-uscis-memo-november-2026/
+
+On November 4, 2026, USCIS issued a policy memorandum (PM-602-0201) to its officers.
+It covers how to decide whether a person has "good moral character" when applying for citizenship on Form N-400.
+Good moral character is one of the requirements to become a citizen. The officer reviews it at your interview.
+## The three topics in the memo
+- Supporting dependents: willfully failing to support your children or other dependents can count against you.
+- Public benefits: getting benefits by illegal means, or intentionally avoiding self-sufficiency, can count against you.
+- Sponsorship: failing to meet a sponsor's obligations (for example, under Form I-864) can count against you.
+## What does not change
+- Lawfully receiving public benefits does not, by itself, stop you from becoming a citizen. That is how law firms that reviewed the memo explain it.
+- The officer must review your case individually and look at all your circumstances.
+- The dependent-support rule existed before the memo. If there were extenuating circumstances (for example, health or disability), you can explain them.
+## What is still unclear
+- Attorney analyses differ on how much weight an I-864 breach carries.
+- USCIS said it will update its Policy Manual and Form N-400. No date has been published yet.
+## What to do
+- If you plan to apply for citizenship, gather proof that you support your children (receipts, support orders, payments).
+- If you received public benefits, keep your approval letters and check that your applications were accurate.
+- If you sponsored someone with an I-864, keep proof of your support for that person.
+- Answer the N-400 truthfully. If you have doubts about your history, talk to an immigration attorney before filing.
+- Track your N-400 case with CaseAlerta to see every status change right away.
+This is general information, not legal advice. For your case, talk to an immigration attorney.
+
+Sources: https://www.uscis.gov/sites/default/files/document/policy-alerts/PM-602-201-GMCPublicBenefits-20261104.pdf; https://www.uscis.gov/n-400; https://www.aila.org/library/uscis-policy-memo-on-good-moral-character-determination-and-failure-to-support-dependents-public-benefits-and-sponsorship
+
 ## Form I-693 medical exam for a green card: who does it, when, and what to bring
 Date: 2026-11-07 · URL: https://casealerta.com/en/news/form-i-693-medical-exam-green-card-guide/
 

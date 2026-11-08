@@ -53,6 +53,7 @@ https://casealerta.com/status/expedite-request-received/
 https://casealerta.com/status/withdrawal-acknowledgement-notice-was-sent/
 https://casealerta.com/status/name-was-updated/
 https://casealerta.com/noticias/
+https://casealerta.com/noticias/buen-caracter-moral-ciudadania-n-400-memo-uscis-noviembre-2026/
 https://casealerta.com/noticias/formulario-i-693-examen-medico-green-card-guia/
 https://casealerta.com/noticias/formulario-i-864-declaracion-de-patrocinio-economico-guia/
 https://casealerta.com/noticias/periodo-de-gracia-60-dias-h1b-propuesta-dhs/
@@ -84,6 +85,7 @@ https://casealerta.com/noticias/fin-extension-automatica-permiso-de-trabajo-ead/
 https://casealerta.com/noticias/uscis-propone-quitar-deferencia-en-extensiones/
 https://casealerta.com/noticias/boletin-de-visas-octubre-2026/
 https://casealerta.com/en/news/
+https://casealerta.com/en/news/good-moral-character-citizenship-n-400-uscis-memo-november-2026/
 https://casealerta.com/en/news/form-i-693-medical-exam-green-card-guide/
 https://casealerta.com/en/news/form-i-864-affidavit-of-support-guide/
 https://casealerta.com/en/news/60-day-grace-period-h1b-dhs-proposal/
