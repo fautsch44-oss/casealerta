@@ -1,5 +1,36 @@
 # CaseAlerta — full reference
 
+## Form I-539: how to extend your stay or change your nonimmigrant status in the U.S.
+Date: 2026-11-09 · URL: https://casealerta.com/en/news/form-i-539-extend-or-change-nonimmigrant-status-guide/
+
+Form I-539 lets you ask USCIS for more time in the United States, or to change from one temporary (nonimmigrant) status to another.
+For example: a B-2 tourist who needs to stay longer, or a dependent family member of a worker or student.
+## First: check your I-94
+- Your deadline is not the visa date in your passport. It is the date on your I-94 record.
+- You can look up your I-94 on the CBP website (i94.cbp.dhs.gov).
+- USCIS recommends filing at least 45 days before your authorized stay expires.
+## Who CANNOT use Form I-539
+- People admitted under the Visa Waiver Program (ESTA).
+- People admitted in transit (for example, C-1) or as crewmembers (D).
+- Some people admitted as K fiancé(e)s or in other limited categories. Check the list on the official page.
+## How to file
+- In many cases you can file online with a USCIS account; in others, on paper.
+- Each extra family member included uses Form I-539A.
+- The fee depends on how you file. Always check the current fee at uscis.gov/g-1055 before paying.
+## What happens next
+- You get a receipt notice (I-797C) with your case number.
+- You may be scheduled for biometrics (fingerprints and photo).
+- USCIS may ask for more evidence (RFE).
+- Timing varies by office and category. There is no exact date: check the range on the USCIS processing times page.
+## What to do
+- Check your I-94 date today.
+- If you need more time, file Form I-539 before it expires, ideally with at least 45 days to spare.
+- Keep copies of everything, including your receipt.
+- Track your case with your receipt number (CaseAlerta alerts you when it changes).
+- If your stay already expired or you are unsure, talk to an immigration attorney. This is not legal advice.
+
+Sources: https://www.uscis.gov/i-539; https://www.uscis.gov/visit-the-united-states/extend-your-stay; https://www.uscis.gov/visit-the-united-states/change-my-nonimmigrant-status; https://egov.uscis.gov/processing-times/
+
 ## Citizenship (N-400): new USCIS memo on good moral character, public benefits, child support and sponsorship
 Date: 2026-11-08 · URL: https://casealerta.com/en/news/good-moral-character-citizenship-n-400-uscis-memo-november-2026/
 
