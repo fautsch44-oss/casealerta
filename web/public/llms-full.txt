@@ -1,5 +1,37 @@
 # CaseAlerta — full reference
 
+## How to ask USCIS to expedite your case: a simple guide
+Date: 2026-11-10 · URL: https://casealerta.com/en/news/how-to-ask-uscis-to-expedite-your-case-guide/
+
+An expedite request is when you ask USCIS to review your case ahead of its normal turn.
+USCIS decides case by case. Asking is free, but approval is not guaranteed.
+## First: is your case overdue or urgent?
+- If your case is just slow, check the official processing times page. If you are past the date USCIS shows for inquiries, you can submit a "case outside normal processing time" inquiry through e-Request.
+- An expedite request is different: it is for a real emergency that cannot wait.
+## Reasons USCIS considers
+- Severe financial loss to a company or a person.
+- Urgent humanitarian reasons (for example, a serious illness).
+- Nonprofit organizations furthering U.S. cultural or social interests.
+- U.S. government interests (for example, a request from a federal agency).
+- A clear USCIS error.
+## How to ask
+- Call the USCIS Contact Center or use your USCIS online account to request it.
+- Have your receipt number ready (it is on your I-797 notice).
+- Briefly explain why it is urgent and what deadline you face.
+- If USCIS asks for evidence, send it quickly: medical letters, employer letters, flight tickets, official notices.
+## Good to know
+- If your form is eligible for premium processing, USCIS generally expects you to use that option instead of an expedite request.
+- An approved expedite does not change the requirements: the case is decided under the same rules.
+- You can ask for an expedite even if you already sent an outside-normal-processing-time inquiry.
+## What to do
+- 1. Check the processing times for your form and office.
+- 2. If it is just slow, use e-Request when USCIS allows it.
+- 3. If there is a real emergency, gather evidence and request an expedite.
+- 4. Turn on CaseAlerta alerts so you know right away when your case changes.
+This guide is for information only and is not legal advice. For your specific case, talk to an immigration attorney or an accredited representative.
+
+Sources: https://www.uscis.gov/forms/filing-guidance/expedite-requests; https://egov.uscis.gov/processing-times/processing-times-faqs; https://egov.uscis.gov/e-request/ccpt; https://www.uscis.gov/policy-manual/volume-1-part-a-chapter-4
+
 ## Form I-539: how to extend your stay or change your nonimmigrant status in the U.S.
 Date: 2026-11-09 · URL: https://casealerta.com/en/news/form-i-539-extend-or-change-nonimmigrant-status-guide/
 
