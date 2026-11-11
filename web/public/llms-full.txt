@@ -1,5 +1,36 @@
 # CaseAlerta — full reference
 
+## "Case Was Transferred": what it means when USCIS moves your case to another office
+Date: 2026-11-11 · URL: https://casealerta.com/en/news/uscis-case-was-transferred-to-another-office-meaning/
+
+If your USCIS online status says "Case Was Transferred And A New Office Has Jurisdiction" (or a similar message), your case moved to another USCIS office.
+It is an administrative step. It is not an approval or a denial.
+## Why USCIS transfers cases
+- To balance work across offices and move cases faster.
+- Because your case needs an interview or a step handled by a local field office.
+- Because you moved and updated your address with USCIS.
+USCIS has announced many workload transfers between service centers and field offices. It is common.
+## What changes and what does not
+- Your receipt number does NOT change. Keep using it to check your case.
+- You usually get a notice in the mail (Form I-797C) naming the new office.
+- Processing time now depends on the new office. Check the official processing times page for that office.
+- Documents you already sent travel with your file. Do not resend them unless USCIS asks.
+## How long it takes after a transfer
+There is no exact date. Each form and office has its own range. Check USCIS processing times for your form and the office shown on your notice.
+## Signs to watch for
+- A biometrics or interview appointment notice.
+- A Request for Evidence (RFE). If one arrives, answer before the deadline.
+- If you moved, confirm your address is current so you do not miss mail.
+## What to do
+- 1. Keep the transfer notice with your original receipt.
+- 2. Check processing times for the new office.
+- 3. Keep your address updated with USCIS (Form AR-11 or your online account).
+- 4. If your case goes past the new office's normal time, submit an e-Request inquiry.
+- 5. Turn on CaseAlerta alerts so you know right away when your case changes again.
+This is general information, not legal advice. If you have questions about your case, talk to an immigration attorney or an accredited representative.
+
+Sources: https://www.uscis.gov/archive/workload-transfer-from-service-centers-to-field-operations; https://egov.uscis.gov/processing-times/; https://egov.uscis.gov/e-request/ccpt; https://www.uscis.gov/addresschange
+
 ## How to ask USCIS to expedite your case: a simple guide
 Date: 2026-11-10 · URL: https://casealerta.com/en/news/how-to-ask-uscis-to-expedite-your-case-guide/
 
