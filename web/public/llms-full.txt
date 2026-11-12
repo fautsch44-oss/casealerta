@@ -1,5 +1,36 @@
 # CaseAlerta — full reference
 
+## "Case Was Approved": what a USCIS approval means and what happens next
+Date: 2026-11-12 · URL: https://casealerta.com/en/news/uscis-case-was-approved-meaning-what-next/
+
+If your USCIS online status says "Case Was Approved", USCIS approved the application or petition tied to that receipt number.
+That is good news. But what happens next depends on the form. For some forms, approval is the end; for others, it is just one step.
+## What arrives in the mail
+- USCIS mails an approval notice (Form I-797, Notice of Action) to the address it has on file.
+- Keep that notice. It is the official proof of approval.
+- If you moved, update your address with USCIS so you don't miss it.
+## What comes next for your form
+- I-130 (family petition): approval recognizes the family relationship. It is not a green card. If your relative is outside the U.S., the case moves to the Department of State (National Visa Center) for the immigrant visa. If they are in the U.S., they may need an I-485 if eligible and a visa is available.
+- I-485 (green card): after approval, USCIS produces the card. You will see statuses like "New Card Is Being Produced" and then "Card Was Mailed To Me".
+- I-765 (work permit): USCIS produces and mails the EAD card. Watch your status until it says the card was mailed.
+- N-400 (citizenship): approval does not make you a citizen yet. You become a citizen when you take the Oath of Allegiance at the ceremony. USCIS will notify you of the date.
+- Employment petitions (such as I-129 or I-140): approval is one step. The worker may need another step, such as a visa at a consulate or an I-485.
+## How long the next step takes
+There is no exact date. It depends on the form and the office. Check the official USCIS processing times page for your case.
+## Signs to watch for
+- A new status saying your card is being produced or was mailed.
+- A USPS tracking number in your status.
+- If a long time passes with no card after "Card Was Mailed", USCIS has a page to track delivery and ask for help.
+## What to do
+- 1. Keep your I-797 approval notice with your original receipt.
+- 2. Make sure your address with USCIS is up to date.
+- 3. Identify your form's next step (card, National Visa Center, oath ceremony, or consulate).
+- 4. Check official processing times, not third-party dates.
+- 5. Turn on CaseAlerta alerts so you know right away when your case changes again.
+This is general information, not legal advice. If you have questions about your case, talk to an immigration attorney or an accredited representative.
+
+Sources: https://www.uscis.gov/forms/filing-guidance/form-i-797-types-and-functions; https://www.uscis.gov/forms/filing-guidance/how-to-track-delivery-of-your-notice-or-secure-identity-document-or-card; https://www.uscis.gov/i-130; https://www.uscis.gov/n-400; https://egov.uscis.gov/processing-times/; https://www.uscis.gov/addresschange
+
 ## "Case Was Transferred": what it means when USCIS moves your case to another office
 Date: 2026-11-11 · URL: https://casealerta.com/en/news/uscis-case-was-transferred-to-another-office-meaning/
 
