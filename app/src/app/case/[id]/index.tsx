@@ -15,6 +15,7 @@ import { addCase, getCase, getExplanation, listEvents, lookupReceipt, type CaseE
 import { bucketFor, checkedLabel, daysSince, uscisDate, uscisUrl } from '../../../lib/receipt';
 import { supabase } from '../../../lib/supabase';
 import { colors, fonts, radius, semaphore, space, touch } from '../../../theme/tokens';
+import { goBack } from '@/lib/nav';
 
 const CELEBRATED = (id: string, status: string) => `casealerta.celebrated.${id}.${status}`;
 
@@ -73,7 +74,7 @@ export default function CaseDetail() {
   return (
     <SafeAreaView style={styles.root} edges={['top']}>
       <View style={styles.header}>
-        <Pressable accessibilityRole="button" accessibilityLabel={t.back} onPress={() => router.back()} style={styles.round}>
+        <Pressable accessibilityRole="button" accessibilityLabel={t.back} onPress={() => goBack('/(tabs)/cases' as any)} style={styles.round}>
           <Svg width={22} height={22} viewBox="0 0 24 24" fill="none" stroke={colors.onDark} strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round"><Path d="M15 5l-7 7 7 7" /></Svg>
         </Pressable>
         <View style={{ flex: 1, gap: 2 }}>

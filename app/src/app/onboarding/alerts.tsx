@@ -14,6 +14,7 @@ import { colors, fonts, radius, semaphore, space, touch } from '../../theme/toke
 import { ONBOARDED_KEY } from '../index';
 import { track } from '../../lib/analytics';
 import { STEP_KEY } from '../../lib/onboarding';
+import { goBack } from '@/lib/nav';
 
 async function registerPush(): Promise<string | null> {
   if (!Device.isDevice) return null;
@@ -76,7 +77,7 @@ export default function AlertsScreen() {
     <SafeAreaView style={styles.root}>
       <ScrollView contentContainerStyle={styles.scroll} keyboardShouldPersistTaps="handled">
         <View style={styles.top}>
-          <Pressable accessibilityRole="button" accessibilityLabel={t.back} onPress={() => router.back()} style={styles.back}>
+          <Pressable accessibilityRole="button" accessibilityLabel={t.back} onPress={() => goBack('/onboarding/receipt' as any)} style={styles.back}>
             <Svg width={22} height={22} viewBox="0 0 24 24" fill="none" stroke={colors.navy} strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round"><Path d="M15 5l-7 7 7 7" /></Svg>
           </Pressable>
           <Text style={styles.stepTxt}>{t.step(3, 3)}</Text>

@@ -11,6 +11,7 @@ import { useT } from '../../i18n';
 import { addCase, ApiError, lookupReceipt } from '../../lib/api';
 import { centerFor, isValidReceipt, normalizeReceipt } from '../../lib/receipt';
 import { colors, fonts, radius, space, touch } from '../../theme/tokens';
+import { goBack } from '@/lib/nav';
 
 export default function ReceiptScreen() {
   const { t, lang } = useT();
@@ -70,7 +71,7 @@ export default function ReceiptScreen() {
       <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : undefined} style={{ flex: 1 }}>
         <ScrollView contentContainerStyle={styles.scroll} keyboardShouldPersistTaps="handled">
           <View style={styles.top}>
-            <Pressable accessibilityRole="button" accessibilityLabel={t.back} onPress={() => router.back()} style={styles.back}>
+            <Pressable accessibilityRole="button" accessibilityLabel={t.back} onPress={() => goBack((fromTabs ? '/(tabs)/cases' : '/onboarding/language') as any)} style={styles.back}>
               <Svg width={22} height={22} viewBox="0 0 24 24" fill="none" stroke={colors.navy} strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round"><Path d="M15 5l-7 7 7 7" /></Svg>
             </Pressable>
             <Text style={styles.stepTxt}>{fromTabs ? '' : t.step(2, 3)}</Text>
@@ -87,6 +88,12 @@ export default function ReceiptScreen() {
             <TextInput value={raw} onChangeText={(v) => { setRaw(v.toUpperCase()); setErr(null); }} autoCapitalize="characters" autoCorrect={false}
               maxLength={13} placeholder="SRC2390105090" placeholderTextColor={colors.line}
               style={[styles.input, { borderColor: raw.length ? (valid ? colors.blue : colors.red) : colors.line }]} />
+            {/* Recibo oficial de prueba de USCIS: deja avanzar en TestFlight, revisión de Apple y el demo de USCIS. */}
+            <Pressable accessibilityRole="button" onPress={() => { setRaw('EAC9999103403'); setErr(null); track('demo_receipt_used', { from: fromTabs ? 'tabs' : 'onboarding' }); }} hitSlop={8}>
+              <Text style={{ fontFamily: fonts.bold, fontSize: 14, color: colors.blue, textDecorationLine: 'underline' }}>
+                {lang === 'es' ? '¿Sin recibo a la mano? Prueba con uno de ejemplo' : 'No receipt handy? Try an example'}
+              </Text>
+            </Pressable>
           </View>
 
           {receipt.length > 0 && (

@@ -9,6 +9,7 @@ import { useT } from '../../i18n';
 import { track } from '../../lib/analytics';
 import { getPackages, onProChange, purchase, restore, type Plan } from '../../lib/purchases';
 import { colors, fonts, radius, space, touch } from '../../theme/tokens';
+import { goBack } from '@/lib/nav';
 
 const PRICES: Record<Plan, string> = { annual: '$69.99', monthly: '$9.99', family: '$14.99' };
 
@@ -78,7 +79,7 @@ export default function PaywallPlans() {
     <SafeAreaView style={styles.root}>
       <ScrollView contentContainerStyle={styles.scroll}>
         <View style={styles.top}>
-          <Pressable accessibilityRole="button" accessibilityLabel={t.back} onPress={() => router.back()} style={styles.back}>
+          <Pressable accessibilityRole="button" accessibilityLabel={t.back} onPress={() => goBack('/(tabs)/cases' as any)} style={styles.back}>
             <Svg width={22} height={22} viewBox="0 0 24 24" fill="none" stroke={colors.navy} strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round"><Path d="M15 5l-7 7 7 7" /></Svg>
           </Pressable>
           <Text style={styles.stepTxt}>{t.step(2, 2)}</Text>

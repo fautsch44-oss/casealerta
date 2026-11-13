@@ -9,6 +9,7 @@ import { useT } from '../../../i18n';
 import { getCase, type CaseRow } from '../../../lib/api';
 import { bulletinHistory, CATEGORIES, CATEGORY_LABEL, COUNTRIES, COUNTRY_LABEL, fmtDate, fmtMonth, latestBulletin, saveBulletinPrefs, verdict, type BulletinRow, type Category, type Country } from '../../../lib/bulletin';
 import { colors, fonts, radius, semaphore, space, touch } from '../../../theme/tokens';
+import { goBack } from '@/lib/nav';
 
 type CaseWithBulletin = CaseRow & { priority_date?: string | null; preference_category?: string | null; chargeability?: string | null; bulletin_alert?: boolean };
 
@@ -73,7 +74,7 @@ export default function BulletinScreen() {
   return (
     <SafeAreaView style={styles.root} edges={['top']}>
       <View style={styles.header}>
-        <Pressable accessibilityRole="button" accessibilityLabel={t.back} onPress={() => router.back()} style={styles.round}>
+        <Pressable accessibilityRole="button" accessibilityLabel={t.back} onPress={() => goBack({ pathname: '/case/[id]', params: { id: String(id) } } as any)} style={styles.round}>
           <Svg width={22} height={22} viewBox="0 0 24 24" fill="none" stroke={colors.onDark} strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round"><Path d="M15 5l-7 7 7 7" /></Svg>
         </Pressable>
         <View style={{ flex: 1, gap: 2 }}>
