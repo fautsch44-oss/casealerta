@@ -7,13 +7,15 @@ import { Icon } from '../../components/Journey';
 import { Button, Seal } from '../../components/ui';
 import { useT } from '../../i18n';
 import { track } from '../../lib/analytics';
+import { goHome } from '@/lib/nav';
 import { colors, fonts, radius, space } from '../../theme/tokens';
 
 export default function Thanks() {
   const { t } = useT();
   const { from } = useLocalSearchParams<{ from?: string }>();
   useEffect(() => { track('thanks_viewed', { from: from ?? 'menu' }); }, [from]);
-  const go = () => { if (router.canDismiss()) router.dismissAll(); else router.replace('/(tabs)/cases'); };
+  // Siempre termina en Mis casos, nunca en un paso del registro.
+  const go = () => goHome();
   return (
     <SafeAreaView style={styles.root}>
       <View style={{ flex: 1, justifyContent: 'center', gap: 22 }}>

@@ -2,8 +2,8 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as Device from 'expo-device';
 import * as Notifications from 'expo-notifications';
 import { router, useLocalSearchParams } from 'expo-router';
-import React, { useEffect, useState } from 'react';
-import { Platform, Pressable, ScrollView, StyleSheet, Switch, Text, TextInput, View } from 'react-native';
+import React, { useEffect, useRef, useState } from 'react';
+import { KeyboardAvoidingView, Platform, Pressable, ScrollView, StyleSheet, Switch, Text, TextInput, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import Svg, { Path } from 'react-native-svg';
 import { Button, Card, Dots, Label } from '../../components/ui';
@@ -14,7 +14,8 @@ import { colors, fonts, radius, semaphore, space, touch } from '../../theme/toke
 import { ONBOARDED_KEY } from '../index';
 import { track } from '../../lib/analytics';
 import { STEP_KEY } from '../../lib/onboarding';
-import { goBack } from '@/lib/nav';
+import { goBack, goHome } from '@/lib/nav';
+import { hasPro } from '../../lib/purchases';
 
 async function registerPush(): Promise<string | null> {
   if (!Device.isDevice) return null;
@@ -26,6 +27,17 @@ async function registerPush(): Promise<string | null> {
   return token.data;
 }
 
+// Fuera del componente: si se define adentro, se vuelve a crear en cada toque y el interruptor "brinca".
+function Row({ title, sub, value, onValue, bg, icon }: { title: string; sub: string; value: boolean; onValue: (v: boolean) => void; bg: string; icon: React.ReactNode }) {
+  return (
+    <View style={styles.row}>
+      <View style={[styles.icon, { backgroundColor: bg }]}>{icon}</View>
+      <View style={{ flex: 1 }}><Text style={styles.rowT}>{title}</Text><Text style={styles.rowS}>{sub}</Text></View>
+      <Switch value={value} onValueChange={onValue} trackColor={{ true: colors.green, false: colors.line }} thumbColor={colors.card} ios_backgroundColor={colors.line} />
+    </View>
+  );
+}
+
 export default function AlertsScreen() {
   const { t, lang } = useT();
   const { id } = useLocalSearchParams<{ id: string }>();
@@ -35,6 +47,7 @@ export default function AlertsScreen() {
   const [email, setEmail] = useState(true);
   const [addr, setAddr] = useState('');
   const [busy, setBusy] = useState(false);
+  const scroll = useRef<React.ComponentRef<typeof ScrollView>>(null);
 
   useEffect(() => { AsyncStorage.setItem(STEP_KEY, 'alerts').catch(() => {}); track('onboarding_step_viewed', { step: 'alerts' }); }, []);
   useEffect(() => {
@@ -57,25 +70,19 @@ export default function AlertsScreen() {
       await AsyncStorage.setItem(ONBOARDED_KEY, '1');
       await AsyncStorage.removeItem(STEP_KEY);
       track('onboarding_completed', { push, email: email && !!addr.trim() });
-      // El paywall nunca es la única pantalla: casa primero, paywall encima.
-      router.replace('/(tabs)/cases');
-      setTimeout(() => router.push({ pathname: '/paywall/example', params: { reason: 'onboarding' } }), 50);
+      // Termina el registro: Mis casos queda como base (sin pasos debajo). Quien ya pagó NO vuelve a ver planes.
+      const pro = await hasPro();
+      goHome();
+      if (!pro) setTimeout(() => router.push({ pathname: '/paywall/example', params: { reason: 'onboarding' } }), 60);
     } finally { setBusy(false); }
   };
 
   const b = bucketFor(row?.last_status_text);
   const sem = semaphore[b];
-  const Row = ({ title, sub, value, onValue, bg, fg, icon }: { title: string; sub: string; value: boolean; onValue: (v: boolean) => void; bg: string; fg: string; icon: React.ReactNode }) => (
-    <View style={styles.row}>
-      <View style={[styles.icon, { backgroundColor: bg }]}>{icon}</View>
-      <View style={{ flex: 1 }}><Text style={styles.rowT}>{title}</Text><Text style={styles.rowS}>{sub}</Text></View>
-      <Switch value={value} onValueChange={onValue} trackColor={{ true: colors.green, false: colors.line }} thumbColor={colors.card} />
-    </View>
-  );
-
   return (
     <SafeAreaView style={styles.root}>
-      <ScrollView contentContainerStyle={styles.scroll} keyboardShouldPersistTaps="handled">
+      <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : undefined} style={{ flex: 1 }}>
+      <ScrollView ref={scroll} contentContainerStyle={styles.scroll} keyboardShouldPersistTaps="handled" keyboardDismissMode="interactive">
         <View style={styles.top}>
           <Pressable accessibilityRole="button" accessibilityLabel={t.back} onPress={() => goBack('/onboarding/receipt' as any)} style={styles.back}>
             <Svg width={22} height={22} viewBox="0 0 24 24" fill="none" stroke={colors.navy} strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round"><Path d="M15 5l-7 7 7 7" /></Svg>
@@ -105,14 +112,16 @@ export default function AlertsScreen() {
         </View>
 
         <View style={{ gap: 10 }}>
-          <Row title={t.o3_push} sub={t.o3_pushSub} value={push} onValue={setPush} bg={colors.redSoft} fg={colors.red}
+          <Row title={t.o3_push} sub={t.o3_pushSub} value={push} onValue={setPush} bg={colors.redSoft} 
             icon={<Svg width={22} height={22} viewBox="0 0 24 24" fill="none" stroke={colors.red} strokeWidth={2.2} strokeLinecap="round" strokeLinejoin="round"><Path d="M6 16V11a6 6 0 0 1 12 0v5l2 2H4z" /><Path d="M10 20a2 2 0 0 0 4 0" /></Svg>} />
-          <Row title={t.o3_email} sub={t.o3_emailSub} value={email} onValue={setEmail} bg={colors.blueSoft} fg={colors.blue}
+          <Row title={t.o3_email} sub={t.o3_emailSub} value={email} onValue={setEmail} bg={colors.blueSoft} 
             icon={<Svg width={22} height={22} viewBox="0 0 24 24" fill="none" stroke={colors.blue} strokeWidth={2.2} strokeLinecap="round" strokeLinejoin="round"><Path d="M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" /><Path d="M3 7l9 6 9-6" /></Svg>} />
           {email && (
             <View style={{ gap: 6 }}>
               <Label>{t.o3_emailLabel}</Label>
-              <TextInput value={addr} onChangeText={setAddr} keyboardType="email-address" autoCapitalize="none" autoCorrect={false} placeholder="nombre@correo.com" placeholderTextColor={colors.line} style={styles.input} />
+              <TextInput value={addr} onChangeText={setAddr} keyboardType="email-address" autoCapitalize="none" autoCorrect={false} placeholder="nombre@correo.com" placeholderTextColor={colors.line} style={styles.input}
+                textContentType="emailAddress" autoComplete="email" returnKeyType="done"
+                onFocus={() => setTimeout(() => scroll.current?.scrollToEnd({ animated: true }), 250)} />
             </View>
           )}
         </View>
@@ -123,6 +132,7 @@ export default function AlertsScreen() {
           <Dots n={3} active={2} />
         </View>
       </ScrollView>
+      </KeyboardAvoidingView>
     </SafeAreaView>
   );
 }

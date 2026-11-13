@@ -7,6 +7,7 @@ import Svg, { G, Path } from 'react-native-svg';
 import { FlagBar, Seal, Wordmark } from '../components/ui';
 import { useT } from '../i18n';
 import { listCases } from '../lib/api';
+import { hasPro } from '../lib/purchases';
 import { ROUTE, resume, STEP_KEY } from '../lib/onboarding';
 import { colors, fonts } from '../theme/tokens';
 
@@ -55,7 +56,7 @@ export default function Splash() {
           const cases = await listCases().catch(() => null);
           target = cases === null || cases.length ? '/(tabs)/cases' : ROUTE.receipt;
           // Cerró la app en el paywall: se lo volvemos a mostrar una vez, sobre una pantalla real.
-          if (!paywallSeen && target === '/(tabs)/cases') paywallOnTop = true;
+          if (!paywallSeen && target === '/(tabs)/cases') paywallOnTop = !(await hasPro());
         } else {
           const cases = saved === 'alerts' ? await listCases().catch(() => []) : [];
           target = ROUTE[resume(saved, (cases ?? []).length > 0)];

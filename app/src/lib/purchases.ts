@@ -67,3 +67,12 @@ export function onProChange(cb: (pro: boolean) => void): () => void {
   });
   return () => off();
 }
+
+/** ¿Ya es Pro? (compra en la app). Si la tienda no responde en 2.5 s, se asume que no, sin bloquear. */
+export async function hasPro(): Promise<boolean> {
+  try {
+    if (!(await whenReady())) return false;
+    const info = await Promise.race([Purchases.getCustomerInfo(), new Promise<null>((r) => setTimeout(() => r(null), 2500))]);
+    return !!info && isPro(info);
+  } catch { return false; }
+}
