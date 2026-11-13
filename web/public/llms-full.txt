@@ -1,5 +1,33 @@
 # CaseAlerta — full reference
 
+## "Case Was Received": what it means when USCIS receives your case and what comes next
+Date: 2026-11-13 · URL: https://casealerta.com/en/news/uscis-case-was-received-meaning-what-next/
+
+If your USCIS online status says "Case Was Received", USCIS accepted your form and opened a case with a receipt number.
+This is the first step of the process. It does not mean approval or denial yet. It only confirms your case is in the system.
+## What arrives by mail
+- USCIS mails a receipt notice (Form I-797C, Notice of Action) to the address it has on file.
+- The notice shows your receipt number (13 characters, for example IOE, EAC or MSC) and your receipt date.
+- If you filed online, you will also see the notice in your USCIS online account.
+- Keep the notice. You will need it to check your status and for any inquiry.
+## Why the receipt date matters
+- USCIS measures processing times from the date it received your case.
+- On the official processing times page you pick your form and office, then enter your receipt date.
+- The tool tells you when you can contact USCIS if your case is taking longer than normal.
+- USCIS processing times are ranges based on recent cases and are updated monthly. They are not an exact decision date.
+## What usually happens next
+- Depending on the form, the next step may be a biometrics appointment (fingerprints and photo), a request for evidence (RFE), an interview, or a decision.
+- It is normal for the status to stay at "Case Was Received" for several weeks or months. That does not signal a problem.
+## What to do
+- Write down your receipt number and receipt date somewhere safe.
+- Check your status with your receipt number, or turn on CaseAlerta alerts to hear about every change right away.
+- If you move, update your address with USCIS (online or with Form AR-11). A USPS mail forwarding request does not update USCIS.
+- If your receipt notice never arrived, USCIS has an online request to report a notice you did not receive (e-Request).
+- Check the official processing times page before calling or submitting an inquiry.
+This guide is for information only and is not legal advice. For your specific case, talk to an immigration attorney or accredited representative.
+
+Sources: https://egov.uscis.gov/processing-times/more-info; https://www.uscis.gov/forms/all-forms/form-i-797c-notice-of-action; https://www.uscis.gov/tools/checking-your-case-status-online; https://egov.uscis.gov/e-request/ndn; https://www.uscis.gov/addresschange
+
 ## "Case Was Approved": what a USCIS approval means and what happens next
 Date: 2026-11-12 · URL: https://casealerta.com/en/news/uscis-case-was-approved-meaning-what-next/
 
