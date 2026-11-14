@@ -1,5 +1,32 @@
 # CaseAlerta — full reference
 
+## "Case Is Being Actively Reviewed": what this USCIS status means and what to do
+Date: 2026-11-14 · URL: https://casealerta.com/en/news/uscis-case-is-being-actively-reviewed-meaning/
+
+If your USCIS online status says "Case Is Being Actively Reviewed By USCIS", your case is under review inside USCIS.
+This is an in-between status. It does not mean approval or denial. It only shows your case is moving through the process.
+## What it means in practice
+- USCIS is working on your case: it may be reviewing documents, background checks, or the evidence you sent.
+- It may appear after "Case Was Received", after your biometrics, or after you answered a request for evidence (RFE).
+- It is normal for this message to appear more than once, or for the date to update with no other change. That does not signal a problem.
+## How long it can take
+- There is no fixed date. It depends on the form, the office, and the workload.
+- USCIS publishes processing times by form and office. They are ranges based on recent cases and are updated monthly.
+- With your receipt date, the official tool tells you when you can contact USCIS if your case is taking longer than normal.
+## What may come next
+- A decision (for example "Case Was Approved").
+- A request for evidence (RFE) or an interview notice.
+- Other steps, such as your case being transferred to another office.
+## What to do
+- You do not need to do anything unless USCIS asks you for something.
+- Watch your mail and your USCIS online account. If an RFE arrives, answer it before the deadline it lists.
+- Keep your address up to date with USCIS (online or with Form AR-11).
+- Turn on CaseAlerta alerts to hear about the next change right away.
+- If your case is past the normal processing time, you can send an inquiry to USCIS through its Contact Center.
+This guide is for information only and is not legal advice. For your specific case, talk to an immigration attorney or accredited representative.
+
+Sources: https://www.uscis.gov/tools/checking-your-case-status-online; https://egov.uscis.gov/processing-times/more-info; https://www.uscis.gov/contactcenter; https://www.uscis.gov/addresschange
+
 ## "Case Was Received": what it means when USCIS receives your case and what comes next
 Date: 2026-11-13 · URL: https://casealerta.com/en/news/uscis-case-was-received-meaning-what-next/
 
