@@ -1,5 +1,34 @@
 # CaseAlerta — full reference
 
+## "Case Was Rejected": why USCIS rejects an application and how to file again
+Date: 2026-11-15 · URL: https://casealerta.com/en/news/uscis-case-was-rejected-meaning/
+
+If your USCIS online status says "Case Was Rejected," USCIS did not accept your application for processing.
+It sounds serious, but it can usually be fixed. A rejection is not a decision on whether you qualify.
+## Rejection is not denial
+- Rejection: USCIS did not accept the package because of a form problem (signature, payment, form). Your case was not reviewed.
+- Denial: USCIS reviewed your case and decided you do not meet the requirements.
+- A rejected application does not keep its receipt date. When you file again, the new filing date counts.
+## Common reasons
+- The signature is missing or not valid.
+- The payment is missing, the amount is wrong, or the payment could not be processed.
+- You used an outdated edition of the form.
+- Required fields on the form are blank.
+- You mailed it to the wrong address or too early.
+## What happens to your payment
+- USCIS generally returns the package with a notice that explains the reason.
+- Read that notice carefully: it tells you what to fix.
+## What to do
+- Read the rejection notice and fix the exact problem it lists.
+- Download the current edition of the form on uscis.gov and check the current fee.
+- Sign by hand where required and double-check the payment method.
+- Mail it again to the correct address. If you have a deadline (for example, an extension), do it soon.
+- If you believe USCIS rejected it by mistake, contact the USCIS Contact Center.
+- Turn on CaseAlerta alerts to see your new filing's status right away.
+This guide is for information only and is not legal advice. For your case, talk to an immigration attorney or accredited representative.
+
+Sources: https://www.uscis.gov/policy-manual/volume-1-part-b-chapter-6; https://www.uscis.gov/forms/filing-guidance/lockbox-filing-information; https://egov.uscis.gov/processing-times/
+
 ## "Case Is Being Actively Reviewed": what this USCIS status means and what to do
 Date: 2026-11-14 · URL: https://casealerta.com/en/news/uscis-case-is-being-actively-reviewed-meaning/
 
