@@ -53,6 +53,7 @@ https://casealerta.com/status/expedite-request-received/
 https://casealerta.com/status/withdrawal-acknowledgement-notice-was-sent/
 https://casealerta.com/status/name-was-updated/
 https://casealerta.com/noticias/
+https://casealerta.com/noticias/case-was-denied-caso-negado-uscis-que-hacer/
 https://casealerta.com/noticias/case-was-rejected-caso-rechazado-uscis/
 https://casealerta.com/noticias/case-is-being-actively-reviewed-que-significa-uscis/
 https://casealerta.com/noticias/case-was-received-que-significa-caso-recibido-uscis/
@@ -92,6 +93,7 @@ https://casealerta.com/noticias/fin-extension-automatica-permiso-de-trabajo-ead/
 https://casealerta.com/noticias/uscis-propone-quitar-deferencia-en-extensiones/
 https://casealerta.com/noticias/boletin-de-visas-octubre-2026/
 https://casealerta.com/en/news/
+https://casealerta.com/en/news/uscis-case-was-denied-meaning-next-steps/
 https://casealerta.com/en/news/uscis-case-was-rejected-meaning/
 https://casealerta.com/en/news/uscis-case-is-being-actively-reviewed-meaning/
 https://casealerta.com/en/news/uscis-case-was-received-meaning-what-next/

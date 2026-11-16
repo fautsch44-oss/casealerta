@@ -1,5 +1,36 @@
 # CaseAlerta — full reference
 
+## "Case Was Denied": what it means when USCIS denies your case and your options
+Date: 2026-11-16 · URL: https://casealerta.com/en/news/uscis-case-was-denied-meaning-next-steps/
+
+If your USCIS online status says "Case Was Denied," USCIS reviewed your application and decided not to approve it.
+It is hard news, but it is not always the end. There are often options, and time matters.
+## Denial is not rejection
+- Denial: USCIS did review your case and decided it does not meet the requirements, or that evidence was missing.
+- Rejection: USCIS did not accept the package because of a form problem, such as a signature or payment. Your case was not reviewed.
+## Read your denial letter
+- USCIS mails you a letter (decision) that explains the reasons.
+- The letter also says whether you can appeal or file a motion, with whom, and by when.
+- That deadline is short: generally 30 days from the decision (33 days if it was mailed to you). Check the exact date in your letter.
+## Your most common options
+- Motion to reopen: if you have new facts or evidence USCIS did not see. Filed on Form I-290B.
+- Motion to reconsider: if you believe USCIS misapplied the law or its policy to the evidence it already had. Also on Form I-290B.
+- Appeal to the Administrative Appeals Office (AAO): only for certain case types. Your letter says whether it applies. Also on Form I-290B.
+- File again: in some cases you can submit a new application with the missing evidence and the current fee.
+- Citizenship (N-400): if naturalization was denied, the path is to request a hearing on Form N-336, not Form I-290B.
+## Protect your status
+- A denial can affect your permission to stay or work in the U.S., especially if you relied on that application.
+- In some cases, USCIS may issue a Notice to Appear (NTA) before immigration court. If you get one, seek legal help right away.
+## What to do
+- Read the whole letter and write down the deadline it gives.
+- Gather what USCIS said was missing and check whether you have new evidence.
+- Talk soon with an immigration attorney or accredited representative: choosing between a motion, an appeal, or a new filing depends on your case.
+- Use the current edition of Form I-290B (or N-336) and the current fee posted on uscis.gov.
+- Turn on CaseAlerta alerts to see any change in your case or your motion right away.
+This guide is informational and is not legal advice. For your case, consult an immigration attorney or an accredited representative.
+
+Sources: https://www.uscis.gov/i-290b; https://www.uscis.gov/sites/default/files/document/forms/i-290binstr.pdf; https://uscis.gov/about-us/directorates-and-program-offices/administrative-appeals-office-aao; https://www.uscis.gov/policy-manual/volume-6-part-j-chapter-5; https://www.uscis.gov/n-336
+
 ## "Case Was Rejected": why USCIS rejects an application and how to file again
 Date: 2026-11-15 · URL: https://casealerta.com/en/news/uscis-case-was-rejected-meaning/
 
